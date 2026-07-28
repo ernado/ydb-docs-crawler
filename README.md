@@ -1,5 +1,7 @@
 # YDB docs → Markdown
 
+[![Scrape](https://github.com/ernado/ydb-docs-crawler/actions/workflows/scrape.yml/badge.svg)](https://github.com/ernado/ydb-docs-crawler/actions/workflows/scrape.yml)
+
 `crawl_ydb_docs.py` scrapes <https://ydb.tech/docs> into a tree of structured Markdown
 files. Re-run it any time; it is incremental and only rewrites what changed.
 
