@@ -1,5 +1,5 @@
 ---
-title: "Docker image <code class=\"yfm-clipboard-inline-code\" role=\"button\" tabindex='0' id=\"inline-code-id-g3ynlkjt\">ydbplatform/local-ydb</code> tags naming"
+title: "Docker image `ydbplatform/local-ydb` tags naming"
 url: "https://ydb.tech/docs/en/reference/docker/tags?version=v26.1"
 doc_path: "en/reference/docker/tags"
 version: "v26.1"
@@ -10,7 +10,7 @@ description: "For the ydbplatform/local-ydb Docker image, the following naming r
 revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
 ---
 
-# Docker image <code class="yfm-clipboard-inline-code" role="button" tabindex='0' id="inline-code-id-g3ynlkjt">ydbplatform/local-ydb</code> tags naming
+# Docker image `ydbplatform/local-ydb` tags naming
 
 For the [ydbplatform/local-ydb](https://hub.docker.com/r/ydbplatform/local-ydb) Docker image, the following naming rules apply for tags:
 

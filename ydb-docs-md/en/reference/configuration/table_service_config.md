@@ -1,5 +1,5 @@
 ---
-title: "<code class=\"yfm-clipboard-inline-code\" role=\"button\" tabindex='0' id=\"inline-code-id-xzrubjoo\">table_service_config</code> configuration section"
+title: "`table_service_config` configuration section"
 url: "https://ydb.tech/docs/en/reference/configuration/table_service_config?version=v26.1"
 doc_path: "en/reference/configuration/table_service_config"
 version: "v26.1"
@@ -10,7 +10,7 @@ description: "The table_service_config section contains configuration parameters
 revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
 ---
 
-# <code class="yfm-clipboard-inline-code" role="button" tabindex='0' id="inline-code-id-xzrubjoo">table_service_config</code> configuration section
+# `table_service_config` configuration section
 
 The `table_service_config` section contains configuration parameters for the table service, including spilling settings.
 

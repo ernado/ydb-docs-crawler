@@ -1,5 +1,5 @@
 ---
-title: "Правила преобразования типов через оператор <a href=\"ru/yql/reference/syntax/expressions#cast\">CAST</a>"
+title: "Правила преобразования типов через оператор [CAST](../syntax/expressions.md#cast)"
 url: "https://ydb.tech/docs/ru/yql/reference/types/cast?version=v26.1"
 doc_path: "ru/yql/reference/types/cast"
 version: "v26.1"
@@ -10,7 +10,7 @@ description: "Правила преобразования примитивных
 revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
 ---
 
-# Правила преобразования типов через оператор <a href="ru/yql/reference/syntax/expressions#cast">CAST</a>
+# Правила преобразования типов через оператор [CAST](../syntax/expressions.md#cast)
 
 ## Правила преобразования примитивных типов данных {#pravila-preobrazovaniya-primitivnyh-tipov-dannyh}
 

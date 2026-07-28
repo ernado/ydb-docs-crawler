@@ -1,5 +1,5 @@
 ---
-title: "Именование тегов докер-образа <code class=\"yfm-clipboard-inline-code\" role=\"button\" tabindex='0' id=\"inline-code-id-xhw2cdw2\">ydbplatform/local-ydb</code>"
+title: "Именование тегов докер-образа `ydbplatform/local-ydb`"
 url: "https://ydb.tech/docs/ru/reference/docker/tags?version=v26.1"
 doc_path: "ru/reference/docker/tags"
 version: "v26.1"
@@ -10,7 +10,7 @@ description: "Для докер-образа ydbplatform/local-ydb примен�
 revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
 ---
 
-# Именование тегов докер-образа <code class="yfm-clipboard-inline-code" role="button" tabindex='0' id="inline-code-id-xhw2cdw2">ydbplatform/local-ydb</code>
+# Именование тегов докер-образа `ydbplatform/local-ydb`
 
 Для докер-образа [ydbplatform/local-ydb](https://hub.docker.com/r/ydbplatform/local-ydb) применяются следующие правила именования для тегов:
 

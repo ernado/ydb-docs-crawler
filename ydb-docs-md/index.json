@@ -4302,11 +4302,11 @@
       "doc_path": "en/reference/configuration/table_service_config",
       "url": "https://ydb.tech/docs/en/reference/configuration/table_service_config?version=v26.1",
       "file": "en/reference/configuration/table_service_config.md",
-      "title": "<code class=\"yfm-clipboard-inline-code\" role=\"button\" tabindex='0' id=\"inline-code-id-xzrubjoo\">table_service_config</code> configuration section",
+      "title": "`table_service_config` configuration section",
       "description": " The table_service_config section contains configuration parameters for the table service, including spilling settings. spilling_service_config.",
       "source_path": "en/core/reference/configuration/table_service_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/table_service_config.md",
-      "bytes": 10609,
+      "bytes": 10401,
       "lang": "en"
     },
     {
@@ -4401,11 +4401,11 @@
       "doc_path": "en/reference/docker/tags",
       "url": "https://ydb.tech/docs/en/reference/docker/tags?version=v26.1",
       "file": "en/reference/docker/tags.md",
-      "title": "Docker image <code class=\"yfm-clipboard-inline-code\" role=\"button\" tabindex='0' id=\"inline-code-id-g3ynlkjt\">ydbplatform/local-ydb</code> tags naming",
+      "title": "Docker image `ydbplatform/local-ydb` tags naming",
       "description": " For the ydbplatform/local-ydb Docker image, the following naming rules apply for tags: Tag Name Description. latest.",
       "source_path": "en/core/reference/docker/tags.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/tags.md",
-      "bytes": 1841,
+      "bytes": 1633,
       "lang": "en"
     },
     {
@@ -7745,11 +7745,11 @@
       "doc_path": "en/yql/reference/types/cast",
       "url": "https://ydb.tech/docs/en/yql/reference/types/cast?version=v26.1",
       "file": "en/yql/reference/types/cast.md",
-      "title": "Rules for type casting using the operator <a href=\"en/yql/reference/syntax/expressions#cast\">CAST</a>",
+      "title": "Rules for type casting using the operator [CAST](../syntax/expressions.md#cast)",
       "description": " Rules for casting primitive data types.",
       "source_path": "en/core/yql/reference/types/cast.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/cast.md",
-      "bytes": 4753,
+      "bytes": 4707,
       "lang": "en"
     },
     {
@@ -12387,11 +12387,11 @@
       "doc_path": "ru/reference/docker/tags",
       "url": "https://ydb.tech/docs/ru/reference/docker/tags?version=v26.1",
       "file": "ru/reference/docker/tags.md",
-      "title": "Именование тегов докер-образа <code class=\"yfm-clipboard-inline-code\" role=\"button\" tabindex='0' id=\"inline-code-id-xhw2cdw2\">ydbplatform/local-ydb</code>",
+      "title": "Именование тегов докер-образа `ydbplatform/local-ydb`",
       "description": " Для докер-образа ydbplatform/local-ydb применяются следующие правила именования для тегов: Тег Описание. latest.",
       "source_path": "ru/core/reference/docker/tags.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/docker/tags.md",
-      "bytes": 2844,
+      "bytes": 2636,
       "lang": "ru"
     },
     {
@@ -15742,11 +15742,11 @@
       "doc_path": "ru/yql/reference/types/cast",
       "url": "https://ydb.tech/docs/ru/yql/reference/types/cast?version=v26.1",
       "file": "ru/yql/reference/types/cast.md",
-      "title": "Правила преобразования типов через оператор <a href=\"ru/yql/reference/syntax/expressions#cast\">CAST</a>",
+      "title": "Правила преобразования типов через оператор [CAST](../syntax/expressions.md#cast)",
       "description": " Правила преобразования примитивных типов данных.",
       "source_path": "ru/core/yql/reference/types/cast.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/types/cast.md",
-      "bytes": 7632,
+      "bytes": 7586,
       "lang": "ru"
     },
     {
@@ -16033,11 +16033,6 @@
   "failures": [
     {
       "lang": "en",
-      "doc_path": "en/concepts/yql/reference/udf/list/string",
-      "error": "https://ydb.tech/docs/en/concepts/yql/reference/udf/list/string?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/concepts/yql/reference/udf/list/string?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "lang": "en",
       "doc_path": "en/concepts/concepts/",
       "error": "https://ydb.tech/docs/en/concepts/concepts/?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/concepts/concepts/?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
@@ -16045,6 +16040,11 @@
       "lang": "en",
       "doc_path": "en/concepts/topic",
       "error": "https://ydb.tech/docs/en/concepts/topic?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/concepts/topic?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "lang": "en",
+      "doc_path": "en/concepts/yql/reference/udf/list/string",
+      "error": "https://ydb.tech/docs/en/concepts/yql/reference/udf/list/string?version=v26.1: HTTP 429"
     },
     {
       "lang": "en",
@@ -16058,23 +16058,23 @@
     },
     {
       "lang": "ru",
-      "doc_path": "ru/recipes/ydb-sdk/debug-jaeger",
-      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-jaeger?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/tracing/jaeger?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "lang": "ru",
-      "doc_path": "ru/recipes/ydb-sdk/debug-prometheus",
-      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-prometheus?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/metrics/prometheus?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "lang": "ru",
       "doc_path": "ru/recipes/ydb-sdk/debug",
       "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "lang": "ru",
+      "doc_path": "ru/recipes/ydb-sdk/debug-jaeger",
+      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-jaeger?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/tracing/jaeger?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "lang": "ru",
       "doc_path": "ru/recipes/ydb-sdk/debug-logs",
       "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-logs?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/logging/logging?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "lang": "ru",
+      "doc_path": "ru/recipes/ydb-sdk/debug-prometheus",
+      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-prometheus?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/metrics/prometheus?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     }
   ],
   "broken_links": [

@@ -1,5 +1,5 @@
 ---
-title: "Rules for type casting using the operator <a href=\"en/yql/reference/syntax/expressions#cast\">CAST</a>"
+title: "Rules for type casting using the operator [CAST](../syntax/expressions.md#cast)"
 url: "https://ydb.tech/docs/en/yql/reference/types/cast?version=v26.1"
 doc_path: "en/yql/reference/types/cast"
 version: "v26.1"
@@ -10,7 +10,7 @@ description: "Rules for casting primitive data types."
 revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
 ---
 
-# Rules for type casting using the operator <a href="en/yql/reference/syntax/expressions#cast">CAST</a>
+# Rules for type casting using the operator [CAST](../syntax/expressions.md#cast)
 
 ## Rules for casting primitive data types
 
