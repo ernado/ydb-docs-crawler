@@ -1,0 +1,35 @@
+---
+title: "Permission Denied"
+url: "https://ydb.tech/docs/en/troubleshooting/spilling/permission-denied?version=v26.1"
+doc_path: "en/troubleshooting/spilling/permission-denied"
+version: "v26.1"
+lang: "en"
+source_path: "en/core/troubleshooting/spilling/permission-denied.md"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/spilling/permission-denied.md"
+description: "Insufficient access permissions to the spilling directory prevent YDB from writing data to disk during spilling operations. This can cause queries to fail when"
+revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+---
+
+# Permission Denied
+
+Insufficient access permissions to the spilling directory prevent YDB from writing data to disk during spilling operations. This can cause queries to fail when they require spilling to handle large data volumes.
+
+## Diagnostics
+
+Check if the spilling directory exists and has proper permissions:
+
+- Verify that the spilling directory exists (see [Spilling Configuration](../../reference/configuration/table_service_config.md#root) for information on how to find the spilling directory)
+- Ensure the directory has read and write permissions for the user under which `ydbd` is running
+- Check access permissions to the spilling directory
+- Verify that the user under which `ydbd` runs can read and write to the directory
+
+## Recommendations
+
+If permissions are incorrect:
+
+1. Change the directory owner to the user under which `ydbd` runs.
+2. Ensure read/write permissions are set for the directory owner.
+3. Restart the `ydbd` process to apply the changes.
+
+> [!NOTE]
+> The spilling directory is automatically created by YDB when the process starts. If the directory doesn't exist, check that the `root` parameter in the spilling configuration is set correctly.

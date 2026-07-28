@@ -1,0 +1,363 @@
+---
+title: "Random choice"
+url: "https://ydb.tech/docs/en/recipes/ydb-sdk/balancing-random-choice?version=v26.1"
+doc_path: "en/recipes/ydb-sdk/balancing-random-choice"
+version: "v26.1"
+lang: "en"
+source_path: "en/core/recipes/ydb-sdk/balancing-random-choice.md"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/balancing-random-choice.md"
+description: "The YDB SDK uses the random_choice (uniform random) balancing algorithm by default, except the C++ SDK, which defaults to \"prefer the nearest data center\"."
+revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+---
+
+# Random choice
+
+The YDB SDK uses the `random_choice` (uniform random) balancing algorithm by default, except the C++ SDK, which defaults to ["prefer the nearest data center"](balancing-prefer-local.md).
+
+Below are examples of explicitly setting the "random choice" balancing algorithm in different YDB SDKs.
+
+{% list tabs %}
+
+- Go
+
+  {% list tabs %}
+
+  - Native SDK
+
+    ```go
+    package main
+
+    import (
+      "context"
+      "os"
+
+      "github.com/ydb-platform/ydb-go-sdk/v3"
+      "github.com/ydb-platform/ydb-go-sdk/v3/balancers"
+    )
+
+    func main() {
+      ctx, cancel := context.WithCancel(context.Background())
+      defer cancel()
+      db, err := ydb.Open(ctx,
+        os.Getenv("YDB_CONNECTION_STRING"),
+        ydb.WithBalancer(
+          balancers.RandomChoice(),
+        ),
+      )
+      if err != nil {
+        panic(err)
+      }
+      defer db.Close(ctx)
+      // ...
+    }
+    ```
+
+  - database/sql
+
+    Client-side balancing in the YDB `database/sql` driver happens only when opening a new connection (in `database/sql` terms), which maps to a YDB session on a specific node. After the session is created, all queries on that session go to that node. Queries on the same YDB session are not balanced across nodes.
+
+    Example for "random choice" balancing:
+
+    ```go
+    package main
+
+    import (
+      "context"
+      "database/sql"
+      "os"
+
+      "github.com/ydb-platform/ydb-go-sdk/v3"
+      "github.com/ydb-platform/ydb-go-sdk/v3/balancers"
+    )
+
+    func main() {
+      ctx, cancel := context.WithCancel(context.Background())
+      defer cancel()
+      nativeDriver, err := ydb.Open(ctx,
+        os.Getenv("YDB_CONNECTION_STRING"),
+        ydb.WithBalancer(
+          balancers.RandomChoice(),
+        ),
+      )
+      if err != nil {
+        panic(err)
+      }
+      defer nativeDriver.Close(ctx)
+
+      connector, err := ydb.Connector(nativeDriver)
+      if err != nil {
+        panic(err)
+      }
+
+      db := sql.OpenDB(connector)
+      defer db.Close()
+      // ...
+    }
+    ```
+
+  {% endlist %}
+
+- Native SDK
+
+  ```go
+  package main
+
+  import (
+    "context"
+    "os"
+
+    "github.com/ydb-platform/ydb-go-sdk/v3"
+    "github.com/ydb-platform/ydb-go-sdk/v3/balancers"
+  )
+
+  func main() {
+    ctx, cancel := context.WithCancel(context.Background())
+    defer cancel()
+    db, err := ydb.Open(ctx,
+      os.Getenv("YDB_CONNECTION_STRING"),
+      ydb.WithBalancer(
+        balancers.RandomChoice(),
+      ),
+    )
+    if err != nil {
+      panic(err)
+    }
+    defer db.Close(ctx)
+    // ...
+  }
+  ```
+
+- database/sql
+
+  Client-side balancing in the YDB `database/sql` driver happens only when opening a new connection (in `database/sql` terms), which maps to a YDB session on a specific node. After the session is created, all queries on that session go to that node. Queries on the same YDB session are not balanced across nodes.
+
+  Example for "random choice" balancing:
+
+  ```go
+  package main
+
+  import (
+    "context"
+    "database/sql"
+    "os"
+
+    "github.com/ydb-platform/ydb-go-sdk/v3"
+    "github.com/ydb-platform/ydb-go-sdk/v3/balancers"
+  )
+
+  func main() {
+    ctx, cancel := context.WithCancel(context.Background())
+    defer cancel()
+    nativeDriver, err := ydb.Open(ctx,
+      os.Getenv("YDB_CONNECTION_STRING"),
+      ydb.WithBalancer(
+        balancers.RandomChoice(),
+      ),
+    )
+    if err != nil {
+      panic(err)
+    }
+    defer nativeDriver.Close(ctx)
+
+    connector, err := ydb.Connector(nativeDriver)
+    if err != nil {
+      panic(err)
+    }
+
+    db := sql.OpenDB(connector)
+    defer db.Close()
+    // ...
+  }
+  ```
+
+- C++
+
+  ```cpp
+  #include <ydb-cpp-sdk/client/driver/driver.h>
+
+  int main() {
+    auto connectionString = std::string(std::getenv("YDB_CONNECTION_STRING"));
+
+    auto driverConfig = NYdb::TDriverConfig(connectionString)
+      .SetBalancingPolicy(NYdb::TBalancingPolicy::UseAllNodes());
+
+    NYdb::TDriver driver(driverConfig);
+    // ...
+    driver.Stop(true);
+    return 0;
+  }
+  ```
+
+- Python
+
+  {% list tabs %}
+
+  - Native SDK
+
+    ```python
+    import os
+    import ydb
+
+    driver_config = ydb.DriverConfig(
+        endpoint=os.environ["YDB_ENDPOINT"],
+        database=os.environ["YDB_DATABASE"],
+        credentials=ydb.credentials_from_env_variables(),
+        use_all_nodes=True,  # uniform random choice
+    )
+
+    with ydb.Driver(driver_config) as driver:
+        driver.wait(timeout=5)
+        # ...
+    ```
+
+  - Native SDK (Asyncio)
+
+    ```python
+    import os
+    import ydb
+    import asyncio
+
+    async def ydb_init():
+        driver_config = ydb.DriverConfig(
+            endpoint=os.environ["YDB_ENDPOINT"],
+            database=os.environ["YDB_DATABASE"],
+            credentials=ydb.credentials_from_env_variables(),
+            use_all_nodes=True,  # uniform random choice
+        )
+        async with ydb.aio.Driver(driver_config) as driver:
+            await driver.wait()
+            # ...
+
+    asyncio.run(ydb_init())
+    ```
+
+  - SQLAlchemy
+
+    ```python
+    import os
+    import sqlalchemy as sa
+
+    engine = sa.create_engine(
+        os.environ["YDB_SQLALCHEMY_URL"],
+        connect_args={
+            "driver_config_kwargs": {
+                "use_all_nodes": True,  # uniform random choice
+            }
+        },
+    )
+    ```
+
+  {% endlist %}
+
+- Native SDK
+
+  ```python
+  import os
+  import ydb
+
+  driver_config = ydb.DriverConfig(
+      endpoint=os.environ["YDB_ENDPOINT"],
+      database=os.environ["YDB_DATABASE"],
+      credentials=ydb.credentials_from_env_variables(),
+      use_all_nodes=True,  # uniform random choice
+  )
+
+  with ydb.Driver(driver_config) as driver:
+      driver.wait(timeout=5)
+      # ...
+  ```
+
+- Native SDK (Asyncio)
+
+  ```python
+  import os
+  import ydb
+  import asyncio
+
+  async def ydb_init():
+      driver_config = ydb.DriverConfig(
+          endpoint=os.environ["YDB_ENDPOINT"],
+          database=os.environ["YDB_DATABASE"],
+          credentials=ydb.credentials_from_env_variables(),
+          use_all_nodes=True,  # uniform random choice
+      )
+      async with ydb.aio.Driver(driver_config) as driver:
+          await driver.wait()
+          # ...
+
+  asyncio.run(ydb_init())
+  ```
+
+- SQLAlchemy
+
+  ```python
+  import os
+  import sqlalchemy as sa
+
+  engine = sa.create_engine(
+      os.environ["YDB_SQLALCHEMY_URL"],
+      connect_args={
+          "driver_config_kwargs": {
+              "use_all_nodes": True,  # uniform random choice
+          }
+      },
+  )
+  ```
+
+- JavaScript
+
+  This section is under development.
+
+- Java
+
+  {% list tabs %}
+
+  - Native SDK
+
+    "Random choice" in the Java SDK corresponds to the `USE_ALL_NODES` policy in `BalancingSettings` (this is also the default if you do not override settings).
+
+    ```java
+    import tech.ydb.core.grpc.BalancingSettings;
+    import tech.ydb.core.grpc.GrpcTransport;
+
+    try (GrpcTransport transport = GrpcTransport.forConnectionString("grpc://localhost:2136/local")
+            .withBalancingSettings(BalancingSettings.fromPolicy(BalancingSettings.Policy.USE_ALL_NODES))
+            .build()) {
+        // ...
+    }
+    ```
+
+  - JDBC
+
+    Balancing when selecting a new session is handled by the native transport inside the driver; if needed, use the same parameters as in the native SDK via [JDBC connection settings](../../reference/languages-and-apis/jdbc-driver/properties.md).
+
+    In Spring Boot, ORMs, and other JDBC wrappers, use the same JDBC URL and balancing parameters as with the driver directly (for example `spring.datasource.url` with query parameters or `DataSource` properties).
+
+  {% endlist %}
+
+- Native SDK
+
+  "Random choice" in the Java SDK corresponds to the `USE_ALL_NODES` policy in `BalancingSettings` (this is also the default if you do not override settings).
+
+  ```java
+  import tech.ydb.core.grpc.BalancingSettings;
+  import tech.ydb.core.grpc.GrpcTransport;
+
+  try (GrpcTransport transport = GrpcTransport.forConnectionString("grpc://localhost:2136/local")
+          .withBalancingSettings(BalancingSettings.fromPolicy(BalancingSettings.Policy.USE_ALL_NODES))
+          .build()) {
+      // ...
+  }
+  ```
+
+- JDBC
+
+  Balancing when selecting a new session is handled by the native transport inside the driver; if needed, use the same parameters as in the native SDK via [JDBC connection settings](../../reference/languages-and-apis/jdbc-driver/properties.md).
+
+  In Spring Boot, ORMs, and other JDBC wrappers, use the same JDBC URL and balancing parameters as with the driver directly (for example `spring.datasource.url` with query parameters or `DataSource` properties).
+
+- Rust
+
+  The RandomChoice policy (random endpoint selection among discovery nodes) is enabled **by default** — no extra configuration is required.
+
+{% endlist %}

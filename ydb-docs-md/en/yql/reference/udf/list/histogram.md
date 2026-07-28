@@ -1,0 +1,30 @@
+---
+title: "Histogram"
+url: "https://ydb.tech/docs/en/yql/reference/udf/list/histogram?version=v26.1"
+doc_path: "en/yql/reference/udf/list/histogram"
+version: "v26.1"
+lang: "en"
+source_path: "en/core/yql/reference/udf/list/histogram.md"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/histogram.md"
+description: "Set of auxiliary functions for the HISTOGRAM aggregate function. In the signature description below, HistogramStruct refers to the result of the aggregate funct"
+revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+---
+
+# Histogram
+
+Set of auxiliary functions for the [HISTOGRAM aggregate function](../../builtins/aggregation.md). In the signature description below, HistogramStruct refers to the result of the aggregate function `HISTOGRAM`, `LinearHistogram` or `LogarithmicHistogram` being a structure of a certain type.
+
+## List of functions
+
+- `Histogram::Print(HistogramStruct{Flags:AutoMap}, Byte?) -> String`
+- `Histogram::Normalize(HistogramStruct{Flags:AutoMap}, [Double?]) -> HistogramStruct`: The second argument specifies the desired area of the histogram, 100 by default.
+- `Histogram::ToCumulativeDistributionFunction(HistogramStruct{Flags:AutoMap}) -> HistogramStruct`
+- `Histogram::GetSumAboveBound(HistogramStruct{Flags:AutoMap}, Double) -> Double`
+- `Histogram::GetSumBelowBound(HistogramStruct{Flags:AutoMap}, Double) -> Double`
+- `Histogram::GetSumInRange(HistogramStruct{Flags:AutoMap}, Double, Double) -> Double`
+- `Histogram::CalcUpperBound(HistogramStruct{Flags:AutoMap}, Double) -> Double`
+- `Histogram::CalcLowerBound(HistogramStruct{Flags:AutoMap}, Double) -> Double`
+- `Histogram::CalcUpperBoundSafe(HistogramStruct{Flags:AutoMap}, Double) -> Double`
+- `Histogram::CalcLowerBoundSafe(HistogramStruct{Flags:AutoMap}, Double) -> Double`
+
+`Histogram::Print` has an optional numeric argument that sets the maximum length of the histogram columns (the length is in characters, since the histogram is rendered in ASCII art). Default: 25. This function is primarily intended for viewing histograms in the console.

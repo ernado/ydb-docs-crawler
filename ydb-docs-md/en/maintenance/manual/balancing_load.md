@@ -1,0 +1,68 @@
+---
+title: "Disk load balancing"
+url: "https://ydb.tech/docs/en/maintenance/manual/balancing_load?version=v26.1"
+doc_path: "en/maintenance/manual/balancing_load"
+version: "v26.1"
+lang: "en"
+source_path: "en/core/maintenance/manual/balancing_load.md"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/balancing_load.md"
+description: "YDB supports two methods for disk load balancing: Distribute the load evenly across groups. Distribute VDisks evenly across block store volumes."
+revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+---
+
+# Disk load balancing
+
+YDB supports two methods for disk load balancing:
+
+- [Distribute the load evenly across groups](balancing_load.md#reassign-groups).
+- [Distribute VDisks evenly across block store volumes](balancing_load.md#cluster-balance).
+
+## Distribute the load evenly across groups {#reassign-groups}
+
+At the bottom of the [Hive web-viewer](../../reference/embedded-ui/hive.md#reassign_groups) page, there is a button named "Reassign Groups".
+
+## Distribute VDisks evenly across block store volumes {#cluster-balance}
+
+As a result of some operations, such as [decommissioning](../../devops/deployment-options/manual/decommissioning.md), VDisks can be distributed across block store volumes unevenly. You can distribute them more evenly in one of the following ways:
+
+- [Move VDisks](moving_vdisks.md#moving_vdisk) one by one from overloaded block store volumes.
+
+- Use [YDB DSTool](../../reference/ydb-dstool/index.md). The command below moves a VDisk from an overloaded block store volume to a less loaded one:
+
+  ```bash
+  ydb-dstool -e <bs_endpoint> cluster balance
+  ```
+
+  The command moves a single VDisk per run.
+
+## Changing the number of slots for VDisks on PDisks
+
+To add storage groups, redefine the host config by increasing the number of slots on PDisks.
+
+Before that, you need to get the config to be changed. You can do this with the following command:
+
+```proto
+Command {
+  TReadHostConfig{
+    HostConfigId: <host-config-id>
+  }
+}
+```
+
+```bash
+ydbd -s <endpoint> admin bs config invoke --proto-file ReadHostConfig.txt
+```
+
+Insert the obtained config into the protobuf below and edit the `PDiskConfig/ExpectedSlotCount` field value in it.
+
+```proto
+Command {
+  TDefineHostConfig {
+    <host config>
+  }
+}
+```
+
+```bash
+ydbd -s <endpoint> admin bs config invoke --proto-file DefineHostConfig.txt
+```

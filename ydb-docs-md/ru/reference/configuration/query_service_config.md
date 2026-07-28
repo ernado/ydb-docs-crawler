@@ -1,0 +1,73 @@
+---
+title: "query_service_config"
+url: "https://ydb.tech/docs/ru/reference/configuration/query_service_config?version=v26.1"
+doc_path: "ru/reference/configuration/query_service_config"
+version: "v26.1"
+lang: "ru"
+source_path: "ru/core/reference/configuration/query_service_config.md"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/query_service_config.md"
+description: "Секция query_service_config описывает параметры работы YDB с внешними источниками данных с использованием федеративных запросов."
+revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+---
+
+# query_service_config
+
+Секция `query_service_config` описывает параметры работы YDB с внешними источниками данных с использованием [федеративных запросов](../../concepts/query_execution/federated_query/index.md).
+
+Если для доступа к нужному вам источнику требуется развернуть [коннектор](../../concepts/query_execution/federated_query/architecture.md#connectors), его необходимо также настроить по [инструкции](../../devops/deployment-options/manual/federated-queries/connector-deployment.md).
+
+## Описание параметров {#opisanie-parametrov}
+
+|  |  |  |
+| --- | --- | --- |
+| **Параметр** | **Значение по умолчанию** | **Описание** |
+| `generic.connector.endpoint.host` | `localhost` | Имя хоста коннектора. |
+| `generic.connector.endpoint.port` | `2130` | TCP порт коннектора. |
+| `generic.connector.use_ssl` | `false` | Использовать ли шифрование соединения. При размещении коннектора и динамического узла YDB на одном сервере шифрованное соединение между ними не требуется, но при необходимости его можно включить. |
+| `generic.connector.ssl_ca_crt` | пустая строка | Путь к сертификату CA, который используется для шифрования. |
+| `generic.default_settings.name.UsePredicatePushdown` | `false` | Включает пушдаун предикатов во внешние источники данных: некоторые части SQL-запросов (например, фильтры) будут переданы на исполнение во внешний источник. Это позволит существенно снизить объёмы данных, передаваемых по сети источником данных в сторону федеративной YDB, сэкономить её вычислительные ресурсы и значительно уменьшить время обработки федеративного запроса. |
+| `available_external_data_sources` | пустой список | Список с разрешенными типами внешних источников. Применяется при `all_external_data_sources_are_available: false`.<br>Возможные значения:<br>- `ObjectStorage`;<br>- `ClickHouse`;<br>- `PostgreSQL`;<br>- `MySQL`;<br>- `Greenplum`;<br>- `MsSQLServer`;<br>- `Ydb`. |
+| `all_external_data_sources_are_available` | `false` | Включение всех типов внешних источников. Если включено, настройка `available_external_data_sources` игнорируется. |
+
+## Примеры {#examples}
+
+### Включение внешних источников ClickHouse и MySQL {#vklyuchenie-vneshnih-istochnikov-clickhouse-i-mysql}
+
+```yaml
+query_service_config:
+  generic:
+    connector:
+      endpoint:
+        host: localhost                   # имя хоста, где развернут коннектор
+        port: 2130                        # номер порта коннектора
+      use_ssl: false                      # флаг, включающий шифрование соединений
+      ssl_ca_crt: "/opt/ydb/certs/ca.crt" # путь к сертификату CA
+    default_settings:
+    - name: UsePredicatePushdown
+      value: "true"
+  all_external_data_sources_are_available: false
+  available_external_data_sources:
+  - ClickHouse
+  - MySQL
+```
+
+### Включение всех типов внешних источников {#vklyuchenie-vseh-tipov-vneshnih-istochnikov}
+
+```yaml
+query_service_config:
+  generic:
+    connector:
+      endpoint:
+        host: localhost                   # имя хоста, где развернут коннектор
+        port: 2130                        # номер порта коннектора
+      use_ssl: false                      # флаг, включающий шифрование соединений
+      ssl_ca_crt: "/opt/ydb/certs/ca.crt" # путь к сертификату CA
+    default_settings:
+    - name: UsePredicatePushdown
+      value: "true"
+  all_external_data_sources_are_available: true
+```
+
+## См. также {#sm-takzhe}
+
+- [Развёртывание YDB с функцией Federated Query](../../devops/deployment-options/manual/federated-queries/index.md)

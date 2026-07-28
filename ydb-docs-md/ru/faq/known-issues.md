@@ -1,0 +1,28 @@
+---
+title: "Известные проблемы"
+url: "https://ydb.tech/docs/ru/faq/known-issues?version=v26.1"
+doc_path: "ru/faq/known-issues"
+version: "v26.1"
+lang: "ru"
+source_path: "ru/core/faq/known-issues.md"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/known-issues.md"
+description: "Известные проблемы Не происходит объединение партиций таблицы при включённом автопартицировании."
+revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+---
+
+# Известные проблемы
+
+## Не происходит объединение партиций таблицы при включённом автопартицировании {#table-partitions-are-not-merging}
+
+Для таблиц, созданных в ранних версиях YDB, механизм автоматического партицирования может не объединять партиции при достижении условий для объединения по нагрузке или по размеру. Это может привести к наличию избыточного количества партиций в таблице.
+
+Проблема специфична для таблиц, соответствующих двум следующим критериям:
+
+- Таблица была создана на кластере YDB до версии 22.2.
+- На момент создания таблицы или впоследствии для неё не было задано значение минимального количества партиций.
+
+Для устранения проблемы нужно явно задать для таблицы значение минимального количества партиций, например, с помощью параметра [AUTO_PARTITIONING_MIN_PARTITIONS_COUNT](../concepts/datamodel/table.md#auto_partitioning_min_partitions_count):
+
+```yql
+ALTER TABLE `my_table` SET (AUTO_PARTITIONING_MIN_PARTITIONS_COUNT = 1);
+```

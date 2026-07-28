@@ -1,0 +1,115 @@
+---
+title: "Доступ к значениям в JSON с помощью YQL"
+url: "https://ydb.tech/docs/ru/yql/reference/recipes/accessing-json?version=v26.1"
+doc_path: "ru/yql/reference/recipes/accessing-json"
+version: "v26.1"
+lang: "ru"
+source_path: "ru/core/yql/reference/recipes/accessing-json.md"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/recipes/accessing-json.md"
+description: "YQL предоставляет два основных способа извлечения значений из JSON:"
+revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+---
+
+# Доступ к значениям в JSON с помощью YQL
+
+YQL предоставляет два основных способа извлечения значений из JSON:
+
+- Использование [**JSON-функций из SQL стандарта**](../builtins/json.md). Этот подход рекомендуется для простых случаев и для команд, которые знакомы с ними по другим СУБД.
+- Использование [**Yson UDF**](../udf/list/yson.md), встроенных функций для работы со [списками](../builtins/list.md) и [словарями](../builtins/dict.md), а также [лямбд](../syntax/expressions.md#lambda). Этот подход более гибкий и тесно интегрирован с системой типов данных YDB, поэтому рекомендуется для сложных случаев.
+
+Ниже приведены рецепты, которые используют один и тот же входной JSON, чтобы показать, как использовать каждый из этих вариантов для проверки существования ключа, получения конкретного значения и извлечения поддерева.
+
+## JSON-функции {#json-funkcii}
+
+```yql
+$json = @@{
+    "friends": [
+        {
+            "name": "James Holden",
+            "age": 35
+        },
+        {
+            "name": "Naomi Nagata",
+            "age": 30
+        }
+    ]
+}@@j;
+
+SELECT
+    JSON_EXISTS($json, "$.friends[*].name"), -- True
+    CAST(JSON_VALUE($json, "$.friends[0].age") AS Int32), -- 35
+    JSON_QUERY($json, "$.friends[0]"); -- {"name": "James Holden", "age": 35}
+```
+
+Функции `JSON_*` ожидают на вход данные типа `Json`. В этом примере строковый литерал имеет суффикс `j`, обозначающий его как `Json`. В таблицах данные могут храниться либо в формате JSON, либо как строковое представление. Для преобразования данных из `String` в тип данных `JSON` используйте функцию `CAST`, например `CAST(my_string AS JSON)`.
+
+## Yson UDF
+
+Этот подход обычно сочетает в себе несколько функций и выражений, поэтому запрос может использовать различные конкретные стратегии.
+
+### Преобразование всего JSON в YQL контейнеры {#preobrazovanie-vsego-json-v-yql-kontejnery}
+
+```yql
+$json = @@{
+    "friends": [
+        {
+            "name": "James Holden",
+            "age": 35
+        },
+        {
+            "name": "Naomi Nagata",
+            "age": 30
+        }
+    ]
+}@@j;
+
+$containers = Yson::ConvertTo($json, Struct<friends:List<Struct<name:String?,age:Int32?>>>);
+$has_name = ListAny(
+    ListMap($containers.friends, ($friend) -> {
+        return $friend.name IS NOT NULL;
+    })
+);
+$get_age = $containers.friends[0].age;
+$get_first_friend = Yson::SerializeJson(Yson::From($containers.friends[0]));
+
+SELECT
+    $has_name, -- True
+    $get_age, -- 35
+    $get_first_friend; -- {"name": "James Holden", "age": 35}
+```
+
+**Не** обязательно преобразовывать весь JSON объект в структурированное сочетание контейнеров. Некоторые поля могут быть опущены, если они не используются, в то время как некоторые поддеревья могут быть оставлены в неструктурированном типе данных, таком как `Json`.
+
+### Работа с представлением в памяти {#rabota-s-predstavleniem-v-pamyati}
+
+```yql
+$json = @@{
+    "friends": [
+        {
+            "name": "James Holden",
+            "age": 35
+        },
+        {
+            "name": "Naomi Nagata",
+            "age": 30
+        }
+    ]
+}@@j;
+
+$has_name = ListAny(
+    ListMap(Yson::ConvertToList($json.friends), ($friend) -> {
+        return Yson::Contains($friend, "name");
+    })
+);
+$get_age = Yson::ConvertToInt64($json.friends[0].age);
+$get_first_friend = Yson::SerializeJson($json.friends[0]);
+
+SELECT
+    $has_name, -- True
+    $get_age, -- 35
+    $get_first_friend; -- {"name": "James Holden", "age": 35}
+```
+
+## Смотрите также {#smotrite-takzhe}
+
+- [Изменение JSON с помощью YQL](modifying-json.md)

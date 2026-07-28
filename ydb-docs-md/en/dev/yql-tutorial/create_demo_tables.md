@@ -1,0 +1,56 @@
+---
+title: "Creating a table"
+url: "https://ydb.tech/docs/en/dev/yql-tutorial/create_demo_tables?version=v26.1"
+doc_path: "en/dev/yql-tutorial/create_demo_tables"
+version: "v26.1"
+lang: "en"
+source_path: "en/core/dev/yql-tutorial/create_demo_tables.md"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/yql-tutorial/create_demo_tables.md"
+description: "Create the tables and set the data schema for them using the statement CREATE TABLE. Note."
+revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+---
+
+# Creating a table
+
+Create the tables and set the data schema for them using the statement [CREATE TABLE](../../yql/reference/syntax/create_table/index.md).
+
+> [!NOTE]
+> Keywords are case-insensitive and written in capital letters for clarity only.
+
+```yql
+CREATE TABLE series         -- series is the table name.
+(                           -- Must be unique within the folder.
+    series_id Uint64,
+    title Utf8,
+    series_info Utf8,
+    release_date Uint64,
+    PRIMARY KEY (series_id) -- The primary key is a column or
+                            -- combination of columns that uniquely identifies
+                            -- each table row (contains only
+                            -- non-repeating values). A table can have
+                            -- only one primary key. For every table
+                            -- in YDB, the primary key is required.
+);
+
+CREATE TABLE seasons
+(
+    series_id Uint64,
+    season_id Uint64,
+    title Utf8,
+    first_aired Uint64,
+    last_aired Uint64,
+    PRIMARY KEY (series_id, season_id)
+);
+
+CREATE TABLE episodes
+(
+    series_id Uint64,
+    season_id Uint64,
+    episode_id Uint64,
+    title Utf8,
+    air_date Uint64,
+    PRIMARY KEY (series_id, season_id, episode_id)
+);
+
+COMMIT;
+```

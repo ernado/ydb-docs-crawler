@@ -1,0 +1,65 @@
+---
+title: "RESTORE"
+url: "https://ydb.tech/docs/en/yql/reference/syntax/restore-backup-collection?version=v26.1"
+doc_path: "en/yql/reference/syntax/restore-backup-collection"
+version: "v26.1"
+lang: "en"
+source_path: "en/core/yql/reference/syntax/restore-backup-collection.md"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/restore-backup-collection.md"
+description: "The RESTORE statement restores tables from a backup collection. RESTORE collection_name; Parameters."
+revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+---
+
+# RESTORE
+
+The `RESTORE` statement restores tables from a [backup collection](../../../concepts/datamodel/backup-collection.md).
+
+```yql
+RESTORE collection_name;
+```
+
+## Parameters
+
+- `collection_name` — name of the backup collection to restore from.
+
+## Restore behavior
+
+The restore operation:
+
+- Finds the **current chain** of backups in the collection (the latest full backup followed by its incremental backups).
+- Restores tables to the state of the **most recent** backup in that chain: applies the full backup and all subsequent incrementals in sequence.
+- Fails if any of the tables being restored already exists at the same path.
+
+Restoring to an arbitrary point "between" two saved backups is not supported: the result is always the state captured by one of the backups in the chain.
+
+> [!WARNING]
+> The restore operation fails if any of the tables being restored already exists at the same path. Rename or drop the conflicting tables before restoring.
+
+## Examples
+
+Restoring from a backup collection:
+
+```yql
+-- Restore all tables from the collection
+RESTORE production_backups;
+```
+
+## Monitoring restore operations
+
+Restore operations run asynchronously in the background. You can monitor their progress using YDB CLI:
+
+```bash
+# List backup and restore operations
+ydb operation list incbackup
+
+# Get operation details
+ydb operation get <operation-id>
+```
+
+## See also
+
+- [Backup collections](../../../concepts/datamodel/backup-collection.md)
+- [CREATE BACKUP COLLECTION](create-backup-collection.md)
+- [BACKUP](backup.md)
+- [DROP BACKUP COLLECTION](drop-backup-collection.md)
+- [Backup and recovery guide](../../../devops/backup-and-recovery.md)

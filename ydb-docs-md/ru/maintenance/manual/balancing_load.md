@@ -1,0 +1,72 @@
+---
+title: "Балансировка нагрузки на диски"
+url: "https://ydb.tech/docs/ru/maintenance/manual/balancing_load?version=v26.1"
+doc_path: "ru/maintenance/manual/balancing_load"
+version: "v26.1"
+lang: "ru"
+source_path: "ru/core/maintenance/manual/balancing_load.md"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/balancing_load.md"
+description: "В YDB балансировать нагрузку на диски можно двумя способами: распределить нагрузку равномерно по группам; распределить VDisk'и равномерно по устройствам."
+revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+---
+
+# Балансировка нагрузки на диски
+
+В YDB балансировать нагрузку на диски можно двумя способами:
+
+- [распределить нагрузку равномерно по группам](balancing_load.md#reassign-groups);
+- [распределить VDisk'и равномерно по устройствам](balancing_load.md#cluster-balance).
+
+## Распределить нагрузку равномерно по группам {#reassign-groups}
+
+На странице [Hive web-viewer](../../reference/embedded-ui/hive.md#reassign_groups), в нижней части экрана есть кнопка "Reassign Groups".
+
+## Распределить VDisk'и равномерно по устройствам {#cluster-balance}
+
+В результате некоторых операций, например [декомиссии](../../devops/deployment-options/manual/decommissioning.md), VDisk'и могут быть распределены на блочных устройствах неравномерно. Улучшить равномерность распределения можно одним из способов:
+
+- [Перевезти VDisk'и](moving_vdisks.md#moving_vdisk) по одному с перегруженных устройств.
+
+- Воспользоваться утилитой [YDB DSTool](../../reference/ydb-dstool/index.md). Следующая команда перевезет VDisk с перегруженного устройства на менее нагруженное:
+
+  ```bash
+  ydb-dstool -e <bs_endpoint> cluster balance
+  ```
+
+  `<bs_endpoint>` - эндпоинт произвольного [узла хранения](../../concepts/glossary.md#storage-node) кластера.
+   Команда перевозит не более одного VDisk'а за один запуск.
+
+## Изменение количествa слотов для VDisk'ов на PDisk'ах {#izmenenie-kolichestva-slotov-dlya-vdiskov-na-pdiskah}
+
+Для добавления групп хранения требуется переопределить конфиг хоста, увеличив для него количество слотов на PDisk'ах. Это можно осуществить, проделав следующие шаги:
+
+1. Получить текущую конфигурацию кластера:
+
+   ```bash
+   ydb -e <endpoint> admin cluster config fetch > config.yaml
+   ```
+
+   `<endpoint>` - grpc/grpcs эндпоинт произвольного узла кластера.
+
+2. Добавить (или изменить) поле `expected_slot_count` для нужного устройства `drive` в секции `host_configs`.
+
+   Примерный вид секции конфигурации:
+
+   ```yaml
+   config:
+   host_configs:
+   - host_config_id: 1
+       drive:
+       - path: <path_to_device>
+         type: <type>
+         expected_slot_count: <number>
+       - path: ...
+   - host_config_id: 2
+       ...
+   ```
+
+3. Загрузить обновленный конфигурационный файл на кластер:
+
+   ```bash
+   ydb -e endpoint admin cluster config replace -f config.yaml
+   ```
