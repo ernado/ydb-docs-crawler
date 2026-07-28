@@ -1,0 +1,88 @@
+name: Scrape
+
+on:
+  schedule:
+    # Mondays, 04:23 UTC.
+    - cron: "23 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Documentation version to crawl
+        default: v26.1
+      languages:
+        description: Languages to crawl
+        default: all
+        type: choice
+        options: [all, en, ru]
+
+# Never let two scrapes race for the same push.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Crawl
+        env:
+          VERSION: ${{ inputs.version || 'v26.1' }}
+          LANGUAGES: ${{ inputs.languages || 'all' }}
+        run: |
+          uv run crawl_ydb_docs.py \
+            --lang "$LANGUAGES" \
+            --version "$VERSION" \
+            --out ydb-docs-md \
+            --jobs 8 \
+            --prune \
+            --min-pages 1200
+
+      - name: Commit
+        run: |
+          git add -A ydb-docs-md
+          if git diff --cached --quiet; then
+            echo "No documentation changes." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          revision=$(jq -r '.languages[0].revision' ydb-docs-md/index.json)
+          pages=$(jq -r '.page_count' ydb-docs-md/index.json)
+          changed=$(git diff --cached --name-only | wc -l)
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: re-scrape ydb.tech (${revision:0:12})" \
+                     -m "${pages} pages, ${changed} files changed."
+          git push
+
+          {
+            echo "Committed **${changed}** changed files from revision \`${revision}\` (${pages} pages)."
+            echo
+            echo '```'
+            git show --stat --oneline HEAD | head -40
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Report crawl problems
+        if: always()
+        run: |
+          {
+            echo "### Crawl report"
+            jq -r '
+              "- pages: \(.page_count)",
+              "- images: \(.image_count)",
+              "- failed pages: \([.failures[] | select(.error | test("asset") | not)] | length)",
+              "- broken internal links: \(.broken_links | length)",
+              "- broken images: \(.broken_images | length)"
+            ' ydb-docs-md/index.json
+          } >> "$GITHUB_STEP_SUMMARY"

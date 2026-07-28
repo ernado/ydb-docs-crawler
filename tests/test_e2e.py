@@ -15,27 +15,24 @@ from crawl_ydb_docs import main
 
 pytestmark = pytest.mark.e2e
 
+CRAWL_ARGS = [
+    "--lang",
+    "en",
+    "--lang",
+    "ru",
+    "--only",
+    "quickstart",
+    "--only",
+    "concepts/glossary",
+    "--jobs",
+    "4",
+]
+
 
 @pytest.fixture(scope="module")
 def crawled(tmp_path_factory: pytest.TempPathFactory) -> Path:
     out = tmp_path_factory.mktemp("docs")
-    code = main(
-        [
-            "--lang",
-            "en",
-            "--lang",
-            "ru",
-            "--only",
-            "quickstart",
-            "--only",
-            "concepts/glossary",
-            "--out",
-            str(out),
-            "--jobs",
-            "4",
-            "--strict",
-        ]
-    )
+    code = main([*CRAWL_ARGS, "--out", str(out), "--strict"])
     assert code == 0, "crawl reported failures"
     return out
 
@@ -92,23 +89,27 @@ def test_manifest_and_summary(crawled: Path) -> None:
 def test_second_run_is_incremental(crawled: Path) -> None:
     """Re-running must be a no-op: same inputs, byte-identical output."""
     before = {p: p.read_bytes() for p in crawled.rglob("*.md")}
-    assert (
-        main(
-            [
-                "--lang",
-                "en",
-                "--lang",
-                "ru",
-                "--only",
-                "quickstart",
-                "--only",
-                "concepts/glossary",
-                "--out",
-                str(crawled),
-                "--jobs",
-                "4",
-            ]
-        )
-        == 0
-    )
+    assert main([*CRAWL_ARGS, "--out", str(crawled)]) == 0
     assert {p: p.read_bytes() for p in crawled.rglob("*.md")} == before
+
+
+def test_second_run_leaves_the_manifest_untouched(crawled: Path) -> None:
+    """The weekly re-scrape must produce no diff at all when nothing changed."""
+    before = (crawled / "index.json").read_bytes()
+    assert main([*CRAWL_ARGS, "--out", str(crawled)]) == 0
+    assert (crawled / "index.json").read_bytes() == before
+
+
+def test_min_pages_guard_aborts_without_touching_the_output(crawled: Path) -> None:
+    """A truncated crawl must never be allowed to overwrite a good mirror."""
+    before = {p: p.read_bytes() for p in crawled.rglob("*") if p.is_file()}
+    assert main([*CRAWL_ARGS, "--out", str(crawled), "--min-pages", "10000", "--prune"]) == 1
+    assert {p: p.read_bytes() for p in crawled.rglob("*") if p.is_file()} == before
+
+
+def test_prune_removes_pages_that_vanished_upstream(crawled: Path) -> None:
+    stale = crawled / "en" / "was-deleted-upstream.md"
+    stale.write_text("gone", encoding="utf-8")
+    assert main([*CRAWL_ARGS, "--out", str(crawled), "--prune"]) == 0
+    # A partial crawl must not prune: it only ever fetches a slice of the tree.
+    assert stale.is_file()

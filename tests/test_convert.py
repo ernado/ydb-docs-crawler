@@ -14,8 +14,11 @@ from crawl_ydb_docs import (
     doc_path_to_url,
     extract_data,
     front_matter,
+    github_raw_base,
+    image_url,
     norm_doc_path,
     page_props,
+    prune,
     render_summary,
     strip_asset_prefix,
     toc_index_paths,
@@ -224,12 +227,37 @@ def test_unrooted_link_falls_back_to_the_language_root() -> None:
     assert md == "[Topics](../../../concepts/datamodel/topic.md)"
 
 
-def test_images_are_collected_and_rewritten() -> None:
+RAW_BASE = "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs"
+
+
+def test_github_raw_base() -> None:
+    assert github_raw_base("https://github.com/ydb-platform/ydb/tree/main/ydb/docs") == RAW_BASE
+    assert github_raw_base("https://example.com/nope") is None
+    assert github_raw_base(None) is None
+
+
+def test_image_url_inserts_the_core_segment() -> None:
+    assert (
+        image_url("en/concepts/_assets/pic.png", RAW_BASE) == f"{RAW_BASE}/en/core/concepts/_assets/pic.png"
+    )
+    # Not a language root, or no base to build on: caller falls back to the site.
+    assert image_url("docs-assets/x.png", RAW_BASE) is None
+    assert image_url("en/_assets/pic.png", None) is None
+
+
+def test_images_are_linked_at_the_source_repo_not_downloaded() -> None:
+    ctx = LinkContext(doc_path="en/quickstart", lang="en", image_base=RAW_BASE)
+    html = '<p><img src="docs-assets/svc/rev/abc/en/_assets/ui.png" alt="Web UI"></p>'
+    md = MarkdownConverter(ctx).convert(html)
+    assert md == f"![Web UI]({RAW_BASE}/en/core/_assets/ui.png)"
+    assert ctx.images == {f"{RAW_BASE}/en/core/_assets/ui.png": "en/_assets/ui.png"}
+
+
+def test_image_falls_back_to_the_site_url_without_a_source_repo() -> None:
     ctx = LinkContext(doc_path="en/quickstart", lang="en")
     html = '<p><img src="docs-assets/svc/rev/abc/en/_assets/ui.png" alt="Web UI"></p>'
     md = MarkdownConverter(ctx).convert(html)
-    assert md == "![Web UI](_assets/ui.png)"
-    assert ctx.assets == {"en/_assets/ui.png": "docs-assets/svc/rev/abc/en/_assets/ui.png"}
+    assert md == "![Web UI](https://ydb.tech/docs/docs-assets/svc/rev/abc/en/_assets/ui.png)"
 
 
 def test_absolute_links_mode_keeps_the_site_urls() -> None:
@@ -280,3 +308,42 @@ def test_render_summary_nests_and_stringifies_numeric_names() -> None:
 def test_front_matter_quotes_and_skips_empty_values() -> None:
     fm = front_matter({"title": 'He said "hi"', "empty": None, "list": ["a", "b"]})
     assert fm == '---\ntitle: "He said \\"hi\\""\nlist:\n  - "a"\n  - "b"\n---'
+
+
+# --------------------------------------------------------------------------- #
+# pruning
+# --------------------------------------------------------------------------- #
+
+
+def test_prune_removes_stale_files_and_empty_directories(tmp_path) -> None:
+    for rel in (
+        "en/quickstart.md",
+        "en/concepts/glossary.md",
+        "en/concepts/_assets/pic.png",
+        "en/removed/gone.md",
+        "ru/quickstart.md",
+    ):
+        target = tmp_path / rel
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text("x", encoding="utf-8")
+    (tmp_path / "index.json").write_text("{}", encoding="utf-8")
+
+    removed = prune(
+        tmp_path,
+        ["en"],
+        {"en/quickstart.md", "en/concepts/glossary.md", "en/concepts/_assets/pic.png"},
+    )
+
+    assert removed == ["en/removed/gone.md"]
+    assert not (tmp_path / "en" / "removed").exists(), "emptied directory should be gone"
+    assert (tmp_path / "en" / "concepts" / "_assets" / "pic.png").is_file()
+    # Languages that were not crawled, and top-level files, are never touched.
+    assert (tmp_path / "ru" / "quickstart.md").is_file()
+    assert (tmp_path / "index.json").is_file()
+
+
+def test_prune_is_a_noop_when_nothing_is_stale(tmp_path) -> None:
+    (tmp_path / "en").mkdir()
+    (tmp_path / "en" / "quickstart.md").write_text("x", encoding="utf-8")
+    assert prune(tmp_path, ["en"], {"en/quickstart.md"}) == []
+    assert (tmp_path / "en" / "quickstart.md").is_file()

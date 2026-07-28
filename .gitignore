@@ -1,7 +1,5 @@
-# Crawler output
-/ydb-docs-md/
-/docs-md/
-*.crawl-cache/
+# The crawled docs are committed; the page cache backing them is not.
+.cache/
 
 # Python
 __pycache__/

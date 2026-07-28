@@ -34,7 +34,6 @@ import sys
 import time
 from collections.abc import Iterable, Iterator
 from dataclasses import dataclass, field
-from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote, unquote, urljoin, urlparse
@@ -120,13 +119,38 @@ def doc_path_to_file(path: str) -> str:
 
 #: Images are served from a build-specific location such as
 #: ``docs-assets/ydb-platform--ydb/rev/<sha>/en/concepts/_assets/pic.png``.
-#: We store them under the plain doc tree (``en/concepts/_assets/pic.png``) so the
-#: output mirrors the upstream repository and survives a revision bump.
+#: Stripping that prefix leaves the plain doc path (``en/concepts/_assets/pic.png``).
 _ASSET_PREFIX = re.compile(r"^docs-assets/[^/]+/rev/[^/]+/")
+_GITHUB_TREE = re.compile(r"^https://github\.com/([^/]+)/([^/]+)/tree/([^/]+)/(.*)$")
 
 
 def strip_asset_prefix(path: str) -> str:
     return _ASSET_PREFIX.sub("", path)
+
+
+def github_raw_base(tree_url: str | None) -> str | None:
+    """Turn ``.../ydb/tree/main/ydb/docs`` into its raw.githubusercontent.com form."""
+    match = _GITHUB_TREE.match((tree_url or "").rstrip("/"))
+    if not match:
+        return None
+    owner, repo, ref, path = match.groups()
+    return f"https://raw.githubusercontent.com/{owner}/{repo}/{ref}/{path}"
+
+
+def image_url(asset_path: str, raw_base: str | None) -> str | None:
+    """Map a doc asset path to a stable URL in the documentation source repo.
+
+    ``en/concepts/_assets/pic.png`` lives at ``<repo>/en/core/concepts/_assets/pic.png``
+    upstream -- every page on the site reports a ``sourcePath`` of ``<lang>/core/...``.
+    Linking there instead of at the site's revision-pinned CDN path keeps the URL
+    stable across documentation rebuilds.
+    """
+    if not raw_base:
+        return None
+    lang, _, rest = asset_path.partition("/")
+    if lang not in ALL_LANGS or not rest:
+        return None
+    return f"{raw_base}/{lang}/core/{quote(rest, safe='/')}"
 
 
 def doc_path_to_url(path: str, version: str | None) -> str:
@@ -259,8 +283,12 @@ class LinkContext:
     index_paths: frozenset[str] = frozenset()
     #: Every doc path in the table of contents, without trailing slashes.
     known_paths: frozenset[str] = frozenset()
-    # local file path -> docs path to download it from
-    assets: dict[str, str] = field(default_factory=dict)
+    #: Base URL images are linked at; they are never downloaded.
+    image_base: str | None = None
+    #: image URL -> the doc asset path it came from, for the post-crawl check.
+    images: dict[str, str] = field(default_factory=dict)
+    #: image URL -> the site URL to fall back to if that link does not resolve.
+    image_fallbacks: dict[str, str] = field(default_factory=dict)
 
     @property
     def out_file(self) -> str:
@@ -311,8 +339,14 @@ class LinkContext:
             path += "/"
         target = doc_path_to_file(path)
         if is_asset:
-            target = strip_asset_prefix(target)
-            self.assets[target] = path
+            # Images are linked, never copied into the output tree.
+            asset_path = strip_asset_prefix(target)
+            site_url = urljoin(DOCS_BASE, quote(path, safe="/"))
+            url = image_url(asset_path, self.image_base) or site_url
+            self.images[url] = asset_path
+            if url != site_url:
+                self.image_fallbacks[url] = site_url
+            return url
         rel = posixpath.relpath(target, posixpath.dirname(self.out_file) or ".")
         anchor = f"#{parsed.fragment}" if parsed.fragment else ""
         return quote(rel, safe="/._-#~()!$&'*+,;=:@") + anchor
@@ -761,7 +795,8 @@ class RenderedPage:
     vcs_url: str | None
     description: str | None
     links: list[str]
-    assets: dict[str, str]
+    images: dict[str, str]
+    image_fallbacks: dict[str, str]
 
 
 def render_page(
@@ -781,6 +816,7 @@ def render_page(
         keep_absolute=keep_absolute,
         index_paths=index_paths,
         known_paths=known_paths,
+        image_base=github_raw_base(props.get("githubUrlPrefix")),
     )
     conv = MarkdownConverter(ctx)
     meta = props.get("meta") or {}
@@ -841,7 +877,8 @@ def render_page(
         vcs_url=props.get("vcsUrl"),
         description=meta.get("description"),
         links=internal_links,
-        assets=dict(ctx.assets),
+        images=dict(ctx.images),
+        image_fallbacks=dict(ctx.image_fallbacks),
     )
 
 
@@ -857,7 +894,6 @@ class Stats:
     written: int = 0
     unchanged: int = 0
     failed: int = 0
-    assets: int = 0
 
 
 class Crawler:
@@ -871,7 +907,10 @@ class Crawler:
         self.stats = stats if stats is not None else Stats()
         self.seen: set[str] = set()
         self.manifest: list[dict[str, Any]] = []
-        self.assets: dict[str, str] = {}
+        self.images: dict[str, str] = {}
+        self.image_fallbacks: dict[str, str] = {}
+        #: image URL -> the output files that reference it
+        self.image_pages: dict[str, set[str]] = {}
         self.failures: list[tuple[str, str]] = []
         self.index_paths: frozenset[str] = frozenset()
         self.known_paths: frozenset[str] = frozenset()
@@ -993,9 +1032,6 @@ class Crawler:
                 w.cancel()
             await asyncio.gather(*workers, return_exceptions=True)
 
-            if self.args.assets and self.assets:
-                await self.fetch_assets(client)
-
         self.manifest.sort(key=lambda m: m["doc_path"])
         return len(self.failures)
 
@@ -1045,7 +1081,10 @@ class Crawler:
                     "bytes": len(page.markdown.encode("utf-8")),
                 }
             )
-            self.assets.update({k: v for k, v in page.assets.items() if not k.endswith(".md")})
+            self.images.update(page.images)
+            self.image_fallbacks.update(page.image_fallbacks)
+            for url in page.images:
+                self.image_pages.setdefault(url, set()).add(page.out_file)
             if self.args.follow_links:
                 for link in page.links:
                     target_path = link.split("#")[0]
@@ -1059,41 +1098,6 @@ class Crawler:
 
         mark = "+" if changed else "="
         await self.log(f"  {mark} [{done}/{total}] {page.out_file}")
-
-    async def fetch_assets(self, client: httpx.AsyncClient) -> None:
-        await self.log(f"→ downloading {len(self.assets)} assets")
-        sem = asyncio.Semaphore(max(1, min(self.args.jobs, 4)))
-
-        async def one(local: str, remote: str) -> None:
-            target = self.out / local
-            if target.is_file() and not self.args.refresh:
-                return
-            url = urljoin(DOCS_BASE, quote(remote, safe="/"))
-            last: Exception | None = None
-            for attempt in range(self.args.retries + 1):
-                async with sem:
-                    try:
-                        resp = await client.get(url)
-                        # The asset host rate-limits bursts; back off and retry.
-                        if resp.status_code in {429, 500, 502, 503, 504}:
-                            raise httpx.HTTPStatusError(
-                                f"HTTP {resp.status_code}", request=resp.request, response=resp
-                            )
-                        resp.raise_for_status()
-                    except httpx.HTTPStatusError as exc:
-                        last = exc
-                        if exc.response.status_code not in {429, 500, 502, 503, 504}:
-                            break
-                    except httpx.HTTPError as exc:
-                        last = exc
-                    else:
-                        self.write(target, resp.content)
-                        self.stats.assets += 1
-                        return
-                await asyncio.sleep(min(2**attempt, 8) * 0.5)
-            self.failures.append((local, f"asset: {last}"))
-
-        await asyncio.gather(*(one(k, self.assets[k]) for k in sorted(self.assets)))
 
 
 # --------------------------------------------------------------------------- #
@@ -1122,13 +1126,106 @@ def check_links(out: Path, files: Iterable[str]) -> list[dict[str, str]]:
     return broken
 
 
+async def url_ok(client: httpx.AsyncClient, url: str) -> str | None:
+    """Return None if the URL resolves, otherwise a short reason why it does not."""
+    try:
+        resp = await client.head(url, follow_redirects=True)
+        if resp.status_code == 405:  # some hosts reject HEAD
+            resp = await client.get(url, follow_redirects=True)
+    except httpx.HTTPError as exc:
+        return repr(exc)
+    return None if resp.status_code < 400 else str(resp.status_code)
+
+
+async def check_images(
+    client: httpx.AsyncClient,
+    images: dict[str, str],
+    fallbacks: dict[str, str],
+    jobs: int,
+) -> tuple[list[dict[str, str]], dict[str, str]]:
+    """Verify every distinct image URL, falling back to the site where needed.
+
+    Image URLs are derived from the documentation source layout rather than
+    copied verbatim from the page, and that mapping does not hold for every
+    single asset, so each one is checked. Anything that fails is retried at the
+    URL the site itself serves; only if that fails too is the image reported
+    broken.
+
+    Returns the still-broken images and the ``url -> replacement`` map to apply.
+    """
+    broken: list[dict[str, str]] = []
+    replacements: dict[str, str] = {}
+    sem = asyncio.Semaphore(max(1, min(jobs, 8)))
+
+    async def one(url: str, asset: str) -> None:
+        async with sem:
+            reason = await url_ok(client, url)
+            if reason is None:
+                return
+            fallback = fallbacks.get(url)
+            if fallback and await url_ok(client, fallback) is None:
+                replacements[url] = fallback
+                return
+            broken.append({"asset": asset, "url": url, "status": reason})
+
+    await asyncio.gather(*(one(url, asset) for url, asset in sorted(images.items())))
+    return sorted(broken, key=lambda b: b["asset"]), replacements
+
+
+def apply_replacements(out: Path, replacements: dict[str, str], pages: dict[str, set[str]]) -> int:
+    """Swap image URLs in the pages that reference them."""
+    affected: set[str] = set()
+    for url in replacements:
+        affected |= pages.get(url, set())
+    for rel in sorted(affected):
+        path = out / rel
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        for url, replacement in replacements.items():
+            text = text.replace(f"({url})", f"({replacement})")
+        path.write_text(text, encoding="utf-8")
+    return len(affected)
+
+
+def prune(out: Path, langs: Iterable[str], keep: set[str]) -> list[str]:
+    """Delete files under the crawled language roots that this run did not produce.
+
+    Without this a mirror keeps serving pages the upstream docs have deleted.
+    Only the language roots are touched, so the manifest, the TOCs and the cache
+    at the top level are never at risk.
+    """
+    removed: list[str] = []
+    for lang in langs:
+        root = out / lang
+        if not root.is_dir():
+            continue
+        for path in sorted(root.rglob("*")):
+            if not path.is_file():
+                continue
+            rel = path.relative_to(out).as_posix()
+            if rel not in keep:
+                path.unlink()
+                removed.append(rel)
+        # Clear the directories the deletions emptied, deepest first.
+        for path in sorted(root.rglob("*"), key=lambda p: len(p.parts), reverse=True):
+            if path.is_dir() and not any(path.iterdir()):
+                path.rmdir()
+    return removed
+
+
 async def crawl_all(args: argparse.Namespace) -> int:
     out = Path(args.out).resolve()
     stats = Stats()
     languages: list[dict[str, Any]] = []
     failures: list[dict[str, str]] = []
     pages: list[dict[str, Any]] = []
+    images: dict[str, str] = {}
+    image_fallbacks: dict[str, str] = {}
+    image_pages: dict[str, set[str]] = {}
 
+    produced: set[str] = set()
     for lang in args.lang:
         print(f"\n=== {lang} ===", file=sys.stderr)
         crawler = Crawler(args, lang, stats)
@@ -1136,6 +1233,11 @@ async def crawl_all(args: argparse.Namespace) -> int:
         for entry in crawler.manifest:
             entry["lang"] = lang
         pages.extend(crawler.manifest)
+        produced |= {entry["file"] for entry in crawler.manifest}
+        images.update(crawler.images)
+        image_fallbacks.update(crawler.image_fallbacks)
+        for url, files in crawler.image_pages.items():
+            image_pages.setdefault(url, set()).update(files)
         failures.extend({"lang": lang, "doc_path": p, "error": e} for p, e in crawler.failures)
         languages.append(
             {
@@ -1150,16 +1252,51 @@ async def crawl_all(args: argparse.Namespace) -> int:
     # A partial crawl always has dangling links, so the check only means
     # something once the whole tree has been fetched.
     partial = bool(args.only or args.limit)
+    if args.min_pages and len(pages) < args.min_pages:
+        print(
+            f"\nabort: crawled {len(pages)} pages, expected at least {args.min_pages}; "
+            "leaving the existing output untouched",
+            file=sys.stderr,
+        )
+        return 1
+
+    removed: list[str] = []
+    if args.prune:
+        if partial:
+            print("note: --prune ignored, this is a partial crawl", file=sys.stderr)
+        else:
+            removed = prune(out, args.lang, produced)
+
     broken = check_links(out, (p["file"] for p in pages)) if args.check_links and not partial else []
+    bad_images: list[dict[str, str]] = []
+    replacements: dict[str, str] = {}
+    if args.check_links and images:
+        print(f"\nverifying {len(images)} image links", file=sys.stderr)
+        async with httpx.AsyncClient(
+            headers={"User-Agent": args.user_agent}, timeout=httpx.Timeout(args.timeout)
+        ) as client:
+            bad_images, replacements = await check_images(client, images, image_fallbacks, args.jobs)
+        if replacements:
+            touched = apply_replacements(out, replacements, image_pages)
+            print(
+                f"→ {len(replacements)} images not in the source repo, "
+                f"linked at the site instead ({touched} pages updated)",
+                file=sys.stderr,
+            )
+
     index = {
         "site": DOCS_BASE,
         "version": args.version,
         "languages": languages,
-        "crawled_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        # No crawl timestamp: it would make every re-scrape a change even when
+        # the documentation itself is untouched.
         "page_count": len(pages),
         "pages": sorted(pages, key=lambda m: (m["lang"], m["doc_path"])),
+        "image_count": len(images),
+        "images_linked_at_site": sorted(images[url] for url in replacements),
         "failures": failures,
         "broken_links": broken,
+        "broken_images": bad_images,
     }
     out.mkdir(parents=True, exist_ok=True)
     (out / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -1167,11 +1304,19 @@ async def crawl_all(args: argparse.Namespace) -> int:
     print(
         f"\ndone: {len(pages)} pages "
         f"(fetched {stats.fetched}, cached {stats.cached}, written {stats.written}, "
-        f"unchanged {stats.unchanged}, assets {stats.assets}, failed {stats.failed}) → {out}",
+        f"unchanged {stats.unchanged}, failed {stats.failed}) → {out}",
         file=sys.stderr,
     )
+    if removed:
+        print(f"pruned {len(removed)} stale files:", file=sys.stderr)
+        for rel in removed[:20]:
+            print(f"  - {rel}", file=sys.stderr)
     if broken:
         print(f"broken internal links: {len(broken)} (see index.json)", file=sys.stderr)
+    if bad_images:
+        print(f"broken image links: {len(bad_images)} (see index.json)", file=sys.stderr)
+        for img in bad_images[:10]:
+            print(f"  - {img['asset']}: {img['status']}", file=sys.stderr)
     if failures:
         print(f"failures ({len(failures)}):", file=sys.stderr)
         for f in failures[:20]:
@@ -1216,7 +1361,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         action="store_false",
         help="only crawl pages listed in the table of contents",
     )
-    p.add_argument("--no-assets", dest="assets", action="store_false", help="do not download images")
     p.add_argument(
         "--no-front-matter",
         action="store_true",
@@ -1226,6 +1370,18 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--absolute-links",
         action="store_true",
         help="keep links pointing at ydb.tech instead of rewriting them to local .md files",
+    )
+    p.add_argument(
+        "--prune",
+        action="store_true",
+        help="delete files under the crawled language roots that this run did not produce, "
+        "so pages removed upstream disappear from the mirror (ignored for partial crawls)",
+    )
+    p.add_argument(
+        "--min-pages",
+        type=int,
+        default=0,
+        help="abort without touching the output if fewer than N pages were crawled",
     )
     p.add_argument(
         "--no-check-links",

@@ -3,6 +3,9 @@
 `crawl_ydb_docs.py` scrapes <https://ydb.tech/docs> into a tree of structured Markdown
 files. Re-run it any time; it is incremental and only rewrites what changed.
 
+The result is committed to this repository under [`ydb-docs-md/`](ydb-docs-md), and
+a [weekly workflow](.github/workflows/scrape.yml) re-scrapes and commits the diff.
+
 ## Usage
 
 ```sh
@@ -25,10 +28,12 @@ Useful flags — `--help` lists them all:
 | `-j, --jobs N` | concurrent requests (default 8) |
 | `--only GLOB` | crawl a subtree, glob relative to the language root; repeatable |
 | `--refresh` | ignore the on-disk cache and refetch |
-| `--no-assets` | skip image downloads |
+| `--prune` | delete pages that vanished upstream (ignored for partial crawls) |
+| `--min-pages N` | abort without touching the output if the crawl came back short |
 | `--no-front-matter` | plain Markdown without the YAML header |
 | `--absolute-links` | keep links pointing at ydb.tech instead of local `.md` files |
 | `--no-follow-links` | only crawl what the table of contents lists |
+| `--no-check-links` | skip the post-crawl link and image verification |
 | `--strict` | exit non-zero if any page failed |
 
 ## How it works
@@ -50,21 +55,31 @@ constructs the docs use:
 - `{#anchor}` suffixes on headings whose id does not match the slug, so
   in-page links keep working
 
-Links are rewritten to relative `.md` paths and images are downloaded next to
-the pages that use them, mirroring the upstream repository layout.
+Links are rewritten to relative `.md` paths. Images are **linked, not copied** —
+70 MB of screenshots do not belong in a git history. They point at the
+documentation source repository:
+
+    en/concepts/_assets/pic.png
+    → https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/concepts/_assets/pic.png
+
+That URL is stable across documentation rebuilds, whereas the site serves images
+from a path containing the build SHA, which would rewrite every image link on
+every rebuild. The mapping is verified rather than assumed: each distinct image
+URL is checked after the crawl, and the handful that do not resolve upstream
+fall back to the site's own URL (listed under `images_linked_at_site` in
+`index.json`).
 
 ## Output
 
 ```
 ydb-docs-md/
   en/…/*.md          one file per page (index.md for section landing pages)
-  en/…/_assets/*     images
   ru/…               same for Russian
   SUMMARY.en.md      the table of contents as a nested link list
   toc.en.json        the raw TOC
   index.json         manifest: every page, its URL, title, upstream source path,
-                     plus crawl failures and broken internal links
-  .cache/            per-revision page cache; delete it or pass --refresh to bust
+                     plus crawl failures, broken links and broken images
+  .cache/            per-revision page cache, not committed; --refresh busts it
 ```
 
 Each file carries YAML front matter:
@@ -87,12 +102,26 @@ The pages carry no timestamp on purpose: `revision` already identifies the docs
 build, so re-scraping an unchanged site produces a byte-identical tree and an
 empty diff.
 
+## Weekly re-scrape
+
+[`scrape.yml`](.github/workflows/scrape.yml) runs every Monday and commits
+whatever changed. Two properties make that safe to run unattended:
+
+- **An unchanged site produces no commit.** Nothing in the output records the
+  wall clock, so a re-scrape of the same docs revision is byte-identical.
+- **A broken scrape cannot destroy the mirror.** `--min-pages 1200` aborts
+  before writing anything if the crawl comes back short, and `--prune` only
+  runs after that guard passes.
+
+It can also be triggered by hand from the Actions tab, with a version and
+language to crawl.
+
 ## Known upstream breakage
 
-A handful of pages and images 404 on ydb.tech itself (`en/concepts/topic`,
-`maintenance/manual/static-config`, the DBeaver plugin screenshots, a few
-Russian SDK recipes). They are reported under `failures` and `broken_links` in
-`index.json` and are not crawler bugs.
+A handful of pages 404 on ydb.tech itself (`en/concepts/topic`,
+`maintenance/manual/static-config`, a few Russian SDK recipes), and some pages
+link to images that were never published. They are reported under `failures`,
+`broken_links` and `broken_images` in `index.json` and are not crawler bugs.
 
 ## License
 
