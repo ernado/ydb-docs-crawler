@@ -1,0 +1,70 @@
+[project]
+name = "ydb-docs-crawler"
+version = "0.1.0"
+description = "Crawl the YDB documentation at ydb.tech/docs into structured Markdown"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Aleksandr Razumov", email = "ernado@go-faster.org" }]
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+keywords = ["ydb", "documentation", "crawler", "markdown", "diplodoc"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Documentation",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+dependencies = [
+    "httpx>=0.27",
+    "lxml>=5.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/ernado/ydb-docs-crawler"
+Issues = "https://github.com/ernado/ydb-docs-crawler/issues"
+
+[project.scripts]
+ydb-docs-crawler = "crawl_ydb_docs:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.2",
+    "pytest-cov>=5.0",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["crawl_ydb_docs.py"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers"
+markers = [
+    "e2e: hits the live ydb.tech site (deselect with '-m \"not e2e\"')",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+# Only our own sources; never the venv or the crawled output tree.
+include = ["crawl_ydb_docs.py", "tests/**/*.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+ignore = [
+    "E501",   # long lines are handled by the formatter
+    "E731",   # a lambda is the clearest way to pad table rows
+    "SIM108", # ternaries are not always more readable
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E402"]
+
+[tool.ruff.format]
+quote-style = "double"

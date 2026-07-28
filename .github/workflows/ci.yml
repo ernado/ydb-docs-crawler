@@ -1,0 +1,73 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # The crawler depends on ydb.tech's page format; catch breakage weekly.
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  UV_FROZEN: "1"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - run: uv sync
+      - name: ruff check
+        run: uv run ruff check --output-format=github .
+      - name: ruff format
+        run: uv run ruff format --check --diff .
+
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          python-version: ${{ matrix.python-version }}
+      - run: uv sync
+      - name: Unit tests
+        run: uv run pytest -m "not e2e" --cov=crawl_ydb_docs --cov-report=term-missing
+
+  e2e:
+    # Hits the live ydb.tech site, so it runs on its own and never blocks a PR
+    # on someone else's outage.
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - run: uv sync
+      - name: End-to-end crawl
+        run: uv run pytest -m e2e -v
+      - name: Crawl a subtree and show the result
+        run: |
+          uv run crawl_ydb_docs.py --lang all --only 'yql/reference/syntax/select/**' \
+            --out /tmp/docs --jobs 4 --strict
+          find /tmp/docs -name '*.md' | wc -l
+          head -40 /tmp/docs/en/yql/reference/syntax/select/join.md
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: crawled-subtree
+          path: /tmp/docs
+          retention-days: 7
