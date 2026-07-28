@@ -347,3 +347,35 @@ def test_prune_is_a_noop_when_nothing_is_stale(tmp_path) -> None:
     (tmp_path / "en" / "quickstart.md").write_text("x", encoding="utf-8")
     assert prune(tmp_path, ["en"], {"en/quickstart.md"}) == []
     assert (tmp_path / "en" / "quickstart.md").is_file()
+
+
+# --------------------------------------------------------------------------- #
+# titles
+# --------------------------------------------------------------------------- #
+
+
+def test_title_html_becomes_markdown() -> None:
+    """Titles arrive as HTML carrying ids the server regenerates per request.
+
+    Passing them through verbatim leaks markup into the front matter and makes
+    the page differ on every scrape.
+    """
+    ctx = LinkContext(doc_path="en/reference/docker/tags", lang="en")
+    conv = MarkdownConverter(ctx)
+    title = (
+        'Docker image <code class="yfm-clipboard-inline-code" role="button" '
+        "tabindex='0' id=\"inline-code-id-uxnc228z\">ydbplatform/local-ydb</code> tags naming"
+    )
+    assert conv.convert_inline(title) == "Docker image `ydbplatform/local-ydb` tags naming"
+
+
+def test_title_without_markup_is_untouched() -> None:
+    conv = MarkdownConverter(LinkContext(doc_path="en/quickstart", lang="en"))
+    assert conv.convert_inline("  YDB Quick Start  ") == "YDB Quick Start"
+    assert conv.convert_inline("") == ""
+
+
+def test_title_link_is_rewritten() -> None:
+    conv = MarkdownConverter(LinkContext(doc_path="en/yql/reference/syntax/cast", lang="en"))
+    title = 'Rules for <a href="en/quickstart">casting</a>'
+    assert conv.convert_inline(title) == "Rules for [casting](../../../quickstart.md)"

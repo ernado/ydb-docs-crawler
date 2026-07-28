@@ -367,6 +367,18 @@ class MarkdownConverter:
         body = "\n\n".join(self.blocks(root))
         return re.sub(r"\n{3,}", "\n\n", body).strip()
 
+    def convert_inline(self, fragment: str) -> str:
+        """Render a one-line fragment, such as a page title, as inline Markdown.
+
+        Titles arrive as HTML and can carry markup with server-generated ids
+        (``<code ... id="inline-code-id-hg5gddr3">``) that differ on every
+        request, so they must not be passed through verbatim.
+        """
+        if not fragment or "<" not in fragment:
+            return (fragment or "").strip()
+        root = lxml_html.fragment_fromstring(fragment, create_parent="div")
+        return collapse(self.inline_children(root)).strip()
+
     # -- block level ------------------------------------------------------- #
 
     def blocks(self, el: HtmlElement) -> list[str]:
@@ -824,11 +836,11 @@ def render_page(
     html_body = props.get("html")
     if isinstance(html_body, str) and html_body.strip():
         body = conv.convert(html_body)
-        title = (props.get("title") or "").strip()
+        title = conv.convert_inline(props.get("title") or "")
     else:
         data = props.get("data") or {}
         body = render_leading(props, conv)
-        title = (data.get("title") or props.get("title") or "").strip()
+        title = conv.convert_inline(data.get("title") or props.get("title") or "")
         meta = data.get("meta") or meta
 
     if not title:
@@ -1234,6 +1246,10 @@ async def crawl_all(args: argparse.Namespace) -> int:
             entry["lang"] = lang
         pages.extend(crawler.manifest)
         produced |= {entry["file"] for entry in crawler.manifest}
+        # A page that failed this run may just be a hiccup on the other end, so
+        # its file stays. Pages genuinely removed upstream leave the table of
+        # contents, are never requested, never fail, and are pruned normally.
+        produced |= {doc_path_to_file(path) for path, _ in crawler.failures}
         images.update(crawler.images)
         image_fallbacks.update(crawler.image_fallbacks)
         for url, files in crawler.image_pages.items():
@@ -1267,7 +1283,9 @@ async def crawl_all(args: argparse.Namespace) -> int:
         else:
             removed = prune(out, args.lang, produced)
 
-    broken = check_links(out, (p["file"] for p in pages)) if args.check_links and not partial else []
+    # Sorted so the report does not depend on the order the workers finished in.
+    files = sorted(p["file"] for p in pages)
+    broken = check_links(out, files) if args.check_links and not partial else []
     bad_images: list[dict[str, str]] = []
     replacements: dict[str, str] = {}
     if args.check_links and images:
@@ -1294,7 +1312,7 @@ async def crawl_all(args: argparse.Namespace) -> int:
         "pages": sorted(pages, key=lambda m: (m["lang"], m["doc_path"])),
         "image_count": len(images),
         "images_linked_at_site": sorted(images[url] for url in replacements),
-        "failures": failures,
+        "failures": sorted(failures, key=lambda f: (f["lang"], f["doc_path"])),
         "broken_links": broken,
         "broken_images": bad_images,
     }

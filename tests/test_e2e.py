@@ -113,3 +113,20 @@ def test_prune_removes_pages_that_vanished_upstream(crawled: Path) -> None:
     assert main([*CRAWL_ARGS, "--out", str(crawled), "--prune"]) == 0
     # A partial crawl must not prune: it only ever fetches a slice of the tree.
     assert stale.is_file()
+
+
+def test_a_failed_page_is_not_pruned(crawled: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    """A transient fetch failure must never delete a page from the mirror."""
+    import crawl_ydb_docs
+
+    survivor = crawled / "en" / "quickstart.md"
+    original = crawl_ydb_docs.Crawler.fetch
+
+    async def flaky(self, client, doc_path):
+        if doc_path == "en/quickstart":
+            raise crawl_ydb_docs.PageError("simulated outage")
+        return await original(self, client, doc_path)
+
+    monkeypatch.setattr(crawl_ydb_docs.Crawler, "fetch", flaky)
+    assert main([*CRAWL_ARGS, "--out", str(crawled), "--prune"]) == 0
+    assert survivor.is_file(), "a page that failed to fetch was deleted"
