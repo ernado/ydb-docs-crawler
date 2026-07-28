@@ -65,7 +65,7 @@ jobs:
             --out /tmp/docs --jobs 4 --strict
           find /tmp/docs -name '*.md' | wc -l
           head -40 /tmp/docs/en/yql/reference/syntax/select/join.md
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: crawled-subtree
