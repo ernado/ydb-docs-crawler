@@ -4302,7 +4302,7 @@
       "doc_path": "en/reference/configuration/table_service_config",
       "url": "https://ydb.tech/docs/en/reference/configuration/table_service_config?version=v26.1",
       "file": "en/reference/configuration/table_service_config.md",
-      "title": "<code class=\"yfm-clipboard-inline-code\" role=\"button\" tabindex='0' id=\"inline-code-id-hg5gddr3\">table_service_config</code> configuration section",
+      "title": "<code class=\"yfm-clipboard-inline-code\" role=\"button\" tabindex='0' id=\"inline-code-id-xzrubjoo\">table_service_config</code> configuration section",
       "description": " The table_service_config section contains configuration parameters for the table service, including spilling settings. spilling_service_config.",
       "source_path": "en/core/reference/configuration/table_service_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/table_service_config.md",
@@ -4401,7 +4401,7 @@
       "doc_path": "en/reference/docker/tags",
       "url": "https://ydb.tech/docs/en/reference/docker/tags?version=v26.1",
       "file": "en/reference/docker/tags.md",
-      "title": "Docker image <code class=\"yfm-clipboard-inline-code\" role=\"button\" tabindex='0' id=\"inline-code-id-uxnc228z\">ydbplatform/local-ydb</code> tags naming",
+      "title": "Docker image <code class=\"yfm-clipboard-inline-code\" role=\"button\" tabindex='0' id=\"inline-code-id-g3ynlkjt\">ydbplatform/local-ydb</code> tags naming",
       "description": " For the ydbplatform/local-ydb Docker image, the following naming rules apply for tags: Tag Name Description. latest.",
       "source_path": "en/core/reference/docker/tags.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/tags.md",
@@ -16033,6 +16033,11 @@
   "failures": [
     {
       "lang": "en",
+      "doc_path": "en/concepts/yql/reference/udf/list/string",
+      "error": "https://ydb.tech/docs/en/concepts/yql/reference/udf/list/string?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/concepts/yql/reference/udf/list/string?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "lang": "en",
       "doc_path": "en/concepts/concepts/",
       "error": "https://ydb.tech/docs/en/concepts/concepts/?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/concepts/concepts/?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
@@ -16047,24 +16052,14 @@
       "error": "https://ydb.tech/docs/en/maintenance/manual/static-config?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/maintenance/manual/static-config?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
-      "lang": "en",
-      "doc_path": "en/concepts/yql/reference/udf/list/string",
-      "error": "https://ydb.tech/docs/en/concepts/yql/reference/udf/list/string?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/concepts/yql/reference/udf/list/string?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
       "lang": "ru",
       "doc_path": "ru/devops/backup-and-recovery/system-tablet-backup",
       "error": "https://ydb.tech/docs/ru/devops/backup-and-recovery/system-tablet-backup?version=v26.1: no __DATA__ payload (not a docs-viewer page?)"
     },
     {
       "lang": "ru",
-      "doc_path": "ru/recipes/ydb-sdk/debug-logs",
-      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-logs?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/logging/logging?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "lang": "ru",
-      "doc_path": "ru/recipes/ydb-sdk/debug",
-      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      "doc_path": "ru/recipes/ydb-sdk/debug-jaeger",
+      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-jaeger?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/tracing/jaeger?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "lang": "ru",
@@ -16073,8 +16068,13 @@
     },
     {
       "lang": "ru",
-      "doc_path": "ru/recipes/ydb-sdk/debug-jaeger",
-      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-jaeger?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/tracing/jaeger?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      "doc_path": "ru/recipes/ydb-sdk/debug",
+      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "lang": "ru",
+      "doc_path": "ru/recipes/ydb-sdk/debug-logs",
+      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-logs?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/logging/logging?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     }
   ],
   "broken_links": [
