@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 
+import httpx
 import pytest
 
 from crawl_ydb_docs import (
@@ -19,6 +20,7 @@ from crawl_ydb_docs import (
     norm_doc_path,
     page_props,
     prune,
+    rate_limit_delay,
     render_summary,
     strip_asset_prefix,
     toc_index_paths,
@@ -379,3 +381,33 @@ def test_title_link_is_rewritten() -> None:
     conv = MarkdownConverter(LinkContext(doc_path="en/yql/reference/syntax/cast", lang="en"))
     title = 'Rules for <a href="en/quickstart">casting</a>'
     assert conv.convert_inline(title) == "Rules for [casting](../../../quickstart.md)"
+
+
+# --------------------------------------------------------------------------- #
+# rate limiting
+# --------------------------------------------------------------------------- #
+
+
+def _status_error(status: int, headers: dict[str, str] | None = None) -> httpx.HTTPStatusError:
+    request = httpx.Request("GET", "https://ydb.tech/docs/en/quickstart")
+    response = httpx.Response(status, headers=headers or {}, request=request)
+    return httpx.HTTPStatusError("boom", request=request, response=response)
+
+
+def test_rate_limit_delay_honours_retry_after() -> None:
+    assert rate_limit_delay(_status_error(429, {"retry-after": "12"})) == 12.0
+    # Absurd values are clamped rather than trusted.
+    assert rate_limit_delay(_status_error(429, {"retry-after": "9999"})) == 60.0
+    assert rate_limit_delay(_status_error(429, {"retry-after": "0"})) == 1.0
+
+
+def test_rate_limit_delay_defaults_without_a_usable_header() -> None:
+    assert rate_limit_delay(_status_error(429)) == 5.0
+    assert rate_limit_delay(_status_error(429, {"retry-after": "Wed, 21 Oct 2026 07:28:00 GMT"})) == 5.0
+
+
+def test_only_429_counts_as_a_rate_limit() -> None:
+    """Other failures must keep the normal retry budget and be reported as-is."""
+    assert rate_limit_delay(_status_error(404)) is None
+    assert rate_limit_delay(_status_error(503)) is None
+    assert rate_limit_delay(PageError("no payload")) is None

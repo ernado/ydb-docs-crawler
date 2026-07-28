@@ -46,6 +46,27 @@ SITE = "https://ydb.tech"
 DOCS_BASE = f"{SITE}/docs/"
 DEFAULT_UA = "ydb-docs-crawler/1.0 (+https://ydb.tech/docs)"
 ALL_LANGS = ["en", "ru"]
+#: Statuses worth another attempt rather than reporting as the page's verdict.
+RETRY_STATUSES = frozenset({429, 500, 502, 503, 504})
+#: How many times to wait out a rate limit before giving up on a page.
+RATE_LIMIT_RETRIES = 6
+
+
+def rate_limit_delay(exc: BaseException) -> float | None:
+    """Seconds to wait if ``exc`` is a rate limit, else None.
+
+    Honours ``Retry-After`` when the server sends one; otherwise backs off
+    linearly, which is gentler on a public site than hammering it again.
+    """
+    response = getattr(exc, "response", None)
+    if response is None or response.status_code != 429:
+        return None
+    retry_after = response.headers.get("retry-after", "")
+    try:
+        return max(1.0, min(60.0, float(retry_after)))
+    except ValueError:
+        return 5.0
+
 
 # --------------------------------------------------------------------------- #
 # __DATA__ extraction
@@ -902,6 +923,7 @@ def render_page(
 @dataclass
 class Stats:
     fetched: int = 0
+    throttled: int = 0
     cached: int = 0
     written: int = 0
     unchanged: int = 0
@@ -950,10 +972,11 @@ class Crawler:
 
         url = doc_path_to_url(doc_path, self.args.version)
         last: Exception | None = None
-        for attempt in range(self.args.retries + 1):
+        attempt = throttled = 0
+        while True:
             try:
                 resp = await client.get(url)
-                if resp.status_code in {429, 500, 502, 503, 504}:
+                if resp.status_code in RETRY_STATUSES:
                     raise httpx.HTTPStatusError(
                         f"HTTP {resp.status_code}", request=resp.request, response=resp
                     )
@@ -967,8 +990,21 @@ class Crawler:
                 return props
             except (httpx.HTTPError, PageError) as exc:
                 last = exc
-                if attempt < self.args.retries:
-                    await asyncio.sleep(min(2**attempt, 10) * 0.5)
+                delay = rate_limit_delay(exc)
+                if delay is not None:
+                    # Being throttled says nothing about the page, so it gets its
+                    # own budget: giving up here would report a rate limit as if
+                    # it were the page's real status.
+                    throttled += 1
+                    if throttled > RATE_LIMIT_RETRIES:
+                        break
+                    self.stats.throttled += 1
+                    await asyncio.sleep(delay)
+                    continue
+                attempt += 1
+                if attempt > self.args.retries:
+                    break
+                await asyncio.sleep(min(2**attempt, 10) * 0.5)
         raise PageError(f"{url}: {last}")
 
     def write(self, path: Path, content: str | bytes) -> bool:
@@ -1322,7 +1358,7 @@ async def crawl_all(args: argparse.Namespace) -> int:
     print(
         f"\ndone: {len(pages)} pages "
         f"(fetched {stats.fetched}, cached {stats.cached}, written {stats.written}, "
-        f"unchanged {stats.unchanged}, failed {stats.failed}) → {out}",
+        f"unchanged {stats.unchanged}, throttled {stats.throttled}, failed {stats.failed}) → {out}",
         file=sys.stderr,
     )
     if removed:

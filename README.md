@@ -110,8 +110,13 @@ whatever changed. Two properties make that safe to run unattended:
 - **An unchanged site produces no commit.** Nothing in the output records the
   wall clock, so a re-scrape of the same docs revision is byte-identical.
 - **A broken scrape cannot destroy the mirror.** `--min-pages 1200` aborts
-  before writing anything if the crawl comes back short, and `--prune` only
-  runs after that guard passes.
+  before writing anything if the crawl comes back short, `--prune` only runs
+  after that guard passes, and a page whose fetch failed is never pruned — a
+  hiccup at the other end must not delete good documentation.
+
+Rate limiting gets its own retry budget (honouring `Retry-After`) so a 429 is
+waited out rather than recorded as the page's status, which would otherwise show
+up as phantom churn in the manifest.
 
 It can also be triggered by hand from the Actions tab, with a version and
 language to crawl.
