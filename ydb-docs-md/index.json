@@ -16069,7 +16069,7 @@
     {
       "lang": "ru",
       "doc_path": "ru/recipes/ydb-sdk/debug-logs",
-      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-logs?version=v26.1: HTTP 429"
+      "error": "https://ydb.tech/docs/ru/recipes/ydb-sdk/debug-logs?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/ru/reference/ydb-sdk/observability/logging/logging?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "lang": "ru",
