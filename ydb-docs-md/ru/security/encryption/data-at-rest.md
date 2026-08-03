@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/security/encryption/data-at-rest.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/security/encryption/data-at-rest.md"
 description: "YDB поддерживает прозрачное шифрование данных на уровне прокси распределённого хранилища с использованием алгоритма ChaCha8. YDB включает две реализации этого а"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Шифрование данных при хранении

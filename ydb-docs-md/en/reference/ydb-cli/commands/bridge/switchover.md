@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/bridge/switchover.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/bridge/switchover.md"
 description: "Feature of Yandex Enterprise Database. This functionality is available only in the Yandex Enterprise Database. In the open-source version of YDB it is absent."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # admin cluster bridge switchover

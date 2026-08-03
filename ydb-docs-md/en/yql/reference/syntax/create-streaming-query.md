@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create-streaming-query.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-streaming-query.md"
 description: "CREATE STREAMING QUERY creates a streaming query. Syntax."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # CREATE STREAMING QUERY
 
-`CREATE STREAMING QUERY` creates a [streaming query](../../../concepts/streaming-query.md).
+`CREATE STREAMING QUERY` creates a [streaming query](../../../concepts/streaming-query/streaming-query.md).
 
 ## Syntax
 
@@ -35,7 +35,7 @@ END DO
 - `IF NOT EXISTS` — do not fail if a streaming query with this name already exists; leave the existing query unchanged.
 - `query_name` — name of the streaming query to create.
 - `WITH (<key> = <value>)` — optional list of settings for the new streaming query.
-- `AS DO BEGIN ... END DO` — full query text including all SQL statements. Limitations are described in [Limitations](../../../concepts/streaming-query.md#limitations); examples are [below](create-streaming-query.md#examples).
+- `AS DO BEGIN ... END DO` — full query text including all SQL statements. Limitations are described in [Limitations](../../../concepts/streaming-query/streaming-query.md#limitations); examples are [below](create-streaming-query.md#examples).
 
 You cannot use `OR REPLACE` and `IF NOT EXISTS` together.
 
@@ -99,7 +99,7 @@ END DO
 The query reads events from a topic and writes them to `output_table`. Create the table beforehand with a matching schema.
 
 > [!WARNING]
-> Table writes in streaming queries support **UPSERT only**. `INSERT INTO` is not supported: with [at-least-once](../../../concepts/streaming-query.md#guarantees) retries, it would duplicate rows. With `UPSERT`, an existing row with the same primary key is updated; otherwise a row is inserted, while `INSERT INTO` fails.
+> Table writes in streaming queries support **UPSERT only**. `INSERT INTO` is not supported: with [at-least-once](../../../concepts/streaming-query/streaming-query.md#guarantees) retries, it would duplicate rows. With `UPSERT`, an existing row with the same primary key is updated; otherwise a row is inserted, while `INSERT INTO` fails.
 
 ```sql
 CREATE STREAMING QUERY my_streaming_query AS
@@ -159,6 +159,6 @@ More examples: [Common streaming query patterns](../../../dev/streaming-query/pa
 ## See also
 
 - [Common streaming query patterns](../../../dev/streaming-query/patterns.md)
-- [Streaming queries](../../../concepts/streaming-query.md)
+- [Streaming queries](../../../concepts/streaming-query/streaming-query.md)
 - [ALTER STREAMING QUERY](alter-streaming-query.md)
 - [DROP STREAMING QUERY](drop-streaming-query.md)

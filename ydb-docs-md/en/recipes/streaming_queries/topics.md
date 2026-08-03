@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/recipes/streaming_queries/topics.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/streaming_queries/topics.md"
 description: "This tutorial walks you through your first streaming query. The query will: Read events from an input topic; Keep only errors;"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Quickstart: reading and writing topics
 
-This tutorial walks you through your first [streaming query](../../concepts/streaming-query.md).
+This tutorial walks you through your first [streaming query](../../concepts/streaming-query/streaming-query.md).
 
 The query will:
 
@@ -102,7 +102,7 @@ CREATE EXTERNAL DATA SOURCE ydb_source WITH (
 
 ## Step 3. Create the streaming query {#step3}
 
-Create a [streaming query](../../concepts/streaming-query.md) with [CREATE STREAMING QUERY](../../yql/reference/syntax/create-streaming-query.md):
+Create a [streaming query](../../concepts/streaming-query/streaming-query.md) with [CREATE STREAMING QUERY](../../yql/reference/syntax/create-streaming-query.md):
 
 ```sql
 CREATE STREAMING QUERY query_example AS
@@ -146,7 +146,7 @@ More detail:
 
 ## Step 4. Check query state {#step4}
 
-Inspect the `.sys/streaming_queries` system view [View streaming query metadata](../../dev/system-views.md#streaming_queries):
+Inspect the `.sys/streaming_queries` system view [Viewing information about streaming queries](../../dev/system-views.md#streaming_queries):
 
 ```sql
 SELECT
@@ -203,5 +203,5 @@ DROP STREAMING QUERY query_example;
 
 ## See also
 
-- [Streaming queries](../../concepts/streaming-query.md);
+- [Streaming queries](../../concepts/streaming-query/streaming-query.md);
 - [Topic read and write formats](../../dev/streaming-query/streaming-query-formats.md).

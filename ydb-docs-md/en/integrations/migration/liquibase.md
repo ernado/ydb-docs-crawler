@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/migration/liquibase.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/migration/liquibase.md"
 description: "Introduction."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Migrating YDB data schemas with the Liquibase migration tool

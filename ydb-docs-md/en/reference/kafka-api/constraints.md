@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/kafka-api/constraints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/kafka-api/constraints.md"
 description: "YDB supports Apache Kafka protocol version 3.4.0 with the following constraints: Only SASL/PLAIN authentication is supported."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Kafka API constraints

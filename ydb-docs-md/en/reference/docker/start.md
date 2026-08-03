@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/docker/start.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/start.md"
 description: "Before start. Create a folder for testing YDB and use it as the current working directory: mkdir ~/ydbd && cd ~/ydbd mkdir ydb_data mkdir ydb_certs."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Running YDB in Docker

@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/drop-streaming-query.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/drop-streaming-query.md"
 description: "DROP STREAMING QUERY deletes a streaming query. Syntax. DROP STREAMING QUERY [IF EXISTS ] < query_name >. Parameters."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # DROP STREAMING QUERY
 
-`DROP STREAMING QUERY` deletes a [streaming query](../../../concepts/streaming-query.md).
+`DROP STREAMING QUERY` deletes a [streaming query](../../../concepts/streaming-query/streaming-query.md).
 
 ## Syntax
 
@@ -43,6 +43,6 @@ DROP STREAMING QUERY my_streaming_query
 
 ## See also
 
-- [Streaming queries](../../../concepts/streaming-query.md)
+- [Streaming queries](../../../concepts/streaming-query/streaming-query.md)
 - [CREATE STREAMING QUERY](create-streaming-query.md)
 - [ALTER STREAMING QUERY](alter-streaming-query.md)

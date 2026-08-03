@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/index.md"
 description: "This section contains guidelines for YDB developers and contributors. Working on a change. Build and test using Ya Make build system. Releases."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # YDB Development

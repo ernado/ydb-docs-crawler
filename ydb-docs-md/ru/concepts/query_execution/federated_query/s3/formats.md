@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/s3/formats.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/s3/formats.md"
 description: "В данном разделе описываются поддерживаемые в YDB форматы данных, хранимых в S3, поддерживаемые алгоритмы сжатия и список поддерживаемых YQL типов для каждого ф"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Форматы данных и алгоритмы сжатия

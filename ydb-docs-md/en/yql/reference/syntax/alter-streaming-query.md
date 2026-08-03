@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter-streaming-query.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-streaming-query.md"
 description: "ALTER STREAMING QUERY changes settings of streaming queries and controls their lifecycle (start and stop). Syntax."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # ALTER STREAMING QUERY
 
-`ALTER STREAMING QUERY` changes settings of [streaming queries](../../../concepts/streaming-query.md) and controls their lifecycle (start and stop).
+`ALTER STREAMING QUERY` changes settings of [streaming queries](../../../concepts/streaming-query/streaming-query.md) and controls their lifecycle (start and stop).
 
 ## Syntax
 
@@ -78,7 +78,7 @@ ALTER STREAMING QUERY my_streaming_query SET (
 
 ### Query status {#status-of-query}
 
-Current status is available in the `Status` column of the `.sys/streaming_queries` system view [View streaming query metadata](../../../dev/system-views.md#streaming_queries):
+Current status is available in the `Status` column of the ⟦C2⟧ system view [System database views](../../../dev/system-views.md):
 
 ```sql
 SELECT
@@ -102,10 +102,10 @@ Possible status values:
 
 After successful DDL for create or alter, status is guaranteed to be `CREATED`, `STARTING`, `RUNNING`, `STOPPED`, or `SUSPENDED` depending on `RUN = (TRUE|FALSE)` and whether startup succeeded.
 
-More examples for other data formats: [Topic read and write formats](../../../dev/streaming-query/streaming-query-formats.md). For capabilities and limitations of streaming queries, see [Streaming queries](../../../concepts/streaming-query.md).
+More examples for other data formats: [Topic read and write formats](../../../dev/streaming-query/streaming-query-formats.md). For capabilities and limitations of streaming queries, see [Streaming queries](../../../concepts/streaming-query/streaming-query.md).
 
 ## See also
 
-- [Streaming queries](../../../concepts/streaming-query.md)
+- [Streaming queries](../../../concepts/streaming-query/streaming-query.md)
 - [CREATE STREAMING QUERY](create-streaming-query.md)
 - [DROP STREAMING QUERY](drop-streaming-query.md)

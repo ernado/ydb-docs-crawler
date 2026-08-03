@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydbops/rolling-restart-scenario.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydbops/rolling-restart-scenario.md"
 description: "Примечание. Утилита ydbops находится в активной разработке. В редких случаях обратная совместимость может быть нарушена."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Выполнение перезапуска кластера YDB с помощью ydbops

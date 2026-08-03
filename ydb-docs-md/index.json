@@ -4,20 +4,20 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "e9f541853a7760e5c0d0babc071d86df7f523cf5",
-      "page_count": 727,
+      "revision": "95f7629e80402dd261127ed00cdc781d2b8433de",
+      "page_count": 730,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "e9f541853a7760e5c0d0babc071d86df7f523cf5",
+      "revision": "95f7629e80402dd261127ed00cdc781d2b8433de",
       "page_count": 728,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
     }
   ],
-  "page_count": 1455,
+  "page_count": 1458,
   "pages": [
     {
       "doc_path": "en/",
@@ -221,11 +221,11 @@
       "doc_path": "en/concepts/",
       "url": "https://ydb.tech/docs/en/concepts/?version=v26.1",
       "file": "en/concepts/index.md",
-      "title": "YDB Concepts",
-      "description": "This documentation section covers the fundamental concepts and architectural principles behind YDB. This information will help you better understand what's goin",
+      "title": "Concepts YDB",
+      "description": "This documentation section covers the fundamental concepts and architectural principles of YDB. This information will help you better understand what happens wh",
       "source_path": "en/core/concepts/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/index.md",
-      "bytes": 1933,
+      "bytes": 1807,
       "lang": "en"
     },
     {
@@ -533,7 +533,7 @@
       "description": "This article is an overview of terms and definitions used in YDB and its documentation. It starts with key terms that will be useful to get acquainted with earl",
       "source_path": "en/core/concepts/glossary.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/glossary.md",
-      "bytes": 66968,
+      "bytes": 67521,
       "lang": "en"
     },
     {
@@ -544,7 +544,7 @@
       "description": " Database Limits. This section describes the parameters of limits set in YDB. Schema Object Limits.",
       "source_path": "en/core/concepts/limits-ydb.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/limits-ydb.md",
-      "bytes": 6131,
+      "bytes": 6619,
       "lang": "en"
     },
     {
@@ -566,7 +566,7 @@
       "description": "This article provides an overview of query execution in YDB. It is intended to familiarize users with the capabilities and limitations of YDB's query execution ",
       "source_path": "en/core/concepts/query_execution/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/index.md",
-      "bytes": 12163,
+      "bytes": 12203,
       "lang": "en"
     },
     {
@@ -834,14 +834,36 @@
       "lang": "en"
     },
     {
-      "doc_path": "en/concepts/streaming-query",
-      "url": "https://ydb.tech/docs/en/concepts/streaming-query?version=v26.1",
-      "file": "en/concepts/streaming-query.md",
+      "doc_path": "en/concepts/streaming-query/",
+      "url": "https://ydb.tech/docs/en/concepts/streaming-query/?version=v26.1",
+      "file": "en/concepts/streaming-query/index.md",
+      "title": "Streaming data processing",
+      "description": " This section describes the key concepts of stream processing ( stream processing ) in YDB:",
+      "source_path": "en/core/concepts/streaming-query/index.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/streaming-query/index.md",
+      "bytes": 988,
+      "lang": "en"
+    },
+    {
+      "doc_path": "en/concepts/streaming-query/streaming-query",
+      "url": "https://ydb.tech/docs/en/concepts/streaming-query/streaming-query?version=v26.1",
+      "file": "en/concepts/streaming-query/streaming-query.md",
       "title": "Streaming queries",
-      "description": "A streaming query is a query type designed for continuous processing of unbounded data ( stream processing ). Unlike regular queries, a streaming query does not",
-      "source_path": "en/core/concepts/streaming-query.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/streaming-query.md",
-      "bytes": 8159,
+      "description": "A streaming query is a type of query designed for continuous processing of an unbounded data stream ( stream processing ). Unlike regular queries, a streaming q",
+      "source_path": "en/core/concepts/streaming-query/streaming-query.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/streaming-query/streaming-query.md",
+      "bytes": 7924,
+      "lang": "en"
+    },
+    {
+      "doc_path": "en/concepts/streaming-query/watermarks",
+      "url": "https://ydb.tech/docs/en/concepts/streaming-query/watermarks?version=v26.1",
+      "file": "en/concepts/streaming-query/watermarks.md",
+      "title": "Watermarks",
+      "description": "A watermark in stream processing ( stream processing ) is a monotonically increasing lower bound on the event times that may still arrive in the stream. When th",
+      "source_path": "en/core/concepts/streaming-query/watermarks.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/streaming-query/watermarks.md",
+      "bytes": 2667,
       "lang": "en"
     },
     {
@@ -1468,7 +1490,7 @@
       "description": " Practical guidance for working with streaming queries: Common patterns — minimal examples to get started quickly.",
       "source_path": "en/core/dev/streaming-query/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/index.md",
-      "bytes": 1373,
+      "bytes": 1464,
       "lang": "en"
     },
     {
@@ -1479,7 +1501,7 @@
       "description": "A checkpoint is persisted state of a running streaming query, used to recover processing after failures. YDB periodically checkpoints all running streaming quer",
       "source_path": "en/core/dev/streaming-query/checkpoints.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/checkpoints.md",
-      "bytes": 3544,
+      "bytes": 3583,
       "lang": "en"
     },
     {
@@ -1490,18 +1512,18 @@
       "description": "Data enrichment means attaching additional information from a lookup to events in the stream. For example, an event may only contain an ID, while a lookup provi",
       "source_path": "en/core/dev/streaming-query/enrichment.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/enrichment.md",
-      "bytes": 5253,
+      "bytes": 5307,
       "lang": "en"
     },
     {
       "doc_path": "en/dev/streaming-query/guarantees",
       "url": "https://ydb.tech/docs/en/dev/streaming-query/guarantees?version=v26.1",
       "file": "en/dev/streaming-query/guarantees.md",
-      "title": "Delivery guarantees",
-      "description": "Delivery guarantees define how many times each event from the input topic is processed by a streaming query. Understanding them is essential when you design dat",
+      "title": "Data delivery guarantees",
+      "description": "Delivery guarantees determine how many times each event from the input topic will be processed by a streaming query. Understanding the system's guarantees is cr",
       "source_path": "en/core/dev/streaming-query/guarantees.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/guarantees.md",
-      "bytes": 6408,
+      "bytes": 6316,
       "lang": "en"
     },
     {
@@ -1512,7 +1534,7 @@
       "description": "This section collects minimal examples of streaming queries for typical scenarios. It starts with a basic topic read, then shows end-to-end processing: handling",
       "source_path": "en/core/dev/streaming-query/patterns.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/patterns.md",
-      "bytes": 5129,
+      "bytes": 5161,
       "lang": "en"
     },
     {
@@ -1534,18 +1556,29 @@
       "description": "Writing to tables lets you persist streaming query results for analysis with regular SQL. For example, you can aggregate events from a stream and store summarie",
       "source_path": "en/core/dev/streaming-query/table-writing.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/table-writing.md",
-      "bytes": 2241,
+      "bytes": 2286,
+      "lang": "en"
+    },
+    {
+      "doc_path": "en/dev/streaming-query/watermarks",
+      "url": "https://ydb.tech/docs/en/dev/streaming-query/watermarks?version=v26.1",
+      "file": "en/dev/streaming-query/watermarks.md",
+      "title": "Watermarks",
+      "description": "Watermark — a monotonically increasing lower bound on event times in the stream (more about the concept: Watermarks ). This section describes the configuration ",
+      "source_path": "en/core/dev/streaming-query/watermarks.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/watermarks.md",
+      "bytes": 9135,
       "lang": "en"
     },
     {
       "doc_path": "en/dev/system-views",
       "url": "https://ydb.tech/docs/en/dev/system-views?version=v26.1",
       "file": "en/dev/system-views.md",
-      "title": "Database system views",
-      "description": "To obtain service information about the state of the database, you can access system views. They are accessible from the root of the database tree and use the s",
+      "title": "System database views",
+      "description": "To obtain system information about the database state, you can refer to system views. They are available from the root of the database tree and use the system p",
       "source_path": "en/core/dev/system-views.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/system-views.md",
-      "bytes": 28236,
+      "bytes": 34831,
       "lang": "en"
     },
     {
@@ -1795,7 +1828,7 @@
       "url": "https://ydb.tech/docs/en/devops/concepts/?version=v26.1",
       "file": "en/devops/concepts/index.md",
       "title": "Concepts for DevOps Engineers",
-      "description": " This section supplements the general YDB Concepts section with theoretical materials primarily relevant for DevOps engineers. Main topics:",
+      "description": " This section supplements the general Concepts YDB section with theoretical materials primarily relevant for DevOps engineers. Main topics:",
       "source_path": "en/core/devops/concepts/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/concepts/index.md",
       "bytes": 1142,
@@ -3602,7 +3635,7 @@
       "description": " This section contains recipes for working with streaming queries. Contents: Quickstart: reading and writing topics. Debug reads from a topic.",
       "source_path": "en/core/recipes/streaming_queries/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/streaming_queries/index.md",
-      "bytes": 814,
+      "bytes": 830,
       "lang": "en"
     },
     {
@@ -3613,7 +3646,7 @@
       "description": "When developing streaming queries, it is often useful to inspect what arrives in a topic without creating a full streaming query. Run a regular SELECT with STRE",
       "source_path": "en/core/recipes/streaming_queries/debug-read.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/streaming_queries/debug-read.md",
-      "bytes": 2226,
+      "bytes": 2257,
       "lang": "en"
     },
     {
@@ -3624,7 +3657,7 @@
       "description": " This tutorial walks you through your first streaming query. The query will: Read events from an input topic; Keep only errors;",
       "source_path": "en/core/recipes/streaming_queries/topics.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/streaming_queries/topics.md",
-      "bytes": 6658,
+      "bytes": 6720,
       "lang": "en"
     },
     {
@@ -3888,7 +3921,7 @@
       "description": "YDB supports bulk insert of many rows without atomicity guarantees. The write is split into several independent transactions, each touching a single partition, ",
       "source_path": "en/core/recipes/ydb-sdk/bulk-upsert.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/bulk-upsert.md",
-      "bytes": 5610,
+      "bytes": 23834,
       "lang": "en"
     },
     {
@@ -6638,7 +6671,7 @@
       "description": " ALTER STREAMING QUERY changes settings of streaming queries and controls their lifecycle (start and stop). Syntax.",
       "source_path": "en/core/yql/reference/syntax/alter-streaming-query.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-streaming-query.md",
-      "bytes": 3751,
+      "bytes": 3757,
       "lang": "en"
     },
     {
@@ -6979,7 +7012,7 @@
       "description": " CREATE STREAMING QUERY creates a streaming query. Syntax.",
       "source_path": "en/core/yql/reference/syntax/create-streaming-query.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-streaming-query.md",
-      "bytes": 6036,
+      "bytes": 6100,
       "lang": "en"
     },
     {
@@ -7232,7 +7265,7 @@
       "description": " DROP STREAMING QUERY deletes a streaming query. Syntax. DROP STREAMING QUERY [IF EXISTS ] < query_name >. Parameters.",
       "source_path": "en/core/yql/reference/syntax/drop-streaming-query.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/drop-streaming-query.md",
-      "bytes": 1404,
+      "bytes": 1436,
       "lang": "en"
     },
     {
@@ -7507,7 +7540,7 @@
       "description": " GROUP BY.",
       "source_path": "en/core/yql/reference/syntax/select/group-by.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/group-by.md",
-      "bytes": 14920,
+      "bytes": 21444,
       "lang": "en"
     },
     {
@@ -7569,11 +7602,11 @@
       "doc_path": "en/yql/reference/syntax/select/streaming",
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/select/streaming?version=v26.1",
       "file": "en/yql/reference/syntax/select/streaming.md",
-      "title": "Streaming reads from a topic",
+      "title": "Streaming read from a topic",
       "description": "You can read from a topic with a regular SELECT without creating a streaming query. Set STREAMING = TRUE in the WITH block and limit output rows with LIMIT; oth",
       "source_path": "en/core/yql/reference/syntax/select/streaming.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/streaming.md",
-      "bytes": 1730,
+      "bytes": 1785,
       "lang": "en"
     },
     {
@@ -7647,10 +7680,10 @@
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/select/with?version=v26.1",
       "file": "en/yql/reference/syntax/select/with.md",
       "title": "WITH",
-      "description": " It's set after the data source in FROM and is used for additional hints for tables. You can't use hints for subqueries and named expressions.",
+      "description": " Specified after the data source in FROM and used to provide additional hints for table usage. Hints cannot be specified for subqueries and named expressions.",
       "source_path": "en/core/yql/reference/syntax/select/with.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/with.md",
-      "bytes": 4936,
+      "bytes": 6699,
       "lang": "en"
     },
     {
@@ -8530,7 +8563,7 @@
       "description": " Ограничения базы данных. В разделе описаны параметры ограничений, установленных в YDB. Ограничения объектов схемы.",
       "source_path": "ru/core/concepts/limits-ydb.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/limits-ydb.md",
-      "bytes": 10785,
+      "bytes": 11314,
       "lang": "ru"
     },
     {
@@ -8838,7 +8871,7 @@
       "description": "Watermark в потоковой обработке данных ( stream processing ) — это монотонно возрастающая нижняя оценка времён событий, которые ещё могут поступить в поток. Ког",
       "source_path": "ru/core/concepts/streaming-query/watermarks.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/streaming-query/watermarks.md",
-      "bytes": 3029,
+      "bytes": 4153,
       "lang": "ru"
     },
     {
@@ -9564,7 +9597,7 @@
       "description": "Watermark — монотонно возрастающая нижняя оценка времён событий в потоке (подробнее о концепции: Watermarks ). В данном разделе описана настройка watermarks в п",
       "source_path": "ru/core/dev/streaming-query/watermarks.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/watermarks.md",
-      "bytes": 13178,
+      "bytes": 13249,
       "lang": "ru"
     },
     {
@@ -10895,7 +10928,7 @@
       "description": " Введение.",
       "source_path": "ru/core/integrations/migration/flyway.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/migration/flyway.md",
-      "bytes": 21041,
+      "bytes": 22103,
       "lang": "ru"
     },
     {

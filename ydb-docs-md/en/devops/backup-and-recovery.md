@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/backup-and-recovery.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/backup-and-recovery.md"
 description: "YDB is designed to preserve data against hardware failures: redundancy options are available for various numbers of availability zones, racks, hosts, disks, and"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Backup and Recovery

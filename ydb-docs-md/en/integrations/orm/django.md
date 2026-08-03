@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/orm/django.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/orm/django.md"
 description: "Django is a popular Python web framework with a powerful ORM for working with databases."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Django

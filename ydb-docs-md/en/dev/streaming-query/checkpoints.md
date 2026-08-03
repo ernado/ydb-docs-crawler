@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/dev/streaming-query/checkpoints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/checkpoints.md"
 description: "A checkpoint is persisted state of a running streaming query, used to recover processing after failures. YDB periodically checkpoints all running streaming quer"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Checkpoints
 
-A **checkpoint** is persisted state of a running [streaming query](../../concepts/streaming-query.md), used to recover processing after failures. YDB periodically checkpoints all running streaming queries.
+A **checkpoint** is persisted state of a running [streaming query](../../concepts/streaming-query/streaming-query.md), used to recover processing after failures. YDB periodically checkpoints all running streaming queries.
 
 ## Checkpoint contents {#contents}
 
@@ -35,9 +35,9 @@ Saving and selecting checkpoints for recovery is automatic. Old checkpoints are 
 
 When you delete a query ([DROP STREAMING QUERY](../../yql/reference/syntax/drop-streaming-query.md)), its checkpoint is deleted with it. Because offsets live only in the checkpoint, a new query ([CREATE STREAMING QUERY](../../yql/reference/syntax/create-streaming-query.md)) has no saved position and starts reading from the end of the topic. Events that arrived between deleting the old query and starting the new one are not read.
 
-The same happens if data referenced by an offset in the checkpoint has already been removed from the topic due to [TTL](../../concepts/datamodel/topic.md#retention-time).
+The same happens if data referenced by an offset in the checkpoint has already been removed from the topic due to [TTL](../../concepts/datamodel/topic.md#message-retention).
 
-For how this affects delivery guarantees, see [Lost events when recreating a query](guarantees.md#incomplete-windows-restart).
+For how this affects delivery guarantees, see [Event loss when recreating a query](guarantees.md#incomplete-windows-restart).
 
 ## Disabling checkpoints {#disable}
 
@@ -64,5 +64,5 @@ END DO
 
 ## See also
 
-- [Delivery guarantees](guarantees.md) — delivery guarantees and anomalies.
-- [Streaming queries](../../concepts/streaming-query.md) — streaming queries overview.
+- [Data delivery guarantees](guarantees.md) — delivery guarantees and anomalies.
+- [Streaming queries](../../concepts/streaming-query/streaming-query.md) — streaming queries overview.

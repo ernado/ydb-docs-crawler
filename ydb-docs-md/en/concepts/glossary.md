@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/glossary.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/glossary.md"
 description: "This article is an overview of terms and definitions used in YDB and its documentation. It starts with key terms that will be useful to get acquainted with earl"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # YDB glossary
@@ -137,13 +137,17 @@ Logical "connections" to the database that maintains the context needed to execu
 
 ### Streaming queries {#streaming-query}
 
-A query type designed for [stream processing](https://en.wikipedia.org/wiki/Stream_processing) of unbounded data. Unlike regular queries, streaming queries have no execution time limit, restart automatically on failures, and periodically persist their state as [checkpoints](glossary.md#streaming-queries-checkpoints) for fault tolerance.
+A query type designed for [stream processing](https://en.wikipedia.org/wiki/Stream_processing) of unbounded data. Unlike regular queries, streaming queries have no execution time limit, restart automatically on failures, and periodically persist their state as [checkpoints](glossary.md#streaming-queries-checkpoints) for fault tolerance. [Watermarks](glossary.md#streaming-queries-watermarks) are used to track processing progress based on event time.
 
-Streaming queries are described in more detail in [Streaming queries](streaming-query.md).
+Streaming queries are described in more detail in [Streaming queries](streaming-query/streaming-query.md).
 
 ### Streaming query checkpoints {#streaming-queries-checkpoints}
 
 Periodically persisted state of a [streaming query](glossary.md#streaming-query), required to automatically recover execution after failures in a distributed system. For more information about checkpoints, see [Checkpoints](../dev/streaming-query/checkpoints.md).
+
+### Streaming query watermarks {#streaming-queries-watermarks}
+
+A monotonically increasing lower bound on the event times in a [streaming query](glossary.md#streaming-query) that may still arrive in the stream. When the watermark reaches value X, the system declares that all events with time less than X have been received with high probability. For more details on watermarks, see [Watermarks](streaming-query/watermarks.md).
 
 ### Topology
 
@@ -208,7 +212,7 @@ A special type of **secondary index** is singled out separately - [vector index]
 
 A **column family** or **column group** is a feature that allows storing a subset of [row-oriented table](glossary.md#row-oriented-table) columns separately in a distinct family or group. The primary use case is to store some columns on different kinds of disk drives (offload less important columns to HDD) or with various compression settings. If the workload requires many column families, consider using [column-oriented tables](glossary.md#column-oriented-table) instead.
 
-#### Time to live {#ttl}
+#### Time to Live {#ttl}
 
 **Time to live** or **TTL** is a mechanism for automatically removing old rows from a table asynchronously in the background. It is explained in a separate article [Time to Live (TTL) and Eviction to External Storage](ttl.md).
 
@@ -224,7 +228,7 @@ A **user-defined view** is created by a user with the [CREATE VIEW](../yql/refer
 
 #### System view
 
-**System views** are special views automatically created by the system for monitoring the state of the database and cluster. They are located in a special directory `.sys` in the root folder of each database. System views for databases are described in [Database system views](../dev/system-views.md); system views for the cluster, as well as access control issues for them, are described in [Cluster System Views](../devops/observability/system-views.md).
+**System views** are special views automatically created by the system for monitoring the state of the database and cluster. They are located in a special directory `.sys` in the root folder of each database. System views for databases are described in [System database views](../dev/system-views.md); system views for the cluster, as well as access control issues for them, are described in [Cluster System Views](../devops/observability/system-views.md).
 
 ### Topic
 
@@ -325,7 +329,7 @@ An **external table** is a piece of metadata that describes a particular dataset
 
 A **secret** is a sensitive piece of metadata that requires special handling. For example, secrets can be used in [external data source](glossary.md#external-data-source) definitions and represent things like passwords and tokens.
 
-### Authentication token {#auth-token}
+### Auth token
 
 An **authentication token** or **auth token** is a token that YDB uses for [authentication](../security/authentication.md).
 
@@ -723,7 +727,7 @@ A **fail realm** is a set of [fail domains](glossary.md#fail-domain) that are li
 
 An example of a fail realm is a set of hardware located in the same [data center or availability zone](glossary.md#regions-az) that can all fail together due to a natural disaster, major power outage, or similar event.
 
-#### Fail domain
+#### Failure domain {#fail-domain}
 
 A **fail domain** is a set of hardware that may fail simultaneously. The correlated failure of two [VDisks](glossary.md#vdisk) within the same fail domain is more probable than the failure of two VDisks from different fail domains. In the case of different fail domains, this probability is also affected by whether these domains belong to the same [fail realm](glossary.md#fail-realm) or not.
 

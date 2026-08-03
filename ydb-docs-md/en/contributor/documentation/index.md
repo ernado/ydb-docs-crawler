@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/documentation/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/documentation/index.md"
 description: "YDB follows the \"Documentation as Code\" approach, meaning that the YDB documentation is developed using similar techniques and tools as its main C++ source code"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Contributing to YDB documentation

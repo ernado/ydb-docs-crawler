@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/index.md"
 description: "This section of YDB documentation covers everything you need to know to develop applications interacting with YDB. Main resources:"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # YDB for Application Developers / Software Engineers
@@ -35,7 +35,7 @@ Main resources:
 
 - [Using timeouts](timeouts.md)
 
-- [Database system views](system-views.md)
+- [System database views](system-views.md)
 
 - [Change Data Capture](cdc.md)
 

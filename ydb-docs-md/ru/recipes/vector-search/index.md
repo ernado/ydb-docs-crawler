@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/vector-search/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/vector-search/index.md"
 description: "Этот раздел содержит рецепты работы с векторными индексами. Содержание: Векторный индекс — быстрый старт. Векторный индекс с загрузкой внешнего набора данных."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Рецепты работы с векторными индексами

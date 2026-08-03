@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/migration/flyway.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/migration/flyway.md"
 description: "Введение."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Миграции схемы данных YDB с помощью Flyway
@@ -103,6 +103,50 @@ db/migration:
 {% list tabs %}
 
 - V1__create_series.sql
+
+  ```yql
+    CREATE TABLE series -- series is the table name.
+    (                           -- Must be unique within the folder.
+        series_id    Int64,
+        title        Text,
+        series_info  Text,
+        release_date Int64,
+        PRIMARY KEY (series_id) -- The primary key is a column or
+        -- combination of columns that uniquely identifies
+        -- each table row (contains only
+        -- non-repeating values). A table can have
+        -- only one primary key. For every table
+        -- in YDB, the primary key is required.
+    );
+  ```
+
+- V2__create_seasons.sql
+
+  ```yql
+    CREATE TABLE seasons
+    (
+        series_id Uint64,
+        season_id Uint64,
+        title Utf8,
+        first_aired Uint64,
+        last_aired Uint64,
+        PRIMARY KEY (series_id, season_id)
+    );
+  ```
+
+- V3__create_episodes.sql
+
+  ```yql
+  CREATE TABLE episodes
+  (
+      series_id Uint64,
+      season_id Uint64,
+      episode_id Uint64,
+      title Utf8,
+      air_date Uint64,
+      PRIMARY KEY (series_id, season_id, episode_id)
+  );
+  ```
 
 {% endlist %}
 

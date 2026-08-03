@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/transfer/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/transfer/index.md"
 description: "В этом разделе собраны практические примеры настройки трансфера данных из топиков в таблицы. Содержание: Трансфер — быстрый старт."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Рецепты работы с трансфером данных из топика в таблицу

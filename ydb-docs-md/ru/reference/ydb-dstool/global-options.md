@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-dstool/global-options.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-dstool/global-options.md"
 description: "Глобальные параметры являются общими для всех подкоманд утилиты YDB DSTool. Параметр Описание. -?, -h, --help. Вывести встроенную справку. -v, --verbose."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Глобальные параметры

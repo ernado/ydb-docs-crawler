@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/install.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/install.md"
 description: "Установка YDB CLI. Linux. macOS. Windows. Чтобы установить YDB CLI, выполните команду: curl -sSL https://install.ydb.tech/cli | bash."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Установка YDB CLI

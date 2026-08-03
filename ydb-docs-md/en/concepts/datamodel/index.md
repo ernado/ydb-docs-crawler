@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/index.md"
 description: "YDB supports the following types of schema objects: Directories. Tables. Views. Topics. Coordination nodes. Secrets. External tables. External data sources."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # YDB Schema Objects
@@ -27,5 +27,5 @@ Schema objects are placed within the [cluster namespace](cluster-namespace.md) a
 
 ## See Also
 
-- [YDB Concepts](../index.md)
+- [Concepts YDB](../index.md)
 - [YDB Cluster Topology](../topology.md)

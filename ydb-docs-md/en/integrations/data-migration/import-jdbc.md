@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/data-migration/import-jdbc.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/data-migration/import-jdbc.md"
 description: "Introduction."
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Importing table structures and data from JDBC data sources to YDB

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/streaming-query/watermarks.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/watermarks.md"
 description: "Watermark — монотонно возрастающая нижняя оценка времён событий в потоке (подробнее о концепции: Watermarks ). В данном разделе описана настройка watermarks в п"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Watermarks
@@ -27,13 +27,13 @@ Watermark используется операциями, зависящими о
 
 ## Вычисление watermark {#watermark-computation}
 
-Когда система получает событие, она обновляет watermark — **продвигает** его вперёд по временной оси. Watermark вычисляется как `максимальное наблюдаемое время события − delay`, где `delay` — величина отставания, заданная в выражении [`WATERMARK`](watermarks.md#configuration) (например, `Interval("PT5S")` в `WATERMARK = __ydb_write_time - Interval("PT5S")`).
+Когда система получает событие, она обновляет watermark — **продвигает** его вперёд по временной оси. Watermark вычисляется как `максимальное наблюдаемое время события − delay`, где `delay` — величина отставания, заданная в выражении [`WATERMARK`](watermarks.md#configuration) (например, `Interval("PT5S")` в `WATERMARK = __ydb_write_time - Interval("PT5S")`; `__ydb_write_time` — служебная колонка топика).
 
 События в потоке могут приходить не в хронологическом порядке: событие с временем 10:00:03 может быть обработано после события с временем 10:00:05. Причины: расхождение часов в распределённой системе, сетевые задержки, неравномерная нагрузка на [партиции](../../concepts/datamodel/topic.md#partitioning) топика.
 
 Параметр `delay` задаёт допустимый «запас» времени для событий, поступающих с задержкой. Например, при `delay` в 5 секунд событие с временем 00:00:48 будет принято, даже если уже пришли события с временем 00:00:50: watermark ещё не дошёл до 00:00:48. Если то же событие придёт позже, когда watermark уже продвинулся за 00:00:48, оно будет признано опоздавшим и отброшено.
 
-О компромиссе между точностью и задержкой выдачи результатов: [Компромисс точности и задержки](../../concepts/streaming-query/watermarks.md#tradeoff).
+О компромиссе между точностью и задержкой выдачи результатов: [Компромисс Точности и Задержки](../../concepts/streaming-query/watermarks.md#tradeoff).
 
 ## Простаивающие партиции {#idle-partitions}
 

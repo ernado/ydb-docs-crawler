@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/concepts/maintenance-without-downtime.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/concepts/maintenance-without-downtime.md"
 description: "Периодически кластер YDB необходимо обслуживать, например, обновлять его версию или заменять сломавшиеся диски. Работы по обслуживанию могут привести к недоступ"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # Обслуживание кластера без потери доступности

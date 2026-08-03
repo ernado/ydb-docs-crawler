@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/hive_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/hive_config.md"
 description: "Hive — компонент YDB, отвечающий за запуск таблеток. В различных ситуациях и под разными паттернами нагрузки может возникнуть потребность в настройке его поведе"
-revision: "e9f541853a7760e5c0d0babc071d86df7f523cf5"
+revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
 ---
 
 # hive_config
