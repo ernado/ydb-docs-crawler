@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter-view.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-view.md"
 description: "ALTER VIEW changes the definition of a view. Warning. This feature is not supported yet."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # ALTER VIEW

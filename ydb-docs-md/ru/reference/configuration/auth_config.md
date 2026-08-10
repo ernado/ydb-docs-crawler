@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/auth_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/auth_config.md"
 description: "YDB позволяет использовать различные способы аутентификации пользователей в системе. Настройки аутентификации и провайдеров аутентификации задаются в секции aut"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # auth_config

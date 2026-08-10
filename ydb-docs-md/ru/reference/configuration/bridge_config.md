@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/bridge_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/bridge_config.md"
 description: "Секция описывает pile кластера для режима bridge. Укажите список имён pile, которые используются для привязки хостов и других сущностей. В режиме bridge для каж"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # bridge_config

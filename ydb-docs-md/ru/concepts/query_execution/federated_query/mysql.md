@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/mysql.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/mysql.md"
 description: "В этом разделе описана основная информация про работу с внешней базой данных MySQL. Для работы с внешней базой данных MySQL необходимо выполнить следующие шаги:"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Работа с базами данных MySQL

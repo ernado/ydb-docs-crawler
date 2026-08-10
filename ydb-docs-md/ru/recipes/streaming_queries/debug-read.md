@@ -7,12 +7,12 @@ lang: "ru"
 source_path: "ru/core/recipes/streaming_queries/debug-read.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/streaming_queries/debug-read.md"
 description: "При разработке потоковых запросов бывает полезно быстро посмотреть, какие данные поступают в топик, без создания полноценного потокового запроса. Для этого можн"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Отладочное чтение из топика
 
-При разработке [потоковых запросов](../../concepts/streaming-query/streaming-query.md) бывает полезно быстро посмотреть, какие данные поступают в [топик](../../concepts/datamodel/topic.md), без создания полноценного потокового запроса. Для этого можно выполнить обычный `SELECT` с параметром `STREAMING = TRUE`.
+При разработке [потоковых запросов](../../concepts/streaming-query/streaming-query.md) бывает полезно быстро посмотреть, какие данные поступают в [топик](../../concepts/datamodel/topic.md), без создания полноценного потокового запроса. Для этого можно выполнить обычный `SELECT` с параметром `STREAMING = "TRUE"`.
 
 > [!WARNING]
 > Этот способ предназначен только для отладки и проверки данных в топике. Для промышленного использования создавайте потоковые запросы через [CREATE STREAMING QUERY](../../yql/reference/syntax/create-streaming-query.md).
@@ -34,7 +34,7 @@ WITH (
     SCHEMA = (
         Data String
     ),
-    STREAMING = TRUE
+    STREAMING = "TRUE"
 )
 LIMIT 1
 ```
@@ -57,7 +57,7 @@ WITH (
         Level String NOT NULL,
         Host String NOT NULL
     ),
-    STREAMING = TRUE
+    STREAMING = "TRUE"
 )
 LIMIT 5
 ```
@@ -66,4 +66,4 @@ LIMIT 5
 
 - [Потоковые запросы](../../concepts/streaming-query/streaming-query.md)
 - [Форматы данных при чтении/записи из топиков](../../dev/streaming-query/streaming-query-formats.md) — поддерживаемые форматы данных
-- [Потоковое чтение данных из топика](../../yql/reference/syntax/select/streaming.md) — описание `STREAMING = TRUE` в справочнике YQL
+- [Потоковое чтение данных из топика](../../yql/reference/syntax/select/streaming.md) — описание `STREAMING = "TRUE"` в справочнике YQL

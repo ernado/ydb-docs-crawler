@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/index.md"
 description: "This section of YDB documentation covers everything you need to know to develop applications interacting with YDB. Main resources:"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # YDB for Application Developers / Software Engineers

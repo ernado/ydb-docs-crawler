@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/index.md"
 description: "This article provides an overview of query execution in YDB. It is intended to familiarize users with the capabilities and limitations of YDB's query execution"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Query Execution

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/sql-translation/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/sql-translation/index.md"
 description: "Инструмент Инструкция. Плагин ydb-sqlglot-plugin для SQLGlot. Инструкция. Конвертер SQL-диалектов в YQL. Инструкция."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Конвертация SQL-диалектов

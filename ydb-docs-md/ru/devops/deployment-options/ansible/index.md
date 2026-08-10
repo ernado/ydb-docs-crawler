@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/ansible/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/index.md"
 description: "Этот раздел документации YDB содержит набор статей, предназначенных для работы DevOps-инженеров с кластерами YDB при помощи Ansible. Это рекомендуемый подход к"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Работа с YDB с помощью Ansible

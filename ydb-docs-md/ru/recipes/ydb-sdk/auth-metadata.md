@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/auth-metadata.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/auth-metadata.md"
 description: "Ниже приведены примеры кода аутентификации при помощи сервиса метаданных в разных YDB SDK. C++. Go. Java. JavaScript. Python. C#. Rust. PHP. Native SDK."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Аутентификация при помощи сервиса метаданных

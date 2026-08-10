@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/values.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/values.md"
 description: "VALUES as a top-level operator. It lets you create a table from specified values. For example, this statement creates a table of k columns and n rows:"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Basic VALUES syntax in YQL

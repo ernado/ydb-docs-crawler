@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/tls.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/tls.md"
 description: "The tls section configures TLS settings for data-in-transit encryption in YDB. Each network protocol can have different TLS settings to secure communication bet"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # tls

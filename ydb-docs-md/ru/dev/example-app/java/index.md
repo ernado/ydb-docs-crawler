@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/example-app/java/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/java/index.md"
 description: "На этой странице подробно разбирается код тестового приложения, доступного в составе Java SDK Examples YDB. Скачивание SDK Examples и запуск примера."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Приложение на Java

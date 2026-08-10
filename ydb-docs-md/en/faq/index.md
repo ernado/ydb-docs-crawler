@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/faq/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/index.md"
 description: "Questions and answers about YDB. General. SDK. Errors. YQL. Analytics. Known issues."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Questions and answers about YDB

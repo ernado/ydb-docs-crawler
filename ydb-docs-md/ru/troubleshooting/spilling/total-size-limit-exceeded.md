@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/spilling/total-size-limit-exceeded.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/spilling/total-size-limit-exceeded.md"
 description: "Превышен максимальный суммарный размер файлов спиллинга (параметр max_total_size ). Это происходит, когда общий размер всех файлов спиллинга достигает настроенн"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Total size limit exceeded

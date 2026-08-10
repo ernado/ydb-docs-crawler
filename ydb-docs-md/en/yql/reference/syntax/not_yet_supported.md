@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/not_yet_supported.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/not_yet_supported.md"
 description: "[NOT] [EXISTS|INTERSECT|EXCEPT]."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Classic SQL constructs not supported yet

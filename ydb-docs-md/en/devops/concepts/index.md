@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/concepts/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/concepts/index.md"
 description: "This section supplements the general Concepts YDB section with theoretical materials primarily relevant for DevOps engineers. Main topics:"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Concepts for DevOps Engineers

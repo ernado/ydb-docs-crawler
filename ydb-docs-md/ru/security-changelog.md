@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/security-changelog.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/security-changelog.md"
 description: "Исправлено в YDB 22.4.44, 2022-11-28 CVE-2022-28228."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Список изменений безопасности

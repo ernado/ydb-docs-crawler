@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/gui/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/gui/index.md"
 description: "Environment Instruction Compatibility level. Embedded UI. Instruction. DBeaver. Instruction. By JDBC-driver. JetBrains Database viewer. —. By JDBC-driver."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Graphical user interfaces

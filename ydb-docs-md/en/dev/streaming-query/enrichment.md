@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/streaming-query/enrichment.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/enrichment.md"
 description: "Data enrichment means attaching additional information from a lookup to events in the stream. For example, an event may only contain an ID, while a lookup provi"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Data enrichment

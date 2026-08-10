@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/pragma.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/pragma.md"
 description: "Определение. Переопределение настроек. Синтаксис. PRAGMA x.y = \"z\"; или PRAGMA x.y(\"z\", \"z2\", \"z3\");: x — (опционально) категория настройки."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # PRAGMA

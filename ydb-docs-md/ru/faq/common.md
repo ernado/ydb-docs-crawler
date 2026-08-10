@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/faq/common.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/common.md"
 description: "Общие вопросы про YDB Что такое YDB?"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Общие вопросы про YDB

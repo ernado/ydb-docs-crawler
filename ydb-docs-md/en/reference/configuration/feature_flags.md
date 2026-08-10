@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/feature_flags.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/feature_flags.md"
 description: "The feature_flags section enables or disables specific YDB features using boolean flags. To enable a feature, set the corresponding feature flag to true in the"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # feature_flags

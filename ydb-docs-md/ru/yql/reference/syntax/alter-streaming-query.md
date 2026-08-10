@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter-streaming-query.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-streaming-query.md"
 description: "ALTER STREAMING QUERY изменяет настройки потоковых запросов, а также управляет их состоянием: запуском и остановкой. Синтаксис."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # ALTER STREAMING QUERY

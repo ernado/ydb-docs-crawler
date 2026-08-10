@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/secondary_index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/secondary_index.md"
 description: "To make a SELECT by secondary index of row-oriented table statement, use the following: SELECT * FROM TableName VIEW IndexName WHERE …. Warning."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # VIEW (INDEX)

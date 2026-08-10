@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/datamodel/coordination-node.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/coordination-node.md"
 description: "Узел координации (coordination node) — это объект в YDB, который позволяет клиентским приложениям распределённо координировать свои действия. Типовые сценарии и"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Узел координации

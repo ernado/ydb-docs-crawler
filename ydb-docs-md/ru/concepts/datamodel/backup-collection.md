@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/datamodel/backup-collection.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/backup-collection.md"
 description: "Коллекция резервных копий организует полные и инкрементальные резервные копии выбранных строковых таблиц в управляемые цепочки. Она позволяет восстановить данны"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Коллекция резервных копий

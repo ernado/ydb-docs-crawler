@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/streaming_queries/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/streaming_queries/index.md"
 description: "This section contains recipes for working with streaming queries. Contents: Quickstart: reading and writing topics. Debug reads from a topic."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Recipes for streaming queries

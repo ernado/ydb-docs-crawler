@@ -6,13 +6,13 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/yql/reference/syntax/select/streaming.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/streaming.md"
-description: "Можно выполнять чтение данных из топика обычным SELECT без создания потокового запроса. Для этого необходимо указать STREAMING = TRUE в блоке WITH и задать огра"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+description: "Можно выполнять чтение данных из топика обычным SELECT без создания потокового запроса. Для этого необходимо указать STREAMING = \"TRUE\" в блоке WITH и задать ог"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Потоковое чтение данных из топика
 
-Можно выполнять чтение данных из [топика](../../../../concepts/datamodel/topic.md) обычным `SELECT` без создания [потокового запроса](../../../../concepts/streaming-query/streaming-query.md). Для этого необходимо указать `STREAMING = TRUE` в блоке `WITH` и задать ограничение на количество выходных строк через `LIMIT`, иначе запрос не завершится.
+Можно выполнять чтение данных из [топика](../../../../concepts/datamodel/topic.md) обычным `SELECT` без создания [потокового запроса](../../../../concepts/streaming-query/streaming-query.md). Для этого необходимо указать `STREAMING = "TRUE"` в блоке `WITH` и задать ограничение на количество выходных строк через `LIMIT`, иначе запрос не завершится.
 
 > [!WARNING]
 > Этот способ предназначен только для отладки и проверки данных в топике. Для production процессов создавайте потоковые запросы через [CREATE STREAMING QUERY](../create-streaming-query.md).
@@ -32,7 +32,7 @@ WITH (
     SCHEMA = (
         Data String
     ),
-    STREAMING = TRUE
+    STREAMING = "TRUE"
 )
 LIMIT 1
 ```

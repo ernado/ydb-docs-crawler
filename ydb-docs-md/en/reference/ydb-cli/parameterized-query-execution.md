@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/parameterized-query-execution.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/parameterized-query-execution.md"
 description: "Overview. YDB CLI can execute parameterized queries. To use parameters, you need to declare them using the YQL DECLARE command in your query text."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Running parameterized queries

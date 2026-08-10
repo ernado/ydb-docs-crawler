@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/select/limit_offset.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/limit_offset.md"
 description: "LIMIT ограничивает вывод указанным количеством строк. Если значение лимита равно NULL, или LIMIT не указан, то вывод не ограничен."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # LIMIT и OFFSET

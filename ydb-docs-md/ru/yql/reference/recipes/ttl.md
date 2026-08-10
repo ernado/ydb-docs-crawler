@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/recipes/ttl.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/recipes/ttl.md"
 description: "В этом разделе приведены примеры настройки TTL строковых и колоночных таблиц при помощи YQL. Включение TTL для существующих строковых и колоночных таблиц."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Настройка времени жизни строк (TTL) таблицы

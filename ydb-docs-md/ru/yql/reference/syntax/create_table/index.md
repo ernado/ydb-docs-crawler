@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/create_table/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create_table/index.md"
 description: "Вызов CREATE TABLE создает таблицу с указанной схемой данных и ключевыми колонками ( PRIMARY KEY ). Позволяет определить вторичные индексы на создаваемой таблиц"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # CREATE TABLE

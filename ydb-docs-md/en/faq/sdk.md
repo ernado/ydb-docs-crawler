@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/faq/sdk.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/sdk.md"
 description: "SDK What should I do if the SDK crashes when shutting down an application?"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # SDK

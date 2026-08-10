@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/docker/cleanup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/cleanup.md"
 description: "To stop YDB in Docker, run the following command: docker stop ydb-local."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Docker stop

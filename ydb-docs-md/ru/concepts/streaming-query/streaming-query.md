@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/streaming-query/streaming-query.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/streaming-query/streaming-query.md"
 description: "Потоковый запрос — это тип запроса, предназначенный для непрерывной обработки неограниченного потока данных ( stream processing ). В отличие от обычных запросов"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Потоковые запросы
@@ -91,6 +91,8 @@ YDB реализует потоковую обработку как часть �
 ## Язык запросов {#syntax}
 
 Потоковые запросы пишутся на [YQL](../../yql/reference/index.md) и поддерживают привычные SQL-конструкции: [SELECT](../../yql/reference/syntax/select/index.md), [WHERE](../../yql/reference/syntax/select/where.md), [GROUP BY](../../yql/reference/syntax/select/group-by.md), [JOIN](../../yql/reference/syntax/select/join.md). Для работы с временными окнами используется [GROUP BY HOP](../../yql/reference/syntax/select/group-by.md#group-by-hop).
+
+Один потоковый запрос может читать несколько входных топиков, использовать конструкцию [UNION ALL](../../yql/reference/syntax/select/union.md#union-all) для объединения потоков данных и писать результат в несколько выходных топиков и/или таблиц (см. подробнее в статьях [Форматы при записи данных](../../dev/streaming-query/streaming-query-formats.md#write_formats) и [Запись в таблицы](../../dev/streaming-query/table-writing.md)).
 
 ## См. также {#sm-takzhe}
 

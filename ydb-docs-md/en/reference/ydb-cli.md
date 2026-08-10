@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/index.md"
 description: "YDB CLI. The YDB CLI provides software for managing your data in YDB. To use the YDB CLI, first install it and then set up the connection and authentication."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # YDB CLI

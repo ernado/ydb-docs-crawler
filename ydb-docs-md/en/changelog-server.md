@@ -6,13 +6,22 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/changelog-server.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-server.md"
-description: "Version 26.1 Version 26.1.1.20. Release date: July 2, 2026. Functionality."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+description: "Version 26.1 Version 26.1.1.22. Release date: July 27, 2026. Bug Fixes."
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # YDB Server changelog
 
 ## Version 26.1 {#26-1}
+
+### Version 26.1.1.22 {#26-1-1-22}
+
+Release date: July 27, 2026.
+
+#### Bug Fixes
+
+- [Fixed](https://github.com/ydb-platform/ydb/pull/46894) Kafka API authentication for local users: with enabled `DomainLoginOnly` setting, users could not access tenant databases.
+- [Fixed](https://github.com/ydb-platform/ydb/pull/46946) a crash (use-after-free) when updating a vector index caused by asynchronous ReadActor destruction.
 
 ### Version 26.1.1.20 {#26-1-1-20}
 
@@ -36,7 +45,7 @@ Release date: July 2, 2026.
 - CLI supports token file authentication (`--token-file`).
 - Transaction handling between topics and tables has been optimized.
 
-#### Bug Fixes
+#### Bug Fixes {#bug-fixes1}
 
 - [Fixed](https://github.com/ydb-platform/ydb/pull/34906) `RETURNING` in streaming `UPDATE` and interactive queries.
 - [Fixed](https://github.com/ydb-platform/ydb/pull/34915) `SET DEFAULT` and `DROP DEFAULT` in `ALTER TABLE`.
@@ -89,7 +98,7 @@ Release date: June 5, 2026.
 - Database-stored secrets are fully supported (create, alter, drop, and use) — see [Secrets](concepts/datamodel/secrets.md). Note that the [legacy syntax](concepts/datamodel/secrets.md) is deprecated.
 - [`UNION ALL`](yql/reference/syntax/select/union.md#union-all) execution was improved with parallel execution, improving performance of analytical queries.
 
-#### Bug Fixes {#bug-fixes1}
+#### Bug Fixes {#bug-fixes2}
 
 - [Fixed](https://github.com/ydb-platform/ydb/pull/38425) an [LDAP authentication](security/authentication.md) vulnerability: knowing the login and password of any LDAP user (including one who is not a member of a group allowed to access YDB), an attacker could bypass group membership checks and gain access to the cluster (LDAP search filter injection; special characters are now escaped per RFC 2254).
 
@@ -112,7 +121,7 @@ Release date: May 20, 2026.
 
 - Implemented [backup and restore](reference/ydb-cli/export-import/file-structure.md#views) (`VIEW`) to S3 and from S3.
 
-#### Bug Fixes {#bug-fixes2}
+#### Bug Fixes {#bug-fixes3}
 
 - [Fixed](https://github.com/ydb-platform/ydb/pull/38425) an [LDAP authentication](security/authentication.md) vulnerability: knowing the login and password of any LDAP user (including one who is not a member of a group allowed to access YDB), an attacker could bypass group membership checks and gain access to the cluster (LDAP search filter injection; special characters are now escaped per RFC 2254).
 - [Fixed](https://github.com/ydb-platform/ydb/pull/33758) an issue that caused a server-side session leak.
@@ -137,7 +146,7 @@ Release date: May 20, 2026.
 
 Release date: January 28, 2026.
 
-#### Bug Fixes {#bug-fixes3}
+#### Bug Fixes {#bug-fixes4}
 
 - [Fixed](https://github.com/ydb-platform/ydb/pull/25112) an [issue](https://github.com/ydb-platform/ydb/issues/23858) where [tablet](concepts/glossary.md#tablet) deletion might get stuck
 
@@ -198,7 +207,7 @@ Release date: September 21, 2025.
   - the ability to [enable followers (read replicas)](yql/reference/syntax/alter_table/indexes.md) for covered secondary indexes,
   - system views with [history of overloaded partitions](dev/system-views.md#top-overload-partitions).
 
-#### Bug Fixes {#bug-fixes4}
+#### Bug Fixes {#bug-fixes5}
 
 - [Fixed](https://github.com/ydb-platform/ydb/pull/24265) CPU resource limiting for column-oriented tables in Workload Manager. Previously CPU consumption could exceed the configured limits.
 
@@ -229,7 +238,7 @@ Release date: September 15, 2025.
 
 - [Optimized](https://github.com/ydb-platform/ydb/pull/20197) processing of empty inputs when performing JOIN operations.
 
-#### Bug fixes {#bug-fixes5}
+#### Bug fixes {#bug-fixes6}
 
 - [Added support](https://github.com/ydb-platform/ydb/pull/21918) for a new kind of change record in asynchronous replication — `reset` record (in addition to `update` & `erase` records).
 - [Fixed](https://github.com/ydb-platform/ydb/pull/21836) an [issue](https://github.com/ydb-platform/ydb/issues/21814) where a replication instance with an unspecified `COMMIT_INTERVAL` option caused the process to crash.
@@ -343,7 +352,7 @@ Release date: July 14, 2025.
 - [Optimized](https://github.com/ydb-platform/ydb/pull/9491) the header size of large binary objects in VDisk.
 - [Reduced](https://github.com/ydb-platform/ydb/pull/15517) memory consumption through allocator page cleaning.
 
-#### Bug Fixes {#bug-fixes6}
+#### Bug Fixes {#bug-fixes7}
 
 - [Fixed](https://github.com/ydb-platform/ydb/pull/9707) an error in the [Interconnect](concepts/glossary.md#actor-system-interconnect) configuration that caused performance degradation.
 - [Fixed](https://github.com/ydb-platform/ydb/pull/13993) an out-of-memory error that occurred when deleting very large tables by limiting the number of tablets that process this operation concurrently.
@@ -384,7 +393,7 @@ Release date: June 3, 2025.
 - [Optimized](https://github.com/ydb-platform/ydb/issues/18289) memory consumption by PQ tablets.
 - [Optimized](https://github.com/ydb-platform/ydb/issues/18473) CPU consumption of Scheme shard and reduced query latencies by checking operation count limits before performing tablet split and merge operations.
 
-## Bug Fixes {#bug-fixes7}
+## Bug Fixes {#bug-fixes8}
 
 - [Fixed](https://github.com/ydb-platform/ydb/pull/17123) a rare issue of client applications hanging during transaction commit where deleting partition had been done before write quota update.
 - [Fixed](https://github.com/ydb-platform/ydb/pull/17312) an error in copying tables with Decimal type, which caused failures when rolling back to a previous version.
@@ -413,7 +422,7 @@ Release date: April 15, 2025
 
 - Enabled by default automatic secondary index selection for queries.
 
-#### Bug Fixes {#bug-fixes8}
+#### Bug Fixes {#bug-fixes9}
 
 - [Fixed](https://github.com/ydb-platform/ydb/pull/14811) an error that led to a significant decrease in reading speed from [tablet followers](concepts/glossary.md#tablet-follower).
 - [Fixed](https://github.com/ydb-platform/ydb/pull/14516) an error that caused volatile distributed transactions to sometimes wait for confirmations until the next reboot.
@@ -445,7 +454,7 @@ Release date: February 6, 2025
 
 - [Improved](https://github.com/ydb-platform/ydb/pull/12747) tablet startup time on large clusters: 210 ms → 125 ms (SSD), 260 ms → 165 ms (HDD).
 
-#### Bug Fixes {#bug-fixes9}
+#### Bug Fixes {#bug-fixes10}
 
 - [Removed](https://github.com/ydb-platform/ydb/pull/11901) the restriction on writing values greater than 127 to the Uint8 type.
 - [Fixed](https://github.com/ydb-platform/ydb/pull/12221) an issue where reading small messages from a topic in small chunks significantly increased CPU load, which could lead to delays in reading and writing to the topic.
@@ -528,7 +537,7 @@ Release date: December 24, 2024.
 - Improved the performance of CDC topics with thousands of partitions.
 - Enhanced the Hive tablet balancing algorithm.
 
-#### Bug fixes {#bug-fixes10}
+#### Bug fixes {#bug-fixes11}
 
 - [Fixed](https://github.com/ydb-platform/ydb/pull/6850) an issue that caused databases with a large number of tables or partitions to become non-functional during restoration from a backup. Now, if database size limits are exceeded, the restoration operation will fail, but the database will remain operational.
 - [Implemented](https://github.com/ydb-platform/ydb/pull/11532) a mechanism to forcibly trigger background [compaction](concepts/glossary.md#compaction) when discrepancies between the data schema and stored data are detected in [DataShard](concepts/glossary.md#data-shard). This resolves a rare issue with delays in schema changes.
@@ -573,7 +582,7 @@ Release date: August 20, 2024.
 - Enabled autocomplete in the queries editor by default.
 - Added support for views.
 
-### Bug fixes {#bug-fixes11}
+### Bug fixes {#bug-fixes12}
 
 - Added a check on the size of the local transaction prior to its commit to fix [errors](https://github.com/db-platform/ydb/issues/6677) in scheme shard operations when exporting/backing up large databases.
 - [Fixed](https://github.com/ydb-platform/ydb/pull/7709) an issue with duplicate results in SELECT queries when reducing quotas in [DataShard](concepts/glossary.md#data-shard).
@@ -614,7 +623,7 @@ Release date: July 31, 2024.
 - [Session timeouts](https://github.com/ydb-platform/ydb/pull/1837) for the coordination service between server and client have been optimized. Previously, the timeout was 5 seconds, which could result in a 10-second delay in identifying an unresponsive client and releasing its resources. In the new version, the check interval depends on the session's wait time, allowing for faster responses during leader changes or when acquiring distributed locks.
 - CPU consumption by [SchemeShard](concepts/glossary.md#scheme-shard) replicas has been [optimized](https://github.com/ydb-platform/ydb/pull/2391), particularly when handling rapid updates for tables with a large number of partitions.
 
-### Bug fixes {#bug-fixes12}
+### Bug fixes {#bug-fixes13}
 
 - A possible queue overflow error has been [fixed](https://github.com/ydb-platform/ydb/pull/3917). [Change Data Capture](dev/cdc.md) now reserves the change queue capacity during the initial scan.
 - A potential deadlock between receiving and sending CDC records has been [fixed](https://github.com/ydb-platform/ydb/pull/4597).
@@ -637,7 +646,7 @@ Release date: May 14, 2024.
 - [Fixed](https://github.com/ydb-platform/ydb/pull/3638) an issue of increased CPU consumption by a topic actor `PERSQUEUE_PARTITION_ACTOR`.
 - [Optimized](https://github.com/ydb-platform/ydb/pull/2083) resource usage by SchemeBoard replicas. The greatest effect is noticeable when modifying the metadata of tables with a large number of partitions.
 
-### Bug fixes {#bug-fixes13}
+### Bug fixes {#bug-fixes14}
 
 - [Fixed a bug](https://github.com/ydb-platform/ydb/pull/2169) of possible partial commit of accumulated changes when using persistent distributed transactions. This error occurs in an extremely rare combination of events, including restarting tablets that service the table partitions involved in the transaction.
 - [Fixed a bug](https://github.com/ydb-platform/ydb/pull/3165) involving a race condition between the table merge and garbage collection processes, which could result in garbage collection ending with an invariant violation error, leading to an abnormal termination of the `ydbd` server process.
@@ -680,7 +689,7 @@ Release date: October 12, 2023.
 - The performance of writing to YDB topics has been optimized.
 - Improved tablet balancing during node overload.
 
-### Bug fixes {#bug-fixes14}
+### Bug fixes {#bug-fixes15}
 
 - Fixed an error regarding potential blocking of reading iterators of snapshots, of which the coordinators were unaware.
 - Memory leak when closing the connection in Kafka proxy has been fixed.
@@ -782,7 +791,7 @@ Release date: August 14, 2023.
 - For scan queries, you can now effectively search for individual rows using a primary key or secondary indexes. This can bring you a substantial performance gain in many cases. Similarly to regular queries, you need to explicitly specify its name in the query text using the `VIEW` keyword to use a secondary index.
 - ***(Experimental)*** Added an option to give control of the system tablets of the database (SchemeShard, Coordinators, Mediators, SysViewProcessor) to its own Hive instead of the root Hive, and do so immediately upon creating a new database. Without this flag, the system tablets of the new database are created in the root Hive, which can negatively impact its load. Enabling this flag makes databases completely isolated in terms of load, that may be particularly relevant for installations, consisting from a roughly hundred or more databases. To enable this feature add `alter_database_create_hive_first: true` under `feature_flags` section into [configuration file](reference/configuration/index.md).
 
-### Bug fixes {#bug-fixes15}
+### Bug fixes {#bug-fixes16}
 
 - Fixed a bug in the autoconfiguration of the actor system, resulting in all the load being placed on the system pool.
 - Fixed a bug that caused full scanning when searching by prefix of the primary key using `LIKE`.
@@ -816,7 +825,7 @@ Release date: May 5, 2023. To update to version 23.1, select the [Downloads](dow
 - (Experimental) For scan queries, you can now effectively search for individual rows using a primary key or secondary indexes. This can bring you a substantial gain in performance in many cases. Similarly to regular queries, to use a secondary index, you need to explicitly specify its name in the query text using the `VIEW` keyword.
 - The query's computational graph is now cached at query runtime, reducing the CPU resources needed to build the graph.
 
-### Bug fixes {#bug-fixes16}
+### Bug fixes {#bug-fixes17}
 
 - Fixed bugs in the distributed data warehouse implementation. We strongly recommend all our users to upgrade to the latest version.
 - Fixed the error that occurred on building an index on NOT NULL columns.

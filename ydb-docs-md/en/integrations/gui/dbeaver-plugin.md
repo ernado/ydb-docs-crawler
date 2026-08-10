@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/gui/dbeaver-plugin.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/gui/dbeaver-plugin.md"
 description: "DBeaver is a free, cross-platform, open-source database management tool that provides a visual interface for connecting to various databases and executing SQL q"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Connecting to YDB using the DBeaver plugin

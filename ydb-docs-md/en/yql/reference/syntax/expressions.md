@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/expressions.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/expressions.md"
 description: "String concatenation. Executed using the binary operator ||. As with other binary operators, if the data on either side is NULL, the result is also NULL."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Expressions

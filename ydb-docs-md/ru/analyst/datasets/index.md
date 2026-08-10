@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/analyst/datasets/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/datasets/index.md"
 description: "На этих страницах описаны популярные датасеты, которые вы можете загрузить в YDB для ознакомления с функциональностью базы данных и тестирования различных сцена"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Обзор

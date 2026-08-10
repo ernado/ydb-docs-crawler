@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/transactions.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/transactions.md"
 description: "YDB Transactions and Queries. This section describes the specifics of YQL implementation for YDB transactions. Query Language."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # YDB Transactions and Queries

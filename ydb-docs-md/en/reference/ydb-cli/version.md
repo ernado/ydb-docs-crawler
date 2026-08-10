@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/version.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/version.md"
 description: "Use the version subcommand to find out the version of the YDB CLI installed and manage new version availability auto checks."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Getting YDB CLI version

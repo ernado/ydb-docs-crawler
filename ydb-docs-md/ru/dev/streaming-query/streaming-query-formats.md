@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/streaming-query/streaming-query-formats.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/streaming-query-formats.md"
 description: "В данном разделе описываются форматы данных потоковых запросов, поддерживаемые в YDB при чтении из топиков, и список поддерживаемых YQL типов для каждого формат"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Форматы данных при чтении/записи из топиков
@@ -80,6 +80,8 @@ END DO
 ```
 
 Подробнее о функциях: [TableRow](../../yql/reference/builtins/basic.md#tablerow), [Yson::From](../../yql/reference/udf/list/yson.md#ysonfrom), [Yson::SerializeJson](../../yql/reference/udf/list/yson.md#ysonserializejson), [Unwrap](../../yql/reference/builtins/basic.md#unwrap), [ToBytes](../../yql/reference/builtins/basic.md#to-from-bytes).
+
+Если в одном потоковом запросе используется запись в несколько топиков, все выходные топики должны быть различны.
 
 ## Форматы при чтении данных {#read_formats}
 

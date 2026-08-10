@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/backup-collections/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/backup-collections/index.md"
 description: "Step-by-step guides for common backup collection scenarios. Getting Started."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Backup Collection Recipes

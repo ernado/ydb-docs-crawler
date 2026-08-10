@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/downloads/ydb-open-source-database.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/ydb-open-source-database.md"
 description: "YDB Open-Source Database ( ydbd ) is an executable file for running a node in the YDB cluster. It is distributed under the Apache 2.0 license."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Download YDB Open-Source Database
@@ -22,6 +22,7 @@ See also [Download Yandex Enterprise Database](yandex-enterprise-database.md).
 | --- | --- | --- | --- |
 | Version | Release date | Download | Changelog |
 | **v26.1** |  |  |  |
+| v.26.1.1.22 | 27.07.26 | [Binary file](https://storage.yandexcloud.net/binaries.ydb.tech/release/26.1.1.22/ydbd-26.1.1.22-linux-amd64.tar.gz) | [See list](../changelog-server.md#26-1-1-22) |
 | v.26.1.1.20 | 02.07.26 | [Binary file](https://storage.yandexcloud.net/binaries.ydb.tech/release/26.1.1.20/ydbd-26.1.1.20-linux-amd64.tar.gz) | [See list](../changelog-server.md#26-1-1-20) |
 | **v25.4** |  |  |  |
 | v.25.4.1.15 | 24.04.26 | [Binary file](https://storage.yandexcloud.net/binaries.ydb.tech/release/25.4.1.15/ydbd-25.4.1.15-linux-amd64.tar.gz) | [See list](../changelog-server.md#25-4-1-15) |
@@ -58,6 +59,7 @@ See also [Download Yandex Enterprise Database](yandex-enterprise-database.md).
 | --- | --- | --- | --- |
 | Version | Release date | Docker `registry/image:tag` | Changelog |
 | **v26.1** |  |  |  |
+| v.26.1.1.22 | 27.07.26 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:26.1.1.22` | [See list](../changelog-server.md#26-1-1-22) |
 | v.26.1.1.20 | 02.07.26 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:26.1.1.20` | [See list](../changelog-server.md#26-1-1-20) |
 | **v25.4** |  |  |  |
 | v.25.4.1.15 | 24.04.26 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:25.4.1.15` | [See list](../changelog-server.md#25-4-1-15) |
@@ -94,6 +96,7 @@ See also [Download Yandex Enterprise Database](yandex-enterprise-database.md).
 | --- | --- | --- | --- |
 | Version | Release date | Link | Changelog |
 | **v26.1** |  |  |  |
+| v.26.1.1.22 | 27.07.26 | [https://github.com/ydb-platform/ydb/tree/26.1.1.22](https://github.com/ydb-platform/ydb/tree/26.1.1.22) | [See list](../changelog-server.md#26-1-1-22) |
 | v.26.1.1.20 | 02.07.26 | [https://github.com/ydb-platform/ydb/tree/26.1.1.20](https://github.com/ydb-platform/ydb/tree/26.1.1.20) | [See list](../changelog-server.md#26-1-1-20) |
 | **v25.4** |  |  |  |
 | v.25.4.1.15 | 24.04.26 | [https://github.com/ydb-platform/ydb/tree/25.4.1.15](https://github.com/ydb-platform/ydb/tree/25.4.1.15) | [See list](../changelog-server.md#25-4-1-15) |

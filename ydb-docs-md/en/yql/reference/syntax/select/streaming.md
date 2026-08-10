@@ -6,13 +6,13 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/yql/reference/syntax/select/streaming.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/streaming.md"
-description: "You can read from a topic with a regular SELECT without creating a streaming query. Set STREAMING = TRUE in the WITH block and limit output rows with LIMIT; oth"
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+description: "You can read from a topic with a regular SELECT without creating a streaming query. Set STREAMING = \"TRUE\" in the WITH block and limit output rows with LIMIT; o"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Streaming read from a topic
 
-You can read from a [topic](../../../../concepts/datamodel/topic.md) with a regular `SELECT` without creating a [streaming query](../../../../concepts/streaming-query/streaming-query.md). Set `STREAMING = TRUE` in the `WITH` block and limit output rows with `LIMIT`; otherwise the query does not complete.
+You can read from a [topic](../../../../concepts/datamodel/topic.md) with a regular `SELECT` without creating a [streaming query](../../../../concepts/streaming-query/streaming-query.md). Set `STREAMING = "TRUE"` in the `WITH` block and limit output rows with `LIMIT`; otherwise the query does not complete.
 
 > [!WARNING]
 > This method is intended only for debugging and checking data in a topic. For production processes, create streaming queries using [CREATE STREAMING QUERY](../create-streaming-query.md).
@@ -32,7 +32,7 @@ WITH (
     SCHEMA = (
         Data String
     ),
-    STREAMING = TRUE
+    STREAMING = "TRUE"
 )
 LIMIT 1
 ```

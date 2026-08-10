@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/observability/logging.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/observability/logging.md"
 description: "Каждый компонент YDB пишет сообщения разного уровня в логи (журналы). По ним можно детектировать критические проблемы или разобраться в причинах неполадок."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Логирование в YDB

@@ -4,15 +4,15 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "95f7629e80402dd261127ed00cdc781d2b8433de",
-      "page_count": 730,
+      "revision": "a6ee1837f90009a183281888dccad12a7b30d774",
+      "page_count": 729,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "95f7629e80402dd261127ed00cdc781d2b8433de",
-      "page_count": 728,
+      "revision": "a6ee1837f90009a183281888dccad12a7b30d774",
+      "page_count": 729,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
     }
@@ -211,10 +211,10 @@
       "url": "https://ydb.tech/docs/en/changelog-server?version=v26.1",
       "file": "en/changelog-server.md",
       "title": "YDB Server changelog",
-      "description": " Version 26.1 Version 26.1.1.20. Release date: July 2, 2026. Functionality.",
+      "description": " Version 26.1 Version 26.1.1.22. Release date: July 27, 2026. Bug Fixes.",
       "source_path": "en/core/changelog-server.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-server.md",
-      "bytes": 85339,
+      "bytes": 85773,
       "lang": "en"
     },
     {
@@ -1578,7 +1578,7 @@
       "description": "To obtain system information about the database state, you can refer to system views. They are available from the root of the database tree and use the system p",
       "source_path": "en/core/dev/system-views.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/system-views.md",
-      "bytes": 34831,
+      "bytes": 34795,
       "lang": "en"
     },
     {
@@ -1810,17 +1810,6 @@
       "source_path": "en/core/devops/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/index.md",
       "bytes": 1536,
-      "lang": "en"
-    },
-    {
-      "doc_path": "en/devops/backup-and-recovery",
-      "url": "https://ydb.tech/docs/en/devops/backup-and-recovery?version=v26.1",
-      "file": "en/devops/backup-and-recovery.md",
-      "title": "Backup and Recovery",
-      "description": "YDB is designed to preserve data against hardware failures: redundancy options are available for various numbers of availability zones, racks, hosts, disks, and",
-      "source_path": "en/core/devops/backup-and-recovery.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/backup-and-recovery.md",
-      "bytes": 4834,
       "lang": "en"
     },
     {
@@ -2634,7 +2623,7 @@
       "description": " YDB Open-Source Database ( ydbd ) is an executable file for running a node in the YDB cluster. It is distributed under the Apache 2.0 license.",
       "source_path": "en/core/downloads/ydb-open-source-database.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/ydb-open-source-database.md",
-      "bytes": 10421,
+      "bytes": 10918,
       "lang": "en"
     },
     {
@@ -2667,7 +2656,7 @@
       "description": " All questions on one page General questions General questions about YDB What is YDB?",
       "source_path": "en/core/faq/all.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/all.md",
-      "bytes": 17173,
+      "bytes": 17075,
       "lang": "en"
     },
     {
@@ -2733,7 +2722,7 @@
       "description": " YQL General questions How do I select table rows by a list of keys?",
       "source_path": "en/core/faq/yql.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/yql.md",
-      "bytes": 5606,
+      "bytes": 5508,
       "lang": "en"
     },
     {
@@ -3646,7 +3635,7 @@
       "description": "When developing streaming queries, it is often useful to inspect what arrives in a topic without creating a full streaming query. Run a regular SELECT with STRE",
       "source_path": "en/core/recipes/streaming_queries/debug-read.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/streaming_queries/debug-read.md",
-      "bytes": 2257,
+      "bytes": 2265,
       "lang": "en"
     },
     {
@@ -6854,11 +6843,11 @@
       "doc_path": "en/yql/reference/syntax/analyze",
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/analyze?version=v26.1",
       "file": "en/yql/reference/syntax/analyze.md",
-      "title": "Query Optimization in YDB",
-      "description": "YDB uses two types of query optimizers: a rule-based optimizer and a cost-based optimizer. The cost-based optimizer is used for complex queries, typically analy",
-      "source_path": "en/core/concepts/query_execution/optimizer.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/optimizer.md",
-      "bytes": 6396,
+      "title": "ANALYZE",
+      "description": " ANALYZE forces the collection of statistics for YDB cost-based optimizer. Syntax. ANALYZE <path_to_table> [ (<column_name> [,...]) ].",
+      "source_path": "en/core/yql/reference/syntax/analyze.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/analyze.md",
+      "bytes": 1325,
       "lang": "en"
     },
     {
@@ -7603,10 +7592,10 @@
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/select/streaming?version=v26.1",
       "file": "en/yql/reference/syntax/select/streaming.md",
       "title": "Streaming read from a topic",
-      "description": "You can read from a topic with a regular SELECT without creating a streaming query. Set STREAMING = TRUE in the WITH block and limit output rows with LIMIT; oth",
+      "description": "You can read from a topic with a regular SELECT without creating a streaming query. Set STREAMING = \"TRUE\" in the WITH block and limit output rows with LIMIT; o",
       "source_path": "en/core/yql/reference/syntax/select/streaming.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/streaming.md",
-      "bytes": 1785,
+      "bytes": 1791,
       "lang": "en"
     },
     {
@@ -8241,10 +8230,10 @@
       "url": "https://ydb.tech/docs/ru/changelog-server?version=v26.1",
       "file": "ru/changelog-server.md",
       "title": "Список изменений YDB Server",
-      "description": " Версия 26.1 Версия 26.1.1.20. Дата выхода: 02 июля 2026. Функциональность.",
+      "description": " Версия 26.1 Версия 26.1.1.22. Дата выхода: 27 июля 2026. Исправления ошибок.",
       "source_path": "ru/core/changelog-server.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-server.md",
-      "bytes": 138673,
+      "bytes": 139404,
       "lang": "ru"
     },
     {
@@ -8860,7 +8849,7 @@
       "description": "Потоковый запрос — это тип запроса, предназначенный для непрерывной обработки неограниченного потока данных ( stream processing ). В отличие от обычных запросов",
       "source_path": "ru/core/concepts/streaming-query/streaming-query.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/streaming-query/streaming-query.md",
-      "bytes": 13807,
+      "bytes": 14451,
       "lang": "ru"
     },
     {
@@ -9575,7 +9564,7 @@
       "description": "В данном разделе описываются форматы данных потоковых запросов, поддерживаемые в YDB при чтении из топиков, и список поддерживаемых YQL типов для каждого формат",
       "source_path": "ru/core/dev/streaming-query/streaming-query-formats.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/streaming-query-formats.md",
-      "bytes": 15826,
+      "bytes": 16037,
       "lang": "ru"
     },
     {
@@ -9586,7 +9575,7 @@
       "description": "Запись в таблицы позволяет сохранять результаты потокового запроса для последующего анализа обычными SQL-запросами. Например, можно агрегировать события из пото",
       "source_path": "ru/core/dev/streaming-query/table-writing.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/table-writing.md",
-      "bytes": 3543,
+      "bytes": 3967,
       "lang": "ru"
     },
     {
@@ -9851,6 +9840,17 @@
       "source_path": "ru/core/devops/backup-and-recovery/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/backup-and-recovery/index.md",
       "bytes": 8713,
+      "lang": "ru"
+    },
+    {
+      "doc_path": "ru/devops/backup-and-recovery/system-tablet-backup",
+      "url": "https://ydb.tech/docs/ru/devops/backup-and-recovery/system-tablet-backup?version=v26.1",
+      "file": "ru/devops/backup-and-recovery/system-tablet-backup.md",
+      "title": "Резервное копирование системных таблеток",
+      "description": " Примечание.",
+      "source_path": "ru/core/devops/backup-and-recovery/system-tablet-backup.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/backup-and-recovery/system-tablet-backup.md",
+      "bytes": 27844,
       "lang": "ru"
     },
     {
@@ -10653,7 +10653,7 @@
       "description": " YDB Open-Source Database ( ydbd ) — исполняемый файл для запуска узла кластера YDB. Распространяется под лицензией Apache 2.0.",
       "source_path": "ru/core/downloads/ydb-open-source-database.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/ydb-open-source-database.md",
-      "bytes": 11543,
+      "bytes": 12084,
       "lang": "ru"
     },
     {
@@ -10686,7 +10686,7 @@
       "description": " Все вопросы на одной странице Общие вопросы Общие вопросы про YDB Что такое YDB?",
       "source_path": "ru/core/faq/all.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/all.md",
-      "bytes": 30686,
+      "bytes": 30612,
       "lang": "ru"
     },
     {
@@ -10752,7 +10752,7 @@
       "description": " YQL Общие вопросы Как выбрать из таблицы строчки по заданному списку ключей?",
       "source_path": "ru/core/faq/yql.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/yql.md",
-      "bytes": 9340,
+      "bytes": 9266,
       "lang": "ru"
     },
     {
@@ -11643,7 +11643,7 @@
       "description": "При разработке потоковых запросов бывает полезно быстро посмотреть, какие данные поступают в топик, без создания полноценного потокового запроса. Для этого можн",
       "source_path": "ru/core/recipes/streaming_queries/debug-read.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/streaming_queries/debug-read.md",
-      "bytes": 3454,
+      "bytes": 3462,
       "lang": "ru"
     },
     {
@@ -15600,10 +15600,10 @@
       "url": "https://ydb.tech/docs/ru/yql/reference/syntax/select/streaming?version=v26.1",
       "file": "ru/yql/reference/syntax/select/streaming.md",
       "title": "Потоковое чтение данных из топика",
-      "description": "Можно выполнять чтение данных из топика обычным SELECT без создания потокового запроса. Для этого необходимо указать STREAMING = TRUE в блоке WITH и задать огра",
+      "description": "Можно выполнять чтение данных из топика обычным SELECT без создания потокового запроса. Для этого необходимо указать STREAMING = \"TRUE\" в блоке WITH и задать ог",
       "source_path": "ru/core/yql/reference/syntax/select/streaming.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/streaming.md",
-      "bytes": 2474,
+      "bytes": 2478,
       "lang": "ru"
     },
     {
@@ -16060,7 +16060,6 @@
   ],
   "image_count": 365,
   "images_linked_at_site": [
-    "en/concepts/query_execution/_assets/star_schema.png",
     "ru/concepts/query_execution/_assets/Star-Schema.png"
   ],
   "failures": [
@@ -16081,13 +16080,13 @@
     },
     {
       "lang": "en",
-      "doc_path": "en/maintenance/manual/static-config",
-      "error": "https://ydb.tech/docs/en/maintenance/manual/static-config?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/maintenance/manual/static-config?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      "doc_path": "en/devops/backup-and-recovery",
+      "error": "https://ydb.tech/docs/en/devops/backup-and-recovery?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/devops/backup-and-recovery/?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
-      "lang": "ru",
-      "doc_path": "ru/devops/backup-and-recovery/system-tablet-backup",
-      "error": "https://ydb.tech/docs/ru/devops/backup-and-recovery/system-tablet-backup?version=v26.1: no __DATA__ payload (not a docs-viewer page?)"
+      "lang": "en",
+      "doc_path": "en/maintenance/manual/static-config",
+      "error": "https://ydb.tech/docs/en/maintenance/manual/static-config?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/maintenance/manual/static-config?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "lang": "ru",
@@ -16204,10 +16203,6 @@
       "link": "_includes/path/to/a/file.md"
     },
     {
-      "file": "ru/devops/backup-and-recovery/index.md",
-      "link": "system-tablet-backup.md"
-    },
-    {
       "file": "ru/integrations/orm/sqlalchemy.md",
       "link": "../../concepts/datatypes.md"
     },
@@ -16222,11 +16217,13 @@
     {
       "file": "ru/recipes/ydb-sdk/index.md",
       "link": "debug-prometheus.md"
-    },
-    {
-      "file": "ru/reference/configuration/system_tablet_backup_config.md",
-      "link": "../../devops/backup-and-recovery/system-tablet-backup.md"
     }
   ],
-  "broken_images": []
+  "broken_images": [
+    {
+      "asset": "en/concepts/query_execution/_assets/star_schema.png",
+      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/concepts/query_execution/_assets/star_schema.png",
+      "status": "404"
+    }
+  ]
 }

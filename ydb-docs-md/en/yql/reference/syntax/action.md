@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/action.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/action.md"
 description: "DEFINE ACTION. Specifies a named action that is a parameterizable block of multiple top-level expressions. Syntax. DEFINE ACTION: action definition."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # ACTION

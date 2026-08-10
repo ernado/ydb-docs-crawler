@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/builtin-security.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/builtin-security.md"
 description: "Initial security is configured automatically when the YDB cluster starts for the first time."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Initial cluster security configuration

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/changelog-enterprise.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-enterprise.md"
 description: "Version 25.3 Version 25.3.1.ent.3. Release date: June 12, 2026. New Features."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Yandex Enterprise Database changelog

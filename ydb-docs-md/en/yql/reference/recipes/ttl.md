@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/recipes/ttl.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/recipes/ttl.md"
 description: "This section contains recipes for configuration of table's TTL with YQL. Enabling TTL for an existing table."
-revision: "95f7629e80402dd261127ed00cdc781d2b8433de"
+revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 ---
 
 # Configuring Time to Live (TTL)
