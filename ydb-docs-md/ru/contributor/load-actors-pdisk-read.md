@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/load-actors-pdisk-read.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/load-actors-pdisk-read.md"
 description: "Тестирует производительность чтения с PDisk. Нагрузка подается от имени VDisk. Актор создает на указанном PDisk чанки, записывает в них случайные данные и выпол"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # PDiskReadLoad

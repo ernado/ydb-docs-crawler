@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/system-views.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/system-views.md"
 description: "Для получения служебной информации о состоянии базы данных можно обращаться к системным представлениям (system views). Они доступны из корня дерева базы данных"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Системные представления базы данных

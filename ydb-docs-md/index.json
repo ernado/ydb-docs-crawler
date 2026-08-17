@@ -4,14 +4,14 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "a6ee1837f90009a183281888dccad12a7b30d774",
+      "revision": "6cf79b202d43efced4776d730126c3952ec44c6d",
       "page_count": 729,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "a6ee1837f90009a183281888dccad12a7b30d774",
+      "revision": "6cf79b202d43efced4776d730126c3952ec44c6d",
       "page_count": 729,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
@@ -26,8 +26,8 @@
       "title": "YDB Documentation",
       "description": null,
       "source_path": "en/core/index.yaml",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs",
-      "bytes": 1453,
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/index.yaml",
+      "bytes": 1472,
       "lang": "en"
     },
     {
@@ -379,7 +379,7 @@
       "description": " Feature of Yandex Enterprise Database. This functionality is available only in the Yandex Enterprise Database. In the open-source version of YDB it is absent.",
       "source_path": "en/core/concepts/bridge.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/bridge.md",
-      "bytes": 13261,
+      "bytes": 13154,
       "lang": "en"
     },
     {
@@ -852,7 +852,7 @@
       "description": "A streaming query is a type of query designed for continuous processing of an unbounded data stream ( stream processing ). Unlike regular queries, a streaming q",
       "source_path": "en/core/concepts/streaming-query/streaming-query.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/streaming-query/streaming-query.md",
-      "bytes": 7924,
+      "bytes": 8355,
       "lang": "en"
     },
     {
@@ -1545,7 +1545,7 @@
       "description": " This section describes data formats for streaming queries supported in YDB when reading from topics, and supported YQL types for each format. Supported formats.",
       "source_path": "en/core/dev/streaming-query/streaming-query-formats.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/streaming-query-formats.md",
-      "bytes": 11736,
+      "bytes": 11829,
       "lang": "en"
     },
     {
@@ -1553,10 +1553,10 @@
       "url": "https://ydb.tech/docs/en/dev/streaming-query/table-writing?version=v26.1",
       "file": "en/dev/streaming-query/table-writing.md",
       "title": "Writing to tables",
-      "description": "Writing to tables lets you persist streaming query results for analysis with regular SQL. For example, you can aggregate events from a stream and store summarie",
+      "description": "Writing to tables lets you save the results of a streaming query for later analysis with regular SQL queries. For example, you can aggregate events from a strea",
       "source_path": "en/core/dev/streaming-query/table-writing.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/table-writing.md",
-      "bytes": 2286,
+      "bytes": 2553,
       "lang": "en"
     },
     {
@@ -2355,11 +2355,11 @@
       "doc_path": "en/devops/deployment-options/manual/decommissioning",
       "url": "https://ydb.tech/docs/en/devops/deployment-options/manual/decommissioning?version=v26.1",
       "file": "en/devops/deployment-options/manual/decommissioning.md",
-      "title": "Decommissioning a Part of Cluster",
-      "description": " Decommissioning is the procedure for moving a VDisk from a PDisk that needs to be decommissioned.",
+      "title": "Data Center Decommissioning",
+      "description": " Note. Use this procedure only to decommission an entire data center.",
       "source_path": "en/core/devops/deployment-options/manual/decommissioning.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/decommissioning.md",
-      "bytes": 3802,
+      "bytes": 4040,
       "lang": "en"
     },
     {
@@ -6803,7 +6803,7 @@
       "description": " Adding an index. ADD INDEX — adds an index with the specified name and type for a given set of columns. Grammar:",
       "source_path": "en/core/yql/reference/syntax/alter_table/indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter_table/indexes.md",
-      "bytes": 8039,
+      "bytes": 8153,
       "lang": "en"
     },
     {
@@ -6825,7 +6825,7 @@
       "description": " Adding an index. ADD INDEX — adds an index with the specified name and type for a given set of columns. Grammar:",
       "source_path": "en/core/yql/reference/syntax/alter_table/indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter_table/indexes.md",
-      "bytes": 8055,
+      "bytes": 8169,
       "lang": "en"
     },
     {
@@ -7009,10 +7009,10 @@
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/create-topic?version=v26.1",
       "file": "en/yql/reference/syntax/create-topic.md",
       "title": "CREATE TOPIC",
-      "description": " The CREATE TOPIC call creates a topic. When creating a topic, you can add topic consumers to it and topic settings.",
+      "description": " You can use the CREATE TOPIC statement to create a topic, as well as consumers for it. General command format:",
       "source_path": "en/core/yql/reference/syntax/create-topic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-topic.md",
-      "bytes": 3752,
+      "bytes": 5482,
       "lang": "en"
     },
     {
@@ -7089,7 +7089,7 @@
       "description": " The INDEX construct is used to define a secondary index in a row-oriented table:",
       "source_path": "en/core/yql/reference/syntax/create_table/secondary_index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create_table/secondary_index.md",
-      "bytes": 3201,
+      "bytes": 3330,
       "lang": "en"
     },
     {
@@ -8045,8 +8045,8 @@
       "title": "Документация YDB",
       "description": null,
       "source_path": "ru/core/index.yaml",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs",
-      "bytes": 2250,
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/index.yaml",
+      "bytes": 2269,
       "lang": "ru"
     },
     {
@@ -8387,7 +8387,7 @@
       "description": " Функциональность Корпоративной СУБД Яндекса. Данная функциональность доступна только в Корпоративной СУБД Яндекса. В open-source версии YDB она отсутствует.",
       "source_path": "ru/core/concepts/bridge.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/bridge.md",
-      "bytes": 21599,
+      "bytes": 21525,
       "lang": "ru"
     },
     {
@@ -10385,11 +10385,11 @@
       "doc_path": "ru/devops/deployment-options/manual/decommissioning",
       "url": "https://ydb.tech/docs/ru/devops/deployment-options/manual/decommissioning?version=v26.1",
       "file": "ru/devops/deployment-options/manual/decommissioning.md",
-      "title": "Декомиссия части кластера",
-      "description": " Декомиссия — это процедура перемещения VDisk с PDisk, который требуется вывести из эксплуатации.",
+      "title": "Декомиссия ЦОД",
+      "description": " Примечание. Описанную процедуру можно применять только для декомиссии целого центра обработки данных (ЦОД).",
       "source_path": "ru/core/devops/deployment-options/manual/decommissioning.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/decommissioning.md",
-      "bytes": 6096,
+      "bytes": 6610,
       "lang": "ru"
     },
     {
@@ -11214,7 +11214,7 @@
       "description": " Управление дисковой подсистемой кластера включает следующие действия: Изменение конфигурации: Расширение кластера. Добавление групп хранения. Обслуживание:",
       "source_path": "ru/core/maintenance/manual/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/index.md",
-      "bytes": 2119,
+      "bytes": 2098,
       "lang": "ru"
     },
     {
@@ -14822,7 +14822,7 @@
       "description": " Добавление индекса. ADD INDEX — добавляет индекс с указанным именем и типом для заданного набора колонок в строковых таблицах. Грамматика:",
       "source_path": "ru/core/yql/reference/syntax/alter_table/indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/indexes.md",
-      "bytes": 11560,
+      "bytes": 11759,
       "lang": "ru"
     },
     {
@@ -14844,7 +14844,7 @@
       "description": " Добавление индекса. ADD INDEX — добавляет индекс с указанным именем и типом для заданного набора колонок в строковых таблицах. Грамматика:",
       "source_path": "ru/core/yql/reference/syntax/alter_table/indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/indexes.md",
-      "bytes": 11576,
+      "bytes": 11775,
       "lang": "ru"
     },
     {
@@ -15108,7 +15108,7 @@
       "description": " Конструкция INDEX используется для определения вторичного индекса для строковых таблиц:",
       "source_path": "ru/core/yql/reference/syntax/create_table/secondary_index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create_table/secondary_index.md",
-      "bytes": 4246,
+      "bytes": 4460,
       "lang": "ru"
     },
     {
@@ -16058,8 +16058,9 @@
       "lang": "ru"
     }
   ],
-  "image_count": 365,
+  "image_count": 367,
   "images_linked_at_site": [
+    "en/concepts/query_execution/_assets/star_schema.png",
     "ru/concepts/query_execution/_assets/Star-Schema.png"
   ],
   "failures": [
@@ -16219,11 +16220,5 @@
       "link": "debug-prometheus.md"
     }
   ],
-  "broken_images": [
-    {
-      "asset": "en/concepts/query_execution/_assets/star_schema.png",
-      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/concepts/query_execution/_assets/star_schema.png",
-      "status": "404"
-    }
-  ]
+  "broken_images": []
 }

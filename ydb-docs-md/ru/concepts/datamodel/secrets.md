@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/datamodel/secrets.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/secrets.md"
 description: "Когда YDB обращается ко внешним системам — например, для получения данных из объектных хранилищ или внешних СУБД через федеративные запросы или для асинхронной"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Секреты

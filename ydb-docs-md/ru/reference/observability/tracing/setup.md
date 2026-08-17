@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/observability/tracing/setup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/observability/tracing/setup.md"
 description: "Примечание. Подробно трассировка описана на сайте opentelemetry в разделе observability primer."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Трассировка в YDB

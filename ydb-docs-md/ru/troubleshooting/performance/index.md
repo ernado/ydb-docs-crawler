@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/index.md"
 description: "Решение проблем с производительностью баз данных требует комплексного подхода, который включает в себя оптимизацию запросов, правильную конфигурацию аппаратных"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Диагностика проблем с производительностью

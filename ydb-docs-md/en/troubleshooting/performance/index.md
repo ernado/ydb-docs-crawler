@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/index.md"
 description: "Addressing database performance issues often requires a holistic approach, which includes optimizing queries, properly configuring hardware resources, and ensur"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Troubleshooting performance issues

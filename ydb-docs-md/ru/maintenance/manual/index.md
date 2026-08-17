@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/index.md"
 description: "Управление дисковой подсистемой кластера включает следующие действия: Изменение конфигурации: Расширение кластера. Добавление групп хранения. Обслуживание:"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Обзор управления дисковой подсистемой кластера
@@ -24,7 +24,7 @@ revision: "a6ee1837f90009a183281888dccad12a7b30d774"
   - [Замена FQDN узла](../../devops/configuration-management/configuration-v2/replacing-nodes.md).
   - [Включение и выключение Scrubbing](scrubbing.md).
   - [Работа с SelfHeal](selfheal.md).
-  - [Декомиссия части кластера](../../devops/deployment-options/manual/decommissioning.md).
+  - [Декомиссия ЦОД](../../devops/deployment-options/manual/decommissioning.md).
   - [Декомиссия групп с использованием виртуальных групп](virtual_storage_groups_decommit.md).
   - [Перевоз VDisk'ов](moving_vdisks.md).
 

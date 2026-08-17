@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/changelog-enterprise.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-enterprise.md"
 description: "Версия 25.3 Версия 25.3.1.ent.3. Дата выхода: 12 июня 2026. Функциональность. Добавлена поддержка конфигурации 2 ДЦ с синхронной записью данных (режим Bridge )."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Список изменений сервера Корпоративной СУБД Яндекса

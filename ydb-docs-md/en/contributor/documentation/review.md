@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/documentation/review.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/documentation/review.md"
 description: "Building on the high-level overview in Contributing to YDB documentation, this article dives deeper into what happens during the documentation pull request revi"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Review process for YDB documentation

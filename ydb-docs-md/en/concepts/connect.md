@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/connect.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/connect.md"
 description: "To connect to a YDB database from the YDB CLI or an app running the YDB SDK, specify your endpoint and database path. Endpoint."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Connecting to a Database

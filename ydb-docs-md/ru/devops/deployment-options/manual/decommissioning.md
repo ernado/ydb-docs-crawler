@@ -1,16 +1,19 @@
 ---
-title: "Декомиссия части кластера"
+title: "Декомиссия ЦОД"
 url: "https://ydb.tech/docs/ru/devops/deployment-options/manual/decommissioning?version=v26.1"
 doc_path: "ru/devops/deployment-options/manual/decommissioning"
 version: "v26.1"
 lang: "ru"
 source_path: "ru/core/devops/deployment-options/manual/decommissioning.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/decommissioning.md"
-description: "Декомиссия — это процедура перемещения VDisk с PDisk, который требуется вывести из эксплуатации."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+description: "Примечание. Описанную процедуру можно применять только для декомиссии целого центра обработки данных (ЦОД)."
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
-# Декомиссия части кластера
+# Декомиссия ЦОД
+
+> [!NOTE]
+> Описанную процедуру можно применять только для декомиссии целого центра обработки данных (ЦОД).
 
 Декомиссия — это процедура перемещения VDisk с PDisk, который требуется вывести из эксплуатации.
 
@@ -36,7 +39,7 @@ revision: "a6ee1837f90009a183281888dccad12a7b30d774"
 
 1. В ЦОД-2 размещается буферное оборудование, на которое будет перемещена первая порция данных.
 
-2. Все диски ЦОД-1 переводятся в состояние `DECOMMIT_PENDING`, чтобы исключить перемещение данных внутри ЦОД-1.
+2. Все диски ЦОД-1 единовременно переводятся в состояние `DECOMMIT_PENDING`, чтобы исключить перемещение данных внутри ЦОД-1. Статус необходимо задать сразу на все диски датацентра: если перевести в `DECOMMIT_PENDING` только часть дисков ЦОД, это может привести к нарушению модели отказа групп хранения.
 
 3. В ЦОД-1 все диски оборудования, эквивалентного буферному, переводятся в состояние `DECOMMIT_IMMINENT`.
 

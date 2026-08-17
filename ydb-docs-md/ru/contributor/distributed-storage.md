@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/distributed-storage.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/distributed-storage.md"
 description: "YDB distributed storage — это подсистема YDB, которая отвечает за надёжное хранение данных."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Дисковая подсистема кластера aka YDB distributed storage

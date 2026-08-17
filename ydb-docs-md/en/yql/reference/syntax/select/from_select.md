@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/from_select.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/from_select.md"
 description: "FROM... SELECT... An inverted format, first specifying the data source and then the operation. Examples. FROM my_table SELECT key, value;"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # en/yql/reference/syntax/select/from_select

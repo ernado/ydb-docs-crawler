@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/ydb/ydb-updates.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/ydb/ydb-updates.md"
 description: "Кластеры YDB могут обновляться без простоев, поскольку обычно они содержат избыточные компоненты и поддерживает процедуру последовательного перезапуска. Чтобы о"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Процедура последовательного перезапуска

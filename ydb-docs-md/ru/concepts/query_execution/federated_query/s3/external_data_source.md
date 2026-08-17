@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/s3/external_data_source.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/s3/external_data_source.md"
 description: "Перед началом работы с S3 необходимо настроить подключение к хранилищу данных. Для этого существует DDL для настройки таких подключений. Далее рассмотрим SQL си"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Чтение из бакетов S3 через внешние источники данных

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/federated_query/clickhouse.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/clickhouse.md"
 description: "This section describes the basic information about working with the external ClickHouse database ClickHouse."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Working with ClickHouse Databases

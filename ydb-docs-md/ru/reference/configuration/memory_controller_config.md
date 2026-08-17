@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/memory_controller_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/memory_controller_config.md"
 description: "Внутри узлов YDB работают множество различных компонентов, использующих память. Большинству из них требуется фиксированное количество памяти, но некоторые из ни"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # memory_controller_config

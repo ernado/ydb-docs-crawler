@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/gui/vscode-plugin.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/gui/vscode-plugin.md"
 description: "Visual Studio Code — бесплатный кроссплатформенный редактор кода с открытым исходным кодом, поддерживающий широкую экосистему расширений для работы с базами дан"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Подключение к YDB с помощью плагина VS Code

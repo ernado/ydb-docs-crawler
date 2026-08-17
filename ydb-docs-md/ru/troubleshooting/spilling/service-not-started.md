@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/spilling/service-not-started.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/spilling/service-not-started.md"
 description: "Попытка использования спиллинга при выключенном Spilling Service. Это происходит, когда сервис спиллинга неправильно настроен или отключен в конфигурации."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Spilling Service not started

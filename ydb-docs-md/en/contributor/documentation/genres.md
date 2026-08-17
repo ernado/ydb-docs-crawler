@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/documentation/genres.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/documentation/genres.md"
 description: "This article complements YDB documentation style guide by describing the main genres used in YDB documentation. Understanding these genres helps contributors pl"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # YDB documentation genres

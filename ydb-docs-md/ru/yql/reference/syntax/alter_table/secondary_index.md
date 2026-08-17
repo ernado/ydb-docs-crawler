@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter_table/indexes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/indexes.md"
 description: "Добавление индекса. ADD INDEX — добавляет индекс с указанным именем и типом для заданного набора колонок в строковых таблицах. Грамматика:"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Добавление, удаление и переименование индекса
@@ -49,7 +49,7 @@ ALTER TABLE `<table_name>`
 
 - `<cover_columns>` — список имён колонок создаваемой таблицы через запятую, которые будут сохранены в индексе дополнительно к колонкам ключа индекса, давая возможность получить дополнительные данные без обращения за ними в таблицу. По умолчанию пуст.
 
-- `<parameter_name>` и `<parameter_value>` — параметры индекса, специфичные для конкретного `<index_type>`.
+- `<parameter_name>` и `<parameter_value>` — параметры индекса, специфичные для конкретного `<index_type>`. Некоторые параметры индекса нельзя задать при его создании. См. [Изменение параметров индекса](indexes.md#alter-index).
 
 Параметры, специфичные для векторных индексов:
 

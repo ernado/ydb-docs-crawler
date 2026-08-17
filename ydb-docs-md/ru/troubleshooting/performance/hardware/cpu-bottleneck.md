@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/hardware/cpu-bottleneck.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/hardware/cpu-bottleneck.md"
 description: "Высокая нагрузка на процессор может привести к медленному выполнению запросов и увеличению задержек. В условиях ограниченного ресурса процессора база данных мож"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Недостаточное быстродействие процессора

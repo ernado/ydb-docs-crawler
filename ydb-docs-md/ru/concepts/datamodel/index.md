@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/datamodel/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/index.md"
 description: "В YDB поддерживается следующий перечень схемных объектов: Директории. Таблицы. Представления. Топики. Узлы координации. Секреты. Внешние источники данных."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Схемные объекты YDB

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/manual/initial-deployment/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/initial-deployment/index.md"
 description: "Данный документ описывает способы развёртывания мультитенантного кластера YDB с распределённой архитектурой на нескольких физических или виртуальных серверах."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Развёртывание YDB кластера вручную

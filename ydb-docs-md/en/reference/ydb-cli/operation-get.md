@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/operation-get.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/operation-get.md"
 description: "Use the ydb operation get subcommand to obtain the status of the specified long-running operation. General format of the command:"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Obtaining the status of long-running operations

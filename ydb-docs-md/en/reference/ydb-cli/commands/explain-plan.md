@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/explain-plan.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/explain-plan.md"
 description: "YDB provides two types of query plans: a logical plan and an execution plan. The logical plan is better suited for analyzing complex queries with many join oper"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Query execution plan and AST

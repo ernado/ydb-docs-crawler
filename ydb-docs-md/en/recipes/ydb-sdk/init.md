@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/init.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/init.md"
 description: "To connect to YDB, you must specify the required parameters (see Connecting to a YDB server ) and optional parameters that control driver behavior."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Initialize the driver

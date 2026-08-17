@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/vector-search/vector-index-with-prepared-dataset.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/vector-search/vector-index-with-prepared-dataset.md"
 description: "Эта статья поможет научиться работать с векторными индексами в YDB. В качестве данных используется набор данных с текстами из Википедии на английском языке (485"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Векторный индекс с загрузкой внешнего набора данных

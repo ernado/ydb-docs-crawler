@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/actor_system_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/actor_system_config.md"
 description: "Основной потребитель CPU — акторная система. Все акторы, в зависимости от своего типа, выполняются в одном из пулов (параметр name ). Конфигурирование заключает"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # actor_system_config

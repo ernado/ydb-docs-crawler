@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/analyst/practical-guides/scd/scd2-merge.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/practical-guides/scd/scd2-merge.md"
 description: "В этой статье описывается реализация паттерна Slowly Changing Dimensions Type 2 (SCD2) в YDB с использованием процесса подмерживания изменений."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Использование процесса подмерживания изменения для реализации SCD2 в YDB

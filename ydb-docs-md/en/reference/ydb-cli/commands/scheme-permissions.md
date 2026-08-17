@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/scheme-permissions.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/scheme-permissions.md"
 description: "General list of commands. You can get a list of available commands via interactive help: ydb scheme permissions -- help."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Permissions

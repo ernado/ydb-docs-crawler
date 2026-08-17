@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v1/config-overview.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/config-overview.md"
 description: "To start a YDB node, configuration is required. There are two types of configuration: Static — a YAML format file stored on the node's local disk."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Configuration V1 Overview

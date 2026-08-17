@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v2/config-overview.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/config-overview.md"
 description: "Для развёртывания кластера YDB, добавления в кластер новых узлов и изменения параметров требуется конфигурация. Важно."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Обзор конфигурации V2

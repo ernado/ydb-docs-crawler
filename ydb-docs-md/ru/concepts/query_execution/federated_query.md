@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/index.md"
 description: "Федеративные запросы - это способ получать информацию из различных источников данных без необходимости переноса данных этих источников внутрь YDB. В настоящее в"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Федеративные запросы

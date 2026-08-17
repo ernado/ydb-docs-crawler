@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/primary-key/column-oriented.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/primary-key/column-oriented.md"
 description: "В отличие от строковых таблиц YDB, колоночные таблицы партиционируют данные не по первичным ключам, а по специально выделенным ключам — ключам партицирования. П"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Выбор ключей для максимальной производительности колоночных таблиц

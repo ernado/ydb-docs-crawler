@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/yql-tutorial/create_demo_tables.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/yql-tutorial/create_demo_tables.md"
 description: "Create the tables and set the data schema for them using the statement CREATE TABLE. Note."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Creating a table

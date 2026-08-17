@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/configuration/cluster/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/cluster/index.md"
 description: "Cluster configuration management commands are designed for working with the configuration at the level of the entire YDB cluster. These commands allow cluster a"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Cluster Configuration Management Commands

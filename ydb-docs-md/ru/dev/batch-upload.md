@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/batch-upload.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/batch-upload.md"
 description: "В данном разделе предоставлены рекомендации по эффективной загрузке данных в YDB."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Загрузка данных в YDB

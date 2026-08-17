@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/workload-tpcds.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/workload-tpcds.md"
 description: "Нагрузка базируется на документе TPC-DS документация, а запросы и схемы таблиц адаптированы под YDB."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # TPC-DS нагрузка

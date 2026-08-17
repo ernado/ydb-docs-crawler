@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/profile/delete.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/profile/delete.md"
 description: "Удаление профиля. Удаление профиля производится следующей командой: ydb config profile delete <profile_name> [-f]. Параметры. <profile_name>: Имя профиля."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Удаление профиля

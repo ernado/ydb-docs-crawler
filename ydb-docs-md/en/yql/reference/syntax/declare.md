@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/declare.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/declare.md"
 description: "Declares a typed named expression whose value will be passed separately from the query text. With parameterization, you can separately develop an analytical sol"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # DECLARE

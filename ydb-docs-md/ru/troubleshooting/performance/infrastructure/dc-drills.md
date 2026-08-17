@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/infrastructure/dc-drills.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/infrastructure/dc-drills.md"
 description: "Плановые сервисные работы или учения для подготовки персонала к потенциальным чрезвычайным ситуациям и сбоям также могут влиять на производительность выполнения"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Сервисные работы и учения датацентров

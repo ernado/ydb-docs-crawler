@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/gui/jupyter.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/gui/jupyter.md"
 description: "Jupyter Notebook is an open-source tool for creating shareable documents that combine code, plain language descriptions, data, rich visualizations, and interact"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Work with YDB from Jupyter Notebook

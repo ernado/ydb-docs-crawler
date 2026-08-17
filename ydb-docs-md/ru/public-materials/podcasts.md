@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/public-materials/podcasts.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/public-materials/podcasts.md"
 description: "Подкасты разделены по категориям и размечены тегами: Overview. – обзорные материалы, знакомящие с YDB и технологиями, которые применяются в ней. Use cases."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Подкасты

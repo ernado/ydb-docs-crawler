@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/maintenance/manual/node_restarting.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/node_restarting.md"
 description: "Stopping/restarting a YDB process on a node. To make sure that the process is stoppable, follow these steps. Access the node via SSH. Execute the command."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Safe restart and shutdown of nodes

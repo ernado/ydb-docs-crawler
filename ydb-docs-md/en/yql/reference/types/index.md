@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/types/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/index.md"
 description: "This section contains articles on YQL data types: Simple/Primitive types. Serial types. Optional types. Containers. Special types. Type casting."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # YQL data types

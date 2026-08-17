@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/analytics/concepts/bi.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/analytics/concepts/bi.md"
 description: "Интерактивность BI-дешбордов напрямую зависит от производительности базы данных, на которой они построены. YDB спроектирована как высокопроизводительная аналити"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # BI-аналитика и визуализация данных

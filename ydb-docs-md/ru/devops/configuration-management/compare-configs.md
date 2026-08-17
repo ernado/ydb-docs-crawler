@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/compare-configs.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/compare-configs.md"
 description: "В YDB существует два основных подхода к управлению конфигурацией кластера: V1 и V2. Начиная с версии YDB 25.1, поддерживается конфигурация V2, которая унифициру"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Сравнение конфигураций кластера YDB: V1 и V2

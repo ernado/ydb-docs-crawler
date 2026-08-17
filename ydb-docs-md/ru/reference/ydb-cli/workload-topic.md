@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/workload-topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/workload-topic.md"
 description: "Нагружает топики YDB, используя их в качестве очередей сообщений. Для имитации реальной нагрузки вы можете изменять различные входные параметры: число сообщений"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Topic нагрузка

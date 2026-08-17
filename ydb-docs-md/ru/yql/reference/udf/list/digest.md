@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/udf/list/digest.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/digest.md"
 description: "Модуль Digest вычисляют хеши (aka fingerprint'ы) от исходных сообщений. Хеши представляют собой (обычно) некоторую строку небольшого / фиксированного размера. Ф"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Digest

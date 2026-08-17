@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/drop-external-data-source.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/drop-external-data-source.md"
 description: "Удаляет указанный внешний источник данных. Если внешнего источника данных с таким именем не существует, возвращается ошибка. Пример."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # DROP EXTERNAL DATA SOURCE

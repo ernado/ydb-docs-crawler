@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/yql-tutorial/insert_into.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/yql-tutorial/insert_into.md"
 description: "Add data to the table using INSERT INTO: Note."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Inserting data with INSERT

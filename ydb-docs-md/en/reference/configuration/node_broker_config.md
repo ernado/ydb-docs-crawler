@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/node_broker_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/node_broker_config.md"
 description: "The node_broker_config section configures stable node names for dynamic nodes in YDB clusters. Node names are assigned through the Node Broker, which is a syste"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # node_broker_config

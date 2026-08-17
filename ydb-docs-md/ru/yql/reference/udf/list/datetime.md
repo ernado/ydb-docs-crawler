@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/udf/list/datetime.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/datetime.md"
 description: "Модуль DateTime предоставляет набор функций для работы с датами и временем в YDB. Они поддерживают все доступные типы данных временных меток и интервалов как с"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # DateTime

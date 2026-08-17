@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/table-drop.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/table-drop.md"
 description: "С помощью подкоманды table drop вы можете удалить указанную таблицу. Общий вид команды: ydb [global options...] table drop [options...] <table path>."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Удаление таблицы

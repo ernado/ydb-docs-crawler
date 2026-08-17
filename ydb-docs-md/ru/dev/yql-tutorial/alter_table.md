@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/yql-tutorial/alter_table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/yql-tutorial/alter_table.md"
 description: "Добавьте новую колонку в таблицу, а затем удалите ее. Примечание."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Добавление и удаление колонок

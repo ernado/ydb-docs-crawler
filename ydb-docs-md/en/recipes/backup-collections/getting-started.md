@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/backup-collections/getting-started.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/backup-collections/getting-started.md"
 description: "This guide walks you through creating a backup collection, taking your first backups, and monitoring backup operations. Creating a backup collection."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Creating Your First Backup Collection

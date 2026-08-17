@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/kafka-api/auth.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/kafka-api/auth.md"
 description: "Включение аутентификации. При самостоятельном развертывании YDB по умолчанию используется анонимная аутентификация. , не требующая логина-пароля."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Аутентификация Kafka API

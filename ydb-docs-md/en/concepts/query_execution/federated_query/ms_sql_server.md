@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/federated_query/ms_sql_server.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/ms_sql_server.md"
 description: "This section provides basic information about working with external Microsoft SQL Server databases."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Working with Microsoft SQL Server Databases

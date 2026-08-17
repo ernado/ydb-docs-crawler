@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v1/static-group-move.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/static-group-move.md"
 description: "Если нужно вывести из эксплуатации хост кластера YDB, на котором располагается часть статической группы, необходимо переместить её на другой хост. Важно."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Перемещение статической группы

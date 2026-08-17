@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/table-ttl-reset.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/table-ttl-reset.md"
 description: "Use the table ttl reset subcommand to reset TTL for the specified table. General format of the command: ydb [global options...] table ttl reset <table path>."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Resetting TTL parameters

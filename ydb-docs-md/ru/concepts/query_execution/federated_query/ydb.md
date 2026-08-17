@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/ydb.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/ydb.md"
 description: "YDB может выступать в качестве внешнего источника данных для другой базы YDB. В данном разделе рассматривается организация совместной работы двух независимых ба"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Работа с базами данных YDB

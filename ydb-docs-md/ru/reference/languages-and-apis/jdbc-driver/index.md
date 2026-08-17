@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/languages-and-apis/jdbc-driver/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/languages-and-apis/jdbc-driver/index.md"
 description: "JDBC-драйвер для YDB обеспечивает взаимодействие между YDB и приложениями, написанными на Java или других языках программирования, байт-код которых выполняется"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # JDBC-драйвер для YDB

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/cluster-namespace.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/cluster-namespace.md"
 description: "In YDB, all schema objects are organized into a hierarchical namespace called the cluster schema. This structure determines how databases, directories, and othe"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Cluster Namespace and Object Naming

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/tx-control.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/tx-control.md"
 description: "To run your queries, first you need to specify the transaction execution mode in the YDB SDK."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Setting up the transaction execution mode

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create_table/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create_table/index.md"
 description: "The invocation of CREATE TABLE creates a table with the specified data schema and primary key columns ( PRIMARY KEY ). It also allows defining secondary indexes"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # CREATE TABLE

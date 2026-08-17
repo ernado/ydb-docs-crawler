@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/postgresql.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/postgresql.md"
 description: "В этом разделе описана основная информация про работу с внешней базой данных PostgreSQL."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Работа с базами данных PostgreSQL

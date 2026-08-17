@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/languages-and-apis/ado-net/getting-started.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/languages-and-apis/ado-net/getting-started.md"
 description: "The best way to use Ydb.Sdk is to install its NuGet package."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Getting Started with ADO.NET

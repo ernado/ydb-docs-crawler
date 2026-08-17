@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/infrastructure/hardware.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/infrastructure/hardware.md"
 description: "Вышедшие из строя диски и сетевые карты значительно влияют на производительность базы данных или приводят к полной недоступности сервера. Проблемы с процессором"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Аппаратные неисправности

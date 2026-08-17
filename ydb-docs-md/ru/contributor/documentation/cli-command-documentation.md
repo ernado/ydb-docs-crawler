@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/documentation/cli-command-documentation.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/cli-command-documentation.md"
 description: "Эта статья описывает процесс создания документации для новых команд YDB CLI. Она содержит шаблон и рекомендации, основанные на существующих статьях о командах C"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Документирование новых команд CLI

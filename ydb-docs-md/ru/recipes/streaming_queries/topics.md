@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/streaming_queries/topics.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/streaming_queries/topics.md"
 description: "В этом руководстве вы создадите свой первый потоковый запрос. Запрос будет: читать события из входного топика; отбирать только ошибки;"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Быстрый старт: чтение и запись в топики

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/debug.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/debug.md"
 description: "When troubleshooting issues with YDB, diagnostics tools such as logging, metrics, and distributed tracing are helpful. We strongly recommend that you enable the"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Troubleshooting

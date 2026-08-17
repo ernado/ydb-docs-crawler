@@ -132,7 +132,7 @@
         - [Безопасный рестарт и выключение узлов](ru/maintenance/manual/node_restarting.md)
         - [Включение и выключение Scrubbing](ru/maintenance/manual/scrubbing.md)
         - [Работа с SelfHeal](ru/maintenance/manual/selfheal.md)
-        - [Декомиссия части кластера](ru/devops/deployment-options/manual/decommissioning.md)
+        - [Декомиссия ЦОД](ru/devops/deployment-options/manual/decommissioning.md)
         - [Декомиссия групп с использованием виртуальных групп](ru/maintenance/manual/virtual_storage_groups_decommit.md)
         - [Перевоз VDisk'ов](ru/maintenance/manual/moving_vdisks.md)
         - [Предотвращение выхода за модель отказа](ru/maintenance/manual/failure_model.md)

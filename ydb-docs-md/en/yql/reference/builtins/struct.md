@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/builtins/struct.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/struct.md"
 description: "TryMember. Trying to get a field from the structure. If it's not found among the fields or null in the structure value, use the default value. Arguments:"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Functions for structures

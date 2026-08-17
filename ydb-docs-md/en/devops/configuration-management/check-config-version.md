@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/check-config-version.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/check-config-version.md"
 description: "There are two main ways to check which configuration mechanism version ( V1 or V2 ) the nodes of your YDB cluster are using: Embedded UI. Cluster metrics."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Checking Configuration Version

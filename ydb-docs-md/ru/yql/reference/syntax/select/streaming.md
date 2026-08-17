@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/select/streaming.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/streaming.md"
 description: "Можно выполнять чтение данных из топика обычным SELECT без создания потокового запроса. Для этого необходимо указать STREAMING = \"TRUE\" в блоке WITH и задать ог"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Потоковое чтение данных из топика

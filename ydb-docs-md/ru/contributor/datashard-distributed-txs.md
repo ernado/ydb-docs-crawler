@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/datashard-distributed-txs.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/datashard-distributed-txs.md"
 description: "На основе идей Calvin в YDB реализованы распределённые транзакции. Они состоят из множества произвольных (не обязательно детерминированных) операций, выполняемы"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # DataShard: распределённые транзакции

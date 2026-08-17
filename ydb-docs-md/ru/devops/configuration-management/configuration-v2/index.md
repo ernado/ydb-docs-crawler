@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v2/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/index.md"
 description: "В этом разделе документации описан способ конфигурации кластеров YDB под названием V2, являющаяся экспериментальным способом конфигурирования кластеров YDB верс"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Конфигурация V2

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/selfheal.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/selfheal.md"
 description: "В процессе работы кластеров могут выходить из строя узлы целиком или отдельные блочные устройства, на которых работает YDB."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Работа с SelfHeal

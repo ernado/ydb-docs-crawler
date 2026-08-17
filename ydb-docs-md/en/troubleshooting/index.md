@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/index.md"
 description: "This section of the YDB documentation provides guidance on troubleshooting issues related to YDB databases and the applications that interact with them."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Troubleshooting

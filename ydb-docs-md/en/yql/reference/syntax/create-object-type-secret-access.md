@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create-object-type-secret-access.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-object-type-secret-access.md"
 description: "Alert."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # CREATE OBJECT (TYPE SECRET_ACCESS)

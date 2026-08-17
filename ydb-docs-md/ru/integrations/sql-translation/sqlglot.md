@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/sql-translation/sqlglot.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/sql-translation/sqlglot.md"
 description: "SQLGlot — это написанный на чистом Python парсер, транспилер, оптимизатор и форматировщик SQL, поддерживающий более двадцати диалектов (PostgreSQL, MySQL, Click"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # SQLGlot

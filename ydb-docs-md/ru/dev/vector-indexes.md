@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/vector-indexes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/vector-indexes.md"
 description: "Векторные индексы — это специализированные структуры данных, которые позволяют эффективно выполнять векторный поиск в многомерных пространствах. В отличие от вт"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Векторные индексы

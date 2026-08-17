@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/streaming-query/guarantees.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/guarantees.md"
 description: "Гарантии доставки определяют, сколько раз каждое событие из входного топика будет обработано потоковым запросом. Понимание гарантий системы критически важно при"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Гарантии доставки данных

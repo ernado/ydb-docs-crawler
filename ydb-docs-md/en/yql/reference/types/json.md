@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/types/json.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/json.md"
 description: "Bool. Boolean value. Type in JSON: bool. Sample YDB value: true. Sample JSON value: true. Int8, Int16, Int32, Int64. Signed integer types. Type in JSON: number."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Data representation in JSON format

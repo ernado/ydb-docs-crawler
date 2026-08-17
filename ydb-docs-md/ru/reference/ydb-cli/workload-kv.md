@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/workload-kv.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/workload-kv.md"
 description: "Простой вид нагрузки, использующий БД YDB как Key-Value хранилище. Виды нагрузки. Данный нагрузочный тест содержит несколько видов нагрузки:"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Key-Value нагрузка

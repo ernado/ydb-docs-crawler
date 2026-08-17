@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/resource-consumption-management.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/resource-consumption-management.md"
 description: "Пулы ресурсов позволяют изолировать ресурсы баз данных между выполняемыми запросами или же настраивать стратегии распределения ресурсов в случае переподписки (з"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Workload Manager — управление потреблением ресурсов

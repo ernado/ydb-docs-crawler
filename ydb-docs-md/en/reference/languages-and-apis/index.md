@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/languages-and-apis/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/languages-and-apis/index.md"
 description: "ADO.NET -.NET Access to YDB. JDBC driver for YDB. YDB Model Context Protocol Server."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Languages and APIs

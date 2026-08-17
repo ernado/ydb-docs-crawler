@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter_table/changefeed.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter_table/changefeed.md"
 description: "Warning. Supported only for row-oriented tables. Support for column-oriented tables is currently under development."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Adding or removing a changefeed

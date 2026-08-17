@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/ansible/update-executable.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/update-executable.md"
 description: "Во время начального развёртывания Ansible playbook предоставляет на выбор несколько вариантов, какой именно серверный исполняемый файл YDB ( ydbd ) использовать"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Обновление версии YDB на кластерах, развёрнутых с помощью Ansible

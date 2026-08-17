@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/encryption/data-in-transit.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/encryption/data-in-transit.md"
 description: "As YDB is a distributed system typically running on a cluster, often spanning multiple datacenters or availability zones, user data is routinely transferred ove"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Data in transit encryption

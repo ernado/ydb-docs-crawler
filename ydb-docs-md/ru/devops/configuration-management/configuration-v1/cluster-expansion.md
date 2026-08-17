@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v1/cluster-expansion.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/cluster-expansion.md"
 description: "Вы можете расширить кластер YDB, добавив новые узлы в конфигурацию кластера. Ниже приведены необходимые действия по расширению кластера YDB, установленного вруч"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Расширение кластера

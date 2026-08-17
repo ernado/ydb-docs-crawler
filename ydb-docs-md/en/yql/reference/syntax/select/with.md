@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/with.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/with.md"
 description: "Specified after the data source in FROM and used to provide additional hints for table usage. Hints cannot be specified for subqueries and named expressions."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # WITH

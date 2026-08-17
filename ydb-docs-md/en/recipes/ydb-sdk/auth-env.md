@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/auth-env.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/auth-env.md"
 description: "When using this method, the authentication mode and its parameters are defined by the environment that an application is run in, as described here."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Authentication using environment variables

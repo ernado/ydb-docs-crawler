@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/workload-tpcc.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/workload-tpcc.md"
 description: "The workload is based on the TPC-C specification, with the queries and table schemas adapted for YDB."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # TPC-C Workload

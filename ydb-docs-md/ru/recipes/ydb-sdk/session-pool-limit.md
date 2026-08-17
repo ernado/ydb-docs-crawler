@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/session-pool-limit.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/session-pool-limit.md"
 description: "YDB создаёт актор для каждой сессии. В результате, размер пула сессий на клиенте влияет на потребление ресурсов (память, процессор) на серверной стороне YDB."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Установить размер пула сессий

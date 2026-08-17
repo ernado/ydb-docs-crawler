@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/table-query-execute.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/table-query-execute.md"
 description: "Warning. This command is deprecated. The preferred way to run queries in YDB CLI is to use the ydb sql command."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Running a query

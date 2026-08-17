@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/recipes/modifying-json.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/recipes/modifying-json.md"
 description: "В памяти YQL работает с неизменяемыми значениями. Таким образом, когда запросу нужно изменить что-то внутри значения JSON, следует думать об этом как о создании"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Изменение JSON с помощью YQL

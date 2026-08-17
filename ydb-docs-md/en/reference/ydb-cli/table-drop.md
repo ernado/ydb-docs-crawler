@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/table-drop.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/table-drop.md"
 description: "Using the table drop subcommand, you can delete a specified table. General format of the command: ydb [global options...] table drop [options...] <table path>."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Deleting a table

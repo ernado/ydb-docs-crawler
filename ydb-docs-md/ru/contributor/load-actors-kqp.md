@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/load-actors-kqp.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/load-actors-kqp.md"
 description: "Тестирует производительности кластера YDB в целом, нагружая все компоненты через слой Query Processor. Нагрузка, аналогична нагрузке от подкоманды workload YDB"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # KqpLoad

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/maintenance/manual/replacing_nodes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/replacing_nodes.md"
 description: "Sometimes, a node's FQDN changes, but the node itself remains in the system under a different name. Simply changing the node name in the hosts section will not"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Replacing a node's FQDN

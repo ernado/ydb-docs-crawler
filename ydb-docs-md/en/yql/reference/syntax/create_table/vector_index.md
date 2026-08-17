@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create_table/vector_index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create_table/vector_index.md"
 description: "Vector index in row-oriented tables is created using the same syntax as secondary indexes, by specifying vector_kmeans_tree as the index type. Subset of syntax"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Vector index

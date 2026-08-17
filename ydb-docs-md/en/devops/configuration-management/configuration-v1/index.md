@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v1/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/index.md"
 description: "This section of the YDB documentation describes Configuration V1, which is the main way to configure YDB clusters deployed using YDB."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Configuration V1

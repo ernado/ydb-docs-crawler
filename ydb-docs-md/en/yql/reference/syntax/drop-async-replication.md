@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/drop-async-replication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/drop-async-replication.md"
 description: "The DROP ASYNC REPLICATION statement deletes an asynchronous replication instance. When an asynchronous replication instance is deleted, the following objects a"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # DROP ASYNC REPLICATION

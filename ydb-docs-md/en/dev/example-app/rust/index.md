@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/example-app/rust/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/rust/index.md"
 description: "This page provides a detailed description of the code for a test app that uses the YDB Rust SDK. Downloading and starting."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Example app in Rust

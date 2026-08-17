@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/embedded-ui/ydb-monitoring.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/embedded-ui/ydb-monitoring.md"
 description: "YDB Monitoring is a set of web pages that display the system health according to a range of different aspects. The pages contain lists of components and their c"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # YDB Monitoring

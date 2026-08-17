@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/node_broker_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/node_broker_config.md"
 description: "Секция node_broker_config настраивает стабильные имена узлов для динамических узлов в кластерах YDB. Присвоение имен узлам осуществляет Node Broker — системная"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # node_broker_config

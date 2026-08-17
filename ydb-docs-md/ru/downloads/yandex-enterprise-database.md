@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/downloads/yandex-enterprise-database.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/yandex-enterprise-database.md"
 description: "Корпоративная СУБД Яндекса — коммерческая СУБД на основе ядра YDB. Информация об условиях использования Корпоративной СУБД Яндекса."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Загрузка Корпоративной СУБД Яндекса (Yandex Enterprise Database)

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/docker/init-scripts.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/docker/init-scripts.md"
 description: "Docker-контейнер YDB поддерживает пользовательские скрипты инициализации, позволяющие автоматизировать настройку базы данных. Директории для скриптов."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Пользовательские скрипты инициализации

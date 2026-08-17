@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/create_table/secondary_index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create_table/secondary_index.md"
 description: "Конструкция INDEX используется для определения вторичного индекса для строковых таблиц:"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # INDEX
@@ -51,7 +51,7 @@ CREATE TABLE `<table_name>` (
 
 - `<cover_columns>` — список имён колонок создаваемой таблицы через запятую, которые будут сохранены в индексе дополнительно к колонкам ключа индекса, давая возможность получить дополнительные данные без обращения за ними в таблицу. По умолчанию пуст.
 
-- `<parameter_name>` и `<parameter_value>` — параметры индекса, специфичные для конкретного `<index_type>`.
+- `<parameter_name>` и `<parameter_value>` — параметры индекса, специфичные для конкретного `<index_type>`. Некоторые параметры индекса нельзя задать при его создании. См. [Изменение параметров индекса](../alter_table/indexes.md#alter-index).
 
 ## Пример {#primer}
 

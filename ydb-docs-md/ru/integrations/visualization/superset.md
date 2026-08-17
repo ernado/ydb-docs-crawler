@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/visualization/superset.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/visualization/superset.md"
 description: "Apache Superset — современная платформа для анализа и визуализации данных. В этой статье описано, как создавать визуализации на основе данных, хранящихся в YDB."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Apache Superset

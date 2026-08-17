@@ -5,8 +5,8 @@ doc_path: "ru/"
 version: "v26.1"
 lang: "ru"
 source_path: "ru/core/index.yaml"
-vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/index.yaml"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Документация YDB

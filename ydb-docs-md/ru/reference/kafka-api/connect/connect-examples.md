@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/kafka-api/connect/connect-examples.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/kafka-api/connect/connect-examples.md"
 description: "В разделе приведены примеры файлов настройки коннекторов Kafka Connect для работы с YDB по протоколу Kafka. Из файла в YDB."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Примеры настройки коннекторов

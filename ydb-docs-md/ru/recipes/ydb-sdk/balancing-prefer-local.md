@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/balancing-prefer-local.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/balancing-prefer-local.md"
 description: "Ниже приведены примеры кода установки опции алгоритма балансировки \"предпочитать ближайший дата-центр\" в разных YDB SDK. С++. Go. Python. C#. JavaScript. Java."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Предпочитать ближайший дата-центр

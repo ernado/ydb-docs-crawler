@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/streaming-query/watermarks.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/watermarks.md"
 description: "Watermark — монотонно возрастающая нижняя оценка времён событий в потоке (подробнее о концепции: Watermarks ). В данном разделе описана настройка watermarks в п"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Watermarks

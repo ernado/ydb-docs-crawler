@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter_table/indexes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter_table/indexes.md"
 description: "Adding an index. ADD INDEX — adds an index with the specified name and type for a given set of columns. Grammar:"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Adding, removing, and renaming a index
@@ -49,7 +49,7 @@ ALTER TABLE `<table_name>`
 
 - `<cover_columns>` — comma-separated list of column names from the created table that will be saved in the index in addition to index key columns, providing the ability to get additional data without accessing the table. Empty by default.
 
-- `<parameter_name>` and `<parameter_value>` — index parameters specific to a particular `<index_type>`.
+- `<parameter_name>` and `<parameter_value>` — index parameters specific to a particular `<index_type>`. Some index parameters cannot be specified during index creation. See [Altering an index](indexes.md#alter-index).
 
 Parameters specific to vector indexes:
 

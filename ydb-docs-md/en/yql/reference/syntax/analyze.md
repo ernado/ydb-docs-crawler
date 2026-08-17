@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/analyze.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/analyze.md"
 description: "ANALYZE forces the collection of statistics for YDB cost-based optimizer. Syntax. ANALYZE <path_to_table> [ (<column_name> [,...]) ]."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # ANALYZE

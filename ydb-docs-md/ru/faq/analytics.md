@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/faq/analytics.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/analytics.md"
 description: "Можно ли использовать YDB для аналитических нагрузок (OLAP)? Да, можно. Если это основной тип нагрузки для конкретной таблицы, то убедитесь, что она колоночная."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Вопросы и ответы об аналитике в YDB

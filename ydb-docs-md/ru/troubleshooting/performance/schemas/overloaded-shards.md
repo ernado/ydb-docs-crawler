@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/schemas/overloaded-shards.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/schemas/overloaded-shards.md"
 description: "Таблетки data shard, обслуживающие строковые таблицы, могут быть перегружены по следующим причинам:"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Перегруженные таблетки data shard

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/streaming-query/streaming-query-formats.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/streaming-query-formats.md"
 description: "This section describes data formats for streaming queries supported in YDB when reading from topics, and supported YQL types for each format. Supported formats."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Topic read and write formats
@@ -80,6 +80,8 @@ END DO
 ```
 
 See also: [TableRow](../../yql/reference/builtins/basic.md#tablerow), [Yson::From](../../yql/reference/udf/list/yson.md#ysonfrom), [Yson::SerializeJson](../../yql/reference/udf/list/yson.md#ysonserializejson), [Unwrap](../../yql/reference/builtins/basic.md#unwrap), [ToBytes](../../yql/reference/builtins/basic.md#to-from-bytes).
+
+If a single streaming query writes to multiple topics, all output topics must be different.
 
 ## Read formats {#read_formats}
 

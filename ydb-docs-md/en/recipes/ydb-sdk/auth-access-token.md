@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/auth-access-token.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/auth-access-token.md"
 description: "Below are examples of authentication with a token in different YDB SDKs. Go. Java. JavaScript. Python. C# (.NET). PHP. Native SDK. database/sql."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Authentication using a token

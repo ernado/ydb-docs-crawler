@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/documentation/style-guide.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/style-guide.md"
 description: "Руководство по стилю документации YDB разработано, чтобы помочь авторам создавать понятную, последовательную и удобную для разработчиков документацию."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Руководство по стилю документации YDB

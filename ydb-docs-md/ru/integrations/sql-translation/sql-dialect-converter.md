@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/sql-translation/sql-dialect-converter.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/sql-translation/sql-dialect-converter.md"
 description: "Конвертер SQL-диалектов — это сервис, преобразующий SQL-запросы, написанные на других диалектах (PostgreSQL, MySQL, ClickHouse и других), в синтаксис YQL. Серви"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Конвертер SQL-диалектов в YQL

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v2/cluster-expansion.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v2/cluster-expansion.md"
 description: "You can expand a YDB cluster by adding new nodes to the cluster configuration. Below are the necessary actions for expanding a YDB cluster installed manually on"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Cluster Expansion

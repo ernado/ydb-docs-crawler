@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/faq/yql.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/yql.md"
 description: "YQL General questions How do I select table rows by a list of keys?"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # YQL

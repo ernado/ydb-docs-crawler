@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/yql-tutorial/alter_table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/yql-tutorial/alter_table.md"
 description: "Add a new column to the table and then delete it. Note."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Adding and deleting columns

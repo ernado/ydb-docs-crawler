@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/getting-started.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/getting-started.md"
 description: "First of all, you'll need to obtain access to a YDB cluster. Follow the quickstart instructions to get a basic local instance. Later on, you can work with your"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Getting started with YDB as an Application Developer / Software Engineer

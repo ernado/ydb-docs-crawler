@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/drop-transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/drop-transfer.md"
 description: "Вызов DROP TRANSFER удаляет экземпляр трансфера. Вместе с экземпляром трансфера удалится и читатель, если он был создан автоматически при создании трансфера. По"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # DROP TRANSFER

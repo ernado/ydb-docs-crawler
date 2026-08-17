@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/manual/update-executable.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/update-executable.md"
 description: "YDB is a distributed system that supports rolling restart without downtime or performance degradation. Update Procedure."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Updating YDB

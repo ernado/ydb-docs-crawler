@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-dstool/global-options.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-dstool/global-options.md"
 description: "All the YDB DSTool utility subcommands share the same global options. Option Description. -?, -h, --help. Print the built-in help. -v, --verbose."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Global options

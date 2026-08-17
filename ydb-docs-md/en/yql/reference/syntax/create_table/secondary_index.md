@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create_table/secondary_index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create_table/secondary_index.md"
 description: "The INDEX construct is used to define a secondary index in a row-oriented table:"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # INDEX
@@ -51,7 +51,7 @@ where:
 
 - `<cover_columns>` — comma-separated list of column names from the created table that will be saved in the index in addition to index key columns, providing the ability to get additional data without accessing the table. Empty by default.
 
-- `<parameter_name>` and `<parameter_value>` — index parameters specific to a particular `<index_type>`.
+- `<parameter_name>` and `<parameter_value>` — index parameters specific to a particular `<index_type>`. Some index parameters cannot be specified during index creation. See [Altering an index](../alter_table/indexes.md#alter-index).
 
 > [!WARNING]
 > Supported only for [row-oriented](../../../../concepts/datamodel/table.md#row-oriented-tables) tables. Support for [column-oriented](../../../../concepts/datamodel/table.md#column-oriented-tables) tables is currently under development.

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/yql-tutorial/conditional_values.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/yql-tutorial/conditional_values.md"
 description: "Выберите все названия эпизодов первого сезона каждого сериала и отсортируйте их по имени. Примечание."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Дополнительные условия выборки

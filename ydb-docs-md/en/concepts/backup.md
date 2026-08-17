@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/backup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/backup.md"
 description: "YDB ensures data durability against hardware failures through replication and fault tolerance. However, replication does not protect against logical errors: an"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Backup Concepts

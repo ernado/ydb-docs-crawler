@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/languages-and-apis/ado-net/basic-usage.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/languages-and-apis/ado-net/basic-usage.md"
 description: "В этой статье рассматриваются основные сценарии использования ADO.NET с YDB, включая подключение к базе данных, выполнение запросов и обработку результатов. Доп"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Основное использование ADO.NET

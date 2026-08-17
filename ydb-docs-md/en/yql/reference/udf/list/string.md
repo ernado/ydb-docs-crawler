@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/udf/list/string.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/string.md"
 description: "Functions for ASCII strings: List of functions. String::Base64Encode(String{Flags:AutoMap}) -> String. String::Base64Decode(String) -> String?"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # String

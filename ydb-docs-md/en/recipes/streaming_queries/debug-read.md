@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/streaming_queries/debug-read.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/streaming_queries/debug-read.md"
 description: "When developing streaming queries, it is often useful to inspect what arrives in a topic without creating a full streaming query. Run a regular SELECT with STRE"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Debug reads from a topic

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/vector-search/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/vector-search/index.md"
 description: "This section of YDB documentation contains vector index recipes: Vector Index — Quick Start."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Vector index recipes

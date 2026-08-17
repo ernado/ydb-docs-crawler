@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/yql.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/yql.md"
 description: "Важно. Данная команда устарела. Рекомендуемый инструмент для выполнения запросов в YDB CLI — это команда ydb sql."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Выполнение скрипта (с поддержкой стриминга)

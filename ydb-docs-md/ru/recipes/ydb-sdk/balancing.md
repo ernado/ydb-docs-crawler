@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/balancing.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/balancing.md"
 description: "YDB использует клиентскую балансировку, потому что клиентская балансировка эффективнее, когда на базу данных приходит большой трафик от множества клиентских при"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Балансировка

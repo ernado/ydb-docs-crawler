@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/configuration/node/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/configuration/node/index.md"
 description: "Команды управления конфигурацией узла предназначены для работы с конфигурацией на уровне отдельных узлов кластера YDB. Эти команды позволяют администраторам кла"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Команды управления конфигурацией узла

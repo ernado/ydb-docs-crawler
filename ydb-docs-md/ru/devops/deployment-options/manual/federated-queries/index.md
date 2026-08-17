@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/manual/federated-queries/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/federated-queries/index.md"
 description: "Важно. Данная функциональность находится в режиме \"Experimental\". Общая схема инсталляции."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Развёртывание YDB с функцией Federated Query

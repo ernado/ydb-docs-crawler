@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/orm/entity-framework.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/orm/entity-framework.md"
 description: "YDB предоставляет поставщика Entity Framework (EF) Core — объектно-реляционный модуль сопоставления (ORM), который позволяет разработчикам.NET работать с базой"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # YDB Entity Framework Core Provider

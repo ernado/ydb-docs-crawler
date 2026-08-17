@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/public-materials/articles.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/public-materials/articles.md"
 description: "В этом разделе собраны статьи о YDB: Статьи 2025. Статьи 2024. Статьи 2023. Статьи 2021. Материалы разделены по категориям и размечены тегами: Overview."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Статьи

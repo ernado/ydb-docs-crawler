@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/bridge.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/bridge.md"
 description: "Функциональность Корпоративной СУБД Яндекса. Данная функциональность доступна только в Корпоративной СУБД Яндекса. В open-source версии YDB она отсутствует."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Режим работы кластера Bridge
@@ -43,29 +43,7 @@ Pile не являются самостоятельными кластерами
 
 Режим работы кластера определяется состояниями всех его pile. Например, для кластера из pile А и pile Б состояния pile указываются как (А, Б), где порядок имеет значение.
 
-PRIMARY/SYNCHRONIZED
-
-SYNCHRONIZED/PRIMARY
-
-PRIMARY/PROMOTED
-
-PROMOTED/PRIMARY
-
-PRIMARY/DISCONNECTED
-
-DISCONNECTED/PRIMARY
-
-PRIMARY/NOT_SYNCHRONIZED
-
-NOT_SYNCHRONIZED/PRIMARY
-
-PRIMARY/SUSPENDED
-
-SUSPENDED/PRIMARY
-
-SUSPENDED/PROMOTED
-
-PROMOTED/SUSPENDED
+![Диаграмма состояний кластера](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/ru/core/concepts/_assets/bridge_pile_states.drawio.svg)
 
 Каждый pile может находиться в одном из следующих состояний:
 

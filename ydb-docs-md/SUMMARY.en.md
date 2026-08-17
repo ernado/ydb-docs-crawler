@@ -133,7 +133,7 @@
         - [Safe restart and shutdown of nodes](en/maintenance/manual/node_restarting.md)
         - [Enabling/disabling Scrubbing](en/maintenance/manual/scrubbing.md)
         - [Working with SelfHeal](en/maintenance/manual/selfheal.md)
-        - [Decommissioning a cluster part](en/devops/deployment-options/manual/decommissioning.md)
+        - [Data Center Decommissioning](en/devops/deployment-options/manual/decommissioning.md)
         - [Decommissioning groups using virtual groups](en/maintenance/manual/virtual_storage_groups_decommit.md)
         - [Moving VDisks](en/maintenance/manual/moving_vdisks.md)
         - [Staying within the failure model](en/maintenance/manual/failure_model.md)

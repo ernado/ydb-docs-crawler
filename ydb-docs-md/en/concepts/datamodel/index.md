@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/index.md"
 description: "YDB supports the following types of schema objects: Directories. Tables. Views. Topics. Coordination nodes. Secrets. External tables. External data sources."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # YDB Schema Objects

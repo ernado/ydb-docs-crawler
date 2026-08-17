@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/index.md"
 description: "Конфигурация кластера задается в YAML-файле, который передается в параметре --yaml-config при запуске узлов кластера. В данной статье приведено описание основны"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Параметры конфигурации кластера

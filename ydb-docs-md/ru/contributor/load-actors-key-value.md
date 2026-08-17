@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/load-actors-key-value.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/load-actors-key-value.md"
 description: "Нагружает Key-value таблетку. Конфигурация актора."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # KeyValueLoad

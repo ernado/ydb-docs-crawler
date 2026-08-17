@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/languages-and-apis/ado-net/yandex-cloud.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/languages-and-apis/ado-net/yandex-cloud.md"
 description: "Installation. To use Yandex Cloud authentication in your.NET application, install the Ydb.Sdk.Yc.Auth NuGet package: dotnet add package Ydb.Sdk.Yc.Auth."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Connection ADO.NET to Yandex Cloud

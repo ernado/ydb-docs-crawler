@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/memory_controller_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/memory_controller_config.md"
 description: "There are many components inside YDB database nodes that utilize memory. Most of them need a fixed amount, but some are flexible and can use varying amounts of"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # memory_controller_config

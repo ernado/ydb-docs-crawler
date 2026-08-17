@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v1/node-authorization.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/node-authorization.md"
 description: "Аутентификация узлов в кластере YDB обеспечивает проверку подлинности узлов баз данных при выполнении служебных вызовов к другим узлам по протоколу gRPC. Автори"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Аутентификация и авторизация узлов баз данных

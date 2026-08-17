@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/migration/dbt.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/migration/dbt.md"
 description: "Введение."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Интеграция dbt с YDB

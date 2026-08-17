@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/languages-and-apis/ado-net/installation.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/languages-and-apis/ado-net/installation.md"
 description: "Official releases of Ydb.Sdk are always available on nuget.org. This is the recommended way to use Ydb.Sdk. dotnet add package Ydb.Sdk."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Installation ADO.NET

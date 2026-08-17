@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/analyst/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/index.md"
 description: "This section provides examples and recommendations for handling analytical (OLAP) scenarios in YDB. This section includes the following materials."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # For Analysts

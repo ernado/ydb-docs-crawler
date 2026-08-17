@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-cli/convert-table-type.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-cli/convert-table-type.md"
 description: "YDB поддерживает два основных типа таблиц: строковые и колоночные. Выбранный тип таблицы определяет физическое представление данных на дисках, поэтому изменение"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Конвертация таблиц между строковой и колоночной ориентацией

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/tools-copy.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/tools-copy.md"
 description: "С помощью подкоманды tools copy вы можете создать копию таблицы или нескольких таблиц БД. При копировании исходная таблица остается на месте, копия содержит все"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Копирование таблиц

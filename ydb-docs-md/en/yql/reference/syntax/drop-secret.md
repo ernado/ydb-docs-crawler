@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/drop-secret.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/drop-secret.md"
 description: "The DROP SECRET statement deletes an existing secret. Syntax. DROP SECRET secret_name. secret_name — the name of the secret to delete. Permissions."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # DROP SECRET

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter_table/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/index.md"
 description: "При помощи команды ALTER TABLE можно изменить состав колонок и дополнительные параметры строковых и колоночных таблиц. В одной команде можно указать несколько д"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # ALTER TABLE

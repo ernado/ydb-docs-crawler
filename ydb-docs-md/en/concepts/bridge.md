@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/bridge.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/bridge.md"
 description: "Feature of Yandex Enterprise Database. This functionality is available only in the Yandex Enterprise Database. In the open-source version of YDB it is absent."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Bridge cluster operation mode
@@ -43,29 +43,7 @@ Piles are not standalone YDB clusters; they are parts of a single cluster with a
 
 Cluster operation is determined by the states of all its piles. For example, for a cluster of pile A and pile B, the pile states are written as (A, B), where order matters.
 
-PRIMARY/SYNCHRONIZED
-
-SYNCHRONIZED/PRIMARY
-
-PRIMARY/PROMOTED
-
-PROMOTED/PRIMARY
-
-PRIMARY/DISCONNECTED
-
-DISCONNECTED/PRIMARY
-
-PRIMARY/NOT_SYNCHRONIZED
-
-NOT_SYNCHRONIZED/PRIMARY
-
-PRIMARY/SUSPENDED
-
-SUSPENDED/PRIMARY
-
-SUSPENDED/PROMOTED
-
-PROMOTED/SUSPENDED
+![Cluster state diagram](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/concepts/_assets/bridge_pile_states.drawio.svg)
 
 Each pile can be in one of the following states:
 

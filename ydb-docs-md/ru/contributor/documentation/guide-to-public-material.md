@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/documentation/guide-to-public-material.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/guide-to-public-material.md"
 description: "Эта статья посвящена размещению медиа на странице «Публичные материалы». Видео Название."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Добавление медиа в публичные материалы

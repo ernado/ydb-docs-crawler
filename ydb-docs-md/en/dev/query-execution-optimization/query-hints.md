@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/query-execution-optimization/query-hints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/query-execution-optimization/query-hints.md"
 description: "Optimizer hints allow you to influence the behavior of the cost-based optimizer when planning the execution of SQL queries. YDB supports four types of hints for"
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Optimizer Hints

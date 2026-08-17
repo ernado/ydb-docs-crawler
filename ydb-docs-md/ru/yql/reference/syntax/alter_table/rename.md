@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter_table/rename.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/rename.md"
 description: "ALTER TABLE old_table_name RENAME TO new_table_name; Примечание. При выборе имени для таблицы учитывайте общие правила именования схемных объектов."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Переименование таблицы

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/types/yson.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/types/yson.md"
 description: "В данном разделе собрана информация про YSON — JSON-подобный формат данных, разработанный в Яндексе. Примечание. SQL-функции для работы с YSON описаны здесь."
-revision: "a6ee1837f90009a183281888dccad12a7b30d774"
+revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
 ---
 
 # Yson
