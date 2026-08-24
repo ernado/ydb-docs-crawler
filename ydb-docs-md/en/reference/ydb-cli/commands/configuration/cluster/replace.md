@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/configuration/cluster/replace.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/cluster/replace.md"
 description: "With the admin cluster config replace command, you can upload a dynamic configuration to the YDB cluster. Alert."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # admin cluster config replace

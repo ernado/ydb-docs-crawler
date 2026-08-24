@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/debug-jaeger.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/debug-jaeger.md"
 description: "Below are examples of code for enabling tracing in Jaeger in different YDB SDKs. C++. Go. Java. Python. C#. JavaScript. Rust. PHP. Python."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Enabling tracing in Jaeger

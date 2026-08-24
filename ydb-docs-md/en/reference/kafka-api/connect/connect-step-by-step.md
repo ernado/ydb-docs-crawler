@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/kafka-api/connect/connect-step-by-step.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/kafka-api/connect/connect-step-by-step.md"
 description: "This section provides a step-by-step guide for configuring a Kafka Connect connector to copy data from a YDB topic to a file."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Configuring Kafka Connect. A step-by-step guide

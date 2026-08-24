@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/balancing-prefer-location.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/balancing-prefer-location.md"
 description: "Ниже приведены примеры кода установки опции алгоритма балансировки \"предпочитать зону доступности\" в разных YDB SDK. С++. Go. Python. C#. JavaScript. Java."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Предпочитать конкретную зону доступности

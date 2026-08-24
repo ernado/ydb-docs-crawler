@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydbops/configuration.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydbops/configuration.md"
 description: "Примечание. Утилита ydbops находится в активной разработке. В редких случаях обратная совместимость может быть нарушена."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Настройка ydbops

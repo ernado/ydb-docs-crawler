@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/backup-collections/maintenance-and-cleanup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/backup-collections/maintenance-and-cleanup.md"
 description: "Управление жизненным циклом резервных копий и очистка старых резервных копий для контроля использования хранилища. Определение цепочек резервных копий."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Обслуживание и очистка резервных копий

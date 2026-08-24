@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/ingestion/logstash.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/ingestion/logstash.md"
 description: "В разделе представлены варианты интеграции между системой сбора и анализа данных Logstash и YDB. Введение."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Настройка интеграции между Logstash и YDB

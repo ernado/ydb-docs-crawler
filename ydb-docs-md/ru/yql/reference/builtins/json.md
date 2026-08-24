@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/builtins/json.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/json.md"
 description: "JSON - слабо схематизированный формат данных, представленный в YQL типом Json. В отличии от реляционных таблиц, JSON может хранить данные, для которых схема не"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Функции для работы с JSON

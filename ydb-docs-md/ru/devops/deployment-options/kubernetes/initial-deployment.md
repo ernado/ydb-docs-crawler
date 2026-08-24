@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/kubernetes/initial-deployment.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/kubernetes/initial-deployment.md"
 description: "Развертывание YDB в Kubernetes — это простой способ установки и эксплуатации YDB кластера. С Kubernetes вы можете использовать универсальный подход к управлению"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Начало работы с YDB в Kubernetes

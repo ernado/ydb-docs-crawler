@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/queries/overloaded-errors.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/queries/overloaded-errors.md"
 description: "YDB returns OVERLOADED errors in the following cases: Overloaded table partitions with over 15000 queries in their queue."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Overloaded errors

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/streaming-query/streaming-query.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/streaming-query/streaming-query.md"
 description: "A streaming query is a type of query designed for continuous processing of an unbounded data stream ( stream processing ). Unlike regular queries, a streaming q"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Streaming queries

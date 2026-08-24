@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/query-execution-optimization/query-plans-optimization.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/query-execution-optimization/query-plans-optimization.md"
 description: "При разработке запроса важно проанализировать план его выполнения для своевременного обнаружения и устранения причин возможного чрезмерного потребления ресурсов"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Использование планов при оптимизации запросов

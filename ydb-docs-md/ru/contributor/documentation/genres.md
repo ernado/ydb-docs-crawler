@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/documentation/genres.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/genres.md"
 description: "Эта статья дополняет Руководство по стилю документации YDB, описывая основные жанры статей, используемые в документации YDB. Понимание этих жанров помогает конт"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Жанры документации YDB

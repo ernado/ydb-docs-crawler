@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/topic-drop.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/topic-drop.md"
 description: "You can use the topic drop subcommand to delete a previously created topic. Note. Deleting a topic also deletes all the consumers added for it."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Deleting a topic

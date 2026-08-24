@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/connect.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/connect.md"
 description: "Соединение CLI с базой данных и аутентификация. Большинство команд YDB CLI относится к операциям над базой данных YDB и требует соединения с ней для исполнения."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Соединение CLI с базой данных и аутентификация

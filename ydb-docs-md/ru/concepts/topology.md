@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/topology.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/topology.md"
 description: "Кластер YDB состоит из узлов хранения и узлов баз данных. Работоспособность обоих типов узлов важна для обеспечения доступности баз данных YDB: узлы баз данных"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Топология кластера YDB

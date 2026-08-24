@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/types/serial.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/serial.md"
 description: "Serial data types are integers with an additional value-generation mechanism. They are used for auto-increment columns: each new row inserted into the table aut"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Serial data types

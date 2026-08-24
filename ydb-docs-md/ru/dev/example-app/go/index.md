@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/example-app/go/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/go/index.md"
 description: "На этой странице подробно разбирается код тестового приложения, использующего YDB Go SDK. Скачивание и запуск."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Приложение на Go

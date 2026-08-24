@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/load-actors-stop.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/load-actors-stop.md"
 description: "Using this command, you can stop either entire load or only the specified part of it. Actor parameters Parameter Description. Tag."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Stop

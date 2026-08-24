@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/ydb/tablets-moved.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/ydb/tablets-moved.md"
 description: "YDB автоматически распределяет нагрузку, перемещая таблетки с перегруженных узлов на другие узлы. Этот процесс управляется компонентом Hive. Когда Hive перемеща"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Частые переезды таблеток между узлами

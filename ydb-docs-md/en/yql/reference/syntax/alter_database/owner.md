@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter_database/owner.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter_database/owner.md"
 description: "Changes the database owner. Only a database administrator can perform this operation. Syntax. ALTER DATABASE path OWNER TO user_name; Parameters."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Change database owner

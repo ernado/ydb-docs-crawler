@@ -4,14 +4,14 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "6cf79b202d43efced4776d730126c3952ec44c6d",
+      "revision": "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4",
       "page_count": 729,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "6cf79b202d43efced4776d730126c3952ec44c6d",
+      "revision": "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4",
       "page_count": 729,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
@@ -203,7 +203,7 @@
       "description": " Version 25.3 Version 25.3.1.ent.3. Release date: June 12, 2026. New Features.",
       "source_path": "en/core/changelog-enterprise.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-enterprise.md",
-      "bytes": 68923,
+      "bytes": 68983,
       "lang": "en"
     },
     {
@@ -709,7 +709,7 @@
       "description": " This section describes the data formats supported in YDB for storage in S3 and the supported compression algorithms. Supported Data Formats.",
       "source_path": "en/core/concepts/query_execution/federated_query/s3/formats.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/s3/formats.md",
-      "bytes": 8304,
+      "bytes": 8307,
       "lang": "en"
     },
     {
@@ -753,7 +753,7 @@
       "description": "YDB can act as an external data source for another YDB database. This section discusses the organization of collaboration between two independent YDB databases ",
       "source_path": "en/core/concepts/query_execution/federated_query/ydb.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/ydb.md",
-      "bytes": 7230,
+      "bytes": 7228,
       "lang": "en"
     },
     {
@@ -2579,7 +2579,7 @@
       "description": " Yandex Enterprise Database is a commercial database management system based on the YDB core. Yandex Enterprise Database Usage Terms.",
       "source_path": "en/core/downloads/yandex-enterprise-database.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/yandex-enterprise-database.md",
-      "bytes": 12060,
+      "bytes": 12359,
       "lang": "en"
     },
     {
@@ -4383,7 +4383,7 @@
       "description": "YDB is configured via environment variables when running in Docker. When starting the YDB Docker container with the docker run command, you can specify addition",
       "source_path": "en/core/reference/docker/configuration.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/configuration.md",
-      "bytes": 5760,
+      "bytes": 5784,
       "lang": "en"
     },
     {
@@ -10609,7 +10609,7 @@
       "description": " Корпоративная СУБД Яндекса — коммерческая СУБД на основе ядра YDB. Информация об условиях использования Корпоративной СУБД Яндекса.",
       "source_path": "ru/core/downloads/yandex-enterprise-database.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/yandex-enterprise-database.md",
-      "bytes": 15005,
+      "bytes": 15203,
       "lang": "ru"
     },
     {
@@ -12380,7 +12380,7 @@
       "description": "YDB в Docker-контейнере настраивается через дополнительные переменные окружения, меняющие поведение YDB по умолчанию. Старт Docker-контейнера YDB осуществляется",
       "source_path": "ru/core/reference/docker/configuration.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/docker/configuration.md",
-      "bytes": 7691,
+      "bytes": 7710,
       "lang": "ru"
     },
     {
@@ -16066,28 +16066,13 @@
   "failures": [
     {
       "lang": "en",
-      "doc_path": "en/concepts/concepts/",
-      "error": "https://ydb.tech/docs/en/concepts/concepts/?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/concepts/concepts/?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "lang": "en",
       "doc_path": "en/concepts/topic",
       "error": "https://ydb.tech/docs/en/concepts/topic?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/concepts/topic?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "lang": "en",
-      "doc_path": "en/concepts/yql/reference/udf/list/string",
-      "error": "https://ydb.tech/docs/en/concepts/yql/reference/udf/list/string?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/concepts/yql/reference/udf/list/string?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "lang": "en",
       "doc_path": "en/devops/backup-and-recovery",
       "error": "https://ydb.tech/docs/en/devops/backup-and-recovery?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/devops/backup-and-recovery/?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "lang": "en",
-      "doc_path": "en/maintenance/manual/static-config",
-      "error": "https://ydb.tech/docs/en/maintenance/manual/static-config?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/maintenance/manual/static-config?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "lang": "ru",
@@ -16113,27 +16098,11 @@
   "broken_links": [
     {
       "file": "en/changelog-enterprise.md",
-      "link": "maintenance/manual/static-config.md"
-    },
-    {
-      "file": "en/changelog-enterprise.md",
-      "link": "maintenance/manual/static-config.md"
-    },
-    {
-      "file": "en/changelog-enterprise.md",
       "link": "concepts/topic.md"
     },
     {
       "file": "en/changelog-server.md",
       "link": "concepts/topic.md"
-    },
-    {
-      "file": "en/concepts/query_execution/federated_query/s3/formats.md",
-      "link": "../../../yql/reference/udf/list/string.md"
-    },
-    {
-      "file": "en/concepts/query_execution/federated_query/ydb.md",
-      "link": "../../concepts/index.md#ydb-hierarchy"
     },
     {
       "file": "en/contributor/documentation/style-guide.md",

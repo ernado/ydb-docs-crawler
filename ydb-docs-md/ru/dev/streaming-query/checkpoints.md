@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/streaming-query/checkpoints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/checkpoints.md"
 description: "Чекпоинт — это сохранённое состояние работающего потокового запроса, необходимое для восстановления после сбоев обработки. YDB периодически сохраняет чекпоинты"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Чекпоинты

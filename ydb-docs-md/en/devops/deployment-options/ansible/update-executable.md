@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/ansible/update-executable.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/ansible/update-executable.md"
 description: "During the initial deployment, the Ansible playbook provides several options for selecting the YDB server executable ( ydbd ). This article explains the availab"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Updating YDB Version on Clusters Deployed with Ansible

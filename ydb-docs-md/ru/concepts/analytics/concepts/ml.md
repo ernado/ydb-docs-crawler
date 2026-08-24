@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/analytics/concepts/ml.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/analytics/concepts/ml.md"
 description: "YDB служит эффективной платформой для хранения и обработки данных в ML-пайплайнах. Вы можете использовать привычные инструменты, такие как Jupyter Notebook и Ap"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Machine Learning

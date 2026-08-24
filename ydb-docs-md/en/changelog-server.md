@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/changelog-server.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-server.md"
 description: "Version 26.1 Version 26.1.1.22. Release date: July 27, 2026. Bug Fixes."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # YDB Server changelog

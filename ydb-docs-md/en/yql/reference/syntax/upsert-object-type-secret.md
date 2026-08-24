@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/upsert-object-type-secret.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/upsert-object-type-secret.md"
 description: "Warning. The syntax for managing secrets will change in future YDB releases. To change the contents of a secret, use the following statement:"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # UPSERT OBJECT (TYPE SECRET)

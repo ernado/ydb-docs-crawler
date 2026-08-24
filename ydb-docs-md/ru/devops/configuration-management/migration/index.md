@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/migration/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/migration/index.md"
 description: "В YDB поддерживается два механизма управления конфигурацией: V1 и V2 (экспериментальный, доступен с версии 25.1). Ключевые различия между ними описаны в статье"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Миграция конфигурации кластера

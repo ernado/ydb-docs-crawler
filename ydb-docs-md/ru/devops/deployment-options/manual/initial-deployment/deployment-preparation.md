@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/manual/initial-deployment/deployment-preparation.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/initial-deployment/deployment-preparation.md"
 description: "Перед началом работы Требования. Ознакомьтесь с системными требованиями и топологией кластера."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Подготовка к развертыванию

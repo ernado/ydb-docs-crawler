@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-sdk/overview-grpc-api.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-sdk/overview-grpc-api.md"
 description: "YDB предоставляет gRPC API, с помощью которого вы можете управлять ресурсами и данными БД. Для описания методов и структур данных API используется Protocol Buff"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Обзор gRPC API

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/resource-consumption-management.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/resource-consumption-management.md"
 description: "Resource pools allow you to isolate database resources between running queries or configure resource allocation strategies in case of oversubscription (allocati"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Workload Manager — resource consumption management

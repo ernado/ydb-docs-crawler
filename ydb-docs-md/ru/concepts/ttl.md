@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/ttl.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/ttl.md"
 description: "Time to Live (TTL) и вытеснение данных во внешнее хранилище. В разделе описан принцип работы TTL и его ограничения. Принцип работы."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Time to Live (TTL) и вытеснение данных во внешнее хранилище

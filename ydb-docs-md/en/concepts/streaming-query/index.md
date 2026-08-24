@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/streaming-query/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/streaming-query/index.md"
 description: "This section describes the key concepts of stream processing ( stream processing ) in YDB:"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Streaming data processing

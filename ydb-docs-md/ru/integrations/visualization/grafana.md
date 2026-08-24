@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/visualization/grafana.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/visualization/grafana.md"
 description: "YDB data source plugin позволяет использовать Grafana для запросов и визуализации данных из YDB. Установка."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Плагин-источник данных Grafana для интеграции с YDB

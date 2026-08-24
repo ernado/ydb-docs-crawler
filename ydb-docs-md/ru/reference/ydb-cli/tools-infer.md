@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/tools-infer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/tools-infer.md"
 description: "Команда ydb tools infer csv позволяет на основе имеющегося CSV-файла с данными сгенерировать скрипт для создания таблицы. Общий вид команды:"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Генерация скрипта создания таблицы

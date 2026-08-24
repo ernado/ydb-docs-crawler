@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/languages-and-apis/ado-net/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/languages-and-apis/ado-net/index.md"
 description: "Ydb.Sdk — ADO.NET Data Provider для YDB, позволяющий программам, написанным на C#, Visual Basic или F#, получить доступ к YDB. Провайдер полностью реализован на"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # ADO.NET — доступ к YDB из .NET

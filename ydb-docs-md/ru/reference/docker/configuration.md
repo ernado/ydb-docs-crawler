@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/docker/configuration.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/docker/configuration.md"
 description: "YDB в Docker-контейнере настраивается через дополнительные переменные окружения, меняющие поведение YDB по умолчанию. Старт Docker-контейнера YDB осуществляется"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Настройка Docker-контейнера YDB
@@ -18,8 +18,8 @@ YDB в Docker-контейнере настраивается через доп�
 
 | Имя | Тип | Значение по умолчанию | Описание |
 | --- | --- | --- | --- |
-| [`YDB_GRPC_ENABLE_TLS`](https://GitHub.com/ydb-platform/ydb/blob/c113fcffa7b1a20ad8dcb1b1760ae5bfa25370ca/ydb/public/tools/lib/cmds/__init__.py#L258) | `0` или `1` | `1` | Включает использование TLS для gRPC соединений. |
-| [`YDB_GRPC_TLS_DATA_PATH`](https://GitHub.com/ydb-platform/ydb/blob/8fefc809c83829d8d8b886e82534d009de4c8826/ydb/public/tools/lib/cmds/__init__.py#L291) | `string` | `/ydb_data` | Путь до директории с TLS сертификатами для gRPC соединений. |
+| [`YDB_GRPC_ENABLE_TLS`](https://GitHub.com/ydb-platform/ydb/blob/c113fcffa7b1a20ad8dcb1b1760ae5bfa25370ca/ydb/public/tools/lib/cmds/__init__.py#L258) | `0`, `1`, `false` или `true` | `true` | Включает использование TLS для gRPC-соединений. |
+| [`YDB_GRPC_TLS_DATA_PATH`](https://GitHub.com/ydb-platform/ydb/blob/8fefc809c83829d8d8b886e82534d009de4c8826/ydb/public/tools/lib/cmds/__init__.py#L291) | `string` | `/ydb_certs` | Путь к директории с TLS-сертификатами для gRPC-соединений. |
 | [`MON_PORT`](https://GitHub.com/ydb-platform/ydb/blob/8dde59cd0af86737d07a1cd8ff19811a2bd2b663/ydb/tests/library/harness/kikimr_port_allocator.py#L170) | `int` | `8765` | HTTP-порт [встроенного веб-интерфейса YDB](../embedded-ui/index.md). |
 | [`GRPC_PORT`](https://GitHub.com/ydb-platform/ydb/blob/8dde59cd0af86737d07a1cd8ff19811a2bd2b663/ydb/tests/library/harness/kikimr_port_allocator.py#L174) | `int` | `2136` | gRPC порт. |
 | [`IC_PORT`](https://GitHub.com/ydb-platform/ydb/blob/8dde59cd0af86737d07a1cd8ff19811a2bd2b663/ydb/tests/library/harness/kikimr_port_allocator.py#L179) | `int` | `19001` | Порт интерконнекта. |

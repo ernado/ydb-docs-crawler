@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/faq/sdk.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/sdk.md"
 description: "SDK Что делать, если SDK экстренно завершает работу при завершении работы приложения?"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # SDK

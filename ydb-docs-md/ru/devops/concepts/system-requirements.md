@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/concepts/system-requirements.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/concepts/system-requirements.md"
 description: "В данном разделе приводятся рекомендации для развёртывания кластеров YDB, применимые вне зависимости от выбранного способа управления инфраструктурой ( Ansible,"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Системные требования и рекомендации для YDB

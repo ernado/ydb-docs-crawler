@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/hardware/io-bandwidth.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/hardware/io-bandwidth.md"
 description: "A high rate of read and write operations can overwhelm the disk subsystem, leading to increased data access latencies. When the system cannot read or write data"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # I/O bandwidth

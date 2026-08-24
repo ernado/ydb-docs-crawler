@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/primary-key/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/primary-key/index.md"
 description: "Рекомендации по выбору правильного первичного ключа для таблицы зависят от ее типа: Строковые таблицы. Колоночные таблицы."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Выбор первичного ключа

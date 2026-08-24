@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/federated_query/s3/formats.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/s3/formats.md"
 description: "This section describes the data formats supported in YDB for storage in S3 and the supported compression algorithms. Supported Data Formats."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Data Formats and Compression Algorithms
@@ -258,7 +258,7 @@ Query result:
 
 ### Format raw {#raw}
 
-This format allows reading the contents of files as is, in raw form. The data read in this way can be processed using [YQL](../../../yql/reference/udf/list/string.md) tools, splitting into rows and columns.
+This format allows reading the contents of files as is, in raw form. The data read in this way can be processed using [YQL](../../../../yql/reference/udf/list/string.md) tools, splitting into rows and columns.
 
 > [!NOTE]
 > The size of each of the files read in `raw` format cannot exceed the overall memory consumption limit for a single query in YDB.

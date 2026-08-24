@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/authorization.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/authorization.md"
 description: "Basic concepts. Authorization in YDB is based on the concepts of: Access object. Access subject. Access right. Access control list. Owner. User. Group."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Authorization

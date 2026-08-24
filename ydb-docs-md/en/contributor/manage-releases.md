@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/manage-releases.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/manage-releases.md"
 description: "There are two products based on the source code from the YDB repository with independent release cycles: YDB server. YDB command-line interface (CLI)."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Manage YDB Releases

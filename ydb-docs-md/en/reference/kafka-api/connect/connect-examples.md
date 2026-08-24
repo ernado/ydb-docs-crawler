@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/kafka-api/connect/connect-examples.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/kafka-api/connect/connect-examples.md"
 description: "This section provides sample Kafka Connect connector configuration files for working with YDB over the Kafka protocol. From a file to a YDB topic."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Connector configuration examples

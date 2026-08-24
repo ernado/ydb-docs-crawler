@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/localdb-uncommitted-txs.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/localdb-uncommitted-txs.md"
 description: "Таблеткам может понадобиться сохранять большое количество изменений на протяжении длительного времени, а затем целиком закоммитить или отменить их. Для поддержк"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # LocalDB: персистентные незакомиченные изменения

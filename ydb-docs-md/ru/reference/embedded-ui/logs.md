@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/embedded-ui/logs.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/embedded-ui/logs.md"
 description: "Уровни логирования Уровень Числовое значение Значение. TRACE. 8. Очень детальная отладочная информация. DEBUG. 7. Отладочная информация для разработчиков. INFO."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Логи

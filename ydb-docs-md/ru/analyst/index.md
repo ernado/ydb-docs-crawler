@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/analyst/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/index.md"
 description: "В этом разделе собраны примеры и рекомендации по работе с аналитическими (OLAP) сценариями в YDB. Данный раздел содержит следующие материалы. Импорт датасетов."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Для аналитиков

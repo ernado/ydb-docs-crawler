@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/balancing-prefer-local.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/balancing-prefer-local.md"
 description: "Below are examples of setting the \"prefer the nearest data center\" balancing algorithm in different YDB SDKs. Go. C++. Python. JavaScript. Java. Rust."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Prefer the nearest data center

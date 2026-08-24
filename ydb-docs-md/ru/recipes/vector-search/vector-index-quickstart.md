@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/vector-search/vector-index-quickstart.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/vector-search/vector-index-quickstart.md"
 description: "Эта статья поможет быстро начать работу с векторными индексами в YDB на простейшем модельном примере."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Векторный индекс — быстрый старт

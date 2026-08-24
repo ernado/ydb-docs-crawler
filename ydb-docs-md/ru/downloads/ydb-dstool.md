@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/downloads/ydb-dstool.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/ydb-dstool.md"
 description: "YDB DSTool ( ydb-dstool ) — утилита командной строки для управления дисковой подсистемой кластера YDB. Для использования утилиты установите ydb-dstool."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Загрузка YDB DSTool

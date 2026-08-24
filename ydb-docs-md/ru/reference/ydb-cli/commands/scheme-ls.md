@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/scheme-ls.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/scheme-ls.md"
 description: "Список объектов. Команда scheme ls позволяет получить список схемных объектов в базе данных: ydb [connection options] scheme ls [path] [-lR1]."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Список объектов

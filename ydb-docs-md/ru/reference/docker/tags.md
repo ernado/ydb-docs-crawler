@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/docker/tags.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/docker/tags.md"
 description: "Для докер-образа ydbplatform/local-ydb применяются следующие правила именования для тегов: Тег Описание. latest."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Именование тегов докер-образа `ydbplatform/local-ydb`

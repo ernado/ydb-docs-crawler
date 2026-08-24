@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/downloads/yandex-enterprise-database.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/yandex-enterprise-database.md"
 description: "Корпоративная СУБД Яндекса — коммерческая СУБД на основе ядра YDB. Информация об условиях использования Корпоративной СУБД Яндекса."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Загрузка Корпоративной СУБД Яндекса (Yandex Enterprise Database)
@@ -98,3 +98,5 @@ YDB Enterprise Server (`ydbd`) — исполняемый файл для зап
 ## Сертифицированная версия {#certified}
 
 Дистрибутивы сертифицированных версий Корпоративной СУБД Яндекса не доступны для свободного скачивания. Доступ к ним предоставляется [по запросу](https://ydb.yandex.ru/#form).
+
+Сертифицированная версия Корпоративной СУБД Яндекса 25.1 имеет срок окончания технической поддержки 30.10.2030.

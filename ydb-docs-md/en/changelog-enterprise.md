@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/changelog-enterprise.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-enterprise.md"
 description: "Version 25.3 Version 25.3.1.ent.3. Release date: June 12, 2026. New Features."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Yandex Enterprise Database changelog
@@ -163,7 +163,7 @@ Release date: November 25, 2025.
 
 - [Added](https://github.com/ydb-platform/ydb/issues/19310) the ability to [enable followers (read replicas)](yql/reference/syntax/alter_table/indexes.md) for covered secondary indexes. This mode is enabled by setting the `enable_access_to_index_impl_tables` flag in the cluster configuration.
 
-- Changefeeds are now supported in backup and restore operations. To use this feature, set the `enable_changefeeds_export` and `enable_changefeeds_import` flags in the `feature_flags` section of the [database](maintenance/manual/dynamic-config.md) or [cluster](maintenance/manual/static-config.md) configuration.
+- Changefeeds are now supported in backup and restore operations. To use this feature, set the `enable_changefeeds_export` and `enable_changefeeds_import` flags in the `feature_flags` section of the [database](maintenance/manual/dynamic-config.md) or [cluster](devops/configuration-management/configuration-v1/static-config.md) configuration.
 
 - [Added](https://github.com/ydb-platform/ydb/issues/17734) automatic cleanup of temporary tables and directories during export to S3. This mode is enabled by setting the `enable_export_auto_dropping` flag in the cluster configuration.
 
@@ -293,7 +293,7 @@ Release date: November 1, 2025.
 
 #### New Features {#new-features3}
 
-- Views are now supported in backup and restore operations. To use this feature, set the `enable_view_export` flag in the `feature_flags` section of the [database](maintenance/manual/dynamic-config.md) or [cluster](maintenance/manual/static-config.md) configuration.
+- Views are now supported in backup and restore operations. To use this feature, set the `enable_view_export` flag in the `feature_flags` section of the [database](maintenance/manual/dynamic-config.md) or [cluster](devops/configuration-management/configuration-v1/static-config.md) configuration.
 - Additional identifiers — the object path ID (`PathId`) and tablet ID (`TabletId`) — are now included in [Transaction locks invalidated](troubleshooting/performance/queries/transaction-lock-invalidation.md) error messages when the table cannot be identified (Unknown table).
 
 ### Version 24.4.4.15 {#24-4-4-15}

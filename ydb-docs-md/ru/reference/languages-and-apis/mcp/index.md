@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/languages-and-apis/mcp/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/languages-and-apis/mcp/index.md"
 description: "YDB Model Context Protocol (MCP) server позволяет работать с базами данных YDB из любой большой языковой модели (LLM), которая поддерживает MCP, используя любой"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # YDB Model Context Protocol Server

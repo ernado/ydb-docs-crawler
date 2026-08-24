@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/load-actors-pdisk-write.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/load-actors-pdisk-write.md"
 description: "Тестирует производительность записи на PDisk. Нагрузка подается от имени VDisk. Актор создает на указанном PDisk чанки и записывает в них случайные данные. Посл"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # PDiskWriteLoad

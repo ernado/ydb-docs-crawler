@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/hardware/insufficient-memory.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/hardware/insufficient-memory.md"
 description: "If swap (paging of anonymous memory) is disabled on the server running YDB, insufficient memory activates another kernel feature called the OOM killer, which te"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Insufficient memory (RAM)

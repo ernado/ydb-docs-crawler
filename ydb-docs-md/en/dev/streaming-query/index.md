@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/streaming-query/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/index.md"
 description: "Practical guidance for working with streaming queries: Common patterns — minimal examples to get started quickly."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Streaming queries

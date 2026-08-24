@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/streaming.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/streaming.md"
 description: "You can read from a topic with a regular SELECT without creating a streaming query. Set STREAMING = \"TRUE\" in the WITH block and limit output rows with LIMIT; o"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Streaming read from a topic

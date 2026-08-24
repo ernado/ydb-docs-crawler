@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/auth-get-token.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/auth-get-token.md"
 description: "С помощью подкоманды auth get-token вы можете получить токен аутентификации на основе параметров аутентификации, указанных в профиле, переменных окружения или п"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Получение токена аутентификации

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/federated_query/ydb.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/ydb.md"
 description: "YDB can act as an external data source for another YDB database. This section discusses the organization of collaboration between two independent YDB databases"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Working with YDB Databases
@@ -51,7 +51,7 @@ SELECT * FROM ydb_datasource.`<table_name>`
 Where:
 
 - `ydb_datasource` - identifier of the external data source;
-- `<table_name>` - full name of the table within the [hierarchy](../../concepts/index.md#ydb-hierarchy) of directories in the YDB database, e.g., `table`, `dir1/table1`, or `dir1/dir2/table3`.
+- `<table_name>` - full name of the table within the [hierarchy](../../architecture.md#ydb-hierarchy) of directories in the YDB database, e.g., `table`, `dir1/table1`, or `dir1/dir2/table3`.
 
 If the table is at the top level of the hierarchy (not belonging to any directories), it is permissible not to enclose the table name in backticks "\`":
 

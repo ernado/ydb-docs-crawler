@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/example-app/example-cpp.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/example-cpp.md"
 description: "Example app in C++. This page contains a detailed description of the code of a test app that is available as part of the YDB C++SDK."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Example app in C++

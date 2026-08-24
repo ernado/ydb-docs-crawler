@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 description: "Prepare the environment. Before deploying the system, complete the preparation steps. See the Deployment preparation document. Create a working directory."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Deploying a cluster using configuration V1

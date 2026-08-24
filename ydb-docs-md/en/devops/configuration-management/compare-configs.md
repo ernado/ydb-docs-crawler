@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/compare-configs.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/compare-configs.md"
 description: "In YDB, there are two main approaches to cluster configuration management: V1 and V2. Starting from YDB version 25.1, configuration V2 is supported, which unifi"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Comparing YDB Cluster Configurations: V1 and V2

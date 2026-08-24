@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/documentation/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/index.md"
 description: "YDB следует подходу «Документация как код», что означает, что документация YDB разрабатывается с использованием аналогичных методов и инструментов, как и основн"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Участие в разработке документации YDB

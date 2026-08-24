@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/example-app/example-js.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/example-js.md"
 description: "Example app in JavaScript. This page provides a detailed description of the example application code that uses the YDB JavaScript SDK."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Example app in JavaScript

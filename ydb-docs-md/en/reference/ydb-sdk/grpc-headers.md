@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-sdk/grpc-headers.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/grpc-headers.md"
 description: "gRPC metadata headers. YDB uses the following gRPC metadata headers: gRPC headers which a client sends to YDB: x-ydb-database - database."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # en/reference/ydb-sdk/grpc-headers

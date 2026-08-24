@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/maintenance/manual/selfheal.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/selfheal.md"
 description: "While a clusters are running, entire nodes or individual block devices that YDB runs on can fail."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Working with SelfHeal

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/operation-list.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/operation-list.md"
 description: "Use the ydb operation list subcommand to get a list of long-running operations of the specified type. General format of the command:"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Getting a list of long-running operations

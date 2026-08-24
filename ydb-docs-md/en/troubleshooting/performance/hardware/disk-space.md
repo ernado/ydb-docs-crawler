@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/hardware/disk-space.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/hardware/disk-space.md"
 description: "A lack of available disk space can prevent the database from storing new data, resulting in the database becoming read-only. This can also cause slowdowns as th"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Disk space

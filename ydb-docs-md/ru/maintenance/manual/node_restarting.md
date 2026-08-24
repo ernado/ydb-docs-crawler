@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/node_restarting.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/node_restarting.md"
 description: "Остановка/рестарт процесса YDB на узле. Чтобы убедиться, что процесс можно остановить, надо выполнить следующие шаги. Перейти в узел по ssh. Выполнить команду."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Безопасный рестарт и выключение узлов

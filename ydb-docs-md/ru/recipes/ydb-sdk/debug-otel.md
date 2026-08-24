@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/debug-otel.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/debug-otel.md"
 description: "YDB SDK инструментируют операции Query Service спанами OpenTelemetry, обеспечивая распределённую трассировку от кода приложения до каждого gRPC-вызова к YDB. Сп"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Трассировка с OpenTelemetry

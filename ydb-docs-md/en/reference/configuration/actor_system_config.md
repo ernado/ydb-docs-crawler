@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/actor_system_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/actor_system_config.md"
 description: "The CPU resources are mainly used by the actor system. Depending on the type, all actors run in one of the pools (the name parameter). Configuration involves al"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # actor_system_config

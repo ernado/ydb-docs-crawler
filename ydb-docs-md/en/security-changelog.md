@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security-changelog.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security-changelog.md"
 description: "Fixed in YDB 22.4.44, 2022-11-28 CVE-2022-28228."
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Security changelog

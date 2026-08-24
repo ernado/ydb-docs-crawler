@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/streaming_queries/debug-read.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/streaming_queries/debug-read.md"
 description: "При разработке потоковых запросов бывает полезно быстро посмотреть, какие данные поступают в топик, без создания полноценного потокового запроса. Для этого можн"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Отладочное чтение из топика

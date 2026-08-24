@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/vector-search/vector-index-with-prepared-dataset.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/vector-search/vector-index-with-prepared-dataset.md"
 description: "This article walks you through working with vector indexes in YDB. It uses an English Wikipedia text dataset (485,859 rows) prepared by the Hugging Face communi"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Vector index with a prepared external dataset

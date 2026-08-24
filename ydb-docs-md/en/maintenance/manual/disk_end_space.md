@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/maintenance/manual/disk_end_space.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/disk_end_space.md"
 description: "When the disk space is used up, the database may start responding to all queries with an error. To keep the database healthy, we recommend deleting a part of th"
-revision: "6cf79b202d43efced4776d730126c3952ec44c6d"
+revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 ---
 
 # Freeing up space on physical devices
