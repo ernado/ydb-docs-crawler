@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/ansible/initial-deployment/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/ansible/initial-deployment/index.md"
 description: "This guide describes the process of deploying a YDB cluster on a group of servers using Ansible. This approach is recommended for environments with physical ser"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Deploying a YDB cluster with Ansible

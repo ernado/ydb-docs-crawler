@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/index.md"
 description: "The cluster configuration is specified in the YAML file passed in the --yaml-config parameter when the cluster nodes are run. This article provides an overview"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # YDB Cluster Configuration
@@ -35,6 +35,7 @@ The following top-level configuration sections are available, listed in alphabet
 | [hive_config](hive.md) | No | Hive component configuration for tablet management |
 | [host_configs](host_configs.md) | No | Typical host configurations for cluster nodes |
 | [hosts](hosts.md) | Yes | Static cluster nodes configuration |
+| [immediate_controls_config](immediate_controls_config.md) | No | Configuration of dynamic cluster settings |
 | [kafka_proxy_config](kafka.md) | No | [Kafka Proxy](../kafka-api/index.md) configuration |
 | [log_config](log_config.md) | No | Logging configuration and parameters |
 | [memory_controller_config](memory_controller_config.md) | No | Memory allocation and limits for database components |

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/topic-alter.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/topic-alter.md"
 description: "You can use the topic alter subcommand to update a previously created topic. General format of the command:"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Updating a topic
@@ -40,6 +40,7 @@ The command changes the values of parameters specified in the command line. The 
 | `--retention-period` | Data retention time in a topic. A positive number followed by a unit of time.  <br>The following units are supported:<br>- `s` – seconds;<br>- `m` – minutes;<br>- `h` – hours;<br>- `d` – days. |
 | `--partition-write-speed-kbps` | The maximum write speed to a [partition](../../concepts/datamodel/topic.md#partitioning), specified in KB/s.  <br>The default value is `1024`. |
 | `--retention-storage-mb` | The maximum storage size, specified in MB. When the limit is reached, the oldest data will be deleted. The consumed space may exceed the set value when autopartitioning is enabled.  <br>The default value is `0` (no limit). |
+| `--auto-partitioning-strategy` | [Auto-partitioning modes](../../concepts/datamodel/topic.md#autopartitioning_strategies). Possible values:<br>- `up` — the number of partitions can increase under high load, but cannot decrease;<br>- `paused` — automatic scaling of the number of partitions is paused. |
 | `--supported-codecs` | Supported data compression methods.  <br>Possible values:<br>- `RAW`: No compression.<br>- `ZSTD`: [zstd](https://en.wikipedia.org/wiki/Zstandard) compression.<br>- `GZIP`: [gzip](https://en.wikipedia.org/wiki/Gzip) compression.<br>- `LZOP`: [lzop](https://en.wikipedia.org/wiki/Lzop) compression. |
 | `--metering-mode` | The topic pricing method for a serverless database.  <br>Possible values:<br>- `request-units`: Based on actual usage.<br>- `reserved-capacity`: Based on dedicated resources. |
 

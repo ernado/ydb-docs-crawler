@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/restore-backup-collection.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/restore-backup-collection.md"
 description: "The RESTORE statement restores tables from a backup collection. RESTORE collection_name; Parameters."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # RESTORE

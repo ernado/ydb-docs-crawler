@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/embedded-ui/logs.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/embedded-ui/logs.md"
 description: "Logging levels Level Numeric value Value. TRACE. 8. Very detailed debugging information. DEBUG. 7. Debugging information for developers. INFO. 6."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Logs

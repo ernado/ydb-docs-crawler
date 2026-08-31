@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/datamodel/table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/table.md"
 description: "Таблица."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Таблица
@@ -258,6 +258,10 @@ YDB позволяет группировать колонки в таблице
 
   - Доступно и в первичном ключе и в остальных колонках: `Date`, `Datetime`, `Timestamp`, `Int32`, `Int64`, `Uint8`, `Uint16`, `Uint32`, `Uint64`, `Utf8`, `String`;
   - Доступно только в колонках, не входящих в первичный ключ: `Decimal`, `Double`, `Float`, `Int8`, `Int16`, `JsonDocument`, `Json`, `Yson`.
+
+- Поддерживается возможность задавать сжатие индивидуально для каждой колонки при [создании](../../yql/reference/syntax/create_table/index.md#compression) колоночной таблицы или [изменить](../../yql/reference/syntax/alter_table/columns.md#compression) её позднее.
+
+- Поддерживается возможность задавать кодирование данных индивидуально для каждой колонки при [создании](../../yql/reference/syntax/create_table/index.md#encoding) колоночной таблицы или [изменить](../../yql/reference/syntax/alter_table/columns.md#encoding) её позднее.
 
 - В колоночных таблицах поддерживаются группы колонок, но пока это используется только для задания сжатия на колонках.
 

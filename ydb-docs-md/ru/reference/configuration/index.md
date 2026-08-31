@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/index.md"
 description: "Конфигурация кластера задается в YAML-файле, который передается в параметре --yaml-config при запуске узлов кластера. В данной статье приведено описание основны"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Параметры конфигурации кластера
@@ -35,6 +35,7 @@ revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 | [hive_config](hive_config.md) | Нет | Конфигурация запуска таблеток |
 | [host_configs](host_configs.md) | Нет | Типовые конфигурации хостов для узлов кластера |
 | [hosts](hosts.md) | Да | Конфигурация статических узлов кластера |
+| [immediate_controls_config](immediate_controls_config.md) | Нет | Конфигурация динамических настроек кластера |
 | [kafka_proxy_config](kafka_proxy_config.md) | Нет | Конфигурация [Kafka Proxy](../kafka-api/index.md) |
 | [log_config](log_config.md) | Нет | Конфигурация и параметры логирования |
 | [memory_controller_config](memory_controller_config.md) | Нет | Распределение памяти и лимиты для компонентов базы данных |

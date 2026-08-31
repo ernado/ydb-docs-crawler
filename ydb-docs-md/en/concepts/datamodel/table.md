@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/table.md"
 description: "Table."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Table
@@ -223,6 +223,10 @@ In most cases, working with YDB column-oriented tables is similar to working wit
 
   - Available in both the primary key and other columns: `Date`, `Datetime`, `Timestamp`, `Int32`, `Int64`, `Uint8`, `Uint16`, `Uint32`, `Uint64`, `Utf8`, `String`;
   - Available only in columns not included in the primary key: `Decimal`, `Double`, `Float`, `Int8`, `Int16`, `JsonDocument`, `Json`, `Yson`.
+
+- You can configure compression individually for each column when [creating](../../yql/reference/syntax/create_table/index.md#compression) a column-oriented table or [change](../../yql/reference/syntax/alter_table/columns.md#compression) it later.
+
+- You can also configure encoding for each column when [creating](../../yql/reference/syntax/create_table/index.md#encoding) a column-oriented table or [change](../../yql/reference/syntax/alter_table/columns.md#encoding) it later.
 
 - Column-oriented tables support column groups, but only for compression settings.
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/topic.md"
 description: "A topic in YDB is an entity for storing unstructured messages and delivering them to multiple subscribers. Basically, a topic is a named set of messages."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Topic
@@ -76,6 +76,10 @@ The partition count increase algorithm works as follows: if the write speed for 
 Autopartitioning is paused for this topic, meaning that the number of partitions does not increase automatically. If needed, you can re-enable autopartitioning for this topic.
 
 Examples of YQL queries for switching between different autopartitioning strategies can be found [here](../../yql/reference/syntax/alter-topic.md#autopartitioning).
+
+> [!NOTE]
+> The DOWN and UP_AND_DOWN auto-partitioning modes are currently under development and are not supported in the current version.
+>  The UP_AND_DOWN mode is currently implemented as UP.
 
 ### Autopartitioning Constraints {#autopartitioning_constraints}
 

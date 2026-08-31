@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/index.md"
 description: "Управление дисковой подсистемой кластера включает следующие действия: Изменение конфигурации: Расширение кластера. Добавление групп хранения. Обслуживание:"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Обзор управления дисковой подсистемой кластера
@@ -27,6 +27,8 @@ revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
   - [Декомиссия ЦОД](../../devops/deployment-options/manual/decommissioning.md).
   - [Декомиссия групп с использованием виртуальных групп](virtual_storage_groups_decommit.md).
   - [Перевоз VDisk'ов](moving_vdisks.md).
+  - [Блобовница](blobdepot.md).
+  - [Декомиссия групп](blobdepot_decommit.md).
 
 - Решение проблем:
 

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/index.md"
 description: "Лексическая структура. Выражения. SELECT. VALUES. CREATE TABLE. DROP TABLE. TRUNCATE TABLE. INSERT. SHOW CREATE. ALTER TABLE. UPDATE. DELETE. REPLACE. UPSERT."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Список статей по синтаксису YQL

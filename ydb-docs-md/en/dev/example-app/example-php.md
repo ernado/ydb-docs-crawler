@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/example-app/example-php.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/example-php.md"
 description: "Example app in PHP. This page contains a detailed description of the code of a test app that is available as part of the YDB PHP SDK."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Example app in PHP

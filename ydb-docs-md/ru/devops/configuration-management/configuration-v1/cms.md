@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v1/cms.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/cms.md"
 description: "Примечание. Данный способ изменения конфигурации является устаревшим. Рекомендуемый способ конфигурирования описан в разделе динамическая конфигурация кластера."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Изменение конфигураций через CMS

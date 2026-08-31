@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/configuration/cluster/fetch.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/cluster/fetch.md"
 description: "With the admin cluster config fetch command, you can retrieve the current dynamic configuration of the YDB cluster. General command syntax:"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # admin cluster config fetch
 
-With the `admin cluster config fetch` command, you can retrieve the current [dynamic](../../../../../maintenance/manual/dynamic-config.md) configuration of the YDB cluster.
+With the `admin cluster config fetch` command, you can retrieve the current [dynamic](../../../../../devops/configuration-management/configuration-v1/dynamic-config.md) configuration of the YDB cluster.
 
 General command syntax:
 

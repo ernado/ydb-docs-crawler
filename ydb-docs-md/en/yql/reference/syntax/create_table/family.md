@@ -6,28 +6,20 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/yql/reference/syntax/create_table/family.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create_table/family.md"
-description: "Columns of the same table can be grouped to set the following parameters:"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+description: "Warning. Supported only for row-oriented tables. Columns of the same table can be grouped to set the following parameters:"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Column groups
 
-Columns of the same table can be grouped to set the following parameters:
-
-- `DATA`: A storage device type for the data in this column group. Acceptable values: `ssd`, `rot`.
-
 > [!WARNING]
 > Supported only for [row-oriented](../../../../concepts/datamodel/table.md#row-oriented-tables) tables.
 
-- `COMPRESSION`: A data compression codec. Acceptable values: `off`, `lz4`, `zstd`.
+Columns of the same table can be grouped to set the following parameters:
 
-> [!WARNING]
-> Codec `"zstd"` is supported only for [column-oriented](../../../../concepts/datamodel/table.md#column-oriented-tables) tables.
-
-- `COMPRESSION_LEVEL` — compression level of codec if it supports different compression levels.
-
-> [!WARNING]
-> Supported only for [column-oriented](../../../../concepts/datamodel/table.md#column-oriented-tables) tables.
+- `DATA`: A storage device type for the data in this column group. Acceptable values: `"ssd"`, `"rot"`.
+- `COMPRESSION`: A data compression codec. Acceptable values: `"off"`, `"lz4"`.
+- `CACHE_MODE`: [Caching mode](../../../../concepts/datamodel/table.md#cache-modes). Acceptable values: `"in_memory"`, `"regular"`.
 
 By default, all columns are in the same group named `default`. If necessary, the parameters of this group can also be redefined, if they are not redefined, then predefined values are applied.
 
@@ -35,49 +27,25 @@ By default, all columns are in the same group named `default`. If necessary, the
 
 In the example below, for the created table, the `family_large` group of columns is added and set for the `series_info` column, and the parameters for the default group, which is set by `default` for all other columns, are also redefined.
 
-{% list tabs %}
-
-- Creating a row-oriented table
-
-  ```sql
-  CREATE TABLE series_with_families (
-      series_id Uint64,
-      title Utf8,
-      series_info Utf8 FAMILY family_large,
-      release_date Uint64,
-      PRIMARY KEY (series_id),
-      FAMILY default (
-          DATA = "ssd",
-          COMPRESSION = "off"
-      ),
-      FAMILY family_large (
-          DATA = "rot",
-          COMPRESSION = "lz4"
-      )
-  );
-  ```
-
-- Creating a column-oriented table
-
-  ```sql
-  CREATE TABLE series_with_families (
-      series_id Uint64 NOT NULL,
-      title Utf8,
-      series_info Utf8 FAMILY family_large,
-      release_date Uint64,
-      PRIMARY KEY (series_id),
-      FAMILY default (
-          COMPRESSION = "lz4"
-      ),
-      FAMILY family_large (
-          COMPRESSION = "zstd",
-          COMPRESSION_LEVEL = 5
-      )
-  )
-  WITH (STORE = COLUMN);
-  ```
-
-{% endlist %}
+```yql
+CREATE TABLE series_with_families (
+    series_id Uint64,
+    title Utf8,
+    series_info Utf8 FAMILY family_large,
+    release_date Uint64,
+    PRIMARY KEY (series_id),
+    FAMILY default (
+        DATA = "ssd",
+        COMPRESSION = "off",
+        CACHE_MODE = "in_memory"
+    ),
+    FAMILY family_large (
+        DATA = "rot",
+        COMPRESSION = "lz4",
+        CACHE_MODE = "regular"
+    )
+);
+```
 
 > [!NOTE]
 > Available types of storage devices depend on the YDB cluster configuration.

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/docker/init-scripts.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/init-scripts.md"
 description: "The YDB Docker container supports custom initialization scripts that allow you to automate database setup tasks. Script directories."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Custom initialization scripts

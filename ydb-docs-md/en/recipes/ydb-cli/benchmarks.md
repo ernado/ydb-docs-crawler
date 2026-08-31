@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-cli/benchmarks.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-cli/benchmarks.md"
 description: "YDB CLI has a built-in toolkit for performing load testing using standard benchmarks: Benchmark Reference. TPC-C. tpcc. TPC-H. tpch. TPC-DS. tpcds. ClickBench."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Conducting load testing

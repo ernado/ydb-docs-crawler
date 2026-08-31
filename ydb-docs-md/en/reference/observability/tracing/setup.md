@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/observability/tracing/setup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/tracing/setup.md"
 description: "Note. The OpenTelemetry website describes the concept of tracing in detail in the Observability Primer article."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Tracing in YDB
@@ -129,7 +129,7 @@ A detailed description of these options is provided in the [Rule semantics](setu
 
 The `external_throttling` section is not mandatory; if it is absent, all trace-ids in requests are **ignored** (no external traces are continued).
 
-This section can be modified without restarting the node using the [dynamic configuration](../../../maintenance/manual/dynamic-config.md) mechanism.
+This section can be modified without restarting the node using the [dynamic configuration](../../../devops/configuration-management/configuration-v1/dynamic-config.md) mechanism.
 
 ### Sampling
 
@@ -164,7 +164,7 @@ Both fields are mandatory.
 
 The `sampling` section is not mandatory; no requests will be sampled if it is absent.
 
-This section can be modified without restarting the node using the [dynamic configuration](../../../maintenance/manual/dynamic-config.md) mechanism.
+This section can be modified without restarting the node using the [dynamic configuration](../../../devops/configuration-management/configuration-v1/dynamic-config.md) mechanism.
 
 ## Rule semantics {#semantics}
 

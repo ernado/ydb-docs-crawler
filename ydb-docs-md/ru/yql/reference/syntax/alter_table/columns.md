@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter_table/columns.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/columns.md"
 description: "YDB поддерживает возможность добавлять колонки в строковые и колоночные таблицы, удалять неключевые колонки из таблиц, а также изменять свойства существующих ко"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Изменение колонок
@@ -38,6 +38,9 @@ ALTER TABLE table_name ADD COLUMN column_name column_data_type [FAMILY <family_n
 
 ### FAMILY \<family_name> (настройка колонки) {#family-lessfamily_namegreater-nastrojka-kolonki}
 
+> [!WARNING]
+> Поддерживается только для [строковых](../../../../concepts/datamodel/table.md#row-oriented-tables) таблиц.
+
 Указание принадлежности данной колонки к указанной группе колонок. Подробнее в разделе [Группы колонок](../create_table/family.md).
 
 ### DEFAULT \<default_value> {#default-lessdefault_valuegreater}
@@ -60,7 +63,7 @@ ALTER TABLE table_name ADD COLUMN column_name column_data_type [FAMILY <family_n
 
 Данная колонка не принимает значения `NULL`.
 
-### COMPRESSION(\[algorithm=\<algorithm_name>\[, level=\]\]) {#]]}
+### COMPRESSION(\[algorithm=\<algorithm_name>\[, level=\]\]) {#compression}
 
 > [!WARNING]
 > Поддерживается только для [колоночных](../../../../concepts/datamodel/table.md#column-oriented-tables) таблиц.
@@ -71,6 +74,20 @@ ALTER TABLE table_name ADD COLUMN column_name column_data_type [FAMILY <family_n
 - `level` — уровень сжатия, поддерживается только для алгоритма `zstd` (допустимы значения от 0 до 22).
 
 Если `COMPRESSION()` указан без параметров, для колонки используется сжатие по умолчанию. Сейчас это `lz4`; в будущих версиях появится возможность настраивать сжатие по умолчанию на уровне кластера или таблицы.
+
+### ENCODING(\[OFF|DICT\]) {#encoding}
+
+> [!WARNING]
+> Поддерживается только для [колоночных](../../../../concepts/datamodel/table.md#column-oriented-tables) таблиц.
+
+Позволяет задать способ кодирования данных колонки.
+
+Доступные варианты:
+
+- `ENCODING(DICT)` — включает словарное кодирование (dictionary encoding). Повторяющиеся значения заменяются небольшими целочисленными идентификаторами, а сами значения хранятся в словаре. Словарное кодирование эффективно для колонок с низкой кардинальностью (небольшим количеством уникальных значений). Позволяет сократить объем хранимых данных и ускорить выполнение некоторых операций. Поддерживается только для сравнимых типов данных, таких как `String`, `Timestamp`, `UInt64` и других. Для несравнимых типов, таких как `Json`, `JsonDocument` или `Yson`, использование `ENCODING(DICT)` приведет к ошибке.
+- `ENCODING(OFF)` — отключает специальное кодирование. Данные будут храниться в стандартном формате без дополнительного кодирования.
+
+Если `ENCODING()` задается без параметров, то для колонки будет использоваться кодирование по умолчанию. Сейчас это `OFF`; в будущих версиях появится возможность настраивать кодирование по умолчанию на уровне базы или таблицы.
 
 ## Пример {#primer}
 
@@ -115,6 +132,9 @@ ALTER TABLE table_name ALTER COLUMN column_name {SET | DROP} [FAMILY <family_nam
 
 ### FAMILY \<family_name> (настройка колонки) {#family-lessfamily_namegreater-nastrojka-kolonki1}
 
+> [!WARNING]
+> Поддерживается только для [строковых](../../../../concepts/datamodel/table.md#row-oriented-tables) таблиц.
+
 Указание принадлежности данной колонки к указанной группе колонок. Подробнее в разделе [Группы колонок](../create_table/family.md).
 
 ### DEFAULT \<default_value> {#default-lessdefault_valuegreater1}
@@ -137,7 +157,7 @@ ALTER TABLE table_name ALTER COLUMN column_name {SET | DROP} [FAMILY <family_nam
 
 Данная колонка не принимает значения `NULL`.
 
-### COMPRESSION(\[algorithm=\<algorithm_name>\[, level=\]\]) {#]]1}
+### COMPRESSION(\[algorithm=\<algorithm_name>\[, level=\]\]) {#compression1}
 
 > [!WARNING]
 > Поддерживается только для [колоночных](../../../../concepts/datamodel/table.md#column-oriented-tables) таблиц.
@@ -148,6 +168,20 @@ ALTER TABLE table_name ALTER COLUMN column_name {SET | DROP} [FAMILY <family_nam
 - `level` — уровень сжатия, поддерживается только для алгоритма `zstd` (допустимы значения от 0 до 22).
 
 Если `COMPRESSION()` указан без параметров, для колонки используется сжатие по умолчанию. Сейчас это `lz4`; в будущих версиях появится возможность настраивать сжатие по умолчанию на уровне кластера или таблицы.
+
+### ENCODING(\[OFF|DICT\]) {#encoding1}
+
+> [!WARNING]
+> Поддерживается только для [колоночных](../../../../concepts/datamodel/table.md#column-oriented-tables) таблиц.
+
+Позволяет задать способ кодирования данных колонки.
+
+Доступные варианты:
+
+- `ENCODING(DICT)` — включает словарное кодирование (dictionary encoding). Повторяющиеся значения заменяются небольшими целочисленными идентификаторами, а сами значения хранятся в словаре. Словарное кодирование эффективно для колонок с низкой кардинальностью (небольшим количеством уникальных значений). Позволяет сократить объем хранимых данных и ускорить выполнение некоторых операций. Поддерживается только для сравнимых типов данных, таких как `String`, `Timestamp`, `UInt64` и других. Для несравнимых типов, таких как `Json`, `JsonDocument` или `Yson`, использование `ENCODING(DICT)` приведет к ошибке.
+- `ENCODING(OFF)` — отключает специальное кодирование. Данные будут храниться в стандартном формате без дополнительного кодирования.
+
+Если `ENCODING()` задается без параметров, то для колонки будет использоваться кодирование по умолчанию. Сейчас это `OFF`; в будущих версиях появится возможность настраивать кодирование по умолчанию на уровне базы или таблицы.
 
 ### Примеры {#primery}
 

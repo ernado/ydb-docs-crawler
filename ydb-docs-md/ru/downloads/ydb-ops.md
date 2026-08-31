@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/downloads/ydb-ops.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/ydb-ops.md"
-description: "YDB Ops ( ydbops ) — утилита командной строки для управления кластером YDB. Linux Версия Дата выпуска Скачать Список изменений. v0.0.14. 09/12/2024."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+description: "YDB Ops ( ydbops ) — утилита командной строки для управления кластером YDB. Linux Версия Дата выпуска Скачать Список изменений. v0.0.25. 03/12/2026."
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Загрузка YDB Ops
@@ -18,16 +18,16 @@ YDB Ops (`ydbops`) — утилита командной строки для [у
 
 | Версия | Дата выпуска | Скачать | Список изменений |
 | --- | --- | --- | --- |
-| v0.0.14 | 09/12/2024 | [Бинарный файл](https://github.com/ydb-platform/ydbops/releases/download/v0.0.14/ydbops) |  |
+| v0.0.25 | 03/12/2026 | [Бинарный файл](https://github.com/ydb-platform/ydbops/releases/download/v0.0.25/ydbops) |  |
 
 ## macOS (Intel)
 
 | Версия | Дата выпуска | Скачать | Список изменений |
 | --- | --- | --- | --- |
-| v0.0.14 | 09/12/2024 | [Бинарный файл](https://github.com/ydb-platform/ydbops/releases/download/v0.0.14/ydbops_darwin_amd64) |  |
+| v0.0.25 | 03/12/2026 | [Бинарный файл](https://github.com/ydb-platform/ydbops/releases/download/v0.0.25/ydbops_darwin_amd64) |  |
 
 ## macOS (Apple Silicon)
 
 | Версия | Дата выпуска | Скачать | Список изменений |
 | --- | --- | --- | --- |
-| v0.0.14 | 09/12/2024 | [Бинарный файл](https://github.com/ydb-platform/ydbops/releases/download/v0.0.14/ydbops_darwin_arm64) |  |
+| v0.0.25 | 03/12/2026 | [Бинарный файл](https://github.com/ydb-platform/ydbops/releases/download/v0.0.25/ydbops_darwin_arm64) |  |

@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/configuration/cluster/generate.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/cluster/generate.md"
 description: "With the admin cluster config generate command, you can generate a dynamic configuration file based on the static configuration file on the YDB cluster."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # admin cluster config generate
 
-With the `admin cluster config generate` command, you can generate a [dynamic configuration](../../../../../maintenance/manual/dynamic-config.md) file based on the [static configuration](../../../../configuration/index.md) file on the YDB cluster.  
+With the `admin cluster config generate` command, you can generate a [dynamic configuration](../../../../../devops/configuration-management/configuration-v1/dynamic-config.md) file based on the [static configuration](../../../../configuration/index.md) file on the YDB cluster.  
  The dynamic configuration uses the format of an extended static configuration; the command automates the conversion process.
 
 General command syntax:

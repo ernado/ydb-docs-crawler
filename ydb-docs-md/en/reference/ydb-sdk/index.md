@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-sdk/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/index.md"
 description: "To work with YDB, OpenSource SDKs are available for the following programming languages: Language GitHub Repository API Reference. Go. ydb-platform/ydb-go-sdk."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Reference for YDB SDK

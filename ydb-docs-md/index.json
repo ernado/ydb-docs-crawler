@@ -4,20 +4,20 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4",
-      "page_count": 729,
+      "revision": "7580679a5c9e32c15be9989745f34e270cb4e4f1",
+      "page_count": 725,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4",
-      "page_count": 729,
+      "revision": "7580679a5c9e32c15be9989745f34e270cb4e4f1",
+      "page_count": 732,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
     }
   ],
-  "page_count": 1458,
+  "page_count": 1457,
   "pages": [
     {
       "doc_path": "en/",
@@ -203,7 +203,7 @@
       "description": " Version 25.3 Version 25.3.1.ent.3. Release date: June 12, 2026. New Features.",
       "source_path": "en/core/changelog-enterprise.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-enterprise.md",
-      "bytes": 68983,
+      "bytes": 69163,
       "lang": "en"
     },
     {
@@ -214,7 +214,7 @@
       "description": " Version 26.1 Version 26.1.1.22. Release date: July 27, 2026. Bug Fixes.",
       "source_path": "en/core/changelog-server.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-server.md",
-      "bytes": 85773,
+      "bytes": 85903,
       "lang": "en"
     },
     {
@@ -500,7 +500,7 @@
       "description": " Table.",
       "source_path": "en/core/concepts/datamodel/table.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/table.md",
-      "bytes": 23153,
+      "bytes": 23634,
       "lang": "en"
     },
     {
@@ -511,7 +511,7 @@
       "description": " A topic in YDB is an entity for storing unstructured messages and delivering them to multiple subscribers. Basically, a topic is a named set of messages.",
       "source_path": "en/core/concepts/datamodel/topic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/topic.md",
-      "bytes": 14825,
+      "bytes": 15021,
       "lang": "en"
     },
     {
@@ -2018,7 +2018,7 @@
       "description": " YDB Cluster Configuration.",
       "source_path": "en/core/devops/configuration-management/configuration-v1/static-config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/static-config.md",
-      "bytes": 5092,
+      "bytes": 5236,
       "lang": "en"
     },
     {
@@ -2073,7 +2073,7 @@
       "description": " YDB Cluster Configuration.",
       "source_path": "en/core/devops/configuration-management/configuration-v2/config-settings.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v2/config-settings.md",
-      "bytes": 5100,
+      "bytes": 5244,
       "lang": "en"
     },
     {
@@ -2447,7 +2447,7 @@
       "description": "Node authentication in the YDB cluster ensures that database nodes are authenticated when making service requests to other nodes via the gRPC protocol. Node aut",
       "source_path": "en/core/devops/deployment-options/manual/node-authorization.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/node-authorization.md",
-      "bytes": 8107,
+      "bytes": 8127,
       "lang": "en"
     },
     {
@@ -2631,7 +2631,7 @@
       "url": "https://ydb.tech/docs/en/downloads/ydb-ops?version=v26.1",
       "file": "en/downloads/ydb-ops.md",
       "title": "Download YDB Ops",
-      "description": " YDB Ops ( ydbops ) is a command-line utility for managing YDB clusters. Linux Version Release date Download Changelog. v0.0.14. 09/12/2024. Binary file.",
+      "description": " YDB Ops ( ydbops ) is a command-line utility for managing YDB clusters. Linux Version Release date Download Changelog. v0.0.25. 03/12/2026. Binary file.",
       "source_path": "en/core/downloads/ydb-ops.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/ydb-ops.md",
       "bytes": 1306,
@@ -3232,17 +3232,6 @@
       "lang": "en"
     },
     {
-      "doc_path": "en/maintenance/manual/change_actorsystem_configs",
-      "url": "https://ydb.tech/docs/en/maintenance/manual/change_actorsystem_configs?version=v26.1",
-      "file": "en/maintenance/manual/change_actorsystem_configs.md",
-      "title": "Changing Actor System Configuration",
-      "description": " An actor system is the basis of YDB. Each component of the system is represented by one or more actors.",
-      "source_path": "en/core/devops/configuration-management/configuration-v1/change_actorsystem_configs.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/change_actorsystem_configs.md",
-      "bytes": 4959,
-      "lang": "en"
-    },
-    {
       "doc_path": "en/maintenance/manual/cluster_expansion",
       "url": "https://ydb.tech/docs/en/maintenance/manual/cluster_expansion?version=v26.1",
       "file": "en/maintenance/manual/cluster_expansion.md",
@@ -3251,17 +3240,6 @@
       "source_path": "en/core/maintenance/manual/cluster_expansion.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/cluster_expansion.md",
       "bytes": 8037,
-      "lang": "en"
-    },
-    {
-      "doc_path": "en/maintenance/manual/cms",
-      "url": "https://ydb.tech/docs/en/maintenance/manual/cms?version=v26.1",
-      "file": "en/maintenance/manual/cms.md",
-      "title": "Changing Configurations via CMS",
-      "description": " Note.",
-      "source_path": "en/core/devops/configuration-management/configuration-v1/cms.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/cms.md",
-      "bytes": 1650,
       "lang": "en"
     },
     {
@@ -3284,28 +3262,6 @@
       "source_path": "en/core/maintenance/manual/disk_end_space.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/disk_end_space.md",
       "bytes": 3382,
-      "lang": "en"
-    },
-    {
-      "doc_path": "en/maintenance/manual/dynamic-config",
-      "url": "https://ydb.tech/docs/en/maintenance/manual/dynamic-config?version=v26.1",
-      "file": "en/maintenance/manual/dynamic-config.md",
-      "title": "Dynamic Cluster Configuration",
-      "description": "Dynamic configuration allows running dynamic nodes by configuring them centrally, without the need to manually distribute files across nodes. YDB acts as a conf",
-      "source_path": "en/core/devops/configuration-management/configuration-v1/dynamic-config.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/dynamic-config.md",
-      "bytes": 11628,
-      "lang": "en"
-    },
-    {
-      "doc_path": "en/maintenance/manual/dynamic-config-selectors",
-      "url": "https://ydb.tech/docs/en/maintenance/manual/dynamic-config-selectors?version=v26.1",
-      "file": "en/maintenance/manual/dynamic-config-selectors.md",
-      "title": "Cluster Configuration Domain-Specific Language (DSL)",
-      "description": " Cluster Configuration DSL Selectors.",
-      "source_path": "en/core/devops/configuration-management/configuration-v1/dynamic-config-selectors.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/dynamic-config-selectors.md",
-      "bytes": 10142,
       "lang": "en"
     },
     {
@@ -3394,17 +3350,6 @@
       "source_path": "en/core/maintenance/manual/virtual_storage_groups_decommit.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/virtual_storage_groups_decommit.md",
       "bytes": 12497,
-      "lang": "en"
-    },
-    {
-      "doc_path": "en/postgresql/intro",
-      "url": "https://ydb.tech/docs/en/postgresql/intro?version=v26.1",
-      "file": "en/postgresql/intro.md",
-      "title": "PostgreSQL compatibility (removed)",
-      "description": " Alert.",
-      "source_path": "en/core/postgresql/intro.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/postgresql/intro.md",
-      "bytes": 3068,
       "lang": "en"
     },
     {
@@ -4108,7 +4053,7 @@
       "description": "The cluster configuration is specified in the YAML file passed in the --yaml-config parameter when the cluster nodes are run. This article provides an overview ",
       "source_path": "en/core/reference/configuration/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/index.md",
-      "bytes": 4353,
+      "bytes": 4464,
       "lang": "en"
     },
     {
@@ -4244,6 +4189,17 @@
       "lang": "en"
     },
     {
+      "doc_path": "en/reference/configuration/immediate_controls_config",
+      "url": "https://ydb.tech/docs/en/reference/configuration/immediate_controls_config?version=v26.1",
+      "file": "en/reference/configuration/immediate_controls_config.md",
+      "title": "immediate_controls_config",
+      "description": "The immediate_controls_config section provides a set of dynamic parameters for fine-tuning YDB components, including DataShard, Coordinator, SchemeShard, BlobSt",
+      "source_path": "en/core/reference/configuration/immediate_controls_config.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/immediate_controls_config.md",
+      "bytes": 1839,
+      "lang": "en"
+    },
+    {
       "doc_path": "en/reference/configuration/kafka",
       "url": "https://ydb.tech/docs/en/reference/configuration/kafka?version=v26.1",
       "file": "en/reference/configuration/kafka.md",
@@ -4306,7 +4262,7 @@
       "description": " The resource broker is an actor service that controls resource consumption on YDB nodes, such as: CPU — number of threads. Memory — RAM.",
       "source_path": "en/core/reference/configuration/resource_broker_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/resource_broker_config.md",
-      "bytes": 2119,
+      "bytes": 2120,
       "lang": "en"
     },
     {
@@ -4801,7 +4757,7 @@
       "description": " Note. The OpenTelemetry website describes the concept of tracing in detail in the Observability Primer article.",
       "source_path": "en/core/reference/observability/tracing/setup.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/tracing/setup.md",
-      "bytes": 15718,
+      "bytes": 15778,
       "lang": "en"
     },
     {
@@ -4922,7 +4878,7 @@
       "description": " The YDB CLI provides commands for managing the dynamic configuration at different levels of the system. General command syntax:",
       "source_path": "en/core/reference/ydb-cli/commands/configuration/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/index.md",
-      "bytes": 1884,
+      "bytes": 1914,
       "lang": "en"
     },
     {
@@ -4944,7 +4900,7 @@
       "description": " With the admin cluster config fetch command, you can retrieve the current dynamic configuration of the YDB cluster. General command syntax:",
       "source_path": "en/core/reference/ydb-cli/commands/configuration/cluster/fetch.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/cluster/fetch.md",
-      "bytes": 1278,
+      "bytes": 1308,
       "lang": "en"
     },
     {
@@ -4955,7 +4911,7 @@
       "description": " With the admin cluster config generate command, you can generate a dynamic configuration file based on the static configuration file on the YDB cluster.",
       "source_path": "en/core/reference/ydb-cli/commands/configuration/cluster/generate.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/cluster/generate.md",
-      "bytes": 2035,
+      "bytes": 2065,
       "lang": "en"
     },
     {
@@ -4966,7 +4922,7 @@
       "description": " With the admin cluster config replace command, you can upload a dynamic configuration to the YDB cluster. Alert.",
       "source_path": "en/core/reference/ydb-cli/commands/configuration/cluster/replace.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/cluster/replace.md",
-      "bytes": 2515,
+      "bytes": 2545,
       "lang": "en"
     },
     {
@@ -5549,7 +5505,7 @@
       "description": " You can use the topic alter subcommand to update a previously created topic. General format of the command:",
       "source_path": "en/core/reference/ydb-cli/topic-alter.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/topic-alter.md",
-      "bytes": 3146,
+      "bytes": 3455,
       "lang": "en"
     },
     {
@@ -5593,7 +5549,7 @@
       "description": " You can use the topic create subcommand to create a new topic. General format of the command: ydb [global options...] topic create [options...] <topic-path>.",
       "source_path": "en/core/reference/ydb-cli/topic-create.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/topic-create.md",
-      "bytes": 3165,
+      "bytes": 3589,
       "lang": "en"
     },
     {
@@ -6781,7 +6737,7 @@
       "description": " YDB supports adding columns to row and column tables, deleting non-key columns from tables, and changing properties of existing columns. ADD COLUMN.",
       "source_path": "en/core/yql/reference/syntax/alter_table/columns.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter_table/columns.md",
-      "bytes": 7598,
+      "bytes": 10143,
       "lang": "en"
     },
     {
@@ -7056,7 +7012,7 @@
       "description": "The invocation of CREATE TABLE creates a table with the specified data schema and primary key columns ( PRIMARY KEY ). It also allows defining secondary indexes",
       "source_path": "en/core/yql/reference/syntax/create_table/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create_table/index.md",
-      "bytes": 10635,
+      "bytes": 11907,
       "lang": "en"
     },
     {
@@ -7075,10 +7031,10 @@
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/create_table/family?version=v26.1",
       "file": "en/yql/reference/syntax/create_table/family.md",
       "title": "Column groups",
-      "description": " Columns of the same table can be grouped to set the following parameters:",
+      "description": " Warning. Supported only for row-oriented tables. Columns of the same table can be grouped to set the following parameters:",
       "source_path": "en/core/yql/reference/syntax/create_table/family.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create_table/family.md",
-      "bytes": 2705,
+      "bytes": 2051,
       "lang": "en"
     },
     {
@@ -7694,7 +7650,7 @@
       "description": " SHOW CREATE returns a query required to recreate the structure of the specified object: a table or view. The returned query may contain multiple DDL statements.",
       "source_path": "en/core/yql/reference/syntax/show_create.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/show_create.md",
-      "bytes": 4377,
+      "bytes": 4244,
       "lang": "en"
     },
     {
@@ -8508,7 +8464,7 @@
       "description": " Таблица.",
       "source_path": "ru/core/concepts/datamodel/table.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/table.md",
-      "bytes": 49450,
+      "bytes": 50229,
       "lang": "ru"
     },
     {
@@ -8519,7 +8475,7 @@
       "description": "Топик в YDB — это сущность для хранения неструктурированных сообщений, предназначенная для их доставки множеству подписчиков. Фактически, топик — это именованны",
       "source_path": "ru/core/concepts/datamodel/topic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/topic.md",
-      "bytes": 29195,
+      "bytes": 29479,
       "lang": "ru"
     },
     {
@@ -10059,7 +10015,7 @@
       "description": " Параметры конфигурации кластера.",
       "source_path": "ru/core/devops/configuration-management/configuration-v1/static-config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/static-config.md",
-      "bytes": 7602,
+      "bytes": 7792,
       "lang": "ru"
     },
     {
@@ -10114,7 +10070,7 @@
       "description": " Параметры конфигурации кластера.",
       "source_path": "ru/core/devops/configuration-management/configuration-v2/config-settings.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/config-settings.md",
-      "bytes": 7610,
+      "bytes": 7800,
       "lang": "ru"
     },
     {
@@ -10661,7 +10617,7 @@
       "url": "https://ydb.tech/docs/ru/downloads/ydb-ops?version=v26.1",
       "file": "ru/downloads/ydb-ops.md",
       "title": "Загрузка YDB Ops",
-      "description": " YDB Ops ( ydbops ) — утилита командной строки для управления кластером YDB. Linux Версия Дата выпуска Скачать Список изменений. v0.0.14. 09/12/2024.",
+      "description": " YDB Ops ( ydbops ) — утилита командной строки для управления кластером YDB. Linux Версия Дата выпуска Скачать Список изменений. v0.0.25. 03/12/2026.",
       "source_path": "ru/core/downloads/ydb-ops.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/ydb-ops.md",
       "bytes": 1627,
@@ -11214,7 +11170,7 @@
       "description": " Управление дисковой подсистемой кластера включает следующие действия: Изменение конфигурации: Расширение кластера. Добавление групп хранения. Обслуживание:",
       "source_path": "ru/core/maintenance/manual/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/index.md",
-      "bytes": 2098,
+      "bytes": 2202,
       "lang": "ru"
     },
     {
@@ -11237,6 +11193,28 @@
       "source_path": "ru/core/maintenance/manual/balancing_load.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/balancing_load.md",
       "bytes": 4019,
+      "lang": "ru"
+    },
+    {
+      "doc_path": "ru/maintenance/manual/blobdepot",
+      "url": "https://ydb.tech/docs/ru/maintenance/manual/blobdepot?version=v26.1",
+      "file": "ru/maintenance/manual/blobdepot.md",
+      "title": "Блобовница",
+      "description": " Блобовница расширяет функциональность подсистемы хранения, добавляя функциональность виртуальной группы.",
+      "source_path": "ru/core/maintenance/manual/blobdepot.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/blobdepot.md",
+      "bytes": 30411,
+      "lang": "ru"
+    },
+    {
+      "doc_path": "ru/maintenance/manual/blobdepot_decommit",
+      "url": "https://ydb.tech/docs/ru/maintenance/manual/blobdepot_decommit?version=v26.1",
+      "file": "ru/maintenance/manual/blobdepot_decommit.md",
+      "title": "Декомиссия групп",
+      "description": "Физические группы являются ценным ресурсом в кластере: группы можно создавать, но их нельзя удалять без удаления использующей их базы, поскольку нет механизма г",
+      "source_path": "ru/core/maintenance/manual/blobdepot_decommit.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/blobdepot_decommit.md",
+      "bytes": 13747,
       "lang": "ru"
     },
     {
@@ -12083,7 +12061,7 @@
       "description": "Конфигурация кластера задается в YAML-файле, который передается в параметре --yaml-config при запуске узлов кластера. В данной статье приведено описание основны",
       "source_path": "ru/core/reference/configuration/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/index.md",
-      "bytes": 6865,
+      "bytes": 7022,
       "lang": "ru"
     },
     {
@@ -12219,6 +12197,17 @@
       "lang": "ru"
     },
     {
+      "doc_path": "ru/reference/configuration/immediate_controls_config",
+      "url": "https://ydb.tech/docs/ru/reference/configuration/immediate_controls_config?version=v26.1",
+      "file": "ru/reference/configuration/immediate_controls_config.md",
+      "title": "immediate_controls_config",
+      "description": "Конфигурация immediate_controls_config — это набор динамических параметров для настройки компонентов YDB, таких как DataShard, Coordinator, SchemeShard, BlobSto",
+      "source_path": "ru/core/reference/configuration/immediate_controls_config.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/immediate_controls_config.md",
+      "bytes": 2523,
+      "lang": "ru"
+    },
+    {
       "doc_path": "ru/reference/configuration/kafka_proxy_config",
       "url": "https://ydb.tech/docs/ru/reference/configuration/kafka_proxy_config?version=v26.1",
       "file": "ru/reference/configuration/kafka_proxy_config.md",
@@ -12292,7 +12281,7 @@
       "description": " Секция resource_broker_config настраивает брокер ресурсов — акторный сервис, контролирующий потребление ресурсов узла YDB, таких как: CPU — количество потоков;",
       "source_path": "ru/core/reference/configuration/resource_broker_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/resource_broker_config.md",
-      "bytes": 2963,
+      "bytes": 2964,
       "lang": "ru"
     },
     {
@@ -13557,7 +13546,7 @@
       "description": " С помощью подкоманды topic alter вы можете изменить созданный ранее топик. Общий вид команды: ydb [global options...] topic alter [options...] <topic-path>.",
       "source_path": "ru/core/reference/ydb-cli/topic-alter.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/topic-alter.md",
-      "bytes": 4525,
+      "bytes": 5004,
       "lang": "ru"
     },
     {
@@ -13601,7 +13590,7 @@
       "description": " С помощью подкоманды topic create вы можете создать новый топик. Общий вид команды: ydb [global options...] topic create [options...] <topic-path>.",
       "source_path": "ru/core/reference/ydb-cli/topic-create.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/topic-create.md",
-      "bytes": 4385,
+      "bytes": 5007,
       "lang": "ru"
     },
     {
@@ -14800,7 +14789,7 @@
       "description": "YDB поддерживает возможность добавлять колонки в строковые и колоночные таблицы, удалять неключевые колонки из таблиц, а также изменять свойства существующих ко",
       "source_path": "ru/core/yql/reference/syntax/alter_table/columns.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/columns.md",
-      "bytes": 11641,
+      "bytes": 15998,
       "lang": "ru"
     },
     {
@@ -15075,7 +15064,7 @@
       "description": "Вызов CREATE TABLE создает таблицу с указанной схемой данных и ключевыми колонками ( PRIMARY KEY ). Позволяет определить вторичные индексы на создаваемой таблиц",
       "source_path": "ru/core/yql/reference/syntax/create_table/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create_table/index.md",
-      "bytes": 15991,
+      "bytes": 18169,
       "lang": "ru"
     },
     {
@@ -15094,10 +15083,10 @@
       "url": "https://ydb.tech/docs/ru/yql/reference/syntax/create_table/family?version=v26.1",
       "file": "ru/yql/reference/syntax/create_table/family.md",
       "title": "Группы колонок",
-      "description": " Колонки одной таблицы можно объединять в группы, чтобы задать следующие параметры:",
+      "description": " Важно. Поддерживается только для строковых таблиц. Колонки одной таблицы можно объединять в группы, чтобы задать следующие параметры:",
       "source_path": "ru/core/yql/reference/syntax/create_table/family.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create_table/family.md",
-      "bytes": 4021,
+      "bytes": 2896,
       "lang": "ru"
     },
     {
@@ -15702,7 +15691,7 @@
       "description": "SHOW CREATE возвращает запрос, возможно состоящий из нескольких DDL-выражений, необходимых для воссоздания структуры выбранного объекта: таблицы или представлен",
       "source_path": "ru/core/yql/reference/syntax/show_create.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/show_create.md",
-      "bytes": 5587,
+      "bytes": 5454,
       "lang": "ru"
     },
     {
@@ -16058,10 +16047,16 @@
       "lang": "ru"
     }
   ],
-  "image_count": 367,
+  "image_count": 378,
   "images_linked_at_site": [
     "en/concepts/query_execution/_assets/star_schema.png",
-    "ru/concepts/query_execution/_assets/Star-Schema.png"
+    "en/reference/embedded-ui/_assets/monitoring_main_page.png",
+    "en/reference/embedded-ui/_assets/monitoring_storage_state.png",
+    "en/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png",
+    "ru/concepts/query_execution/_assets/Star-Schema.png",
+    "ru/reference/embedded-ui/_assets/monitoring_main_page.png",
+    "ru/reference/embedded-ui/_assets/monitoring_storage_state.png",
+    "ru/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png"
   ],
   "failures": [
     {
@@ -16072,7 +16067,12 @@
     {
       "lang": "en",
       "doc_path": "en/devops/backup-and-recovery",
-      "error": "https://ydb.tech/docs/en/devops/backup-and-recovery?version=v26.1: Client error '404 Not Found' for url 'https://ydb.tech/docs/en/devops/backup-and-recovery/?version=v26.1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      "error": "https://ydb.tech/docs/en/devops/backup-and-recovery?version=v26.1: Exceeded maximum allowed redirects."
+    },
+    {
+      "lang": "en",
+      "doc_path": "en/postgresql/intro",
+      "error": "https://ydb.tech/docs/en/postgresql/intro?version=v26.1: Exceeded maximum allowed redirects."
     },
     {
       "lang": "ru",
@@ -16098,10 +16098,6 @@
   "broken_links": [
     {
       "file": "en/changelog-enterprise.md",
-      "link": "concepts/topic.md"
-    },
-    {
-      "file": "en/changelog-server.md",
       "link": "concepts/topic.md"
     },
     {

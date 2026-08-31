@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create_table/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create_table/index.md"
 description: "The invocation of CREATE TABLE creates a table with the specified data schema and primary key columns ( PRIMARY KEY ). It also allows defining secondary indexes"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # CREATE TABLE
@@ -60,6 +60,9 @@ The data type of the column. The complete list of data types supported by YDB is
 
 ### FAMILY \<family_name> (column setting) {#family-lessfamily_namegreater-column-setting}
 
+> [!WARNING]
+> Supported only for [row-oriented](../../../../concepts/datamodel/table.md#row-oriented-tables) tables.
+
 Specifies that this column belongs to the specified column group. For more information, see [Column groups](family.md).
 
 ### DEFAULT \<default_value> {#default-lessdefault_valuegreater}
@@ -82,7 +85,7 @@ This column can contain `NULL` values (default).
 
 This column does not accept `NULL` values.
 
-### COMPRESSION(\[algorithm=\<algorithm_name>\[, level=\]\]) {#]]}
+### COMPRESSION(\[algorithm=\<algorithm_name>\[, level=\]\]) {#compression}
 
 > [!WARNING]
 > Supported only for [column-oriented](../../../../concepts/datamodel/table.md#column-oriented-tables) tables.
@@ -93,6 +96,20 @@ You can set the following compression parameters for columns:
 - `level` — compression level; supported only for `zstd` (allowed values are 0 through 22).
 
 If `COMPRESSION()` is specified without parameters, the column uses the default compression. Currently that is `lz4`; future versions will let you configure default compression at the cluster or table level.
+
+### ENCODING(\[OFF|DICT\]) {#encoding}
+
+> [!WARNING]
+> Supported only for [column-oriented](../../../../concepts/datamodel/table.md#column-oriented-tables) tables.
+
+Allows you to set the data encoding method for the column.
+
+Available options:
+
+- `ENCODING(DICT)` — enables dictionary encoding. Repeating values are replaced with small integer identifiers, and the values themselves are stored in a dictionary. Dictionary encoding is effective for columns with low cardinality (a small number of unique values). It reduces the amount of stored data and speeds up some operations. It is supported only for comparable data types, such as `String`, `Timestamp`, `UInt64`, and others. Using `ENCODING(DICT)` for incomparable types, such as `Json`, `JsonDocument`, or `Yson`, will result in an error.
+- `ENCODING(OFF)` — disables special encoding. Data will be stored in the standard format without additional encoding.
+
+If `ENCODING()` is set without parameters, the default encoding will be used for the column. Currently, it is `OFF`; in future versions, it will be possible to configure the default encoding at the database or table level.
 
 ### INDEX
 

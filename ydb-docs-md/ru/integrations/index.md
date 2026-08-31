@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/index.md"
 description: "В данном разделе приведена основная информация про интеграции YDB со сторонними системами. Примечание."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Интеграции YDB

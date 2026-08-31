@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/external_table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/external_table.md"
 description: "Some external data sources, such as database management systems, store data in a structured format, while others, like S3 (Yandex Object Storage), store data as"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # External Tables

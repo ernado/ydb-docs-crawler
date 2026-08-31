@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v1/static-config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/static-config.md"
 description: "Параметры конфигурации кластера."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Параметры конфигурации кластера
@@ -35,6 +35,7 @@ revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 | [hive_config](../../../reference/configuration/hive_config.md) | Нет | Конфигурация запуска таблеток |
 | [host_configs](../../../reference/configuration/host_configs.md) | Нет | Типовые конфигурации хостов для узлов кластера |
 | [hosts](../../../reference/configuration/hosts.md) | Да | Конфигурация статических узлов кластера |
+| [immediate_controls_config](../../../reference/configuration/immediate_controls_config.md) | Нет | Конфигурация динамических настроек кластера |
 | [kafka_proxy_config](../../../reference/configuration/kafka_proxy_config.md) | Нет | Конфигурация [Kafka Proxy](../../../reference/kafka-api/index.md) |
 | [log_config](../../../reference/configuration/log_config.md) | Нет | Конфигурация и параметры логирования |
 | [memory_controller_config](../../../reference/configuration/memory_controller_config.md) | Нет | Распределение памяти и лимиты для компонентов базы данных |

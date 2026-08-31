@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/show_create.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/show_create.md"
 description: "SHOW CREATE returns a query required to recreate the structure of the specified object: a table or view. The returned query may contain multiple DDL statements."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # SHOW CREATE
@@ -105,9 +105,6 @@ CREATE TABLE `my_table` (
     `Value1` Utf8,
     `Value2` Int16,
     `Value3` String,
-    FAMILY `default` (COMPRESSION = 'zstd'),
-    FAMILY `Family1` (COMPRESSION = 'off'),
-    FAMILY `Family2` (COMPRESSION = 'lz4'),
     PRIMARY KEY (`Key1`, `Key2`, `Key3`)
 )
 PARTITION BY HASH (`Key1`, `Key2`)

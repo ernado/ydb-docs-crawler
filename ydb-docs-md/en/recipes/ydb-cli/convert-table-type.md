@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-cli/convert-table-type.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-cli/convert-table-type.md"
 description: "YDB supports two main types of tables: row-oriented and column-oriented. The chosen table type determines the physical representation of data on disks, so chang"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Convert a table between row-oriented and column-oriented

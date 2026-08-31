@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/changelog-enterprise.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-enterprise.md"
 description: "Version 25.3 Version 25.3.1.ent.3. Release date: June 12, 2026. New Features."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Yandex Enterprise Database changelog
@@ -163,7 +163,7 @@ Release date: November 25, 2025.
 
 - [Added](https://github.com/ydb-platform/ydb/issues/19310) the ability to [enable followers (read replicas)](yql/reference/syntax/alter_table/indexes.md) for covered secondary indexes. This mode is enabled by setting the `enable_access_to_index_impl_tables` flag in the cluster configuration.
 
-- Changefeeds are now supported in backup and restore operations. To use this feature, set the `enable_changefeeds_export` and `enable_changefeeds_import` flags in the `feature_flags` section of the [database](maintenance/manual/dynamic-config.md) or [cluster](devops/configuration-management/configuration-v1/static-config.md) configuration.
+- Changefeeds are now supported in backup and restore operations. To use this feature, set the `enable_changefeeds_export` and `enable_changefeeds_import` flags in the `feature_flags` section of the [database](devops/configuration-management/configuration-v1/dynamic-config.md) or [cluster](devops/configuration-management/configuration-v1/static-config.md) configuration.
 
 - [Added](https://github.com/ydb-platform/ydb/issues/17734) automatic cleanup of temporary tables and directories during export to S3. This mode is enabled by setting the `enable_export_auto_dropping` flag in the cluster configuration.
 
@@ -293,7 +293,7 @@ Release date: November 1, 2025.
 
 #### New Features {#new-features3}
 
-- Views are now supported in backup and restore operations. To use this feature, set the `enable_view_export` flag in the `feature_flags` section of the [database](maintenance/manual/dynamic-config.md) or [cluster](devops/configuration-management/configuration-v1/static-config.md) configuration.
+- Views are now supported in backup and restore operations. To use this feature, set the `enable_view_export` flag in the `feature_flags` section of the [database](devops/configuration-management/configuration-v1/dynamic-config.md) or [cluster](devops/configuration-management/configuration-v1/static-config.md) configuration.
 - Additional identifiers — the object path ID (`PathId`) and tablet ID (`TabletId`) — are now included in [Transaction locks invalidated](troubleshooting/performance/queries/transaction-lock-invalidation.md) error messages when the table cannot be identified (Unknown table).
 
 ### Version 24.4.4.15 {#24-4-4-15}
@@ -390,12 +390,12 @@ Release date: December 24, 2024.
 
 - Introduced [query tracing](reference/observability/tracing/setup.md), a tool that allows you to view the detailed path of a request through a distributed system.
 - Added support for [asynchronous replication](concepts/async-replication.md), that allows synchronizing data between YDB databases in near real time. It can also be used for data migration between databases with minimal downtime for applications interacting with these databases.
-- Added support for [views](concepts/datamodel/view.md), which can be enabled by the cluster administrator using the `enable_views` setting in [dynamic configuration](maintenance/manual/dynamic-config.md#updating-dynamic-configuration).
+- Added support for [views](concepts/datamodel/view.md), which can be enabled by the cluster administrator using the `enable_views` setting in [dynamic configuration](devops/configuration-management/configuration-v1/dynamic-config.md#updating-dynamic-configuration).
 - Extended [federated query](concepts/query_execution/federated_query/index.md) capabilities to support new external data sources: MySQL, Microsoft SQL Server, and Greenplum.
 - Published [documentation](devops/deployment-options/manual/federated-queries/connector-deployment.md) on deploying YDB with [federated query](concepts/query_execution/federated_query/index.md) New Features (manual setup).
 - Added a new launch parameter `FQ_CONNECTOR_ENDPOINT` for YDB Docker containers that specifies an external data source connector address. Added support for TLS encryption for connections to the connector and the ability to expose the connector service port locally on the same host as the dynamic YDB node.
-- Added an [auto-partitioning mode](concepts/datamodel/topic.md#autopartitioning) for topics, where partitions can dynamically split based on load while preserving message read-order and exactly-once guarantees. The mode can be enabled by the cluster administrator using the settings `enable_topic_split_merge` and `enable_pqconfig_transactions_at_scheme_shard` in [dynamic configuration](maintenance/manual/dynamic-config.md#updating-dynamic-configuration).
-- Added support for transactions involving [topics](concepts/topic.md) and row-based tables, enabling transactional data transfer between tables and topics, or between topics, ensuring no data loss or duplication. Transactions can be enabled by the cluster administrator using the settings `enable_topic_service_tx` and `enable_pqconfig_transactions_at_scheme_shard` in [dynamic configuration](maintenance/manual/dynamic-config.md#updating-dynamic-configuration).
+- Added an [auto-partitioning mode](concepts/datamodel/topic.md#autopartitioning) for topics, where partitions can dynamically split based on load while preserving message read-order and exactly-once guarantees. The mode can be enabled by the cluster administrator using the settings `enable_topic_split_merge` and `enable_pqconfig_transactions_at_scheme_shard` in [dynamic configuration](devops/configuration-management/configuration-v1/dynamic-config.md#updating-dynamic-configuration).
+- Added support for transactions involving [topics](concepts/topic.md) and row-based tables, enabling transactional data transfer between tables and topics, or between topics, ensuring no data loss or duplication. Transactions can be enabled by the cluster administrator using the settings `enable_topic_service_tx` and `enable_pqconfig_transactions_at_scheme_shard` in [dynamic configuration](devops/configuration-management/configuration-v1/dynamic-config.md#updating-dynamic-configuration).
 - [Implemented](https://github.com/ydb-platform/ydb/pull/7150) [Change Data Capture (CDC)](concepts/cdc.md) for synchronous secondary indexes.
 - Added support for changing record retention periods in [CDC](concepts/cdc.md) topics.
 - Added support for auto-increment columns as part of a table's primary key.
@@ -412,7 +412,7 @@ Release date: December 24, 2024.
 - Improved diagnostics for storage issues in HealthCheck.
 - ***(Experimental)*** Added a [cost-based optimizer](concepts/optimizer.md#cost-based-query-optimizer) for complex queries, involving [column-oriented tables](concepts/glossary.md#column-oriented-table). The cost-based optimizer considers a large number of alternative execution plans for each query and selects the best one based on the cost estimate for each option. Currently, this optimizer only works with plans that contain [JOIN](yql/reference/syntax/join.md) operations.
 - ***(Experimental)*** Initial version of the workload manager was implemented. It allows to create resource pools with CPU, memory and active queries count limits. Resource classifiers were implemented to assign queries to specific resource pool.
-- ***(Experimental)*** Implemented [automatic index selection](dev/secondary-indexes.md#avtomaticheskoe-ispolzovanie-indeksov-pri-vyborke) for queries, which can be enabled via the `index_auto_choose_mode setting` in `table_service_config` in [dynamic configuration](maintenance/manual/dynamic-config.md#updating-dynamic-configuration).
+- ***(Experimental)*** Implemented [automatic index selection](dev/secondary-indexes.md#avtomaticheskoe-ispolzovanie-indeksov-pri-vyborke) for queries, which can be enabled via the `index_auto_choose_mode setting` in `table_service_config` in [dynamic configuration](devops/configuration-management/configuration-v1/dynamic-config.md#updating-dynamic-configuration).
 
 #### YDB UI {#ydb-ui1}
 

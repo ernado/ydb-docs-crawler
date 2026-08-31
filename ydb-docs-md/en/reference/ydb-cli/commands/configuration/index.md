@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/configuration/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/index.md"
 description: "The YDB CLI provides commands for managing the dynamic configuration at different levels of the system. General command syntax:"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Configuration Management
 
-The YDB CLI provides commands for managing the [dynamic configuration](../../../../maintenance/manual/dynamic-config.md) at different levels of the system.
+The YDB CLI provides commands for managing the [dynamic configuration](../../../../devops/configuration-management/configuration-v1/dynamic-config.md) at different levels of the system.
 
 General command syntax:
 

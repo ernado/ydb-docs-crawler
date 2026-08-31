@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/topic-create.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/topic-create.md"
 description: "С помощью подкоманды topic create вы можете создать новый топик. Общий вид команды: ydb [global options...] topic create [options...] <topic-path>."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Создание топика
@@ -38,6 +38,7 @@ ydb topic create --help
 | `--retention-period` | Время хранения данных в топике. Положительное число с указанием единицы измерения.  <br>Поддерживаются следующие единицы:<br>- `s` – секунды;<br>- `m` – минуты;<br>- `h` – часы;<br>- `d` – дни.<br>Значение по умолчанию — `18h`. |
 | `--partition-write-speed-kbps` | Максимальная скорость записи в [партицию](../../concepts/datamodel/topic.md#partitioning), задается в КБ/с.  <br>Значение по умолчанию — `1024`. |
 | `--retention-storage-mb` | Максимальный объем хранения для топика, задается в МБ. При достижении ограничения будут удаляться самые старые данные. При включенном автоматическом партиционировании потребляемое место может превышать установленное значение.  <br>Значение по умолчанию — `0` (ограничение не задано). |
+| `--auto-partitioning-strategy` | [Режим автопартиционирования](../../concepts/datamodel/topic.md#autopartitioning_modes). Возможные значения:<br>- `up` — количество партиций топика при изменении нагрузки может увеличиваться, но не уменьшаться;<br>- `paused` — автопартиционирование на топике приостановлено;<br>- `disabled` — автопартиционирование отключено.<br>Значение по умолчанию — `disabled`. |
 | `--supported-codecs` | Поддерживаемые методы сжатия данных. Задаются через запятую.  <br>Значение по умолчанию — `raw`.  <br>Возможные значения:<br>- `RAW` — без сжатия;<br>- `ZSTD` — сжатие [zstd](https://ru.wikipedia.org/wiki/Zstandard);<br>- `GZIP` — сжатие [gzip](https://ru.wikipedia.org/wiki/Gzip);<br>- `LZOP` — сжатие [lzop](https://ru.wikipedia.org/wiki/Lzop). |
 | `--metering-mode` | Режим тарификации топика для serverless базы данных.  <br>Возможные значения:<br>- `request-units` — по фактическому использованию.<br>- `reserved-capacity` — по выделенным ресурсам. |
 

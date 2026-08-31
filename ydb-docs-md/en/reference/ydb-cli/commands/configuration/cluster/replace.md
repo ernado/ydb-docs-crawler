@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/configuration/cluster/replace.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/cluster/replace.md"
 description: "With the admin cluster config replace command, you can upload a dynamic configuration to the YDB cluster. Alert."
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # admin cluster config replace
 
-With the `admin cluster config replace` command, you can upload a [dynamic configuration](../../../../../maintenance/manual/dynamic-config.md) to the YDB cluster.
+With the `admin cluster config replace` command, you can upload a [dynamic configuration](../../../../../devops/configuration-management/configuration-v1/dynamic-config.md) to the YDB cluster.
 
 > [!CAUTION]
 > Commands in this section can harm your cluster if used incorrectly. Due to the potentially dangerous nature of these commands, ALL global parameters must be specified explicitly. Profiles are disabled by default and are only used when explicitly specified (--profile ). Some commands do not require global options that are otherwise mandatory.

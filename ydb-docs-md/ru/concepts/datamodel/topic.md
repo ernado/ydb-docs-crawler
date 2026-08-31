@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/datamodel/topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/topic.md"
 description: "Топик в YDB — это сущность для хранения неструктурированных сообщений, предназначенная для их доставки множеству подписчиков. Фактически, топик — это именованны"
-revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
+revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 ---
 
 # Топик
@@ -76,6 +76,10 @@ revision: "15d2b39e9edb57dad2b885fbb65cec1653e2a8f4"
 Автопартиционирование на топике приостановлено. Автоматическое увеличение числа партиций не происходит. При необходимости можно снова включить режим увеличения числа партиций.
 
 Примеры YQL-запросов для перевода топика в различные режимы автопартиционирования можно посмотреть [здесь](../../yql/reference/syntax/alter-topic.md#autopartitioning).
+
+> [!NOTE]
+> Режимы автопартиционирования DOWN и UP_AND_DOWN находятся в разработке и в текущей версии не поддержаны.
+>  Режим UP_AND_DOWN на текущий момент реализован как UP.
 
 ### Ограничения {#autopartitioning_constraints}
 
