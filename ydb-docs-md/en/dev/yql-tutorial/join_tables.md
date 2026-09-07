@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/yql-tutorial/join_tables.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/yql-tutorial/join_tables.md"
 description: "Merge the columns of the source tables seasons and series, then output all the seasons of the IT Crowd series to the resulting table using the JOIN operator."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Joining tables with JOIN

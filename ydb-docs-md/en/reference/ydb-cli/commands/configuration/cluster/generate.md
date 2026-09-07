@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/configuration/cluster/generate.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/configuration/cluster/generate.md"
 description: "With the admin cluster config generate command, you can generate a dynamic configuration file based on the static configuration file on the YDB cluster."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # admin cluster config generate

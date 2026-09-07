@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/export-import/tools-restore.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/tools-restore.md"
-description: "Importing data from the file system Cluster."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Cluster."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Importing data from the file system
@@ -28,7 +28,7 @@ When restoring a cluster' metadata, databases and their administrators are creat
 
 The restore operation requires that for each database to be restored, its database nodes must be available. You can start database nodes before running the restore command or while the restore operation is waiting for available nodes. If you encounter problems with available database nodes, you can restart the restore operation.
 
-A [cluster configuration](../../../maintenance/manual/config-overview.md) is restored separately using the following steps:
+A [cluster configuration](../../../devops/configuration-management/configuration-v1/config-overview.md) is restored separately using the following steps:
 
 1. Load the saved configuration using the `ydb admin cluster config replace` command.
 2. Restart the cluster nodes.
@@ -63,7 +63,7 @@ The restore operation requires that for each database to be restored, its databa
 
 Restoring database schema objects follows the same process described in [Schema objects](tools-restore.md#schema-objects).
 
-[Database configuration](../../../maintenance/manual/config-overview.md) is restored separately using the following steps:
+[Database configuration](../../../devops/configuration-management/configuration-v1/config-overview.md) is restored separately using the following steps:
 
 1. Load the saved configuration using the `ydb admin database config replace` command.
 2. Restart the database nodes.

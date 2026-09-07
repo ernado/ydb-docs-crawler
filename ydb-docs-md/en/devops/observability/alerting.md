@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/devops/observability/alerting.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/observability/alerting.md"
-description: "Alerting."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Alerting is a mechanism for automatic notifications that informs administrators or DevOps engineers about events that require their attention or intervention."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Alerting

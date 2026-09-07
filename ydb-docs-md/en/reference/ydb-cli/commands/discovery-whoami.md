@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/discovery-whoami.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/discovery-whoami.md"
-description: "Authentication. The discovery whoami information command lets you check the account on behalf of which the server actually accepts requests:"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "The discovery whoami information command lets you check the account on behalf of which the server actually accepts requests:"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Authentication

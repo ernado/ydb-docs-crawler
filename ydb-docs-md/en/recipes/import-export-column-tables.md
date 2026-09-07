@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/import-export-column-tables.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/import-export-column-tables.md"
 description: "Column tables in YDB currently do not have a built-in backup and restore mechanism (it is in development). For data migration or recovery after failures, use ex"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Import and export of data to column tables

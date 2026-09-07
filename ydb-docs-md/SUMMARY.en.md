@@ -128,7 +128,6 @@
       - [Managing a cluster in bridge mode](en/devops/deployment-options/manual/bridge-management.md)
       - Managing a cluster's disk subsystem
         - [Overview](en/maintenance/manual/index.md)
-        - [Expanding a cluster](en/maintenance/manual/cluster_expansion.md)
         - [Adding storage groups](en/maintenance/manual/adding_storage_groups.md)
         - [Safe restart and shutdown of nodes](en/maintenance/manual/node_restarting.md)
         - [Enabling/disabling Scrubbing](en/maintenance/manual/scrubbing.md)
@@ -140,8 +139,6 @@
         - [Disk load balancing](en/maintenance/manual/balancing_load.md)
         - [Freeing up space on physical devices](en/maintenance/manual/disk_end_space.md)
         - [Replacing a node's FQDN](en/maintenance/manual/replacing_nodes.md)
-        - [Config overview](en/maintenance/manual/config-overview.md)
-        - [Temporary configurations](en/maintenance/manual/dynamic-config-volatile-config.md)
         - [BlobDepot](en/maintenance/manual/blobdepot.md)
         - [BlobDepot decommit](en/maintenance/manual/blobdepot_decommit.md)
       - [Federated queries](en/devops/deployment-options/manual/federated-queries/index.md)

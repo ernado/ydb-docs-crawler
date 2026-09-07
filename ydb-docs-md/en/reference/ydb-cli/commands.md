@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/commands.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands.md"
-description: "YDB CLI commands. General syntax for calling YDB CLI commands: ydb [global options] < command > [<subcommand>...] [ command options]. where:"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "General syntax for calling YDB CLI commands: ydb [global options] < command > [<subcommand>...] [ command options]. where:"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # YDB CLI commands

@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/discovery-list.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/discovery-list.md"
-description: "List of endpoints."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Using the discovery list information command, you can get a list of YDB cluster endponts that you can connect to in order to access your database:"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # List of endpoints

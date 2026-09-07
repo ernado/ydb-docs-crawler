@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-sdk/health-check-api.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/health-check-api.md"
 description: "YDB has a built-in self-diagnostic system, which can be used to get a brief report on the database status and information about existing issues."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Health Check API

@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/readtable.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/readtable.md"
-description: "Streaming table reads. To read an entire table snapshot, use the read subcommand. Data is transferred as a stream, which enables you to read any size table."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "To read an entire table snapshot, use the read subcommand. Data is transferred as a stream, which enables you to read any size table. Read data:"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Streaming table reads

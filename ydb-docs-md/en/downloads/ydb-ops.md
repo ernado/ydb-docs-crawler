@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/downloads/ydb-ops.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/ydb-ops.md"
 description: "YDB Ops ( ydbops ) is a command-line utility for managing YDB clusters. Linux Version Release date Download Changelog. v0.0.25. 03/12/2026. Binary file."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Download YDB Ops

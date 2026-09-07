@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter-topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-topic.md"
 description: "С помощью оператора ALTER TOPIC можно изменить настройки топика, а также добавить, изменить или удалить читателя. Общий вид команды:"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # ALTER TOPIC
@@ -58,6 +58,8 @@ ALTER TOPIC topic_path SET (option = value[, ...]);
 - `auto_partitioning_up_utilization_percent` — определяет порог загрузки партиции в процентах от максимальной скорости записи, при достижении которого будет инициировано автоматическое **увеличение** числа партиций. Тип значения — `integer`, значение по умолчанию — `80`.
 
 - `auto_partitioning_stabilization_window` — определяет временной интервал, в течение которого уровень нагрузки должен оставаться выше установленного порога (`auto_partitioning_up_utilization_percent`), прежде чем будет выполнено автоматическое увеличение количества партиций. Тип значения — `Interval`, значение по умолчанию — `5m`.
+
+- `supported_codecs` — список [кодеков](../../../concepts/datamodel/topic.md#message-codec), поддерживаемых топиком. Тип значения — `String`.
 
 Следующая команда изменит время хранения данных в топике и квоту на скорость записи в 1 партицию:
 
@@ -115,6 +117,7 @@ ALTER TOPIC topic_path ADD CONSUMER consumer_name [WITH (option = value[, ...])]
 - `important` — определяет важного читателя. Никакие данные из топика не будут удалены, пока все важные читатели их не обработали. Тип значения — `boolean`, значение по умолчанию: `false`.
 - `availability_period` — определяет время доступности сообщений для читателя. Опция позволяет продлить время хранения сообщений в топике с [retention_period](alter-topic.md#topic-parameters) вплоть до `availability_period`, если читатель не подтверждает их обработку. Тип значения — `Interval`. Не совместим с параметром `important`. Значение по умолчанию отсутствует.
 - `read_from` — определяет момент времени записи сообщений, начиная с которого читатель будет получать данные. Данные, записанные ранее этого момента, прочитаны не будут. Тип значения: `Datetime` ИЛИ `Timestamp` или `integer` (unix-timestamp в виде числа). Значение по умолчанию — `0` (чтение с самого раннего доступного в топике времени).
+- `supported_codecs` — список [кодеков](../../../concepts/datamodel/topic.md#message-codec), поддерживаемых читателем.
 
 Следующая команда добавит к топику читателя с настройками по умолчанию:
 

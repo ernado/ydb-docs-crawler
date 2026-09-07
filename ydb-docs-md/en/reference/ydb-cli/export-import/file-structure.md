@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/export-import/file-structure.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/file-structure.md"
-description: "File structure of an export."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "The file structure outlined below is used to export data both to the file system and an S3-compatible object storage. When working with S3, the file path is add"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # File structure of an export

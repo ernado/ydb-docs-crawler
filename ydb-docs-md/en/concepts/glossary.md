@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/glossary.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/glossary.md"
 description: "This article is an overview of terms and definitions used in YDB and its documentation. It starts with key terms that will be useful to get acquainted with earl"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # YDB glossary
@@ -737,7 +737,7 @@ Domain failures are handled automatically by YDB without shutting down the clust
 
 #### Distributed storage channel {#channel}
 
-A **channel** is a logical connection between a [tablet](glossary.md#tablet) and [Distributed storage](glossary.md#distributed-storage) group. The tablet can write data to different channels, and each channel is mapped to a specific [storage group](glossary.md#storage-group). Having multiple channels allows the tablet to:
+A **distributed storage channel**, **DS channel**, or **channel** is a logical connection between a [tablet](glossary.md#tablet) and a [storage group](glossary.md#storage-group). A tablet can write data to different channels, and each channel maps to a specific storage group. Having multiple channels allows a tablet to:
 
 - Record more data than one storage group can contain.
 - Store different [LogoBlobs](glossary.md#logoblob) on different storage groups, with different properties like erasure encoding or on different storage media (HDD, SSD, NVMe).

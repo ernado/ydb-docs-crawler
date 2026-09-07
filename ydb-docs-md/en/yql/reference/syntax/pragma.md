@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/pragma.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/pragma.md"
 description: "Definition. Redefinition of settings. Syntax. PRAGMA x.y = \"z\"; or PRAGMA x.y(\"z\", \"z2\", \"z3\");: x: (optional) The category of the setting."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # PRAGMA

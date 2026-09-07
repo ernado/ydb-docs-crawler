@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/configs.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/configs.md"
 description: "Managing YDB configuration. Note. Before YDB CLI 2.20.0, the ydb admin cluster config commands had the following format: ydb admin config."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # en/reference/ydb-cli/configs
@@ -17,7 +17,7 @@ revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
 > [!NOTE]
 > Before YDB CLI 2.20.0, the `ydb admin cluster config` commands had the following format: `ydb admin config`.
 
-This section contains commands for managing the YDB [cluster configuration](../../maintenance/manual/config-overview.md).
+This section contains commands for managing the YDB [cluster configuration](../../devops/configuration-management/configuration-v1/config-overview.md).
 
 - Apply the `dynconfig.yaml` configuration to the cluster:
 
@@ -81,7 +81,7 @@ This section contains commands for managing the YDB [cluster configuration](../.
 
 ## Managing temporary configuration
 
-This section contains commands for managing [temporary configurations](../../maintenance/manual/dynamic-config-volatile-config.md).
+This section contains commands for managing [temporary configurations](../../devops/configuration-management/configuration-v1/dynamic-config-volatile-config.md).
 
 - Fetch all temporary configurations from the cluster:
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/unique_distinct_hints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/unique_distinct_hints.md"
 description: "Directly after SELECT, it is possible to add SQL hints unique or distinct, which declare that this projection generates data containing unique values in the spe"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # UNIQUE DISTINCT hints

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/ingestion/fluent-bit.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/ingestion/fluent-bit.md"
 description: "В разделе представлена реализация интеграции между YDB и инструментом захвата логов FluentBit с целью сохранения данных логов в YDB для последующего просмотра и"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Сбор логов с помощью FluentBit

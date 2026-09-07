@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/vector-indexes-kmeans-tree-type.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/vector-indexes-kmeans-tree-type.md"
 description: "Vector indexes are specialized data structures that enable efficient vector search in multidimensional spaces. They are described in the overview; this article"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Vector index type: vector_kmeans_tree

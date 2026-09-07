@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/transfer/nginx.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/transfer/nginx.md"
 description: "This guide explains how to set up streaming of NGINX access logs to a YDB table for further analysis. It covers the default NGINX access log format. To learn mo"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Transfer — streaming NGINX access logs to a table

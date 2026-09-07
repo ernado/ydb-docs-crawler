@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/types/primitive.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/primitive.md"
 description: "The terms \"simple\", \"primitive\", and \"elementary\" data types are used as synonyms. Numeric types. Type. Description. Notes. Bool. Boolean value. Int8."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Primitive data types

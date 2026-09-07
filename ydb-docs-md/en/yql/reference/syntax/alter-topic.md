@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter-topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-topic.md"
 description: "You can use the ALTER TOPIC command to change the topic settings, as well as add, update, or delete its consumers."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # ALTER TOPIC
@@ -42,6 +42,7 @@ ALTER TOPIC `my_topic` ADD CONSUMER new_consumer2 WITH (important = false);
 
 - `important`: Defines an important consumer. No data will be deleted from the topic until all the important consumers read them. Value type: `boolean`, default value: `false`.
 - `read_from`: Sets up the message write time starting from which the consumer will receive data. Data written before this time will not be read. Value type: `Datetime` OR `Timestamp` OR `integer` (unix-timestamp in the numeric format). Default value: `0` (read from the earliest available message).
+- `supported_codecs`: List of [codecs](../../../concepts/datamodel/topic.md#message-codec) supported by the consumer.
 
 `DROP CONSUMER`: Deletes the consumer from the topic.
 
@@ -110,6 +111,7 @@ ALTER TOPIC `my_topic` SET (
 - `partition_write_speed_bytes_per_second`: Maximum allowed write speed per partition. If a write speed for a given partition exceeds this value, the write speed will be capped. Value type: `integer`, default value: `2097152` (2MB).
 - `partition_write_burst_bytes`: Write quota allocated for write bursts. When set to zero, the actual write_burst value is equalled to the quota value (this allows write bursts of up to one second). Value type: `integer`, default value: `0`.
 - `metering_mode`: Resource metering mode (`RESERVED_CAPACITY` - based on the allocated resources or `REQUEST_UNITS` - based on actual usage). This option applies to topics in serverless databases. Value type: `String`.
+- `supported_codecs`: List of [codecs](../../../concepts/datamodel/topic.md#message-codec) supported by the topic. Value type: `String`.
 
 ### Change autopartitioning strategies for the topic {#autopartitioning}
 

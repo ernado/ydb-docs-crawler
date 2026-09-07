@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/scheme-ls.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/scheme-ls.md"
-description: "List of objects. The scheme ls command lets you get a list of scheme objects in the database: ydb [connection options] scheme ls [path] [-lR1]."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "The scheme ls command lets you get a list of scheme objects in the database: ydb [connection options] scheme ls [path] [-lR1]."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # List of objects

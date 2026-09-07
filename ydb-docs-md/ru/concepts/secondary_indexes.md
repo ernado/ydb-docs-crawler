@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/concepts/query_execution/secondary_indexes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/secondary_indexes.md"
-description: "Вторичные индексы."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "В YDB автоматически создается индекс по первичному ключу, поэтому выборки с условием по первичному ключу всегда выполняются эффективно, затрагивая только требуе"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Вторичные индексы

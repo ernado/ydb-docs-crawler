@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/contributor/general-schema.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/general-schema.md"
-description: "An approximate general YDB schema is shown below."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "An approximate general YDB schema is shown below. gRPC proxy/KQP. gRPC proxy/KQP. DataShard. DataShard. DataShard. DataShard. Hive. Hive. gRPC proxy/KQP."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # General YDB schema

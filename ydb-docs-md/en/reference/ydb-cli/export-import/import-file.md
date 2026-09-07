@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/export-import/import-file.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/import-file.md"
-description: "Importing data from a file to an existing table. With the import file command, you can import data from CSV or TSV files to an existing table."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "With the import file command, you can import data from CSV or TSV files to an existing table."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Importing data from a file to an existing table

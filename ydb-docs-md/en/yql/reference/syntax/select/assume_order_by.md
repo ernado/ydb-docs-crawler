@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/assume_order_by.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/assume_order_by.md"
 description: "Checking that the SELECT result is sorted by the value in the specified column or multiple columns. The result of such a SELECT statement is treated as sorted,"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # ASSUME ORDER BY

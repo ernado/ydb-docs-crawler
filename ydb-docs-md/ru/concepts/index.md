@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/index.md"
 description: "Данный раздел документации охватывает фундаментальные концепции и архитектурные принципы YDB. Эта информация поможет вам лучше понимать, что происходит при изуч"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Концепции YDB

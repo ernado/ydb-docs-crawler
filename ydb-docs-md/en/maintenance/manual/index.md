@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/manual/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/index.md"
 description: "This section provides information about deploying, configuring, maintaining, monitoring, and performing diagnostics of multi-node YDB clusters. Main resources:"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Manual YDB Cluster Management Overview
@@ -17,7 +17,7 @@ This section provides information about deploying, configuring, maintaining, mon
 Main resources:
 
 - [Deploying YDB Cluster Manually](../../devops/deployment-options/manual/initial-deployment/index.md)
-- [Overview](index.md)
+- [Cluster Disk Subsystem Management Overview](index.md)
 - [Setting Up YDB Cluster Monitoring](../../devops/observability/monitoring.md)
 - [Logging in YDB](../../devops/observability/logging.md)
 - [Backup and Recovery](../../devops/backup-and-recovery.md)

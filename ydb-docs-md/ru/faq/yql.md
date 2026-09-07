@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/faq/yql.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/yql.md"
-description: "YQL Общие вопросы Как выбрать из таблицы строчки по заданному списку ключей?"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Общие вопросы Как выбрать из таблицы строчки по заданному списку ключей?"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # YQL
@@ -64,6 +64,26 @@ VALUES
 Для вставки значения в первой строке используется `raw string` и способ экранирования с помощью `\"`. Для вставки второй строки используется экранирование через `\\\"`.
 
 Мы рекомендуем применять `raw string` и способ экранирования с помощью `\"`, так как он более нагляден.
+
+### Как обновить JSON в таблице? {#update-json}
+
+Частичное обновление JSON-поля не поддерживается, поэтому необходимо сконструировать новое значение из частей старого и новых данных. Для этого используется [`Yson` UDF](../yql/reference/udf/list/yson.md) в комбинации с функциями для работы со [словарями](../yql/reference/builtins/dict.md).
+
+В примере ниже к JSON-объекту из колонки `column` добавляется новое поле `new_field`:
+
+```yql
+UPDATE table
+SET column = Yson::SerializeJson(
+    Yson::From(
+        SetUnion(
+            Yson::ConvertTo(Yson::ParseJson(column), Dict<String, Yson>),
+            {'new_field': Yson('"value"')},
+            ($K, $v1, $v2) -> { RETURN COALESCE($v2, $v1); }
+        )
+    )
+)
+WHERE id = 1;
+```
 
 ### Как обновить только те значения, ключей которых нет в таблице? {#update-non-existent}
 

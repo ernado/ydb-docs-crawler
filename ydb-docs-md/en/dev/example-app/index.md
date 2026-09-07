@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/dev/example-app/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/index.md"
-description: "Example applications working with YDB."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "This section outlines the implementation of example applications, all designed to perform similar functions, using the YDB SDKs across various programming langu"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Example applications working with YDB

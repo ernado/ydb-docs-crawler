@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/authentication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/authentication.md"
 description: "Once a network connection is established, the server starts to accept client requests with authentication information for processing. The server uses it to iden"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Authentication

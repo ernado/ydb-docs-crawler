@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/analytics/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/analytics/index.md"
 description: "YDB is a distributed, fault-tolerant database that provides components for building a data warehouse (DWH) on a unified platform."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Overview

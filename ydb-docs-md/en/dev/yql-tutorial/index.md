@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/dev/yql-tutorial/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/yql-tutorial/index.md"
-description: "YQL Tutorial - Overview."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "From this tutorial, you will learn how to perform basic operations with data in YDB and get familiar with the YQL syntax. A detailed description of this syntax"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # YQL Tutorial - Overview

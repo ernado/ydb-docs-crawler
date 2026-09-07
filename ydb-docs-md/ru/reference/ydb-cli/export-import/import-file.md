@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/reference/ydb-cli/export-import/import-file.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/import-file.md"
-description: "Импорт данных из файла в существующую таблицу."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "С помощью подкоманды import file вы можете импортировать данные из файлов форматов CSV, JSON, Parquet, TSV в существующую таблицу."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Импорт данных из файла в существующую таблицу

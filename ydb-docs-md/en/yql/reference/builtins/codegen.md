@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/builtins/codegen.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/codegen.md"
 description: "When running calculations, you can generate the code including S-expressions nodes. This uses a mechanism for packing the code in the resource. After building t"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Functions for code generation

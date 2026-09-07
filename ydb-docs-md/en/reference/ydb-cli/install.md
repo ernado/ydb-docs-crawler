@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/install.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/install.md"
-description: "Installing the YDB CLI. Linux. macOS. Windows. To install the YDB CLI, run the command: curl -sSL https://install.ydb.tech/cli | bash."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Linux. macOS. Windows. To install the YDB CLI, run the command: curl -sSL https://install.ydb.tech/cli | bash."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Installing the YDB CLI

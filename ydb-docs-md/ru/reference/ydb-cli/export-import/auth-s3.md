@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/reference/ydb-cli/export-import/auth-s3.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/auth-s3.md"
-description: "Соединение с S3-совместимыми объектными хранилищами."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Команды выгрузки и загрузки из S3-совместимых хранилищ export s3 и import s3 используют одинаковые параметры для соединения с S3 и аутентификации. О том, как уз"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Соединение с S3-совместимыми объектными хранилищами

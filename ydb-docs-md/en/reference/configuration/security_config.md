@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/security_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/security_config.md"
 description: "The security_config section defines authentication modes, the initial configuration of local users and groups, and their access rights."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # security_config

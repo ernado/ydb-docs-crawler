@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/export-import/tools-dump.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/tools-dump.md"
-description: "Exporting data to the file system Cluster."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Cluster."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Exporting data to the file system
@@ -31,7 +31,7 @@ where \[connection options\] are [database connection options](../connect.md#com
 
   If the parameter is omitted, the `backup_YYYYDDMMTHHMMSS` directory will be created in the current directory, where `YYYYDDMM` is the date and `HHMMSS` is the time when the dump process began, accroding to the system clock.
 
-A [cluster configuration](../../../maintenance/manual/config-overview.md) is dumped separately using the `ydb admin cluster config fetch` command.
+A [cluster configuration](../../../devops/configuration-management/configuration-v1/config-overview.md) is dumped separately using the `ydb admin cluster config fetch` command.
 
 ## Database {#db}
 
@@ -58,7 +58,7 @@ where \[connection options\] are [database connection options](../connect.md#com
 
   If the parameter is omitted, the `backup_YYYYDDMMTHHMMSS` directory will be created in the current directory, where `YYYYDDMM` is the date and `HHMMSS` is the time when the dump process began, accroding to the system clock.
 
-A [database configuration](../../../maintenance/manual/config-overview.md) is dumped separately using the `ydb admin database config fetch` command.
+A [database configuration](../../../devops/configuration-management/configuration-v1/config-overview.md) is dumped separately using the `ydb admin database config fetch` command.
 
 ## Schema objects
 

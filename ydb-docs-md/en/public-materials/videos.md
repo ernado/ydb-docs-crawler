@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/public-materials/videos.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/public-materials/videos.md"
 description: "This section contains video recordings from conferences and webinars: Videos 2025. Videos 2024. Videos 2023. Videos 2022."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Videos

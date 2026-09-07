@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/secondary_index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/secondary_index.md"
-description: "Creating and deleting secondary indexes. By using the table index command, you can create and delete secondary indexes:"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "By using the table index command, you can create and delete secondary indexes: ydb [connection options] table index [subcommand] [options]."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Creating and deleting secondary indexes

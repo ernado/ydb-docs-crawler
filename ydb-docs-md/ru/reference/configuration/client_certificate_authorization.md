@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/client_certificate_authorization.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/client_certificate_authorization.md"
 description: "Секция client_certificate_authorization настраивает аутентификацию узлов баз данных в кластере YDB с использованием клиентских сертификатов. Это обеспечивает пр"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # client_certificate_authorization

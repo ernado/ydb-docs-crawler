@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v2/node-authorization.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v2/node-authorization.md"
-description: "Database Node Authentication and Authorization."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Database node authentication in a YDB cluster ensures verification of database node authenticity when making service calls to other nodes via the gRPC protocol."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Database Node Authentication and Authorization

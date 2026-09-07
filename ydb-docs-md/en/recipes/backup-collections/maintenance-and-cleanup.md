@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/backup-collections/maintenance-and-cleanup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/backup-collections/maintenance-and-cleanup.md"
 description: "Manage backup lifecycle and clean up old backups to control storage usage. Identifying backup chains."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Backup Maintenance and Cleanup

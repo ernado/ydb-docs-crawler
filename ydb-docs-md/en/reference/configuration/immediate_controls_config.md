@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/immediate_controls_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/immediate_controls_config.md"
 description: "The immediate_controls_config section provides a set of dynamic parameters for fine-tuning YDB components, including DataShard, Coordinator, SchemeShard, BlobSt"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # immediate_controls_config

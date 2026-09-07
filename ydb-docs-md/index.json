@@ -4,20 +4,20 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "7580679a5c9e32c15be9989745f34e270cb4e4f1",
-      "page_count": 725,
+      "revision": "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2",
+      "page_count": 722,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "7580679a5c9e32c15be9989745f34e270cb4e4f1",
-      "page_count": 732,
+      "revision": "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2",
+      "page_count": 733,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
     }
   ],
-  "page_count": 1457,
+  "page_count": 1455,
   "pages": [
     {
       "doc_path": "en/",
@@ -453,10 +453,10 @@
       "url": "https://ydb.tech/docs/en/concepts/datamodel/dir?version=v26.1",
       "file": "en/concepts/datamodel/dir.md",
       "title": "Directory",
-      "description": " Directory.",
+      "description": "For convenience, YDB supports creating directories similar to a filesystem, meaning the entire database consists of a directory tree, and scheme objects, such a",
       "source_path": "en/core/concepts/datamodel/dir.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/dir.md",
-      "bytes": 810,
+      "bytes": 960,
       "lang": "en"
     },
     {
@@ -497,10 +497,10 @@
       "url": "https://ydb.tech/docs/en/concepts/datamodel/table?version=v26.1",
       "file": "en/concepts/datamodel/table.md",
       "title": "Table",
-      "description": " Table.",
+      "description": "A table is a relational table containing a set of related data, composed of rows and columns. Tables represent entities. For instance, a blog article can be rep",
       "source_path": "en/core/concepts/datamodel/table.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/table.md",
-      "bytes": 23634,
+      "bytes": 23788,
       "lang": "en"
     },
     {
@@ -533,7 +533,7 @@
       "description": "This article is an overview of terms and definitions used in YDB and its documentation. It starts with key terms that will be useful to get acquainted with earl",
       "source_path": "en/core/concepts/glossary.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/glossary.md",
-      "bytes": 67521,
+      "bytes": 67519,
       "lang": "en"
     },
     {
@@ -541,10 +541,10 @@
       "url": "https://ydb.tech/docs/en/concepts/limits-ydb?version=v26.1",
       "file": "en/concepts/limits-ydb.md",
       "title": "Database Limits",
-      "description": " Database Limits. This section describes the parameters of limits set in YDB. Schema Object Limits.",
+      "description": " This section describes the parameters of limits set in YDB. Schema Object Limits.",
       "source_path": "en/core/concepts/limits-ydb.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/limits-ydb.md",
-      "bytes": 6619,
+      "bytes": 6602,
       "lang": "en"
     },
     {
@@ -783,10 +783,10 @@
       "url": "https://ydb.tech/docs/en/concepts/query_execution/scan_query?version=v26.1",
       "file": "en/concepts/query_execution/scan_query.md",
       "title": "Scan queries in YDB",
-      "description": " Scan queries in YDB. Warning. This functionality is deprecated. Use standard query execution methods. See Query execution.",
+      "description": " Warning. This functionality is deprecated. Use standard query execution methods. See Query execution.",
       "source_path": "en/core/concepts/query_execution/scan_query.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/scan_query.md",
-      "bytes": 3485,
+      "bytes": 3464,
       "lang": "en"
     },
     {
@@ -794,10 +794,10 @@
       "url": "https://ydb.tech/docs/en/concepts/query_execution/secondary_indexes?version=v26.1",
       "file": "en/concepts/query_execution/secondary_indexes.md",
       "title": "Secondary Indexes",
-      "description": " Secondary Indexes.",
+      "description": "YDB automatically creates a primary key index, which is why selection by primary key is always efficient, affecting only the rows needed. Selections by criteria",
       "source_path": "en/core/concepts/query_execution/secondary_indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/secondary_indexes.md",
-      "bytes": 5934,
+      "bytes": 6076,
       "lang": "en"
     },
     {
@@ -827,10 +827,10 @@
       "url": "https://ydb.tech/docs/en/concepts/secondary_indexes?version=v26.1",
       "file": "en/concepts/secondary_indexes.md",
       "title": "Secondary Indexes",
-      "description": " Secondary Indexes.",
+      "description": "YDB automatically creates a primary key index, which is why selection by primary key is always efficient, affecting only the rows needed. Selections by criteria",
       "source_path": "en/core/concepts/query_execution/secondary_indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/secondary_indexes.md",
-      "bytes": 5885,
+      "bytes": 6027,
       "lang": "en"
     },
     {
@@ -882,10 +882,10 @@
       "url": "https://ydb.tech/docs/en/concepts/transactions?version=v26.1",
       "file": "en/concepts/transactions.md",
       "title": "YDB Transactions and Queries",
-      "description": " YDB Transactions and Queries. This section describes the specifics of YQL implementation for YDB transactions. Query Language.",
+      "description": " This section describes the specifics of YQL implementation for YDB transactions. Query Language.",
       "source_path": "en/core/concepts/transactions.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/transactions.md",
-      "bytes": 10741,
+      "bytes": 10711,
       "lang": "en"
     },
     {
@@ -904,10 +904,10 @@
       "url": "https://ydb.tech/docs/en/concepts/ttl?version=v26.1",
       "file": "en/concepts/ttl.md",
       "title": "Time to Live (TTL) and Eviction to External Storage",
-      "description": " Time to Live (TTL) and Eviction to External Storage. This section describes how the TTL mechanism works and what its limits are. How It Works.",
+      "description": " This section describes how the TTL mechanism works and what its limits are. How It Works.",
       "source_path": "en/core/concepts/ttl.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/ttl.md",
-      "bytes": 3659,
+      "bytes": 3606,
       "lang": "en"
     },
     {
@@ -1047,10 +1047,10 @@
       "url": "https://ydb.tech/docs/en/contributor/general-schema?version=v26.1",
       "file": "en/contributor/general-schema.md",
       "title": "General YDB schema",
-      "description": " An approximate general YDB schema is shown below.",
+      "description": " An approximate general YDB schema is shown below. gRPC proxy/KQP. gRPC proxy/KQP. DataShard. DataShard. DataShard. DataShard. Hive. Hive. gRPC proxy/KQP.",
       "source_path": "en/core/contributor/general-schema.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/general-schema.md",
-      "bytes": 7566,
+      "bytes": 7670,
       "lang": "en"
     },
     {
@@ -1278,10 +1278,10 @@
       "url": "https://ydb.tech/docs/en/dev/example-app/?version=v26.1",
       "file": "en/dev/example-app/index.md",
       "title": "Example applications working with YDB",
-      "description": " Example applications working with YDB.",
+      "description": "This section outlines the implementation of example applications, all designed to perform similar functions, using the YDB SDKs across various programming langu",
       "source_path": "en/core/dev/example-app/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/index.md",
-      "bytes": 5210,
+      "bytes": 5332,
       "lang": "en"
     },
     {
@@ -1289,10 +1289,10 @@
       "url": "https://ydb.tech/docs/en/dev/example-app/example-cpp?version=v26.1",
       "file": "en/dev/example-app/example-cpp.md",
       "title": "Example app in C++",
-      "description": " Example app in C++. This page contains a detailed description of the code of a test app that is available as part of the YDB C++SDK.",
+      "description": " This page contains a detailed description of the code of a test app that is available as part of the YDB C++SDK. Initializing a database connection.",
       "source_path": "en/core/dev/example-app/example-cpp.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/example-cpp.md",
-      "bytes": 18216,
+      "bytes": 18232,
       "lang": "en"
     },
     {
@@ -1300,10 +1300,10 @@
       "url": "https://ydb.tech/docs/en/dev/example-app/example-dotnet?version=v26.1",
       "file": "en/dev/example-app/example-dotnet.md",
       "title": "Example app in C# (.NET)",
-      "description": " Example app in C# (.NET). This page contains a detailed description of the code of a test app that uses the YDB C# (.NET) SDK.",
+      "description": " This page contains a detailed description of the code of a test app that uses the YDB C# (.NET) SDK. Initializing a database connection.",
       "source_path": "en/core/dev/example-app/example-dotnet.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/example-dotnet.md",
-      "bytes": 5025,
+      "bytes": 5035,
       "lang": "en"
     },
     {
@@ -1311,10 +1311,10 @@
       "url": "https://ydb.tech/docs/en/dev/example-app/example-js?version=v26.1",
       "file": "en/dev/example-app/example-js.md",
       "title": "Example app in JavaScript",
-      "description": " Example app in JavaScript. This page provides a detailed description of the example application code that uses the YDB JavaScript SDK.",
+      "description": " This page provides a detailed description of the example application code that uses the YDB JavaScript SDK.",
       "source_path": "en/core/dev/example-app/example-js.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/example-js.md",
-      "bytes": 8431,
+      "bytes": 8404,
       "lang": "en"
     },
     {
@@ -1322,10 +1322,10 @@
       "url": "https://ydb.tech/docs/en/dev/example-app/example-php?version=v26.1",
       "file": "en/dev/example-app/example-php.md",
       "title": "Example app in PHP",
-      "description": " Example app in PHP. This page contains a detailed description of the code of a test app that is available as part of the YDB PHP SDK.",
+      "description": " This page contains a detailed description of the code of a test app that is available as part of the YDB PHP SDK. Initializing a database connection.",
       "source_path": "en/core/dev/example-app/example-php.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/example-php.md",
-      "bytes": 7944,
+      "bytes": 7960,
       "lang": "en"
     },
     {
@@ -1630,10 +1630,10 @@
       "url": "https://ydb.tech/docs/en/dev/yql-tutorial/?version=v26.1",
       "file": "en/dev/yql-tutorial/index.md",
       "title": "YQL Tutorial - Overview",
-      "description": " YQL Tutorial - Overview.",
+      "description": "From this tutorial, you will learn how to perform basic operations with data in YDB and get familiar with the YQL syntax. A detailed description of this syntax ",
       "source_path": "en/core/dev/yql-tutorial/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/yql-tutorial/index.md",
-      "bytes": 1487,
+      "bytes": 1622,
       "lang": "en"
     },
     {
@@ -2015,10 +2015,10 @@
       "url": "https://ydb.tech/docs/en/devops/configuration-management/configuration-v1/static-config?version=v26.1",
       "file": "en/devops/configuration-management/configuration-v1/static-config.md",
       "title": "YDB Cluster Configuration",
-      "description": " YDB Cluster Configuration.",
+      "description": "The cluster configuration is specified in the YAML file passed in the --yaml-config parameter when the cluster nodes are run. This article provides an overview ",
       "source_path": "en/core/devops/configuration-management/configuration-v1/static-config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/static-config.md",
-      "bytes": 5236,
+      "bytes": 5369,
       "lang": "en"
     },
     {
@@ -2070,10 +2070,10 @@
       "url": "https://ydb.tech/docs/en/devops/configuration-management/configuration-v2/config-settings?version=v26.1",
       "file": "en/devops/configuration-management/configuration-v2/config-settings.md",
       "title": "YDB Cluster Configuration",
-      "description": " YDB Cluster Configuration.",
+      "description": "The cluster configuration is specified in the YAML file passed in the --yaml-config parameter when the cluster nodes are run. This article provides an overview ",
       "source_path": "en/core/devops/configuration-management/configuration-v2/config-settings.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v2/config-settings.md",
-      "bytes": 5244,
+      "bytes": 5377,
       "lang": "en"
     },
     {
@@ -2092,10 +2092,10 @@
       "url": "https://ydb.tech/docs/en/devops/configuration-management/configuration-v2/node-authorization?version=v26.1",
       "file": "en/devops/configuration-management/configuration-v2/node-authorization.md",
       "title": "Database Node Authentication and Authorization",
-      "description": " Database Node Authentication and Authorization.",
+      "description": "Database node authentication in a YDB cluster ensures verification of database node authenticity when making service calls to other nodes via the gRPC protocol.",
       "source_path": "en/core/devops/configuration-management/configuration-v2/node-authorization.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v2/node-authorization.md",
-      "bytes": 8122,
+      "bytes": 8235,
       "lang": "en"
     },
     {
@@ -2103,10 +2103,10 @@
       "url": "https://ydb.tech/docs/en/devops/configuration-management/configuration-v2/replacing-nodes?version=v26.1",
       "file": "en/devops/configuration-management/configuration-v2/replacing-nodes.md",
       "title": "Replacing Node FQDN",
-      "description": " Replacing Node FQDN. This procedure describes how to replace the FQDN (Fully Qualified Domain Name) of a YDB cluster node without downtime. Prerequisites. Note.",
+      "description": " This procedure describes how to replace the FQDN (Fully Qualified Domain Name) of a YDB cluster node without downtime. Prerequisites. Note.",
       "source_path": "en/core/devops/configuration-management/configuration-v2/replacing-nodes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v2/replacing-nodes.md",
-      "bytes": 4061,
+      "bytes": 4040,
       "lang": "en"
     },
     {
@@ -2337,7 +2337,7 @@
       "description": " This section provides information about deploying, configuring, maintaining, monitoring, and performing diagnostics of multi-node YDB clusters. Main resources:",
       "source_path": "en/core/devops/deployment-options/manual/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/index.md",
-      "bytes": 1286,
+      "bytes": 1320,
       "lang": "en"
     },
     {
@@ -2510,10 +2510,10 @@
       "url": "https://ydb.tech/docs/en/devops/observability/alerting?version=v26.1",
       "file": "en/devops/observability/alerting.md",
       "title": "Alerting",
-      "description": " Alerting.",
+      "description": " Alerting is a mechanism for automatic notifications that informs administrators or DevOps engineers about events that require their attention or intervention.",
       "source_path": "en/core/devops/observability/alerting.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/observability/alerting.md",
-      "bytes": 8423,
+      "bytes": 8572,
       "lang": "en"
     },
     {
@@ -2642,10 +2642,10 @@
       "url": "https://ydb.tech/docs/en/faq/?version=v26.1",
       "file": "en/faq/index.md",
       "title": "Questions and answers about YDB",
-      "description": " Questions and answers about YDB. General. SDK. Errors. YQL. Analytics. Known issues.",
+      "description": " General. SDK. Errors. YQL. Analytics. Known issues.",
       "source_path": "en/core/faq/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/index.md",
-      "bytes": 599,
+      "bytes": 566,
       "lang": "en"
     },
     {
@@ -2653,10 +2653,10 @@
       "url": "https://ydb.tech/docs/en/faq/all?version=v26.1",
       "file": "en/faq/all.md",
       "title": "All questions on one page",
-      "description": " All questions on one page General questions General questions about YDB What is YDB?",
+      "description": " General questions General questions about YDB What is YDB?",
       "source_path": "en/core/faq/all.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/all.md",
-      "bytes": 17075,
+      "bytes": 17788,
       "lang": "en"
     },
     {
@@ -2675,10 +2675,10 @@
       "url": "https://ydb.tech/docs/en/faq/common?version=v26.1",
       "file": "en/faq/common.md",
       "title": "General questions about YDB",
-      "description": " General questions about YDB What is YDB?",
+      "description": " What is YDB?",
       "source_path": "en/core/faq/common.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/common.md",
-      "bytes": 4270,
+      "bytes": 4242,
       "lang": "en"
     },
     {
@@ -2686,10 +2686,10 @@
       "url": "https://ydb.tech/docs/en/faq/errors?version=v26.1",
       "file": "en/faq/errors.md",
       "title": "Errors",
-      "description": " Errors Possible causes for \"Status: OVERLOADED Error: Pending previous query completion\" in the C++ SDK.",
+      "description": " Possible causes for \"Status: OVERLOADED Error: Pending previous query completion\" in the C++ SDK.",
       "source_path": "en/core/faq/errors.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/errors.md",
-      "bytes": 3063,
+      "bytes": 3056,
       "lang": "en"
     },
     {
@@ -2697,10 +2697,10 @@
       "url": "https://ydb.tech/docs/en/faq/known-issues?version=v26.1",
       "file": "en/faq/known-issues.md",
       "title": "Known issues",
-      "description": " Known issues Table partitions are not merging when autopartitioning is enabled.",
+      "description": " Table partitions are not merging when autopartitioning is enabled.",
       "source_path": "en/core/faq/known-issues.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/known-issues.md",
-      "bytes": 1334,
+      "bytes": 1321,
       "lang": "en"
     },
     {
@@ -2708,10 +2708,10 @@
       "url": "https://ydb.tech/docs/en/faq/sdk?version=v26.1",
       "file": "en/faq/sdk.md",
       "title": "SDK",
-      "description": " SDK What should I do if the SDK crashes when shutting down an application?",
+      "description": " What should I do if the SDK crashes when shutting down an application?",
       "source_path": "en/core/faq/sdk.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/sdk.md",
-      "bytes": 2431,
+      "bytes": 2427,
       "lang": "en"
     },
     {
@@ -2719,10 +2719,10 @@
       "url": "https://ydb.tech/docs/en/faq/yql?version=v26.1",
       "file": "en/faq/yql.md",
       "title": "YQL",
-      "description": " YQL General questions How do I select table rows by a list of keys?",
+      "description": " General questions How do I select table rows by a list of keys?",
       "source_path": "en/core/faq/yql.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/yql.md",
-      "bytes": 5508,
+      "bytes": 6243,
       "lang": "en"
     },
     {
@@ -3184,7 +3184,7 @@
       "description": " This section provides information about deploying, configuring, maintaining, monitoring, and performing diagnostics of multi-node YDB clusters. Main resources:",
       "source_path": "en/core/devops/deployment-options/manual/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/index.md",
-      "bytes": 1291,
+      "bytes": 1325,
       "lang": "en"
     },
     {
@@ -3228,29 +3228,7 @@
       "description": "Physical groups are a valuable resource in the cluster: groups can be created, but they cannot be deleted without deleting the database that uses them, since th",
       "source_path": "en/core/maintenance/manual/blobdepot_decommit.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/blobdepot_decommit.md",
-      "bytes": 10073,
-      "lang": "en"
-    },
-    {
-      "doc_path": "en/maintenance/manual/cluster_expansion",
-      "url": "https://ydb.tech/docs/en/maintenance/manual/cluster_expansion?version=v26.1",
-      "file": "en/maintenance/manual/cluster_expansion.md",
-      "title": "Expanding a cluster",
-      "description": "You can expand a YDB cluster by adding new nodes to its configuration. Below is the list of actions for expanding a YDB cluster installed manually on VM instanc",
-      "source_path": "en/core/maintenance/manual/cluster_expansion.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/cluster_expansion.md",
-      "bytes": 8037,
-      "lang": "en"
-    },
-    {
-      "doc_path": "en/maintenance/manual/config-overview",
-      "url": "https://ydb.tech/docs/en/maintenance/manual/config-overview?version=v26.1",
-      "file": "en/maintenance/manual/config-overview.md",
-      "title": "Configuration V1 Overview",
-      "description": " To start a YDB node, configuration is required. There are two types of configuration: Static — a YAML format file stored on the node's local disk.",
-      "source_path": "en/core/devops/configuration-management/configuration-v1/config-overview.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/config-overview.md",
-      "bytes": 3827,
+      "bytes": 9944,
       "lang": "en"
     },
     {
@@ -3262,17 +3240,6 @@
       "source_path": "en/core/maintenance/manual/disk_end_space.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/disk_end_space.md",
       "bytes": 3382,
-      "lang": "en"
-    },
-    {
-      "doc_path": "en/maintenance/manual/dynamic-config-volatile-config",
-      "url": "https://ydb.tech/docs/en/maintenance/manual/dynamic-config-volatile-config?version=v26.1",
-      "file": "en/maintenance/manual/dynamic-config-volatile-config.md",
-      "title": "Volatile Configurations",
-      "description": "Volatile configurations are a special type of configurations that complement dynamic ones and are not persistent. That is, these configurations are reset when t",
-      "source_path": "en/core/devops/configuration-management/configuration-v1/dynamic-config-volatile-config.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/dynamic-config-volatile-config.md",
-      "bytes": 2979,
       "lang": "en"
     },
     {
@@ -3786,10 +3753,10 @@
       "url": "https://ydb.tech/docs/en/recipes/ydb-sdk/auth-static?version=v26.1",
       "file": "en/recipes/ydb-sdk/auth-static.md",
       "title": "Username and password based authentication",
-      "description": " Username and password based authentication. Below are examples of authentication with a username and password in different YDB SDKs. C++. Go. Java. JavaScript.",
+      "description": " Below are examples of authentication with a username and password in different YDB SDKs. C++. Go. Java. JavaScript. Python. C# (.NET). PHP.",
       "source_path": "en/core/recipes/ydb-sdk/auth-static.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/auth-static.md",
-      "bytes": 11920,
+      "bytes": 11900,
       "lang": "en"
     },
     {
@@ -4765,10 +4732,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli?version=v26.1",
       "file": "en/reference/ydb-cli.md",
       "title": "YDB CLI",
-      "description": " YDB CLI. The YDB CLI provides software for managing your data in YDB. To use the YDB CLI, first install it and then set up the connection and authentication.",
+      "description": " The YDB CLI provides software for managing your data in YDB. To use the YDB CLI, first install it and then set up the connection and authentication.",
       "source_path": "en/core/reference/ydb-cli/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/index.md",
-      "bytes": 1322,
+      "bytes": 1313,
       "lang": "en"
     },
     {
@@ -4776,10 +4743,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/?version=v26.1",
       "file": "en/reference/ydb-cli/index.md",
       "title": "YDB CLI",
-      "description": " YDB CLI. The YDB CLI provides software for managing your data in YDB. To use the YDB CLI, first install it and then set up the connection and authentication.",
+      "description": " The YDB CLI provides software for managing your data in YDB. To use the YDB CLI, first install it and then set up the connection and authentication.",
       "source_path": "en/core/reference/ydb-cli/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/index.md",
-      "bytes": 1244,
+      "bytes": 1235,
       "lang": "en"
     },
     {
@@ -4787,10 +4754,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands?version=v26.1",
       "file": "en/reference/ydb-cli/commands.md",
       "title": "YDB CLI commands",
-      "description": " YDB CLI commands. General syntax for calling YDB CLI commands: ydb [global options] < command > [<subcommand>...] [ command options]. where:",
+      "description": " General syntax for calling YDB CLI commands: ydb [global options] < command > [<subcommand>...] [ command options]. where:",
       "source_path": "en/core/reference/ydb-cli/commands.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands.md",
-      "bytes": 11428,
+      "bytes": 11410,
       "lang": "en"
     },
     {
@@ -4952,10 +4919,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/dir?version=v26.1",
       "file": "en/reference/ydb-cli/commands/dir.md",
       "title": "Directories",
-      "description": " Directories. The YDB database supports an internal directory structure that can host database objects.",
+      "description": " The YDB database supports an internal directory structure that can host database objects.",
       "source_path": "en/core/reference/ydb-cli/commands/dir.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/dir.md",
-      "bytes": 5074,
+      "bytes": 5061,
       "lang": "en"
     },
     {
@@ -4963,10 +4930,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/discovery-list?version=v26.1",
       "file": "en/reference/ydb-cli/commands/discovery-list.md",
       "title": "List of endpoints",
-      "description": " List of endpoints.",
+      "description": " Using the discovery list information command, you can get a list of YDB cluster endponts that you can connect to in order to access your database:",
       "source_path": "en/core/reference/ydb-cli/commands/discovery-list.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/discovery-list.md",
-      "bytes": 1723,
+      "bytes": 1851,
       "lang": "en"
     },
     {
@@ -4974,10 +4941,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/discovery-whoami?version=v26.1",
       "file": "en/reference/ydb-cli/commands/discovery-whoami.md",
       "title": "Authentication",
-      "description": " Authentication. The discovery whoami information command lets you check the account on behalf of which the server actually accepts requests:",
+      "description": " The discovery whoami information command lets you check the account on behalf of which the server actually accepts requests:",
       "source_path": "en/core/reference/ydb-cli/commands/discovery-whoami.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/discovery-whoami.md",
-      "bytes": 1522,
+      "bytes": 1506,
       "lang": "en"
     },
     {
@@ -4996,10 +4963,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/global-options?version=v26.1",
       "file": "en/reference/ydb-cli/commands/global-options.md",
       "title": "Global parameters",
-      "description": " Global parameters DB connection options. DB connection options are described in Connecting to and authenticating with a database. Service options.",
+      "description": " DB connection options. DB connection options are described in Connecting to and authenticating with a database. Service options.",
       "source_path": "en/core/reference/ydb-cli/commands/global-options.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/global-options.md",
-      "bytes": 1294,
+      "bytes": 1276,
       "lang": "en"
     },
     {
@@ -5018,10 +4985,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/readtable?version=v26.1",
       "file": "en/reference/ydb-cli/commands/readtable.md",
       "title": "Streaming table reads",
-      "description": " Streaming table reads. To read an entire table snapshot, use the read subcommand. Data is transferred as a stream, which enables you to read any size table.",
+      "description": " To read an entire table snapshot, use the read subcommand. Data is transferred as a stream, which enables you to read any size table. Read data:",
       "source_path": "en/core/reference/ydb-cli/commands/readtable.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/readtable.md",
-      "bytes": 3181,
+      "bytes": 3169,
       "lang": "en"
     },
     {
@@ -5029,10 +4996,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/scheme-describe?version=v26.1",
       "file": "en/reference/ydb-cli/commands/scheme-describe.md",
       "title": "Getting information about schema objects",
-      "description": " Getting information about schema objects. Get information about a schema object: ydb scheme describe episodes --stats. Result:",
+      "description": " Get information about a schema object: ydb scheme describe episodes --stats. Result: <table> episodes ┌────────────┬─────────┬────────┬─────┐",
       "source_path": "en/core/reference/ydb-cli/commands/scheme-describe.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/scheme-describe.md",
-      "bytes": 2460,
+      "bytes": 2553,
       "lang": "en"
     },
     {
@@ -5040,10 +5007,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/scheme-ls?version=v26.1",
       "file": "en/reference/ydb-cli/commands/scheme-ls.md",
       "title": "List of objects",
-      "description": " List of objects. The scheme ls command lets you get a list of scheme objects in the database: ydb [connection options] scheme ls [path] [-lR1].",
+      "description": " The scheme ls command lets you get a list of scheme objects in the database: ydb [connection options] scheme ls [path] [-lR1].",
       "source_path": "en/core/reference/ydb-cli/commands/scheme-ls.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/scheme-ls.md",
-      "bytes": 2772,
+      "bytes": 2755,
       "lang": "en"
     },
     {
@@ -5062,10 +5029,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/secondary_index?version=v26.1",
       "file": "en/reference/ydb-cli/commands/secondary_index.md",
       "title": "Creating and deleting secondary indexes",
-      "description": " Creating and deleting secondary indexes. By using the table index command, you can create and delete secondary indexes:",
+      "description": " By using the table index command, you can create and delete secondary indexes: ydb [connection options] table index [subcommand] [options].",
       "source_path": "en/core/reference/ydb-cli/commands/secondary_index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/secondary_index.md",
-      "bytes": 7464,
+      "bytes": 7484,
       "lang": "en"
     },
     {
@@ -5073,10 +5040,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/service?version=v26.1",
       "file": "en/reference/ydb-cli/commands/service.md",
       "title": "Service commands",
-      "description": " Service commands.",
+      "description": "These commands have to do with the YDB CLI client itself and do not involve establishing a DB connection. They can be expressed either as a parameter or as an o",
       "source_path": "en/core/reference/ydb-cli/commands/service.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/service.md",
-      "bytes": 1217,
+      "bytes": 1360,
       "lang": "en"
     },
     {
@@ -5084,10 +5051,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/tools/rename?version=v26.1",
       "file": "en/reference/ydb-cli/commands/tools/rename.md",
       "title": "Renaming a table",
-      "description": " Renaming a table.",
+      "description": "Using the tools rename subcommand, you can rename one or more tables at the same time, move a table to another directory within the same database, replace one t",
       "source_path": "en/core/reference/ydb-cli/commands/tools/rename.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/tools/rename.md",
-      "bytes": 3528,
+      "bytes": 3671,
       "lang": "en"
     },
     {
@@ -5095,10 +5062,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/workload/?version=v26.1",
       "file": "en/reference/ydb-cli/commands/workload/index.md",
       "title": "Load testing",
-      "description": " Load testing. You can use the workload command to run different types of workload against your DB. General format of the command:",
+      "description": " You can use the workload command to run different types of workload against your DB. General format of the command:",
       "source_path": "en/core/reference/ydb-cli/commands/workload/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/workload/index.md",
-      "bytes": 1728,
+      "bytes": 1714,
       "lang": "en"
     },
     {
@@ -5106,10 +5073,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/commands/workload/stock?version=v26.1",
       "file": "en/reference/ydb-cli/commands/workload/stock.md",
       "title": "Stock load",
-      "description": " Stock load. Simulates a warehouse of an online store: creates multi-product orders, gets a list of orders per customer. Types of load.",
+      "description": " Simulates a warehouse of an online store: creates multi-product orders, gets a list of orders per customer. Types of load. This load test runs 5 types of load:",
       "source_path": "en/core/reference/ydb-cli/commands/workload/stock.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/workload/stock.md",
-      "bytes": 15422,
+      "bytes": 15447,
       "lang": "en"
     },
     {
@@ -5120,7 +5087,7 @@
       "description": " Managing YDB configuration. Note. Before YDB CLI 2.20.0, the ydb admin cluster config commands had the following format: ydb admin config.",
       "source_path": "en/core/reference/ydb-cli/configs.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/configs.md",
-      "bytes": 6450,
+      "bytes": 6510,
       "lang": "en"
     },
     {
@@ -5128,10 +5095,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/connect?version=v26.1",
       "file": "en/reference/ydb-cli/connect.md",
       "title": "Connecting the CLI to and authenticating with a database",
-      "description": " Connecting the CLI to and authenticating with a database.",
+      "description": " Most of the YDB CLI commands relate to operations on a YDB database and require establishing a connection to it to be executed.",
       "source_path": "en/core/reference/ydb-cli/connect.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/connect.md",
-      "bytes": 9048,
+      "bytes": 9118,
       "lang": "en"
     },
     {
@@ -5139,10 +5106,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/export-import/?version=v26.1",
       "file": "en/reference/ydb-cli/export-import/index.md",
       "title": "Exporting and importing data",
-      "description": " Exporting and importing data.",
+      "description": "The YDB CLI contains a set of commands designed to export and import data and descriptions of data schema objects. Data can be exported to create backups for su",
       "source_path": "en/core/reference/ydb-cli/export-import/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/index.md",
-      "bytes": 1755,
+      "bytes": 1886,
       "lang": "en"
     },
     {
@@ -5150,10 +5117,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/export-import/auth-s3?version=v26.1",
       "file": "en/reference/ydb-cli/export-import/auth-s3.md",
       "title": "Connecting to S3-compatible object storages",
-      "description": " Connecting to S3-compatible object storages.",
+      "description": "The commands used to export data from S3-compatible storages, export s3 and import s3, use the same parameters for S3 connection and authentication. To learn ho",
       "source_path": "en/core/reference/ydb-cli/export-import/auth-s3.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/auth-s3.md",
-      "bytes": 5249,
+      "bytes": 5365,
       "lang": "en"
     },
     {
@@ -5161,10 +5128,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/export-import/export-s3?version=v26.1",
       "file": "en/reference/ydb-cli/export-import/export-s3.md",
       "title": "Exporting data to S3-compatible storage",
-      "description": " Exporting data to S3-compatible storage.",
+      "description": " The export s3 command starts exporting data and schema objects details to S3-compatible storage, in the format described under File structure:",
       "source_path": "en/core/reference/ydb-cli/export-import/export-s3.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/export-s3.md",
-      "bytes": 12135,
+      "bytes": 12237,
       "lang": "en"
     },
     {
@@ -5172,10 +5139,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/export-import/file-structure?version=v26.1",
       "file": "en/reference/ydb-cli/export-import/file-structure.md",
       "title": "File structure of an export",
-      "description": " File structure of an export.",
+      "description": "The file structure outlined below is used to export data both to the file system and an S3-compatible object storage. When working with S3, the file path is add",
       "source_path": "en/core/reference/ydb-cli/export-import/file-structure.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/file-structure.md",
-      "bytes": 9356,
+      "bytes": 9488,
       "lang": "en"
     },
     {
@@ -5183,10 +5150,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/export-import/import-file?version=v26.1",
       "file": "en/reference/ydb-cli/export-import/import-file.md",
       "title": "Importing data from a file to an existing table",
-      "description": " Importing data from a file to an existing table. With the import file command, you can import data from CSV or TSV files to an existing table.",
+      "description": " With the import file command, you can import data from CSV or TSV files to an existing table.",
       "source_path": "en/core/reference/ydb-cli/export-import/import-file.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/import-file.md",
-      "bytes": 11053,
+      "bytes": 11004,
       "lang": "en"
     },
     {
@@ -5194,10 +5161,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/export-import/import-s3?version=v26.1",
       "file": "en/reference/ydb-cli/export-import/import-s3.md",
       "title": "Importing data from an S3 compatible storage",
-      "description": " Importing data from an S3 compatible storage.",
+      "description": "The import s3 command starts, on the server side, the process of importing data and schema objects details from an S3-compatible storage, in the format describe",
       "source_path": "en/core/reference/ydb-cli/export-import/import-s3.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/import-s3.md",
-      "bytes": 10747,
+      "bytes": 10863,
       "lang": "en"
     },
     {
@@ -5205,10 +5172,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/export-import/tools-dump?version=v26.1",
       "file": "en/reference/ydb-cli/export-import/tools-dump.md",
       "title": "Exporting data to the file system",
-      "description": " Exporting data to the file system Cluster.",
+      "description": " Cluster.",
       "source_path": "en/core/reference/ydb-cli/export-import/tools-dump.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/tools-dump.md",
-      "bytes": 8235,
+      "bytes": 8261,
       "lang": "en"
     },
     {
@@ -5216,10 +5183,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/export-import/tools-restore?version=v26.1",
       "file": "en/reference/ydb-cli/export-import/tools-restore.md",
       "title": "Importing data from the file system",
-      "description": " Importing data from the file system Cluster.",
+      "description": " Cluster.",
       "source_path": "en/core/reference/ydb-cli/export-import/tools-restore.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/tools-restore.md",
-      "bytes": 13105,
+      "bytes": 13129,
       "lang": "en"
     },
     {
@@ -5227,10 +5194,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/install?version=v26.1",
       "file": "en/reference/ydb-cli/install.md",
       "title": "Installing the YDB CLI",
-      "description": " Installing the YDB CLI. Linux. macOS. Windows. To install the YDB CLI, run the command: curl -sSL https://install.ydb.tech/cli | bash.",
+      "description": " Linux. macOS. Windows. To install the YDB CLI, run the command: curl -sSL https://install.ydb.tech/cli | bash.",
       "source_path": "en/core/reference/ydb-cli/install.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/install.md",
-      "bytes": 3068,
+      "bytes": 3044,
       "lang": "en"
     },
     {
@@ -5315,10 +5282,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/profile/?version=v26.1",
       "file": "en/reference/ydb-cli/profile/index.md",
       "title": "Managing profiles",
-      "description": " Managing profiles.",
+      "description": "A profile is a named set of DB connection parameters stored in a configuration file in the local file system. With profiles, you can reuse data about DB locatio",
       "source_path": "en/core/reference/ydb-cli/profile/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/profile/index.md",
-      "bytes": 1429,
+      "bytes": 1571,
       "lang": "en"
     },
     {
@@ -5326,10 +5293,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/profile/activate?version=v26.1",
       "file": "en/reference/ydb-cli/profile/activate.md",
       "title": "Activated profile",
-      "description": " Activated profile.",
+      "description": "Executing YDB CLI commands on a database require establishing a connection to the database. If the YDB CLI couldn't identify a certain connection parameter by c",
       "source_path": "en/core/reference/ydb-cli/profile/activate.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/profile/activate.md",
-      "bytes": 4291,
+      "bytes": 4433,
       "lang": "en"
     },
     {
@@ -5337,10 +5304,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/profile/create?version=v26.1",
       "file": "en/reference/ydb-cli/profile/create.md",
       "title": "Creating and updating profiles",
-      "description": " Creating and updating profiles.",
+      "description": " You can set connection parameter values for the profile being created or updated through the command line or request them in interactive mode in the console.",
       "source_path": "en/core/reference/ydb-cli/profile/create.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/profile/create.md",
-      "bytes": 9046,
+      "bytes": 9172,
       "lang": "en"
     },
     {
@@ -5348,10 +5315,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/profile/delete?version=v26.1",
       "file": "en/reference/ydb-cli/profile/delete.md",
       "title": "Deleting a profile",
-      "description": " Deleting a profile. Currently, you can only delete profiles interactively with the following command: ydb config profile delete <profile_name>.",
+      "description": " Currently, you can only delete profiles interactively with the following command: ydb config profile delete <profile_name>.",
       "source_path": "en/core/reference/ydb-cli/profile/delete.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/profile/delete.md",
-      "bytes": 1511,
+      "bytes": 1491,
       "lang": "en"
     },
     {
@@ -5359,10 +5326,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/profile/list-and-get?version=v26.1",
       "file": "en/reference/ydb-cli/profile/list-and-get.md",
       "title": "Getting profile information",
-      "description": " Getting profile information Getting a list of profiles. Getting a list of profiles: ydb config profile list.",
+      "description": " Getting a list of profiles. Getting a list of profiles: ydb config profile list.",
       "source_path": "en/core/reference/ydb-cli/profile/list-and-get.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/profile/list-and-get.md",
-      "bytes": 1577,
+      "bytes": 1549,
       "lang": "en"
     },
     {
@@ -5370,10 +5337,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/profile/use?version=v26.1",
       "file": "en/reference/ydb-cli/profile/use.md",
       "title": "Using a profile",
-      "description": " Using a profile Connection based on a selected profile. A profile can be applied when running a YDB CLI command with the --profile or the -p option:",
+      "description": " Connection based on a selected profile. A profile can be applied when running a YDB CLI command with the --profile or the -p option:",
       "source_path": "en/core/reference/ydb-cli/profile/use.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/profile/use.md",
-      "bytes": 2495,
+      "bytes": 2479,
       "lang": "en"
     },
     {
@@ -5381,10 +5348,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-cli/scan-query?version=v26.1",
       "file": "en/reference/ydb-cli/scan-query.md",
       "title": "Running scan queries",
-      "description": " Running scan queries. Warning. This functionality is deprecated. Use standard query execution methods. See Query execution.",
+      "description": " Warning. This functionality is deprecated. Use standard query execution methods. See Query execution.",
       "source_path": "en/core/reference/ydb-cli/scan-query.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/scan-query.md",
-      "bytes": 2132,
+      "bytes": 2110,
       "lang": "en"
     },
     {
@@ -5788,10 +5755,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-sdk/auth?version=v26.1",
       "file": "en/reference/ydb-sdk/auth.md",
       "title": "Authentication in the SDK",
-      "description": " Authentication in the SDK.",
+      "description": "As we discussed in the YDB server connection article, the client must add an authentication token to each request. The authentication token is checked by the se",
       "source_path": "en/core/reference/ydb-sdk/auth.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/auth.md",
-      "bytes": 14776,
+      "bytes": 14910,
       "lang": "en"
     },
     {
@@ -5865,10 +5832,10 @@
       "url": "https://ydb.tech/docs/en/reference/ydb-sdk/install?version=v26.1",
       "file": "en/reference/ydb-sdk/install.md",
       "title": "Installing the YDB SDK",
-      "description": " Installing the YDB SDK.",
+      "description": "Follow the instructions below to quickly install the OpenSource SDK. Make sure to preinstall and configure tools for working with the selected programming langu",
       "source_path": "en/core/reference/ydb-sdk/install.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/install.md",
-      "bytes": 4812,
+      "bytes": 4949,
       "lang": "en"
     },
     {
@@ -6627,7 +6594,7 @@
       "description": " You can use the ALTER TOPIC command to change the topic settings, as well as add, update, or delete its consumers.",
       "source_path": "en/core/yql/reference/syntax/alter-topic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-topic.md",
-      "bytes": 5528,
+      "bytes": 5783,
       "lang": "en"
     },
     {
@@ -6737,7 +6704,7 @@
       "description": " YDB supports adding columns to row and column tables, deleting non-key columns from tables, and changing properties of existing columns. ADD COLUMN.",
       "source_path": "en/core/yql/reference/syntax/alter_table/columns.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter_table/columns.md",
-      "bytes": 10143,
+      "bytes": 7159,
       "lang": "en"
     },
     {
@@ -6968,7 +6935,7 @@
       "description": " You can use the CREATE TOPIC statement to create a topic, as well as consumers for it. General command format:",
       "source_path": "en/core/yql/reference/syntax/create-topic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-topic.md",
-      "bytes": 5482,
+      "bytes": 5747,
       "lang": "en"
     },
     {
@@ -7394,10 +7361,10 @@
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/select?version=v26.1",
       "file": "en/yql/reference/syntax/select.md",
       "title": "SELECT",
-      "description": " SELECT. Returns the result of evaluating the expressions specified after SELECT. It can be used in combination with other operations to obtain other effect.",
+      "description": " Returns the result of evaluating the expressions specified after SELECT. It can be used in combination with other operations to obtain other effect. Examples.",
       "source_path": "en/core/yql/reference/syntax/select/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/index.md",
-      "bytes": 5116,
+      "bytes": 5118,
       "lang": "en"
     },
     {
@@ -7405,10 +7372,10 @@
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/select/?version=v26.1",
       "file": "en/yql/reference/syntax/select/index.md",
       "title": "SELECT",
-      "description": " SELECT. Returns the result of evaluating the expressions specified after SELECT. It can be used in combination with other operations to obtain other effect.",
+      "description": " Returns the result of evaluating the expressions specified after SELECT. It can be used in combination with other operations to obtain other effect. Examples.",
       "source_path": "en/core/yql/reference/syntax/select/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/index.md",
-      "bytes": 4869,
+      "bytes": 4871,
       "lang": "en"
     },
     {
@@ -8417,10 +8384,10 @@
       "url": "https://ydb.tech/docs/ru/concepts/datamodel/dir?version=v26.1",
       "file": "ru/concepts/datamodel/dir.md",
       "title": "Директория",
-      "description": " Директория.",
+      "description": "Для удобства организации поддерживается создание директорий по аналогии с файловой системой, то есть вся база состоит из дерева директорий, а схемные объекты, н",
       "source_path": "ru/core/concepts/datamodel/dir.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/dir.md",
-      "bytes": 1145,
+      "bytes": 1419,
       "lang": "ru"
     },
     {
@@ -8461,10 +8428,10 @@
       "url": "https://ydb.tech/docs/ru/concepts/datamodel/table?version=v26.1",
       "file": "ru/concepts/datamodel/table.md",
       "title": "Таблица",
-      "description": " Таблица.",
+      "description": "Таблица — это реляционная таблица, содержащая набор связанных данных, состоящий из строк и столбцов. Таблицы описывают сущности. Например, статья в блоге может ",
       "source_path": "ru/core/concepts/datamodel/table.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/table.md",
-      "bytes": 50229,
+      "bytes": 50507,
       "lang": "ru"
     },
     {
@@ -8497,7 +8464,7 @@
       "description": "Эта статья представляет собой обзор терминов и определений, используемых в YDB и её документации. Он начинается с ключевых терминов, с которыми полезно ознакоми",
       "source_path": "ru/core/concepts/glossary.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/glossary.md",
-      "bytes": 126644,
+      "bytes": 126576,
       "lang": "ru"
     },
     {
@@ -8505,10 +8472,10 @@
       "url": "https://ydb.tech/docs/ru/concepts/limits-ydb?version=v26.1",
       "file": "ru/concepts/limits-ydb.md",
       "title": "Ограничения базы данных",
-      "description": " Ограничения базы данных. В разделе описаны параметры ограничений, установленных в YDB. Ограничения объектов схемы.",
+      "description": " В разделе описаны параметры ограничений, установленных в YDB. Ограничения объектов схемы.",
       "source_path": "ru/core/concepts/limits-ydb.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/limits-ydb.md",
-      "bytes": 11314,
+      "bytes": 11268,
       "lang": "ru"
     },
     {
@@ -8736,10 +8703,10 @@
       "url": "https://ydb.tech/docs/ru/concepts/query_execution/scan_query?version=v26.1",
       "file": "ru/concepts/query_execution/scan_query.md",
       "title": "Скан запросы (Scan Query) в YDB",
-      "description": " Скан запросы (Scan Query) в YDB. Важно. Использование ScanQuery не рекомендуется для новых сценариев. Для выполнения запросов используйте стандартные механизмы.",
+      "description": " Важно. Использование ScanQuery не рекомендуется для новых сценариев. Для выполнения запросов используйте стандартные механизмы.",
       "source_path": "ru/core/concepts/query_execution/scan_query.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/scan_query.md",
-      "bytes": 6189,
+      "bytes": 6144,
       "lang": "ru"
     },
     {
@@ -8747,10 +8714,10 @@
       "url": "https://ydb.tech/docs/ru/concepts/query_execution/secondary_indexes?version=v26.1",
       "file": "ru/concepts/query_execution/secondary_indexes.md",
       "title": "Вторичные индексы",
-      "description": " Вторичные индексы.",
+      "description": "В YDB автоматически создается индекс по первичному ключу, поэтому выборки с условием по первичному ключу всегда выполняются эффективно, затрагивая только требуе",
       "source_path": "ru/core/concepts/query_execution/secondary_indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/secondary_indexes.md",
-      "bytes": 10494,
+      "bytes": 10755,
       "lang": "ru"
     },
     {
@@ -8780,10 +8747,10 @@
       "url": "https://ydb.tech/docs/ru/concepts/secondary_indexes?version=v26.1",
       "file": "ru/concepts/secondary_indexes.md",
       "title": "Вторичные индексы",
-      "description": " Вторичные индексы.",
+      "description": "В YDB автоматически создается индекс по первичному ключу, поэтому выборки с условием по первичному ключу всегда выполняются эффективно, затрагивая только требуе",
       "source_path": "ru/core/concepts/query_execution/secondary_indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/secondary_indexes.md",
-      "bytes": 10445,
+      "bytes": 10706,
       "lang": "ru"
     },
     {
@@ -8835,10 +8802,10 @@
       "url": "https://ydb.tech/docs/ru/concepts/transactions?version=v26.1",
       "file": "ru/concepts/transactions.md",
       "title": "Транзакции и запросы к YDB",
-      "description": " Транзакции и запросы к YDB. Этот раздел описывает особенности реализации YQL для YDB транзакций. Язык запросов.",
+      "description": " Этот раздел описывает особенности реализации YQL для YDB транзакций. Язык запросов.",
       "source_path": "ru/core/concepts/transactions.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/transactions.md",
-      "bytes": 17950,
+      "bytes": 17903,
       "lang": "ru"
     },
     {
@@ -8857,10 +8824,10 @@
       "url": "https://ydb.tech/docs/ru/concepts/ttl?version=v26.1",
       "file": "ru/concepts/ttl.md",
       "title": "Time to Live (TTL) и вытеснение данных во внешнее хранилище",
-      "description": " Time to Live (TTL) и вытеснение данных во внешнее хранилище. В разделе описан принцип работы TTL и его ограничения. Принцип работы.",
+      "description": " В разделе описан принцип работы TTL и его ограничения. Принцип работы.",
       "source_path": "ru/core/concepts/ttl.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/ttl.md",
-      "bytes": 5948,
+      "bytes": 5852,
       "lang": "ru"
     },
     {
@@ -9022,10 +8989,10 @@
       "url": "https://ydb.tech/docs/ru/contributor/general-schema?version=v26.1",
       "file": "ru/contributor/general-schema.md",
       "title": "Общая схема YDB",
-      "description": " Примерная общая схема YDB представлена ниже.",
+      "description": " Примерная общая схема YDB представлена ниже. gRPC proxy/KQP. gRPC proxy/KQP. DataShard. DataShard. DataShard. DataShard. Hive. Hive. gRPC proxy/KQP.",
       "source_path": "ru/core/contributor/general-schema.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/general-schema.md",
-      "bytes": 14385,
+      "bytes": 14489,
       "lang": "ru"
     },
     {
@@ -9253,10 +9220,10 @@
       "url": "https://ydb.tech/docs/ru/dev/example-app/?version=v26.1",
       "file": "ru/dev/example-app/index.md",
       "title": "Тестовое приложение",
-      "description": " Тестовое приложение.",
+      "description": " В данном разделе разбирается код однотипного тестового приложения, реализованного с использованием YDB SDK на разных языках программирования: C++. С#. Go. Java.",
       "source_path": "ru/core/dev/example-app/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/index.md",
-      "bytes": 7698,
+      "bytes": 7938,
       "lang": "ru"
     },
     {
@@ -9264,10 +9231,10 @@
       "url": "https://ydb.tech/docs/ru/dev/example-app/example-cpp?version=v26.1",
       "file": "ru/dev/example-app/example-cpp.md",
       "title": "Приложение на C++",
-      "description": " Приложение на C++. На этой странице подробно разбирается код тестового приложения, доступного в составе C++ SDK YDB. Инициализация соединения с базой данных.",
+      "description": " На этой странице подробно разбирается код тестового приложения, доступного в составе C++ SDK YDB. Инициализация соединения с базой данных.",
       "source_path": "ru/core/dev/example-app/example-cpp.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/example-cpp.md",
-      "bytes": 22618,
+      "bytes": 22587,
       "lang": "ru"
     },
     {
@@ -9275,10 +9242,10 @@
       "url": "https://ydb.tech/docs/ru/dev/example-app/example-dotnet?version=v26.1",
       "file": "ru/dev/example-app/example-dotnet.md",
       "title": "Приложение на C#",
-      "description": " Приложение на C#. На этой странице подробно разбирается код тестового приложения, использующего C# SDK YDB. Инициализация соединения с базой данных.",
+      "description": " На этой странице подробно разбирается код тестового приложения, использующего C# SDK YDB. Инициализация соединения с базой данных.",
       "source_path": "ru/core/dev/example-app/example-dotnet.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/example-dotnet.md",
-      "bytes": 7045,
+      "bytes": 7015,
       "lang": "ru"
     },
     {
@@ -9286,10 +9253,10 @@
       "url": "https://ydb.tech/docs/ru/dev/example-app/example-js?version=v26.1",
       "file": "ru/dev/example-app/example-js.md",
       "title": "Приложение на JavaScript",
-      "description": " Приложение на JavaScript. На этой странице представлено подробное описание кода тестового приложения, использующего YDB JavaScript SDK.",
+      "description": " На этой странице представлено подробное описание кода тестового приложения, использующего YDB JavaScript SDK.",
       "source_path": "ru/core/dev/example-app/example-js.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/example-js.md",
-      "bytes": 12126,
+      "bytes": 12088,
       "lang": "ru"
     },
     {
@@ -9297,10 +9264,10 @@
       "url": "https://ydb.tech/docs/ru/dev/example-app/example-php?version=v26.1",
       "file": "ru/dev/example-app/example-php.md",
       "title": "Приложение на PHP",
-      "description": " Приложение на PHP. На этой странице подробно разбирается код тестового приложения, доступного в составе PHP SDK YDB. Инициализация соединения с базой данных.",
+      "description": " На этой странице подробно разбирается код тестового приложения, доступного в составе PHP SDK YDB. Инициализация соединения с базой данных.",
       "source_path": "ru/core/dev/example-app/example-php.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/example-php.md",
-      "bytes": 10592,
+      "bytes": 10561,
       "lang": "ru"
     },
     {
@@ -9605,10 +9572,10 @@
       "url": "https://ydb.tech/docs/ru/dev/yql-tutorial/?version=v26.1",
       "file": "ru/dev/yql-tutorial/index.md",
       "title": "Туториал по YQL - Обзор",
-      "description": " Туториал по YQL - Обзор.",
+      "description": "Из этого туториала вы узнаете, как выполнять базовые операции с данными в YDB, и познакомитесь с синтаксисом YQL. Подробное описание этого синтаксиса находится ",
       "source_path": "ru/core/dev/yql-tutorial/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/yql-tutorial/index.md",
-      "bytes": 2088,
+      "bytes": 2336,
       "lang": "ru"
     },
     {
@@ -10012,10 +9979,10 @@
       "url": "https://ydb.tech/docs/ru/devops/configuration-management/configuration-v1/static-config?version=v26.1",
       "file": "ru/devops/configuration-management/configuration-v1/static-config.md",
       "title": "Параметры конфигурации кластера",
-      "description": " Параметры конфигурации кластера.",
+      "description": "Конфигурация кластера задается в YAML-файле, который передается в параметре --yaml-config при запуске узлов кластера. В данной статье приведено описание основны",
       "source_path": "ru/core/devops/configuration-management/configuration-v1/static-config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/static-config.md",
-      "bytes": 7792,
+      "bytes": 8012,
       "lang": "ru"
     },
     {
@@ -10067,10 +10034,10 @@
       "url": "https://ydb.tech/docs/ru/devops/configuration-management/configuration-v2/config-settings?version=v26.1",
       "file": "ru/devops/configuration-management/configuration-v2/config-settings.md",
       "title": "Параметры конфигурации кластера",
-      "description": " Параметры конфигурации кластера.",
+      "description": "Конфигурация кластера задается в YAML-файле, который передается в параметре --yaml-config при запуске узлов кластера. В данной статье приведено описание основны",
       "source_path": "ru/core/devops/configuration-management/configuration-v2/config-settings.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/config-settings.md",
-      "bytes": 7800,
+      "bytes": 8020,
       "lang": "ru"
     },
     {
@@ -10089,10 +10056,10 @@
       "url": "https://ydb.tech/docs/ru/devops/configuration-management/configuration-v2/node-authorization?version=v26.1",
       "file": "ru/devops/configuration-management/configuration-v2/node-authorization.md",
       "title": "Аутентификация и авторизация узлов баз данных",
-      "description": " Аутентификация и авторизация узлов баз данных.",
+      "description": "Аутентификация узлов в кластере YDB обеспечивает проверку подлинности узлов баз данных при выполнении служебных вызовов к другим узлам по протоколу gRPC. Автори",
       "source_path": "ru/core/devops/configuration-management/configuration-v2/node-authorization.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/node-authorization.md",
-      "bytes": 12704,
+      "bytes": 12909,
       "lang": "ru"
     },
     {
@@ -10100,10 +10067,10 @@
       "url": "https://ydb.tech/docs/ru/devops/configuration-management/configuration-v2/replacing-nodes?version=v26.1",
       "file": "ru/devops/configuration-management/configuration-v2/replacing-nodes.md",
       "title": "Замена FQDN узла",
-      "description": " Замена FQDN узла.",
+      "description": "Иногда возникает ситуация, когда меняется FQDN узла, при этом сам узел в системе остаётся, но под другим именем. Простая замена имени узла в разделе hosts не ср",
       "source_path": "ru/core/devops/configuration-management/configuration-v2/replacing-nodes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/replacing-nodes.md",
-      "bytes": 3866,
+      "bytes": 4120,
       "lang": "ru"
     },
     {
@@ -10496,10 +10463,10 @@
       "url": "https://ydb.tech/docs/ru/devops/observability/alerting?version=v26.1",
       "file": "ru/devops/observability/alerting.md",
       "title": "Алертинг",
-      "description": " Алертинг.",
+      "description": "Алертинг — это механизм автоматических оповещений, предназначенный для информирования администраторов или специалистов DevOps о событиях, требующих их внимания ",
       "source_path": "ru/core/devops/observability/alerting.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/observability/alerting.md",
-      "bytes": 12466,
+      "bytes": 12743,
       "lang": "ru"
     },
     {
@@ -10628,10 +10595,10 @@
       "url": "https://ydb.tech/docs/ru/faq/?version=v26.1",
       "file": "ru/faq/index.md",
       "title": "Вопросы и ответы про YDB",
-      "description": " Вопросы и ответы про YDB. Общие. SDK. Ошибки. YQL. Аналитика. Известные проблемы.",
+      "description": " Общие. SDK. Ошибки. YQL. Аналитика. Известные проблемы.",
       "source_path": "ru/core/faq/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/index.md",
-      "bytes": 711,
+      "bytes": 668,
       "lang": "ru"
     },
     {
@@ -10639,10 +10606,10 @@
       "url": "https://ydb.tech/docs/ru/faq/all?version=v26.1",
       "file": "ru/faq/all.md",
       "title": "Все вопросы на одной странице",
-      "description": " Все вопросы на одной странице Общие вопросы Общие вопросы про YDB Что такое YDB?",
+      "description": " Общие вопросы Общие вопросы про YDB Что такое YDB?",
       "source_path": "ru/core/faq/all.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/all.md",
-      "bytes": 30612,
+      "bytes": 31530,
       "lang": "ru"
     },
     {
@@ -10661,10 +10628,10 @@
       "url": "https://ydb.tech/docs/ru/faq/common?version=v26.1",
       "file": "ru/faq/common.md",
       "title": "Общие вопросы про YDB",
-      "description": " Общие вопросы про YDB Что такое YDB?",
+      "description": " Что такое YDB?",
       "source_path": "ru/core/faq/common.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/common.md",
-      "bytes": 8235,
+      "bytes": 8198,
       "lang": "ru"
     },
     {
@@ -10672,10 +10639,10 @@
       "url": "https://ydb.tech/docs/ru/faq/errors?version=v26.1",
       "file": "ru/faq/errors.md",
       "title": "Ошибки",
-      "description": " Ошибки Почему может возникать ошибка «Status: OVERLOADED Error: Pending previous query completion» в C++ SDK?",
+      "description": " Почему может возникать ошибка «Status: OVERLOADED Error: Pending previous query completion» в C++ SDK?",
       "source_path": "ru/core/faq/errors.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/errors.md",
-      "bytes": 5035,
+      "bytes": 5022,
       "lang": "ru"
     },
     {
@@ -10683,10 +10650,10 @@
       "url": "https://ydb.tech/docs/ru/faq/known-issues?version=v26.1",
       "file": "ru/faq/known-issues.md",
       "title": "Известные проблемы",
-      "description": " Известные проблемы Не происходит объединение партиций таблицы при включённом автопартицировании.",
+      "description": " Не происходит объединение партиций таблицы при включённом автопартицировании.",
       "source_path": "ru/core/faq/known-issues.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/known-issues.md",
-      "bytes": 2125,
+      "bytes": 2089,
       "lang": "ru"
     },
     {
@@ -10694,10 +10661,10 @@
       "url": "https://ydb.tech/docs/ru/faq/sdk?version=v26.1",
       "file": "ru/faq/sdk.md",
       "title": "SDK",
-      "description": " SDK Что делать, если SDK экстренно завершает работу при завершении работы приложения?",
+      "description": " Что делать, если SDK экстренно завершает работу при завершении работы приложения?",
       "source_path": "ru/core/faq/sdk.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/sdk.md",
-      "bytes": 3832,
+      "bytes": 3828,
       "lang": "ru"
     },
     {
@@ -10705,10 +10672,10 @@
       "url": "https://ydb.tech/docs/ru/faq/yql?version=v26.1",
       "file": "ru/faq/yql.md",
       "title": "YQL",
-      "description": " YQL Общие вопросы Как выбрать из таблицы строчки по заданному списку ключей?",
+      "description": " Общие вопросы Как выбрать из таблицы строчки по заданному списку ключей?",
       "source_path": "ru/core/faq/yql.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/yql.md",
-      "bytes": 9266,
+      "bytes": 10235,
       "lang": "ru"
     },
     {
@@ -11376,10 +11343,10 @@
       "url": "https://ydb.tech/docs/ru/public-materials/videos?version=v26.1",
       "file": "ru/public-materials/videos.md",
       "title": "Видеозаписи",
-      "description": " В этом разделе собраны видеозаписи с конференций и вебинаров о YDB: Видеозаписи 2025. Видеозаписи 2024. Видеозаписи 2023. Видеозаписи 2022. Видеозаписи 2021.",
+      "description": " В этом разделе собраны видеозаписи с конференций и вебинаров о YDB: Видеозаписи 2026. Видеозаписи 2025. Видеозаписи 2024. Видеозаписи 2023. Видеозаписи 2022.",
       "source_path": "ru/core/public-materials/videos.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/public-materials/videos.md",
-      "bytes": 2137,
+      "bytes": 2185,
       "lang": "ru"
     },
     {
@@ -11479,6 +11446,17 @@
       "source_path": "ru/core/public-materials/videos/2025.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/public-materials/videos/2025.md",
       "bytes": 29418,
+      "lang": "ru"
+    },
+    {
+      "doc_path": "ru/public-materials/videos/2026",
+      "url": "https://ydb.tech/docs/ru/public-materials/videos/2026?version=v26.1",
+      "file": "ru/public-materials/videos/2026.md",
+      "title": "Видеозаписи 2026",
+      "description": " Кирилл Курдюков — YDB и C#: история большой любви. Practice.",
+      "source_path": "ru/core/public-materials/videos/2026.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/public-materials/videos/2026.md",
+      "bytes": 1507,
       "lang": "ru"
     },
     {
@@ -11838,10 +11816,10 @@
       "url": "https://ydb.tech/docs/ru/recipes/ydb-sdk/auth-static?version=v26.1",
       "file": "ru/recipes/ydb-sdk/auth-static.md",
       "title": "Аутентификация при помощи логина и пароля",
-      "description": " Аутентификация при помощи логина и пароля. Ниже приведены примеры кода аутентификации при помощи логина и пароля в разных YDB SDK. C++. Go. Java. JavaScript.",
+      "description": " Ниже приведены примеры кода аутентификации при помощи логина и пароля в разных YDB SDK. C++. Go. Java. JavaScript. Python. C#. Rust. PHP. Native SDK. userver.",
       "source_path": "ru/core/recipes/ydb-sdk/auth-static.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/auth-static.md",
-      "bytes": 15008,
+      "bytes": 14973,
       "lang": "ru"
     },
     {
@@ -12795,10 +12773,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli?version=v26.1",
       "file": "ru/reference/ydb-cli.md",
       "title": "YDB CLI",
-      "description": " YDB CLI. Интерфейс командной строки YDB CLI — программа для управления вашими данными в YDB.",
+      "description": " Интерфейс командной строки YDB CLI — программа для управления вашими данными в YDB.",
       "source_path": "ru/core/reference/ydb-cli/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/index.md",
-      "bytes": 1797,
+      "bytes": 1788,
       "lang": "ru"
     },
     {
@@ -12806,10 +12784,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/?version=v26.1",
       "file": "ru/reference/ydb-cli/index.md",
       "title": "YDB CLI",
-      "description": " YDB CLI. Интерфейс командной строки YDB CLI — программа для управления вашими данными в YDB.",
+      "description": " Интерфейс командной строки YDB CLI — программа для управления вашими данными в YDB.",
       "source_path": "ru/core/reference/ydb-cli/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/index.md",
-      "bytes": 1719,
+      "bytes": 1710,
       "lang": "ru"
     },
     {
@@ -12828,10 +12806,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands?version=v26.1",
       "file": "ru/reference/ydb-cli/commands.md",
       "title": "Команды YDB CLI",
-      "description": " Команды YDB CLI. Общий синтаксис вызова команд YDB CLI: ydb [global options] < command > [<subcommand>...] [ command options]. , где:",
+      "description": " Общий синтаксис вызова команд YDB CLI: ydb [global options] < command > [<subcommand>...] [ command options]. , где:",
       "source_path": "ru/core/reference/ydb-cli/commands.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands.md",
-      "bytes": 27861,
+      "bytes": 27837,
       "lang": "ru"
     },
     {
@@ -12993,10 +12971,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/dir?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/dir.md",
       "title": "Директории",
-      "description": " Директории. База данных YDB поддерживает внутри иерархическую структуру директорий, в которых могут размещаться объекты БД.",
+      "description": " База данных YDB поддерживает внутри иерархическую структуру директорий, в которых могут размещаться объекты БД.",
       "source_path": "ru/core/reference/ydb-cli/commands/dir.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/dir.md",
-      "bytes": 7533,
+      "bytes": 7511,
       "lang": "ru"
     },
     {
@@ -13004,10 +12982,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/discovery-list?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/discovery-list.md",
       "title": "Список эндпоинтов",
-      "description": " Список эндпоинтов.",
+      "description": "Информационная команда discovery list позволяет получить список эндпоинтов кластера YDB, с которыми можно открывать соединения для работы с заданной базой данны",
       "source_path": "ru/core/reference/ydb-cli/commands/discovery-list.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/discovery-list.md",
-      "bytes": 2203,
+      "bytes": 2452,
       "lang": "ru"
     },
     {
@@ -13015,10 +12993,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/discovery-whoami?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/discovery-whoami.md",
       "title": "Проверка аутентификации",
-      "description": " Проверка аутентификации. Информационная команда discovery whoami позволяет проверить, от имени какой учетной записи воспринимает запросы сервер:",
+      "description": " Информационная команда discovery whoami позволяет проверить, от имени какой учетной записи воспринимает запросы сервер:",
       "source_path": "ru/core/reference/ydb-cli/commands/discovery-whoami.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/discovery-whoami.md",
-      "bytes": 2229,
+      "bytes": 2182,
       "lang": "ru"
     },
     {
@@ -13037,10 +13015,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/global-options?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/global-options.md",
       "title": "Глобальные параметры",
-      "description": " Глобальные параметры Опции соединения с БД. Опции соединения с БД описаны в статье Соединение с БД и аутентификация. Сервисные опции.",
+      "description": " Опции соединения с БД. Опции соединения с БД описаны в статье Соединение с БД и аутентификация. Сервисные опции.",
       "source_path": "ru/core/reference/ydb-cli/commands/global-options.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/global-options.md",
-      "bytes": 1890,
+      "bytes": 1850,
       "lang": "ru"
     },
     {
@@ -13059,10 +13037,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/readtable?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/readtable.md",
       "title": "Потоковое чтение строковой таблицы",
-      "description": " Потоковое чтение строковой таблицы. Важно. Поддерживается только для строковых таблиц. Поддержка функциональности для колоночных таблиц находится в разработке.",
+      "description": " Важно. Поддерживается только для строковых таблиц. Поддержка функциональности для колоночных таблиц находится в разработке.",
       "source_path": "ru/core/reference/ydb-cli/commands/readtable.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/readtable.md",
-      "bytes": 4258,
+      "bytes": 4191,
       "lang": "ru"
     },
     {
@@ -13070,10 +13048,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/scheme-describe?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/scheme-describe.md",
       "title": "Получение информации об объекте схемы",
-      "description": " Получение информации об объекте схемы. Получите информацию об объекте схемы: ydb scheme describe episodes --stats. Результат:",
+      "description": " Получите информацию об объекте схемы: ydb scheme describe episodes --stats. Результат: <table> episodes ┌────────────┬─────────┬────────┬─────┐",
       "source_path": "ru/core/reference/ydb-cli/commands/scheme-describe.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/scheme-describe.md",
-      "bytes": 2636,
+      "bytes": 2699,
       "lang": "ru"
     },
     {
@@ -13081,10 +13059,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/scheme-ls?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/scheme-ls.md",
       "title": "Список объектов",
-      "description": " Список объектов. Команда scheme ls позволяет получить список схемных объектов в базе данных: ydb [connection options] scheme ls [path] [-lR1].",
+      "description": " Команда scheme ls позволяет получить список схемных объектов в базе данных: ydb [connection options] scheme ls [path] [-lR1].",
       "source_path": "ru/core/reference/ydb-cli/commands/scheme-ls.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/scheme-ls.md",
-      "bytes": 3924,
+      "bytes": 3893,
       "lang": "ru"
     },
     {
@@ -13103,10 +13081,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/secondary_index?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/secondary_index.md",
       "title": "Создание и удаление вторичных индексов",
-      "description": " Создание и удаление вторичных индексов. Важно.",
+      "description": " Важно. Поддерживается только для строковых таблиц. Поддержка функциональности для колоночных таблиц находится в разработке.",
       "source_path": "ru/core/reference/ydb-cli/commands/secondary_index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/secondary_index.md",
-      "bytes": 10544,
+      "bytes": 10689,
       "lang": "ru"
     },
     {
@@ -13114,10 +13092,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/service?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/service.md",
       "title": "Сервисные команды",
-      "description": " Сервисные команды.",
+      "description": "Данные команды относятся к самому клиентскому приложению YDB CLI и не предполагают установки соединения с БД. Они могут быть выражены как в виде параметра, так ",
       "source_path": "ru/core/reference/ydb-cli/commands/service.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/service.md",
-      "bytes": 1793,
+      "bytes": 2045,
       "lang": "ru"
     },
     {
@@ -13125,10 +13103,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/tools/rename?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/tools/rename.md",
       "title": "Переименование строковых таблиц",
-      "description": " Переименование строковых таблиц.",
+      "description": "С помощью подкоманды tools rename вы можете переименовать одну или несколько таблиц одновременно, перенести таблицу в другую директорию в пределах той же БД, за",
       "source_path": "ru/core/reference/ydb-cli/commands/tools/rename.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/tools/rename.md",
-      "bytes": 5119,
+      "bytes": 5342,
       "lang": "ru"
     },
     {
@@ -13136,10 +13114,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/workload/?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/workload/index.md",
       "title": "Нагрузочное тестирование",
-      "description": " Нагрузочное тестирование. С помощью команды workload вы можете запустить различные виды нагрузки для вашей БД. Общий вид команды:",
+      "description": " С помощью команды workload вы можете запустить различные виды нагрузки для вашей БД. Общий вид команды: ydb [global options...] workload [subcommands...].",
       "source_path": "ru/core/reference/ydb-cli/commands/workload/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/workload/index.md",
-      "bytes": 2265,
+      "bytes": 2267,
       "lang": "ru"
     },
     {
@@ -13147,10 +13125,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/commands/workload/stock?version=v26.1",
       "file": "ru/reference/ydb-cli/commands/workload/stock.md",
       "title": "Stock нагрузка",
-      "description": " Stock нагрузка. Важно. Поддерживается только для строковых таблиц. Поддержка функциональности для колоночных таблиц находится в разработке.",
+      "description": " Важно. Поддерживается только для строковых таблиц. Поддержка функциональности для колоночных таблиц находится в разработке.",
       "source_path": "ru/core/reference/ydb-cli/commands/workload/stock.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/workload/stock.md",
-      "bytes": 21700,
+      "bytes": 21676,
       "lang": "ru"
     },
     {
@@ -13169,10 +13147,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/connect?version=v26.1",
       "file": "ru/reference/ydb-cli/connect.md",
       "title": "Соединение CLI с базой данных и аутентификация",
-      "description": " Соединение CLI с базой данных и аутентификация. Большинство команд YDB CLI относится к операциям над базой данных YDB и требует соединения с ней для исполнения.",
+      "description": " Большинство команд YDB CLI относится к операциям над базой данных YDB и требует соединения с ней для исполнения.",
       "source_path": "ru/core/reference/ydb-cli/connect.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/connect.md",
-      "bytes": 14693,
+      "bytes": 14608,
       "lang": "ru"
     },
     {
@@ -13180,10 +13158,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/export-import/?version=v26.1",
       "file": "ru/reference/ydb-cli/export-import/index.md",
       "title": "Выгрузка и загрузка данных",
-      "description": " Выгрузка и загрузка данных.",
+      "description": "YDB CLI содержит набор команд, предназначенных для выгрузки (экспорта) и загрузки (импорта) данных и описаний объектов схемы данных. Выгрузка данных может приме",
       "source_path": "ru/core/reference/ydb-cli/export-import/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/index.md",
-      "bytes": 2722,
+      "bytes": 2959,
       "lang": "ru"
     },
     {
@@ -13191,10 +13169,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/export-import/auth-s3?version=v26.1",
       "file": "ru/reference/ydb-cli/export-import/auth-s3.md",
       "title": "Соединение с S3-совместимыми объектными хранилищами",
-      "description": " Соединение с S3-совместимыми объектными хранилищами.",
+      "description": "Команды выгрузки и загрузки из S3-совместимых хранилищ export s3 и import s3 используют одинаковые параметры для соединения с S3 и аутентификации. О том, как уз",
       "source_path": "ru/core/reference/ydb-cli/export-import/auth-s3.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/auth-s3.md",
-      "bytes": 7908,
+      "bytes": 8085,
       "lang": "ru"
     },
     {
@@ -13202,10 +13180,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/export-import/export-s3?version=v26.1",
       "file": "ru/reference/ydb-cli/export-import/export-s3.md",
       "title": "Выгрузка в S3-совместимое хранилище",
-      "description": " Выгрузка в S3-совместимое хранилище.",
+      "description": "Команда export s3 запускает на стороне сервера процесс выгрузки в S3-совместимое хранилище данных и информации об объектах схемы, в описанном в статье Файловая ",
       "source_path": "ru/core/reference/ydb-cli/export-import/export-s3.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/export-s3.md",
-      "bytes": 18288,
+      "bytes": 18507,
       "lang": "ru"
     },
     {
@@ -13213,10 +13191,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/export-import/file-structure?version=v26.1",
       "file": "ru/reference/ydb-cli/export-import/file-structure.md",
       "title": "Файловая структура выгрузки",
-      "description": " Файловая структура выгрузки.",
+      "description": "Описанная ниже файловая структура применяется для выгрузки как в файловую систему, так и в S3-совместимое объектное хранилище. При работе с S3 в ключ объекта за",
       "source_path": "ru/core/reference/ydb-cli/export-import/file-structure.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/file-structure.md",
-      "bytes": 13555,
+      "bytes": 13791,
       "lang": "ru"
     },
     {
@@ -13224,10 +13202,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/export-import/import-file?version=v26.1",
       "file": "ru/reference/ydb-cli/export-import/import-file.md",
       "title": "Импорт данных из файла в существующую таблицу",
-      "description": " Импорт данных из файла в существующую таблицу.",
+      "description": " С помощью подкоманды import file вы можете импортировать данные из файлов форматов CSV, JSON, Parquet, TSV в существующую таблицу.",
       "source_path": "ru/core/reference/ydb-cli/export-import/import-file.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/import-file.md",
-      "bytes": 15868,
+      "bytes": 15994,
       "lang": "ru"
     },
     {
@@ -13235,10 +13213,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/export-import/import-s3?version=v26.1",
       "file": "ru/reference/ydb-cli/export-import/import-s3.md",
       "title": "Загрузка из S3-совместимого хранилища",
-      "description": " Загрузка из S3-совместимого хранилища.",
+      "description": "Команда import s3 запускает на стороне сервера процесс загрузки из S3-совместимого хранилища данных и информации об объектах схемы, в описанном в статье Файлова",
       "source_path": "ru/core/reference/ydb-cli/export-import/import-s3.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/import-s3.md",
-      "bytes": 16531,
+      "bytes": 16748,
       "lang": "ru"
     },
     {
@@ -13246,10 +13224,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/export-import/tools-dump?version=v26.1",
       "file": "ru/reference/ydb-cli/export-import/tools-dump.md",
       "title": "Выгрузка в файловую систему",
-      "description": " Выгрузка в файловую систему Кластер.",
+      "description": " Кластер. Команда admin сluster dump выгружает в клиентскую файловую систему метаданные кластера, в описанном в статье Файловая структура выгрузки формате:",
       "source_path": "ru/core/reference/ydb-cli/export-import/tools-dump.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/tools-dump.md",
-      "bytes": 13680,
+      "bytes": 13884,
       "lang": "ru"
     },
     {
@@ -13257,10 +13235,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/export-import/tools-restore?version=v26.1",
       "file": "ru/reference/ydb-cli/export-import/tools-restore.md",
       "title": "Загрузка из файловой системы",
-      "description": " Загрузка из файловой системы Кластер.",
+      "description": " Кластер.",
       "source_path": "ru/core/reference/ydb-cli/export-import/tools-restore.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/tools-restore.md",
-      "bytes": 22311,
+      "bytes": 22257,
       "lang": "ru"
     },
     {
@@ -13268,10 +13246,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/install?version=v26.1",
       "file": "ru/reference/ydb-cli/install.md",
       "title": "Установка YDB CLI",
-      "description": " Установка YDB CLI. Linux. macOS. Windows. Чтобы установить YDB CLI, выполните команду: curl -sSL https://install.ydb.tech/cli | bash.",
+      "description": " Linux. macOS. Windows. Чтобы установить YDB CLI, выполните команду: curl -sSL https://install.ydb.tech/cli | bash.",
       "source_path": "ru/core/reference/ydb-cli/install.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/install.md",
-      "bytes": 4363,
+      "bytes": 4335,
       "lang": "ru"
     },
     {
@@ -13356,10 +13334,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/profile/?version=v26.1",
       "file": "ru/reference/ydb-cli/profile/index.md",
       "title": "Управление профилями",
-      "description": " Управление профилями.",
+      "description": "Профиль — именованный набор параметров соединения с БД, сохраненный в конфигурационном файле на локальной файловой системе. Использование профилей позволяет пер",
       "source_path": "ru/core/reference/ydb-cli/profile/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/profile/index.md",
-      "bytes": 2014,
+      "bytes": 2274,
       "lang": "ru"
     },
     {
@@ -13367,10 +13345,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/profile/activate?version=v26.1",
       "file": "ru/reference/ydb-cli/profile/activate.md",
       "title": "Активированный профиль",
-      "description": " Активированный профиль.",
+      "description": "Исполнение команд YDB CLI над базой данных требует установки соединения с ней. Если YDB CLI не удалось определить какой-либо параметр соединения по параметрам к",
       "source_path": "ru/core/reference/ydb-cli/profile/activate.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/profile/activate.md",
-      "bytes": 6714,
+      "bytes": 6953,
       "lang": "ru"
     },
     {
@@ -13378,10 +13356,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/profile/create?version=v26.1",
       "file": "ru/reference/ydb-cli/profile/create.md",
       "title": "Создание и изменение профиля",
-      "description": " Создание и изменение профиля.",
+      "description": " Значения параметров соединения для создаваемого или изменяемого профиля могут быть заданы в командной строке, или запрошены в интерактивном режиме из консоли.",
       "source_path": "ru/core/reference/ydb-cli/profile/create.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/profile/create.md",
-      "bytes": 13245,
+      "bytes": 13485,
       "lang": "ru"
     },
     {
@@ -13389,10 +13367,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/profile/delete?version=v26.1",
       "file": "ru/reference/ydb-cli/profile/delete.md",
       "title": "Удаление профиля",
-      "description": " Удаление профиля. Удаление профиля производится следующей командой: ydb config profile delete <profile_name> [-f]. Параметры. <profile_name>: Имя профиля.",
+      "description": " Удаление профиля производится следующей командой: ydb config profile delete <profile_name> [-f]. Параметры. <profile_name>: Имя профиля.",
       "source_path": "ru/core/reference/ydb-cli/profile/delete.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/profile/delete.md",
-      "bytes": 3131,
+      "bytes": 3098,
       "lang": "ru"
     },
     {
@@ -13400,10 +13378,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/profile/list-and-get?version=v26.1",
       "file": "ru/reference/ydb-cli/profile/list-and-get.md",
       "title": "Получение информации о профиле",
-      "description": " Получение информации о профиле Получение списка профилей. Получение списка профилей: ydb config profile list.",
+      "description": " Получение списка профилей. Получение списка профилей: ydb config profile list.",
       "source_path": "ru/core/reference/ydb-cli/profile/list-and-get.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/profile/list-and-get.md",
-      "bytes": 2131,
+      "bytes": 2073,
       "lang": "ru"
     },
     {
@@ -13411,10 +13389,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/profile/use?version=v26.1",
       "file": "ru/reference/ydb-cli/profile/use.md",
       "title": "Использование профиля",
-      "description": " Использование профиля Соединение по выбранному профилю. Профиль может быть применен при запуске команды YDB CLI указанием опции --profile или -p:",
+      "description": " Соединение по выбранному профилю. Профиль может быть применен при запуске команды YDB CLI указанием опции --profile или -p:",
       "source_path": "ru/core/reference/ydb-cli/profile/use.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/profile/use.md",
-      "bytes": 3742,
+      "bytes": 3700,
       "lang": "ru"
     },
     {
@@ -13422,10 +13400,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-cli/scan-query?version=v26.1",
       "file": "ru/reference/ydb-cli/scan-query.md",
       "title": "Выполнение скан запросов",
-      "description": " Выполнение скан запросов. Важно. Использование ScanQuery не рекомендуется для новых сценариев. Для выполнения запросов используйте стандартные механизмы.",
+      "description": " Важно. Использование ScanQuery не рекомендуется для новых сценариев. Для выполнения запросов используйте стандартные механизмы.",
       "source_path": "ru/core/reference/ydb-cli/scan-query.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/scan-query.md",
-      "bytes": 3128,
+      "bytes": 3080,
       "lang": "ru"
     },
     {
@@ -13829,10 +13807,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-sdk/auth?version=v26.1",
       "file": "ru/reference/ydb-sdk/auth.md",
       "title": "Аутентификация в SDK",
-      "description": " Аутентификация в SDK.",
+      "description": "Как описано в статье о подключении к серверу YDB, клиент с каждым запросом должен отправить аутентификационный токен. Аутентификационный токен проверяется серве",
       "source_path": "ru/core/reference/ydb-sdk/auth.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-sdk/auth.md",
-      "bytes": 21779,
+      "bytes": 22038,
       "lang": "ru"
     },
     {
@@ -13939,10 +13917,10 @@
       "url": "https://ydb.tech/docs/ru/reference/ydb-sdk/install?version=v26.1",
       "file": "ru/reference/ydb-sdk/install.md",
       "title": "Установка SDK",
-      "description": " Установка SDK.",
+      "description": "Ниже приведены инструкции по быстрой установке SDK. На рабочей станции должны быть предварительно установлены и сконфигурированы инструменты по работе с выбранн",
       "source_path": "ru/core/reference/ydb-sdk/install.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-sdk/install.md",
-      "bytes": 6359,
+      "bytes": 6632,
       "lang": "ru"
     },
     {
@@ -14423,10 +14401,10 @@
       "url": "https://ydb.tech/docs/ru/yql/reference/?version=v26.1",
       "file": "ru/yql/reference/index.md",
       "title": "YQL - Обзор",
-      "description": " YQL - Обзор.",
+      "description": "YQL (YDB Query Language) — универсальный декларативный язык запросов к YDB, диалект SQL. YQL создавался для работы с большими распределенными базами данных, и п",
       "source_path": "ru/core/yql/reference/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/index.md",
-      "bytes": 1766,
+      "bytes": 2014,
       "lang": "ru"
     },
     {
@@ -14679,7 +14657,7 @@
       "description": " С помощью оператора ALTER TOPIC можно изменить настройки топика, а также добавить, изменить или удалить читателя. Общий вид команды:",
       "source_path": "ru/core/yql/reference/syntax/alter-topic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-topic.md",
-      "bytes": 10734,
+      "bytes": 11083,
       "lang": "ru"
     },
     {
@@ -14789,7 +14767,7 @@
       "description": "YDB поддерживает возможность добавлять колонки в строковые и колоночные таблицы, удалять неключевые колонки из таблиц, а также изменять свойства существующих ко",
       "source_path": "ru/core/yql/reference/syntax/alter_table/columns.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/columns.md",
-      "bytes": 15998,
+      "bytes": 10903,
       "lang": "ru"
     },
     {
@@ -15020,7 +14998,7 @@
       "description": " С помощью оператора CREATE TOPIC можно создать топик, а также читателей для него. Общий вид команды:",
       "source_path": "ru/core/yql/reference/syntax/create-topic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create-topic.md",
-      "bytes": 8486,
+      "bytes": 8835,
       "lang": "ru"
     },
     {
@@ -15523,10 +15501,10 @@
       "url": "https://ydb.tech/docs/ru/yql/reference/syntax/select/from_select?version=v26.1",
       "file": "ru/yql/reference/syntax/select/from_select.md",
       "title": "FROM ... SELECT ...",
-      "description": " FROM... SELECT... Перевернутая форма записи, в которой сначала указывается источник данных, а затем — операция. Примеры. FROM my_table SELECT key, value;",
+      "description": " Перевернутая форма записи, в которой сначала указывается источник данных, а затем — операция. Примеры. FROM my_table SELECT key, value;",
       "source_path": "ru/core/yql/reference/syntax/select/from_select.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/from_select.md",
-      "bytes": 1039,
+      "bytes": 1021,
       "lang": "ru"
     },
     {

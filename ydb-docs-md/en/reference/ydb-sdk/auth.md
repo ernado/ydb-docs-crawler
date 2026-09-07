@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-sdk/auth.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/auth.md"
-description: "Authentication in the SDK."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "As we discussed in the YDB server connection article, the client must add an authentication token to each request. The authentication token is checked by the se"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Authentication in the SDK

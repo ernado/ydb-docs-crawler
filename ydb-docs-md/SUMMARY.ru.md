@@ -763,6 +763,7 @@
   - [YDB Ansible](ru/downloads/ydb-ansible.md)
 - Публичные материалы
   - [Видеоматериалы](ru/public-materials/videos.md)
+    - [2026](ru/public-materials/videos/2026.md)
     - [2025](ru/public-materials/videos/2025.md)
     - [2024](ru/public-materials/videos/2024.md)
     - [2023](ru/public-materials/videos/2023.md)

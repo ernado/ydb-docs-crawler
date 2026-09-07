@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/manual/update-executable.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/update-executable.md"
 description: "YDB is a distributed system that supports rolling restart without downtime or performance degradation. Update Procedure."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Updating YDB
@@ -24,7 +24,7 @@ The basic scenario is updating the executable file and restarting each node one 
 The shutdown and startup process is described on the [Safe restart and shutdown of nodes](../../../maintenance/manual/node_restarting.md) page.  
  You must update YDB nodes one by one and monitor the cluster status after each step in [YDB Monitoring](../../../reference/embedded-ui/ydb-monitoring.md): make sure the `Storage` tab has no pools in the `Degraded` status (as shown in the example below). Otherwise, stop the update process.
 
-![Monitoring_storage_state](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/7580679a5c9e32c15be9989745f34e270cb4e4f1/en/reference/embedded-ui/_assets/monitoring_storage_state.png)
+![Monitoring_storage_state](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2/en/reference/embedded-ui/_assets/monitoring_storage_state.png)
 
 ## Version Compatibility {#version-compatability}
 

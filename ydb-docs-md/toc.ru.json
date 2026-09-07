@@ -4023,49 +4023,54 @@
           "href": "ru/public-materials/videos",
           "items": [
             {
+              "name": 2026,
+              "href": "ru/public-materials/videos/2026",
+              "id": "772"
+            },
+            {
               "name": 2025,
               "href": "ru/public-materials/videos/2025",
-              "id": "772"
+              "id": "773"
             },
             {
               "name": 2024,
               "href": "ru/public-materials/videos/2024",
-              "id": "773"
+              "id": "774"
             },
             {
               "name": 2023,
               "href": "ru/public-materials/videos/2023",
-              "id": "774"
+              "id": "775"
             },
             {
               "name": 2022,
               "href": "ru/public-materials/videos/2022",
-              "id": "775"
+              "id": "776"
             },
             {
               "name": 2021,
               "href": "ru/public-materials/videos/2021",
-              "id": "776"
+              "id": "777"
             },
             {
               "name": 2020,
               "href": "ru/public-materials/videos/2020",
-              "id": "777"
+              "id": "778"
             },
             {
               "name": 2019,
               "href": "ru/public-materials/videos/2019",
-              "id": "778"
+              "id": "779"
             },
             {
               "name": 2018,
               "href": "ru/public-materials/videos/2018",
-              "id": "779"
+              "id": "780"
             },
             {
               "name": 2017,
               "href": "ru/public-materials/videos/2017",
-              "id": "780"
+              "id": "781"
             }
           ],
           "id": "771"
@@ -4077,30 +4082,30 @@
             {
               "name": 2025,
               "href": "ru/public-materials/publications/2025",
-              "id": "782"
+              "id": "783"
             },
             {
               "name": 2024,
               "href": "ru/public-materials/publications/2024",
-              "id": "783"
+              "id": "784"
             },
             {
               "name": 2023,
               "href": "ru/public-materials/publications/2023",
-              "id": "784"
+              "id": "785"
             },
             {
               "name": 2021,
               "href": "ru/public-materials/publications/2021",
-              "id": "785"
+              "id": "786"
             }
           ],
-          "id": "781"
+          "id": "782"
         },
         {
           "name": "Подкасты",
           "href": "ru/public-materials/podcasts",
-          "id": "786"
+          "id": "787"
         }
       ],
       "id": "770"
@@ -4111,25 +4116,25 @@
         {
           "name": "YDB Server",
           "href": "ru/changelog-server",
-          "id": "788"
+          "id": "789"
         },
         {
           "name": "Yandex Enterprise Database",
           "href": "ru/changelog-enterprise",
-          "id": "789"
+          "id": "790"
         },
         {
           "name": "YDB CLI",
           "href": "ru/changelog-cli",
-          "id": "790"
+          "id": "791"
         },
         {
           "name": "Список изменений безопасности",
           "href": "ru/security-changelog",
-          "id": "791"
+          "id": "792"
         }
       ],
-      "id": "787"
+      "id": "788"
     },
     {
       "name": "Обучение",
@@ -4138,25 +4143,25 @@
         {
           "name": "Курс для администраторов",
           "href": "https://yandex.cloud/ru/training/ydb-admin?utm_medium=owned&utm_source=oss_docs",
-          "id": "793"
+          "id": "794"
         },
         {
           "name": "Курс для разработчиков",
           "href": "https://ydb.yandex.ru/training/ydb-developer?utm_medium=owned&utm_source=oss_docs",
-          "id": "794"
+          "id": "795"
         },
         {
           "name": "Сертификация для администраторов",
           "href": "https://yandex.cloud/ru/certification/ydbadministrator?utm_medium=owned&utm_source=oss_docs",
-          "id": "795"
+          "id": "796"
         },
         {
           "name": "Сертификация для разработчиков",
           "href": "https://yandex.cloud/ru/certification/ydbdeveloper?utm_medium=owned&utm_source=oss_docs",
-          "id": "796"
+          "id": "797"
         }
       ],
-      "id": "792"
+      "id": "793"
     },
     {
       "name": "Карьера",
@@ -4165,15 +4170,15 @@
         {
           "name": "Команда",
           "href": "https://ydb.tech/ru/careers/",
-          "id": "798"
+          "id": "799"
         },
         {
           "name": "Студентам",
           "href": "https://ydb.tech/ru/students/",
-          "id": "799"
+          "id": "800"
         }
       ],
-      "id": "797"
+      "id": "798"
     }
   ],
   "path": "ru/toc.yaml",

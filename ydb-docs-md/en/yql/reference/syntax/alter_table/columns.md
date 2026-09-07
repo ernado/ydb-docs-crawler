@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter_table/columns.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter_table/columns.md"
 description: "YDB supports adding columns to row and column tables, deleting non-key columns from tables, and changing properties of existing columns. ADD COLUMN."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Changing columns
@@ -109,7 +109,11 @@ ALTER TABLE episodes ADD COLUMN rate Double (DEFAULT 5.0, NOT NULL); -- alternat
 Modifies properties of an existing column in the specified table. Property changes are applied without recreating the column. Some properties apply only to newly written data or during compaction (see the description of each property for details).
 
 ```yql
-ALTER TABLE table_name ALTER COLUMN column_name {SET | DROP} [FAMILY <family_name>] [NULL | NOT NULL] [DEFAULT <default_value>] [COMPRESSION([algorithm=<algorithm_name>[, level=<value>]])];
+ALTER TABLE table_name ALTER COLUMN column_name
+  { SET FAMILY <family_name>
+  | DROP NOT NULL
+  | SET COMPRESSION([algorithm=<algorithm_name>[, level=<value>]])
+  };
 ```
 
 ### Request parameters {#request-parameters1}
@@ -122,73 +126,24 @@ The path of the table containing the column to change.
 
 The name of the column to change in the specified table.
 
-#### SET
+#### SET FAMILY
 
-Set a column option.
+Moves a column of a row-oriented table to the specified column family.
 
-#### DROP
+#### DROP NOT NULL
 
-Remove a column option. Currently only `NOT NULL` can be removed.
+Allows a column to contain `NULL` values.
 
-### FAMILY \<family_name> (column setting) {#family-lessfamily_namegreater-column-setting1}
+#### SET COMPRESSION
 
-> [!WARNING]
-> Supported only for [row-oriented](../../../../concepts/datamodel/table.md#row-oriented-tables) tables.
-
-Specifies that this column belongs to the specified column group. For more information, see [Column groups](../create_table/family.md).
-
-### DEFAULT \<default_value> {#default-lessdefault_valuegreater1}
-
-> [!WARNING]
-> The `DEFAULT` option is supported:
->
-> - Only for [row-oriented](../../../../concepts/datamodel/table.md#row-oriented-tables) tables. Support for [column-oriented](../../../../concepts/datamodel/table.md#column-oriented-tables) tables is under development.
-> - Only with literal values. Support for computed expressions is under development.
-
-Allows you to set a default value for a column. If no value is specified for this column when inserting a row, the specified default value will be used. The default value must match the column's data type.
-
-The `DEFAULT false NOT NULL` construct is invalid due to ambiguity in interpretation. In this case, use a comma-separated list or change the order of options.
-
-### NULL {#null1}
-
-This column can contain `NULL` values (default).
-
-### NOT NULL {#not-null1}
-
-This column does not accept `NULL` values.
-
-### COMPRESSION(\[algorithm=\<algorithm_name>\[, level=\]\]) {#compression1}
-
-> [!WARNING]
-> Supported only for [column-oriented](../../../../concepts/datamodel/table.md#column-oriented-tables) tables.
-
-You can set the following compression parameters for columns:
-
-- `algorithm` — compression algorithm. Allowed values: `off` (disable compression), `lz4`, `zstd`.
-- `level` — compression level; supported only for `zstd` (allowed values are 0 through 22).
-
-If `COMPRESSION()` is specified without parameters, the column uses the default compression. Currently that is `lz4`; future versions will let you configure default compression at the cluster or table level.
-
-### ENCODING(\[OFF|DICT\]) {#encoding1}
-
-> [!WARNING]
-> Supported only for [column-oriented](../../../../concepts/datamodel/table.md#column-oriented-tables) tables.
-
-Allows you to set the data encoding method for the column.
-
-Available options:
-
-- `ENCODING(DICT)` — enables dictionary encoding. Repeating values are replaced with small integer identifiers, and the values themselves are stored in a dictionary. Dictionary encoding is effective for columns with low cardinality (a small number of unique values). It reduces the amount of stored data and speeds up some operations. It is supported only for comparable data types, such as `String`, `Timestamp`, `UInt64`, and others. Using `ENCODING(DICT)` for incomparable types, such as `Json`, `JsonDocument`, or `Yson`, will result in an error.
-- `ENCODING(OFF)` — disables special encoding. Data will be stored in the standard format without additional encoding.
-
-If `ENCODING()` is set without parameters, the default encoding will be used for the column. Currently, it is `OFF`; in future versions, it will be possible to configure the default encoding at the database or table level.
+Changes the compression settings of a column in a column-oriented table.
 
 ### Examples
 
-The code below will disallow `NULL` values in the `title` column of the `episodes` table.
+The code below will allow `NULL` values in the `title` column of the `episodes` table.
 
 ```yql
-ALTER TABLE episodes ALTER COLUMN title SET NOT NULL;
+ALTER TABLE episodes ALTER COLUMN title DROP NOT NULL;
 ```
 
 > [!WARNING]

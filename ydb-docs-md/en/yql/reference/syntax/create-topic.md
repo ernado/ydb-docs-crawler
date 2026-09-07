@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create-topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-topic.md"
 description: "You can use the CREATE TOPIC statement to create a topic, as well as consumers for it. General command format:"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # CREATE TOPIC
@@ -33,6 +33,7 @@ Consumer parameters:
 - `important` — defines an important consumer. No data will be deleted from the topic until all important consumers have processed it. Value type — `boolean`, default value: `false`.
 - `availability_period` — defines the message availability period for the consumer. This option extends the message retention time in the topic from [retention_period](create-topic.md#topic-parameters) up to `availability_period` if the consumer does not acknowledge processing. Value type — `Interval`. Incompatible with the `important` parameter. No default value.
 - `read_from` — defines the message write timestamp starting from which the consumer will receive data. Data written before this timestamp will not be read. Value type: `Datetime` OR `Timestamp` or `integer` (unix-timestamp as a number). Default value — `0` (read from the earliest time available in the topic).
+- `supported_codecs` — list of [codecs](../../../concepts/datamodel/topic.md#message-codec) supported by the consumer.
 
 ## Topic parameters
 
@@ -56,6 +57,8 @@ Consumer parameters:
 - `auto_partitioning_up_utilization_percent` — defines the partition load threshold as a percentage of the maximum write speed at which an automatic **increase** in the number of partitions is initiated. Value type — `integer`, default value — `80`.
 
 - `auto_partitioning_stabilization_window` — defines the time interval during which the load level must remain above the set threshold (`auto_partitioning_up_utilization_percent`) before the number of partitions is automatically increased. Value type — `Interval`, default value — `5m`.
+
+- `supported_codecs` — list of [codecs](../../../concepts/datamodel/topic.md#message-codec) supported by the topic. Value type — `String`.
 
 > [!NOTE]
 > When choosing a name for the topic, consider the common [schema object naming rules](../../../concepts/datamodel/cluster-namespace.md#object-naming-rules).

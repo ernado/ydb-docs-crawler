@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/batch-delete.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/batch-delete.md"
 description: "Совет. Перед тем как изучать BATCH DELETE FROM, рекомендуется ознакомиться со стандартным DELETE FROM."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # BATCH DELETE FROM

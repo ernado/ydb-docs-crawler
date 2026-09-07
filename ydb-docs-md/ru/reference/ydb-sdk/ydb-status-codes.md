@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-sdk/ydb-status-codes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-sdk/ydb-status-codes.md"
 description: "Код. Статус. Возможность повтора. Стратегия задержек. Пересоздать сессию. 400000. SUCCESS. –. –. –. 400010. BAD_REQUEST. неповторяемый. –. нет. 400020."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Статусы завершения сервера YDB

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter-secret.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-secret.md"
 description: "Команда ALTER SECRET изменяет существующий секрет. Синтаксис: ALTER SECRET secret_name WITH (option = value [,...]). secret_name — имя изменяемого секрета."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # ALTER SECRET

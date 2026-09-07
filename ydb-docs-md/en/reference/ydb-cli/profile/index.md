@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/profile/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/profile/index.md"
-description: "Managing profiles."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "A profile is a named set of DB connection parameters stored in a configuration file in the local file system. With profiles, you can reuse data about DB locatio"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Managing profiles

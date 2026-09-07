@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/concepts/limits-ydb.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/limits-ydb.md"
-description: "Ограничения базы данных. В разделе описаны параметры ограничений, установленных в YDB. Ограничения объектов схемы."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "В разделе описаны параметры ограничений, установленных в YDB. Ограничения объектов схемы."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Ограничения базы данных

@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/concepts/datamodel/dir.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/dir.md"
-description: "Directory."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "For convenience, YDB supports creating directories similar to a filesystem, meaning the entire database consists of a directory tree, and scheme objects, such a"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Directory

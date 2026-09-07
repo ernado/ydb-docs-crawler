@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/spilling/permission-denied.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/spilling/permission-denied.md"
 description: "Недостаточные права доступа к директории спиллинга не позволяют YDB записывать данные на диск во время операций спиллинга. Это может привести к сбою запросов, е"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Permission denied

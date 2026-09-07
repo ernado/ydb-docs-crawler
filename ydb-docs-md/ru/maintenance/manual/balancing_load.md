@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/balancing_load.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/balancing_load.md"
 description: "В YDB балансировать нагрузку на диски можно двумя способами: распределить нагрузку равномерно по группам; распределить VDisk'и равномерно по устройствам."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Балансировка нагрузки на диски

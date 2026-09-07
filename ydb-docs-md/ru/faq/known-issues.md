@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/faq/known-issues.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/known-issues.md"
-description: "Известные проблемы Не происходит объединение партиций таблицы при включённом автопартицировании."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Не происходит объединение партиций таблицы при включённом автопартицировании."
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Известные проблемы

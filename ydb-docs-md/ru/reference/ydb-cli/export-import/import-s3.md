@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/reference/ydb-cli/export-import/import-s3.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/import-s3.md"
-description: "Загрузка из S3-совместимого хранилища."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Команда import s3 запускает на стороне сервера процесс загрузки из S3-совместимого хранилища данных и информации об объектах схемы, в описанном в статье Файлова"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Загрузка из S3-совместимого хранилища

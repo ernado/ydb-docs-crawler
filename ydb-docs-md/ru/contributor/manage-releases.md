@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/manage-releases.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/manage-releases.md"
 description: "На базе исходного кода из репозитория YDB разрабатываются два продукта с независимыми релизными циклами: Сервер YDB. Интерфейс командной строки YDB (CLI)."
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Manage YDB releases

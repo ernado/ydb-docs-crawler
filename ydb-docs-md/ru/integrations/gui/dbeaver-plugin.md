@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/gui/dbeaver-plugin.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/gui/dbeaver-plugin.md"
 description: "DBeaver — бесплатный кроссплатформенный инструмент управления базами данных с открытым исходным кодом, обеспечивающий визуальный интерфейс для подключения к раз"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Подключение к YDB с помощью плагина DBeaver

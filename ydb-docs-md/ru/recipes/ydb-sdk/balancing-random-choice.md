@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/balancing-random-choice.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/balancing-random-choice.md"
 description: "YDB SDK использует алгоритм random_choice (равномерную случайную балансировку) по умолчанию, кроме С++ SDK, который использует алгоритм \"предпочитать ближайший"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Равномерный случайный выбор

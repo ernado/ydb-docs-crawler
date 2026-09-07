@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/ydb-cli/profile/use.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/profile/use.md"
-description: "Using a profile Connection based on a selected profile. A profile can be applied when running a YDB CLI command with the --profile or the -p option:"
-revision: "7580679a5c9e32c15be9989745f34e270cb4e4f1"
+description: "Connection based on a selected profile. A profile can be applied when running a YDB CLI command with the --profile or the -p option:"
+revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
 ---
 
 # Using a profile
