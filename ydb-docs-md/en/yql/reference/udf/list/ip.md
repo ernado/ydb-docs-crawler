@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/udf/list/ip.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/ip.md"
 description: "The Ip module supports both the IPv4 and IPv6 addresses. By default, they are represented as binary strings of 4 and 16 bytes, respectively. List of functions."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Ip

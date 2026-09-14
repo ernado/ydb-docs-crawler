@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/disk_end_space.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/disk_end_space.md"
 description: "При исчерпании места на дисках база данных может отвечать ошибками на все запросы. Для сохранения работоспособности рекомендуется удалить часть данных или расши"
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Освобождение места на физических устройствах

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/secondary-indexes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/secondary-indexes.md"
 description: "Indexes are auxiliary structures within databases that help find data by certain criteria without having to search an entire database and retrieve sorted sample"
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Secondary indexes

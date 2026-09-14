@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/workload-click-bench.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/workload-click-bench.md"
 description: "Нагрузка базируется на данных и запросах из репозитория https://github.com/ClickHouse/ClickBench, а запросы и схема таблицы адаптированы под YDB."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # ClickBench нагрузка

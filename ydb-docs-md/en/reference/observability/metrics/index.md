@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/observability/metrics/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/metrics/index.md"
 description: "This document provides a reference for the main metrics of the YDB system, which are used for cluster state monitoring, performance diagnostics, and load analys"
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Metrics reference

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/localdb-uncommitted-txs.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/localdb-uncommitted-txs.md"
 description: "Tablets may need to store a potentially large amount of data over a potentially long time, and then either commit or rollback all accumulated changes atomically"
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # LocalDB: persistent uncommitted changes

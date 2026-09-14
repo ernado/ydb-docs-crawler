@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/public-materials/videos.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/public-materials/videos.md"
 description: "В этом разделе собраны видеозаписи с конференций и вебинаров о YDB: Видеозаписи 2026. Видеозаписи 2025. Видеозаписи 2024. Видеозаписи 2023. Видеозаписи 2022."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Видеозаписи

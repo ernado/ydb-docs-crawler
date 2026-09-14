@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/sql.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/sql.md"
 description: "С помощью подкоманды ydb sql вы можете выполнить SQL-запрос. Запрос может быть любого типа (DDL, DML и т.д.), а так же состоять из нескольких подзапросов. Подко"
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Выполнение запросов

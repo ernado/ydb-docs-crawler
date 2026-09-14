@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/builtins/window.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/window.md"
 description: "The syntax for calling window functions is detailed in a separate article. Aggregate functions. All aggregate functions can also be used as window functions."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # List of window functions in YQL

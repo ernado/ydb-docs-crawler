@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/ansible/observability/logging.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/observability/logging.md"
 description: "Во время первоначального развёртывания Ansible playbook настраивает несколько systemd юнитов, которые управляют узлами YDB. Как правило, на каждом физическом се"
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Логирование в кластерах, развёрнутых с помощью Ansible

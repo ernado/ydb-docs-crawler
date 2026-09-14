@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/yql-tutorial/select_specific_columns.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/yql-tutorial/select_specific_columns.md"
 description: "Выберите данные из колонок series_id, release_date и title. При этом переименуйте title в series_title и преобразуйте тип release_date из Uint32 в Date."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Выборка данных из определенных колонок

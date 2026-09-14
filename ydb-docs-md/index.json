@@ -4,20 +4,20 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2",
-      "page_count": 722,
+      "revision": "6a967ac39a5eac92f33ed9e017b7e5e4482fb785",
+      "page_count": 725,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2",
+      "revision": "6a967ac39a5eac92f33ed9e017b7e5e4482fb785",
       "page_count": 733,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
     }
   ],
-  "page_count": 1455,
+  "page_count": 1458,
   "pages": [
     {
       "doc_path": "en/",
@@ -200,10 +200,10 @@
       "url": "https://ydb.tech/docs/en/changelog-enterprise?version=v26.1",
       "file": "en/changelog-enterprise.md",
       "title": "Yandex Enterprise Database changelog",
-      "description": " Version 25.3 Version 25.3.1.ent.3. Release date: June 12, 2026. New Features.",
+      "description": " Version 26.1 Version 26.1.1.ent.3. Release date: August 3, 2026.",
       "source_path": "en/core/changelog-enterprise.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-enterprise.md",
-      "bytes": 69163,
+      "bytes": 68673,
       "lang": "en"
     },
     {
@@ -214,7 +214,7 @@
       "description": " Version 26.1 Version 26.1.1.22. Release date: July 27, 2026. Bug Fixes.",
       "source_path": "en/core/changelog-server.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-server.md",
-      "bytes": 85903,
+      "bytes": 89149,
       "lang": "en"
     },
     {
@@ -2579,7 +2579,7 @@
       "description": " Yandex Enterprise Database is a commercial database management system based on the YDB core. Yandex Enterprise Database Usage Terms.",
       "source_path": "en/core/downloads/yandex-enterprise-database.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/yandex-enterprise-database.md",
-      "bytes": 12359,
+      "bytes": 13988,
       "lang": "en"
     },
     {
@@ -5773,6 +5773,39 @@
       "lang": "en"
     },
     {
+      "doc_path": "en/reference/ydb-sdk/data-formats/",
+      "url": "https://ydb.tech/docs/en/reference/ydb-sdk/data-formats/?version=v26.1",
+      "file": "en/reference/ydb-sdk/data-formats/index.md",
+      "title": "Data formats",
+      "description": "YDB supports several data representation formats and schema return modes for queries executed through QueryService. The format and schema return mode are set wh",
+      "source_path": "en/core/reference/ydb-sdk/data-formats/index.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/data-formats/index.md",
+      "bytes": 2052,
+      "lang": "en"
+    },
+    {
+      "doc_path": "en/reference/ydb-sdk/data-formats/format-arrow",
+      "url": "https://ydb.tech/docs/en/reference/ydb-sdk/data-formats/format-arrow?version=v26.1",
+      "file": "en/reference/ydb-sdk/data-formats/format-arrow.md",
+      "title": "Apache Arrow format",
+      "description": "Results are returned in the columnar Apache Arrow format ( IPC standard, version 5.0) without conversion inside the SDK, which makes large result sets efficient",
+      "source_path": "en/core/reference/ydb-sdk/data-formats/format-arrow.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/data-formats/format-arrow.md",
+      "bytes": 7746,
+      "lang": "en"
+    },
+    {
+      "doc_path": "en/reference/ydb-sdk/data-formats/format-protobuf",
+      "url": "https://ydb.tech/docs/en/reference/ydb-sdk/data-formats/format-protobuf?version=v26.1",
+      "file": "en/reference/ydb-sdk/data-formats/format-protobuf.md",
+      "title": "Protobuf (Value) format",
+      "description": "This is the default format. Data is returned row by row as Protobuf: each row is a serialized set of named values with their YQL types. The SDK converts values ",
+      "source_path": "en/core/reference/ydb-sdk/data-formats/format-protobuf.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/data-formats/format-protobuf.md",
+      "bytes": 2339,
+      "lang": "en"
+    },
+    {
       "doc_path": "en/reference/ydb-sdk/error_handling",
       "url": "https://ydb.tech/docs/en/reference/ydb-sdk/error_handling?version=v26.1",
       "file": "en/reference/ydb-sdk/error_handling.md",
@@ -8142,10 +8175,10 @@
       "url": "https://ydb.tech/docs/ru/changelog-enterprise?version=v26.1",
       "file": "ru/changelog-enterprise.md",
       "title": "Список изменений сервера Корпоративной СУБД Яндекса",
-      "description": " Версия 25.3 Версия 25.3.1.ent.3. Дата выхода: 12 июня 2026. Функциональность. Добавлена поддержка конфигурации 2 ДЦ с синхронной записью данных (режим Bridge ).",
+      "description": " Версия 26.1 Версия 26.1.1.ent.3. Дата выхода: 3 августа 2026.",
       "source_path": "ru/core/changelog-enterprise.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-enterprise.md",
-      "bytes": 111928,
+      "bytes": 111523,
       "lang": "ru"
     },
     {
@@ -8156,7 +8189,7 @@
       "description": " Версия 26.1 Версия 26.1.1.22. Дата выхода: 27 июля 2026. Исправления ошибок.",
       "source_path": "ru/core/changelog-server.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-server.md",
-      "bytes": 139404,
+      "bytes": 144288,
       "lang": "ru"
     },
     {
@@ -10532,7 +10565,7 @@
       "description": " Корпоративная СУБД Яндекса — коммерческая СУБД на основе ядра YDB. Информация об условиях использования Корпоративной СУБД Яндекса.",
       "source_path": "ru/core/downloads/yandex-enterprise-database.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/yandex-enterprise-database.md",
-      "bytes": 15203,
+      "bytes": 17059,
       "lang": "ru"
     },
     {

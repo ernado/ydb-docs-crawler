@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/commit.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/commit.md"
 description: "By default, the entire YQL query is executed within a single transaction, and independent parts inside it are executed in parallel, if possible."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # COMMIT

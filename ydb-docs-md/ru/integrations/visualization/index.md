@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/visualization/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/visualization/index.md"
 description: "Среда Уровень поддержки Инструкция. Apache Superset. ydb-sqlalchemy. Инструкция. DataLens. Полный. Инструкция. Grafana. Полный. Инструкция."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Визуализация данных (Business Intelligence, BI)

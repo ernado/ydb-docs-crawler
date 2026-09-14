@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/documentation/style-guide.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/documentation/style-guide.md"
 description: "The YDB documentation style guide is designed to help writers create clear, consistent, and developer-friendly documentation. Core principles."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # YDB documentation style guide

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/types/special.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/types/special.md"
 description: "Тип Описание. Callable. Вызываемое значение, которое можно исполнить, передав аргументы в круглых скобках в SQL-синтаксисе YQL. Resource."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Специальные типы данных

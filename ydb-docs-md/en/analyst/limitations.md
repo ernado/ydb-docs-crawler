@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/analyst/limitations.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/limitations.md"
 description: "This section collects important features of YDB that must be considered when designing applications and writing queries. For each feature, the current behavior"
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Limitations

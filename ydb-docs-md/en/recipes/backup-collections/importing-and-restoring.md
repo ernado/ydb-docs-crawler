@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/backup-collections/importing-and-restoring.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/backup-collections/importing-and-restoring.md"
 description: "Import backups from external storage and restore data to your database. Importing from filesystem. Import previously exported backups:"
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Importing and Restoring Backups

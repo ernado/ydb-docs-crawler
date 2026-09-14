@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/changelog-cli.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-cli.md"
 description: "Версия 2.31.0. Дата выхода 20 апреля 2026. Для обновления до версии 2.31.0 перейдите в раздел Загрузки. Функциональность."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Список изменений YDB CLI

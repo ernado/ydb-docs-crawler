@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/embedded-ui/hive.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/embedded-ui/hive.md"
 description: "The Hive web-viewer provides an interface for working with Hive. Hive can be shared by a cluster or be tenant."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Hive web-viewer

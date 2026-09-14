@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter-resource-pool-classifier.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-resource-pool-classifier.md"
 description: "ALTER RESOURCE POOL CLASSIFIER changes the definition of a resource pool classifier. Syntax Changing parameters."
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # ALTER RESOURCE POOL CLASSIFIER

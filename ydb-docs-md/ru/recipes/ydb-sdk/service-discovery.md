@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/service-discovery.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/service-discovery.md"
 description: "Рассмотрим сценарий, где экземпляры приложения динамически поднимаются и публикуют свой endpoint, а другие клиенты хотят получать этот список и реагировать на е"
-revision: "be5a7d10b3ef95ed6c3f719d85a8cf83cd01dff2"
+revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
 ---
 
 # Обнаружение сервисов (service discovery)
