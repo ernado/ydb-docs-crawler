@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/flatten.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/flatten.md"
 description: "FLATTEN BY. Converts rows in the source table using vertical unpacking of containers of variable length (lists or dictionaries). For example: Source table:"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # FLATTEN

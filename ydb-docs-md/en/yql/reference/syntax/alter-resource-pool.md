@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter-resource-pool.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-resource-pool.md"
 description: "ALTER RESOURCE POOL changes the definition of a resource pool. Syntax Changing parameters. The syntax for changing any resource pool parameter is as follows:"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # ALTER RESOURCE POOL

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/streaming-query/streaming-query-formats.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/streaming-query-formats.md"
 description: "This section describes data formats for streaming queries supported in YDB when reading from topics, and supported YQL types for each format. Supported formats."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Topic read and write formats

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-dstool/install.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-dstool/install.md"
 description: "Linux. macOS. Windows. Чтобы установить YDB DSTool: Выполните команду: curl -sSL 'https://install.ydb.tech/dstool' | bash."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Установка YDB DSTool

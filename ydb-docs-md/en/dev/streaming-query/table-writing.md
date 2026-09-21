@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/streaming-query/table-writing.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/table-writing.md"
 description: "Writing to tables lets you save the results of a streaming query for later analysis with regular SQL queries. For example, you can aggregate events from a strea"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Writing to tables

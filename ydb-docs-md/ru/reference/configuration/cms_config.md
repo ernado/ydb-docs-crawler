@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/cms_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/cms_config.md"
 description: "Cluster Management System (CMS) — компонент YDB, с помощью которого можно выполнять безопасное обслуживание кластера YDB, например, обновлять его версию или зам"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # cms_config

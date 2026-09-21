@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/secrets.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/secrets.md"
 description: "Various access credentials are used for authentication in external systems. These credentials are stored in separate objects called secrets. Secrets are only av"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Secrets

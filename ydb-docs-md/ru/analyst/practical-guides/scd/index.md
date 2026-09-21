@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/analyst/practical-guides/scd/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/practical-guides/scd/index.md"
 description: "В текущем разделе собраны практические руководства по реализации медленно меняющихся измерений (Slowly Changing Dimensions, SCD) — популярного подхода к управле"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Работа с медленно меняющимися измерениями

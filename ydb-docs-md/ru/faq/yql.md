@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/faq/yql.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/yql.md"
 description: "Общие вопросы Как выбрать из таблицы строчки по заданному списку ключей?"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # YQL

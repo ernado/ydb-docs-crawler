@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/concepts/versioning.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/concepts/versioning.md"
 description: "YDB releases are named with a version that is a string consisting of several components. Depending on the context, some of the rightmost components may be omitt"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # YDB Versioning

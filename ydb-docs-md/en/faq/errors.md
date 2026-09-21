@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/faq/errors.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/errors.md"
 description: "Possible causes for \"Status: OVERLOADED Error: Pending previous query completion\" in the C++ SDK."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Errors

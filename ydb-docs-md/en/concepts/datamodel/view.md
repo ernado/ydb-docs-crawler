@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/view.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/view.md"
 description: "A view logically represents a table formed by a given query. The view itself contains no data. The content of a view is generated every time you SELECT from it."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # View

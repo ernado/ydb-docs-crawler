@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/hosts.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/hosts.md"
 description: "This group lists the static cluster nodes on which the Storage processes run and specifies their main characteristics: Numeric node ID."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # hosts

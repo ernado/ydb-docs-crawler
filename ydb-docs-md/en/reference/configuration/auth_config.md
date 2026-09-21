@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/auth_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/auth_config.md"
 description: "YDB supports various user authentication methods. The configuration for authentication providers is specified in the auth_config section."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # auth_config

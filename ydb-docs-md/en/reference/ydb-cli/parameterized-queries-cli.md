@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/parameterized-queries-cli.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/parameterized-queries-cli.md"
 description: "Warning. This page is outdated. Please refer to Running parameterized queries for up-to-date information. Running parametrized YQL queries and scripts Overview."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # en/reference/ydb-cli/parameterized-queries-cli

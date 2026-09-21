@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter_table/columns.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/columns.md"
 description: "YDB поддерживает возможность добавлять колонки в строковые и колоночные таблицы, удалять неключевые колонки из таблиц, а также изменять свойства существующих ко"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Изменение колонок
@@ -21,6 +21,8 @@ YDB поддерживает возможность добавлять коло�
 ```yql
 ALTER TABLE table_name ADD COLUMN column_name column_data_type [FAMILY <family_name>] [NULL | NOT NULL] [DEFAULT <default_value>] [COMPRESSION([algorithm=<algorithm_name>[, level=<value>]])];
 ```
+
+При добавлении колонки с ограничением `NOT NULL` в [строковую таблицу](../../../../concepts/datamodel/table.md#row-oriented-tables) необходимо также указать `DEFAULT`, чтобы заполнить новую колонку в существующих строках. В колоночную таблицу добавить колонку с ограничением `NOT NULL` нельзя, поскольку значения `DEFAULT` для таких таблиц не поддерживаются.
 
 ## Параметры запроса {#parametry-zaprosa}
 

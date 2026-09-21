@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/parameterized-queries-cli.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/parameterized-queries-cli.md"
 description: "Важно. Данная страница устарела. Актуальная версия: Выполнение параметризованных запросов. Выполнение параметризованных YQL-запросов и скриптов Обзор."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # ru/reference/ydb-cli/parameterized-queries-cli

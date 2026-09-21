@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/debug-prometheus.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/debug-prometheus.md"
 description: "Below are examples of the code for enabling metrics in Prometheus in different YDB SDKs. Go. Java. Python. JavaScript. Rust. Native SDK. database/sql."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Enabling metrics in Prometheus

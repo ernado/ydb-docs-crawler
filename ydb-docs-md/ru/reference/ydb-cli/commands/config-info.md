@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/config-info.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/config-info.md"
 description: "config info — это сервисная команда для отладки различных проблем с соединением и аутентификацей. Команда выводит итоговые параметры соединения, вроде эндпоинта"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Просмотр параметров соединения

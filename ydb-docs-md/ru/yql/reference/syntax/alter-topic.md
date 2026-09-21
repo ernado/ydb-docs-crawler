@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter-topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-topic.md"
 description: "С помощью оператора ALTER TOPIC можно изменить настройки топика, а также добавить, изменить или удалить читателя. Общий вид команды:"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # ALTER TOPIC
@@ -44,7 +44,7 @@ ALTER TOPIC topic_path SET (option = value[, ...]);
 
 - `max_active_partitions` — максимальное количество активных партиций топика. [Автопартиционирование](../../../concepts/datamodel/topic.md#autopartitioning) не будет увеличивать количество активных партиций выше этого значения. Тип — `integer`, по умолчанию равно `min_active_partitions`.
 
-- `retention_period` — время хранения данных в топике. Тип значения — `Interval`, значение по умолчанию — `18h`.
+- `retention_period` — время хранения данных в топике. Тип значения — `Interval`.
 
 - `retention_storage_mb` — ограничение на максимальное место на диске, занимаемое данными топика. При превышении этого значения старые данные будут удаляться, как по retention. При включенном автоматическом партиционировании потребляемое место может превышать установленное значение. Тип значения — `integer`, значение по умолчанию — `0` (не ограничено).
 

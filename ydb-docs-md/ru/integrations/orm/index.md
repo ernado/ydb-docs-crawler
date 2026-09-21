@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/orm/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/orm/index.md"
 description: "Система Инструкция. Hibernate. Инструкция. Spring Data JDBC. Инструкция. JOOQ. Инструкция. Dapper. Инструкция. Entity Framework. Инструкция. Linq To DB."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Объектно-реляционное отображение (ORM)

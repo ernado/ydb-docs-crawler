@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/select/union.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/union.md"
 description: "UNION. Объединение результатов нескольких подзапросов с удалением дубликатов. Поведение идентично последовательному исполнению UNION ALL и SELECT DISTINCT *."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "3d2157d0bea4e372506ab4b46d71de54f73097b1"
 ---
 
 # Объединение результатов подзапросов (UNION)

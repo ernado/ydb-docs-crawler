@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/maintenance/manual/failure_model.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/failure_model.md"
 description: "One VDisk in the storage group failed."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Staying within the failure model

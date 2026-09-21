@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/topic-create.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/topic-create.md"
 description: "You can use the topic create subcommand to create a new topic. General format of the command: ydb [global options...] topic create [options...] <topic-path>."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Creating a topic
@@ -35,7 +35,7 @@ ydb topic create --help
 | Name | Description |
 | --- | --- |
 | `--partitions-count` | The number of topic [partitions](../../concepts/datamodel/topic.md#partitioning).  <br>The default value is `1`. |
-| `--retention-period` | Data retention time in a topic. A positive number followed by a unit of time.  <br>The following units are supported:<br>- `s` – seconds;<br>- `m` – minutes;<br>- `h` – hours;<br>- `d` – days.<br>The default value is `18h`. |
+| `--retention-period` | Data retention time in a topic. A positive number followed by a unit of time.  <br>The following units are supported:<br>- `s` – seconds;<br>- `m` – minutes;<br>- `h` – hours;<br>- `d` – days.<br>The default value is `24h`. |
 | `--partition-write-speed-kbps` | The maximum write speed to a [partition](../../concepts/datamodel/topic.md#partitioning), specified in KB/s.  <br>The default value is `1024`. |
 | `--retention-storage-mb` | The maximum storage size, specified in MB. When the limit is reached, the oldest data will be deleted. The consumed space may exceed the set value when autopartitioning is enabled.  <br>The default value is `0` (no limit). |
 | `--auto-partitioning-strategy` | [Auto-partitioning modes](../../concepts/datamodel/topic.md#autopartitioning_strategies). Possible values:<br>- `up` — the number of partitions can increase under high load, but cannot decrease;<br>- `paused` — automatic scaling of the number of partitions is paused;<br>- `disabled` — automatic scaling of the number of partitions is disabled.<br>The default value is `disabled`. |

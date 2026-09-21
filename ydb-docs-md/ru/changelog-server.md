@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/changelog-server.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-server.md"
 description: "Версия 26.1 Версия 26.1.1.22. Дата выхода: 27 июля 2026. Исправления ошибок."
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Список изменений YDB Server

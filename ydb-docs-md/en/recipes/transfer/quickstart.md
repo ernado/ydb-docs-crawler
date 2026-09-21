@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/transfer/quickstart.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/transfer/quickstart.md"
 description: "This guide helps you get started with transfer in YDB using a basic example. This guide covers the following steps for working with transfers:"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # Transfer — quick start

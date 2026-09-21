@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create-topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-topic.md"
 description: "You can use the CREATE TOPIC statement to create a topic, as well as consumers for it. General command format:"
-revision: "6a967ac39a5eac92f33ed9e017b7e5e4482fb785"
+revision: "610144200e326713a5926ef40527cb973f94a519"
 ---
 
 # CREATE TOPIC
@@ -43,7 +43,7 @@ Consumer parameters:
 
 - `max_active_partitions` — maximum number of active topic partitions. [Autopartitioning](../../../concepts/datamodel/topic.md#autopartitioning) will not increase the number of active partitions above this value. Value type — `integer`, by default equal to `min_active_partitions`.
 
-- `retention_period` — data retention period in the topic. Value type — `Interval`, default value — `18h`.
+- `retention_period` — data retention period in the topic. Value type — `Interval`, default value — `24h`.
 
 - `retention_storage_mb` — limit on the maximum disk space occupied by topic data. When this value is exceeded, older data is deleted as under retention. With automatic partitioning enabled, the consumed space may exceed the set value. Value type — `integer`, default value — `0` (unlimited).
 
