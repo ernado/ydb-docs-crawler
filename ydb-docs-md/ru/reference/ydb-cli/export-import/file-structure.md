@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/export-import/file-structure.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/file-structure.md"
 description: "Описанная ниже файловая структура применяется для выгрузки как в файловую систему, так и в S3-совместимое объектное хранилище. При работе с S3 в ключ объекта за"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Файловая структура выгрузки

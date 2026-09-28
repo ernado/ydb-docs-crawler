@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/docker/tags.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/tags.md"
 description: "For the ydbplatform/local-ydb Docker image, the following naming rules apply for tags: Tag Name Description. latest."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Docker image `ydbplatform/local-ydb` tags naming

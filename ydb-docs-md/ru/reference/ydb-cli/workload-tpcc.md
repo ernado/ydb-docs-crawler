@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/workload-tpcc.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/workload-tpcc.md"
 description: "Нагрузка базируется на официальной спецификации TPC-C. Все запросы и схемы таблиц адаптированы под YDB."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # TPC-C нагрузка
@@ -136,8 +136,6 @@ ydb workload tpcc run --help
 Спецификация ограничивает теоретическую максимальную производительность одним складом: 12.86 tpmC. Чтобы увеличить общую нагрузку и итоговый tpmC, масштабируйте количество складов.
 
 Формула расчёта эффективности:
-
-эффективность=tpmC12.86×склады×100\\text{эффективность} = \\frac{\\text{tpmC}}{12.86 \\times \\text{склады}} \\times 100 эффективность=12.86×складыtpmC​×100
 
 ## Очистка данных теста {#cleanup}
 

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/observability/system-views.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/observability/system-views.md"
 description: "Для возможности внутренней интроспекции состояния кластера пользователю предоставляется возможность осуществлять запросы в специальные служебные представления ("
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Системные представления кластера

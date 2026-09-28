@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/suggest-change.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/suggest-change.md"
 description: "Этот раздел содержит пошаговый сценарий, который поможет вам выполнить необходимые шаги по настройке и узнать, как внести изменения в проект YDB. Этому сценарию"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Процесс разработки: работа над изменениями кода YDB
@@ -22,54 +22,12 @@ revision: "610144200e326713a5926ef40527cb973f94a519"
 
 ### Пара ключей SSH {#ssh_key_pair}
 
-- Для подключения к GitHub вы можете использовать: ssh/token/ssh из yubikey/password и т.д. Рекомендуемый метод - ssh-ключи.
-
-- Если у вас еще нет созданных ключей (или yubikey), то просто создайте новые ключи. Полные инструкции находятся на [этой странице GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key).
-
-- Если у вас есть свои личные ключи, и вы используете skotty как ssh-agent:
-
-  - Добавьте ключи в skotty командой [ssh-add](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)
-
-  - Отредактируйте файл `~/.skotty/config.yaml`, добавив секцию:
-
-    ```yaml
-    keys_order:
-        - added
-        - insecure
-        - legacy
-        - secure
-    ```
-
-- Если у вас есть yubikey, вы можете использовать legacy ключ из yubikey:
-
-  - Предположим, что у вас уже есть настроенный yubikey (или вы настроили yubikey локально)
-  - На вашем ноутбуке: `skotty ssh keys`
-  - Загрузите ssh-ключ `legacy@yubikey` на GitHub ([через пользовательский интерфейс](https://github.com/settings/keys))
-  - Проверьте подключение на ноутбуке: `ssh -T git@github.com`
+- Для подключения к GitHub вы можете использовать ssh или token. Рекомендуемый метод — ssh-ключи.
+- Если у вас ещё нет ключей, создайте новые. Полные инструкции находятся на [этой странице GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key).
 
 #### Удаленная разработка {#udalennaya-razrabotka}
 
-Если вы разрабатываете на удаленном компьютере, вы можете использовать ключ со своего ноутбука (сгенерированный или ключ от yubikey). Вам необходимо настроить переадресацию ключей. (Полные инструкции находятся на [этой странице GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding)).
-
-Предположим, что ваш удаленный компьютер dev123456.search.yandex.net.
-
-- на вашем ноутбуке добавьте переадресацию по ssh (`~/.ssh/config`):
-
-```text
-Host dev123456.search.yandex.net
-    ForwardAgent yes
-```
-
-- на удаленном компьютере добавьте в `~/.bashrc`:
-
-```bash
-if [[ -S "$SSH_AUTH_SOCK" && ! -h "$SSH_AUTH_SOCK" ]]; then
-    ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock;
-fi
-export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock;
-```
-
-- проверьте подключение: `ssh -T git@github.com`
+Если вы разрабатываете на удалённом компьютере, вы можете использовать ключ со своего ноутбука. Настройте переадресацию SSH-агента по [инструкции GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding).
 
 ### Git CLI {#git_cli}
 

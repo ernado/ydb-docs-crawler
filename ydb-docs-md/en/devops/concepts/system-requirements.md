@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/concepts/system-requirements.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/concepts/system-requirements.md"
 description: "This section provides recommendations for deploying YDB clusters that are relevant regardless of the chosen deployment method ( Ansible, Kubernetes, or manual )"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # YDB System Requirements and Recommendations

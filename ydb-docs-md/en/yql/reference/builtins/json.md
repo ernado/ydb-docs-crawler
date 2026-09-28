@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/builtins/json.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/json.md"
 description: "JSON is a lightweight data-interchange format. In YQL, it's represented by the Json type. Unlike relational tables, JSON can store data with no schema defined."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Functions for JSON

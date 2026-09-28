@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/backup-collections/microservices-backup-strategy.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/backup-collections/microservices-backup-strategy.md"
 description: "Организация коллекций резервных копий по границам сервисов для независимых операций резервного копирования и восстановления. Коллекции для отдельных сервисов."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Стратегия резервного копирования для микросервисов

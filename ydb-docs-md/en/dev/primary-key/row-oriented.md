@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/primary-key/row-oriented.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/primary-key/row-oriented.md"
 description: "The way columns are selected for a table's primary key defines YDB's ability to scale load and improve performance."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Selecting a primary key for maximum performance

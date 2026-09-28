@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter-resource-pool.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-resource-pool.md"
 description: "ALTER RESOURCE POOL changes the definition of a resource pool. Syntax Changing parameters. The syntax for changing any resource pool parameter is as follows:"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # ALTER RESOURCE POOL
@@ -58,13 +58,13 @@ GRANT 'ALTER SCHEMA' ON `.metadata/workload_manager/pools/olap_pool` TO `user1@d
 
 ## Parameters
 
-- `CONCURRENT_QUERY_LIMIT` (Int32) — Optional: maximum number of queries executing in parallel in the resource pool. If `-1`, there is no limit. Default: `-1`. Allowed values: −1,\[0,231−1\]-1, \[0, 2^{31}-1\]−1,\[0,231−1\].
-- `QUEUE_SIZE` (Int32) — Optional: wait queue size. The system may hold at most CONCURRENT_QUERY_LIMIT+QUEUE_SIZECONCURRENT\\_QUERY\\_LIMIT + QUEUE\\_SIZECONCURRENT_QUERY_LIMIT+QUEUE_SIZE queries at once. If `-1`, there is no limit. Default: `-1`. Allowed values: −1,\[0,231−1\]-1, \[0, 2^{31}-1\]−1,\[0,231−1\].
-- `DATABASE_LOAD_CPU_THRESHOLD` (Int32) — Optional: database-wide CPU load threshold above which queries are not started and remain queued. If `-1`, there is no limit. Default: `-1`. Allowed values: −1,\[0,100\]-1, \[0, 100\]−1,\[0,100\].
-- `QUERY_MEMORY_LIMIT_PERCENT_PER_NODE` (Double) — Optional: percentage of available memory on a node that a single query in this pool may use. If `-1`, the limit is shared total available memory across all queries. Default: `-1`. Allowed values: −1,\[0,100\]-1, \[0, 100\]−1,\[0,100\].
-- `TOTAL_CPU_LIMIT_PERCENT_PER_NODE` (Double) — Optional: percentage of available CPU on a node that all queries in this pool may use together. If `-1`, there is no limit. Default: `-1`. Allowed values: −1,\[0,100\]-1, \[0, 100\]−1,\[0,100\].
-- `QUERY_CPU_LIMIT_PERCENT_PER_NODE` (Double) — Optional: percentage of available CPU on a node for a single query in the pool. If `-1`, there is no limit. Default: `-1`. Allowed values: −1,\[0,100\]-1, \[0, 100\]−1,\[0,100\].
-- `RESOURCE_WEIGHT` (Int32) — Optional: weight for distributing resources among pools. If `-1`, weights are not used. Default: `-1`. Allowed values: −1,\[0,231−1\]-1, \[0, 2^{31}-1\]−1,\[0,231−1\].
+- `CONCURRENT_QUERY_LIMIT` (Int32) — Optional: maximum number of queries executing in parallel in the resource pool. If `-1`, there is no limit. Default: `-1`. Allowed values: .
+- `QUEUE_SIZE` (Int32) — Optional: wait queue size. The system may hold at most  queries at once. If `-1`, there is no limit. Default: `-1`. Allowed values: .
+- `DATABASE_LOAD_CPU_THRESHOLD` (Int32) — Optional: database-wide CPU load threshold above which queries are not started and remain queued. If `-1`, there is no limit. Default: `-1`. Allowed values: .
+- `QUERY_MEMORY_LIMIT_PERCENT_PER_NODE` (Double) — Optional: percentage of available memory on a node that a single query in this pool may use. If `-1`, the limit is shared total available memory across all queries. Default: `-1`. Allowed values: .
+- `TOTAL_CPU_LIMIT_PERCENT_PER_NODE` (Double) — Optional: percentage of available CPU on a node that all queries in this pool may use together. If `-1`, there is no limit. Default: `-1`. Allowed values: .
+- `QUERY_CPU_LIMIT_PERCENT_PER_NODE` (Double) — Optional: percentage of available CPU on a node for a single query in the pool. If `-1`, there is no limit. Default: `-1`. Allowed values: .
+- `RESOURCE_WEIGHT` (Int32) — Optional: weight for distributing resources among pools. If `-1`, weights are not used. Default: `-1`. Allowed values: .
 
 ## See also
 

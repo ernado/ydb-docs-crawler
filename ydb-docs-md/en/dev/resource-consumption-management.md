@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/resource-consumption-management.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/resource-consumption-management.md"
 description: "Resource pools allow you to isolate database resources between running queries or configure resource allocation strategies in case of oversubscription (allocati"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Workload Manager — resource consumption management
@@ -41,23 +41,17 @@ For a complete list of resource pool parameters, see the help for (link). Some p
 
 ![resource_pools](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/_assets/resource_pool.png)
 
-Let's look at the example above what these parameters actually mean and how they will affect resource allocation. Let's say the database YDB has 101010 nodes allocated for 10vCPU10 vCPU10vCPU. In total, such a database contains 100vCPU100 vCPU100vCPU. Then on each node for a resource pool named `olap` the following will be allocated:
-
-10vCPU⋅TOTAL_CPU_LIMIT_PERCENT_PER_NODE100=10vCPU⋅0.7=7vCPU\\frac{10 vCPU \\cdot TOTAL\\_CPU\\_LIMIT\\_PERCENT\\_PER\\_NODE}{100} = 10 vCPU \\cdot 0.7 = 7 vCPU10010vCPU⋅TOTAL_CPU_LIMIT_PERCENT_PER_NODE​=10vCPU⋅0.7=7vCPU
+Let's look at the example above what these parameters actually mean and how they will affect resource allocation. Let's say the database YDB has  nodes allocated for . In total, such a database contains . Then on each node for a resource pool named `olap` the following will be allocated:
 
 In total, with an even distribution of resources across the entire database, the resource pool will be allocated:
 
-7vCPU⋅10 (nodes)=70vCPU7 vCPU \\cdot 10 \\text{ (nodes)} = 70 vCPU7vCPU⋅10 (nodes)=70vCPU
-
 For one query in this resource pool the following will be allocated:
-
-10vCPU⋅TOTAL_CPU_LIMIT_PERCENT_PER_NODE100⋅QUERY_CPU_LIMIT_PERCENT_PER_NODE100=10vCPU⋅0.7⋅0.5=3.5vCPU\\frac{10 vCPU \\cdot TOTAL\\_CPU\\_LIMIT\\_PERCENT\\_PER\\_NODE}{100} \\cdot \\frac{QUERY\\_CPU\\_LIMIT\\_PERCENT\\_PER\\_NODE}{100} = 10 vCPU \\cdot 0.7 \\cdot 0.5 = 3.5 vCPU10010vCPU⋅TOTAL_CPU_LIMIT_PERCENT_PER_NODE​⋅100QUERY_CPU_LIMIT_PERCENT_PER_NODE​=10vCPU⋅0.7⋅0.5=3.5vCPU
 
 ### How CONCURRENT_QUERY_LIMIT и QUEUE_SIZE works {#concurrent_query_limit}
 
 Let's say there are already 9 querys running in the `olap` resource pool . When a new query arrives, its execution will immediately start in parallel with the other 9 queries. Now there will be 10 querys running in the pool. If the 11th query arrives in the pool, it will not start executing, but will be placed in a waiting queue. When at least one of the 10 running querys completes, the 11th query will be removed from the queue and begin executing.
 
-If there are already QUEUE_SIZE=1000QUEUE\\_SIZE = 1000QUEUE_SIZE=1000 querys in the queue , then when sending the 1001st query, the client will immediately receive an error in response, and this query will not be executed. Error example:
+If there are already  querys in the queue , then when sending the 1001st query, the client will immediately receive an error in response, and this query will not be executed. Error example:
 
 ```text
 Issues:
@@ -75,18 +69,18 @@ As with `CONCURRENT_QUERY_LIMIT` , when the specified load threshold is exceeded
 
 ### Resource allocation according to RESOURCES_WEIGHT {#resources_weight}
 
-![resource_pools](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/_assets/resources_weight.png)
+![resource_pools](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/8c7501e02fd7c6de0c7110aafa90f78948400f1e/en/_assets/resources_weight.png)
 
 The `RESOURCES_WEIGHT` parameter starts working only in case of oversubscription and if there is more than one resource pool in the system. In the current implementation, `RESOURCES_WEIGHT` only affects the allocation of `vCPU` resources. When querys appear in the resource pool, it begins to participate in resource allocation. To do this, the limits in the pools are recalculated according to the [Max-min fairness](https://en.wikipedia.org/wiki/Max-min_fairness) algorithm. The redistribution of resources itself is performed on each computing node individually, as shown in the figure above.
 
-Let's say we have a node on the system with 10vCPU10 vCPU10vCPU available. Limitations are set to:
+Let's say we have a node on the system with  available. Limitations are set to:
 
-- TOTAL_CPU_LIMIT_PERCENT_PER_NODE=30TOTAL\\_CPU\\_LIMIT\\_PERCENT\\_PER\\_NODE = 30TOTAL_CPU_LIMIT_PERCENT_PER_NODE=30,
-- QUERY_CPU_LIMIT_PERCENT_PER_NODE=50QUERY\\_CPU\\_LIMIT\\_PERCENT\\_PER\\_NODE = 50QUERY_CPU_LIMIT_PERCENT_PER_NODE=50.
+- ,
+- .
 
-In this case, the resource pool will have a limit of 3vCPU3 vCPU3vCPU per node and 1.5vCPU1.5 vCPU1.5vCPU per query in that pool (Figure *a*). If there are 4 such pools on the system and they are all trying to use the maximum resources, that would be 12vCPU12 vCPU12vCPU, which is more than the limit of available resources on the node (10vCPU10 vCPU10vCPU). In this case, `RESOURCES_WEIGHT` comes into effect, and each pool will be allocated 2.5vCPU2.5 vCPU2.5vCPU (Figure *b*).
+In this case, the resource pool will have a limit of  per node and  per query in that pool (Figure *a*). If there are 4 such pools on the system and they are all trying to use the maximum resources, that would be , which is more than the limit of available resources on the node (). In this case, `RESOURCES_WEIGHT` comes into effect, and each pool will be allocated  (Figure *b*).
 
-If you need to increase the allocated resources for a particular pool, you can change its weight, for example, to 200. Then this pool will receive 3vCPU3 vCPU3vCPU, and the other pools will equally share the remaining 7vCPU7 vCPU7vCPU, which will be 73vCPU\\frac{7}{3} vCPU37​vCPU per pool (Figure *c*).
+If you need to increase the allocated resources for a particular pool, you can change its weight, for example, to 200. Then this pool will receive , and the other pools will equally share the remaining , which will be  per pool (Figure *c*).
 
 > [!WARNING]
 > The current resource allocation algorithm may change in the future without maintaining backward compatibility.

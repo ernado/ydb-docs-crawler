@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/manual/federated-queries/connector-deployment.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/federated-queries/connector-deployment.md"
 description: "Warning. This functionality is in \"Experimental\" mode."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Deploying Connectors to External Data Sources
@@ -206,6 +206,6 @@ A current example of the `fq-connector-go` service configuration file can be fou
 | `logger` | Optional section. It contains logging settings. |
 | `logger.log_level` | Logging level. Valid values: `TRACE`, `DEBUG`, `INFO`, `WARN`, `ERROR`, `FATAL`. Default value: `INFO`. |
 | `logger.enable_sql_query_logging` | For data sources supporting SQL, query logging is enabled. Valid values: `true`, `false`. **IMPORTANT**: Enabling this option may result in printing confidential user data in the logs. Default value: `false`. |
-| `paging` | Optional section. It contains settings for the algorithm of splitting the data stream extracted from the source into Arrow blocks. For each request, a queue of blocks prepared for sending to YDB is created in the connector. Arrow block allocation contributes significantly to the memory consumption of the `fq-connector-go` process. The minimum memory required for the connector's operation can be roughly estimated by the formula Mem=2⋅Requests⋅BPP⋅PQCMem = 2 \\cdot Requests \\cdot BPP \\cdot PQCMem=2⋅Requests⋅BPP⋅PQC, where RequestsRequestsRequests is the number of concurrent requests, BPPBPPBPP is the `paging.bytes_per_page` parameter, and PQCPQCPQC is the `paging.prefetch_queue_capacity` parameter. |
+| `paging` | Optional section. It contains settings for the algorithm of splitting the data stream extracted from the source into Arrow blocks. For each request, a queue of blocks prepared for sending to YDB is created in the connector. Arrow block allocation contributes significantly to the memory consumption of the `fq-connector-go` process. The minimum memory required for the connector's operation can be roughly estimated by the formula , where  is the number of concurrent requests,  is the `paging.bytes_per_page` parameter, and  is the `paging.prefetch_queue_capacity` parameter. |
 | `paging.bytes_per_page` | Maximum number of bytes in one block. Recommended values range from 4 to 8 MiB, and the maximum is 48 MiB. Default value: 4 MiB. |
 | `paging.prefetch_queue_capacity` | Number of pre-read data blocks stored in the connector's address space until YDB requests the next data block. In some scenarios, larger values of this setting can increase throughput but will also lead to higher memory consumption by the process. Recommended values - at least 2. Default value: 2. |

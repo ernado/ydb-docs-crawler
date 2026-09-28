@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/analyst/datasets/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/datasets/index.md"
 description: "These pages describe popular datasets that you can load into YDB to familiarize yourself with the database's functionality and test various use cases."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Overview

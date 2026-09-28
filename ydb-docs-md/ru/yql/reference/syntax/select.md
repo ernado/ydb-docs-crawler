@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/select/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/index.md"
 description: "SELECT. Возвращает результат вычисления выражений, указанных после SELECT. Может использоваться в сочетании с другими операциями для получения иного эффекта."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # ru/yql/reference/syntax/select

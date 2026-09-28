@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/udf/list/string.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/string.md"
 description: "Functions for ASCII strings: List of functions. String::Base64Encode(String{Flags:AutoMap}) -> String. String::Base64Decode(String) -> String?"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # String
@@ -151,6 +151,7 @@ Functions for ASCII strings:
 
 ```yql
 SELECT String::Base64Encode("YQL"); -- "WVFM"
+SELECT String::Base64Decode("WVFM"); -- "YQL"
 SELECT String::Strip("YQL ");       -- "YQL"
 SELECT String::SplitToList("1,2,3,4,5,6,7", ",", 3 as Limit); -- ["1", "2", "3", "4,5,6,7"]
 ```

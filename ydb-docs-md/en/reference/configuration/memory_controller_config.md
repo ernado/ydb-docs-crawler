@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/memory_controller_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/memory_controller_config.md"
 description: "There are many components inside YDB database nodes that utilize memory. Most of them need a fixed amount, but some are flexible and can use varying amounts of"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # memory_controller_config
@@ -120,11 +120,7 @@ As mentioned above, the sum of the minimum memory limits for the cache component
 
 This restriction can be expressed in a simplified form:
 
-shared_cache_min_percent+mem_table_min_percent+activities_limit_percent<soft_limit_percentshared\\_cache\\_min\\_percent + mem\\_table\\_min\\_percent + activities\\_limit\\_percent < soft\\_limit\\_percentshared_cache_min_percent+mem_table_min_percent+activities_limit_percent<soft_limit_percent
-
 Or in a detailed form:
-
-Max(shared_cache_min_percent∗hard_limit_bytes/100,shared_cache_min_bytes)+Max(mem_table_min_percent∗hard_limit_bytes/100,mem_table_min_bytes)+Min(activities_limit_percent∗hard_limit_bytes/100,activities_limit_bytes)<Min(soft_limit_percent∗hard_limit_bytes/100,soft_limit_bytes)Max(shared\\_cache\\_min\\_percent \* hard\\_limit\\_bytes / 100, shared\\_cache\\_min\\_bytes) + Max(mem\\_table\\_min\\_percent \* hard\\_limit\\_bytes / 100, mem\\_table\\_min\\_bytes) + Min(activities\\_limit\\_percent \* hard\\_limit\\_bytes / 100, activities\\_limit\\_bytes) < Min(soft\\_limit\\_percent \* hard\\_limit\\_bytes / 100, soft\\_limit\\_bytes)Max(shared_cache_min_percent∗hard_limit_bytes/100,shared_cache_min_bytes)+Max(mem_table_min_percent∗hard_limit_bytes/100,mem_table_min_bytes)+Min(activities_limit_percent∗hard_limit_bytes/100,activities_limit_bytes)<Min(soft_limit_percent∗hard_limit_bytes/100,soft_limit_bytes)
 
 | Parameter | Default | Description |
 | --- | --- | --- |

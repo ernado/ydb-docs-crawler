@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/scheme-describe.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/scheme-describe.md"
 description: "Получите информацию об объекте схемы: ydb scheme describe episodes --stats. Результат: <table> episodes ┌────────────┬─────────┬────────┬─────┐"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Получение информации об объекте схемы

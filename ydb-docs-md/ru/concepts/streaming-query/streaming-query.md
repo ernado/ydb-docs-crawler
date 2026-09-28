@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/streaming-query/streaming-query.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/streaming-query/streaming-query.md"
 description: "Потоковый запрос — это тип запроса, предназначенный для непрерывной обработки неограниченного потока данных ( stream processing ). В отличие от обычных запросов"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Потоковые запросы

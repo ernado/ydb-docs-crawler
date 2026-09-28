@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/hive.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/hive.md"
 description: "Hive is a YDB component responsible for launching tablets. In various situations and under different load patterns, you might need to configure its behavior. Hi"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # hive_config

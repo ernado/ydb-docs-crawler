@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/types/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/types/index.md"
 description: "В данном разделе размещены статьи по типам данных YQL: Простые/примитивные типы. Серийные типы. Опциональные типы. Контейнеры. Специальные типы."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Типы данных YQL

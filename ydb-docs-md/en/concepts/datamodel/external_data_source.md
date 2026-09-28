@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/external_data_source.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/external_data_source.md"
 description: "An external data source is an object in YDB that describes the connection parameters to an external data source. For example, in the case of ClickHouse, the ext"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # External Data Sources

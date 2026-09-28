@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/vector-indexes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/vector-indexes.md"
 description: "Vector indexes are specialized data structures that enable efficient vector search in multidimensional spaces. Unlike secondary indexes, which optimize searchin"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Vector Indexes

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/schemas/overloaded-shards.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/schemas/overloaded-shards.md"
 description: "Data shards serving row-oriented tables may become overloaded for the following reasons: A table is created without the AUTO_PARTITIONING_BY_LOAD clause."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Overloaded shards

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/hive-booting.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/hive-booting.md"
 description: "В данной статье описывается процесс запуска таблеток со стороны Hive. Hive принимает решение о запуске таблетки в различных ситуациях:"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Запуск таблеток

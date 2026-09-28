@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/queries/transaction-lock-invalidation.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/queries/transaction-lock-invalidation.md"
 description: "Инвалидация блокировок транзакций (TLI) происходит, когда одна транзакция (нарушитель) записывает данные и ломает оптимистичные блокировки другой транзакции (же"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Инвалидация блокировок транзакций

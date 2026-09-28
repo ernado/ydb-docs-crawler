@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/workload-tpcc.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/workload-tpcc.md"
 description: "The workload is based on the TPC-C specification, with the queries and table schemas adapted for YDB."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # TPC-C Workload
@@ -136,8 +136,6 @@ Benchmark results include tpmC, efficiency, and per-transaction-type latencies. 
 The TPC-C specification limits the number of transactions that can be processed per warehouse. The theoretical maximum is 12.86 tpmC per warehouse. To increase the overall load—and thereby the tpmC—you must scale the number of warehouses.
 
 Efficiency is calculated using the following formula:
-
-efficiency=tpmC12.86×warehouses×100\\text{efficiency} = \\frac{\\text{tpmC}}{12.86 \\times \\text{warehouses}} \\times 100 efficiency=12.86×warehousestpmC​×100
 
 ## Test data cleaning {#cleanup}
 

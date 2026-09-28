@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/builtins/window.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/window.md"
 description: "The syntax for calling window functions is detailed in a separate article. Aggregate functions. All aggregate functions can also be used as window functions."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # List of window functions in YQL
@@ -154,7 +154,7 @@ WINDOW w AS (ORDER BY key);
 
 ## RANK / DENSE_RANK / PERCENT_RANK {#rank}
 
-Number the groups of neighboring rows in the [partition](../syntax/select/window.md#partition) with the same expression value in the argument. `DENSE_RANK` numbers the groups one by one, and `RANK` skips `(N - 1)` values, with `N` being the number of rows in the previous group. `PERCENT_RANK` returns the relative rank of the current row: (RANK−1)/(numberofrowsinthepartition−1)(RANK - 1)/(number of rows in the partition - 1)(RANK−1)/(numberofrowsinthepartition−1).
+Number the groups of neighboring rows in the [partition](../syntax/select/window.md#partition) with the same expression value in the argument. `DENSE_RANK` numbers the groups one by one, and `RANK` skips `(N - 1)` values, with `N` being the number of rows in the previous group. `PERCENT_RANK` returns the relative rank of the current row: .
 
 If there is no argument, it uses the order specified in the `ORDER BY` section in the window definition.  
  If the argument is omitted and `ORDER BY` is not specified, then all rows are considered equal to each other.

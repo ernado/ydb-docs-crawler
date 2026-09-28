@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/types/serial.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/serial.md"
 description: "Serial data types are integers with an additional value-generation mechanism. They are used for auto-increment columns: each new row inserted into the table aut"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Serial data types
@@ -60,12 +60,12 @@ Sequence values start at 1, increment by 1, and are bounded according to the typ
 
 | Type | Maximum value | Value type |
 | --- | --- | --- |
-| `SmallSerial` | 215–12^{15}–1215–1 | `Int16` |
-| `Serial2` | 215–12^{15}–1215–1 | `Int16` |
-| `Serial` | 231–12^{31}–1231–1 | `Int32` |
-| `Serial4` | 231–12^{31}–1231–1 | `Int32` |
-| `Serial8` | 263–12^{63}–1263–1 | `Int64` |
-| `BigSerial` | 263–12^{63}–1263–1 | `Int64` |
+| `SmallSerial` |  | `Int16` |
+| `Serial2` |  | `Int16` |
+| `Serial` |  | `Int32` |
+| `Serial4` |  | `Int32` |
+| `Serial8` |  | `Int64` |
+| `BigSerial` |  | `Int64` |
 
 If the sequence overflows on insert, an error is returned:
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create-resource-pool-classifier.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-resource-pool-classifier.md"
 description: "CREATE RESOURCE POOL CLASSIFIER creates a resource pool classifier. Syntax."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # CREATE RESOURCE POOL CLASSIFIER
@@ -26,13 +26,13 @@ WITH ( <parameter_name> [= <parameter_value>] [, ... ] )
 
 ### Parameters
 
-- `RANK` (Int64) — Optional: order in which classifiers are evaluated. If omitted, the maximum existing `RANK` plus 1000 is used. Allowed values: a unique number in \[0,263−1\]\[0, 2^{63}-1\]\[0,263−1\].
+- `RANK` (Int64) — Optional: order in which classifiers are evaluated. If omitted, the maximum existing `RANK` plus 1000 is used. Allowed values: a unique number in .
 - `RESOURCE_POOL` (String) — Required: name of the resource pool for queries that match the classifier.
 - `MEMBER_NAME` (String) — Optional: user or group routed to that pool. If omitted, the classifier ignores `MEMBER_NAME` and uses other criteria.
 
 ## Notes {#remarks}
 
-If `RANK` is omitted in the DDL, the default is RANK=MAX(existing_ranks)+1000RANK = MAX(existing\\_ranks) + 1000RANK=MAX(existing_ranks)+1000. All `RANK` values must be unique so pool choice is deterministic when rules conflict. This allows inserting new classifiers between existing ones.
+If `RANK` is omitted in the DDL, the default is . All `RANK` values must be unique so pool choice is deterministic when rules conflict. This allows inserting new classifiers between existing ones.
 
 A classifier may reference a non-existent pool or a pool the user cannot access; such classifiers are skipped.
 

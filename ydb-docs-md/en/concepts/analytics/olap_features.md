@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/analytics/olap_features.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/analytics/olap_features.md"
 description: "This page is a map of the documentation for the analytical features of YDB. The content is organized by the stages of the data lifecycle to help you quickly fin"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Key Analytics Capabilities: Quick Reference

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/async-replication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/async-replication.md"
 description: "Asynchronous replication allows for synchronizing data between YDB databases in near real time. It can also be used for data migration between databases with mi"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Asynchronous Replication
@@ -60,9 +60,7 @@ You can get the progress of the initial table scan from the [description](../ref
 
 After the initial table scan is completed, the consumers read the change data and write it to replicas.
 
-Each change data block has its *creation time* (created_atcreated\\_atcreated_at). Consumers track the *reception time* of the change data (received_atreceived\\_atreceived_at). Thus, you can use the following formula to calculate the *replication lag*:
-
-replication_lag=received_at−created_atreplication\\_lag = received\\_at - created\\_at replication_lag=received_at−created_at
+Each change data block has its *creation time* (). Consumers track the *reception time* of the change data (). Thus, you can use the following formula to calculate the *replication lag*:
 
 You can also get the replication lag from the [description](../reference/ydb-cli/commands/scheme-describe.md) of the asynchronous replication instance.
 

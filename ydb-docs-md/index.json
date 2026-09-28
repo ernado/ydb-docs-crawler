@@ -4,14 +4,14 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "610144200e326713a5926ef40527cb973f94a519",
+      "revision": "8c7501e02fd7c6de0c7110aafa90f78948400f1e",
       "page_count": 725,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "610144200e326713a5926ef40527cb973f94a519",
+      "revision": "8c7501e02fd7c6de0c7110aafa90f78948400f1e",
       "page_count": 733,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
@@ -346,7 +346,7 @@
       "description": "Asynchronous replication allows for synchronizing data between YDB databases in near real time. It can also be used for data migration between databases with mi",
       "source_path": "en/core/concepts/async-replication.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/async-replication.md",
-      "bytes": 9580,
+      "bytes": 9382,
       "lang": "en"
     },
     {
@@ -544,7 +544,7 @@
       "description": " This section describes the parameters of limits set in YDB. Schema Object Limits.",
       "source_path": "en/core/concepts/limits-ydb.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/limits-ydb.md",
-      "bytes": 6602,
+      "bytes": 6596,
       "lang": "en"
     },
     {
@@ -1061,7 +1061,7 @@
       "description": " Hive is a tablet responsible for managing other tablets, including selecting nodes for them to run on and deciding when to rebalance tablets.",
       "source_path": "en/core/contributor/hive.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/hive.md",
-      "bytes": 6308,
+      "bytes": 5982,
       "lang": "en"
     },
     {
@@ -1226,7 +1226,7 @@
       "description": "This section contains a step-by-step scenario which helps you complete necessary configuration steps, and learn how to bring a change to the YDB project. This s",
       "source_path": "en/core/contributor/suggest-change.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/suggest-change.md",
-      "bytes": 13026,
+      "bytes": 11657,
       "lang": "en"
     },
     {
@@ -1468,7 +1468,7 @@
       "description": "Resource pools allow you to isolate database resources between running queries or configure resource allocation strategies in case of oversubscription (allocati",
       "source_path": "en/core/dev/resource-consumption-management.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/resource-consumption-management.md",
-      "bytes": 14540,
+      "bytes": 13299,
       "lang": "en"
     },
     {
@@ -2381,7 +2381,7 @@
       "description": " Warning. This functionality is in \"Experimental\" mode.",
       "source_path": "en/core/devops/deployment-options/manual/federated-queries/connector-deployment.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/federated-queries/connector-deployment.md",
-      "bytes": 11999,
+      "bytes": 11856,
       "lang": "en"
     },
     {
@@ -4196,7 +4196,7 @@
       "description": "There are many components inside YDB database nodes that utilize memory. Most of them need a fixed amount, but some are flexible and can use varying amounts of ",
       "source_path": "en/core/reference/configuration/memory_controller_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/memory_controller_config.md",
-      "bytes": 10626,
+      "bytes": 9393,
       "lang": "en"
     },
     {
@@ -5604,7 +5604,7 @@
       "description": " A simple load type using a YDB database as a Key-Value storage. Types of load. This load test runs several types of load:",
       "source_path": "en/core/reference/ydb-cli/workload-kv.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/workload-kv.md",
-      "bytes": 10491,
+      "bytes": 10441,
       "lang": "en"
     },
     {
@@ -5637,7 +5637,7 @@
       "description": " The workload is based on the TPC-C specification, with the queries and table schemas adapted for YDB.",
       "source_path": "en/core/reference/ydb-cli/workload-tpcc.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/workload-tpcc.md",
-      "bytes": 7280,
+      "bytes": 7113,
       "lang": "en"
     },
     {
@@ -5758,7 +5758,7 @@
       "description": "As we discussed in the YDB server connection article, the client must add an authentication token to each request. The authentication token is checked by the se",
       "source_path": "en/core/reference/ydb-sdk/auth.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/auth.md",
-      "bytes": 14910,
+      "bytes": 14797,
       "lang": "en"
     },
     {
@@ -5857,7 +5857,7 @@
       "description": " YDB has a built-in self-diagnostic system, which can be used to get a brief report on the database status and information about existing issues.",
       "source_path": "en/core/reference/ydb-sdk/health-check-api.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/health-check-api.md",
-      "bytes": 34952,
+      "bytes": 34908,
       "lang": "en"
     },
     {
@@ -6473,7 +6473,7 @@
       "description": " The syntax for calling window functions is detailed in a separate article. Aggregate functions. All aggregate functions can also be used as window functions.",
       "source_path": "en/core/yql/reference/builtins/window.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/window.md",
-      "bytes": 6657,
+      "bytes": 6523,
       "lang": "en"
     },
     {
@@ -6583,7 +6583,7 @@
       "description": " ALTER RESOURCE POOL changes the definition of a resource pool. Syntax Changing parameters. The syntax for changing any resource pool parameter is as follows:",
       "source_path": "en/core/yql/reference/syntax/alter-resource-pool.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-resource-pool.md",
-      "bytes": 3765,
+      "bytes": 3325,
       "lang": "en"
     },
     {
@@ -6594,7 +6594,7 @@
       "description": " ALTER RESOURCE POOL CLASSIFIER changes the definition of a resource pool classifier. Syntax Changing parameters.",
       "source_path": "en/core/yql/reference/syntax/alter-resource-pool-classifier.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-resource-pool-classifier.md",
-      "bytes": 2627,
+      "bytes": 2586,
       "lang": "en"
     },
     {
@@ -6924,7 +6924,7 @@
       "description": " CREATE RESOURCE POOL creates a resource pool. Syntax. CREATE RESOURCE POOL <name> WITH ( <parameter_name> [= <parameter_value>] [,... ] ).",
       "source_path": "en/core/yql/reference/syntax/create-resource-pool.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-resource-pool.md",
-      "bytes": 4510,
+      "bytes": 4070,
       "lang": "en"
     },
     {
@@ -6935,7 +6935,7 @@
       "description": " CREATE RESOURCE POOL CLASSIFIER creates a resource pool classifier. Syntax.",
       "source_path": "en/core/yql/reference/syntax/create-resource-pool-classifier.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-resource-pool-classifier.md",
-      "bytes": 2987,
+      "bytes": 2853,
       "lang": "en"
     },
     {
@@ -7782,7 +7782,7 @@
       "description": "Serial data types are integers with an additional value-generation mechanism. They are used for auto-increment columns: each new row inserted into the table aut",
       "source_path": "en/core/yql/reference/types/serial.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/serial.md",
-      "bytes": 3853,
+      "bytes": 3709,
       "lang": "en"
     },
     {
@@ -7815,7 +7815,7 @@
       "description": " This section describes YSON, a JSON-like data format developed at Yandex. Note. SQL functions for working with YSON are documented here. Introduction.",
       "source_path": "en/core/yql/reference/types/yson.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/yson.md",
-      "bytes": 11381,
+      "bytes": 11421,
       "lang": "en"
     },
     {
@@ -7958,7 +7958,7 @@
       "description": " Functions for ASCII strings: List of functions. String::Base64Encode(String{Flags:AutoMap}) -> String. String::Base64Decode(String) -> String?",
       "source_path": "en/core/yql/reference/udf/list/string.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/string.md",
-      "bytes": 6025,
+      "bytes": 6071,
       "lang": "en"
     },
     {
@@ -8321,7 +8321,7 @@
       "description": "Асинхронная репликация позволяет синхронизировать данные между базами данных YDB почти в реальном времени. Также она может быть использована для миграции данных",
       "source_path": "ru/core/concepts/async-replication.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/async-replication.md",
-      "bytes": 15778,
+      "bytes": 15580,
       "lang": "ru"
     },
     {
@@ -8508,7 +8508,7 @@
       "description": " В разделе описаны параметры ограничений, установленных в YDB. Ограничения объектов схемы.",
       "source_path": "ru/core/concepts/limits-ydb.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/limits-ydb.md",
-      "bytes": 11268,
+      "bytes": 11263,
       "lang": "ru"
     },
     {
@@ -9036,7 +9036,7 @@
       "description": "Hive — таблетка, отвечающая за управление другими таблетками, а именно за выбор узлов базы для их запуска, принятие решений о необходимости перебалансировки таб",
       "source_path": "ru/core/contributor/hive.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/hive.md",
-      "bytes": 11819,
+      "bytes": 11493,
       "lang": "ru"
     },
     {
@@ -9201,7 +9201,7 @@
       "description": "Этот раздел содержит пошаговый сценарий, который поможет вам выполнить необходимые шаги по настройке и узнать, как внести изменения в проект YDB. Этому сценарию",
       "source_path": "ru/core/contributor/suggest-change.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/suggest-change.md",
-      "bytes": 33152,
+      "bytes": 31172,
       "lang": "ru"
     },
     {
@@ -9443,7 +9443,7 @@
       "description": "Пулы ресурсов позволяют изолировать ресурсы баз данных между выполняемыми запросами или же настраивать стратегии распределения ресурсов в случае переподписки (з",
       "source_path": "ru/core/dev/resource-consumption-management.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/resource-consumption-management.md",
-      "bytes": 23610,
+      "bytes": 22369,
       "lang": "ru"
     },
     {
@@ -9575,7 +9575,7 @@
       "description": " В разделе приведено описание доступных таймаутов и представлены примеры использования на различных языках программирования.",
       "source_path": "ru/core/dev/timeouts.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/timeouts.md",
-      "bytes": 9362,
+      "bytes": 9341,
       "lang": "ru"
     },
     {
@@ -10367,7 +10367,7 @@
       "description": " Важно. Данная функциональность находится в режиме \"Experimental\".",
       "source_path": "ru/core/devops/deployment-options/manual/federated-queries/connector-deployment.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/federated-queries/connector-deployment.md",
-      "bytes": 18045,
+      "bytes": 17902,
       "lang": "ru"
     },
     {
@@ -12248,7 +12248,7 @@
       "description": "Внутри узлов YDB работают множество различных компонентов, использующих память. Большинству из них требуется фиксированное количество памяти, но некоторые из ни",
       "source_path": "ru/core/reference/configuration/memory_controller_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/memory_controller_config.md",
-      "bytes": 17768,
+      "bytes": 16535,
       "lang": "ru"
     },
     {
@@ -13689,7 +13689,7 @@
       "description": " Простой вид нагрузки, использующий БД YDB как Key-Value хранилище. Виды нагрузки. Данный нагрузочный тест содержит несколько видов нагрузки:",
       "source_path": "ru/core/reference/ydb-cli/workload-kv.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/workload-kv.md",
-      "bytes": 15815,
+      "bytes": 15765,
       "lang": "ru"
     },
     {
@@ -13722,7 +13722,7 @@
       "description": " Нагрузка базируется на официальной спецификации TPC-C. Все запросы и схемы таблиц адаптированы под YDB.",
       "source_path": "ru/core/reference/ydb-cli/workload-tpcc.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/workload-tpcc.md",
-      "bytes": 11025,
+      "bytes": 10804,
       "lang": "ru"
     },
     {
@@ -13843,7 +13843,7 @@
       "description": "Как описано в статье о подключении к серверу YDB, клиент с каждым запросом должен отправить аутентификационный токен. Аутентификационный токен проверяется серве",
       "source_path": "ru/core/reference/ydb-sdk/auth.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-sdk/auth.md",
-      "bytes": 22038,
+      "bytes": 21921,
       "lang": "ru"
     },
     {
@@ -14646,7 +14646,7 @@
       "description": " ALTER RESOURCE POOL изменяет определение пула ресурсов. Синтаксис Изменение параметров.",
       "source_path": "ru/core/yql/reference/syntax/alter-resource-pool.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-resource-pool.md",
-      "bytes": 5951,
+      "bytes": 5511,
       "lang": "ru"
     },
     {
@@ -14657,7 +14657,7 @@
       "description": " ALTER RESOURCE POOL CLASSIFIER изменяет определение классификатора пула ресурсов. Синтаксис Изменение параметров.",
       "source_path": "ru/core/yql/reference/syntax/alter-resource-pool-classifier.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-resource-pool-classifier.md",
-      "bytes": 3905,
+      "bytes": 3864,
       "lang": "ru"
     },
     {
@@ -14987,7 +14987,7 @@
       "description": " CREATE RESOURCE POOL создаёт пул ресурсов. Синтаксис. CREATE RESOURCE POOL <name> WITH ( <parameter_name> [= <parameter_value>] [,... ] ).",
       "source_path": "ru/core/yql/reference/syntax/create-resource-pool.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create-resource-pool.md",
-      "bytes": 7296,
+      "bytes": 6856,
       "lang": "ru"
     },
     {
@@ -14998,7 +14998,7 @@
       "description": " CREATE RESOURCE POOL CLASSIFIER создаёт пул классификаторов ресурсов. Синтаксис.",
       "source_path": "ru/core/yql/reference/syntax/create-resource-pool-classifier.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create-resource-pool-classifier.md",
-      "bytes": 5381,
+      "bytes": 5247,
       "lang": "ru"
     },
     {
@@ -15834,7 +15834,7 @@
       "description": "Серийные типы данных представляют собой целые числа, но с дополнительным механизмом генерации значений. Эти типы данных используются для создания автоинкрементн",
       "source_path": "ru/core/yql/reference/types/serial.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/types/serial.md",
-      "bytes": 5940,
+      "bytes": 5796,
       "lang": "ru"
     },
     {
@@ -15867,7 +15867,7 @@
       "description": " В данном разделе собрана информация про YSON — JSON-подобный формат данных, разработанный в Яндексе. Примечание. SQL-функции для работы с YSON описаны здесь.",
       "source_path": "ru/core/yql/reference/types/yson.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/types/yson.md",
-      "bytes": 17283,
+      "bytes": 17323,
       "lang": "ru"
     },
     {
@@ -16021,7 +16021,7 @@
       "description": " Функции для работы с ASCII-строками. Список функций. String::Base32Encode(string:String{Flags:AutoMap}) -> String.",
       "source_path": "ru/core/yql/reference/udf/list/string.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/string.md",
-      "bytes": 10005,
+      "bytes": 10051,
       "lang": "ru"
     },
     {
@@ -16060,10 +16060,12 @@
   ],
   "image_count": 378,
   "images_linked_at_site": [
+    "en/_assets/resources_weight.png",
     "en/concepts/query_execution/_assets/star_schema.png",
     "en/reference/embedded-ui/_assets/monitoring_main_page.png",
     "en/reference/embedded-ui/_assets/monitoring_storage_state.png",
     "en/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png",
+    "ru/_assets/resources_weight.png",
     "ru/concepts/query_execution/_assets/Star-Schema.png",
     "ru/reference/embedded-ui/_assets/monitoring_main_page.png",
     "ru/reference/embedded-ui/_assets/monitoring_storage_state.png",

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/hive.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/hive.md"
 description: "Hive is a tablet responsible for managing other tablets, including selecting nodes for them to run on and deciding when to rebalance tablets."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Hive
@@ -44,11 +44,9 @@ At certain moments, Hive may start an auto-balancing process that moves tablets 
 
 To quantify the balance of resource usage, Hive uses the *Scatter* metric, which is calculated separately for each resource using the following formula:
 
-Scatter=MaxUsage−MinUsageMaxUsage\\mathrm{Scatter} = \\frac{\\mathrm{MaxUsage} - \\mathrm{MinUsage}}{\\mathrm{MaxUsage}} Scatter=MaxUsageMaxUsage−MinUsage​
+and  are, respectively, the maximum and minimum usage of a resource across all nodes. To normalize consumption on each node, the number of available resources on the node is used, which may vary between nodes. Under low loads, this metric may fluctuate significantly. To avoid this, when calculating , it is assumed that resource usage cannot be lower than 30%. The balancer is triggered if  exceeds a threshold.
 
-MaxUsage\\mathrm{MaxUsage}MaxUsage and MinUsage\\mathrm{MinUsage}MinUsage are, respectively, the maximum and minimum usage of a resource across all nodes. To normalize consumption on each node, the number of available resources on the node is used, which may vary between nodes. Under low loads, this metric may fluctuate significantly. To avoid this, when calculating Scatter\\mathrm{Scatter}Scatter, it is assumed that resource usage cannot be lower than 30%. The balancer is triggered if ScatterScatterScatter exceeds a threshold.
-
-The maximum value of ScatterScatterScatter across different resources is available as the [sensor](../devops/observability/monitoring.md) `Hive/MAX(BalanceScatter)` in the `tablets` subgroup.
+The maximum value of  across different resources is available as the [sensor](../devops/observability/monitoring.md) `Hive/MAX(BalanceScatter)` in the `tablets` subgroup.
 
 ### Node Overload {#emergency}
 
@@ -58,6 +56,6 @@ The maximum resource usage on a node is reported by the `Hive/MAX(BalanceUsageMa
 
 ### Even Distribution for a Specific Object {#imbalance}
 
-For tablets that use the Counter resource, the evenness of tablet distribution for each object (each table) is tracked in the form of the `ObjectImbalance` metric, similar to the ScatterScatterScatter described above. Restarting nodes may break the balance in tablet distribution and trigger balancing.
+For tablets that use the Counter resource, the evenness of tablet distribution for each object (each table) is tracked in the form of the `ObjectImbalance` metric, similar to the  described above. Restarting nodes may break the balance in tablet distribution and trigger balancing.
 
 The maximum value of `ObjectImbalance` across different objects is reported by the `Hive/MAX(BalanceObjectImbalance)` [sensor](../devops/observability/monitoring.md) in the `tablets` subgroup.

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/primary-key/column-oriented.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/primary-key/column-oriented.md"
 description: "Unlike row-oriented YDB tables, column-oriented tables are partitioned by designated partitioning keys. Within each partition, data is distributed based on the"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Choosing keys for maximum column-oriented table performance

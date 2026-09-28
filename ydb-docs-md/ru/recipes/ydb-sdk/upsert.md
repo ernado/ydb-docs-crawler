@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/upsert.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/upsert.md"
 description: "Ниже приведены примеры кода использования встроенных в YDB SDK средств выполнения вставки: C++. Go. Java. Python. C#. JavaScript. Rust. PHP. Native SDK."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Вставка данных

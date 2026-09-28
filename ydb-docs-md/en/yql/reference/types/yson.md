@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/types/yson.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/yson.md"
 description: "This section describes YSON, a JSON-like data format developed at Yandex. Note. SQL functions for working with YSON are documented here. Introduction."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Yson
@@ -167,35 +167,35 @@ The trailing `;` after the last element inside `<list-fragment>` and `<map-fragm
 |  |  |
 | --- | --- |
 | With trailing `;` | Short form |
-| ```<br><a=b;>c<br>{a=b;}<br>1;2;3;<br>``` | ```<br><a=b>c<br>{a=b}<br>1;2;3<br>``` |
+| ```yson<br><a=b;>c<br>{a=b;}<br>1;2;3;<br>``` | ```yson<br><a=b>c<br>{a=b}<br>1;2;3<br>``` |
 
 ## Examples
 
 - Map (Node)
 
-```
+```yson
 { performance = 1 ; precision = 0.78 ; recall = 0.21 }
 ```
 
 - Map (Node)
 
-```
+```yson
 { cv-precision = [ 0.85 ; 0.24 ; 0.71 ; 0.70 ] }
 ```
 
 - List (Node)
 
-```
+```yson
 [ 1; 2; 3; 4; 5 ]
 ```
 
 - String (Node)
 
-```
+```yson
 foobar
 ```
 
-```
+```yson
 "hello world"
 ```
 
@@ -203,7 +203,7 @@ foobar
 - Double (Node) `3.1415926`
 - ListFragment
 
-```
+```yson
 { key = a; value = 0 };
 { key = b; value = 1 };
 { key = c; value = 2; unknown_value = [] }
@@ -211,13 +211,13 @@ foobar
 
 - MapFragment
 
-```
+```yson
 do = create; type = table; scheme = {}
 ```
 
 - HomeDirectory (Node)
 
-```
+```yson
 { home = { sandello = { mytable = <type = table> # ; anothertable = <type = table> # } ; monster = { } } }
 ```
 

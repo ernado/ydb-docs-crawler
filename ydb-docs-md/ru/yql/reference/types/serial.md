@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/types/serial.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/types/serial.md"
 description: "Серийные типы данных представляют собой целые числа, но с дополнительным механизмом генерации значений. Эти типы данных используются для создания автоинкрементн"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Серийные типы данных
@@ -60,12 +60,12 @@ UPSERT INTO users (user_id, name, email) VALUES (4, 'Peter', 'peter@example.com'
 
 | Тип | Максимальное значение | Тип значения |
 | --- | --- | --- |
-| `SmallSerial` | 215–12^{15}–1215–1 | `Int16` |
-| `Serial2` | 215–12^{15}–1215–1 | `Int16` |
-| `Serial` | 231–12^{31}–1231–1 | `Int32` |
-| `Serial4` | 231–12^{31}–1231–1 | `Int32` |
-| `Serial8` | 263–12^{63}–1263–1 | `Int64` |
-| `BigSerial` | 263–12^{63}–1263–1 | `Int64` |
+| `SmallSerial` |  | `Int16` |
+| `Serial2` |  | `Int16` |
+| `Serial` |  | `Int32` |
+| `Serial4` |  | `Int32` |
+| `Serial8` |  | `Int64` |
+| `BigSerial` |  | `Int64` |
 
 При переполнении `Sequence` на вставке будет возвращаться ошибка:
 

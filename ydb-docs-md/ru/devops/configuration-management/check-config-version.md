@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/check-config-version.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/check-config-version.md"
 description: "Существует два основных способа проверить, какую версию механизма конфигурации ( V1 или V2 ) используют узлы вашего кластера YDB: Через Embedded UI."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Проверка версии конфигурации

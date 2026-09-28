@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/docker/start.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/docker/start.md"
 description: "Перед началом работы. Создайте каталог для тестирования YDB и используйте его в качестве текущего рабочего каталога:"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Запуск YDB в Docker

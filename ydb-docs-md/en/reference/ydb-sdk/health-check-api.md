@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-sdk/health-check-api.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/health-check-api.md"
 description: "YDB has a built-in self-diagnostic system, which can be used to get a brief report on the database status and information about existing issues."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Health Check API
@@ -412,7 +412,7 @@ The status (severity) of the current issue `issue_log.status`:
   - Primary Source: `/sys/fs/cgroup/cpu.max`
   - Fallback Sources: `/sys/fs/cgroup/cpu/cpu.cfs_quota_us`, `/sys/fs/cgroup/cpu/cpu.cfs_period_us`
 
-The number of cores is calculated by dividing the quota by the period (quota/period)(quota / period)(quota/period).
+The number of cores is calculated by dividing the quota by the period .
 
 **Actions:** Check the CPU load on the nodes.
 

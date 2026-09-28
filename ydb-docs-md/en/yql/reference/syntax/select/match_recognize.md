@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/match_recognize.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/match_recognize.md"
 description: "The MATCH_RECOGNIZE expression performs pattern recognition in a sequence of rows and returns the found results. This functionality is important for various bus"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # MATCH_RECOGNIZE

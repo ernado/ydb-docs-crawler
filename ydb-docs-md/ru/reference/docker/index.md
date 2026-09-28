@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/docker/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/docker/index.md"
 description: "В данном разделе собраны подробности по работе с сервером YDB, поставляемым в виде Docker-контейнера."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Справка по работе YDB в Docker

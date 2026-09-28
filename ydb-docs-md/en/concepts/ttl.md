@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/ttl.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/ttl.md"
 description: "This section describes how the TTL mechanism works and what its limits are. How It Works."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Time to Live (TTL) and Eviction to External Storage

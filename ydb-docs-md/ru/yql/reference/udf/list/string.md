@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/udf/list/string.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/string.md"
 description: "Функции для работы с ASCII-строками. Список функций. String::Base32Encode(string:String{Flags:AutoMap}) -> String."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # String
@@ -37,6 +37,7 @@ revision: "610144200e326713a5926ef40527cb973f94a519"
 
 ```yql
 SELECT String::Base64Encode("YQL"); -- "WVFM"
+SELECT String::Base64Decode("WVFM"); -- "YQL"
 ```
 
 `String::Strip(string:String{Flags:AutoMap}) -> String`

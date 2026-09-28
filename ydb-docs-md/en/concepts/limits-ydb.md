@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/limits-ydb.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/limits-ydb.md"
 description: "This section describes the parameters of limits set in YDB. Schema Object Limits."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Database Limits
@@ -58,7 +58,7 @@ The table below lists the limits that apply to query execution.
 | Query duration | 2 hours | The maximum amount of time allowed for a single query to execute. | Returns status code `TIMEOUT` |
 | Maximum number of sessions per cluster node | 1,000 | The limit on the number of sessions that clients can create with each YDB node. | Returns status code `OVERLOADED` |
 | Maximum query text length | 10 KB | The maximum allowable length of YQL query text. | Returns status code `BAD_REQUEST` |
-| Maximum size of parameter values | 50 MB | The maximum total size of parameters passed when executing a previously prepared query. | Returns status code `BAD_REQUEST` |
+| Maximum size of parameter values | 50 MB | The maximum total size of parameters passed when executing a parameterized query. | Returns status code `BAD_REQUEST` |
 | Maximum size of a row | 50 MB | The maximum total size of all fields of a single row returned or produced by the query. | Returns status code `PRECONDITION_FAILED` |
 | Maximum number of [locks](glossary.md#optimistic-locking) per DataShard | 10,000 | The number of lock ranges per DataShard | Converts some locks to whole-shard locks, which use less memory but lock the entire shard instead of just a part. |
 

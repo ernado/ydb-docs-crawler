@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/types/yson.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/types/yson.md"
 description: "В данном разделе собрана информация про YSON — JSON-подобный формат данных, разработанный в Яндексе. Примечание. SQL-функции для работы с YSON описаны здесь."
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Yson
@@ -167,35 +167,35 @@ YSON-данные бывают трех типов:
 |  |  |
 | --- | --- |
 | C `;` на конце | Сокращенная запись |
-| ```<br><a=b;>c<br>{a=b;}<br>1;2;3;<br>``` | ```<br><a=b>c<br>{a=b}<br>1;2;3<br>``` |
+| ```yson<br><a=b;>c<br>{a=b;}<br>1;2;3;<br>``` | ```yson<br><a=b>c<br>{a=b}<br>1;2;3<br>``` |
 
 ## Примеры {#examples}
 
 - Map (Node)
 
-```
+```yson
 { performance = 1 ; precision = 0.78 ; recall = 0.21 }
 ```
 
 - Map (Node)
 
-```
+```yson
 { cv-precision = [ 0.85 ; 0.24 ; 0.71 ; 0.70 ] }
 ```
 
 - List (Node)
 
-```
+```yson
 [ 1; 2; 3; 4; 5 ]
 ```
 
 - String (Node)
 
-```
+```yson
 foobar
 ```
 
-```
+```yson
 "hello world"
 ```
 
@@ -203,7 +203,7 @@ foobar
 - Double (Node) `3.1415926`
 - ListFragment
 
-```
+```yson
 { key = a; value = 0 };
 { key = b; value = 1 };
 { key = c; value = 2; unknown_value = [] }
@@ -211,13 +211,13 @@ foobar
 
 - MapFragment
 
-```
+```yson
 do = create; type = table; scheme = {}
 ```
 
 - HomeDirectory (Node)
 
-```
+```yson
 { home = { sandello = { mytable = <type = table> # ; anothertable = <type = table> # } ; monster = { } } }
 ```
 

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/async-replication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/async-replication.md"
 description: "Асинхронная репликация позволяет синхронизировать данные между базами данных YDB почти в реальном времени. Также она может быть использована для миграции данных"
-revision: "610144200e326713a5926ef40527cb973f94a519"
+revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 ---
 
 # Асинхронная репликация
@@ -60,9 +60,7 @@ revision: "610144200e326713a5926ef40527cb973f94a519"
 
 После завершения первоначального сканирования читатели получают только данные об изменениях и записывают их в объекты-реплики.
 
-Для каждого изменения известно *время его возникновения* (created_atcreated\\_atcreated_at). В то же время читатели отслеживают *время получения* изменения (received_atreceived\\_atreceived_at). Таким образом, *отставание репликации* может быть вычислено по формуле:
-
-replication_lag=received_at−created_atreplication\\_lag = received\\_at - created\\_at replication_lag=received_at−created_at
+Для каждого изменения известно *время его возникновения* (). В то же время читатели отслеживают *время получения* изменения (). Таким образом, *отставание репликации* может быть вычислено по формуле:
 
 Отставание репликации также можно получить из [описания](../reference/ydb-cli/commands/scheme-describe.md) экземпляра асинхронной репликации.
 
