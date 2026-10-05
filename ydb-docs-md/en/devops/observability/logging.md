@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/observability/logging.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/observability/logging.md"
 description: "Each YDB component writes messages of different levels to logs. These can be used to detect critical problems or understand the causes of issues. Logging Setup."
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Logging in YDB

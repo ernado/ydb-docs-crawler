@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/analyst/limitations.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/limitations.md"
 description: "В данном разделе собраны важные особенности YDB, которые необходимо учитывать при проектировании приложений и написании запросов. Для каждой особенности описыва"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Известные ограничения
@@ -93,23 +93,45 @@ YDB гарантирует, что при многократном исполь�
 ### Отсутствие поддержки коррелированных подзапросов {#otsutstvie-podderzhki-korrelirovannyh-podzaprosov}
 
 Коррелированный подзапрос — это подзапрос, который ссылается на столбцы из внешнего запроса. В YQL такие подзапросы не поддерживаются.  
- Большинство случаев использования коррелированных подзапросов можно заменить с помощью `JOIN` и агрегатных функций.
+ Большинство случаев использования коррелированных подзапросов можно заменить с помощью `JOIN` и агрегатных функций.  
+ Полная матрица поддержки и правила преобразования приведены в разделе [Коррелированные подзапросы, EXISTS и NOT EXISTS](../yql/reference/syntax/correlated-subqueries.md).
 
 #### EXISTS
 
-Преобразование `EXISTS` → `INNER JOIN` с использованием `DISTINCT`.
+Преобразование коррелированного `EXISTS` → `LEFT SEMI JOIN` или `INNER JOIN`  
+ с уникальными ключами справа.
 
 Оригинальный запрос:
 
-```sql
+```yql
 SELECT a.* FROM A a WHERE EXISTS (
   SELECT 1 FROM B b WHERE b.key = a.key AND b.flag = 1
 );
 ```
 
-##### Решение {#reshenie3}
+##### Решение с LEFT SEMI JOIN {#reshenie-s-left-semi-join}
 
-```sql
+```yql
+$B_match = (
+  SELECT key
+  FROM B
+  WHERE flag = 1
+);
+
+SELECT a.*
+FROM A AS a
+LEFT SEMI JOIN $B_match AS b
+ON b.key = a.key;
+```
+
+##### Альтернатива с INNER JOIN {#alternativa-s-inner-join}
+
+Перед соединением удалите повторяющиеся ключи с правой стороны. Тогда несколько  
+ подходящих строк не будут дублировать строку слева. Применять `DISTINCT` к  
+ колонкам левой стороны не требуется: он может объединить одинаковые строки  
+ внешней выборки.
+
+```yql
 $B_match = (
   SELECT key
   FROM B
@@ -117,9 +139,9 @@ $B_match = (
   GROUP BY key
 );
 
-SELECT DISTINCT a.*
+SELECT a.*
 FROM A AS a
-JOIN $B_match AS b
+INNER JOIN $B_match AS b
 ON b.key = a.key;
 ```
 
@@ -129,14 +151,14 @@ ON b.key = a.key;
 
 Оригинальный запрос:
 
-```sql
+```yql
 SELECT a.*, (SELECT MAX(ts) FROM B b WHERE b.user_id = a.user_id) AS last_ts
 FROM A a;
 ```
 
-##### Решение {#reshenie4}
+##### Решение {#reshenie3}
 
-```sql
+```yql
 $B_last = (
   SELECT user_id, MAX(ts) AS last_ts
   FROM B
@@ -151,22 +173,29 @@ ON bl.user_id = a.user_id;
 
 #### NOT EXISTS
 
-`NOT EXISTS` → анти-джойн
+Преобразование коррелированного `NOT EXISTS` → `LEFT ONLY JOIN`.
 
-Оригинальный запрос
+Оригинальный запрос:
 
-```sql
+```yql
 SELECT a.* FROM A a WHERE NOT EXISTS (
   SELECT 1 FROM B b WHERE b.key = a.key AND b.flag = 1
 );
 ```
 
-##### Решение {#reshenie5}
+##### Решение {#reshenie4}
 
-```sql
-$B_keys = (SELECT DISTINCT key FROM B);
+```yql
+$B_match = (
+  SELECT key
+  FROM B
+  WHERE flag = 1
+);
 
-SELECT a.* FROM A AS a LEFT ONLY JOIN $B_keys AS b ON b.key = a.key;
+SELECT a.*
+FROM A AS a
+LEFT ONLY JOIN $B_match AS b
+ON b.key = a.key;
 ```
 
 ### Поддержка только equi-JOIN (соединения по равенству) {#podderzhka-tolko-equi-join-soedineniya-po-ravenstvu}
@@ -186,7 +215,7 @@ ON e.user_id = p.user_id
  AND e.ts >= p.start_ts
 ```
 
-#### Решение {#reshenie6}
+#### Решение {#reshenie5}
 
 ```sql
 SELECT e.event_id, e.user_id, e.ts
@@ -200,7 +229,7 @@ WHERE e.user_id = p.user_id
 
 YDB поддерживает [федеративные запросы](../concepts/query_execution/federated_query/index.md) к внешним источникам данных (таким как ClickHouse, PostgreSQL и др.). Этот механизм предназначен для быстрой ad-hoc аналитики и объединения данных «на лету», но не является оптимальным инструментом для массовой и регулярной загрузки больших объёмов данных (ETL/ELT). При использовании федеративных запросов для импорта вы можете столкнуться с ограничениями по поддерживаемым типам данных и выполнению запросов.
 
-### Решение {#reshenie7}
+### Решение {#reshenie6}
 
 1. Выгрузите данные из вашей СУБД в один из открытых форматов (рекомендуется `CSV`) в бакет Object Storage. Используйте команду `INSERT INTO ... SELECT FROM` для чтения данных из внешней таблицы, связанной с вашим бакетом в Object Storage. Этот подход позволяет эффективно распараллелить чтение данных.
 
@@ -265,7 +294,7 @@ FROM s3_my_columnstore_table_backup;
 - Слишком мало партиций: может привести к неравномерной загрузке вычислительных узлов (hotspots) и ограничить параллелизм выполнения запросов.
 - Слишком много партиций: может создать избыточную нагрузку на управляющий компонент базы данных (Scheme Shard) и увеличить накладные расходы на обработку запросов.
 
-### Решение {#reshenie8}
+### Решение {#reshenie7}
 
 - Начальное количество партиций: для базовой оценки числа партиций можно использовать формулу `(количество узлов * 4)`. Это позволит максимально утилизировать ресурсы кластера при выполнении параллельных запросов.
 - Выбирайте число партиций с учётом ожидаемого роста объёма данных и увеличения количества узлов в кластере.
@@ -276,7 +305,7 @@ FROM s3_my_columnstore_table_backup;
 
 Производительность аналитических запросов при колоночном хранении данных достигается за счёт механизмов, основанных на физической организации данных: колоночное хранение, партиционирование, сортировка по первичному ключу.
 
-### Решение {#reshenie9}
+### Решение {#reshenie8}
 
 Уделите особое внимание ключам партиционирования и первичным ключам, как описано в разделе [Выбор ключей для максимальной производительности колоночных таблиц](../dev/primary-key/column-oriented.md).
 
@@ -291,6 +320,6 @@ FROM s3_my_columnstore_table_backup;
 
 Не рекомендуется совмещать OLTP- и OLAP-нагрузки в одной базе данных. OLAP-нагрузки могут негативно влиять на OLTP, увеличивая время выполнения запросов.
 
-### Решение {#reshenie10}
+### Решение {#reshenie9}
 
 Для обеспечения стабильной и предсказуемой производительности обоих контуров используйте две отдельные базы данных YDB: одну для OLTP, другую для OLAP. Для синхронизации данных между ними используйте механизм Change Data Capture (CDC) и сервис [Трансфер данных](../concepts/transfer.md), который позволяет в потоковом режиме доставлять изменения из OLTP-базы в OLAP-базу.

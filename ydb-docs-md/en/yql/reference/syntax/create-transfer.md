@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create-transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-transfer.md"
 description: "Creates a transfer from a topic to a table. Syntax: CREATE TRANSFER transfer_name FROM topic_name TO table_name USING lambda WITH ( option = value[,...])."
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # CREATE TRANSFER
@@ -45,7 +45,7 @@ WITH (option = value[, ...])
       - `USER` — the username.
       - `PASSWORD_SECRET_PATH` — the [secret](../../../concepts/datamodel/secrets.md) that contains the password.
 
-    - Using a [delegated service account](https://yandex.cloud/ru/docs/iam/concepts/service-control):
+    - Using a [service agent](https://yandex.cloud/ru/docs/iam/concepts/service-control?utm_referrer=about%3Ablank#service-agent):
 
       - `SERVICE_ACCOUNT_ID` — the identificator of the service account.
       - `INITIAL_TOKEN_SECRET_PATH` — the [secret](../../../concepts/datamodel/secrets.md) that contains the account's token. It is used for initial authentication.

@@ -280,6 +280,9 @@
       - [Overview](en/yql/reference/syntax/index.md)
       - [Lexical structure](en/yql/reference/syntax/lexer.md)
       - [Expressions](en/yql/reference/syntax/expressions.md)
+      - Limitations
+        - [Correlated subqueries](en/yql/reference/syntax/correlated-subqueries.md)
+        - [Unsupported statements](en/yql/reference/syntax/not_yet_supported.md)
       - [ACTION](en/yql/reference/syntax/action.md)
       - [ALTER ASYNC REPLICATION](en/yql/reference/syntax/alter-async-replication.md)
       - ALTER DATABASE
@@ -382,7 +385,6 @@
       - [UPSERT](en/yql/reference/syntax/upsert_into.md)
       - [UPSERT OBJECT TYPE SECRET](en/yql/reference/syntax/upsert-object-type-secret.md)
       - [VALUES](en/yql/reference/syntax/values.md)
-      - [Unsupported statements](en/yql/reference/syntax/not_yet_supported.md)
     - Built-in functions
       - [Overview](en/yql/reference/builtins/index.md)
       - [Basic](en/yql/reference/builtins/basic.md)

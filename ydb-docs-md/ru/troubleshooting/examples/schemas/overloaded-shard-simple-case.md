@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md"
 description: "В этой статье рассматривается пример диагностики перегруженных шардов и решения этой проблемы."
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Пример диагностики перегруженных шардов

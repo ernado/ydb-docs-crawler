@@ -282,6 +282,9 @@
       - [Обзор](ru/yql/reference/syntax/index.md)
       - [Лексическая структура](ru/yql/reference/syntax/lexer.md)
       - [Выражения](ru/yql/reference/syntax/expressions.md)
+      - Ограничения
+        - [Коррелированные подзапросы](ru/yql/reference/syntax/correlated-subqueries.md)
+        - [Неподдерживаемые конструкции](ru/yql/reference/syntax/not_yet_supported.md)
       - [ACTION](ru/yql/reference/syntax/action.md)
       - [ALTER ASYNC REPLICATION](ru/yql/reference/syntax/alter-async-replication.md)
       - ALTER DATABASE
@@ -383,7 +386,6 @@
       - [UPSERT](ru/yql/reference/syntax/upsert_into.md)
       - [UPSERT OBJECT TYPE SECRET](ru/yql/reference/syntax/upsert-object-type-secret.md)
       - [VALUES](ru/yql/reference/syntax/values.md)
-      - [Неподдерживаемые конструкции](ru/yql/reference/syntax/not_yet_supported.md)
     - Встроенные функции
       - [Обзор](ru/yql/reference/builtins/index.md)
       - [Базовые](ru/yql/reference/builtins/basic.md)

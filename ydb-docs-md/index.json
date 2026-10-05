@@ -4,20 +4,20 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "8c7501e02fd7c6de0c7110aafa90f78948400f1e",
-      "page_count": 725,
+      "revision": "259414a47522df8faa233e3f6fd5c97bc5325d93",
+      "page_count": 726,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "8c7501e02fd7c6de0c7110aafa90f78948400f1e",
-      "page_count": 733,
+      "revision": "259414a47522df8faa233e3f6fd5c97bc5325d93",
+      "page_count": 734,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
     }
   ],
-  "page_count": 1458,
+  "page_count": 1460,
   "pages": [
     {
       "doc_path": "en/",
@@ -126,7 +126,7 @@
       "description": "This section collects important features of YDB that must be considered when designing applications and writing queries. For each feature, the current behavior ",
       "source_path": "en/core/analyst/limitations.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/limitations.md",
-      "bytes": 13070,
+      "bytes": 13781,
       "lang": "en"
     },
     {
@@ -533,7 +533,7 @@
       "description": "This article is an overview of terms and definitions used in YDB and its documentation. It starts with key terms that will be useful to get acquainted with earl",
       "source_path": "en/core/concepts/glossary.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/glossary.md",
-      "bytes": 67519,
+      "bytes": 68020,
       "lang": "en"
     },
     {
@@ -4108,7 +4108,7 @@
       "description": "The feature_flags section enables or disables specific YDB features using boolean flags. To enable a feature, set the corresponding feature flag to true in the ",
       "source_path": "en/core/reference/configuration/feature_flags.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/feature_flags.md",
-      "bytes": 2619,
+      "bytes": 2762,
       "lang": "en"
     },
     {
@@ -6561,7 +6561,7 @@
       "description": " The ALTER ASYNC REPLICATION statement modifies the status and parameters of an asynchronous replication instance. Syntax.",
       "source_path": "en/core/yql/reference/syntax/alter-async-replication.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-async-replication.md",
-      "bytes": 2788,
+      "bytes": 2817,
       "lang": "en"
     },
     {
@@ -6638,7 +6638,7 @@
       "description": " The ALTER TRANSFER statement modifies the parameters and state of a transfer instance. Syntax.",
       "source_path": "en/core/yql/reference/syntax/alter-transfer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-transfer.md",
-      "bytes": 6243,
+      "bytes": 6272,
       "lang": "en"
     },
     {
@@ -6851,6 +6851,17 @@
       "lang": "en"
     },
     {
+      "doc_path": "en/yql/reference/syntax/correlated-subqueries",
+      "url": "https://ydb.tech/docs/en/yql/reference/syntax/correlated-subqueries?version=v26.1",
+      "file": "en/yql/reference/syntax/correlated-subqueries.md",
+      "title": "Correlated subqueries, EXISTS, and NOT EXISTS",
+      "description": "A correlated subquery refers to a column or table alias from an outer query. Each subquery in YQL has its own scope and cannot refer to columns or table aliases",
+      "source_path": "en/core/yql/reference/syntax/correlated-subqueries.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/correlated-subqueries.md",
+      "bytes": 4475,
+      "lang": "en"
+    },
+    {
       "doc_path": "en/yql/reference/syntax/create-async-replication",
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/create-async-replication?version=v26.1",
       "file": "en/yql/reference/syntax/create-async-replication.md",
@@ -6979,7 +6990,7 @@
       "description": " Creates a transfer from a topic to a table. Syntax: CREATE TRANSFER transfer_name FROM topic_name TO table_name USING lambda WITH ( option = value[,...]).",
       "source_path": "en/core/yql/reference/syntax/create-transfer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-transfer.md",
-      "bytes": 9915,
+      "bytes": 9944,
       "lang": "en"
     },
     {
@@ -7320,7 +7331,7 @@
       "description": " It lets you combine multiple data sources (subqueries or tables) by equality of values in the specified columns or expressions (the JOIN keys). Syntax.",
       "source_path": "en/core/yql/reference/syntax/select/join.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/join.md",
-      "bytes": 4780,
+      "bytes": 4997,
       "lang": "en"
     },
     {
@@ -7339,10 +7350,10 @@
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/not_yet_supported?version=v26.1",
       "file": "en/yql/reference/syntax/not_yet_supported.md",
       "title": "Classic SQL constructs not supported yet",
-      "description": " [NOT] [EXISTS|INTERSECT|EXCEPT].",
+      "description": " Correlated EXISTS and NOT EXISTS.",
       "source_path": "en/core/yql/reference/syntax/not_yet_supported.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/not_yet_supported.md",
-      "bytes": 1026,
+      "bytes": 1266,
       "lang": "en"
     },
     {
@@ -7496,7 +7507,7 @@
       "description": " It lets you combine multiple data sources (subqueries or tables) by equality of values in the specified columns or expressions (the JOIN keys). Syntax.",
       "source_path": "en/core/yql/reference/syntax/select/join.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/join.md",
-      "bytes": 4794,
+      "bytes": 5014,
       "lang": "en"
     },
     {
@@ -7603,10 +7614,10 @@
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/select/where?version=v26.1",
       "file": "en/yql/reference/syntax/select/where.md",
       "title": "WHERE",
-      "description": " Filtering rows in the SELECT result based on a condition in row-oriented or column-oriented. Example. SELECT key FROM my_table WHERE value > 0;",
+      "description": " Filtering rows in the SELECT result based on a condition in row-oriented or column-oriented. Example. SELECT key FROM my_table WHERE value > 0; Warning.",
       "source_path": "en/core/yql/reference/syntax/select/where.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/where.md",
-      "bytes": 863,
+      "bytes": 1226,
       "lang": "en"
     },
     {
@@ -8101,7 +8112,7 @@
       "description": "В данном разделе собраны важные особенности YDB, которые необходимо учитывать при проектировании приложений и написании запросов. Для каждой особенности описыва",
       "source_path": "ru/core/analyst/limitations.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/limitations.md",
-      "bytes": 21744,
+      "bytes": 22853,
       "lang": "ru"
     },
     {
@@ -8497,7 +8508,7 @@
       "description": "Эта статья представляет собой обзор терминов и определений, используемых в YDB и её документации. Он начинается с ключевых терминов, с которыми полезно ознакоми",
       "source_path": "ru/core/concepts/glossary.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/glossary.md",
-      "bytes": 126576,
+      "bytes": 129134,
       "lang": "ru"
     },
     {
@@ -9806,7 +9817,7 @@
       "description": " Примечание.",
       "source_path": "ru/core/devops/backup-and-recovery/system-tablet-backup.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/backup-and-recovery/system-tablet-backup.md",
-      "bytes": 27844,
+      "bytes": 33082,
       "lang": "ru"
     },
     {
@@ -12160,7 +12171,7 @@
       "description": "Секция feature_flags включает или отключает определённые функции YDB с помощью булевых флагов. Для включения функции установите соответствующий функциональный ф",
       "source_path": "ru/core/reference/configuration/feature_flags.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/feature_flags.md",
-      "bytes": 4031,
+      "bytes": 4276,
       "lang": "ru"
     },
     {
@@ -14624,7 +14635,7 @@
       "description": " Вызов ALTER ASYNC REPLICATION изменяет параметры и состояние экземпляра асинхронной репликации. Синтаксис.",
       "source_path": "ru/core/yql/reference/syntax/alter-async-replication.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-async-replication.md",
-      "bytes": 3603,
+      "bytes": 3609,
       "lang": "ru"
     },
     {
@@ -14701,7 +14712,7 @@
       "description": " Вызов ALTER TRANSFER изменяет параметры и состояние экземпляра трансфера. Синтаксис. ALTER TRANSFER <name> [ SET USING lambda | SET ( option = value [,...])].",
       "source_path": "ru/core/yql/reference/syntax/alter-transfer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-transfer.md",
-      "bytes": 8987,
+      "bytes": 8993,
       "lang": "ru"
     },
     {
@@ -14903,6 +14914,17 @@
       "lang": "ru"
     },
     {
+      "doc_path": "ru/yql/reference/syntax/correlated-subqueries",
+      "url": "https://ydb.tech/docs/ru/yql/reference/syntax/correlated-subqueries?version=v26.1",
+      "file": "ru/yql/reference/syntax/correlated-subqueries.md",
+      "title": "Коррелированные подзапросы, EXISTS и NOT EXISTS",
+      "description": "Коррелированный подзапрос обращается к колонке или псевдониму таблицы из внешнего запроса. Каждый подзапрос в YQL имеет собственную область видимости и не может",
+      "source_path": "ru/core/yql/reference/syntax/correlated-subqueries.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/correlated-subqueries.md",
+      "bytes": 7192,
+      "lang": "ru"
+    },
+    {
       "doc_path": "ru/yql/reference/syntax/create-async-replication",
       "url": "https://ydb.tech/docs/ru/yql/reference/syntax/create-async-replication?version=v26.1",
       "file": "ru/yql/reference/syntax/create-async-replication.md",
@@ -14910,7 +14932,7 @@
       "description": " Вызов CREATE ASYNC REPLICATION создает экземпляр асинхронной репликации. Синтаксис.",
       "source_path": "ru/core/yql/reference/syntax/create-async-replication.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create-async-replication.md",
-      "bytes": 8196,
+      "bytes": 8202,
       "lang": "ru"
     },
     {
@@ -15042,7 +15064,7 @@
       "description": " Создает трансфер из топика в таблицу. Синтаксис: CREATE TRANSFER transfer_name FROM topic_name TO table_name USING lambda WITH ( option = value[,...]).",
       "source_path": "ru/core/yql/reference/syntax/create-transfer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create-transfer.md",
-      "bytes": 13538,
+      "bytes": 13544,
       "lang": "ru"
     },
     {
@@ -15383,7 +15405,7 @@
       "description": " Позволяет объединить несколько источников данных (подзапросов или таблиц) по равенству значений указанных столбцов или выражений (ключей JOIN ). Синтаксис.",
       "source_path": "ru/core/yql/reference/syntax/select/join.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/join.md",
-      "bytes": 7954,
+      "bytes": 8308,
       "lang": "ru"
     },
     {
@@ -15402,10 +15424,10 @@
       "url": "https://ydb.tech/docs/ru/yql/reference/syntax/not_yet_supported?version=v26.1",
       "file": "ru/yql/reference/syntax/not_yet_supported.md",
       "title": "Ещё не поддерживаемые конструкции из классического SQL",
-      "description": " [NOT] [EXISTS|INTERSECT|EXCEPT].",
+      "description": " Коррелированные EXISTS и NOT EXISTS.",
       "source_path": "ru/core/yql/reference/syntax/not_yet_supported.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/not_yet_supported.md",
-      "bytes": 1478,
+      "bytes": 1832,
       "lang": "ru"
     },
     {
@@ -15559,7 +15581,7 @@
       "description": " Позволяет объединить несколько источников данных (подзапросов или таблиц) по равенству значений указанных столбцов или выражений (ключей JOIN ). Синтаксис.",
       "source_path": "ru/core/yql/reference/syntax/select/join.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/join.md",
-      "bytes": 7968,
+      "bytes": 8325,
       "lang": "ru"
     },
     {
@@ -15655,10 +15677,10 @@
       "url": "https://ydb.tech/docs/ru/yql/reference/syntax/select/where?version=v26.1",
       "file": "ru/yql/reference/syntax/select/where.md",
       "title": "WHERE",
-      "description": " Фильтрация строк в результате выполнения SELECT по условию в колоночной или строковой таблице. Пример. SELECT key FROM my_table WHERE value > 0;",
+      "description": " Фильтрация строк в результате выполнения SELECT по условию в колоночной или строковой таблице. Пример. SELECT key FROM my_table WHERE value > 0; Важно.",
       "source_path": "ru/core/yql/reference/syntax/select/where.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/where.md",
-      "bytes": 908,
+      "bytes": 1539,
       "lang": "ru"
     },
     {
@@ -16061,12 +16083,7 @@
   "image_count": 378,
   "images_linked_at_site": [
     "en/_assets/resources_weight.png",
-    "en/concepts/query_execution/_assets/star_schema.png",
-    "en/reference/embedded-ui/_assets/monitoring_main_page.png",
-    "en/reference/embedded-ui/_assets/monitoring_storage_state.png",
     "en/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png",
-    "ru/_assets/resources_weight.png",
-    "ru/concepts/query_execution/_assets/Star-Schema.png",
     "ru/reference/embedded-ui/_assets/monitoring_main_page.png",
     "ru/reference/embedded-ui/_assets/monitoring_storage_state.png",
     "ru/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png"
@@ -16198,5 +16215,31 @@
       "link": "debug-prometheus.md"
     }
   ],
-  "broken_images": []
+  "broken_images": [
+    {
+      "asset": "en/concepts/query_execution/_assets/star_schema.png",
+      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/concepts/query_execution/_assets/star_schema.png",
+      "status": "404"
+    },
+    {
+      "asset": "en/reference/embedded-ui/_assets/monitoring_main_page.png",
+      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/reference/embedded-ui/_assets/monitoring_main_page.png",
+      "status": "404"
+    },
+    {
+      "asset": "en/reference/embedded-ui/_assets/monitoring_storage_state.png",
+      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/reference/embedded-ui/_assets/monitoring_storage_state.png",
+      "status": "404"
+    },
+    {
+      "asset": "ru/_assets/resources_weight.png",
+      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/ru/core/_assets/resources_weight.png",
+      "status": "404"
+    },
+    {
+      "asset": "ru/concepts/query_execution/_assets/Star-Schema.png",
+      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/ru/core/concepts/query_execution/_assets/Star-Schema.png",
+      "status": "404"
+    }
+  ]
 }

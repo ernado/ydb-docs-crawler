@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/hardware/cpu-bottleneck.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/hardware/cpu-bottleneck.md"
 description: "High CPU usage can lead to slow query processing and increased response times. When CPU resources are constrained, the database may have difficulty handling com"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # CPU bottleneck
@@ -28,7 +28,7 @@ YDB nodes primarily consume CPU resources for running [actors](../../../concepts
 
    4. On the **Info** tab, click the **CPU** button and see if any pools show high CPU usage.
 
-      ![](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/8c7501e02fd7c6de0c7110aafa90f78948400f1e/en/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png)
+      ![](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/259414a47522df8faa233e3f6fd5c97bc5325d93/en/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png)
 
 2. Use Grafana charts to analyze CPU utilization in all pools:
 

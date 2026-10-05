@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/streaming-query/guarantees.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/guarantees.md"
 description: "Delivery guarantees determine how many times each event from the input topic will be processed by a streaming query. Understanding the system's guarantees is cr"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Data delivery guarantees

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/analyst/limitations.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/limitations.md"
 description: "This section collects important features of YDB that must be considered when designing applications and writing queries. For each feature, the current behavior"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Limitations
@@ -90,26 +90,48 @@ SELECT * FROM $base WHERE event_ts > CurrentUtcTimestamp()
 
 YDB guarantees that when a named expression is used multiple times within a single transaction, the same data will be read. This is ensured by the transaction isolation level [Serializable](../concepts/transactions.md#modes).
 
-### Correlated subqueries are not supported
+### Lack of support for correlated subqueries
 
-A correlated subquery is a subquery that references columns from an external query. In YQL, such subqueries are not supported.  
- Most cases of using correlated subqueries can be replaced with `JOIN` and aggregate functions.
+A correlated subquery is a subquery that references columns from an outer query. Such subqueries are not supported in YQL.  
+ Most use cases of correlated subqueries can be replaced using `JOIN` and aggregate functions.  
+ The complete support matrix and rewrite rules are available in [Correlated subqueries, EXISTS, and NOT EXISTS](../yql/reference/syntax/correlated-subqueries.md).
 
 #### EXISTS
 
-Conversion of `EXISTS` → `INNER JOIN` using `DISTINCT`.
+Transformation of correlated `EXISTS` → `LEFT SEMI JOIN` or `INNER JOIN`  
+ with unique keys on the right side.
 
 Original query:
 
-```sql
+```yql
 SELECT a.* FROM A a WHERE EXISTS (
   SELECT 1 FROM B b WHERE b.key = a.key AND b.flag = 1
 );
 ```
 
-##### Solution {#solution3}
+##### Solution with LEFT SEMI JOIN
 
-```sql
+```yql
+$B_match = (
+  SELECT key
+  FROM B
+  WHERE flag = 1
+);
+
+SELECT a.*
+FROM A AS a
+LEFT SEMI JOIN $B_match AS b
+ON b.key = a.key;
+```
+
+##### Alternative with INNER JOIN
+
+Deduplicate the matching keys on the right side before joining. This prevents  
+ several matching rows from duplicating a row from the left side. Applying  
+ `DISTINCT` to the left-side columns is unnecessary and can collapse equal rows  
+ from the outer input.
+
+```yql
 $B_match = (
   SELECT key
   FROM B
@@ -117,9 +139,9 @@ $B_match = (
   GROUP BY key
 );
 
-SELECT DISTINCT a.*
+SELECT a.*
 FROM A AS a
-JOIN $B_match AS b
+INNER JOIN $B_match AS b
 ON b.key = a.key;
 ```
 
@@ -129,14 +151,14 @@ Scalar subquery with an aggregate → aggregation + JOIN
 
 Original query:
 
-```sql
+```yql
 SELECT a.*, (SELECT MAX(ts) FROM B b WHERE b.user_id = a.user_id) AS last_ts
 FROM A a;
 ```
 
-##### Solution {#solution4}
+##### Solution {#solution3}
 
-```sql
+```yql
 $B_last = (
   SELECT user_id, MAX(ts) AS last_ts
   FROM B
@@ -151,22 +173,29 @@ ON bl.user_id = a.user_id;
 
 #### NOT EXISTS
 
-`NOT EXISTS` → anti-JOIN
+Transformation of correlated `NOT EXISTS` → `LEFT ONLY JOIN`.
 
-Original query
+Original query:
 
-```sql
+```yql
 SELECT a.* FROM A a WHERE NOT EXISTS (
   SELECT 1 FROM B b WHERE b.key = a.key AND b.flag = 1
 );
 ```
 
-##### Solution {#solution5}
+##### Solution {#solution4}
 
-```sql
-$B_keys = (SELECT DISTINCT key FROM B);
+```yql
+$B_match = (
+  SELECT key
+  FROM B
+  WHERE flag = 1
+);
 
-SELECT a.* FROM A AS a LEFT ONLY JOIN $B_keys AS b ON b.key = a.key;
+SELECT a.*
+FROM A AS a
+LEFT ONLY JOIN $B_match AS b
+ON b.key = a.key;
 ```
 
 ### Only equi-JOIN (JOIN by equality) is supported
@@ -186,7 +215,7 @@ ON e.user_id = p.user_id
  AND e.ts >= p.start_ts
 ```
 
-#### Solution {#solution6}
+#### Solution {#solution5}
 
 ```sql
 SELECT e.event_id, e.user_id, e.ts
@@ -200,7 +229,7 @@ WHERE e.user_id = p.user_id
 
 YDB supports [federated queries](../concepts/query_execution/federated_query/index.md) to external data sources (such as ClickHouse, PostgreSQL, etc.). This mechanism is designed for quick ad-hoc analytics and data "on the fly" merging, but is not an optimal tool for mass and regular loading of large volumes of data (ETL/ELT). When using federated queries for import, you may encounter limitations on supported data types and query execution.
 
-### Solution {#solution7}
+### Solution {#solution6}
 
 1. Export data from your database to one of the open formats (recommended `CSV`) to the Object Storage bucket. Use the `INSERT INTO ... SELECT FROM` command to read data from an external table associated with your bucket in Object Storage. This approach allows efficient parallel reading of data.
 
@@ -265,7 +294,7 @@ The correct choice of the number of partitions is an important aspect of data sc
 - Too few partitions: can lead to uneven loading of computational nodes (hotspots) and limit the parallelism of query execution.
 - Too many partitions: can create excessive load on the database management component (Scheme Shard) and increase the overhead of processing queries.
 
-### Solution {#solution8}
+### Solution {#solution7}
 
 - Initial number of partitions: for a basic estimate of the number of partitions, you can use the formula `(number of nodes * 4)`. This will allow you to maximally utilize the resources of the cluster when executing parallel queries.
 - Choose the number of partitions taking into account the expected growth of data volume and the increase in the number of nodes in the cluster.
@@ -276,7 +305,7 @@ The correct choice of the number of partitions is an important aspect of data sc
 
 The performance of analytical queries with column-oriented data storage is achieved through mechanisms based on physical data organization: column storage, partitioning, sorting by primary key.
 
-### Solution {#solution9}
+### Solution {#solution8}
 
 Pay special attention to the partitioning keys and primary keys, as described in the section [Choosing keys for maximum column-oriented table performance](../dev/primary-key/column-oriented.md).
 
@@ -291,6 +320,6 @@ When a heavy OLAP query starts executing, it can monopolize the resources of the
 
 It is not recommended to mix OLTP and OLAP loads in one database. OLAP loads can negatively affect OLTP, increasing the time to execute queries.
 
-### Solution {#solution10}
+### Solution {#solution9}
 
 To ensure stable and predictable performance for both loops, use two separate databases YDB: one for OLTP, one for OLAP. Use the Change Data Capture (CDC) mechanism and the [Data transfer](../concepts/transfer.md) service to deliver changes from the OLTP database to the OLAP database in a streaming mode.

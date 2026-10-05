@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/resource-consumption-management.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/resource-consumption-management.md"
 description: "Пулы ресурсов позволяют изолировать ресурсы баз данных между выполняемыми запросами или же настраивать стратегии распределения ресурсов в случае переподписки (з"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Workload Manager — управление потреблением ресурсов
@@ -69,7 +69,7 @@ Issues:
 
 ### Распределение ресурсов в соответствии с RESOURCES_WEIGHT {#resources_weight}
 
-![resource_pools](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/8c7501e02fd7c6de0c7110aafa90f78948400f1e/ru/_assets/resources_weight.png)
+![resource_pools](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/ru/core/_assets/resources_weight.png)
 
 Параметр `RESOURCES_WEIGHT` начинает работать только в случае переподписки и при наличии более одного пула ресурсов в системе. В текущей реализации `RESOURCES_WEIGHT` влияет только на распределение ресурсов `vCPU`. Когда в пуле ресурсов появляются запросы, он начинает участвовать в распределении ресурсов. Для этого в пулах происходит перерасчёт лимитов согласно алгоритму [Max-min fairness](https://en.wikipedia.org/wiki/Max-min_fairness). Само перераспределение ресурсов выполняется на каждом вычислительном узле индивидуально, как показано на рисунке выше.
 

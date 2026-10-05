@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/hardware/insufficient-memory.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/hardware/insufficient-memory.md"
 description: "Если swap (paging of anonymous memory) отключён на сервере YDB, недостаточный объём памяти активирует механизм ядра системы OOM killer, который завершает процес"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Недостаточный объём памяти (RAM)

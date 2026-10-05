@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/hive-booting.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/hive-booting.md"
 description: "This article describes the process of launching tablets from the perspective of Hive. Hive makes decisions about launching tablets in various situations:"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Tablet Boot Process

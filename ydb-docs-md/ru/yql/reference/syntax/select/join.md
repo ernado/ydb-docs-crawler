@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/select/join.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/join.md"
 description: "Позволяет объединить несколько источников данных (подзапросов или таблиц) по равенству значений указанных столбцов или выражений (ключей JOIN ). Синтаксис."
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # JOIN
@@ -46,6 +46,10 @@ WHERE  ...
 - `LEFT/RIGHT ONLY` — вычитание множеств по ключам (blacklist). Практически эквивалентно добавлению условия `IS NULL` на ключ противоположной стороны в обычном `LEFT/RIGHT`, но, как и в `SEMI`, нет доступа к значениям;
 - `CROSS` — декартово произведение двух таблиц целиком без указания ключевых колонок, секция с `ON/USING` явно не пишется;
 - `EXCLUSION` — обе стороны минус пересечение.
+
+Используйте `LEFT SEMI JOIN` вместо коррелированного подзапроса `EXISTS`, а  
+ `LEFT ONLY JOIN` — вместо коррелированного `NOT EXISTS`. Подробнее см. в разделе  
+ [Коррелированные подзапросы, EXISTS и NOT EXISTS](../correlated-subqueries.md).
 
 ![JOIN](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/ru/core/yql/reference/syntax/select/_assets/join-YQL-06.png)
 

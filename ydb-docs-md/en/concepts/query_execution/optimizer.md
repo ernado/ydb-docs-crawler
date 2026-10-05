@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/optimizer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/optimizer.md"
 description: "YDB uses two types of query optimizers: a rule-based optimizer and a cost-based optimizer. The cost-based optimizer is used for complex queries, typically analy"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Query Optimization in YDB
@@ -56,7 +56,7 @@ GROUP BY
 
 In this query graph, all `Dim...` tables are joined to the `Fact_Sales` fact table:
 
-![Join graph](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/8c7501e02fd7c6de0c7110aafa90f78948400f1e/en/concepts/query_execution/_assets/star_schema.png)
+![Join graph](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/concepts/query_execution/_assets/star_schema.png)
 
 Common topologies also include chains and cliques. A "chain" is a topology where tables are connected to each other sequentially and each table participates in no more than one join. A "clique" is a fully connected graph where each table is connected to every other table.
 

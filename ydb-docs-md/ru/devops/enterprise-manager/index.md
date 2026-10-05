@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/enterprise-manager/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/enterprise-manager/index.md"
 description: "YDB Enterprise Manager (далее — YDB EM) — это инструмент для централизованного управления кластерами YDB через веб-интерфейс и API. Примечание."
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # YDB Enterprise Manager

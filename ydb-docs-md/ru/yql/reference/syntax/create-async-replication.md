@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/create-async-replication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create-async-replication.md"
 description: "Вызов CREATE ASYNC REPLICATION создает экземпляр асинхронной репликации. Синтаксис."
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # CREATE ASYNC REPLICATION
@@ -46,7 +46,7 @@ WITH (option = value [, ...])
     - `USER` — имя пользователя.
     - `PASSWORD_SECRET_PATH` — [секрет](../../../concepts/datamodel/secrets.md), содержащий пароль.
 
-  - С помощью [делегированного сервисного аккаунта](https://yandex.cloud/ru/docs/iam/concepts/service-control):
+  - С помощью [сервисного агента](https://yandex.cloud/ru/docs/iam/concepts/service-control?utm_referrer=about%3Ablank#service-agent):
 
     - `SERVICE_ACCOUNT_ID` — идентификатор сервисного аккаунта.
     - `INITIAL_TOKEN_SECRET_PATH` — [секрет](../../../concepts/datamodel/secrets.md), содержащий токен от сервисного аккаунта. Используется для первоначальной инициализации.

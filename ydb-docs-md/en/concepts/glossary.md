@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/glossary.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/glossary.md"
 description: "This article is an overview of terms and definitions used in YDB and its documentation. It starts with key terms that will be useful to get acquainted with earl"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # YDB glossary
@@ -120,12 +120,7 @@ An **implicit transaction** is the query execution mode used when the [transacti
 
 ### Interactive transactions {#interactive-transaction}
 
-The term **interactive transactions** refers to transactions that are split into multiple queries and involve data processing by an application between these queries. For example:
-
-1. Select some data.
-2. Process the selected data in the application.
-3. Update some data in the database.
-4. Commit the transaction in a separate query.
+An **interactive transaction** is a transaction in which multiple queries are executed, with application logic potentially running between them. It allows the program to send multiple queries and make decisions about the further course of the transaction based on the data received. Such a transaction can explicitly begin with a separate step (or open together with the first query) and complete separately. Unlike a single query that is executed and committed atomically, an interactive transaction enables building complex workflows in which multiple related operations are treated as a single atomic unit. At the same time, it incurs overhead on the system, as it requires holding [optimistic locks](glossary.md#optimistic-locking) and uncommitted changes for longer, and also increases the complexity of the application-side code.
 
 ### Sessions
 

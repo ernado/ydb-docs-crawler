@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/index.md"
 description: "В этом разделе документации содержится справочная информация по различным аспектам YDB, включая: YQL - Обзор. Использование встроенного web-интерфейса."
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Справка по YDB

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/recipes/accessing-json.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/recipes/accessing-json.md"
 description: "YQL предоставляет два основных способа извлечения значений из JSON:"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Доступ к значениям в JSON с помощью YQL

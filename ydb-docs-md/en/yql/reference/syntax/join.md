@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/join.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/join.md"
 description: "It lets you combine multiple data sources (subqueries or tables) by equality of values in the specified columns or expressions (the JOIN keys). Syntax."
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # JOIN
@@ -46,6 +46,10 @@ At each JOIN step, rules are used to establish correspondences between rows in t
 - `LEFT/RIGHT ONLY`: Subtracting the sets by keys (blacklist). It's almost the same as adding `IS NULL` to the key on the opposite side in the regular `LEFT/RIGHT` JOIN, but with no access to values: the same as `SEMI` JOIN.
 - `CROSS`: A full Cartesian product of two tables without specifying key columns and no explicit `ON/USING`.
 - `EXCLUSION`: Both sides minus the intersection.
+
+Use `LEFT SEMI JOIN` instead of a correlated `EXISTS` subquery and  
+ `LEFT ONLY JOIN` instead of a correlated `NOT EXISTS` subquery. See  
+ [Correlated subqueries, EXISTS, and NOT EXISTS](correlated-subqueries.md).
 
 ![JOIN](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/yql/reference/syntax/select/_assets/join-YQL-06.png)
 

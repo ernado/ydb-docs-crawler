@@ -1500,14 +1500,31 @@
                   "id": "282"
                 },
                 {
+                  "name": "Ограничения",
+                  "items": [
+                    {
+                      "name": "Коррелированные подзапросы",
+                      "EXISTS и NOT EXISTS": null,
+                      "href": "ru/yql/reference/syntax/correlated-subqueries",
+                      "id": "284"
+                    },
+                    {
+                      "name": "Неподдерживаемые конструкции",
+                      "href": "ru/yql/reference/syntax/not_yet_supported",
+                      "id": "285"
+                    }
+                  ],
+                  "id": "283"
+                },
+                {
                   "name": "ACTION",
                   "href": "ru/yql/reference/syntax/action",
-                  "id": "283"
+                  "id": "286"
                 },
                 {
                   "name": "ALTER ASYNC REPLICATION",
                   "href": "ru/yql/reference/syntax/alter-async-replication",
-                  "id": "284"
+                  "id": "287"
                 },
                 {
                   "name": "ALTER DATABASE",
@@ -1515,25 +1532,25 @@
                     {
                       "name": "Обзор",
                       "href": "ru/yql/reference/syntax/alter_database/",
-                      "id": "286"
+                      "id": "289"
                     },
                     {
                       "name": "OWNER TO",
                       "href": "ru/yql/reference/syntax/alter_database/owner",
-                      "id": "287"
+                      "id": "290"
                     },
                     {
                       "name": "SET",
                       "href": "ru/yql/reference/syntax/alter_database/settings",
-                      "id": "288"
+                      "id": "291"
                     }
                   ],
-                  "id": "285"
+                  "id": "288"
                 },
                 {
                   "name": "ALTER GROUP",
                   "href": "ru/yql/reference/syntax/alter-group",
-                  "id": "289"
+                  "id": "292"
                 },
                 {
                   "name": "ALTER TABLE",
@@ -1541,140 +1558,140 @@
                     {
                       "name": "Обзор",
                       "href": "ru/yql/reference/syntax/alter_table/",
-                      "id": "291"
+                      "id": "294"
                     },
                     {
                       "name": "INDEX",
                       "href": "ru/yql/reference/syntax/alter_table/indexes",
-                      "id": "292"
+                      "id": "295"
                     },
                     {
                       "name": "COLUMN",
                       "href": "ru/yql/reference/syntax/alter_table/columns",
-                      "id": "293"
+                      "id": "296"
                     },
                     {
                       "name": "SET",
                       "href": "ru/yql/reference/syntax/alter_table/set",
-                      "id": "294"
+                      "id": "297"
                     },
                     {
                       "name": "CHANGEFEED",
                       "href": "ru/yql/reference/syntax/alter_table/changefeed",
-                      "id": "295"
+                      "id": "298"
                     },
                     {
                       "name": "RENAME",
                       "href": "ru/yql/reference/syntax/alter_table/rename",
-                      "id": "296"
+                      "id": "299"
                     },
                     {
                       "name": "FAMILY",
                       "href": "ru/yql/reference/syntax/alter_table/family",
-                      "id": "297"
+                      "id": "300"
                     }
                   ],
-                  "id": "290"
+                  "id": "293"
                 },
                 {
                   "name": "ALTER VIEW",
                   "href": "ru/yql/reference/syntax/alter-view",
-                  "id": "298"
+                  "id": "301"
                 },
                 {
                   "name": "ALTER RESOURCE POOL",
                   "href": "ru/yql/reference/syntax/alter-resource-pool",
-                  "id": "299"
+                  "id": "302"
                 },
                 {
                   "name": "ALTER RESOURCE POOL CLASSIFIER",
                   "href": "ru/yql/reference/syntax/alter-resource-pool-classifier",
-                  "id": "300"
+                  "id": "303"
                 },
                 {
                   "name": "ALTER STREAMING QUERY",
                   "href": "ru/yql/reference/syntax/alter-streaming-query",
-                  "id": "301"
+                  "id": "304"
                 },
                 {
                   "name": "ALTER TOPIC",
                   "href": "ru/yql/reference/syntax/alter-topic",
-                  "id": "302"
+                  "id": "305"
                 },
                 {
                   "name": "ALTER TRANSFER",
                   "href": "ru/yql/reference/syntax/alter-transfer",
-                  "id": "303"
+                  "id": "306"
                 },
                 {
                   "name": "ALTER SECRET",
                   "href": "ru/yql/reference/syntax/alter-secret",
-                  "id": "304"
+                  "id": "307"
                 },
                 {
                   "name": "ALTER USER",
                   "href": "ru/yql/reference/syntax/alter-user",
-                  "id": "305"
+                  "id": "308"
                 },
                 {
                   "name": "BATCH DELETE",
                   "href": "ru/yql/reference/syntax/batch-delete",
-                  "id": "306"
+                  "id": "309"
                 },
                 {
                   "name": "BATCH UPDATE",
                   "href": "ru/yql/reference/syntax/batch-update",
-                  "id": "307"
+                  "id": "310"
                 },
                 {
                   "name": "BACKUP",
                   "href": "ru/yql/reference/syntax/backup",
-                  "id": "308"
+                  "id": "311"
                 },
                 {
                   "name": "CREATE ASYNC REPLICATION",
                   "href": "ru/yql/reference/syntax/create-async-replication",
-                  "id": "309"
+                  "id": "312"
                 },
                 {
                   "name": "CREATE BACKUP COLLECTION",
                   "href": "ru/yql/reference/syntax/create-backup-collection",
-                  "id": "310"
+                  "id": "313"
                 },
                 {
                   "name": "CREATE GROUP",
                   "href": "ru/yql/reference/syntax/create-group",
-                  "id": "311"
+                  "id": "314"
                 },
                 {
                   "name": "CREATE EXTERNAL DATA SOURCE",
                   "href": "ru/yql/reference/syntax/create-external-data-source",
-                  "id": "312"
+                  "id": "315"
                 },
                 {
                   "name": "CREATE STREAMING QUERY",
                   "href": "ru/yql/reference/syntax/create-streaming-query",
-                  "id": "313"
+                  "id": "316"
                 },
                 {
                   "name": "CREATE EXTERNAL TABLE",
                   "href": "ru/yql/reference/syntax/create-external-table",
-                  "id": "314"
+                  "id": "317"
                 },
                 {
                   "name": "CREATE OBJECT TYPE SECRET",
                   "href": "ru/yql/reference/syntax/create-object-type-secret",
-                  "id": "315"
+                  "id": "318"
                 },
                 {
                   "name": "CREATE OBJECT TYPE SECRET_ACCESS",
                   "href": "ru/yql/reference/syntax/create-object-type-secret-access",
-                  "id": "316"
+                  "id": "319"
                 },
                 {
                   "name": "CREATE SECRET",
                   "href": "ru/yql/reference/syntax/create-secret",
-                  "id": "317"
+                  "id": "320"
                 },
                 {
                   "name": "CREATE TABLE",
@@ -1682,195 +1699,195 @@
                     {
                       "name": "Обзор",
                       "href": "ru/yql/reference/syntax/create_table/",
-                      "id": "319"
+                      "id": "322"
                     },
                     {
                       "name": "SECONDARY INDEX",
                       "href": "ru/yql/reference/syntax/create_table/secondary_index",
-                      "id": "320"
+                      "id": "323"
                     },
                     {
                       "name": "VECTOR INDEX",
                       "href": "ru/yql/reference/syntax/create_table/vector_index",
-                      "id": "321"
+                      "id": "324"
                     },
                     {
                       "name": "FAMILY",
                       "href": "ru/yql/reference/syntax/create_table/family",
-                      "id": "322"
+                      "id": "325"
                     },
                     {
                       "name": "WITH",
                       "href": "ru/yql/reference/syntax/create_table/with",
-                      "id": "323"
+                      "id": "326"
                     },
                     {
                       "name": "AS SELECT",
                       "href": "ru/yql/reference/syntax/create_table/as_select",
-                      "id": "324"
+                      "id": "327"
                     }
                   ],
-                  "id": "318"
+                  "id": "321"
                 },
                 {
                   "name": "CREATE TRANSFER",
                   "href": "ru/yql/reference/syntax/create-transfer",
-                  "id": "325"
+                  "id": "328"
                 },
                 {
                   "name": "CREATE VIEW",
                   "href": "ru/yql/reference/syntax/create-view",
-                  "id": "326"
+                  "id": "329"
                 },
                 {
                   "name": "CREATE RESOURCE POOL",
                   "href": "ru/yql/reference/syntax/create-resource-pool",
-                  "id": "327"
+                  "id": "330"
                 },
                 {
                   "name": "CREATE RESOURCE POOL CLASSIFIER",
                   "href": "ru/yql/reference/syntax/create-resource-pool-classifier",
-                  "id": "328"
+                  "id": "331"
                 },
                 {
                   "name": "CREATE TOPIC",
                   "href": "ru/yql/reference/syntax/create-topic",
-                  "id": "329"
+                  "id": "332"
                 },
                 {
                   "name": "CREATE USER",
                   "href": "ru/yql/reference/syntax/create-user",
-                  "id": "330"
+                  "id": "333"
                 },
                 {
                   "name": "COMMIT",
                   "href": "ru/yql/reference/syntax/commit",
-                  "id": "331"
+                  "id": "334"
                 },
                 {
                   "name": "DECLARE",
                   "href": "ru/yql/reference/syntax/declare",
-                  "id": "332"
+                  "id": "335"
                 },
                 {
                   "name": "DELETE",
                   "href": "ru/yql/reference/syntax/delete",
-                  "id": "333"
+                  "id": "336"
                 },
                 {
                   "name": "DROP ASYNC REPLICATION",
                   "href": "ru/yql/reference/syntax/drop-async-replication",
-                  "id": "334"
+                  "id": "337"
                 },
                 {
                   "name": "DROP BACKUP COLLECTION",
                   "href": "ru/yql/reference/syntax/drop-backup-collection",
-                  "id": "335"
+                  "id": "338"
                 },
                 {
                   "name": "DROP GROUP",
                   "href": "ru/yql/reference/syntax/drop-group",
-                  "id": "336"
+                  "id": "339"
                 },
                 {
                   "name": "DROP EXTERNAL DATA SOURCE",
                   "href": "ru/yql/reference/syntax/drop-external-data-source",
-                  "id": "337"
+                  "id": "340"
                 },
                 {
                   "name": "DROP EXTERNAL TABLE",
                   "href": "ru/yql/reference/syntax/drop-external-table",
-                  "id": "338"
+                  "id": "341"
                 },
                 {
                   "name": "DROP OBJECT TYPE SECRET",
                   "href": "ru/yql/reference/syntax/drop-object-type-secret",
-                  "id": "339"
+                  "id": "342"
                 },
                 {
                   "name": "DROP OBJECT TYPE SECRET_ACCESS",
                   "href": "ru/yql/reference/syntax/drop-object-type-secret-access",
-                  "id": "340"
+                  "id": "343"
                 },
                 {
                   "name": "DROP STREAMING QUERY",
                   "href": "ru/yql/reference/syntax/drop-streaming-query",
-                  "id": "341"
+                  "id": "344"
                 },
                 {
                   "name": "DROP SECRET",
                   "href": "ru/yql/reference/syntax/drop-secret",
-                  "id": "342"
+                  "id": "345"
                 },
                 {
                   "name": "DROP TABLE",
                   "href": "ru/yql/reference/syntax/drop_table",
-                  "id": "343"
+                  "id": "346"
                 },
                 {
                   "name": "DROP TRANSFER",
                   "href": "ru/yql/reference/syntax/drop-transfer",
-                  "id": "344"
+                  "id": "347"
                 },
                 {
                   "name": "DROP VIEW",
                   "href": "ru/yql/reference/syntax/drop-view",
-                  "id": "345"
+                  "id": "348"
                 },
                 {
                   "name": "DROP RESOURCE POOL",
                   "href": "ru/yql/reference/syntax/drop-resource-pool",
-                  "id": "346"
+                  "id": "349"
                 },
                 {
                   "name": "DROP RESOURCE POOL CLASSIFIER",
                   "href": "ru/yql/reference/syntax/drop-resource-pool-classifier",
-                  "id": "347"
+                  "id": "350"
                 },
                 {
                   "name": "DROP TOPIC",
                   "href": "ru/yql/reference/syntax/drop-topic",
-                  "id": "348"
+                  "id": "351"
                 },
                 {
                   "name": "DROP USER",
                   "href": "ru/yql/reference/syntax/drop-user",
-                  "id": "349"
+                  "id": "352"
                 },
                 {
                   "name": "GRANT",
                   "href": "ru/yql/reference/syntax/grant",
-                  "id": "350"
+                  "id": "353"
                 },
                 {
                   "name": "INSERT",
                   "href": "ru/yql/reference/syntax/insert_into",
-                  "id": "351"
+                  "id": "354"
                 },
                 {
                   "name": "INTO RESULT",
                   "href": "ru/yql/reference/syntax/into_result",
-                  "id": "352"
+                  "id": "355"
                 },
                 {
                   "name": "PRAGMA",
                   "href": "ru/yql/reference/syntax/pragma",
-                  "id": "353"
+                  "id": "356"
                 },
                 {
                   "name": "REPLACE",
                   "href": "ru/yql/reference/syntax/replace_into",
-                  "id": "354"
+                  "id": "357"
                 },
                 {
                   "name": "REVOKE",
                   "href": "ru/yql/reference/syntax/revoke",
-                  "id": "355"
+                  "id": "358"
                 },
                 {
                   "name": "RESTORE",
                   "href": "ru/yql/reference/syntax/restore-backup-collection",
-                  "id": "356"
+                  "id": "359"
                 },
                 {
                   "name": "SELECT",
@@ -1878,140 +1895,135 @@
                     {
                       "name": "Обзор",
                       "href": "ru/yql/reference/syntax/select/",
-                      "id": "358"
+                      "id": "361"
                     },
                     {
                       "name": "FROM",
                       "href": "ru/yql/reference/syntax/select/from",
-                      "id": "359"
+                      "id": "362"
                     },
                     {
                       "name": "FROM AS_TABLE",
                       "href": "ru/yql/reference/syntax/select/from_as_table",
-                      "id": "360"
+                      "id": "363"
                     },
                     {
                       "name": "FROM SELECT",
                       "href": "ru/yql/reference/syntax/select/from_select",
-                      "id": "361"
+                      "id": "364"
                     },
                     {
                       "name": "FLATTEN",
                       "href": "ru/yql/reference/syntax/select/flatten",
-                      "id": "362"
+                      "id": "365"
                     },
                     {
                       "name": "GROUP BY",
                       "href": "ru/yql/reference/syntax/select/group-by",
-                      "id": "363"
+                      "id": "366"
                     },
                     {
                       "name": "JOIN",
                       "href": "ru/yql/reference/syntax/select/join",
-                      "id": "364"
+                      "id": "367"
                     },
                     {
                       "name": "WINDOW",
                       "href": "ru/yql/reference/syntax/select/window",
-                      "id": "365"
+                      "id": "368"
                     },
                     {
                       "name": "DISTINCT",
                       "href": "ru/yql/reference/syntax/select/distinct",
-                      "id": "366"
+                      "id": "369"
                     },
                     {
                       "name": "UNIQUE DISTINCT",
                       "href": "ru/yql/reference/syntax/select/unique_distinct_hints",
-                      "id": "367"
+                      "id": "370"
                     },
                     {
                       "name": "UNION",
                       "href": "ru/yql/reference/syntax/select/union",
-                      "id": "368"
+                      "id": "371"
                     },
                     {
                       "name": "VIEW SECONDARY INDEX",
                       "href": "ru/yql/reference/syntax/select/secondary_index",
-                      "id": "369"
+                      "id": "372"
                     },
                     {
                       "name": "VIEW VECTOR INDEX",
                       "href": "ru/yql/reference/syntax/select/vector_index",
-                      "id": "370"
+                      "id": "373"
                     },
                     {
                       "name": "WITH",
                       "href": "ru/yql/reference/syntax/select/with",
-                      "id": "371"
+                      "id": "374"
                     },
                     {
                       "name": "WITHOUT",
                       "href": "ru/yql/reference/syntax/select/without",
-                      "id": "372"
+                      "id": "375"
                     },
                     {
                       "name": "WHERE",
                       "href": "ru/yql/reference/syntax/select/where",
-                      "id": "373"
+                      "id": "376"
                     },
                     {
                       "name": "ORDER BY",
                       "href": "ru/yql/reference/syntax/select/order_by",
-                      "id": "374"
+                      "id": "377"
                     },
                     {
                       "name": "ASSUME ORDER BY",
                       "href": "ru/yql/reference/syntax/select/assume_order_by",
-                      "id": "375"
+                      "id": "378"
                     },
                     {
                       "name": "LIMIT OFFSET",
                       "href": "ru/yql/reference/syntax/select/limit_offset",
-                      "id": "376"
+                      "id": "379"
                     },
                     {
                       "name": "STREAMING",
                       "href": "ru/yql/reference/syntax/select/streaming",
-                      "id": "377"
+                      "id": "380"
                     }
                   ],
-                  "id": "357"
+                  "id": "360"
                 },
                 {
                   "name": "SHOW CREATE",
                   "href": "ru/yql/reference/syntax/show_create",
-                  "id": "378"
+                  "id": "381"
                 },
                 {
                   "name": "TRUNCATE TABLE",
                   "href": "ru/yql/reference/syntax/truncate-table",
-                  "id": "379"
+                  "id": "382"
                 },
                 {
                   "name": "UPDATE",
                   "href": "ru/yql/reference/syntax/update",
-                  "id": "380"
+                  "id": "383"
                 },
                 {
                   "name": "UPSERT",
                   "href": "ru/yql/reference/syntax/upsert_into",
-                  "id": "381"
+                  "id": "384"
                 },
                 {
                   "name": "UPSERT OBJECT TYPE SECRET",
                   "href": "ru/yql/reference/syntax/upsert-object-type-secret",
-                  "id": "382"
+                  "id": "385"
                 },
                 {
                   "name": "VALUES",
                   "href": "ru/yql/reference/syntax/values",
-                  "id": "383"
-                },
-                {
-                  "name": "Неподдерживаемые конструкции",
-                  "href": "ru/yql/reference/syntax/not_yet_supported",
-                  "id": "384"
+                  "id": "386"
                 }
               ],
               "id": "279"
@@ -2022,52 +2034,52 @@
                 {
                   "name": "Обзор",
                   "href": "ru/yql/reference/builtins/",
-                  "id": "386"
+                  "id": "388"
                 },
                 {
                   "name": "Базовые",
                   "href": "ru/yql/reference/builtins/basic",
-                  "id": "387"
+                  "id": "389"
                 },
                 {
                   "name": "Агрегатные",
                   "href": "ru/yql/reference/builtins/aggregation",
-                  "id": "388"
+                  "id": "390"
                 },
                 {
                   "name": "Оконные",
                   "href": "ru/yql/reference/builtins/window",
-                  "id": "389"
+                  "id": "391"
                 },
                 {
                   "name": "Для работы со списками",
                   "href": "ru/yql/reference/builtins/list",
-                  "id": "390"
+                  "id": "392"
                 },
                 {
                   "name": "Для работы со словарями",
                   "href": "ru/yql/reference/builtins/dict",
-                  "id": "391"
+                  "id": "393"
                 },
                 {
                   "name": "Для работы со структурами",
                   "href": "ru/yql/reference/builtins/struct",
-                  "id": "392"
+                  "id": "394"
                 },
                 {
                   "name": "Для работы с типами",
                   "href": "ru/yql/reference/builtins/types",
-                  "id": "393"
+                  "id": "395"
                 },
                 {
                   "name": "Для работы с генерацией кода",
                   "href": "ru/yql/reference/builtins/codegen",
-                  "id": "394"
+                  "id": "396"
                 },
                 {
                   "name": "Для работы с JSON",
                   "href": "ru/yql/reference/builtins/json",
-                  "id": "395"
+                  "id": "397"
                 },
                 {
                   "name": "Библиотеки C++",
@@ -2075,98 +2087,98 @@
                     {
                       "name": "Обзор",
                       "href": "ru/yql/reference/udf/list/",
-                      "id": "397"
+                      "id": "399"
                     },
                     {
                       "name": "DateTime",
                       "href": "ru/yql/reference/udf/list/datetime",
-                      "id": "398"
+                      "id": "400"
                     },
                     {
                       "name": "Digest",
                       "href": "ru/yql/reference/udf/list/digest",
-                      "id": "399"
+                      "id": "401"
                     },
                     {
                       "name": "Histogram",
                       "href": "ru/yql/reference/udf/list/histogram",
-                      "id": "400"
+                      "id": "402"
                     },
                     {
                       "name": "Hyperscan",
                       "href": "ru/yql/reference/udf/list/hyperscan",
-                      "id": "401"
+                      "id": "403"
                     },
                     {
                       "name": "Ip",
                       "href": "ru/yql/reference/udf/list/ip",
-                      "id": "402"
+                      "id": "404"
                     },
                     {
                       "name": "Knn",
                       "href": "ru/yql/reference/udf/list/knn",
-                      "id": "403"
+                      "id": "405"
                     },
                     {
                       "name": "Math",
                       "href": "ru/yql/reference/udf/list/math",
-                      "id": "404"
+                      "id": "406"
                     },
                     {
                       "name": "Pcre",
                       "href": "ru/yql/reference/udf/list/pcre",
-                      "id": "405"
+                      "id": "407"
                     },
                     {
                       "name": "Pire",
                       "href": "ru/yql/reference/udf/list/pire",
-                      "id": "406"
+                      "id": "408"
                     },
                     {
                       "name": "PostgreSQL",
                       "href": "ru/yql/reference/udf/list/postgres",
-                      "id": "407"
+                      "id": "409"
                     },
                     {
                       "name": "Roaring",
                       "href": "ru/yql/reference/udf/list/roaring",
-                      "id": "408"
+                      "id": "410"
                     },
                     {
                       "name": "Re2",
                       "href": "ru/yql/reference/udf/list/re2",
-                      "id": "409"
+                      "id": "411"
                     },
                     {
                       "name": "String",
                       "href": "ru/yql/reference/udf/list/string",
-                      "id": "410"
+                      "id": "412"
                     },
                     {
                       "name": "Unicode",
                       "href": "ru/yql/reference/udf/list/unicode",
-                      "id": "411"
+                      "id": "413"
                     },
                     {
                       "name": "Url",
                       "href": "ru/yql/reference/udf/list/url",
-                      "id": "412"
+                      "id": "414"
                     },
                     {
                       "name": "Yson",
                       "href": "ru/yql/reference/udf/list/yson",
-                      "id": "413"
+                      "id": "415"
                     }
                   ],
-                  "id": "396"
+                  "id": "398"
                 }
               ],
-              "id": "385"
+              "id": "387"
             },
             {
               "name": "Планы запросов",
               "href": "ru/yql/query_plans",
-              "id": "414"
+              "id": "416"
             }
           ],
           "id": "266"
@@ -2177,35 +2189,35 @@
             {
               "name": "Обзор",
               "href": "ru/reference/embedded-ui/",
-              "id": "416"
+              "id": "418"
             },
             {
               "name": "YDB Monitoring",
               "href": "ru/reference/embedded-ui/ydb-monitoring",
-              "id": "418"
+              "id": "420"
             },
             {
               "name": "Hive web-viewer",
               "href": "ru/reference/embedded-ui/hive",
-              "id": "419"
+              "id": "421"
             },
             {
               "name": "Обзор соединений",
               "href": "ru/reference/embedded-ui/interconnect-overview",
-              "id": "420"
+              "id": "422"
             },
             {
               "name": "Логи",
               "href": "ru/reference/embedded-ui/logs",
-              "id": "421"
+              "id": "423"
             },
             {
               "name": "Графики",
               "href": "ru/reference/embedded-ui/charts",
-              "id": "422"
+              "id": "424"
             }
           ],
-          "id": "415"
+          "id": "417"
         },
         {
           "name": "Интеграции",
@@ -2218,30 +2230,30 @@
                 {
                   "name": "DBeaver",
                   "href": "ru/integrations/gui/dbeaver",
-                  "id": "425"
+                  "id": "427"
                 },
                 {
                   "name": "DBeaver Plugin",
                   "href": "ru/integrations/gui/dbeaver-plugin",
-                  "id": "426"
+                  "id": "428"
                 },
                 {
                   "name": "VS Code",
                   "href": "ru/integrations/gui/vscode-plugin",
-                  "id": "427"
+                  "id": "429"
                 },
                 {
                   "name": "DataGrip",
                   "href": "ru/integrations/gui/datagrip",
-                  "id": "428"
+                  "id": "430"
                 },
                 {
                   "name": "Jupyter Notebook",
                   "href": "ru/integrations/gui/jupyter",
-                  "id": "429"
+                  "id": "431"
                 }
               ],
-              "id": "424"
+              "id": "426"
             },
             {
               "name": "Визуализация данных (Business Intelligence, BI)",
@@ -2250,20 +2262,20 @@
                 {
                   "name": "Apache Superset",
                   "href": "ru/integrations/visualization/superset",
-                  "id": "431"
+                  "id": "433"
                 },
                 {
                   "name": "DataLens",
                   "href": "ru/integrations/visualization/datalens",
-                  "id": "432"
+                  "id": "434"
                 },
                 {
                   "name": "Grafana data source",
                   "href": "ru/integrations/visualization/grafana",
-                  "id": "433"
+                  "id": "435"
                 }
               ],
-              "id": "430"
+              "id": "432"
             },
             {
               "name": "Оркестрация",
@@ -2272,10 +2284,10 @@
                 {
                   "name": "Apache Airflow™",
                   "href": "ru/integrations/orchestration/airflow",
-                  "id": "435"
+                  "id": "437"
                 }
               ],
-              "id": "434"
+              "id": "436"
             },
             {
               "name": "Поставка данных",
@@ -2284,15 +2296,15 @@
                 {
                   "name": "Log records collection using FluentBit",
                   "href": "ru/integrations/ingestion/fluent-bit",
-                  "id": "437"
+                  "id": "439"
                 },
                 {
                   "name": "Logstash plugins",
                   "href": "ru/integrations/ingestion/logstash",
-                  "id": "438"
+                  "id": "440"
                 }
               ],
-              "id": "436"
+              "id": "438"
             },
             {
               "name": "Миграции данных",
@@ -2301,15 +2313,15 @@
                 {
                   "name": "Импорт из источников данных JDBC",
                   "href": "ru/integrations/data-migration/import-jdbc",
-                  "id": "440"
+                  "id": "442"
                 },
                 {
                   "name": "Импорт из MySQL",
                   "href": "ru/integrations/data-migration/import-mysql",
-                  "id": "441"
+                  "id": "443"
                 }
               ],
-              "id": "439"
+              "id": "441"
             },
             {
               "name": "Миграции схемы",
@@ -2318,25 +2330,25 @@
                 {
                   "name": "dbt",
                   "href": "ru/integrations/migration/dbt",
-                  "id": "443"
+                  "id": "445"
                 },
                 {
                   "name": "Flyway",
                   "href": "ru/integrations/migration/flyway",
-                  "id": "444"
+                  "id": "446"
                 },
                 {
                   "name": "goose",
                   "href": "ru/integrations/migration/goose",
-                  "id": "445"
+                  "id": "447"
                 },
                 {
                   "name": "Liquibase",
                   "href": "ru/integrations/migration/liquibase",
-                  "id": "446"
+                  "id": "448"
                 }
               ],
-              "id": "442"
+              "id": "444"
             },
             {
               "name": "Движки выполнения запросов",
@@ -2345,10 +2357,10 @@
                 {
                   "name": "Apache Spark™",
                   "href": "ru/integrations/query-engines/spark",
-                  "id": "448"
+                  "id": "450"
                 }
               ],
-              "id": "447"
+              "id": "449"
             },
             {
               "name": "Объектно-реляционное отображение",
@@ -2357,45 +2369,45 @@
                 {
                   "name": "Hibernate",
                   "href": "ru/integrations/orm/hibernate",
-                  "id": "450"
+                  "id": "452"
                 },
                 {
                   "name": "Spring Data JDBC",
                   "href": "ru/integrations/orm/spring-data-jdbc",
-                  "id": "451"
+                  "id": "453"
                 },
                 {
                   "name": "JOOQ",
                   "href": "ru/integrations/orm/jooq",
-                  "id": "452"
+                  "id": "454"
                 },
                 {
                   "name": "Dapper",
                   "href": "ru/integrations/orm/dapper",
-                  "id": "453"
+                  "id": "455"
                 },
                 {
                   "name": "Entity Framework",
                   "href": "ru/integrations/orm/entity-framework",
-                  "id": "454"
+                  "id": "456"
                 },
                 {
                   "name": "Linq To Db",
                   "href": "ru/integrations/orm/linq2db",
-                  "id": "455"
+                  "id": "457"
                 },
                 {
                   "name": "SQLAlchemy",
                   "href": "ru/integrations/orm/sqlalchemy",
-                  "id": "456"
+                  "id": "458"
                 },
                 {
                   "name": "Django",
                   "href": "ru/integrations/orm/django",
-                  "id": "457"
+                  "id": "459"
                 }
               ],
-              "id": "449"
+              "id": "451"
             },
             {
               "name": "Векторный поиск",
@@ -2404,15 +2416,15 @@
                 {
                   "name": "LangChain",
                   "href": "ru/integrations/vectorsearch/langchain",
-                  "id": "459"
+                  "id": "461"
                 },
                 {
                   "name": "Mem0",
                   "href": "ru/integrations/vectorsearch/mem0",
-                  "id": "460"
+                  "id": "462"
                 }
               ],
-              "id": "458"
+              "id": "460"
             },
             {
               "name": "Конвертация SQL-диалектов",
@@ -2421,18 +2433,18 @@
                 {
                   "name": "SQLGlot",
                   "href": "ru/integrations/sql-translation/sqlglot",
-                  "id": "462"
+                  "id": "464"
                 },
                 {
                   "name": "Конвертер SQL-диалектов в YQL",
                   "href": "ru/integrations/sql-translation/sql-dialect-converter",
-                  "id": "463"
+                  "id": "465"
                 }
               ],
-              "id": "461"
+              "id": "463"
             }
           ],
-          "id": "423"
+          "id": "425"
         },
         {
           "name": "YDB CLI",
@@ -2441,32 +2453,32 @@
             {
               "name": "Обзор",
               "href": "ru/reference/ydb-cli/",
-              "id": "465"
+              "id": "467"
             },
             {
               "name": "Установка",
               "href": "ru/reference/ydb-cli/install",
-              "id": "466"
+              "id": "468"
             },
             {
               "name": "Соединение с БД и аутентификация",
               "href": "ru/reference/ydb-cli/connect",
-              "id": "467"
+              "id": "469"
             },
             {
               "name": "Все команды по алфавиту",
               "href": "ru/reference/ydb-cli/commands",
-              "id": "468"
+              "id": "470"
             },
             {
               "name": "Сервисные команды",
               "href": "ru/reference/ydb-cli/commands/service",
-              "id": "469"
+              "id": "471"
             },
             {
               "name": "Глобальные параметры",
               "href": "ru/reference/ydb-cli/commands/global-options",
-              "id": "470"
+              "id": "472"
             },
             {
               "name": "Команды YDB CLI",
@@ -2474,15 +2486,15 @@
                 {
                   "name": "table attribute add",
                   "href": "ru/reference/ydb-cli/table-attribute-add",
-                  "id": "472"
+                  "id": "474"
                 },
                 {
                   "name": "table attribute drop",
                   "href": "ru/reference/ydb-cli/table-attribute-drop",
-                  "id": "473"
+                  "id": "475"
                 }
               ],
-              "id": "471"
+              "id": "473"
             },
             {
               "name": "Работа со схемой БД",
@@ -2490,60 +2502,60 @@
                 {
                   "name": "Список объектов",
                   "href": "ru/reference/ydb-cli/commands/scheme-ls",
-                  "id": "475"
+                  "id": "477"
                 },
                 {
                   "name": "Информация об объекте",
                   "href": "ru/reference/ydb-cli/commands/scheme-describe",
-                  "id": "476"
+                  "id": "478"
                 },
                 {
                   "name": "Права",
                   "href": "ru/reference/ydb-cli/commands/scheme-permissions",
-                  "id": "477"
+                  "id": "479"
                 },
                 {
                   "name": "Директории",
                   "href": "ru/reference/ydb-cli/commands/dir",
-                  "id": "478"
+                  "id": "480"
                 },
                 {
                   "name": "Вторичные индексы",
                   "href": "ru/reference/ydb-cli/commands/secondary_index",
-                  "id": "479"
+                  "id": "481"
                 },
                 {
                   "name": "Копирование таблиц",
                   "href": "ru/reference/ydb-cli/tools-copy",
-                  "id": "480"
+                  "id": "482"
                 },
                 {
                   "name": "Переименование таблиц",
                   "href": "ru/reference/ydb-cli/commands/tools/rename",
-                  "id": "481"
+                  "id": "483"
                 },
                 {
                   "name": "Установка параметров TTL",
                   "href": "ru/reference/ydb-cli/table-ttl-set",
-                  "id": "482"
+                  "id": "484"
                 },
                 {
                   "name": "Сброс параметров TTL",
                   "href": "ru/reference/ydb-cli/table-ttl-reset",
-                  "id": "483"
+                  "id": "485"
                 },
                 {
                   "name": "Удаление таблицы",
                   "href": "ru/reference/ydb-cli/table-drop",
-                  "id": "484"
+                  "id": "486"
                 },
                 {
                   "name": "Генерация скрипта создания таблицы",
                   "href": "ru/reference/ydb-cli/tools-infer",
-                  "id": "485"
+                  "id": "487"
                 }
               ],
-              "id": "474"
+              "id": "476"
             },
             {
               "name": "Работа с данными",
@@ -2551,15 +2563,15 @@
                 {
                   "name": "Получение плана исполнения запроса и AST",
                   "href": "ru/reference/ydb-cli/commands/explain-plan",
-                  "id": "487"
+                  "id": "489"
                 },
                 {
                   "name": "Потоковое чтение таблицы",
                   "href": "ru/reference/ydb-cli/commands/readtable",
-                  "id": "488"
+                  "id": "490"
                 }
               ],
-              "id": "486"
+              "id": "488"
             },
             {
               "name": "Выгрузка и загрузка данных",
@@ -2567,50 +2579,50 @@
                 {
                   "name": "Обзор",
                   "href": "ru/reference/ydb-cli/export-import/",
-                  "id": "490"
+                  "id": "492"
                 },
                 {
                   "name": "Файловая структура выгрузки",
                   "href": "ru/reference/ydb-cli/export-import/file-structure",
-                  "id": "491"
+                  "id": "493"
                 },
                 {
                   "name": "Выгрузка в файловую систему",
                   "href": "ru/reference/ydb-cli/export-import/tools-dump",
-                  "id": "492"
+                  "id": "494"
                 },
                 {
                   "name": "Загрузка из файловой системы",
                   "href": "ru/reference/ydb-cli/export-import/tools-restore",
-                  "id": "493"
+                  "id": "495"
                 },
                 {
                   "name": "Соединение и аутентификация с S3",
                   "href": "ru/reference/ydb-cli/export-import/auth-s3",
-                  "id": "494"
+                  "id": "496"
                 },
                 {
                   "name": "Выгрузка в S3",
                   "href": "ru/reference/ydb-cli/export-import/export-s3",
-                  "id": "495"
+                  "id": "497"
                 },
                 {
                   "name": "Загрузка из S3",
                   "href": "ru/reference/ydb-cli/export-import/import-s3",
-                  "id": "496"
+                  "id": "498"
                 },
                 {
                   "name": "Импорт данных из файла в существующую таблицу",
                   "href": "ru/reference/ydb-cli/export-import/import-file",
-                  "id": "497"
+                  "id": "499"
                 },
                 {
                   "name": "Коллекции резервных копий",
                   "href": "ru/devops/backup-and-recovery/",
-                  "id": "498"
+                  "id": "500"
                 }
               ],
-              "id": "489"
+              "id": "491"
             },
             {
               "name": "Работа с топиками",
@@ -2618,55 +2630,55 @@
                 {
                   "name": "Команды для работы с топиком",
                   "href": "ru/reference/ydb-cli/topic-overview",
-                  "id": "500"
+                  "id": "502"
                 },
                 {
                   "name": "Создание топика",
                   "href": "ru/reference/ydb-cli/topic-create",
-                  "id": "501"
+                  "id": "503"
                 },
                 {
                   "name": "Изменение топика",
                   "href": "ru/reference/ydb-cli/topic-alter",
-                  "id": "502"
+                  "id": "504"
                 },
                 {
                   "name": "Удаление топика",
                   "href": "ru/reference/ydb-cli/topic-drop",
-                  "id": "503"
+                  "id": "505"
                 },
                 {
                   "name": "Добавление читателя топика",
                   "href": "ru/reference/ydb-cli/topic-consumer-add",
-                  "id": "504"
+                  "id": "506"
                 },
                 {
                   "name": "Удаление читателя топика",
                   "href": "ru/reference/ydb-cli/topic-consumer-drop",
-                  "id": "505"
+                  "id": "507"
                 },
                 {
                   "name": "Сохранение позиции чтения",
                   "href": "ru/reference/ydb-cli/topic-consumer-offset-commit",
-                  "id": "506"
+                  "id": "508"
                 },
                 {
                   "name": "Чтение из топика",
                   "href": "ru/reference/ydb-cli/topic-read",
-                  "id": "507"
+                  "id": "509"
                 },
                 {
                   "name": "Запись в топик",
                   "href": "ru/reference/ydb-cli/topic-write",
-                  "id": "508"
+                  "id": "510"
                 },
                 {
                   "name": "Конвейерная обработка сообщений",
                   "href": "ru/reference/ydb-cli/topic-pipeline",
-                  "id": "509"
+                  "id": "511"
                 }
               ],
-              "id": "499"
+              "id": "501"
             },
             {
               "name": "Выполнение SQL-запросов",
@@ -2674,30 +2686,30 @@
                 {
                   "name": "Обзор",
                   "href": "ru/reference/ydb-cli/yql-query-overview",
-                  "id": "511"
+                  "id": "513"
                 },
                 {
                   "name": "Выполнение запросов",
                   "href": "ru/reference/ydb-cli/sql",
-                  "id": "512"
+                  "id": "514"
                 },
                 {
                   "name": "Выполнение параметризованных запросов",
                   "href": "ru/reference/ydb-cli/parameterized-query-execution",
-                  "id": "513"
+                  "id": "515"
                 },
                 {
                   "name": "Интерактивный режим выполнения запросов",
                   "href": "ru/reference/ydb-cli/interactive-cli",
-                  "id": "514"
+                  "id": "516"
                 },
                 {
                   "name": "Скан запросы",
                   "href": "ru/reference/ydb-cli/scan-query",
-                  "id": "515"
+                  "id": "517"
                 }
               ],
-              "id": "510"
+              "id": "512"
             },
             {
               "name": "Управление фоновыми операциями",
@@ -2705,25 +2717,25 @@
                 {
                   "name": "Получение списка фоновых операций",
                   "href": "ru/reference/ydb-cli/operation-list",
-                  "id": "521"
+                  "id": "523"
                 },
                 {
                   "name": "Получение статуса фоновой операции",
                   "href": "ru/reference/ydb-cli/operation-get",
-                  "id": "522"
+                  "id": "524"
                 },
                 {
                   "name": "Отмена фоновой операции",
                   "href": "ru/reference/ydb-cli/operation-cancel",
-                  "id": "523"
+                  "id": "525"
                 },
                 {
                   "name": "Удаление фоновой операции из списка",
                   "href": "ru/reference/ydb-cli/operation-forget",
-                  "id": "524"
+                  "id": "526"
                 }
               ],
-              "id": "520"
+              "id": "522"
             },
             {
               "name": "Управление профилями",
@@ -2731,35 +2743,35 @@
                 {
                   "name": "Обзор",
                   "href": "ru/reference/ydb-cli/profile/",
-                  "id": "526"
+                  "id": "528"
                 },
                 {
                   "name": "Создание и изменение профиля",
                   "href": "ru/reference/ydb-cli/profile/create",
-                  "id": "527"
+                  "id": "529"
                 },
                 {
                   "name": "Использование профиля в запросах",
                   "href": "ru/reference/ydb-cli/profile/use",
-                  "id": "528"
+                  "id": "530"
                 },
                 {
                   "name": "Получение информации о профиле",
                   "href": "ru/reference/ydb-cli/profile/list-and-get",
-                  "id": "529"
+                  "id": "531"
                 },
                 {
                   "name": "Удаление профиля",
                   "href": "ru/reference/ydb-cli/profile/delete",
-                  "id": "530"
+                  "id": "532"
                 },
                 {
                   "name": "Активированный профиль",
                   "href": "ru/reference/ydb-cli/profile/activate",
-                  "id": "531"
+                  "id": "533"
                 }
               ],
-              "id": "525"
+              "id": "527"
             },
             {
               "name": "Информационные сервисы",
@@ -2767,35 +2779,35 @@
                 {
                   "name": "Список эндпоинтов",
                   "href": "ru/reference/ydb-cli/commands/discovery-list",
-                  "id": "533"
+                  "id": "535"
                 },
                 {
                   "name": "Проверка аутентификации",
                   "href": "ru/reference/ydb-cli/commands/discovery-whoami",
-                  "id": "534"
+                  "id": "536"
                 },
                 {
                   "name": "Получение токена аутентификации",
                   "href": "ru/reference/ydb-cli/auth-get-token",
-                  "id": "535"
+                  "id": "537"
                 },
                 {
                   "name": "Просмотр параметров соединения",
                   "href": "ru/reference/ydb-cli/commands/config-info",
-                  "id": "536"
+                  "id": "538"
                 },
                 {
                   "name": "Вывод версии YDB CLI",
                   "href": "ru/reference/ydb-cli/version",
-                  "id": "537"
+                  "id": "539"
                 },
                 {
                   "name": "Проверка состояния базы данных",
                   "href": "ru/reference/ydb-cli/commands/monitoring-healthcheck",
-                  "id": "538"
+                  "id": "540"
                 }
               ],
-              "id": "532"
+              "id": "534"
             },
             {
               "name": "Нагрузочное тестирование",
@@ -2803,55 +2815,55 @@
                 {
                   "name": "Обзор",
                   "href": "ru/reference/ydb-cli/commands/workload/",
-                  "id": "540"
+                  "id": "542"
                 },
                 {
                   "name": "Stock нагрузка",
                   "href": "ru/reference/ydb-cli/commands/workload/stock",
-                  "id": "541"
+                  "id": "543"
                 },
                 {
                   "name": "ClickBench нагрузка",
                   "href": "ru/reference/ydb-cli/workload-click-bench",
-                  "id": "542"
+                  "id": "544"
                 },
                 {
                   "name": "Key-Value нагрузка",
                   "href": "ru/reference/ydb-cli/workload-kv",
-                  "id": "543"
+                  "id": "545"
                 },
                 {
                   "name": "Topic нагрузка",
                   "href": "ru/reference/ydb-cli/workload-topic",
-                  "id": "544"
+                  "id": "546"
                 },
                 {
                   "name": "Transfer нагрузка",
                   "href": "ru/reference/ydb-cli/workload-transfer",
-                  "id": "545"
+                  "id": "547"
                 },
                 {
                   "name": "TPC-C нагрузка",
                   "href": "ru/reference/ydb-cli/workload-tpcc",
-                  "id": "546"
+                  "id": "548"
                 },
                 {
                   "name": "TPC-H нагрузка",
                   "href": "ru/reference/ydb-cli/workload-tpch",
-                  "id": "547"
+                  "id": "549"
                 },
                 {
                   "name": "TPC-DS нагрузка",
                   "href": "ru/reference/ydb-cli/workload-tpcds",
-                  "id": "548"
+                  "id": "550"
                 },
                 {
                   "name": "Пользовательская нагрузка",
                   "href": "ru/reference/ydb-cli/workload-query",
-                  "id": "549"
+                  "id": "551"
                 }
               ],
-              "id": "539"
+              "id": "541"
             },
             {
               "name": "Работа с конфигурацией",
@@ -2860,7 +2872,7 @@
                 {
                   "name": "Обзор",
                   "href": "ru/reference/ydb-cli/commands/configuration/",
-                  "id": "551"
+                  "id": "553"
                 },
                 {
                   "name": "Команды кластера",
@@ -2869,20 +2881,20 @@
                     {
                       "name": "Генерация конфигурации V2",
                       "href": "ru/reference/ydb-cli/commands/configuration/cluster/generate",
-                      "id": "553"
+                      "id": "555"
                     },
                     {
                       "name": "Получение текущей конфигурации",
                       "href": "ru/reference/ydb-cli/commands/configuration/cluster/fetch",
-                      "id": "554"
+                      "id": "556"
                     },
                     {
                       "name": "Замена конфигурации",
                       "href": "ru/reference/ydb-cli/commands/configuration/cluster/replace",
-                      "id": "555"
+                      "id": "557"
                     }
                   ],
-                  "id": "552"
+                  "id": "554"
                 },
                 {
                   "name": "Команды узла",
@@ -2891,13 +2903,13 @@
                     {
                       "name": "Инициализация конфигурационной директории",
                       "href": "ru/reference/ydb-cli/commands/configuration/node/init",
-                      "id": "557"
+                      "id": "559"
                     }
                   ],
-                  "id": "556"
+                  "id": "558"
                 }
               ],
-              "id": "550"
+              "id": "552"
             },
             {
               "name": "Управление кластером в режиме bridge",
@@ -2906,38 +2918,38 @@
                 {
                   "name": "Обзор",
                   "href": "ru/reference/ydb-cli/commands/bridge/",
-                  "id": "559"
+                  "id": "561"
                 },
                 {
                   "name": "ydb admin cluster bridge list",
                   "href": "ru/reference/ydb-cli/commands/bridge/list",
-                  "id": "560"
+                  "id": "562"
                 },
                 {
                   "name": "ydb admin cluster bridge switchover",
                   "href": "ru/reference/ydb-cli/commands/bridge/switchover",
-                  "id": "561"
+                  "id": "563"
                 },
                 {
                   "name": "ydb admin cluster bridge failover",
                   "href": "ru/reference/ydb-cli/commands/bridge/failover",
-                  "id": "562"
+                  "id": "564"
                 },
                 {
                   "name": "ydb admin cluster bridge takedown",
                   "href": "ru/reference/ydb-cli/commands/bridge/takedown",
-                  "id": "563"
+                  "id": "565"
                 },
                 {
                   "name": "ydb admin cluster bridge rejoin",
                   "href": "ru/reference/ydb-cli/commands/bridge/rejoin",
-                  "id": "564"
+                  "id": "566"
                 }
               ],
-              "id": "558"
+              "id": "560"
             }
           ],
-          "id": "464"
+          "id": "466"
         },
         {
           "name": "YDB Native SDK",
@@ -2946,22 +2958,22 @@
             {
               "name": "Обзор",
               "href": "ru/reference/ydb-sdk/",
-              "id": "566"
+              "id": "568"
             },
             {
               "name": "Установка SDK",
               "href": "ru/reference/ydb-sdk/install",
-              "id": "567"
+              "id": "569"
             },
             {
               "name": "Аутентификация в SDK",
               "href": "ru/reference/ydb-sdk/auth",
-              "id": "568"
+              "id": "570"
             },
             {
               "name": "Параметризованные запросы",
               "href": "ru/reference/ydb-sdk/parameterized_queries",
-              "id": "569"
+              "id": "571"
             },
             {
               "name": "Форматы данных",
@@ -2970,25 +2982,25 @@
                 {
                   "name": "Protobuf (Value)",
                   "href": "ru/reference/ydb-sdk/data-formats/format-protobuf",
-                  "id": "571"
+                  "id": "573"
                 },
                 {
                   "name": "Apache Arrow",
                   "href": "ru/reference/ydb-sdk/data-formats/format-arrow",
-                  "id": "572"
+                  "id": "574"
                 }
               ],
-              "id": "570"
+              "id": "572"
             },
             {
               "name": "Работа с топиками",
               "href": "ru/reference/ydb-sdk/topic",
-              "id": "573"
+              "id": "575"
             },
             {
               "name": "Работа с узлами координации",
               "href": "ru/reference/ydb-sdk/coordination",
-              "id": "574"
+              "id": "576"
             },
             {
               "name": "Обработка ошибок в API",
@@ -2997,15 +3009,15 @@
                 {
                   "name": "Статусы завершения сервера YDB",
                   "href": "ru/reference/ydb-sdk/ydb-status-codes",
-                  "id": "576"
+                  "id": "578"
                 },
                 {
                   "name": "Статусы завершения gRPC",
                   "href": "ru/reference/ydb-sdk/grpc-status-codes",
-                  "id": "577"
+                  "id": "579"
                 }
               ],
-              "id": "575"
+              "id": "577"
             },
             {
               "name": "gRPC API",
@@ -3013,28 +3025,28 @@
                 {
                   "name": "Обзор",
                   "href": "ru/reference/ydb-sdk/overview-grpc-api",
-                  "id": "579"
+                  "id": "581"
                 },
                 {
                   "name": "Заголовки gRPC",
                   "href": "ru/reference/ydb-sdk/grpc-headers",
-                  "id": "580"
+                  "id": "582"
                 },
                 {
                   "name": "Health Check API",
                   "href": "ru/reference/ydb-sdk/health-check-api",
-                  "id": "581"
+                  "id": "583"
                 }
               ],
-              "id": "578"
+              "id": "580"
             },
             {
               "name": "Сравнение возможностей SDK",
               "href": "ru/reference/ydb-sdk/feature-parity",
-              "id": "582"
+              "id": "584"
             }
           ],
-          "id": "565"
+          "id": "567"
         },
         {
           "name": "Языки и API",
@@ -3047,35 +3059,35 @@
                 {
                   "name": "Hачало работы",
                   "href": "ru/reference/languages-and-apis/ado-net/getting-started",
-                  "id": "585"
+                  "id": "587"
                 },
                 {
                   "name": "Установка",
                   "href": "ru/reference/languages-and-apis/ado-net/installation",
-                  "id": "586"
+                  "id": "588"
                 },
                 {
                   "name": "Основное использование",
                   "href": "ru/reference/languages-and-apis/ado-net/basic-usage",
-                  "id": "587"
+                  "id": "589"
                 },
                 {
                   "name": "Параметры подключения",
                   "href": "ru/reference/languages-and-apis/ado-net/connection-parameters",
-                  "id": "588"
+                  "id": "590"
                 },
                 {
                   "name": "Соответствие типов",
                   "href": "ru/reference/languages-and-apis/ado-net/type-mapping",
-                  "id": "589"
+                  "id": "591"
                 },
                 {
                   "name": "Подключение к Yandex Cloud",
                   "href": "ru/reference/languages-and-apis/ado-net/yandex-cloud",
-                  "id": "590"
+                  "id": "592"
                 }
               ],
-              "id": "584"
+              "id": "586"
             },
             {
               "name": "JDBC-драйвер",
@@ -3084,38 +3096,38 @@
                 {
                   "name": "Быстрый старт",
                   "href": "ru/reference/languages-and-apis/jdbc-driver/quickstart",
-                  "id": "592"
+                  "id": "594"
                 },
                 {
                   "name": "Использование с Maven",
                   "href": "ru/reference/languages-and-apis/jdbc-driver/maven",
-                  "id": "593"
+                  "id": "595"
                 },
                 {
                   "name": "Режимы аутентификации",
                   "href": "ru/reference/languages-and-apis/jdbc-driver/authentication",
-                  "id": "594"
+                  "id": "596"
                 },
                 {
                   "name": "Свойства",
                   "href": "ru/reference/languages-and-apis/jdbc-driver/properties",
-                  "id": "595"
+                  "id": "597"
                 },
                 {
                   "name": "Сборка",
                   "href": "ru/reference/languages-and-apis/jdbc-driver/building",
-                  "id": "596"
+                  "id": "598"
                 }
               ],
-              "id": "591"
+              "id": "593"
             },
             {
               "name": "Model Context Protocol",
               "href": "ru/reference/languages-and-apis/mcp/",
-              "id": "597"
+              "id": "599"
             }
           ],
-          "id": "583"
+          "id": "585"
         },
         {
           "name": "Kafka API",
@@ -3124,17 +3136,17 @@
             {
               "name": "Обзор",
               "href": "ru/reference/kafka-api/",
-              "id": "599"
+              "id": "601"
             },
             {
               "name": "Аутентификация",
               "href": "ru/reference/kafka-api/auth",
-              "id": "600"
+              "id": "602"
             },
             {
               "name": "Примеры чтения и записи",
               "href": "ru/reference/kafka-api/examples",
-              "id": "601"
+              "id": "603"
             },
             {
               "name": "Kafka Connect",
@@ -3142,28 +3154,28 @@
                 {
                   "name": "Обзор",
                   "href": "ru/reference/kafka-api/connect/",
-                  "id": "603"
+                  "id": "605"
                 },
                 {
                   "name": "Настройка Kafka Connect. Пошаговая инструкция",
                   "href": "ru/reference/kafka-api/connect/connect-step-by-step",
-                  "id": "604"
+                  "id": "606"
                 },
                 {
                   "name": "Примеры настройки коннекторов",
                   "href": "ru/reference/kafka-api/connect/connect-examples",
-                  "id": "605"
+                  "id": "607"
                 }
               ],
-              "id": "602"
+              "id": "604"
             },
             {
               "name": "Ограничения",
               "href": "ru/reference/kafka-api/constraints",
-              "id": "606"
+              "id": "608"
             }
           ],
-          "id": "598"
+          "id": "600"
         },
         {
           "name": "Конфигурация",
@@ -3172,130 +3184,130 @@
             {
               "name": "actor_system_config",
               "href": "ru/reference/configuration/actor_system_config",
-              "id": "608"
+              "id": "610"
             },
             {
               "name": "auth_config",
               "href": "ru/reference/configuration/auth_config",
-              "id": "609"
+              "id": "611"
             },
             {
               "name": "blob_storage_config",
               "href": "ru/reference/configuration/blob_storage_config",
-              "id": "610"
+              "id": "612"
             },
             {
               "name": "bridge_config",
               "href": "ru/reference/configuration/bridge_config",
-              "id": "611"
+              "id": "613"
             },
             {
               "name": "client_certificate_authorization",
               "href": "ru/reference/configuration/client_certificate_authorization",
-              "id": "612"
+              "id": "614"
             },
             {
               "name": "cms_config",
               "href": "ru/reference/configuration/cms_config",
-              "id": "613"
+              "id": "615"
             },
             {
               "name": "domains_config",
               "href": "ru/reference/configuration/domains_config",
-              "id": "614"
+              "id": "616"
             },
             {
               "name": "feature_flags",
               "href": "ru/reference/configuration/feature_flags",
-              "id": "615"
+              "id": "617"
             },
             {
               "name": "query_service_config",
               "href": "ru/reference/configuration/query_service_config",
-              "id": "616"
+              "id": "618"
             },
             {
               "name": "healthcheck_config",
               "href": "ru/reference/configuration/healthcheck_config",
-              "id": "617"
+              "id": "619"
             },
             {
               "name": "hive_config",
               "href": "ru/reference/configuration/hive_config",
-              "id": "618"
+              "id": "620"
             },
             {
               "name": "host_configs",
               "href": "ru/reference/configuration/host_configs",
-              "id": "619"
+              "id": "621"
             },
             {
               "name": "hosts",
               "href": "ru/reference/configuration/hosts",
-              "id": "620"
+              "id": "622"
             },
             {
               "name": "immediate_controls_config",
               "href": "ru/reference/configuration/immediate_controls_config",
-              "id": "621"
+              "id": "623"
             },
             {
               "name": "kafka_proxy_config",
               "href": "ru/reference/configuration/kafka_proxy_config",
-              "id": "622"
+              "id": "624"
             },
             {
               "name": "log_config",
               "href": "ru/reference/configuration/log_config",
-              "id": "623"
+              "id": "625"
             },
             {
               "name": "memory_controller_config",
               "href": "ru/reference/configuration/memory_controller_config",
-              "id": "624"
+              "id": "626"
             },
             {
               "name": "monitoring_config",
               "href": "ru/reference/configuration/monitoring_config",
-              "id": "625"
+              "id": "627"
             },
             {
               "name": "node_broker_config",
               "href": "ru/reference/configuration/node_broker_config",
-              "id": "626"
+              "id": "628"
             },
             {
               "name": "resource_broker_config",
               "href": "ru/reference/configuration/resource_broker_config",
-              "id": "627"
+              "id": "629"
             },
             {
               "name": "security_config",
               "href": "ru/reference/configuration/security_config",
-              "id": "628"
+              "id": "630"
             },
             {
               "name": "system_tablet_backup_config",
               "href": "ru/reference/configuration/system_tablet_backup_config",
-              "id": "629"
+              "id": "631"
             },
             {
               "name": "tls",
               "href": "ru/reference/configuration/tls",
-              "id": "630"
+              "id": "632"
             },
             {
               "name": "table_service_config",
               "href": "ru/reference/configuration/table_service_config",
-              "id": "631"
+              "id": "633"
             },
             {
               "name": "tli_config",
               "href": "ru/reference/configuration/tli_config",
-              "id": "632"
+              "id": "634"
             }
           ],
-          "id": "607"
+          "id": "609"
         },
         {
           "name": "Observability",
@@ -3304,7 +3316,7 @@
             {
               "name": "Обзор",
               "href": "ru/reference/observability/",
-              "id": "634"
+              "id": "636"
             },
             {
               "name": "Метрики",
@@ -3312,15 +3324,15 @@
                 {
                   "name": "Справка по метрикам",
                   "href": "ru/reference/observability/metrics/",
-                  "id": "636"
+                  "id": "638"
                 },
                 {
                   "name": "Дашборды Grafana",
                   "href": "ru/reference/observability/metrics/grafana-dashboards",
-                  "id": "637"
+                  "id": "639"
                 }
               ],
-              "id": "635"
+              "id": "637"
             },
             {
               "name": "Трассировка",
@@ -3328,18 +3340,18 @@
                 {
                   "name": "Настройка",
                   "href": "ru/reference/observability/tracing/setup",
-                  "id": "639"
+                  "id": "641"
                 },
                 {
                   "name": "Передача внешнего trace-id",
                   "href": "ru/reference/observability/tracing/external-traces",
-                  "id": "640"
+                  "id": "642"
                 }
               ],
-              "id": "638"
+              "id": "640"
             }
           ],
-          "id": "633"
+          "id": "635"
         },
         {
           "name": "YDB DStool",
@@ -3348,25 +3360,25 @@
             {
               "name": "Обзор",
               "href": "ru/reference/ydb-dstool/",
-              "id": "642"
+              "id": "644"
             },
             {
               "name": "Установка",
               "href": "ru/reference/ydb-dstool/install",
-              "id": "643"
+              "id": "645"
             },
             {
               "name": "Глобальные опции",
               "href": "ru/reference/ydb-dstool/global-options",
-              "id": "644"
+              "id": "646"
             },
             {
               "name": "Список устройств",
               "href": "ru/reference/ydb-dstool/device-list",
-              "id": "645"
+              "id": "647"
             }
           ],
-          "id": "641"
+          "id": "643"
         },
         {
           "name": "ydbops",
@@ -3375,25 +3387,25 @@
             {
               "name": "Обзор",
               "href": "ru/reference/ydbops/",
-              "id": "647"
+              "id": "649"
             },
             {
               "name": "Установка",
               "href": "ru/reference/ydbops/install",
-              "id": "648"
+              "id": "650"
             },
             {
               "name": "Настройка",
               "href": "ru/reference/ydbops/configuration",
-              "id": "649"
+              "id": "651"
             },
             {
               "name": "Сценарий перезапуска кластера",
               "href": "ru/reference/ydbops/rolling-restart-scenario",
-              "id": "650"
+              "id": "652"
             }
           ],
-          "id": "646"
+          "id": "648"
         },
         {
           "name": "Docker",
@@ -3402,35 +3414,35 @@
             {
               "name": "Именование тегов",
               "href": "ru/reference/docker/tags",
-              "id": "652"
+              "id": "654"
             },
             {
               "name": "Установка Docker",
               "href": "ru/reference/docker/prerequisites",
-              "id": "653"
+              "id": "655"
             },
             {
               "name": "Работа с Docker",
               "href": "ru/reference/docker/start",
-              "id": "654"
+              "id": "656"
             },
             {
               "name": "Настройка",
               "href": "ru/reference/docker/configuration",
-              "id": "655"
+              "id": "657"
             },
             {
               "name": "Скрипты инициализации",
               "href": "ru/reference/docker/init-scripts",
-              "id": "656"
+              "id": "658"
             },
             {
               "name": "Остановка и очистка",
               "href": "ru/reference/docker/cleanup",
-              "id": "657"
+              "id": "659"
             }
           ],
-          "id": "651"
+          "id": "653"
         }
       ],
       "id": "265"
@@ -3446,40 +3458,40 @@
             {
               "name": "Начало работы",
               "href": "ru/recipes/backup-collections/getting-started",
-              "id": "662"
+              "id": "664"
             },
             {
               "name": "Настройка для разных сред",
               "href": "ru/recipes/backup-collections/multi-environment-setup",
-              "id": "663"
+              "id": "665"
             },
             {
               "name": "Стратегия для микросервисов",
               "href": "ru/recipes/backup-collections/microservices-backup-strategy",
-              "id": "664"
+              "id": "666"
             },
             {
               "name": "Экспорт во внешнее хранилище",
               "href": "ru/recipes/backup-collections/exporting-to-external-storage",
-              "id": "665"
+              "id": "667"
             },
             {
               "name": "Импорт и восстановление",
               "href": "ru/recipes/backup-collections/importing-and-restoring",
-              "id": "666"
+              "id": "668"
             },
             {
               "name": "Обслуживание и очистка",
               "href": "ru/recipes/backup-collections/maintenance-and-cleanup",
-              "id": "667"
+              "id": "669"
             },
             {
               "name": "Проверка и тестирование",
               "href": "ru/recipes/backup-collections/validation-and-testing",
-              "id": "668"
+              "id": "670"
             }
           ],
-          "id": "661"
+          "id": "663"
         },
         {
           "name": "YDB SDK и фреймворки",
@@ -3487,12 +3499,12 @@
             {
               "name": "Обзор",
               "href": "ru/recipes/ydb-sdk/",
-              "id": "670"
+              "id": "672"
             },
             {
               "name": "Инициализация драйвера",
               "href": "ru/recipes/ydb-sdk/init",
-              "id": "671"
+              "id": "673"
             },
             {
               "name": "Аутентификация",
@@ -3500,40 +3512,40 @@
                 {
                   "name": "Обзор",
                   "href": "ru/recipes/ydb-sdk/auth",
-                  "id": "673"
+                  "id": "675"
                 },
                 {
                   "name": "С помощью токена",
                   "href": "ru/recipes/ydb-sdk/auth-access-token",
-                  "id": "674"
+                  "id": "676"
                 },
                 {
                   "name": "Анонимная",
                   "href": "ru/recipes/ydb-sdk/auth-anonymous",
-                  "id": "675"
+                  "id": "677"
                 },
                 {
                   "name": "Файл сервисного аккаунта",
                   "href": "ru/recipes/ydb-sdk/auth-service-account",
-                  "id": "676"
+                  "id": "678"
                 },
                 {
                   "name": "Сервис метаданных",
                   "href": "ru/recipes/ydb-sdk/auth-metadata",
-                  "id": "677"
+                  "id": "679"
                 },
                 {
                   "name": "С помощью переменных окружения",
                   "href": "ru/recipes/ydb-sdk/auth-env",
-                  "id": "678"
+                  "id": "680"
                 },
                 {
                   "name": "С помощью логина и пароля",
                   "href": "ru/recipes/ydb-sdk/auth-static",
-                  "id": "679"
+                  "id": "681"
                 }
               ],
-              "id": "672"
+              "id": "674"
             },
             {
               "name": "Балансировка",
@@ -3541,65 +3553,65 @@
                 {
                   "name": "Обзор",
                   "href": "ru/recipes/ydb-sdk/balancing",
-                  "id": "681"
+                  "id": "683"
                 },
                 {
                   "name": "Равномерный случайный выбор",
                   "href": "ru/recipes/ydb-sdk/balancing-random-choice",
-                  "id": "682"
+                  "id": "684"
                 },
                 {
                   "name": "Предпочитать ближайший дата-центр",
                   "href": "ru/recipes/ydb-sdk/balancing-prefer-local",
-                  "id": "683"
+                  "id": "685"
                 },
                 {
                   "name": "Предпочитать конкретную зону доступности",
                   "href": "ru/recipes/ydb-sdk/balancing-prefer-location",
-                  "id": "684"
+                  "id": "686"
                 },
                 {
                   "name": "Предпочитать пайл c конкретным состоянием",
                   "href": "ru/recipes/ydb-sdk/balancing-prefer-pile",
-                  "id": "685"
+                  "id": "687"
                 }
               ],
-              "id": "680"
+              "id": "682"
             },
             {
               "name": "Выполнение повторных запросов",
               "href": "ru/recipes/ydb-sdk/retry",
-              "id": "686"
+              "id": "688"
             },
             {
               "name": "Установить размер пула сессий",
               "href": "ru/recipes/ydb-sdk/session-pool-limit",
-              "id": "687"
+              "id": "689"
             },
             {
               "name": "Вставка данных",
               "href": "ru/recipes/ydb-sdk/upsert",
-              "id": "688"
+              "id": "690"
             },
             {
               "name": "Пакетная вставка данных",
               "href": "ru/recipes/ydb-sdk/bulk-upsert",
-              "id": "689"
+              "id": "691"
             },
             {
               "name": "Установка режима выполнения транзакции",
               "href": "ru/recipes/ydb-sdk/tx-control",
-              "id": "690"
+              "id": "692"
             },
             {
               "name": "Настройка TTL",
               "href": "ru/recipes/ydb-sdk/ttl",
-              "id": "691"
+              "id": "693"
             },
             {
               "name": "Векторный поиск",
               "href": "ru/recipes/ydb-sdk/vector-search",
-              "id": "692"
+              "id": "694"
             },
             {
               "name": "Координация",
@@ -3607,25 +3619,25 @@
                 {
                   "name": "Распределённая блокировка",
                   "href": "ru/recipes/ydb-sdk/distributed-lock",
-                  "id": "694"
+                  "id": "696"
                 },
                 {
                   "name": "Выбор лидера",
                   "href": "ru/recipes/ydb-sdk/leader-election",
-                  "id": "695"
+                  "id": "697"
                 },
                 {
                   "name": "Обнаружение сервисов",
                   "href": "ru/recipes/ydb-sdk/service-discovery",
-                  "id": "696"
+                  "id": "698"
                 },
                 {
                   "name": "Публикация конфигурации",
                   "href": "ru/recipes/ydb-sdk/config-publication",
-                  "id": "697"
+                  "id": "699"
                 }
               ],
-              "id": "693"
+              "id": "695"
             },
             {
               "name": "Диагностика проблем",
@@ -3633,33 +3645,33 @@
                 {
                   "name": "Обзор",
                   "href": "ru/recipes/ydb-sdk/debug",
-                  "id": "699"
+                  "id": "701"
                 },
                 {
                   "name": "Включить логирование",
                   "href": "ru/recipes/ydb-sdk/debug-logs",
-                  "id": "700"
+                  "id": "702"
                 },
                 {
                   "name": "Подключить метрики в Prometheus",
                   "href": "ru/recipes/ydb-sdk/debug-prometheus",
-                  "id": "701"
+                  "id": "703"
                 },
                 {
                   "name": "Трассировка с OpenTelemetry",
                   "href": "ru/recipes/ydb-sdk/debug-otel",
-                  "id": "702"
+                  "id": "704"
                 },
                 {
                   "name": "Подключить трассировку в Jaeger",
                   "href": "ru/recipes/ydb-sdk/debug-jaeger",
-                  "id": "703"
+                  "id": "705"
                 }
               ],
-              "id": "698"
+              "id": "700"
             }
           ],
-          "id": "669"
+          "id": "671"
         },
         {
           "name": "YDB CLI",
@@ -3668,20 +3680,20 @@
             {
               "name": "Конвертация типов таблиц",
               "href": "ru/recipes/ydb-cli/convert-table-type",
-              "id": "705"
+              "id": "707"
             },
             {
               "name": "Нагрузочное тестирование",
               "href": "ru/recipes/ydb-cli/benchmarks",
-              "id": "706"
+              "id": "708"
             },
             {
               "name": "Настройка TTL таблиц",
               "href": "ru/recipes/ydb-cli/ttl",
-              "id": "707"
+              "id": "709"
             }
           ],
-          "id": "704"
+          "id": "706"
         },
         {
           "name": "YQL",
@@ -3689,25 +3701,25 @@
             {
               "name": "Обзор",
               "href": "ru/yql/reference/recipes/",
-              "id": "709"
+              "id": "711"
             },
             {
               "name": "Доступ к JSON",
               "href": "ru/yql/reference/recipes/accessing-json",
-              "id": "710"
+              "id": "712"
             },
             {
               "name": "Модификация JSON",
               "href": "ru/yql/reference/recipes/modifying-json",
-              "id": "711"
+              "id": "713"
             },
             {
               "name": "Настройка TTL",
               "href": "ru/yql/reference/recipes/ttl",
-              "id": "712"
+              "id": "714"
             }
           ],
-          "id": "708"
+          "id": "710"
         },
         {
           "name": "AI",
@@ -3716,15 +3728,15 @@
             {
               "name": "Векторный индекс - быстрый старт",
               "href": "ru/recipes/vector-search/vector-index-quickstart",
-              "id": "714"
+              "id": "716"
             },
             {
               "name": "Векторный индекс с загрузкой внешнего набора данных",
               "href": "ru/recipes/vector-search/vector-index-with-prepared-dataset",
-              "id": "715"
+              "id": "717"
             }
           ],
-          "id": "713"
+          "id": "715"
         },
         {
           "name": "Трансфер",
@@ -3733,20 +3745,20 @@
             {
               "name": "Трансфер — быстрый старт",
               "href": "ru/recipes/transfer/quickstart",
-              "id": "717"
+              "id": "719"
             },
             {
               "name": "Трансфер — поставка access логов NGINX в таблицу",
               "href": "ru/recipes/transfer/nginx",
-              "id": "718"
+              "id": "720"
             }
           ],
-          "id": "716"
+          "id": "718"
         },
         {
           "name": "Импорт и экспорт данных в колоночные таблицы",
           "href": "ru/recipes/import-export-column-tables",
-          "id": "719"
+          "id": "721"
         },
         {
           "name": "Потоковые запросы",
@@ -3755,18 +3767,18 @@
             {
               "name": "Быстрый старт: чтение и запись в топики",
               "href": "ru/recipes/streaming_queries/topics",
-              "id": "721"
+              "id": "723"
             },
             {
               "name": "Отладочное чтение из топика",
               "href": "ru/recipes/streaming_queries/debug-read",
-              "id": "722"
+              "id": "724"
             }
           ],
-          "id": "720"
+          "id": "722"
         }
       ],
-      "id": "660"
+      "id": "662"
     },
     {
       "name": "Диагностика проблем",
@@ -3782,25 +3794,25 @@
                 {
                   "name": "Сетевые проблемы",
                   "href": "ru/troubleshooting/performance/infrastructure/network",
-                  "id": "726"
+                  "id": "728"
                 },
                 {
                   "name": "Сбои датацентров",
                   "href": "ru/troubleshooting/performance/infrastructure/dc-outage",
-                  "id": "727"
+                  "id": "729"
                 },
                 {
                   "name": "Учения и работы по обслуживанию",
                   "href": "ru/troubleshooting/performance/infrastructure/dc-drills",
-                  "id": "728"
+                  "id": "730"
                 },
                 {
                   "name": "Аппаратные проблемы",
                   "href": "ru/troubleshooting/performance/infrastructure/hardware",
-                  "id": "729"
+                  "id": "731"
                 }
               ],
-              "id": "725"
+              "id": "727"
             },
             {
               "name": "Нехватка ресурсов",
@@ -3808,25 +3820,25 @@
                 {
                   "name": "Процессор",
                   "href": "ru/troubleshooting/performance/hardware/cpu-bottleneck",
-                  "id": "731"
+                  "id": "733"
                 },
                 {
                   "name": "Оперативная память",
                   "href": "ru/troubleshooting/performance/hardware/insufficient-memory",
-                  "id": "732"
+                  "id": "734"
                 },
                 {
                   "name": "Пропускная способность",
                   "href": "ru/troubleshooting/performance/hardware/io-bandwidth",
-                  "id": "733"
+                  "id": "735"
                 },
                 {
                   "name": "Дисковое пространство",
                   "href": "ru/troubleshooting/performance/hardware/disk-space",
-                  "id": "734"
+                  "id": "736"
                 }
               ],
-              "id": "730"
+              "id": "732"
             },
             {
               "name": "Операционная система",
@@ -3834,10 +3846,10 @@
                 {
                   "name": "Расхождение системного времени",
                   "href": "ru/troubleshooting/performance/system/system-clock-drift",
-                  "id": "736"
+                  "id": "738"
                 }
               ],
-              "id": "735"
+              "id": "737"
             },
             {
               "name": "Конфигурация YDB",
@@ -3845,15 +3857,15 @@
                 {
                   "name": "Процедура последовательного перезапуска",
                   "href": "ru/troubleshooting/performance/ydb/ydb-updates",
-                  "id": "738"
+                  "id": "740"
                 },
                 {
                   "name": "Частые переезды таблеток между узлами",
                   "href": "ru/troubleshooting/performance/ydb/tablets-moved",
-                  "id": "739"
+                  "id": "741"
                 }
               ],
-              "id": "737"
+              "id": "739"
             },
             {
               "name": "Схемы таблиц",
@@ -3861,15 +3873,15 @@
                 {
                   "name": "Перегруженные таблетки data shard",
                   "href": "ru/troubleshooting/performance/schemas/overloaded-shards",
-                  "id": "741"
+                  "id": "743"
                 },
                 {
                   "name": "Избыточные разделения и слияния партиций таблиц",
                   "href": "ru/troubleshooting/performance/schemas/splits-merges",
-                  "id": "742"
+                  "id": "744"
                 }
               ],
-              "id": "740"
+              "id": "742"
             },
             {
               "name": "Клиентские приложения",
@@ -3877,23 +3889,23 @@
                 {
                   "name": "Инвалидация блокировок транзакций",
                   "href": "ru/troubleshooting/performance/queries/transaction-lock-invalidation",
-                  "id": "744"
+                  "id": "746"
                 },
                 {
                   "name": "Логирование TLI",
                   "href": "ru/troubleshooting/performance/queries/tli-logging",
-                  "id": "745"
+                  "id": "747"
                 },
                 {
                   "name": "Ошибки «overloaded»",
                   "href": "ru/troubleshooting/performance/queries/overloaded-errors",
-                  "id": "746"
+                  "id": "748"
                 }
               ],
-              "id": "743"
+              "id": "745"
             }
           ],
-          "id": "724"
+          "id": "726"
         },
         {
           "name": "Проблемы со спиллингом",
@@ -3902,25 +3914,25 @@
             {
               "name": "Can not run operation",
               "href": "ru/troubleshooting/spilling/can-not-run-operation",
-              "id": "748"
+              "id": "750"
             },
             {
               "name": "Permission denied",
               "href": "ru/troubleshooting/spilling/permission-denied",
-              "id": "749"
+              "id": "751"
             },
             {
               "name": "Spilling Service not started",
               "href": "ru/troubleshooting/spilling/service-not-started",
-              "id": "750"
+              "id": "752"
             },
             {
               "name": "Total size limit exceeded",
               "href": "ru/troubleshooting/spilling/total-size-limit-exceeded",
-              "id": "751"
+              "id": "753"
             }
           ],
-          "id": "747"
+          "id": "749"
         },
         {
           "name": "Примеры диагностики",
@@ -3928,13 +3940,13 @@
             {
               "name": "Перегруженный шард",
               "href": "ru/troubleshooting/examples/schemas/overloaded-shard-simple-case",
-              "id": "753"
+              "id": "755"
             }
           ],
-          "id": "752"
+          "id": "754"
         }
       ],
-      "id": "723"
+      "id": "725"
     },
     {
       "name": "Вопросы и ответы",
@@ -3943,40 +3955,40 @@
         {
           "name": "Общие вопросы",
           "href": "ru/faq/common",
-          "id": "755"
+          "id": "757"
         },
         {
           "name": "SDK",
           "href": "ru/faq/sdk",
-          "id": "756"
+          "id": "758"
         },
         {
           "name": "Ошибки",
           "href": "ru/faq/errors",
-          "id": "757"
+          "id": "759"
         },
         {
           "name": "YQL",
           "href": "ru/faq/yql",
-          "id": "758"
+          "id": "760"
         },
         {
           "name": "Аналитика",
           "href": "ru/faq/analytics",
-          "id": "759"
+          "id": "761"
         },
         {
           "name": "Известные проблемы",
           "href": "ru/faq/known-issues",
-          "id": "760"
+          "id": "762"
         },
         {
           "name": "Все вопросы на одной странице",
           "href": "ru/faq/all",
-          "id": "761"
+          "id": "763"
         }
       ],
-      "id": "754"
+      "id": "756"
     },
     {
       "name": "Загрузки",
@@ -3985,35 +3997,35 @@
         {
           "name": "YDB Open-Source Database",
           "href": "ru/downloads/ydb-open-source-database",
-          "id": "764"
+          "id": "766"
         },
         {
           "name": "Yandex Enterprise Database",
           "href": "ru/downloads/yandex-enterprise-database",
-          "id": "765"
+          "id": "767"
         },
         {
           "name": "YDB CLI",
           "href": "ru/downloads/ydb-cli",
-          "id": "766"
+          "id": "768"
         },
         {
           "name": "YDB DSTool",
           "href": "ru/downloads/ydb-dstool",
-          "id": "767"
+          "id": "769"
         },
         {
           "name": "YDB Ops",
           "href": "ru/downloads/ydb-ops",
-          "id": "768"
+          "id": "770"
         },
         {
           "name": "YDB Ansible",
           "href": "ru/downloads/ydb-ansible",
-          "id": "769"
+          "id": "771"
         }
       ],
-      "id": "763"
+      "id": "765"
     },
     {
       "name": "Публичные материалы",
@@ -4025,55 +4037,55 @@
             {
               "name": 2026,
               "href": "ru/public-materials/videos/2026",
-              "id": "772"
+              "id": "774"
             },
             {
               "name": 2025,
               "href": "ru/public-materials/videos/2025",
-              "id": "773"
+              "id": "775"
             },
             {
               "name": 2024,
               "href": "ru/public-materials/videos/2024",
-              "id": "774"
+              "id": "776"
             },
             {
               "name": 2023,
               "href": "ru/public-materials/videos/2023",
-              "id": "775"
+              "id": "777"
             },
             {
               "name": 2022,
               "href": "ru/public-materials/videos/2022",
-              "id": "776"
+              "id": "778"
             },
             {
               "name": 2021,
               "href": "ru/public-materials/videos/2021",
-              "id": "777"
+              "id": "779"
             },
             {
               "name": 2020,
               "href": "ru/public-materials/videos/2020",
-              "id": "778"
+              "id": "780"
             },
             {
               "name": 2019,
               "href": "ru/public-materials/videos/2019",
-              "id": "779"
+              "id": "781"
             },
             {
               "name": 2018,
               "href": "ru/public-materials/videos/2018",
-              "id": "780"
+              "id": "782"
             },
             {
               "name": 2017,
               "href": "ru/public-materials/videos/2017",
-              "id": "781"
+              "id": "783"
             }
           ],
-          "id": "771"
+          "id": "773"
         },
         {
           "name": "Статьи",
@@ -4082,33 +4094,33 @@
             {
               "name": 2025,
               "href": "ru/public-materials/publications/2025",
-              "id": "783"
+              "id": "785"
             },
             {
               "name": 2024,
               "href": "ru/public-materials/publications/2024",
-              "id": "784"
+              "id": "786"
             },
             {
               "name": 2023,
               "href": "ru/public-materials/publications/2023",
-              "id": "785"
+              "id": "787"
             },
             {
               "name": 2021,
               "href": "ru/public-materials/publications/2021",
-              "id": "786"
+              "id": "788"
             }
           ],
-          "id": "782"
+          "id": "784"
         },
         {
           "name": "Подкасты",
           "href": "ru/public-materials/podcasts",
-          "id": "787"
+          "id": "789"
         }
       ],
-      "id": "770"
+      "id": "772"
     },
     {
       "name": "Список изменений",
@@ -4116,25 +4128,25 @@
         {
           "name": "YDB Server",
           "href": "ru/changelog-server",
-          "id": "789"
+          "id": "791"
         },
         {
           "name": "Yandex Enterprise Database",
           "href": "ru/changelog-enterprise",
-          "id": "790"
+          "id": "792"
         },
         {
           "name": "YDB CLI",
           "href": "ru/changelog-cli",
-          "id": "791"
+          "id": "793"
         },
         {
           "name": "Список изменений безопасности",
           "href": "ru/security-changelog",
-          "id": "792"
+          "id": "794"
         }
       ],
-      "id": "788"
+      "id": "790"
     },
     {
       "name": "Обучение",
@@ -4143,25 +4155,25 @@
         {
           "name": "Курс для администраторов",
           "href": "https://yandex.cloud/ru/training/ydb-admin?utm_medium=owned&utm_source=oss_docs",
-          "id": "794"
+          "id": "796"
         },
         {
           "name": "Курс для разработчиков",
           "href": "https://ydb.yandex.ru/training/ydb-developer?utm_medium=owned&utm_source=oss_docs",
-          "id": "795"
+          "id": "797"
         },
         {
           "name": "Сертификация для администраторов",
           "href": "https://yandex.cloud/ru/certification/ydbadministrator?utm_medium=owned&utm_source=oss_docs",
-          "id": "796"
+          "id": "798"
         },
         {
           "name": "Сертификация для разработчиков",
           "href": "https://yandex.cloud/ru/certification/ydbdeveloper?utm_medium=owned&utm_source=oss_docs",
-          "id": "797"
+          "id": "799"
         }
       ],
-      "id": "793"
+      "id": "795"
     },
     {
       "name": "Карьера",
@@ -4170,15 +4182,15 @@
         {
           "name": "Команда",
           "href": "https://ydb.tech/ru/careers/",
-          "id": "799"
+          "id": "801"
         },
         {
           "name": "Студентам",
           "href": "https://ydb.tech/ru/students/",
-          "id": "800"
+          "id": "802"
         }
       ],
-      "id": "798"
+      "id": "800"
     }
   ],
   "path": "ru/toc.yaml",

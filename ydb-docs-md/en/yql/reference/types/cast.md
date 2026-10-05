@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/types/cast.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/cast.md"
 description: "Rules for casting primitive data types."
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Rules for type casting using the operator [CAST](../syntax/expressions.md#cast)

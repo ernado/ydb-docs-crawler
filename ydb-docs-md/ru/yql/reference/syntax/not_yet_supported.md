@@ -6,15 +6,19 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/yql/reference/syntax/not_yet_supported.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/not_yet_supported.md"
-description: "[NOT] [EXISTS|INTERSECT|EXCEPT]."
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+description: "Коррелированные EXISTS и NOT EXISTS."
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Ещё не поддерживаемые конструкции из классического SQL
 
-## \[NOT\] \[EXISTS|INTERSECT|EXCEPT\] {#not-exists}
+## Коррелированные EXISTS и NOT EXISTS {#not-exists}
 
-Доступный альтернативный вариант — `EXISTS` синтаксически доступен, но из-за отсутствия поддержки коррелированных подзапросов не очень полезен. Также можно переписать через `JOIN`.
+`EXISTS` и `NOT EXISTS` можно использовать с некоррелированными подзапросами. Коррелированные подзапросы не поддерживаются. Для отбора строк по наличию или отсутствию совпадающих строк используйте `LEFT SEMI JOIN` или `LEFT ONLY JOIN`. Подробнее см. в разделе [Коррелированные подзапросы, EXISTS и NOT EXISTS](correlated-subqueries.md).
+
+## INTERSECT и EXCEPT {#intersect-except}
+
+YQL не поддерживает `INTERSECT` и `EXCEPT`.
 
 ## NATURAL JOIN
 

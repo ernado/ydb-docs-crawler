@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/topic-pipeline.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/topic-pipeline.md"
 description: "Возможности работы команд topic read и topic write со стандартными устройствами ввода/вывода, а также поддержка потокового режима на чтении, позволяет выстраива"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Конвейерная обработка сообщений

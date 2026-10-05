@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/concepts/maintenance-without-downtime.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/concepts/maintenance-without-downtime.md"
 description: "A YDB cluster periodically needs maintenance, such as upgrading its version or replacing broken disks. Maintenance can cause a cluster or its databases to becom"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # Maintenance without downtime

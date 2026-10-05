@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/feature_flags.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/feature_flags.md"
 description: "Секция feature_flags включает или отключает определённые функции YDB с помощью булевых флагов. Для включения функции установите соответствующий функциональный ф"
-revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
+revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 ---
 
 # feature_flags
@@ -18,6 +18,9 @@ revision: "8c7501e02fd7c6de0c7110aafa90f78948400f1e"
 feature_flags:
   enable_topic_autopartitioning_for_cdc: true
 ```
+
+> [!WARNING]
+> Изменяйте параметры секции `feature_flags`, только если уверены в последствиях. Неверная настройка может нарушить работу кластера.
 
 ## Функциональные флаги {#funkcionalnye-flagi}
 
