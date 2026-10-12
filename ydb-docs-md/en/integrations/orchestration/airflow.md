@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/orchestration/airflow.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/orchestration/airflow.md"
 description: "Integration of YDB with Apache Airflow™ allows you to automate and manage complex workflows. Apache Airflow™ provides features for scheduling tasks, monitoring"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Apache Airflow™

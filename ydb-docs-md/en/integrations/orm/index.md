@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/orm/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/orm/index.md"
 description: "Delivery System Instruction. Hibernate. Instruction. Spring Data JDBC. Instruction. JOOQ. Instruction. Dapper. Instruction. Entity Framework. Instruction."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Object–relational mapping

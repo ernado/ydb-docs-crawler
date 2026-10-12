@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/languages-and-apis/jdbc-driver/quickstart.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/languages-and-apis/jdbc-driver/quickstart.md"
 description: "Download the JDBC driver for YDB. Copy the.jar file to the directory specified in the CLASSPATH environment variable or load the.jar file in your IDE."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Quick start with JDBC driver

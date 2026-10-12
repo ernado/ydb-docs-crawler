@@ -4,20 +4,20 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "259414a47522df8faa233e3f6fd5c97bc5325d93",
-      "page_count": 726,
+      "revision": "665607947c838b4f199a3b30499a54d29413ee4f",
+      "page_count": 727,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "259414a47522df8faa233e3f6fd5c97bc5325d93",
+      "revision": "665607947c838b4f199a3b30499a54d29413ee4f",
       "page_count": 734,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
     }
   ],
-  "page_count": 1460,
+  "page_count": 1461,
   "pages": [
     {
       "doc_path": "en/",
@@ -533,7 +533,7 @@
       "description": "This article is an overview of terms and definitions used in YDB and its documentation. It starts with key terms that will be useful to get acquainted with earl",
       "source_path": "en/core/concepts/glossary.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/glossary.md",
-      "bytes": 68020,
+      "bytes": 68541,
       "lang": "en"
     },
     {
@@ -3518,6 +3518,17 @@
       "lang": "en"
     },
     {
+      "doc_path": "en/recipes/backup/system-tablet-backup/recovery",
+      "url": "https://ydb.tech/docs/en/recipes/backup/system-tablet-backup/recovery?version=v26.1",
+      "file": "en/recipes/backup/system-tablet-backup/recovery.md",
+      "title": "Recovering system tablets",
+      "description": " Note. For conceptual information about the mechanism, see the System tablet backup section. Warning.",
+      "source_path": "en/core/recipes/backup/system-tablet-backup/recovery.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/backup/system-tablet-backup/recovery.md",
+      "bytes": 16866,
+      "lang": "en"
+    },
+    {
       "doc_path": "en/recipes/import-export-column-tables",
       "url": "https://ydb.tech/docs/en/recipes/import-export-column-tables?version=v26.1",
       "file": "en/recipes/import-export-column-tables.md",
@@ -5274,7 +5285,7 @@
       "description": " Overview. YDB CLI can execute parameterized queries. To use parameters, you need to declare them using the YQL DECLARE command in your query text.",
       "source_path": "en/core/reference/ydb-cli/parameterized-query-execution.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/parameterized-query-execution.md",
-      "bytes": 28930,
+      "bytes": 28982,
       "lang": "en"
     },
     {
@@ -5912,7 +5923,7 @@
       "description": " Code. Status. Retryability. Backoff strategy. Recreate session. 400000. SUCCESS. –. –. –. 400010. BAD_REQUEST. non-retryable. –. no. 400020. UNAUTHORIZED.",
       "source_path": "en/core/reference/ydb-sdk/ydb-status-codes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/ydb-status-codes.md",
-      "bytes": 9792,
+      "bytes": 9924,
       "lang": "en"
     },
     {
@@ -7342,18 +7353,18 @@
       "description": " The query in the YQL language is a valid UTF-8 text consisting of statements separated by semicolons (; ). The last semicolon can be omitted.",
       "source_path": "en/core/yql/reference/syntax/lexer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/lexer.md",
-      "bytes": 8515,
+      "bytes": 9455,
       "lang": "en"
     },
     {
       "doc_path": "en/yql/reference/syntax/not_yet_supported",
       "url": "https://ydb.tech/docs/en/yql/reference/syntax/not_yet_supported?version=v26.1",
       "file": "en/yql/reference/syntax/not_yet_supported.md",
-      "title": "Classic SQL constructs not supported yet",
+      "title": "Unsupported classic SQL constructs",
       "description": " Correlated EXISTS and NOT EXISTS.",
       "source_path": "en/core/yql/reference/syntax/not_yet_supported.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/not_yet_supported.md",
-      "bytes": 1266,
+      "bytes": 1254,
       "lang": "en"
     },
     {
@@ -14008,7 +14019,7 @@
       "description": " Код. Статус. Возможность повтора. Стратегия задержек. Пересоздать сессию. 400000. SUCCESS. –. –. –. 400010. BAD_REQUEST. неповторяемый. –. нет. 400020.",
       "source_path": "ru/core/reference/ydb-sdk/ydb-status-codes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-sdk/ydb-status-codes.md",
-      "bytes": 14931,
+      "bytes": 15176,
       "lang": "ru"
     },
     {
@@ -15416,18 +15427,18 @@
       "description": " Запрос на языке YQL представляет собой валидный UTF-8 текст, который состоит из команд (statement) разделенных символом точка с запятой (; ).",
       "source_path": "ru/core/yql/reference/syntax/lexer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/lexer.md",
-      "bytes": 18793,
+      "bytes": 20200,
       "lang": "ru"
     },
     {
       "doc_path": "ru/yql/reference/syntax/not_yet_supported",
       "url": "https://ydb.tech/docs/ru/yql/reference/syntax/not_yet_supported?version=v26.1",
       "file": "ru/yql/reference/syntax/not_yet_supported.md",
-      "title": "Ещё не поддерживаемые конструкции из классического SQL",
+      "title": "Неподдерживаемые конструкции из классического SQL",
       "description": " Коррелированные EXISTS и NOT EXISTS.",
       "source_path": "ru/core/yql/reference/syntax/not_yet_supported.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/not_yet_supported.md",
-      "bytes": 1832,
+      "bytes": 1816,
       "lang": "ru"
     },
     {
@@ -16083,7 +16094,12 @@
   "image_count": 378,
   "images_linked_at_site": [
     "en/_assets/resources_weight.png",
+    "en/concepts/query_execution/_assets/star_schema.png",
+    "en/reference/embedded-ui/_assets/monitoring_main_page.png",
+    "en/reference/embedded-ui/_assets/monitoring_storage_state.png",
     "en/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png",
+    "ru/_assets/resources_weight.png",
+    "ru/concepts/query_execution/_assets/Star-Schema.png",
     "ru/reference/embedded-ui/_assets/monitoring_main_page.png",
     "ru/reference/embedded-ui/_assets/monitoring_storage_state.png",
     "ru/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png"
@@ -16215,31 +16231,5 @@
       "link": "debug-prometheus.md"
     }
   ],
-  "broken_images": [
-    {
-      "asset": "en/concepts/query_execution/_assets/star_schema.png",
-      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/concepts/query_execution/_assets/star_schema.png",
-      "status": "404"
-    },
-    {
-      "asset": "en/reference/embedded-ui/_assets/monitoring_main_page.png",
-      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/reference/embedded-ui/_assets/monitoring_main_page.png",
-      "status": "404"
-    },
-    {
-      "asset": "en/reference/embedded-ui/_assets/monitoring_storage_state.png",
-      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/reference/embedded-ui/_assets/monitoring_storage_state.png",
-      "status": "404"
-    },
-    {
-      "asset": "ru/_assets/resources_weight.png",
-      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/ru/core/_assets/resources_weight.png",
-      "status": "404"
-    },
-    {
-      "asset": "ru/concepts/query_execution/_assets/Star-Schema.png",
-      "url": "https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/ru/core/concepts/query_execution/_assets/Star-Schema.png",
-      "status": "404"
-    }
-  ]
+  "broken_images": []
 }

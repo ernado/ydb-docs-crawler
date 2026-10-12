@@ -7,14 +7,14 @@ lang: "en"
 source_path: "en/core/reference/ydb-sdk/parameterized_queries.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/parameterized_queries.md"
 description: "Parameterized queries."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # en/reference/ydb-sdk/parameterized_queries
 
 ## Parameterized queries
 
-YDB supports and recommends the use of so-called [parameterized queries](https://en.wikipedia.org/wiki/Prepared_statement). In such queries, the data is transmitted separately from the request body itself, and in the SQL query, special parameters are used to indicate the location of the data.
+YDB supports and recommends the use of so-called [parameterized queries](../../yql/reference/syntax/lexer.md#query-params). In such queries, the data is transmitted separately from the request body itself, and in the SQL query, special parameters are used to indicate the location of the data.
 
 Request with data in the request body:
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/tools-infer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/tools-infer.md"
 description: "You can use the ydb tools infer csv command to generate a CREATE TABLE statement from a CSV data file. This can be helpful when you want to import data into a d"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Table schema inference from data files

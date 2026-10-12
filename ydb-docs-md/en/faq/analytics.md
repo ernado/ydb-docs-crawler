@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/faq/analytics.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/analytics.md"
 description: "Can YDB be used for analytical workloads (OLAP)? Yes, it can. If this is the primary type of workload for a given table, make sure it is column-oriented."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Questions and answers about analytics in YDB

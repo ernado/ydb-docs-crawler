@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/query-execution-optimization/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/query-execution-optimization/index.md"
 description: "Materials on analyzing and tuning query execution: Using query plans for query optimization — logical and execution plans, finding bottlenecks."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Query execution optimization

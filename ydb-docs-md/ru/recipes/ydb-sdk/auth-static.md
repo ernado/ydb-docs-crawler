@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/auth-static.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/auth-static.md"
 description: "Ниже приведены примеры кода аутентификации при помощи логина и пароля в разных YDB SDK. C++. Go. Java. JavaScript. Python. C#. Rust. PHP. Native SDK. userver."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Аутентификация при помощи логина и пароля

@@ -281,8 +281,8 @@
       - [Lexical structure](en/yql/reference/syntax/lexer.md)
       - [Expressions](en/yql/reference/syntax/expressions.md)
       - Limitations
-        - [Correlated subqueries](en/yql/reference/syntax/correlated-subqueries.md)
         - [Unsupported statements](en/yql/reference/syntax/not_yet_supported.md)
+        - [Correlated subqueries](en/yql/reference/syntax/correlated-subqueries.md)
       - [ACTION](en/yql/reference/syntax/action.md)
       - [ALTER ASYNC REPLICATION](en/yql/reference/syntax/alter-async-replication.md)
       - ALTER DATABASE
@@ -650,6 +650,7 @@
     - [Init scripts](en/reference/docker/init-scripts.md)
     - [Cleanup](en/reference/docker/cleanup.md)
 - [Recipes](en/recipes/index.md)
+  - [System tablet recovery](en/recipes/backup/system-tablet-backup/recovery.md)
   - [Backup collections recipes](en/recipes/backup-collections/index.md)
     - [Getting started](en/recipes/backup-collections/getting-started.md)
     - [Multi-environment setup](en/recipes/backup-collections/multi-environment-setup.md)

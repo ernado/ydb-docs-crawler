@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/optimizer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/optimizer.md"
 description: "В YDB используются два типа оптимизаторов запросов: оптимизатор, основанный на правилах, и стоимостной оптимизатор. Стоимостной оптимизатор применяется для слож"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Оптимизация запросов в YDB
@@ -55,7 +55,7 @@ GROUP BY
 ```
 
 В графе этого запроса все таблицы `Dim...` соединяются c таблицей фактов `Fact_Sales`:  
- ![Граф запроса](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/ru/core/concepts/query_execution/_assets/Star-Schema.png)
+ ![Граф запроса](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/665607947c838b4f199a3b30499a54d29413ee4f/ru/concepts/query_execution/_assets/Star-Schema.png)
 
 К типичным топологиям также относятся «цепочка» и «клика». «Цепочка» - это топология, где таблицы соединены друг с другом последовательно и каждая таблица участвует не более, чем в одном соединении. «Клика» — полностью связанный граф, где каждая таблица соединяется с другой.
 

@@ -7,14 +7,14 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/parameterized-query-execution.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/parameterized-query-execution.md"
 description: "Overview. YDB CLI can execute parameterized queries. To use parameters, you need to declare them using the YQL DECLARE command in your query text."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Running parameterized queries
 
 ## Overview
 
-YDB CLI can execute parameterized queries. To use parameters, you need to declare them using [the YQL `DECLARE` command](../../yql/reference/syntax/declare.md) in your query text.
+YDB CLI can execute [parameterized queries](../../yql/reference/syntax/lexer.md#query-params). To use parameters, you need to declare them using [the YQL `DECLARE` command](../../yql/reference/syntax/declare.md) in your query text.
 
 The preferred way to run parameterized queries in YDB CLI is to use the [`ydb sql`](sql.md) command.
 

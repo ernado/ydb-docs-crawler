@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/general-schema.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/general-schema.md"
 description: "Примерная общая схема YDB представлена ниже. gRPC proxy/KQP. gRPC proxy/KQP. DataShard. DataShard. DataShard. DataShard. Hive. Hive. gRPC proxy/KQP."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Общая схема YDB

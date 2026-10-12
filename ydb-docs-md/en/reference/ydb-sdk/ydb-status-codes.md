@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-sdk/ydb-status-codes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-sdk/ydb-status-codes.md"
 description: "Code. Status. Retryability. Backoff strategy. Recreate session. 400000. SUCCESS. –. –. –. 400010. BAD_REQUEST. non-retryable. –. no. 400020. UNAUTHORIZED."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Status codes from the YDB server
@@ -158,9 +158,9 @@ Create a new session.
 
 [Non-retryable](error_handling.md)
 
-The request was canceled on the server. For example, a user canceled a long-running query in the [Embedded UI](../embedded-ui/index.md), or the query included the [cancel_after](../../dev/timeouts.md#cancel) timeout option.
+The request was canceled on the server. For example, a user canceled a long-running query in the [Embedded UI](../embedded-ui/index.md), the query included the [cancel_after](../../dev/timeouts.md#cancel) timeout option, or the session was closed while the query was running.
 
-If the query took too long to complete, try optimizing it. If you used the `cancel_after` timeout option, increase the timeout value.
+If the session was closed, create a new session before sending another request. If the query took too long to complete, try optimizing it. If you used the `cancel_after` timeout option, increase the timeout value.
 
 ## 400170: UNDETERMINED {#undetermined}
 

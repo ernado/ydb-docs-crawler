@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/coordination-node.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/coordination-node.md"
 description: "A coordination node is an object in YDB that allows client applications to coordinate their actions in a distributed manner. Typical use cases for coordination"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Coordination Node

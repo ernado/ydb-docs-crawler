@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/topic-overview.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/topic-overview.md"
 description: "Using YDB CLI commands, you can perform the following operations: Creating a topic. Updating a topic. Deleting a topic. Adding a topic consumer."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Commands for topics

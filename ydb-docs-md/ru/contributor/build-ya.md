@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/build-ya.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/build-ya.md"
 description: "Ya Make - это система сборки и тестирования, исторически используемая для разработки YDB. Изначально разработанная для C++, теперь она поддерживает ряд языков п"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Сборка и тестирование YDB с использованием Ya Make

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/table_service_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/table_service_config.md"
 description: "Секция table_service_config содержит параметры конфигурации для сервиса таблиц, включая настройки спиллинга. spilling_service_config."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # table_service_config

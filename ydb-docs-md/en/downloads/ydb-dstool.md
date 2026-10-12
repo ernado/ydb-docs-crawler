@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/downloads/ydb-dstool.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/ydb-dstool.md"
 description: "YDB DSTool ( ydb-dstool ) is a command-line utility for managing the disk subsystem of a YDB cluster. To use the utility, install ydb-dstool. Linux (amd64)."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Download YDB DSTool

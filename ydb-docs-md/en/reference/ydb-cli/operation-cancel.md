@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/operation-cancel.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/operation-cancel.md"
 description: "Use the ydb operation cancel subcommand to cancel the specified long-running operation. Only an incomplete operation can be canceled."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Canceling long-running operations

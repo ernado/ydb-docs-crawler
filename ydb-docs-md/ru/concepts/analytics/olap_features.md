@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/analytics/olap_features.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/analytics/olap_features.md"
 description: "Эта страница — карта документации по аналитическим возможностям YDB. Текст сгруппирован по этапам жизненного цикла данных, чтобы помочь быстро найти необходимую"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Ключевые возможности для аналитики: быстрый справочник

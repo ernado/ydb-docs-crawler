@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/yql-tutorial/delete_table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/yql-tutorial/delete_table.md"
 description: "Удалите созданные таблицы с помощью конструкции DROP TABLE. DROP TABLE episodes; DROP TABLE seasons; DROP TABLE series;"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Удаление таблиц

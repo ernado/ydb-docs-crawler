@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/load-actors-overview.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/load-actors-overview.md"
 description: "Тестирование производительности системы является важным этапом добавления изменений в ядро YDB. С помощью нагрузочного тестирования вы можете:"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Обзор тестирования с помощью нагружающих акторов

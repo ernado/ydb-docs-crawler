@@ -1503,14 +1503,14 @@
                   "name": "Ограничения",
                   "items": [
                     {
-                      "name": "Коррелированные подзапросы",
-                      "EXISTS и NOT EXISTS": null,
-                      "href": "ru/yql/reference/syntax/correlated-subqueries",
+                      "name": "Неподдерживаемые конструкции",
+                      "href": "ru/yql/reference/syntax/not_yet_supported",
                       "id": "284"
                     },
                     {
-                      "name": "Неподдерживаемые конструкции",
-                      "href": "ru/yql/reference/syntax/not_yet_supported",
+                      "name": "Коррелированные подзапросы",
+                      "EXISTS и NOT EXISTS": null,
+                      "href": "ru/yql/reference/syntax/correlated-subqueries",
                       "id": "285"
                     }
                   ],

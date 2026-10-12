@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/backup-and-recovery/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/backup-and-recovery/index.md"
 description: "YDB изначально спроектирована для сохранности данных при отказах оборудования: доступны варианты избыточности для разного числа зон доступности, стоек, хостов,"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Резервное копирование и восстановление

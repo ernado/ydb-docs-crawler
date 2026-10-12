@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/resource_broker_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/resource_broker_config.md"
 description: "Секция resource_broker_config настраивает брокер ресурсов — акторный сервис, контролирующий потребление ресурсов узла YDB, таких как: CPU — количество потоков;"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # resource_broker_config
@@ -25,7 +25,7 @@ revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
 | `queue_backup` | 2 | — | Операции [резервного копирования](../../devops/backup-and-recovery/index.md#s3). |
 | `queue_restore` | 10 | — | Операции [восстановления из резервной копии](../../devops/backup-and-recovery/index.md#s3). |
 | `queue_build_index` | 10 | — | Операции [онлайн-создания вторичного индекса](../../concepts/query_execution/secondary_indexes.md#index-add). |
-| `queue_cdc_initial_scan` | 4 | — | [Первоначальное сканирование таблицы](../../concepts/cdc.md#initial-scan). |
+| `queue_cdc_initial_scan` | 2 | — | [Первоначальное сканирование таблицы](../../concepts/cdc.md#initial-scan). |
 
 > [!NOTE]
 > Рекомендуется **дополнять** конфигурацию брокера ресурсов, используя [теги](../../devops/configuration-management/configuration-v2/dynamic-config-selectors.md#dopolnitelnye-tegi-v-yaml) `!inherit` и `!append`.

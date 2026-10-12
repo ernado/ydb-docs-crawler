@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md"
 description: "This article describes an example of how to diagnose overloaded shards and resolve the issue."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Overloaded shard example

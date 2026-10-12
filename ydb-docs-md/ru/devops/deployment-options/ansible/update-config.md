@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/ansible/update-config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/update-config.md"
 description: "Во время первоначального развёртывания Ansible playbook использует предоставленный конфигурационный файл для создания начальной конфигурации кластера. Техническ"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Обновление конфигурации кластеров YDB, развёрнутых с Ansible

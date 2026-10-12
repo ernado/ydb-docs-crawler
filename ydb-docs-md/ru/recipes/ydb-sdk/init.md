@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/init.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/init.md"
 description: "Для подключения к YDB требуется указать обязательные параметры (подробнее читайте в разделе Подключение к серверу YDB ) и дополнительные, которые определяют пов"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Инициализация драйвера

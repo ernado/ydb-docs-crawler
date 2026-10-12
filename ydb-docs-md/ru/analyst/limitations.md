@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/analyst/limitations.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/limitations.md"
 description: "В данном разделе собраны важные особенности YDB, которые необходимо учитывать при проектировании приложений и написании запросов. Для каждой особенности описыва"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Известные ограничения

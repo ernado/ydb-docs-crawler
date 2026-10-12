@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/custom-attributes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/custom-attributes.md"
 description: "You can use custom attributes to store any information and process it in your app or using the CLI."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Custom attributes in tables

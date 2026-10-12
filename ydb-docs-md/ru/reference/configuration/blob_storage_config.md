@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/blob_storage_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/blob_storage_config.md"
 description: "Укажите конфигурацию статической группы кластера. Статическая группа необходима для работы базовых таблеток кластера, в том числе Hive, SchemeShard, Blobstorage"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # blob_storage_config

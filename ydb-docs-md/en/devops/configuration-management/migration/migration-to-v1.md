@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/migration/migration-to-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/migration/migration-to-v1.md"
 description: "This document contains instructions for migrating from configuration V2 to configuration V1. Note."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Migration to Configuration V1

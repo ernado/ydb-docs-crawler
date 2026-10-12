@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/system/system-clock-drift.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/system/system-clock-drift.md"
 description: "Synchronized clocks are critical for distributed databases. If system clocks on the YDB servers drift excessively, distributed transactions will experience incr"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # System clock drift

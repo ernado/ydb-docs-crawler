@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/workload-transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/workload-transfer.md"
 description: "Запускает нагрузку в виде транзакций YDB, в которых участвуют топик и таблица. Данные вычитываются из топика и записываются в таблицу. Для имитации реальной наг"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Transfer нагрузка

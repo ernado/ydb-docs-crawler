@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/yql-query-overview.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/yql-query-overview.md"
 description: "You can use the following YDB CLI commands to run queries: ydb sql: A single command to execute any SQL query supported by YDB."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Overview

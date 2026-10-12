@@ -1492,15 +1492,15 @@
                   "name": "Limitations",
                   "items": [
                     {
+                      "name": "Unsupported statements",
+                      "href": "en/yql/reference/syntax/not_yet_supported",
+                      "id": "282"
+                    },
+                    {
                       "name": "Correlated subqueries",
                       "EXISTS": null,
                       "and NOT EXISTS": null,
                       "href": "en/yql/reference/syntax/correlated-subqueries",
-                      "id": "282"
-                    },
-                    {
-                      "name": "Unsupported statements",
-                      "href": "en/yql/reference/syntax/not_yet_supported",
                       "id": "283"
                     }
                   ],
@@ -3427,46 +3427,51 @@
       "href": "en/recipes/",
       "items": [
         {
+          "name": "System tablet recovery",
+          "href": "en/recipes/backup/system-tablet-backup/recovery",
+          "id": "658"
+        },
+        {
           "name": "Backup collections recipes",
           "href": "en/recipes/backup-collections/",
           "items": [
             {
               "name": "Getting started",
               "href": "en/recipes/backup-collections/getting-started",
-              "id": "659"
+              "id": "660"
             },
             {
               "name": "Multi-environment setup",
               "href": "en/recipes/backup-collections/multi-environment-setup",
-              "id": "660"
+              "id": "661"
             },
             {
               "name": "Microservices backup strategy",
               "href": "en/recipes/backup-collections/microservices-backup-strategy",
-              "id": "661"
+              "id": "662"
             },
             {
               "name": "Exporting to external storage",
               "href": "en/recipes/backup-collections/exporting-to-external-storage",
-              "id": "662"
+              "id": "663"
             },
             {
               "name": "Importing and restoring",
               "href": "en/recipes/backup-collections/importing-and-restoring",
-              "id": "663"
+              "id": "664"
             },
             {
               "name": "Maintenance and cleanup",
               "href": "en/recipes/backup-collections/maintenance-and-cleanup",
-              "id": "664"
+              "id": "665"
             },
             {
               "name": "Validation and testing",
               "href": "en/recipes/backup-collections/validation-and-testing",
-              "id": "665"
+              "id": "666"
             }
           ],
-          "id": "658"
+          "id": "659"
         },
         {
           "name": "YDB SDK",
@@ -3474,12 +3479,12 @@
             {
               "name": "Overview",
               "href": "en/recipes/ydb-sdk/",
-              "id": "667"
+              "id": "668"
             },
             {
               "name": "Initialize the driver",
               "href": "en/recipes/ydb-sdk/init",
-              "id": "668"
+              "id": "669"
             },
             {
               "name": "Authentication",
@@ -3487,40 +3492,40 @@
                 {
                   "name": "Overview",
                   "href": "en/recipes/ydb-sdk/auth",
-                  "id": "670"
+                  "id": "671"
                 },
                 {
                   "name": "Using a token",
                   "href": "en/recipes/ydb-sdk/auth-access-token",
-                  "id": "671"
+                  "id": "672"
                 },
                 {
                   "name": "Anonymous",
                   "href": "en/recipes/ydb-sdk/auth-anonymous",
-                  "id": "672"
+                  "id": "673"
                 },
                 {
                   "name": "Service account file",
                   "href": "en/recipes/ydb-sdk/auth-service-account",
-                  "id": "673"
+                  "id": "674"
                 },
                 {
                   "name": "Metadata service",
                   "href": "en/recipes/ydb-sdk/auth-metadata",
-                  "id": "674"
+                  "id": "675"
                 },
                 {
                   "name": "Using environment variables",
                   "href": "en/recipes/ydb-sdk/auth-env",
-                  "id": "675"
+                  "id": "676"
                 },
                 {
                   "name": "Username and password based",
                   "href": "en/recipes/ydb-sdk/auth-static",
-                  "id": "676"
+                  "id": "677"
                 }
               ],
-              "id": "669"
+              "id": "670"
             },
             {
               "name": "Balancing",
@@ -3528,65 +3533,65 @@
                 {
                   "name": "Overview",
                   "href": "en/recipes/ydb-sdk/balancing",
-                  "id": "678"
+                  "id": "679"
                 },
                 {
                   "name": "Random choice",
                   "href": "en/recipes/ydb-sdk/balancing-random-choice",
-                  "id": "679"
+                  "id": "680"
                 },
                 {
                   "name": "Prefer the nearest data center",
                   "href": "en/recipes/ydb-sdk/balancing-prefer-local",
-                  "id": "680"
+                  "id": "681"
                 },
                 {
                   "name": "Prefer the specific availability zone",
                   "href": "en/recipes/ydb-sdk/balancing-prefer-location",
-                  "id": "681"
+                  "id": "682"
                 },
                 {
                   "name": "Prefer a pile with a specific state",
                   "href": "en/recipes/ydb-sdk/balancing-prefer-pile",
-                  "id": "682"
+                  "id": "683"
                 }
               ],
-              "id": "677"
+              "id": "678"
             },
             {
               "name": "Running repeat queries",
               "href": "en/recipes/ydb-sdk/retry",
-              "id": "683"
+              "id": "684"
             },
             {
               "name": "Setting the session pool size",
               "href": "en/recipes/ydb-sdk/session-pool-limit",
-              "id": "684"
+              "id": "685"
             },
             {
               "name": "Upserting data",
               "href": "en/recipes/ydb-sdk/upsert",
-              "id": "685"
+              "id": "686"
             },
             {
               "name": "Bulk-upserting data",
               "href": "en/recipes/ydb-sdk/bulk-upsert",
-              "id": "686"
+              "id": "687"
             },
             {
               "name": "Setting up the transaction execution mode",
               "href": "en/recipes/ydb-sdk/tx-control",
-              "id": "687"
+              "id": "688"
             },
             {
               "name": "Configuring time to live (TTL)",
               "href": "en/recipes/ydb-sdk/ttl",
-              "id": "688"
+              "id": "689"
             },
             {
               "name": "Vector search",
               "href": "en/recipes/ydb-sdk/vector-search",
-              "id": "689"
+              "id": "690"
             },
             {
               "name": "Coordination",
@@ -3594,25 +3599,25 @@
                 {
                   "name": "Distributed lock",
                   "href": "en/recipes/ydb-sdk/distributed-lock",
-                  "id": "691"
+                  "id": "692"
                 },
                 {
                   "name": "Leader election",
                   "href": "en/recipes/ydb-sdk/leader-election",
-                  "id": "692"
+                  "id": "693"
                 },
                 {
                   "name": "Service discovery",
                   "href": "en/recipes/ydb-sdk/service-discovery",
-                  "id": "693"
+                  "id": "694"
                 },
                 {
                   "name": "Configuration publication",
                   "href": "en/recipes/ydb-sdk/config-publication",
-                  "id": "694"
+                  "id": "695"
                 }
               ],
-              "id": "690"
+              "id": "691"
             },
             {
               "name": "Troubleshooting",
@@ -3620,33 +3625,33 @@
                 {
                   "name": "Overview",
                   "href": "en/recipes/ydb-sdk/debug",
-                  "id": "696"
+                  "id": "697"
                 },
                 {
                   "name": "Enable logging",
                   "href": "en/recipes/ydb-sdk/debug-logs",
-                  "id": "697"
+                  "id": "698"
                 },
                 {
                   "name": "Enable metrics in Prometheus",
                   "href": "en/recipes/ydb-sdk/debug-prometheus",
-                  "id": "698"
+                  "id": "699"
                 },
                 {
                   "name": "Enable tracing in OpenTelemetry",
                   "href": "en/recipes/ydb-sdk/debug-otel",
-                  "id": "699"
+                  "id": "700"
                 },
                 {
                   "name": "Enable tracing in Jaeger",
                   "href": "en/recipes/ydb-sdk/debug-jaeger",
-                  "id": "700"
+                  "id": "701"
                 }
               ],
-              "id": "695"
+              "id": "696"
             }
           ],
-          "id": "666"
+          "id": "667"
         },
         {
           "name": "YDB CLI",
@@ -3655,20 +3660,20 @@
             {
               "name": "Convert table type",
               "href": "en/recipes/ydb-cli/convert-table-type",
-              "id": "702"
+              "id": "703"
             },
             {
               "name": "Benchmarks",
               "href": "en/recipes/ydb-cli/benchmarks",
-              "id": "703"
+              "id": "704"
             },
             {
               "name": "Time to live (TTL)",
               "href": "en/recipes/ydb-cli/ttl",
-              "id": "704"
+              "id": "705"
             }
           ],
-          "id": "701"
+          "id": "702"
         },
         {
           "name": "YQL",
@@ -3676,25 +3681,25 @@
             {
               "name": "Overview",
               "href": "en/yql/reference/recipes/",
-              "id": "706"
+              "id": "707"
             },
             {
               "name": "Accessing JSON",
               "href": "en/yql/reference/recipes/accessing-json",
-              "id": "707"
+              "id": "708"
             },
             {
               "name": "Modifying JSON",
               "href": "en/yql/reference/recipes/modifying-json",
-              "id": "708"
+              "id": "709"
             },
             {
               "name": "Configuring TTL",
               "href": "en/yql/reference/recipes/ttl",
-              "id": "709"
+              "id": "710"
             }
           ],
-          "id": "705"
+          "id": "706"
         },
         {
           "name": "AI",
@@ -3703,15 +3708,15 @@
             {
               "name": "Vector index - quick start",
               "href": "en/recipes/vector-search/vector-index-quickstart",
-              "id": "711"
+              "id": "712"
             },
             {
               "name": "Vector index with a prepared external dataset",
               "href": "en/recipes/vector-search/vector-index-with-prepared-dataset",
-              "id": "712"
+              "id": "713"
             }
           ],
-          "id": "710"
+          "id": "711"
         },
         {
           "name": "Transfer",
@@ -3720,20 +3725,20 @@
             {
               "name": "Transfer — quick start",
               "href": "en/recipes/transfer/quickstart",
-              "id": "714"
+              "id": "715"
             },
             {
               "name": "Transfer — streaming NGINX access logs to a table",
               "href": "en/recipes/transfer/nginx",
-              "id": "715"
+              "id": "716"
             }
           ],
-          "id": "713"
+          "id": "714"
         },
         {
           "name": "Import and export data to column tables",
           "href": "en/recipes/import-export-column-tables",
-          "id": "716"
+          "id": "717"
         },
         {
           "name": "Streaming queries",
@@ -3742,15 +3747,15 @@
             {
               "name": "Quickstart: read and write topics",
               "href": "en/recipes/streaming_queries/topics",
-              "id": "718"
+              "id": "719"
             },
             {
               "name": "Debug reads from a topic",
               "href": "en/recipes/streaming_queries/debug-read",
-              "id": "719"
+              "id": "720"
             }
           ],
-          "id": "717"
+          "id": "718"
         }
       ],
       "id": "657"
@@ -3769,25 +3774,25 @@
                 {
                   "name": "Network issues",
                   "href": "en/troubleshooting/performance/infrastructure/network",
-                  "id": "723"
+                  "id": "724"
                 },
                 {
                   "name": "Data center outages",
                   "href": "en/troubleshooting/performance/infrastructure/dc-outage",
-                  "id": "724"
+                  "id": "725"
                 },
                 {
                   "name": "Data center maintenance and drills",
                   "href": "en/troubleshooting/performance/infrastructure/dc-drills",
-                  "id": "725"
+                  "id": "726"
                 },
                 {
                   "name": "Hardware issues",
                   "href": "en/troubleshooting/performance/infrastructure/hardware",
-                  "id": "726"
+                  "id": "727"
                 }
               ],
-              "id": "722"
+              "id": "723"
             },
             {
               "name": "Insufficient resources",
@@ -3795,25 +3800,25 @@
                 {
                   "name": "CPU",
                   "href": "en/troubleshooting/performance/hardware/cpu-bottleneck",
-                  "id": "728"
+                  "id": "729"
                 },
                 {
                   "name": "Memory",
                   "href": "en/troubleshooting/performance/hardware/insufficient-memory",
-                  "id": "729"
+                  "id": "730"
                 },
                 {
                   "name": "I/O bandwidth",
                   "href": "en/troubleshooting/performance/hardware/io-bandwidth",
-                  "id": "730"
+                  "id": "731"
                 },
                 {
                   "name": "Disk space",
                   "href": "en/troubleshooting/performance/hardware/disk-space",
-                  "id": "731"
+                  "id": "732"
                 }
               ],
-              "id": "727"
+              "id": "728"
             },
             {
               "name": "Operating system",
@@ -3821,10 +3826,10 @@
                 {
                   "name": "System clock drift",
                   "href": "en/troubleshooting/performance/system/system-clock-drift",
-                  "id": "733"
+                  "id": "734"
                 }
               ],
-              "id": "732"
+              "id": "733"
             },
             {
               "name": "YDB configuration",
@@ -3832,15 +3837,15 @@
                 {
                   "name": "Rolling restart",
                   "href": "en/troubleshooting/performance/ydb/ydb-updates",
-                  "id": "735"
+                  "id": "736"
                 },
                 {
                   "name": "Frequent tablet moves between nodes",
                   "href": "en/troubleshooting/performance/ydb/tablets-moved",
-                  "id": "736"
+                  "id": "737"
                 }
               ],
-              "id": "734"
+              "id": "735"
             },
             {
               "name": "Schema design",
@@ -3848,15 +3853,15 @@
                 {
                   "name": "Overloaded shards",
                   "href": "en/troubleshooting/performance/schemas/overloaded-shards",
-                  "id": "738"
+                  "id": "739"
                 },
                 {
                   "name": "Excessive tablet splits and merges",
                   "href": "en/troubleshooting/performance/schemas/splits-merges",
-                  "id": "739"
+                  "id": "740"
                 }
               ],
-              "id": "737"
+              "id": "738"
             },
             {
               "name": "Client application",
@@ -3864,23 +3869,23 @@
                 {
                   "name": "Transaction lock invalidation",
                   "href": "en/troubleshooting/performance/queries/transaction-lock-invalidation",
-                  "id": "741"
+                  "id": "742"
                 },
                 {
                   "name": "TLI logging",
                   "href": "en/troubleshooting/performance/queries/tli-logging",
-                  "id": "742"
+                  "id": "743"
                 },
                 {
                   "name": "OVERLOADED errors",
                   "href": "en/troubleshooting/performance/queries/overloaded-errors",
-                  "id": "743"
+                  "id": "744"
                 }
               ],
-              "id": "740"
+              "id": "741"
             }
           ],
-          "id": "721"
+          "id": "722"
         },
         {
           "name": "Spilling issues",
@@ -3889,25 +3894,25 @@
             {
               "name": "Can not run operation",
               "href": "en/troubleshooting/spilling/can-not-run-operation",
-              "id": "745"
+              "id": "746"
             },
             {
               "name": "Permission denied",
               "href": "en/troubleshooting/spilling/permission-denied",
-              "id": "746"
+              "id": "747"
             },
             {
               "name": "Spilling Service not started",
               "href": "en/troubleshooting/spilling/service-not-started",
-              "id": "747"
+              "id": "748"
             },
             {
               "name": "Total size limit exceeded",
               "href": "en/troubleshooting/spilling/total-size-limit-exceeded",
-              "id": "748"
+              "id": "749"
             }
           ],
-          "id": "744"
+          "id": "745"
         },
         {
           "name": "Diagnostic examples",
@@ -3915,13 +3920,13 @@
             {
               "name": "Overloaded shard",
               "href": "en/troubleshooting/examples/schemas/overloaded-shard-simple-case",
-              "id": "750"
+              "id": "751"
             }
           ],
-          "id": "749"
+          "id": "750"
         }
       ],
-      "id": "720"
+      "id": "721"
     },
     {
       "name": "Questions and answers",
@@ -3930,40 +3935,40 @@
         {
           "name": "General questions",
           "href": "en/faq/common",
-          "id": "752"
+          "id": "753"
         },
         {
           "name": "SDK",
           "href": "en/faq/sdk",
-          "id": "753"
+          "id": "754"
         },
         {
           "name": "Errors",
           "href": "en/faq/errors",
-          "id": "754"
+          "id": "755"
         },
         {
           "name": "YQL",
           "href": "en/faq/yql",
-          "id": "755"
+          "id": "756"
         },
         {
           "name": "Analytics",
           "href": "en/faq/analytics",
-          "id": "756"
+          "id": "757"
         },
         {
           "name": "Known issues",
           "href": "en/faq/known-issues",
-          "id": "757"
+          "id": "758"
         },
         {
           "name": "All questions on one page",
           "href": "en/faq/all",
-          "id": "758"
+          "id": "759"
         }
       ],
-      "id": "751"
+      "id": "752"
     },
     {
       "name": "Public materials",
@@ -3975,25 +3980,25 @@
             {
               "name": 2025,
               "href": "en/public-materials/videos/2025",
-              "id": "762"
+              "id": "763"
             },
             {
               "name": 2024,
               "href": "en/public-materials/videos/2024",
-              "id": "763"
+              "id": "764"
             },
             {
               "name": 2023,
               "href": "en/public-materials/videos/2023",
-              "id": "764"
+              "id": "765"
             },
             {
               "name": 2022,
               "href": "en/public-materials/videos/2022",
-              "id": "765"
+              "id": "766"
             }
           ],
-          "id": "761"
+          "id": "762"
         },
         {
           "name": "Articles",
@@ -4002,18 +4007,18 @@
             {
               "name": 2024,
               "href": "en/public-materials/publications/2024",
-              "id": "767"
+              "id": "768"
             },
             {
               "name": 2023,
               "href": "en/public-materials/publications/2023",
-              "id": "768"
+              "id": "769"
             }
           ],
-          "id": "766"
+          "id": "767"
         }
       ],
-      "id": "760"
+      "id": "761"
     },
     {
       "name": "Downloads",
@@ -4022,35 +4027,35 @@
         {
           "name": "YDB Open-Source Database",
           "href": "en/downloads/ydb-open-source-database",
-          "id": "770"
+          "id": "771"
         },
         {
           "name": "Yandex Enterprise Database",
           "href": "en/downloads/yandex-enterprise-database",
-          "id": "771"
+          "id": "772"
         },
         {
           "name": "YDB CLI",
           "href": "en/downloads/ydb-cli",
-          "id": "772"
+          "id": "773"
         },
         {
           "name": "YDB DSTool",
           "href": "en/downloads/ydb-dstool",
-          "id": "773"
+          "id": "774"
         },
         {
           "name": "YDB Ops",
           "href": "en/downloads/ydb-ops",
-          "id": "774"
+          "id": "775"
         },
         {
           "name": "YDB Ansible",
           "href": "en/downloads/ydb-ansible",
-          "id": "775"
+          "id": "776"
         }
       ],
-      "id": "769"
+      "id": "770"
     },
     {
       "name": "Changelog",
@@ -4058,25 +4063,25 @@
         {
           "name": "YDB Server",
           "href": "en/changelog-server",
-          "id": "777"
+          "id": "778"
         },
         {
           "name": "Yandex Enterprise Database",
           "href": "en/changelog-enterprise",
-          "id": "778"
+          "id": "779"
         },
         {
           "name": "YDB CLI",
           "href": "en/changelog-cli",
-          "id": "779"
+          "id": "780"
         },
         {
           "name": "Security changelog",
           "href": "en/security-changelog",
-          "id": "780"
+          "id": "781"
         }
       ],
-      "id": "776"
+      "id": "777"
     }
   ],
   "path": "en/toc.yaml",

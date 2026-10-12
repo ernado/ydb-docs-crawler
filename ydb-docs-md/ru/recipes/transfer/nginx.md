@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/transfer/nginx.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/transfer/nginx.md"
 description: "Эта статья поможет настроить поставку access-логов NGINX в таблицу YDB для дальнейшего анализа. В статье рассматривается формат access-логов NGINX, используемый"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Трансфер — поставка access-логов NGINX в таблицу

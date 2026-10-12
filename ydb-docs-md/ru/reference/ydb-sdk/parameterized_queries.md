@@ -7,14 +7,14 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-sdk/parameterized_queries.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-sdk/parameterized_queries.md"
 description: "Параметризованные запросы."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # ru/reference/ydb-sdk/parameterized_queries
 
 ## Параметризованные запросы {#parametrizovannye-zaprosy}
 
-YDB поддерживает и рекомендует к использованию так называемые [параметризованные запросы](https://en.wikipedia.org/wiki/Prepared_statement). В таких запросах данные передаются отдельно от самого тела запроса, а в SQL-запросе используются специальные параметры для обозначения местоположения данных.
+YDB поддерживает и рекомендует к использованию так называемые [параметризованные запросы](../../yql/reference/syntax/lexer.md#query-params). В таких запросах данные передаются отдельно от самого тела запроса, а в SQL-запросе используются специальные параметры для обозначения местоположения данных.
 
 Запрос с данными в теле запроса:
 

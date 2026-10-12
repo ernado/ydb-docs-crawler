@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/healthcheck_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/healthcheck_config.md"
 description: "The healthcheck_config section configures thresholds and timeout settings used by the YDB health check service. These parameters help configure detection of pot"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # healthcheck_config

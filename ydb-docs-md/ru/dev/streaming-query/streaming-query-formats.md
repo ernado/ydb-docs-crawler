@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/streaming-query/streaming-query-formats.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/streaming-query-formats.md"
 description: "В данном разделе описываются форматы данных потоковых запросов, поддерживаемые в YDB при чтении из топиков, и список поддерживаемых YQL типов для каждого формат"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Форматы данных при чтении/записи из топиков

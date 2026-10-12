@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/glossary.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/glossary.md"
 description: "This article is an overview of terms and definitions used in YDB and its documentation. It starts with key terms that will be useful to get acquainted with earl"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # YDB glossary
@@ -816,3 +816,7 @@ MiniKQL is a low-level language. The system's end users only see queries in the 
 ### KiKiMR
 
 **KiKiMR** is the legacy name of YDB that was used long before it became an [open-source product](https://github.com/ydb-platform/ydb). It can still be occasionally found in the source code, old articles and videos, etc.
+
+### Tablet Recovery Mode
+
+**Recovery mode** is a mode in which a tablet is started and accessible via the [Embedded UI](../reference/embedded-ui/index.md), but **does not respond to requests**, **does not perform any background activities**, and **does not read data from the distributed storage**, allowing recovery operations to be performed. Other tablets continue to operate normally, allowing the cluster to keep functioning, but operations and UI related to the tablet placed in Recovery mode will be unavailable.

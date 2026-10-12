@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/lexer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/lexer.md"
 description: "Запрос на языке YQL представляет собой валидный UTF-8 текст, который состоит из команд (statement) разделенных символом точка с запятой (; )."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Лексическая структура
@@ -91,6 +91,35 @@ SELECT 1 as `column with\n newline, \x0a newline and \` backtick `;
 ```yql
 --!ansi_lexer
 SELECT 1 as "column with "" double quoute"; -- имя колонки будет: column with " double quoute
+```
+
+## Параметризация запроса {#query-params}
+
+Параметры запроса — это [именованные выражения](expressions.md#named-nodes), значение для которых передаётся отдельно от текста запроса (см. [DECLARE](declare.md)). Такие параметры можно подставлять только в те части запроса, которые не требуются для его компиляции. Например, параметр можно использовать в фильтре:
+
+```yql
+DECLARE $my_param AS String;
+SELECT Data FROM my_table WHERE Data LIKE $my_param
+```
+
+Или в данных:
+
+```yql
+DECLARE $my_param AS String;
+SELECT Data || $my_param FROM my_table
+```
+
+При этом параметры нельзя использовать в частях, необходимых для компиляции запроса, например:
+
+- В именах таблиц;
+- В любых параметрах блока [WITH](select/with.md);
+- В любых выражениях внутри [EvaluateExpr](../builtins/basic.md#evaluate_expr_atom).
+
+Для таких частей можно использовать только строковые константы внутри запроса, например:
+
+```yql
+$table = "my_table";
+SELECT * FROM $table
 ```
 
 ## SQL хинты {#sql-hints}

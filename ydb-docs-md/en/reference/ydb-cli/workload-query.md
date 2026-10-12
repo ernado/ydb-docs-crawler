@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/workload-query.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/workload-query.md"
 description: "Allows you to perform load testing according to a specified user scenario."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # User workload

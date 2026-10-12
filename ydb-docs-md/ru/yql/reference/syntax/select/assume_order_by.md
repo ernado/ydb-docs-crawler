@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/select/assume_order_by.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/assume_order_by.md"
 description: "Проверка сортированности результата SELECT по значению в указанном столбце или нескольких столбцах. Результат такого SELECT -а будет считаться сортированным, но"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # ASSUME ORDER BY

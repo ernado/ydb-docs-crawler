@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/analyst/practical-guides/scd/scd1-transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/practical-guides/scd/scd1-transfer.md"
 description: "This article describes the implementation of the Slowly Changing Dimensions Type 1 (SCD1) pattern in YDB. Used tools."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Using the TRANSFER mechanism to implement SCD1 based on data from CDC sources in YDB

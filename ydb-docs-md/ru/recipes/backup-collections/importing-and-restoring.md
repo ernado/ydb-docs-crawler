@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/backup-collections/importing-and-restoring.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/backup-collections/importing-and-restoring.md"
 description: "Импорт резервных копий из внешнего хранилища и восстановление данных в базе данных. Импорт из файловой системы. Импорт ранее экспортированных резервных копий:"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Импорт и восстановление резервных копий

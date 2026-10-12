@@ -1,5 +1,5 @@
 ---
-title: "Classic SQL constructs not supported yet"
+title: "Unsupported classic SQL constructs"
 url: "https://ydb.tech/docs/en/yql/reference/syntax/not_yet_supported?version=v26.1"
 doc_path: "en/yql/reference/syntax/not_yet_supported"
 version: "v26.1"
@@ -7,10 +7,10 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/not_yet_supported.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/not_yet_supported.md"
 description: "Correlated EXISTS and NOT EXISTS."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
-# Classic SQL constructs not supported yet
+# Unsupported classic SQL constructs
 
 ## Correlated EXISTS and NOT EXISTS {#not-exists}
 

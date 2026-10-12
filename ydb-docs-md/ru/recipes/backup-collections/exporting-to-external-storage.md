@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/backup-collections/exporting-to-external-storage.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/backup-collections/exporting-to-external-storage.md"
 description: "Экспорт коллекций резервных копий в S3-совместимое хранилище или файловую систему для аварийного восстановления. Экспорт в S3."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Экспорт резервных копий во внешнее хранилище

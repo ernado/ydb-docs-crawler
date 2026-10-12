@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter_table/columns.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/columns.md"
 description: "YDB поддерживает возможность добавлять колонки в строковые и колоночные таблицы, удалять неключевые колонки из таблиц, а также изменять свойства существующих ко"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Изменение колонок

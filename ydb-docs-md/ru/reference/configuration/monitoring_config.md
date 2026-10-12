@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/monitoring_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/monitoring_config.md"
 description: "Секция monitoring_config файла конфигурации YDB задаёт параметры YDB Monitoring. Ниже описаны настройки, связанные с аутентификацией на отдельных страницах встр"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # monitoring_config

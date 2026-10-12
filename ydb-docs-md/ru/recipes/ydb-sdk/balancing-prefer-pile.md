@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/balancing-prefer-pile.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/balancing-prefer-pile.md"
 description: "Ниже приведен пример кода установки опции алгоритма балансировки \"предпочитать пайл c конкретным состоянием \" в YDB SDK."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Предпочитать пайл c конкретным состоянием

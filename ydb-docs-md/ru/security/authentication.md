@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/security/authentication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/security/authentication.md"
 description: "После успешной установки сетевого соединения сервер принимает к обработке запросы от клиента, в которых передается аутентификационная информация в виде аутентиф"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Аутентификация

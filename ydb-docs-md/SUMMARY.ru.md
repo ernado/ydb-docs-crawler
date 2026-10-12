@@ -283,8 +283,8 @@
       - [Лексическая структура](ru/yql/reference/syntax/lexer.md)
       - [Выражения](ru/yql/reference/syntax/expressions.md)
       - Ограничения
-        - [Коррелированные подзапросы](ru/yql/reference/syntax/correlated-subqueries.md)
         - [Неподдерживаемые конструкции](ru/yql/reference/syntax/not_yet_supported.md)
+        - [Коррелированные подзапросы](ru/yql/reference/syntax/correlated-subqueries.md)
       - [ACTION](ru/yql/reference/syntax/action.md)
       - [ALTER ASYNC REPLICATION](ru/yql/reference/syntax/alter-async-replication.md)
       - ALTER DATABASE

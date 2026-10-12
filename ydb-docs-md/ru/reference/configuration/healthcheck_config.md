@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/healthcheck_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/healthcheck_config.md"
 description: "Секция health_check_config настраивает пороговые значения и таймауты, используемые сервисом Health Check YDB. Эти параметры помогают настраивать обнаружение воз"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # health_check_config

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/ansible/initial-deployment/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/initial-deployment/index.md"
 description: "В этом руководстве описан процесс развёртывания кластера YDB на группе серверов с использованием Ansible. Такой способ рекомендуется применять в средах с физиче"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Развёртывание YDB кластера с помощью Ansible

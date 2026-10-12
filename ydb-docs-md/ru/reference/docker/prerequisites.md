@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/docker/prerequisites.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/docker/prerequisites.md"
 description: "Прежде чем воспользоваться Docker-образом YDB, необходимо установить и настроить Docker-окружение. Для этого можно воспользоваться официальной документацией:"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Установка Docker для работы с YDB

@@ -7,14 +7,14 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/parameterized-query-execution.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/parameterized-query-execution.md"
 description: "Обзор."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Выполнение параметризованных запросов
 
 ## Обзор {#obzor}
 
-YDB CLI поддерживает исполнение [параметризованных запросов](https://en.wikipedia.org/wiki/Prepared_statement). Для работы с параметрами в тексте запроса должны присутствовать их определения [командой YQL `DECLARE`](../../yql/reference/syntax/declare.md).
+YDB CLI поддерживает исполнение [параметризованных запросов](../../yql/reference/syntax/lexer.md#query-params). Для работы с параметрами в тексте запроса должны присутствовать их определения [командой YQL `DECLARE`](../../yql/reference/syntax/declare.md).
 
 Основной инструмент для выполнения параметризованных запросов в YDB CLI — это команда [ydb sql](sql.md).
 

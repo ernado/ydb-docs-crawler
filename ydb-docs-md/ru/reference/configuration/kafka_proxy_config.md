@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/kafka_proxy_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/kafka_proxy_config.md"
 description: "В разделе kafka_proxy_config файла конфигурации YDB включается и конфигурируется Kafka Proxy, которая дает доступ к работе с YDB Topics по Kafka API."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # kafka_proxy_config

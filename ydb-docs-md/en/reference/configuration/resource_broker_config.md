@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/resource_broker_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/resource_broker_config.md"
 description: "The resource broker is an actor service that controls resource consumption on YDB nodes, such as: CPU — number of threads. Memory — RAM."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # resource_broker_config
@@ -25,7 +25,7 @@ Different types of activities (background operations, [TTL](../../concepts/ttl.m
 | `queue_backup` | 2 | — | [Backup](../../devops/backup-and-recovery.md#s3) operations. |
 | `queue_restore` | 10 | — | [Restore from backup](../../devops/backup-and-recovery.md#s3) operations. |
 | `queue_build_index` | 10 | — | [Online secondary index creation](../../concepts/query_execution/secondary_indexes.md#index-add) operations. |
-| `queue_cdc_initial_scan` | 4 | — | [Initial table scan](../../concepts/cdc.md#initial-scan) operations. |
+| `queue_cdc_initial_scan` | 2 | — | [Initial table scan](../../concepts/cdc.md#initial-scan) operations. |
 
 > [!NOTE]
 > It is recommended to **extend** the resource broker configuration using [tags](../../devops/configuration-management/configuration-v2/dynamic-config-selectors.md#additional-yaml-tags) `!inherit` and `!append`.

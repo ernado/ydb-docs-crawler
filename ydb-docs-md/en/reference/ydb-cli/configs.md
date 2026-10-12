@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/configs.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/configs.md"
 description: "Managing YDB configuration. Note. Before YDB CLI 2.20.0, the ydb admin cluster config commands had the following format: ydb admin config."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # en/reference/ydb-cli/configs

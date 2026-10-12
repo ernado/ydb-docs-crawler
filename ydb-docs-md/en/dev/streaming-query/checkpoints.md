@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/streaming-query/checkpoints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/checkpoints.md"
 description: "A checkpoint is persisted state of a running streaming query, used to recover processing after failures. YDB periodically checkpoints all running streaming quer"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Checkpoints

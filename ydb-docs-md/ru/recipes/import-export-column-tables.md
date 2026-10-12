@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/import-export-column-tables.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/import-export-column-tables.md"
 description: "В колоночных таблицах YDB в настоящий момент отсутствует (точнее находится в разработке) встроенный механизм резервного копирования и восстановления (backup/res"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Импорт и экспорт данных в колоночные таблицы

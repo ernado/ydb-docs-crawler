@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/configuration/cluster/generate.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/configuration/cluster/generate.md"
 description: "С помощью команды admin cluster config generate вы можете сгенерировать для кластера YDB конфигурацию V2 на основе его текущей конфигурации V1. Это один из шаго"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # admin cluster config generate

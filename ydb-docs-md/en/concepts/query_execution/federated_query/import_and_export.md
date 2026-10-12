@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/federated_query/import_and_export.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/import_and_export.md"
 description: "Note. When importing or exporting data to or from S3 in Parquet format, take into account the YQL and Apache Arrow type mapping. Importing data."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Importing and exporting data with federated queries

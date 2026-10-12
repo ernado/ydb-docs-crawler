@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/query_service_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/query_service_config.md"
 description: "The query_service_config section describes the parameters for YDB to work with external data sources using federated queries."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # query_service_config

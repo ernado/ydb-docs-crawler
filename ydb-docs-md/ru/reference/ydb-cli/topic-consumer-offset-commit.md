@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/topic-consumer-offset-commit.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/topic-consumer-offset-commit.md"
 description: "Каждый читатель топика обладает позицией чтения. С помощью команды topic consumer offset commit можно сохранить позицию чтения добавленного ранее читателя."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Сохранение позиции чтения

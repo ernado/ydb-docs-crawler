@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/embedded-ui/interconnect-overview.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/embedded-ui/interconnect-overview.md"
 description: "Overview of cluster node interconnects. Available at: http://<endpoint>:8765/actors/interconnect/overview. Shows, for every other node: ping."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Interconnect Overview

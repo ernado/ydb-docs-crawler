@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/maintenance/manual/blobdepot_decommit.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/blobdepot_decommit.md"
 description: "Physical groups are a valuable resource in the cluster: groups can be created, but they cannot be deleted without deleting the database that uses them, since th"
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # Group Decommissioning

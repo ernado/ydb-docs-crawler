@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/queries/tli-logging.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/queries/tli-logging.md"
 description: "Transaction lock invalidation (TLI) logging lets you identify which query had its locks broken (the victim) and which query broke them (the breaker)."
-revision: "259414a47522df8faa233e3f6fd5c97bc5325d93"
+revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 ---
 
 # TLI logging
