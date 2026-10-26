@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/index.md"
 description: "В данном разделе представлены материалы по управлению конфигурацией кластеров YDB. Вы узнаете о двух версиях механизма конфигурации (V1 и V2), их различиях, а т"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Конфигурация кластеров YDB

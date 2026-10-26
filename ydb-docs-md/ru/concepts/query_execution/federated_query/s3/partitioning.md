@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/s3/partitioning.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/s3/partitioning.md"
 description: "В S3-совместимом хранилище данных можно хранить очень большие объемы данных. При этом запросы к этим данным могут затрагивать не все данные, а только их часть."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Партицирование данных

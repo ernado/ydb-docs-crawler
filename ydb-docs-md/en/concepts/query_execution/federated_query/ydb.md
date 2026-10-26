@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/federated_query/ydb.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/ydb.md"
 description: "YDB can act as an external data source for another YDB database. This section discusses the organization of collaboration between two independent YDB databases"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Working with YDB Databases

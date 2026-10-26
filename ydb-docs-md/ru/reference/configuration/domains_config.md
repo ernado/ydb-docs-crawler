@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/domains_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/domains_config.md"
 description: "Данный раздел содержит конфигурацию кластера YDB, включая конфигурации Blob Storage (хранилища бинарных объектов) и State Storage (хранилища состояний)."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # domains_config

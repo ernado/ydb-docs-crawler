@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/vector-search/vector-index-quickstart.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/vector-search/vector-index-quickstart.md"
 description: "This article will help you quickly get started with vector indexes in YDB using a simple model example."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Vector Index — Quick Start

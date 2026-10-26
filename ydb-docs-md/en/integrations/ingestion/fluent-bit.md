@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/ingestion/fluent-bit.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/ingestion/fluent-bit.md"
 description: "This section describes the integration between YDB and the log capture tool FluentBit to save and analyze the log records in YDB. Overview."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Log records collection using FluentBit

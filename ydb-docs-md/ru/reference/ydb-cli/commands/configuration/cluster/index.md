@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/configuration/cluster/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/configuration/cluster/index.md"
 description: "Команды управления конфигурацией кластера предназначены для работы с конфигурацией на уровне всего кластера YDB. Эти команды позволяют администраторам просматри"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Команды управления конфигурацией кластера

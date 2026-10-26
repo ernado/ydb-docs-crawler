@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/query_plans.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/query_plans.md"
 description: "Чтобы лучше понимать работу запроса, вы можете получить и проанализировать его план."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Структура планов запросов

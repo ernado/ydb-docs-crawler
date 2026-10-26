@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/languages-and-apis/ado-net/type-mapping.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/languages-and-apis/ado-net/type-mapping.md"
 description: "Ниже перечислены встроенные сопоставления при чтении и записи типов CLR в типы YDB. Таблица сопоставления типов на чтение."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Поддерживаемые типы данных в интеграции с ADO.NET и их соответствие

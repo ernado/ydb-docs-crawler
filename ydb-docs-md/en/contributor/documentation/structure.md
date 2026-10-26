@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/documentation/structure.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/documentation/structure.md"
 description: "This article complements YDB documentation style guide. It explains the current top-level folders of the documentation and what kind of content belongs in each."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # YDB Documentation Structure

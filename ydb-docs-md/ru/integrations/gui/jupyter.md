@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/gui/jupyter.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/gui/jupyter.md"
 description: "Jupyter Notebook - это инструмент с открытым исходным кодом для создания общедоступных документов, сочетающий в себе код, описания на простом языке, данные, бог"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Работа с YDB с помощью Jupyter Notebook

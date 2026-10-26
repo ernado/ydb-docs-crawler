@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/orm/jooq.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/orm/jooq.md"
 description: "This guide explains how to use JOOQ with YDB."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # JOOQ extension for YDB

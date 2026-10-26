@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/kafka-api/examples.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/kafka-api/examples.md"
 description: "This example shows a code snippet for reading data from a topic via Kafka API without a consumer group (Manual Partition Assignment)."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Kafka API usage examples

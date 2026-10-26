@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/custom-attributes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/custom-attributes.md"
 description: "Важно. Поддерживается только для строковых таблиц. Поддержка функциональности для колоночных таблиц находится в разработке."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Пользовательские атрибуты таблиц

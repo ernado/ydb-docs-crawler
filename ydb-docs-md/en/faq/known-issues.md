@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/faq/known-issues.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/known-issues.md"
 description: "Table partitions are not merging when autopartitioning is enabled."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Known issues

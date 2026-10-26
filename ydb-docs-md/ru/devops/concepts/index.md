@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/concepts/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/concepts/index.md"
 description: "Данный раздел дополняет общий раздел Концепции YDB теоретическими материалами, актуальными в первую очередь для DevOps-инженеров. Основные темы:"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Концепции для DevOps-инженеров

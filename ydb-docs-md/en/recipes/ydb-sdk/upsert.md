@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/upsert.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/upsert.md"
 description: "Below are code examples of using the built-in upsert tools of the YDB SDK: C++. Go. Java. Python. C#. JavaScript. Rust. PHP. Python. Native SDK. userver."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Upsert data

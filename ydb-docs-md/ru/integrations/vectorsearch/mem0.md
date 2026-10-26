@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/vectorsearch/mem0.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/vectorsearch/mem0.md"
 description: "Mem0 — это слой долговременной памяти для AI-агентов и LLM-приложений. Mem0 извлекает из диалогов значимые факты о пользователе, сохраняет их в виде эмбеддингов"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Mem0

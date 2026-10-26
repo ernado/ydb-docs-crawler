@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/drop-resource-pool-classifier.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/drop-resource-pool-classifier.md"
 description: "DROP RESOURCE POOL CLASSIFIER удаляет классификатор пулов ресурсов. Синтаксис. DROP RESOURCE POOL CLASSIFIER <name>. Параметры."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # DROP RESOURCE POOL CLASSIFIER

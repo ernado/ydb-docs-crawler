@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/docker/configuration.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/configuration.md"
 description: "YDB is configured via environment variables when running in Docker. When starting the YDB Docker container with the docker run command, you can specify addition"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Configuring the YDB Docker container

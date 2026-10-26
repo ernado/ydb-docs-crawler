@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/kafka-api/constraints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/kafka-api/constraints.md"
 description: "Поддержка протокола Kafka версии 3.4.0 осуществляется в ограниченном объеме: Поддержаны только SASL/PLAIN и SASL/SCRAM-SHA-256 механизмы аутентификации."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Ограничения Kafka API

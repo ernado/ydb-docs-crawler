@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/gui/vscode-plugin.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/gui/vscode-plugin.md"
 description: "Visual Studio Code is a free, cross-platform, open-source code editor that supports a wide ecosystem of extensions for working with databases, language servers,"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Connecting to YDB using the VS Code plugin

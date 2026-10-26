@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/types/primitive.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/types/primitive.md"
 description: "Термины «простые», «примитивные» и «элементарные» типы данных используются как синонимы. Числовые типы. Тип. Описание. Примечания. Bool. Логическое значение."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Примитивные типы данных

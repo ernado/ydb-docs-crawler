@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/import_and_export.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/import_and_export.md"
 description: "Примечание. При импорте/экспорте данных из/в S3 в формате Parquet необходимо учитывать маппинг типов YQL и Apache Arrow. Импорт данных."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Импорт и экспорт данных с использованием федеративных запросов

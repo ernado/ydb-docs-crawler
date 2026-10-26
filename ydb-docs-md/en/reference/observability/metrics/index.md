@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/observability/metrics/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/metrics/index.md"
 description: "This document provides a reference for the main metrics of the YDB system, which are used for cluster state monitoring, performance diagnostics, and load analys"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Metrics reference
@@ -176,7 +176,7 @@ Transaction execution duration can be analyzed using a histogram counter. Interv
 | `topic.storage_bytes`  <br>`GAUGE`, bytes | Topic size in bytes.  <br>Labels:  <br>- *topic* – topic name. |
 | `topic.read.bytes`  <br>`RATE`, bytes | Number of bytes read from the topic.  <br>Labels:  <br>- *topic* – topic name.  <br>- *consumer* – consumer name. |
 | `topic.read.messages`  <br>`RATE`, count | Number of messages read from the topic.  <br>Labels:  <br>- *topic* – topic name.  <br>- *consumer* – consumer name. |
-| `topic.read.lag_messages`  <br>`RATE`, count | Total number of messages not yet read by this consumer across the topic.  <br>Labels:  <br>- *topic* – topic name.  <br>- *consumer* – consumer name. |
+| `topic.read.lag_messages`  <br>`GAUGE`, count | Total number of messages not yet read by this consumer across the topic. The metric serves as an indicator of consumer lag. An increase in the value means the consumer is falling behind the message flow — for example, due to a consumer stop, partition rebalancing, or a write load spike.  <br>Labels:  <br>- *topic* – topic name.  <br>- *consumer* – consumer name. |
 | `topic.read.lag_milliseconds`  <br>`HIST_RATE`, count | Histogram counter. Intervals are specified in milliseconds. Shows the number of messages for which the difference between the read time and the message creation time falls within the specified interval.  <br>Labels:  <br>- *topic* – topic name.  <br>- *consumer* – consumer name. |
 | `topic.write.bytes`  <br>`RATE`, bytes | Size of written data.  <br>Labels:  <br>- *topic* – topic name. |
 | `topic.write.uncommited_bytes`  <br>`RATE`, bytes | Size of data written as part of not yet completed transactions.  <br>Labels:  <br>- *topic* – topic name. |

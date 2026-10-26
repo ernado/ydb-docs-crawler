@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/scan-query.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/scan-query.md"
 description: "Warning. This functionality is deprecated. Use standard query execution methods. See Query execution."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Running scan queries

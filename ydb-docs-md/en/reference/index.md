@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/index.md"
 description: "This documentation section contains reference information about various aspects of YDB, including: YQL - Overview. Using the embedded web UI. Integrations YDB."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # YDB reference

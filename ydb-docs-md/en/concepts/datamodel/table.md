@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/table.md"
 description: "A table is a relational table containing a set of related data, composed of rows and columns. Tables represent entities. For instance, a blog article can be rep"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Table
@@ -62,6 +62,8 @@ A row-oriented database table can be partitioned by primary key value ranges. Ea
 If there is not a lot of data or load, the table may consist of a single shard. As the amount of data served by the shard or the load on the shard grows, YDB automatically splits this shard into two shards. The data is split by the median value of the primary key if the shard size exceeds the threshold. If partitioning by load is used, the shard first collects a sample of the requested keys (that can be read, written, and deleted) and, based on this sample, selects a key for partitioning to evenly distribute the load across new shards. So in the case of load-based partitioning, the size of new shards may significantly vary.
 
 The size-based shard split threshold and automatic splitting can be configured (enabled/disabled) individually for each database table.
+
+Regardless of the [AUTO_PARTITIONING_PARTITION_SIZE_MB](table.md#auto_partitioning_by_size) parameter value, YDB forcibly splits partitions whose size exceeds the [force_shard_split_data_size](../../reference/configuration/immediate_controls_config.md) parameter (2 GiB by default). At the same time, YDB does not restrict user settings and works in parallel with them. For example, if you set the [partition size](table.md#auto_partitioning_by_size) to 100 MiB and the [limit](table.md#auto_partitioning_max_partitions_count) to 10 partitions, the table stops splitting when it reaches 10 partitions of 100 MiB each, and partition sizes begin to grow. When any partition exceeds the `force_shard_split_data_size` parameter value, it splits, and the table has 11 partitions. If the combined size of two adjacent partitions drops to 50% of the [AUTO_PARTITIONING_PARTITION_SIZE_MB](table.md#auto_partitioning_by_size) parameter value, they merge, and the table has 10 partitions again.
 
 In addition to automatically splitting shards, you can create an empty table with a predefined number of shards. You can manually set the exact shard key split range or evenly split it into a predefined number of shards. In this case, ranges are created based on the first component of the primary key. You can set even splitting for tables that have a `Uint64` or `Uint32` integer as the first component of the primary key.
 

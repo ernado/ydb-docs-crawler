@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/embedded-ui/interconnect-overview.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/embedded-ui/interconnect-overview.md"
 description: "Обзор соединений узлов кластера друг с другом. Доступен по адресу: http://<ендпоинт>:8765/actors/interconnect/overview. Показывает для каждого другого узла:"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Interconnect Overview

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/example-app/example-js.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/example-js.md"
 description: "На этой странице представлено подробное описание кода тестового приложения, использующего YDB JavaScript SDK."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Приложение на JavaScript

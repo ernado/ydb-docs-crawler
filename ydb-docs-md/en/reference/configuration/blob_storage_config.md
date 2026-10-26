@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/blob_storage_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/blob_storage_config.md"
 description: "The blob_storage_config section specifies a static cluster group's configuration. A static group is necessary for the operation of the basic cluster tablets, in"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # blob_storage_config

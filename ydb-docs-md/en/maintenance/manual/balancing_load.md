@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/maintenance/manual/balancing_load.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/balancing_load.md"
 description: "YDB supports two methods for disk load balancing: Distribute the load evenly across groups. Distribute VDisks evenly across block store volumes."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Disk load balancing

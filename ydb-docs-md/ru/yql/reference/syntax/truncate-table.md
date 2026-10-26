@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/truncate-table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/truncate-table.md"
 description: "TRUNCATE TABLE удаляет все пользовательские данные из указанной таблицы и ее индексов. Синтаксис. TRUNCATE TABLE <table_name>; Ограничения."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # TRUNCATE TABLE

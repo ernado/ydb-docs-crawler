@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/vector-indexes-kmeans-tree-type.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/vector-indexes-kmeans-tree-type.md"
 description: "Векторные индексы — это специализированные структуры данных, которые позволяют эффективно выполнять векторный поиск в многомерных пространствах. Работа с ними п"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Векторный индекс вида vector_kmeans_tree

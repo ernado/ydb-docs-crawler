@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/visualization/datalens.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/visualization/datalens.md"
 description: "DataLens is an open-source business intelligence (BI) and data visualization tool that enables users to analyze and display data from various sources, including"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # DataLens

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/kafka-api/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/kafka-api/index.md"
 description: "YDB поддерживает работу с топиками по протоколу Kafka версия 3.4.0. Документация по SDK содержит следующие разделы: Аутентификация. Чтение и запись."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Kafka API

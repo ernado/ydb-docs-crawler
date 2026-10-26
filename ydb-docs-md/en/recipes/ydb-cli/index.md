@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-cli/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-cli/index.md"
 description: "This section contains recipes for various tasks that can be solved with YDB CLI. Table of contents: Convert a table between row-oriented and column-oriented."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # YDB CLI recipes

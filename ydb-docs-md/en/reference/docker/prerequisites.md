@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/docker/prerequisites.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/prerequisites.md"
 description: "Before using the YDB in Docker, install and configure the Docker environment. Refer to the official documentation for your operating system: Linux. macOS."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Prerequisites for working with YDB in Docker

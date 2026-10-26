@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/public-materials/articles.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/public-materials/articles.md"
 description: "This section contains articles about YDB: Articles 2024. Articles 2023. The materials are divided by categories and tagged: Overview."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Articles

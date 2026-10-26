@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/queries/overloaded-errors.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/queries/overloaded-errors.md"
 description: "YDB возвращает ошибки OVERLOADED в следующих случаях: Перегруженные партиции таблиц, у которых в очереди на выполнение более 15000 запросов."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Ошибки «overloaded»

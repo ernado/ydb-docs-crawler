@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/changelog-enterprise.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-enterprise.md"
 description: "Версия 26.1 Версия 26.1.1.ent.3. Дата выхода: 3 августа 2026."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Список изменений сервера Корпоративной СУБД Яндекса

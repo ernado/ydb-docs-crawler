@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/audit-log.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/audit-log.md"
 description: "An audit log is a stream that includes data about all the operations that tried to change the YDB objects, successfully or unsuccessfully:"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Audit log

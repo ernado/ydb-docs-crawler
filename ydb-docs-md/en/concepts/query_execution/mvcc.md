@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/mvcc.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/mvcc.md"
 description: "This article describes how YDB uses MVCC. YDB Transactions."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Multi-Version Concurrency Control (MVCC)

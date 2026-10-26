@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/create_table/vector_index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create_table/vector_index.md"
 description: "Векторный индекс в строковых таблицах создаётся с помощью того же синтаксиса, что и вторичные индексы, при указании vector_kmeans_tree в качестве типа индекса."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Векторный индекс

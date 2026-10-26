@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/index.md"
 description: "Управление дисковой подсистемой кластера включает следующие действия: Изменение конфигурации: Расширение кластера. Добавление групп хранения. Обслуживание:"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Обзор управления дисковой подсистемой кластера

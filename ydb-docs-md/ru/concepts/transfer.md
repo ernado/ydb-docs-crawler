@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/transfer.md"
 description: "Трансфер в YDB — асинхронный механизм переноса данных из топика в таблицу. Создание экземпляра трансфера, его изменение и удаление осуществляется с использовани"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Трансфер данных

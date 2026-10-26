@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/downloads/ydb-open-source-database.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/ydb-open-source-database.md"
 description: "YDB Open-Source Database ( ydbd ) — исполняемый файл для запуска узла кластера YDB. Распространяется под лицензией Apache 2.0."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Загрузка YDB Open-Source Database

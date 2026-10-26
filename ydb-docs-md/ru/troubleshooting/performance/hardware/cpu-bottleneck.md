@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/hardware/cpu-bottleneck.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/hardware/cpu-bottleneck.md"
 description: "Высокая нагрузка на процессор может привести к медленному выполнению запросов и увеличению задержек. В условиях ограниченного ресурса процессора база данных мож"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Недостаточное быстродействие процессора
@@ -28,7 +28,7 @@ revision: "665607947c838b4f199a3b30499a54d29413ee4f"
 
    4. На вкладке **Info** нажмите на кнопку **CPU** и проверьте уровни загрузки процессора во всех пулах ресурсов.
 
-      ![](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/665607947c838b4f199a3b30499a54d29413ee4f/ru/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png)
+      ![](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/0b31976d929e6dd165473a40bb0855b365abe8f7/ru/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png)
 
 2. Проанализируйте загрузку процессора во всех пулах ресурсов на графиках Grafana:
 

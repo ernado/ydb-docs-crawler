@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/ingestion/logstash.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/ingestion/logstash.md"
 description: "This section describes the integration options between YDB and Logstash, a server-side data collection and processing pipeline. Introduction."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Integrating Logstash and YDB

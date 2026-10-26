@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/types/yson.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/yson.md"
 description: "This section describes YSON, a JSON-like data format developed at Yandex. Note. SQL functions for working with YSON are documented here. Introduction."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Yson

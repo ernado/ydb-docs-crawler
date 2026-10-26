@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/builtins/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/index.md"
 description: "Базовые. Агрегатные. Оконные. Для работы со списками. Для работы со словарями. Для работы со структурами. Для работы с типами. Для работы с генерацией кода."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Встроенные функции YQL

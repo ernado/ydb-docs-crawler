@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/builtins/aggregation.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/aggregation.md"
 description: "COUNT Сигнатура. COUNT (*)-> Uint64 COUNT (T)-> Uint64 COUNT (T?)-> Uint64."
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Агрегатные функции

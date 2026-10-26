@@ -4,14 +4,14 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "665607947c838b4f199a3b30499a54d29413ee4f",
+      "revision": "0b31976d929e6dd165473a40bb0855b365abe8f7",
       "page_count": 727,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "665607947c838b4f199a3b30499a54d29413ee4f",
+      "revision": "0b31976d929e6dd165473a40bb0855b365abe8f7",
       "page_count": 734,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
@@ -500,7 +500,7 @@
       "description": "A table is a relational table containing a set of related data, composed of rows and columns. Tables represent entities. For instance, a blog article can be rep",
       "source_path": "en/core/concepts/datamodel/table.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/table.md",
-      "bytes": 23788,
+      "bytes": 24774,
       "lang": "en"
     },
     {
@@ -4702,7 +4702,7 @@
       "description": "This document provides a reference for the main metrics of the YDB system, which are used for cluster state monitoring, performance diagnostics, and load analys",
       "source_path": "en/core/reference/observability/metrics/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/metrics/index.md",
-      "bytes": 30741,
+      "bytes": 30959,
       "lang": "en"
     },
     {
@@ -8486,7 +8486,7 @@
       "description": "Таблица — это реляционная таблица, содержащая набор связанных данных, состоящий из строк и столбцов. Таблицы описывают сущности. Например, статья в блоге может ",
       "source_path": "ru/core/concepts/datamodel/table.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/table.md",
-      "bytes": 50507,
+      "bytes": 50818,
       "lang": "ru"
     },
     {
@@ -12787,7 +12787,7 @@
       "description": "В этом документе приведен справочник по основным метрикам системы YDB, которые используются для мониторинга состояния кластера, диагностики производительности и",
       "source_path": "ru/core/reference/observability/metrics/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/observability/metrics/index.md",
-      "bytes": 47034,
+      "bytes": 47429,
       "lang": "ru"
     },
     {

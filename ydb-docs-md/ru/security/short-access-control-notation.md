@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/security/short-access-control-notation.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/security/short-access-control-notation.md"
 description: "При описании или логировании разрешений, которые выдаются пользователям (например при записи аудитных логов ), может использоваться специальная краткая запись у"
-revision: "665607947c838b4f199a3b30499a54d29413ee4f"
+revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 ---
 
 # Краткая запись управления доступом
