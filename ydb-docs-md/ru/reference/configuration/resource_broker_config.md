@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/resource_broker_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/resource_broker_config.md"
 description: "Секция resource_broker_config настраивает брокер ресурсов — акторный сервис, контролирующий потребление ресурсов узла YDB, таких как: CPU — количество потоков;"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # resource_broker_config

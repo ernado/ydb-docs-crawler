@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v2/state-storage-move.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/state-storage-move.md"
 description: "Статья находится в разработке. Важно."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Перемещение State Storage
@@ -18,7 +18,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 > [!WARNING]
 > Эта статья посвящена кластерам YDB, в которых используется [конфигурация V2](index.md). Данный способ конфигурирования пока является экспериментальным и доступен только для версий YDB начиная с v25.1. Для использования в продакшене мы рекомендуем выбирать [конфигурацию V1](../index.md) — она является основной и официально поддерживаемой для всех кластеров YDB.
 
-Если нужно вывести из эксплуатации узел кластера YDB, на котором располагается часть [State Storage](../../../reference/configuration/index.md#domains-state), необходимо переместить её на другой узел.
+Если нужно вывести из эксплуатации узел кластера YDB, на котором располагается часть [State Storage](../../../reference/configuration/domains_config.md#domains-state), необходимо переместить её на другой узел.
 
 > [!WARNING]
 > Неправильная последовательность действий или ошибка в конфигурации могут привести к недоступности кластера YDB.
@@ -45,7 +45,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
    ...
    ```
 
-   На ухле с `node_id:1` сконфигурирован и запущен [статический узел](config-settings.md#hosts) кластера, который обслуживает часть State Storage. Предположим, нам нужно вывести из эксплуатации этот узел.
+   На ухле с `node_id:1` сконфигурирован и запущен [статический узел](../../../reference/configuration/hosts.md) кластера, который обслуживает часть State Storage. Предположим, нам нужно вывести из эксплуатации этот узел.
 
    Для замены `node_id:1` мы используем другой хост с развернутым на нем статическим узлом с `node_id:10`.
 

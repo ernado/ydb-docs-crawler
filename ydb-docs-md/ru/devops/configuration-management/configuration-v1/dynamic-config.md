@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v1/dynamic-config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/dynamic-config.md"
 description: "Динамическая конфигурация позволяет запускать динамические узлы, сконфигурировав их централизованно, без необходимости раскладывать файлы по узлам вручную. YDB"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Динамическая конфигурация кластера
@@ -37,7 +37,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
         admin console configs dump-yaml > dynconfig.yaml
    ```
 
-   Предварительно необходимо получить токен аутентификации с помощью команды `ydb auth get-token`, аналогично [процедуре инициализации кластера](../../deployment-options/manual/initial-deployment/index.md#initialize-cluster).
+   Предварительно необходимо получить токен аутентификации с помощью команды `ydb auth get-token`, аналогично [процедуре инициализации кластера](../../deployment-options/manual/initial-deployment/deployment-configuration-v1.md#initialize-cluster).
 
 3. Сформируйте первоначальный файл динамической конфигурации:
 

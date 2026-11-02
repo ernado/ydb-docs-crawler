@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/downloads/ydb-ansible.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/ydb-ansible.md"
 description: "A set of automated playbooks for installing and maintaining the server side of open-source YDB or Yandex Enterprise Database using Ansible is available for down"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Download Ansible Playbooks for YDB

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/batch-delete.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/batch-delete.md"
 description: "Tip. Before diving into BATCH DELETE FROM, it is recommended to familiarize yourself with the standard DELETE FROM."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # BATCH DELETE FROM
@@ -15,7 +15,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 > [!TIP]
 > Before diving into `BATCH DELETE FROM`, it is recommended to familiarize yourself with the standard [DELETE FROM](delete.md).
 
-`BATCH DELETE FROM` allows to delete records in large tables while minimizing the risk of lock invalidation and transaction rollback by weakening guarantees. Specifically, data deletion is performed as a series of transactions for each [partition](../../../concepts/datamodel/table.md#partitioning) of the specified table separately, processing 10 000 rows per iteration. Each query processes up to 10 partitions concurrently.
+`BATCH DELETE FROM` allows to delete records in large tables while minimizing the risk of lock invalidation and transaction rollback by weakening guarantees. Specifically, data deletion is performed as a series of transactions for each [partition](../../../concepts/datamodel/table.md#partitioning_row_table) of the specified table separately, processing 10 000 rows per iteration. Each query processes up to 10 partitions concurrently.
 
 This query, like the standard `DELETE FROM`, executes synchronously and returns a status. If an error occurs or the client disconnects, data deletion stops, and applied changes are not rolled back.
 

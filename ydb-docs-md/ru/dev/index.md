@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/index.md"
 description: "В этом разделе документации YDB описано всё, что нужно знать для разработки приложений, взаимодействующих с YDB. Основные материалы:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # YDB для разработчиков приложений

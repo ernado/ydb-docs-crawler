@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/ttl.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/ttl.md"
 description: "В разделе описан принцип работы TTL и его ограничения. Принцип работы."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Time to Live (TTL) и вытеснение данных во внешнее хранилище
@@ -36,7 +36,7 @@ eviction_time = valueof(ttl_column) + evict_after_seconds
 
 *BRO* обладает следующими свойствами:
 
-- Единицей параллельности является [партиция таблицы](datamodel/table.md#partitioning).
+- Единицей параллельности является [партиция таблицы](datamodel/table.md#partitioning_row_table).
 - Для таблиц со [вторичными индексами](query_execution/secondary_indexes.md) стадия удаления является [распределенной транзакцией](transactions.md#distributed-tx).
 
 ## Гарантии {#guarantees}

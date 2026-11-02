@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/vector-search.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/vector-search.md"
 description: "This section contains code recipes in different programming languages for vector search tasks using the YDB SDK. The following operations are covered in detail:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Vector search
@@ -16,7 +16,7 @@ This section contains code recipes in different programming languages for [vecto
 
 The following operations are covered in detail:
 
-- [Vector search](vector-search.md#vector-search)
+- [Vector search](vector-search.md)
 
   - [Connecting to YDB](vector-search.md#connect-ydb)
   - [Creating a table](vector-search.md#create-table)
@@ -2002,7 +2002,7 @@ Available strategies:
 - `distance=euclidean`;
 - `distance=manhattan`.
 
-Each strategy defines the function used for subsequent search. For details on these functions, see [distance and similarity functions](../../yql/reference/udf/list/knn.md#fuctions-distance).
+Each strategy defines the function used for subsequent search. For details on these functions, see [distance and similarity functions](../../yql/reference/udf/list/knn.md#functions-distance).
 
 Parameters for the `vector_kmeans_tree` index type are described in the [vector index](../../dev/vector-indexes.md#kmeans-tree-type).
 
@@ -2353,7 +2353,7 @@ Vector search uses a special YQL query where you define a similarity or distance
 - `ManhattanDistance`;
 - `EuclideanDistance`.
 
-For details, see [distance and similarity functions](../../yql/reference/udf/list/knn.md#fuctions-distance).
+For details, see [distance and similarity functions](../../yql/reference/udf/list/knn.md#functions-distance).
 
 You can specify the index name. If set, the query will include the `VIEW index_name` expression so that the vector index is used for search.
 

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/import-export-column-tables.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/import-export-column-tables.md"
 description: "В колоночных таблицах YDB в настоящий момент отсутствует (точнее находится в разработке) встроенный механизм резервного копирования и восстановления (backup/res"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Импорт и экспорт данных в колоночные таблицы
@@ -137,7 +137,7 @@ SELECT * FROM `external/backup/lineitem_sql`;
 ### Предварительные требования {#predvaritelnye-trebovaniya1}
 
 - Установленный PySpark версии 4.0.1, установить можно по [инструкции](https://spark.apache.org/docs/latest/api/python/getting_started/install.html).
-- Наличие [gRPC-эндпоинта](../concepts/connect.md#эндпоинт-endpoint) для подключения к базе данных YDB.
+- Наличие [gRPC-эндпоинта](../concepts/connect.md#endpoint) для подключения к базе данных YDB.
 - [Реквизиты доступа](../reference/ydb-cli/connect.md#command-line-pars) YDB с правами на чтение/запись.
 - Настроенный сетевой доступ с узлов кластера YDB к объектному хранилищу. В примере используется endpoint `storage.yandexcloud.net` — необходимо обеспечить доступ к нему по порту 443.
 - В примерах используются данные теста производительности TPC-H. Инструкция по загрузке тестовых данных доступна в соответствующем [разделе](../reference/ydb-cli/workload-tpch.md) руководства.

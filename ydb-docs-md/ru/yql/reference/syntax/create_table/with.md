@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/create_table/with.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create_table/with.md"
 description: "Для таблицы может быть указан ряд специфичных для YDB параметров. При создании таблицы такие параметры перечисляются в блоке WITH:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Дополнительные параметры (WITH)

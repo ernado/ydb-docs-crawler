@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/bulk-upsert.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/bulk-upsert.md"
 description: "YDB поддерживает пакетную вставку большого количества строк без гарантий атомарности. Запись данных разбивается на несколько независимых транзакций, каждая их к"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Пакетная вставка данных

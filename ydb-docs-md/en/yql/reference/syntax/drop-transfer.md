@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/drop-transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/drop-transfer.md"
 description: "The DROP TRANSFER statement deletes a transfer instance. If a consumer was created automatically when the transfer was created, it is also deleted. The system w"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # DROP TRANSFER

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/tools-infer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/tools-infer.md"
 description: "You can use the ydb tools infer csv command to generate a CREATE TABLE statement from a CSV data file. This can be helpful when you want to import data into a d"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Table schema inference from data files
@@ -45,7 +45,7 @@ ydb tools infer csv --help
 >
 > The values of the first row in the file are checked for the following conditions:
 >
-> - The values meet the [requirements for column names](../../yql/reference/syntax/create_table/index.md#column-naming-rules).
+> - The values meet the [requirements for column names](../../concepts/datamodel/table.md#column-naming-rules).
 > - The types of the values in the first row are different from the data types in the other rows of the file.
 >
 > If both conditions are met, the values from the first row are used as the table's column names. Otherwise, column names are generated automatically (as `column1`, `column2`, etc.). See the [example](tools-infer.md#example-default) below for more details.

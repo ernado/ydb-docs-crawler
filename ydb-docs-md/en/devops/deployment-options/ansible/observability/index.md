@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/ansible/observability/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/ansible/observability/index.md"
 description: "This section of YDB documentation covers various observability-related topics specific to clusters deployed with Ansible."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Ensuring Observability of a YDB Cluster Deployed with Ansible

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/async-replication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/async-replication.md"
 description: "Асинхронная репликация позволяет синхронизировать данные между базами данных YDB почти в реальном времени. Также она может быть использована для миграции данных"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Асинхронная репликация

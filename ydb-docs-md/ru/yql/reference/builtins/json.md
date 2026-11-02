@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/builtins/json.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/json.md"
 description: "JSON - слабо схематизированный формат данных, представленный в YQL типом Json. В отличии от реляционных таблиц, JSON может хранить данные, для которых схема не"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Функции для работы с JSON
@@ -504,7 +504,7 @@ JsonPath поддерживает предикаты - выражения, во�
 
 #### `like_regex` {#like_regex}
 
-Предикат `like_regex` позволяет проверить строку на соответствие регулярному выражению. Синтаксис регулярных выражений такой же как в [Hyperscan UDF](../udf/list/hyperscan.md) и [REGEXP](../syntax/expressions.md#regexp).
+Предикат `like_regex` позволяет проверить строку на соответствие регулярному выражению. Синтаксис регулярных выражений такой же как в [Hyperscan UDF](../udf/list/hyperscan.md) и [REGEXP](../syntax/expressions.md#check-match).
 
 ##### Синтаксис {#sintaksis}
 

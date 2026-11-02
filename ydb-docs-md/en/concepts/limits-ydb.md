@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/limits-ydb.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/limits-ydb.md"
 description: "This section describes the parameters of limits set in YDB. Schema Object Limits."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Database Limits

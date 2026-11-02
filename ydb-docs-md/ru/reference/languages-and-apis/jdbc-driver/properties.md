@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/languages-and-apis/jdbc-driver/properties.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/languages-and-apis/jdbc-driver/properties.md"
 description: "JDBC-драйвер для YDB поддерживает следующие конфигурационные свойства, которые можно указать в JDBC URL или передать через дополнительные свойства:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Свойства JDBC-драйвера

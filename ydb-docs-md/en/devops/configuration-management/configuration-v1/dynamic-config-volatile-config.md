@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v1/dynamic-config-volatile-config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/dynamic-config-volatile-config.md"
 description: "Volatile configurations are a special type of configurations that complement dynamic ones and are not persistent. That is, these configurations are reset when t"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Volatile Configurations

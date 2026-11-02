@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/table-attribute-add.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/table-attribute-add.md"
 description: "With the table attribute add command, you can add a custom attribute to your table. General format of the command:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # table attribute add
 
-With the `table attribute add` command, you can add a [custom attribute](../../concepts/datamodel/table.md#users-attr) to your table.
+With the `table attribute add` command, you can add a [custom attribute](../../concepts/datamodel/table.md) to your table.
 
 General format of the command:
 

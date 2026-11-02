@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/query_plans.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/query_plans.md"
 description: "To understand how a query will be executed, you can build and analyze its plan. The query plan structure in YDB is represented as a graph, where each node conta"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Query plan structure

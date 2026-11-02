@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/system-views.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/system-views.md"
 description: "Для получения служебной информации о состоянии базы данных можно обращаться к системным представлениям (system views). Они доступны из корня дерева базы данных"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Системные представления базы данных
@@ -19,7 +19,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 ## Партиции {#partitions}
 
-Следующее системное представление хранит детализированную информацию об [партициях](../concepts/datamodel/table.md#partitioning) таблиц базы данных:
+Следующее системное представление хранит детализированную информацию об [партициях](../concepts/datamodel/table.md#partitioning_row_table) таблиц базы данных:
 
 - `partition_stats` — содержит информацию о моментальных метриках и кумулятивных счетчиках операций. К первым относятся, например, данные о нагрузке на CPU или количестве выполняемых [транзакций](../concepts/transactions.md). Ко вторым — общее количество прочитанных строк.
 
@@ -61,8 +61,8 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 | `LastTtlRowsProcessed` | Количество проверенных строк партиции при последней очистке по TTL | `Uint64` | Моментальная |
 | `LastTtlRowsErased` | Количество удалённых строк партиции при последней очистке по TTL | `Uint64` | Моментальная |
 | `LocksAcquired` | Количество установленных [блокировок](../contributor/datashard-locks-and-change-visibility.md). | `Uint64` | Кумулятивная |
-| `LocksWholeShard` | Количество установленных [блокировок "весь шард"](../contributor/datashard-locks-and-change-visibility.md#ограничения). | `Uint64` | Кумулятивная |
-| `LocksBroken` | Количество [сломанных блокировок](../contributor/datashard-locks-and-change-visibility.md#высокоуровневая-схема-работы). | `Uint64` | Кумулятивная |
+| `LocksWholeShard` | Количество установленных [блокировок "весь шард"](../contributor/datashard-locks-and-change-visibility.md#ogranicheniya). | `Uint64` | Кумулятивная |
+| `LocksBroken` | Количество [сломанных блокировок](../contributor/datashard-locks-and-change-visibility.md#vysokourovnevaya-shema-raboty). | `Uint64` | Кумулятивная |
 
 ### Примеры запросов {#partitions-examples}
 
@@ -506,7 +506,7 @@ WHERE Name = "default";
 
 ## Информация о классификаторах пулов ресурсов {#resource_pools_classifiers}
 
-Системное представление `resource_pools_classifiers` содержит информацию о [настройках](../yql/reference/syntax/create-resource-pool-classifier.md#parameters) [классификаторов пулов ресурсов](../concepts/glossary.md#resource-pool-classifier).
+Системное представление `resource_pools_classifiers` содержит информацию о [настройках](../yql/reference/syntax/create-resource-pool-classifier.md#obshie-parametry) [классификаторов пулов ресурсов](../concepts/glossary.md#resource-pool-classifier).
 
 Структура системного представления:
 
@@ -545,7 +545,7 @@ WHERE Name = "olap";
 
 | Колонка | Описание |
 | --- | --- |
-| `Sid` | [SID](../concepts/glossary.md#sid) пользователя.  <br>Тип: `Utf8`.  <br>Ключ: `0`. |
+| `Sid` | [SID](../concepts/glossary.md#access-sid) пользователя.  <br>Тип: `Utf8`.  <br>Ключ: `0`. |
 | `IsEnabled` | Указывает, разрешён ли вход данному пользователю; используется для явной блокировки администратором. Независим от `IsLockedOut`.  <br>Тип: `Bool`. |
 | `IsLockedOut` | Указывает, что данный пользователь автоматически заблокирован из-за превышения количества неудачных аутентификаций. Не зависит от `IsEnabled`.  <br>Тип: `Bool`. |
 | `CreatedAt` | Время создания пользователя.  <br>Тип: `Timestamp`. |
@@ -564,7 +564,7 @@ WHERE Name = "olap";
 
 | Колонка | Описание |
 | --- | --- |
-| `Sid` | [SID](../concepts/glossary.md#sid) группы.  <br>Тип: `Utf8`.  <br>Ключ: `0`. |
+| `Sid` | [SID](../concepts/glossary.md#access-sid) группы.  <br>Тип: `Utf8`.  <br>Ключ: `0`. |
 
 ### Информация о членстве в группах {#informaciya-o-chlenstve-v-gruppah}
 

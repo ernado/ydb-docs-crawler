@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/analytics/concepts/execution.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/analytics/concepts/execution.md"
 description: "YDB — это распределённая MPP-база данных (Massively Parallel Processing), предназначенная для выполнения сложных аналитических запросов на больших объёмах данны"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Выполнение запросов

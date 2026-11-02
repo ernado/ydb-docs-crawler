@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/streaming_queries/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/streaming_queries/index.md"
 description: "Этот раздел содержит рецепты работы с потоковыми запросами. Содержание: Быстрый старт: чтение и запись в топики. Отладочное чтение из топика."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Рецепты работы с потоковыми запросами

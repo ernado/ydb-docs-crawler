@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/optimizer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/optimizer.md"
 description: "YDB uses two types of query optimizers: a rule-based optimizer and a cost-based optimizer. The cost-based optimizer is used for complex queries, typically analy"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Query Optimization in YDB
@@ -56,7 +56,7 @@ GROUP BY
 
 In this query graph, all `Dim...` tables are joined to the `Fact_Sales` fact table:
 
-![Join graph](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/0b31976d929e6dd165473a40bb0855b365abe8f7/en/concepts/query_execution/_assets/star_schema.png)
+![Join graph](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/concepts/query_execution/_assets/star_schema.png)
 
 Common topologies also include chains and cliques. A "chain" is a topology where tables are connected to each other sequentially and each table participates in no more than one join. A "clique" is a fully connected graph where each table is connected to every other table.
 
@@ -91,6 +91,6 @@ The current set of column statistics includes:
 
 ### Cost Optimization Levels
 
-In YDB, you can configure the cost optimization level via the [CostBasedOptimizationLevel](../../yql/reference/syntax/pragma.md#costbasedoptimizationlevel) pragma.
+In YDB, you can configure the cost optimization level via the CostBasedOptimizationLevel pragma.
 
 To force the cost-based optimizer to be enabled for the current query, set the pragma `PRAGMA ydb.CostBasedOptimization = "on";`. To disable the cost-based optimizer, set the pragma to `off`.

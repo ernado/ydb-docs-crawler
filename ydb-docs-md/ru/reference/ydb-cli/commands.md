@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands.md"
 description: "Общий синтаксис вызова команд YDB CLI: ydb [global options] < command > [<subcommand>...] [ command options]. , где:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Команды YDB CLI
@@ -159,7 +159,7 @@ ydb [global options] <command> [<subcommand> ...] [command options]
 | [workload stock run put-same-order](commands/workload/stock.md#submit-same-order) | Отправка заказов с одинаковыми продуктами в `Stock` нагрузке |
 | [workload stock run rand-user-hist](commands/workload/stock.md#get-random-customer-history) | Выборка заказов случайного клиента в `Stock` нагрузке |
 | [workload stock run user-hist](commands/workload/stock.md#get-customer-history) | Выборка заказов 10000-го клиента в `Stock` нагрузке |
-| [workload stock clean](commands/workload/stock.md#clean) | Удаление [таблиц](../../concepts/glossary.md#table), созданных на этапе инициализации `Stock` нагрузки |
+| workload stock clean | Удаление [таблиц](../../concepts/glossary.md#table), созданных на этапе инициализации `Stock` нагрузки |
 | [workload topic init](workload-topic.md#init) | Создание и инициализация [топика](../../concepts/glossary.md#topic) для `Topic` нагрузки |
 | [workload topic run full](workload-topic.md#run-full) | Выполнение полной нагрузки на [топик](../../concepts/glossary.md#topic) с одновременным чтением и записью сообщений в `Topic` нагрузке |
 | [workload topic run read](workload-topic.md#run-read) | Выполнение нагрузки на чтение сообщений из [топика](../../concepts/glossary.md#topic) в `Topic` нагрузке |

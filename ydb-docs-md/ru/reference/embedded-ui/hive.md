@@ -7,14 +7,14 @@ lang: "ru"
 source_path: "ru/core/reference/embedded-ui/hive.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/embedded-ui/hive.md"
 description: "Web-viewer Hive предоставляет визуальный интерфейс работы с Hive."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Hive web-viewer
 
 Web-viewer Hive предоставляет визуальный интерфейс работы с [Hive](../../concepts/glossary.md#hive).
 
-Попасть на страницу Web-viewer Hive можно по ссылке Developer UI из вкладки Tablets в [Embedded UI](index.md). Для доступа к странице необходимо быть аутентифицированным как пользователь, входящий в список `monitoring_allowed_sids` в [конфигурации безопасности кластера](../configuration/index.md#security).
+Попасть на страницу Web-viewer Hive можно по ссылке Developer UI из вкладки Tablets в [Embedded UI](index.md). Для доступа к странице необходимо быть аутентифицированным как пользователь, входящий в список `monitoring_allowed_sids` в [конфигурации безопасности кластера](../configuration/security_config.md#security-auth).
 
 ## Главная страница {#glavnaya-stranica}
 

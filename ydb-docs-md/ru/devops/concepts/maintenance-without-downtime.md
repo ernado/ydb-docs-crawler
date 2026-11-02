@@ -7,16 +7,16 @@ lang: "ru"
 source_path: "ru/core/devops/concepts/maintenance-without-downtime.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/concepts/maintenance-without-downtime.md"
 description: "Периодически кластер YDB необходимо обслуживать, например, обновлять его версию или заменять сломавшиеся диски. Работы по обслуживанию могут привести к недоступ"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Обслуживание кластера без потери доступности
 
 Периодически кластер YDB необходимо обслуживать, например, обновлять его версию или заменять сломавшиеся диски. Работы по обслуживанию могут привести к недоступности кластера или имеющихся баз данных из-за:
 
-- Превышения модели отказа затронутых [групп хранения](../../concepts/glossary.md#storage-groups).
+- Превышения модели отказа затронутых [групп хранения](../../concepts/glossary.md#storage-group).
 - Превышения модели отказа [State Storage](../../reference/configuration/domains_config.md#domains-state).
-- Недостатка вычислительных ресурсов вследствие остановки слишком большого количества [динамических узлов](../../concepts/glossary.md#dynamic-node).
+- Недостатка вычислительных ресурсов вследствие остановки слишком большого количества [динамических узлов](../../concepts/glossary.md#dynamic).
 
 Для избежания таких ситуаций в YDB есть системная [таблетка](../../concepts/glossary.md#tablet), которая следит за состоянием кластера — *Cluster Management System (CMS)*. CMS позволяет ответить на вопрос, можно ли безопасно вывести в обслуживание узел YDB или хост, на котором работают узлы YDB. Для этого необходимо создать [задачу обслуживания](maintenance-without-downtime.md#maintenance-task) в CMS и указать в ней взятие эксклюзивных блокировок на узлы или хосты, которые будут задействованы в обслуживании. Компоненты кластера, на которые взяты блокировки, считаются недоступными с точки зрения CMS, и их можно безопасно обслуживать. CMS [проверит](maintenance-without-downtime.md#checking-algorithm) текущее состояние кластера и возьмёт блокировки, только если работы по обслуживанию соответствуют ограничениям [режима доступности](maintenance-without-downtime.md#availability-mode) и [лимитам недоступных узлов](maintenance-without-downtime.md#unavailable-node-limits).
 
@@ -57,8 +57,8 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 - **Weak**: режим, не позволяющий превысить модель отказа.
 
-  - Допускается не более двух недоступных VDisk-ов для затрагиваемых групп хранения со схемой [block-4-2](../../reference/configuration/domains_config.md#reliability).
-  - Допускается не более четырёх недоступных VDisk-ов, три из которых должны находиться в одном датацентре, для затрагиваемых групп хранения со схемой [mirror-3-dc](../../reference/configuration/domains_config.md#reliability).
+  - Допускается не более двух недоступных VDisk-ов для затрагиваемых групп хранения со схемой [block-4-2](../../reference/configuration/domains_config.md#domains-blob).
+  - Допускается не более четырёх недоступных VDisk-ов, три из которых должны находиться в одном датацентре, для затрагиваемых групп хранения со схемой [mirror-3-dc](../../reference/configuration/domains_config.md#domains-blob).
   - Допускается не более `(nto_select - 1) / 2` недоступных колец State Storage.
 
 - **Force**: принудительный режим, модель отказа игнорируется. *Не рекомендуется к использованию*.

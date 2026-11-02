@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/gui/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/gui/index.md"
 description: "Среда Инструкция Уровень поддержки. Встроенный UI. Справка. DBeaver. Инструкция. C помощью JDBC-драйвера. JetBrains Database viewer. —. C помощью JDBC-драйвера."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Графические пользовательские интерфейсы

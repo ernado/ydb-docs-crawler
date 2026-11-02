@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/datashard-locks-and-change-visibility.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/datashard-locks-and-change-visibility.md"
 description: "YQL запросам может требоваться прочитать данные, которые были записаны предыдущими запросами в рамках той же транзакции, ещё до коммита транзакции. В этом случа"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # DataShard: блокировки и видимость изменений в транзакциях

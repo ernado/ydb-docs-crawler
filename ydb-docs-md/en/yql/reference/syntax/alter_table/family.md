@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter_table/family.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter_table/family.md"
 description: "Warning. Supported only for row-oriented tables."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Changing column groups
@@ -74,7 +74,7 @@ When switching the cache mode to `in_memory` for an existing table with `ALTER T
 
 If the table was previously in `in_memory` mode and `ALTER TABLE` then sets the cache mode to `regular`, the pages that are already in memory stay there, but they may later be evicted according to the general caching policy.
 
-The code below changes the [cache mode](../../../../concepts/datamodel/table.md#cache-modes) to `in_memory` for the `default` column group in the `series_with_families` table:
+The code below changes the [cache mode](../../../../concepts/datamodel/table.md) to `in_memory` for the `default` column group in the `series_with_families` table:
 
 ```yql
 ALTER TABLE series_with_families ALTER FAMILY default SET CACHE_MODE "in_memory";

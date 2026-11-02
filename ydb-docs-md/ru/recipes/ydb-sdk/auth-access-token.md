@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/auth-access-token.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/auth-access-token.md"
 description: "Ниже приведены примеры кода аутентификации при помощи токена в разных YDB SDK. C++. Go. Java. JavaScript. Python. C#. Rust. PHP. Native SDK. userver."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Аутентификация при помощи токена

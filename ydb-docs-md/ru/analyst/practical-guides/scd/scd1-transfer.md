@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/analyst/practical-guides/scd/scd1-transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/practical-guides/scd/scd1-transfer.md"
 description: "В этой статье описывается реализация паттерна Slowly Changing Dimensions Type 1 (SCD1) в YDB. Используемые инструменты."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Использование механизма TRANSFER для реализации SCD1 на основе данных из CDC-источников в YDB
@@ -18,8 +18,8 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 Для поставки данных в SCD1-таблицу в данной статье будет использоваться следующая комбинация функциональных возможностей YDB:
 
-1. Таблица-источник будет [строковой](../../../concepts/datamodel/table.md#row-oriented-table) для оперативных транзакционных изменений;
-2. Таблица-приёмник будет [колоночной](../../../concepts/datamodel/table.md#column-oriented-table) для эффективного выполнения аналитических запросов;
+1. Таблица-источник будет [строковой](../../../concepts/datamodel/table.md#row-oriented-tables) для оперативных транзакционных изменений;
+2. Таблица-приёмник будет [колоночной](../../../concepts/datamodel/table.md#column-oriented-tables) для эффективного выполнения аналитических запросов;
 3. Подписка на изменения в таблице-источнике будет осуществляться через механизм [Change Data Capture (CDC)](../../../concepts/cdc.md);
 4. За буферизацию изменений будет отвечать неявно создаваемый под CDC [топик](../../../concepts/datamodel/topic.md);
 5. За автоматическое перекладывание данных из CDC-топика в таблицу-приёмник будет отвечать [трансфер](../../../concepts/transfer.md).

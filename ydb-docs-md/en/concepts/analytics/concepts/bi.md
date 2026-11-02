@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/analytics/concepts/bi.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/analytics/concepts/bi.md"
 description: "The interactivity of BI dashboards directly depends on the performance of the underlying database. YDB was designed as a high-performance analytical platform th"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # BI analytics and data visualization

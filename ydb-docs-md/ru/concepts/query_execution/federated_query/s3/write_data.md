@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/s3/write_data.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/s3/write_data.md"
 description: "В YDB для записи данных в бакет S3 можно использовать внешние источники данных или внешние таблицы. Запись в S3 через внешний источник данных."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Запись данных в бакеты S3
@@ -36,7 +36,7 @@ WITH
 - `s3_external_datasource_name` — название внешнего источника данных, ведущего на бакет с S3-совместимого хранилища данных.
 - `write_folder` — путь к директории внутри бакета, в которую будет вестись запись; путь должен быть не пустым и заканчиваться на `/`; запись в корень бакета не поддерживается.
 - `file_format` — [формат данных](formats.md#formats) в файлах, обязательно.
-- `compression` — [формат сжатия](formats.md#compression_formats) файлов, опционально.
+- `compression` — [формат сжатия](formats.md#compression) файлов, опционально.
 - `schema_definition` — [описание схемы хранимых данных](external_data_source.md#schema) в файлах, опционально; если не указано, будет выведено автоматически из типа `<expression>`.
 - `format_settings` — [параметры форматирования](external_data_source.md#format_settings), опционально.
 

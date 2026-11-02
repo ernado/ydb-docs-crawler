@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/yql-tutorial/create_demo_tables.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/yql-tutorial/create_demo_tables.md"
 description: "Создайте строковые таблицы для OLTP-операций или колоночные таблицы для OLAP-нагрузок и задайте для них схемы данных с помощью конструкции CREATE TABLE. Подробн"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Создание таблиц

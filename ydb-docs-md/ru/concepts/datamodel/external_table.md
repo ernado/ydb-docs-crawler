@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/datamodel/external_table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/external_table.md"
 description: "Часть внешних источников, например, системы управления базами данных, хранят данные в схематизированном виде, а часть, как S3 (Yandex Object Storage), в виде от"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Внешние таблицы

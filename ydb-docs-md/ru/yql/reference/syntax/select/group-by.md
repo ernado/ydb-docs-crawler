@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/select/group-by.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/group-by.md"
 description: "GROUP BY."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # ru/yql/reference/syntax/select/group-by
@@ -49,7 +49,7 @@ GROUP BY
 > [!NOTE]
 > Агрегатные функции не учитывают `NULL` в своих аргументах, за исключением функции `COUNT`.
 
-Также в YQL доступен механизм фабрик агрегатных функций, реализованный с помощью функций [`AGGREGATION_FACTORY`](../../builtins/basic.md#aggregationfactory) и [`AGGREGATE_BY`](../../builtins/aggregation.md#aggregateby).
+Также в YQL доступен механизм фабрик агрегатных функций, реализованный с помощью функций [`AGGREGATION_FACTORY`](../../builtins/basic.md#aggregationfactory) и [`AGGREGATE_BY`](../../builtins/aggregation.md#aggregate-by).
 
 ### Примеры {#examples}
 
@@ -79,7 +79,7 @@ GROUP BY
 ```
 
 > [!WARNING]
-> Возможность указывать имя для колонки или выражения в `GROUP BY .. AS foo` является расширением YQL. Такое имя становится видимым в `WHERE` несмотря на то, что фильтрация по `WHERE` выполняется [раньше](../index.md#selectexec) группировки. В частности, если в таблице `T` есть две колонки `foo` и `bar`, то в запросе `SELECT foo FROM T WHERE foo > 0 GROUP BY bar AS foo` фильтрация фактически произойдет по колонке `bar` из исходной таблицы.
+> Возможность указывать имя для колонки или выражения в `GROUP BY .. AS foo` является расширением YQL. Такое имя становится видимым в `WHERE` несмотря на то, что фильтрация по `WHERE` выполняется [раньше](index.md#selectexec) группировки. В частности, если в таблице `T` есть две колонки `foo` и `bar`, то в запросе `SELECT foo FROM T WHERE foo > 0 GROUP BY bar AS foo` фильтрация фактически произойдет по колонке `bar` из исходной таблицы.
 
 ## GROUP BY ... SessionWindow() {#session-window}
 

@@ -7,12 +7,12 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/compare-configs.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/compare-configs.md"
 description: "В YDB существует два основных подхода к управлению конфигурацией кластера: V1 и V2. Начиная с версии YDB 25.1, поддерживается конфигурация V2, которая унифициру"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Сравнение конфигураций кластера YDB: V1 и V2
 
-В YDB существует два основных подхода к управлению конфигурацией кластера: [V1](configuration-v1/index.md) и [V2](configuration-v2/index.md). Начиная с версии YDB 25.1, поддерживается конфигурация V2, которая унифицирует управление кластерами YDB, позволяет работать с конфигурацией полностью через [YDB CLI](../../reference/ydb-cli/index.md), а также автоматизирует наиболее сложные аспекты конфигурации (управление [статической группой](../../reference/configuration/index.md#blob_storage_config) и [State Storage](../../reference/configuration/index.md#domains-state)). Конфигурация V2 пока является экспериментальной и не рекомендуется для использования в продуктиве.
+В YDB существует два основных подхода к управлению конфигурацией кластера: [V1](configuration-v1/index.md) и [V2](configuration-v2/index.md). Начиная с версии YDB 25.1, поддерживается конфигурация V2, которая унифицирует управление кластерами YDB, позволяет работать с конфигурацией полностью через [YDB CLI](../../reference/ydb-cli/index.md), а также автоматизирует наиболее сложные аспекты конфигурации (управление [статической группой](../../reference/configuration/blob_storage_config.md) и [State Storage](../../reference/configuration/domains_config.md#domains-state)). Конфигурация V2 пока является экспериментальной и не рекомендуется для использования в продуктиве.
 
 В этой статье описываются ключевые различия между этими двумя подходами.
 
@@ -21,14 +21,14 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 | **Структура конфигурации** | Раздельная: [статическая](configuration-v1/static-config.md) и [динамическая](configuration-v1/dynamic-config.md). | [**Единая**](configuration-v2/config-overview.md) конфигурация. |
 | **Управление файлами** | Статическая: ручное размещение файла на каждом узле.  <br>Динамическая: централизованная загрузка через CLI. | Единая: [централизованная загрузка](configuration-v2/update-config.md) через CLI, автоматическая доставка на все узлы. |
 | **Механизм доставки и применения** | Статическая: читается и применяется из локального файла при запуске.  <br>Динамическая: через [таблетку `Console`](../../concepts/glossary.md#console). | Полностью автоматически через механизм [распределённой конфигурации](../../concepts/glossary.md#distributed-configuration). [Технические подробности](../../contributor/configuration-v2.md). |
-| **Управление State Storage и статической группой** | **Ручное**: через обязательные секции [`domains_config`](../../reference/configuration/index.md#domains-state) и [`blob_storage_config`](../../reference/configuration/index.md#blob_storage_config) в статической конфигурации. | **Автоматическое**: управляется системой [распределённой конфигурации](../../concepts/glossary.md#distributed-configuration). |
+| **Управление State Storage и статической группой** | **Ручное**: через обязательные секции [`domains_config`](../../reference/configuration/domains_config.md#domains-state) и [`blob_storage_config`](../../reference/configuration/blob_storage_config.md) в статической конфигурации. | **Автоматическое**: управляется системой [распределённой конфигурации](../../concepts/glossary.md#distributed-configuration). |
 | **Рекомендуемое использование** | Продакшн использование для всех версий YDB. | Экспериментальное использование на кластерах версии 25.1 и выше. |
 
 ## Конфигурация V1 {#konfiguraciya-v1}
 
 [Конфигурация V1](configuration-v1/index.md) кластера YDB состоит из двух частей:
 
-- **Статическая конфигурация:** управляет ключевыми параметрами узлов, включая конфигурацию [State Storage](../../reference/configuration/index.md#domains-state) и [статической группы](../../reference/configuration/index.md#blob_storage_config) (секции `domains_config` и `blob_storage_config` соответственно). Требует ручного размещения одного и того же файла конфигурации на каждом узле кластера. Путь до конфигурации указывается при запуске узла через опцию `--yaml-config`.
+- **Статическая конфигурация:** управляет ключевыми параметрами узлов, включая конфигурацию [State Storage](../../reference/configuration/domains_config.md#domains-state) и [статической группы](../../reference/configuration/blob_storage_config.md) (секции `domains_config` и `blob_storage_config` соответственно). Требует ручного размещения одного и того же файла конфигурации на каждом узле кластера. Путь до конфигурации указывается при запуске узла через опцию `--yaml-config`.
 - **Динамическая конфигурация:** управляет остальными параметрами кластера. Загружается централизованно с помощью команды `ydb admin config replace` и распространяется на узлы базы данных.
 
 Использование конфигурации V1 является рекомендуемым для всех кластеров YDB.

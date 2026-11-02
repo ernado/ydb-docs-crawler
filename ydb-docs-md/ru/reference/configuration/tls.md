@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/tls.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/tls.md"
 description: "Секция tls настраивает параметры TLS для шифрования данных при передаче по сети в YDB. Каждый сетевой протокол может иметь различные настройки TLS для обеспечен"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # tls
@@ -104,7 +104,7 @@ auth_config:
   scheme: "ldaps"
 ```
 
-Подробнее этот механизм описан в [{#T}](../../devops/configuration-management/configuration-v1/index.md#ldap-auth-config).
+Подробнее этот механизм описан в [Конфигурация LDAP аутентификации](auth_config.md#ldap-auth-config).
 
 ### Федеративные запросы {#federativnye-zaprosy}
 

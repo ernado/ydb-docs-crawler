@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/recipes/modifying-json.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/recipes/modifying-json.md"
 description: "In memory, YQL operates on immutable values. Thus, when a query needs to change something inside a JSON value, the mindset should be about constructing a new va"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Modifying JSON with YQL

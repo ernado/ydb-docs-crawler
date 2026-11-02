@@ -6,11 +6,13 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/reference/configuration/actor_system_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/actor_system_config.md"
-description: "The CPU resources are mainly used by the actor system. Depending on the type, all actors run in one of the pools (the name parameter). Configuration involves al"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+description: "Actor system configuration."
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # actor_system_config
+
+## Actor system configuration {#actor-system}
 
 The CPU resources are mainly used by the actor system. Depending on the type, all actors run in one of the pools (the `name` parameter). Configuration involves allocating a node's CPU cores across the actor system pools. When allocating them, please keep in mind that PDisks and the gRPC API run outside the actor system and require separate resources.
 

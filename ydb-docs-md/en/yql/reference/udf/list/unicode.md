@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/udf/list/unicode.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/unicode.md"
 description: "Functions for Unicode strings. List of functions. Unicode::IsUtf(String) -> Bool."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Unicode

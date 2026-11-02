@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/analyst/practical-guides/scd/scd2-merge.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/practical-guides/scd/scd2-merge.md"
 description: "В этой статье описывается реализация паттерна Slowly Changing Dimensions Type 2 (SCD2) в YDB с использованием процесса подмерживания изменений."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Использование процесса подмерживания изменения для реализации SCD2 в YDB
@@ -50,7 +50,7 @@ WITH (
 - `change_time` — момент времени изменения данных;
 - `operation` — тип изменения данных: `CREATE`, `UPDATE`, `DELETE`.
 
-Первичный ключ создается как `PRIMARY KEY (change_time, id)`, так как по одному и тому же бизнес-ключу данных может происходить множество изменений и все эти изменения по одному ключу важно сохранять. Подробнее про выбор первичного ключа и ключа партиционирования, можно прочесть в документации - [выбор первичного ключа](../../../dev/primary-key/column-oriented.md##vybor-pervichnogo-klyucha), [выбор ключа партиционирования](../../../dev/primary-key/column-oriented.md##vybor-klyucha-particionirovaniya)
+Первичный ключ создается как `PRIMARY KEY (change_time, id)`, так как по одному и тому же бизнес-ключу данных может происходить множество изменений и все эти изменения по одному ключу важно сохранять. Подробнее про выбор первичного ключа и ключа партиционирования, можно прочесть в документации - [выбор первичного ключа](../../../dev/primary-key/column-oriented.md#vybor-pervichnogo-klyucha), [выбор ключа партиционирования](../../../dev/primary-key/column-oriented.md#vybor-klyucha-particionirovaniya)
 
 ## Создание финальной SCD2 таблицы `dimension_scd2_final` {#sozdanie-finalnoj-scd2-tablicy}
 

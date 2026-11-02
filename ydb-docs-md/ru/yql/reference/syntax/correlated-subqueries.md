@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/correlated-subqueries.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/correlated-subqueries.md"
 description: "Коррелированный подзапрос обращается к колонке или псевдониму таблицы из внешнего запроса. Каждый подзапрос в YQL имеет собственную область видимости и не может"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Коррелированные подзапросы, EXISTS и NOT EXISTS

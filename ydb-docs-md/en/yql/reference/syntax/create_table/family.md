@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create_table/family.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create_table/family.md"
 description: "Warning. Supported only for row-oriented tables. Columns of the same table can be grouped to set the following parameters:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Column groups
@@ -19,7 +19,7 @@ Columns of the same table can be grouped to set the following parameters:
 
 - `DATA`: A storage device type for the data in this column group. Acceptable values: `"ssd"`, `"rot"`.
 - `COMPRESSION`: A data compression codec. Acceptable values: `"off"`, `"lz4"`.
-- `CACHE_MODE`: [Caching mode](../../../../concepts/datamodel/table.md#cache-modes). Acceptable values: `"in_memory"`, `"regular"`.
+- `CACHE_MODE`: [Caching mode](../../../../concepts/datamodel/table.md). Acceptable values: `"in_memory"`, `"regular"`.
 
 By default, all columns are in the same group named `default`. If necessary, the parameters of this group can also be redefined, if they are not redefined, then predefined values are applied.
 

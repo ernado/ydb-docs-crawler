@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v1/dynamic-config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/dynamic-config.md"
 description: "Dynamic configuration allows running dynamic nodes by configuring them centrally, without the need to manually distribute files across nodes. YDB acts as a conf"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Dynamic Cluster Configuration
@@ -191,7 +191,7 @@ Additional configuration capabilities are described on the [selectors](dynamic-c
 ### Configuration Update from Cluster Node Perspective
 
 1. Each node requests full configuration at startup.
-2. Upon receiving configuration, the node [generates final configuration](dynamic-config-selectors.md#selectors-resolve) for its set of [labels](dynamic-config-selectors.md#selectors-intro).
+2. Upon receiving configuration, the node [generates final configuration](dynamic-config-selectors.md#selectors-resolve) for its set of [labels](dynamic-config-selectors.md#labels).
 3. The node subscribes to configuration updates by registering with the [Console tablet](../../../concepts/glossary.md#console).
 4. In case of configuration update, the local service receives it and transforms it for the node's labels.
 5. All local services subscribed to updates receive the updated configuration.

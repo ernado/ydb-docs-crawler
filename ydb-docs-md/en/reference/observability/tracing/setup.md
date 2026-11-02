@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/observability/tracing/setup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/tracing/setup.md"
 description: "Note. The OpenTelemetry website describes the concept of tracing in detail in the Observability Primer article."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Tracing in YDB
@@ -252,7 +252,7 @@ A variation of the [leaky bucket](https://en.wikipedia.org/wiki/Leaky_bucket) is
 
 As with [logs](../../embedded-ui/logs.md), diagnosing most system issues does not require the most detailed trace. Therefore, in YDB, each span has its own level described by an integer from 0 to 15 inclusive. Each rule in the `sampling` section must include the detail level of the generated trace (`level`); spans with a level less than or equal to `level` will be included in it.
 
-The [YDB architecture](../../../concepts/index.md#ydb-architecture) section describes the system's division into 5 layers:
+The [YDB architecture](../../../concepts/architecture.md#ydb-architecture) section describes the system's division into 5 layers:
 
 | Layer | Components |
 | --- | --- |

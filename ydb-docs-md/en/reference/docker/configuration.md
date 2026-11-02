@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/docker/configuration.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/configuration.md"
 description: "YDB is configured via environment variables when running in Docker. When starting the YDB Docker container with the docker run command, you can specify addition"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Configuring the YDB Docker container
@@ -22,7 +22,7 @@ YDB is configured via environment variables when running in Docker. When [starti
 | [`YDB_GRPC_TLS_DATA_PATH`](https://GitHub.com/ydb-platform/ydb/blob/8fefc809c83829d8d8b886e82534d009de4c8826/ydb/public/tools/lib/cmds/__init__.py#L291) | `string` | `/ydb_certs` | Directory with TLS certificates for the `grpcs://` connection. |
 | [`MON_PORT`](https://GitHub.com/ydb-platform/ydb/blob/8dde59cd0af86737d07a1cd8ff19811a2bd2b663/ydb/tests/library/harness/kikimr_port_allocator.py#L170) | `int` | `8765` | HTTP port of [Embedded UI](../embedded-ui/index.md) |
 | [`GRPC_PORT`](https://GitHub.com/ydb-platform/ydb/blob/8dde59cd0af86737d07a1cd8ff19811a2bd2b663/ydb/tests/library/harness/kikimr_port_allocator.py#L174) | `int` | `2136` | gRPC port |
-| [`IC_PORT`](https://GitHub.com/ydb-platform/ydb/blob/8dde59cd0af86737d07a1cd8ff19811a2bd2b663/ydb/tests/library/harness/kikimr_port_allocator.py#L179) | `int` | `19001` | [Interconnect](../../concepts/glossary.md#interconnect) port |
+| [`IC_PORT`](https://GitHub.com/ydb-platform/ydb/blob/8dde59cd0af86737d07a1cd8ff19811a2bd2b663/ydb/tests/library/harness/kikimr_port_allocator.py#L179) | `int` | `19001` | [Interconnect](../../concepts/glossary.md#actor-system-interconnect) port |
 | [`GRPC_TLS_PORT`](https://GitHub.com/ydb-platform/ydb/blob/8dde59cd0af86737d07a1cd8ff19811a2bd2b663/ydb/tests/library/harness/kikimr_port_allocator.py#L183) | `int` | `2135` | gRPC over TLS port |
 | [`YDB_KAFKA_PROXY_PORT`](https://github.com/ydb-platform/ydb/blob/be585b61d649a49fd32e91d9ceeee7e893068a60/ydb/public/tools/lib/cmds/__init__.py#L362) | `int` |  | Port for connecting using the [Kafka API](../kafka-api/index.md). An empty value disables Kafka API compatibility. |
 | [`YDB_ERASURE`](https://GitHub.com/ydb-platform/ydb/blob/8fefc809c83829d8d8b886e82534d009de4c8826/ydb/public/tools/lib/cmds/__init__.py#L50) | `string` | `none` | Erasure to use, see [YDB Cluster Topology](../../concepts/topology.md) |

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/streaming-query/checkpoints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/checkpoints.md"
 description: "Чекпоинт — это сохранённое состояние работающего потокового запроса, необходимое для восстановления после сбоев обработки. YDB периодически сохраняет чекпоинты"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Чекпоинты
@@ -35,7 +35,7 @@ YDB хранит смещения чтения в собственных чек�
 
 При удалении запроса ([DROP STREAMING QUERY](../../yql/reference/syntax/drop-streaming-query.md)) чекпоинт удаляется вместе с ним. Поскольку смещения хранятся только в чекпоинте, новый запрос ([CREATE STREAMING QUERY](../../yql/reference/syntax/create-streaming-query.md)) не имеет сохранённой позиции и начинает чтение с конца топика. Все события, поступившие в топик между удалением старого запроса и стартом нового, не будут прочитаны.
 
-Аналогичная ситуация возникает, если данные, на которые указывает смещение в чекпоинте, уже удалены из топика по [TTL](../../concepts/datamodel/topic.md#message-retention).
+Аналогичная ситуация возникает, если данные, на которые указывает смещение в чекпоинте, уже удалены из топика по [TTL](../../concepts/datamodel/topic.md#retention-time).
 
 Подробнее о влиянии этого поведения на гарантии доставки — в разделе [Потеря событий при пересоздании запроса](guarantees.md#incomplete-windows-restart).
 

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/create-transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create-transfer.md"
 description: "Создает трансфер из топика в таблицу. Синтаксис: CREATE TRANSFER transfer_name FROM topic_name TO table_name USING lambda WITH ( option = value[,...])."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # CREATE TRANSFER

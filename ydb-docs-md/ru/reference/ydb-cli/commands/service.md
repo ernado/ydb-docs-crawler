@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/service.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/service.md"
 description: "Данные команды относятся к самому клиентскому приложению YDB CLI и не предполагают установки соединения с БД. Они могут быть выражены как в виде параметра, так"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Сервисные команды

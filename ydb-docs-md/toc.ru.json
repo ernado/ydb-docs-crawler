@@ -595,6 +595,7 @@
                 },
                 {
                   "name": "Наблюдаемость",
+                  "href": "ru/devops/deployment-options/ansible/observability/",
                   "items": [
                     {
                       "name": "Логирование",

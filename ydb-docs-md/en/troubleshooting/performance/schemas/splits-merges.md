@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/schemas/splits-merges.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/schemas/splits-merges.md"
 description: "Warning. Supported only for row-oriented tables. Support for column-oriented tables is currently under development."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Excessive tablet splits and merges
@@ -15,7 +15,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 > [!WARNING]
 > Supported only for [row-oriented](../../../concepts/datamodel/table.md#row-oriented-tables) tables. Support for [column-oriented](../../../concepts/datamodel/table.md#column-oriented-tables) tables is currently under development.
 
-Each [row-oriented table](../../../concepts/datamodel/table.md#row-oriented-tables) partition in YDB is processed by a [data shard](../../../concepts/glossary.md#data-shard) tablet. YDB supports automatic [splitting and merging](../../../concepts/datamodel/table.md#partitioning) of data shards which allows it to seamlessly adapt to changes in workloads. However, these operations are not free and might have a short-term negative impact on query latencies.
+Each [row-oriented table](../../../concepts/datamodel/table.md#row-oriented-tables) partition in YDB is processed by a [data shard](../../../concepts/glossary.md#data-shard) tablet. YDB supports automatic [splitting and merging](../../../concepts/datamodel/table.md#partitioning_row_table) of data shards which allows it to seamlessly adapt to changes in workloads. However, these operations are not free and might have a short-term negative impact on query latencies.
 
 When YDB splits a partition, it replaces the original partition with two new partitions covering the same range of primary keys. Now, two data shards process the range of primary keys that was previously handled by a single data shard, thereby adding more computing resources for the table.
 
@@ -27,7 +27,7 @@ When YDB merges adjacent partitions in a row-oriented table, they are replaced w
 
 For merging to occur, data shards must have existed for at least 10 minutes, and their CPU usage over the last hour must not exceed 35%.
 
-When configuring [table partitioning](../../../concepts/datamodel/table.md#partitioning), you can also set limits for the [minimum](../../../concepts/datamodel/table.md#auto_partitioning_min_partitions_count) and [maximum number of partitions](../../../concepts/datamodel/table.md#auto_partitioning_max_partitions_count). If the difference between the minimum and maximum limits exceeds 20% and the table load varies significantly over time, [Hive](../../../concepts/glossary.md#hive) may start splitting overloaded tables and then merging them back during periods of low load.
+When configuring [table partitioning](../../../concepts/datamodel/table.md#partitioning_row_table), you can also set limits for the [minimum](../../../concepts/datamodel/table.md#auto_partitioning_min_partitions_count) and [maximum number of partitions](../../../concepts/datamodel/table.md#auto_partitioning_max_partitions_count). If the difference between the minimum and maximum limits exceeds 20% and the table load varies significantly over time, [Hive](../../../concepts/glossary.md#hive) may start splitting overloaded tables and then merging them back during periods of low load.
 
 ## Diagnostics
 

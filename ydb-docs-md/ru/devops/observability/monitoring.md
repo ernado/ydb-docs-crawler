@@ -6,13 +6,15 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/devops/observability/monitoring.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/observability/monitoring.md"
-description: "На этой странице рассказано, как настроить мониторинг кластера YDB."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+description: "На этой странице рассказано, как настроить мониторинг кластера YDB. Доступ к метрикам через веб-интерфейс."
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Настройка мониторинга кластера YDB
 
 На этой странице рассказано, как настроить мониторинг кластера YDB.
+
+## Доступ к метрикам через веб-интерфейс {#web-metrics}
 
 YDB предоставляет множество метрик состояния системы. Мгновенные значения метрик можно посмотреть в веб-интерфейсе:
 
@@ -108,7 +110,7 @@ http://<ydb-server-address>:<ydb-port>/counters/counters=<servicename>/prometheu
         - "localhost:8765"
       ```
 
-   3. В файле [`prometheus_ydb.yml`](https://github.com/ydb-platform/ydb/tree/main/ydb/deploy/prometheus/prometheus_ydb.yml) при необходимости в секции `tls_config` укажите [сертификат центра регистрации](../deployment-options/manual/initial-deployment/index.md#tls-certificates) (Certification Authority, CA), которым подписаны остальные сертификаты TLS кластера YDB:
+   3. В файле [`prometheus_ydb.yml`](https://github.com/ydb-platform/ydb/tree/main/ydb/deploy/prometheus/prometheus_ydb.yml) при необходимости в секции `tls_config` укажите [сертификат центра регистрации](../deployment-options/manual/initial-deployment/deployment-preparation.md#tls-certificates) (Certification Authority, CA), которым подписаны остальные сертификаты TLS кластера YDB:
 
       ```json
       scheme: https

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/example-app/java/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/java/index.md"
 description: "На этой странице подробно разбирается код тестового приложения, доступного в составе Java SDK Examples YDB. Скачивание SDK Examples и запуск примера."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Приложение на Java
@@ -80,7 +80,7 @@ mvn package -f ./ydb-java-examples
 Основные параметры инициализации драйвера:
 
 - Cтрока подключения с информацией об [эндпоинте](../../../concepts/connect.md#endpoint) и [базе данных](../../../concepts/connect.md#database). Единственный обязательный параметр.
-- Провайдер [аутенфикации](../../../recipes/ydb-sdk/auth.md##auth-provider). В случае отсутствия прямого указания будет использоваться [анонимное подключение](../../../security/authentication.md).
+- Провайдер [аутенфикации](../../../reference/ydb-sdk/auth.md#auth-provider). В случае отсутствия прямого указания будет использоваться [анонимное подключение](../../../security/authentication.md).
 - Настройки [пула сессий](../../../recipes/ydb-sdk/session-pool-limit.md).
 
 Фрагмент кода приложения для инициализации драйвера:

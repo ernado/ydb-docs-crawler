@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/pragma.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/pragma.md"
 description: "Определение. Переопределение настроек. Синтаксис. PRAGMA x.y = \"z\"; или PRAGMA x.y(\"z\", \"z2\", \"z3\");: x — (опционально) категория настройки."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # PRAGMA
@@ -296,7 +296,7 @@ SELECT * FROM test;
 | --- | --- |
 | Положительное число | 5 |
 
-Увеличение лимита на число размерностей [GROUP BY](select/group-by.md#rollup-cube-group-sets).
+Увеличение лимита на число размерностей [GROUP BY](select/group-by.md#rollup).
 
 Использовать нужно аккуратно, так как вычислительная сложность запроса растет экспоненциально по отношению к числу размерностей.
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v1/state-storage-move.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/state-storage-move.md"
 description: "If you need to decommission a YDB cluster host that contains part of State Storage, you need to move it to another host. Warning."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # State Storage Move
@@ -32,7 +32,7 @@ domains_config:
 ...
 ```
 
-On the host with `node_id:1`, a cluster [static node](../../../reference/configuration/hosts.md#hosts) is configured and running, which serves part of State Storage. Suppose we need to decommission this host.
+On the host with `node_id:1`, a cluster [static node](../../../reference/configuration/hosts.md) is configured and running, which serves part of State Storage. Suppose we need to decommission this host.
 
 To replace `node_id:1`, we [added](cluster-expansion.md#add-host) a new host with `node_id:10` to the cluster and [deployed](cluster-expansion.md#add-static-node) a static node on it.
 

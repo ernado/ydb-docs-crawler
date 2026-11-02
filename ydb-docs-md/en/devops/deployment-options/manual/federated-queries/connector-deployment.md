@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/manual/federated-queries/connector-deployment.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/federated-queries/connector-deployment.md"
 description: "Warning. This functionality is in \"Experimental\" mode."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Deploying Connectors to External Data Sources

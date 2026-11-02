@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/tls.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/tls.md"
 description: "The tls section configures TLS settings for data-in-transit encryption in YDB. Each network protocol can have different TLS settings to secure communication bet"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # tls
@@ -78,7 +78,7 @@ monitoring_config:
 
 ### LDAP
 
-YDB supports [LDAP](../../security/authentication.md#ldap) for user authentication. The LDAP protocol has two options for enabling TLS.
+YDB supports [LDAP](../../security/authentication.md#ldap-auth-provider) for user authentication. The LDAP protocol has two options for enabling TLS.
 
 Example of enabling TLS for LDAP via the `StartTls` protocol extension:
 

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/builtins/struct.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/struct.md"
 description: "TryMember. Попытка получить значение поля из структуры, а в случае его отсутствия среди полей или null в значении структуры использовать значение по умолчанию."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Функции для работы со структурами
@@ -63,7 +63,7 @@ ExpandStruct(struct:Struct<...>, value_1:T1 AS key_1:K, value_2:T2 AS key_2:K, .
 Аргументы:
 
 - В первый аргумент передается исходная структура для расширения.
-- Все остальные аргументы должны быть именованными, каждый аргумент добавляет новое поле и имя аргумента используется в роли имени поля (по аналогии с [AsStruct](basic.md#asstruct)).
+- Все остальные аргументы должны быть именованными, каждый аргумент добавляет новое поле и имя аргумента используется в роли имени поля (по аналогии с [AsStruct](basic.md#as-container)).
 
 ### Примеры {#primery1}
 

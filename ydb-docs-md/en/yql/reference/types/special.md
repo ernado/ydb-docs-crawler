@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/types/special.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/types/special.md"
 description: "Type Description. Callable. A callable value that can be executed by passing arguments in parentheses in YQL SQL syntax. Resource."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Special data types

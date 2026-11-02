@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/manual/initial-deployment/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/initial-deployment/index.md"
 description: "This document describes how to deploy a multi-tenant YDB cluster with distributed architecture on multiple bare-metal or virtual servers. Main guides:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Deploying YDB Cluster Manually

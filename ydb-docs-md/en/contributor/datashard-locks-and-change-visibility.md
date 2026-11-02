@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/datashard-locks-and-change-visibility.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/datashard-locks-and-change-visibility.md"
 description: "When a long-running YQL transaction writes data to tables, it may try to read the same table later. To support observing data consistent with transaction change"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # DataShard: locks and transaction change visibility
@@ -43,6 +43,8 @@ Locks table (see [datashard_locks.h](https://github.com/ydb-platform/ydb/blob/ma
 When the lock is added for the first time, it is assigned a monotonically increasing `Counter` in the current tablet's `Generation` (see [TLock](https://github.com/ydb-platform/ydb/blob/207ac81618e05ade724a8a8193bc9125d466bd06/ydb/core/protos/data_events.proto#L8) message), and a row with these numbers is added to the virtual `/sys/locks` table (which is no longer used). These locks are then returned in result messages (e.g. see [TEvReadResult](https://github.com/ydb-platform/ydb/blob/b07264456a2e8b5929901f258ad60399bb64678a/ydb/core/protos/tx_datashard.proto#L1702)).
 
 In the successful scenario, the lock exists and is not broken, `Generation` and `Counter` fields do not change.
+
+### Broken locks
 
 In the unsuccessful scenarios, previously acquired locks are broken. For example, when changing the `Generation` of the lock (disabling the lock on restart) or the `Counter` (on an explicit error status, or when disabling and recreating the lock in the same generation).
 
@@ -124,5 +126,7 @@ When YQL transaction needs to rollback it runs an empty transactions with the [R
 Currently, uncommitted changes have a downside that all new writes have to search for conflicts. A single uncommitted write is enough to cause all new writes at a specific DataShard to switch to become non-blind, i.e. every write will have to perform a read first, which makes them more expensive, increases latency and decreases throughput. For maximum performance it is recommended to execute transactions where all reads are performed first, and a small amount of blind writes are performed last. This way uncommitted writes will not be used and DataShard performance will be optimal.
 
 Due to LocalDB limitations DataShard also needs to ensure it doesn't accumulate too many open transactions, and the locks table is already limited to ~10k locks, which includes write locks. DataShard also has to count the number of uncommitted changes before each uncommitted write, which is implemented by counting skips in the transaction observer, and throwing [TLockedWriteLimitException](https://github.com/ydb-platform/ydb/blob/d31477e5ed13679dd3b409b100623cc81a5e0964/ydb/core/tx/datashard/datashard__engine_host.cpp#L867) when the limit is exceeded.
+
+### Whole-shard locks
 
 Persistent locks survive DataShard reboots and restore the last state. Even though it is possible to persist specific ranges, this is not used in practice (DataShard would need to persist ranges during reads, which is expensive), and read locks are restored in the worst case "whole shard" as their range.

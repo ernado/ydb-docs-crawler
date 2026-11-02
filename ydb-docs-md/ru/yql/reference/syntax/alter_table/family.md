@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter_table/family.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/family.md"
 description: "Важно. Поддерживается только для строковых таблиц."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Создание и изменение групп колонок
@@ -74,7 +74,7 @@ ALTER TABLE series_with_families ALTER FAMILY default SET COMPRESSION "lz4";
 
 Если для таблицы ранее был активирован режим `in_memory`, а затем через `ALTER TABLE` установлен режим кэширования `regular`, все находящиеся в памяти страницы сохраняются, но впоследствии могут вытесняться из памяти согласно общей политике кэширования.
 
-Приведённый ниже код для группы колонок `default` в таблице `series_with_families` сменит [режим кэширования](../../../../concepts/datamodel/table.md#cache-modes) на `in_memory`:
+Приведённый ниже код для группы колонок `default` в таблице `series_with_families` сменит [режим кэширования](../../../../concepts/datamodel/table.md) на `in_memory`:
 
 ```yql
 ALTER TABLE series_with_families ALTER FAMILY default SET CACHE_MODE "in_memory";

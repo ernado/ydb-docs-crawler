@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/mvcc.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/mvcc.md"
 description: "Эта статья описывает, как многоверсионное управление конкурентным доступом (MVCC, Multi-Version Concurrency Control) используется в YDB. Транзакции в YDB."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Многоверсионное управление конкурентным доступом (MVCC)

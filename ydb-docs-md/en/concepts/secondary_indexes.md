@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/secondary_indexes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/secondary_indexes.md"
 description: "YDB automatically creates a primary key index, which is why selection by primary key is always efficient, affecting only the rows needed. Selections by criteria"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Secondary Indexes
@@ -63,7 +63,7 @@ Possible impact on user transactions:
 - There may be an enhanced background of `OVERLOADED` errors because index table automatic shard splitting is actively running during data writes.
 
 > [!NOTE]
-> The data write rate is chosen to minimize the impact of the write process on user transactions. To control the rate, configure limits for the corresponding queue in the [resource broker](../reference/configuration/resource_broker_config.md#resource-broker-config).
+> The data write rate is chosen to minimize the impact of the write process on user transactions. To control the rate, configure limits for the corresponding queue in the [resource broker](../reference/configuration/resource_broker_config.md).
 
 Creating an index is an asynchronous operation. If the client-server connection is interrupted after the operation has started, index building continues. You can manage asynchronous operations using the YDB CLI.
 

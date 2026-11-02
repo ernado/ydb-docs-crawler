@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/group-by.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/group-by.md"
 description: "GROUP BY."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # en/yql/reference/syntax/select/group-by
@@ -49,7 +49,7 @@ The asterisk can also be used as an argument of the aggregate function `COUNT`. 
 > [!NOTE]
 > Aggregate functions do not consider `NULL` in their arguments, except for the function `COUNT`.
 
-Also in YQL, there is a mechanism of aggregate function factories, implemented using the functions [`AGGREGATION_FACTORY`](../../builtins/basic.md#aggregationfactory) and [`AGGREGATE_BY`](../../builtins/aggregation.md#aggregateby).
+Also in YQL, there is a mechanism of aggregate function factories, implemented using the functions [`AGGREGATION_FACTORY`](../../builtins/basic.md#aggregationfactory) and [`AGGREGATE_BY`](../../builtins/aggregation.md#aggregate-by).
 
 ### Examples
 
@@ -79,7 +79,7 @@ GROUP BY
 ```
 
 > [!WARNING]
-> The ability to specify a name for a column or expression in `GROUP BY .. AS foo` is a YQL extension. Such a name becomes visible in `WHERE` despite the fact that filtering by `WHERE` is performed [earlier](../index.md#selectexec) than grouping. In particular, if the `T` table has two columns `foo` and `bar`, then in the `SELECT foo FROM T WHERE foo > 0 GROUP BY bar AS foo` query filtering will actually occur on the `bar` column from the original table.
+> The ability to specify a name for a column or expression in `GROUP BY .. AS foo` is a YQL extension. Such a name becomes visible in `WHERE` despite the fact that filtering by `WHERE` is performed [earlier](index.md#selectexec) than grouping. In particular, if the `T` table has two columns `foo` and `bar`, then in the `SELECT foo FROM T WHERE foo > 0 GROUP BY bar AS foo` query filtering will actually occur on the `bar` column from the original table.
 
 ## GROUP BY ... SessionWindow() {#session-window}
 

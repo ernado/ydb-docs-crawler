@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/security/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/security/index.md"
 description: "В этом разделе документации YDB рассматриваются аспекты работы с YDB, связанные с безопасностью. Также он будет полезен для целей обеспечения compliance."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # YDB для инженеров по безопасности

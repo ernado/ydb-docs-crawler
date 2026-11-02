@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/spilling.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/spilling.md"
 description: "Spilling in General."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Spilling
@@ -35,7 +35,7 @@ When memory usage approaches the limit, the system:
 - continues processing the query using data remaining in memory
 - loads data back into memory, when necessary, to continue computations
 
-## Spilling in YDB
+## Spilling in YDB {#architecture}
 
 YDB implements the spilling mechanism through the **Spilling Service**, an [actor service](../glossary.md#actor-service) that provides temporary storage for data blobs. Spilling is only performed on [database nodes](../glossary.md#database-node). Detailed technical information about it is available in [Spilling Service](../../contributor/spilling-service.md).
 

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v2/node-authorization.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/node-authorization.md"
 description: "Аутентификация узлов в кластере YDB обеспечивает проверку подлинности узлов баз данных при выполнении служебных вызовов к другим узлам по протоколу gRPC. Автори"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Аутентификация и авторизация узлов баз данных
@@ -35,7 +35,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
    > [!NOTE]
    > Предлагаемый [пример скрипта](https://github.com/ydb-platform/ydb/blob/main/ydb/deploy/tls_cert_gen/) для генерации самоподписанных сертификатов узлов YDB заполняет поле «Subject» значением `O=YDB` для всех сертификатов узлов. Приведённые далее примеры настроек подготовлены для сертификатов с именно таким заполнением поля «Subject».
 
-3. В параметры командной строки для [запуска узлов баз данных](../../deployment-options/manual/initial-deployment/index.md#start-dynnode) необходимо добавить опции, задающие пути к файлам сертификатов доверенных центров сертификации, сертификата узла и ключа узла. Список дополнительных опций приведён в таблице ниже.
+3. В параметры командной строки для [запуска узлов баз данных](../../deployment-options/manual/initial-deployment/deployment-configuration-v1.md#start-dynnode) необходимо добавить опции, задающие пути к файлам сертификатов доверенных центров сертификации, сертификата узла и ключа узла. Список дополнительных опций приведён в таблице ниже.
 
    | **Опция командной строки** | **Описание** |
    | --- | --- |
@@ -91,7 +91,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
      - "registerNode@cert"
    ```
 
-   Более подробная информация по настройке параметров аутентификации кластера приведена в [соответствующем разделе документации](../../../reference/configuration/index.md#security-access-levels).
+   Более подробная информация по настройке параметров аутентификации кластера приведена в [соответствующем разделе документации](../../../reference/configuration/security_config.md#security-access-levels).
 
 3. В блоке настроек `auth_config` присвойте параметру `node_registration_token` пустую строку. Пример:
 

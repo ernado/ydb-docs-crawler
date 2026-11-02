@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/lexer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/lexer.md"
 description: "Запрос на языке YQL представляет собой валидный UTF-8 текст, который состоит из команд (statement) разделенных символом точка с запятой (; )."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Лексическая структура
@@ -221,7 +221,7 @@ SELECT $text;
 
 ### Типизированные строковые литералы {#typed-string-literals}
 
-- Для строкового литерала, включая [многострочный](lexer.md#multiline-string-literals), по умолчанию используется тип `String` (см. также [PRAGMA UnicodeLiterals](pragma.md#UnicodeLiterals)).
+- Для строкового литерала, включая [многострочный](lexer.md#multiline-string-literals), по умолчанию используется тип `String` (см. также [PRAGMA UnicodeLiterals](pragma.md#unicodeliterals)).
 
 - С помощью следующих суффиксов можно явно управлять типом литерала:
 

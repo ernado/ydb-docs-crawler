@@ -4,15 +4,15 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "0b31976d929e6dd165473a40bb0855b365abe8f7",
-      "page_count": 727,
+      "revision": "b61acf8801342bea386583a9946acfb5e803ab09",
+      "page_count": 726,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "0b31976d929e6dd165473a40bb0855b365abe8f7",
-      "page_count": 734,
+      "revision": "b61acf8801342bea386583a9946acfb5e803ab09",
+      "page_count": 735,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
     }
@@ -159,7 +159,7 @@
       "description": " This article describes the implementation of the Slowly Changing Dimensions Type 1 (SCD1) pattern in YDB. Used tools.",
       "source_path": "en/core/analyst/practical-guides/scd/scd1-transfer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/practical-guides/scd/scd1-transfer.md",
-      "bytes": 8324,
+      "bytes": 8326,
       "lang": "en"
     },
     {
@@ -181,7 +181,7 @@
       "description": " This article describes the implementation of the Slowly Changing Dimensions Type 2 (SCD2) pattern in YDB. Used tools.",
       "source_path": "en/core/analyst/practical-guides/scd/scd2-transfer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/practical-guides/scd/scd2-transfer.md",
-      "bytes": 8885,
+      "bytes": 8887,
       "lang": "en"
     },
     {
@@ -192,7 +192,7 @@
       "description": " Version 2.31.0. Released on April 20, 2026. To update to version 2.31.0, select the Downloads section. Features.",
       "source_path": "en/core/changelog-cli.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-cli.md",
-      "bytes": 49882,
+      "bytes": 49877,
       "lang": "en"
     },
     {
@@ -203,7 +203,7 @@
       "description": " Version 26.1 Version 26.1.1.ent.3. Release date: August 3, 2026.",
       "source_path": "en/core/changelog-enterprise.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-enterprise.md",
-      "bytes": 68673,
+      "bytes": 68666,
       "lang": "en"
     },
     {
@@ -214,7 +214,7 @@
       "description": " Version 26.1 Version 26.1.1.22. Release date: July 27, 2026. Bug Fixes.",
       "source_path": "en/core/changelog-server.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-server.md",
-      "bytes": 89149,
+      "bytes": 89164,
       "lang": "en"
     },
     {
@@ -313,7 +313,7 @@
       "description": "Efficient data storage is the foundation of any analytical warehouse. YDB uses a columnar format, a storage and compute disaggregation architecture, and automat",
       "source_path": "en/core/concepts/analytics/concepts/store.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/analytics/concepts/store.md",
-      "bytes": 2929,
+      "bytes": 2918,
       "lang": "en"
     },
     {
@@ -335,7 +335,7 @@
       "description": " Introduction.",
       "source_path": "en/core/concepts/architecture.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/architecture.md",
-      "bytes": 10284,
+      "bytes": 10303,
       "lang": "en"
     },
     {
@@ -347,17 +347,6 @@
       "source_path": "en/core/concepts/async-replication.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/async-replication.md",
       "bytes": 9382,
-      "lang": "en"
-    },
-    {
-      "doc_path": "en/concepts/auth",
-      "url": "https://ydb.tech/docs/en/concepts/auth?version=v26.1",
-      "file": "en/concepts/auth.md",
-      "title": "Authentication",
-      "description": "Once a network connection is established, the server starts to accept client requests with authentication information for processing. The server uses it to iden",
-      "source_path": "en/core/security/authentication.md",
-      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/authentication.md",
-      "bytes": 19896,
       "lang": "en"
     },
     {
@@ -390,7 +379,7 @@
       "description": " Warning. Supported only for row-oriented tables. Support for column-oriented tables is currently under development.",
       "source_path": "en/core/concepts/cdc.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/cdc.md",
-      "bytes": 13784,
+      "bytes": 13763,
       "lang": "en"
     },
     {
@@ -500,7 +489,7 @@
       "description": "A table is a relational table containing a set of related data, composed of rows and columns. Tables represent entities. For instance, a blog article can be rep",
       "source_path": "en/core/concepts/datamodel/table.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/table.md",
-      "bytes": 24774,
+      "bytes": 24779,
       "lang": "en"
     },
     {
@@ -533,7 +522,7 @@
       "description": "This article is an overview of terms and definitions used in YDB and its documentation. It starts with key terms that will be useful to get acquainted with earl",
       "source_path": "en/core/concepts/glossary.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/glossary.md",
-      "bytes": 68541,
+      "bytes": 69308,
       "lang": "en"
     },
     {
@@ -555,7 +544,7 @@
       "description": "YDB uses two types of query optimizers: a rule-based optimizer and a cost-based optimizer. The cost-based optimizer is used for complex queries, typically analy",
       "source_path": "en/core/concepts/query_execution/optimizer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/optimizer.md",
-      "bytes": 6496,
+      "bytes": 6432,
       "lang": "en"
     },
     {
@@ -687,7 +676,7 @@
       "description": "To work with S3, you need to set up a data storage connection. There is a DDL for configuring such connections. Next, let's look at the SQL syntax and the manag",
       "source_path": "en/core/concepts/query_execution/federated_query/s3/external_data_source.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/s3/external_data_source.md",
-      "bytes": 10391,
+      "bytes": 10375,
       "lang": "en"
     },
     {
@@ -775,7 +764,7 @@
       "description": "YDB uses two types of query optimizers: a rule-based optimizer and a cost-based optimizer. The cost-based optimizer is used for complex queries, typically analy",
       "source_path": "en/core/concepts/query_execution/optimizer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/optimizer.md",
-      "bytes": 6543,
+      "bytes": 6476,
       "lang": "en"
     },
     {
@@ -797,7 +786,7 @@
       "description": "YDB automatically creates a primary key index, which is why selection by primary key is always efficient, affecting only the rows needed. Selections by criteria",
       "source_path": "en/core/concepts/query_execution/secondary_indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/secondary_indexes.md",
-      "bytes": 6076,
+      "bytes": 6053,
       "lang": "en"
     },
     {
@@ -808,7 +797,7 @@
       "description": " Spilling in General.",
       "source_path": "en/core/concepts/query_execution/spilling.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/spilling.md",
-      "bytes": 5259,
+      "bytes": 5275,
       "lang": "en"
     },
     {
@@ -830,7 +819,7 @@
       "description": "YDB automatically creates a primary key index, which is why selection by primary key is always efficient, affecting only the rows needed. Selections by criteria",
       "source_path": "en/core/concepts/query_execution/secondary_indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/secondary_indexes.md",
-      "bytes": 6027,
+      "bytes": 6004,
       "lang": "en"
     },
     {
@@ -907,7 +896,7 @@
       "description": " This section describes how the TTL mechanism works and what its limits are. How It Works.",
       "source_path": "en/core/concepts/ttl.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/ttl.md",
-      "bytes": 3606,
+      "bytes": 3616,
       "lang": "en"
     },
     {
@@ -973,7 +962,7 @@
       "description": "When a long-running YQL transaction writes data to tables, it may try to read the same table later. To support observing data consistent with transaction change",
       "source_path": "en/core/contributor/datashard-locks-and-change-visibility.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/datashard-locks-and-change-visibility.md",
-      "bytes": 22860,
+      "bytes": 22901,
       "lang": "en"
     },
     {
@@ -1072,7 +1061,7 @@
       "description": " This article describes the process of launching tablets from the perspective of Hive. Hive makes decisions about launching tablets in various situations:",
       "source_path": "en/core/contributor/hive-booting.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/hive-booting.md",
-      "bytes": 5657,
+      "bytes": 5656,
       "lang": "en"
     },
     {
@@ -1204,7 +1193,7 @@
       "description": " There are two products based on the source code from the YDB repository with independent release cycles: YDB server. YDB command-line interface (CLI).",
       "source_path": "en/core/contributor/manage-releases.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/manage-releases.md",
-      "bytes": 7265,
+      "bytes": 7275,
       "lang": "en"
     },
     {
@@ -1270,7 +1259,7 @@
       "description": " You can use custom attributes to store any information and process it in your app or using the CLI.",
       "source_path": "en/core/dev/custom-attributes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/custom-attributes.md",
-      "bytes": 6064,
+      "bytes": 6053,
       "lang": "en"
     },
     {
@@ -1281,7 +1270,7 @@
       "description": "This section outlines the implementation of example applications, all designed to perform similar functions, using the YDB SDKs across various programming langu",
       "source_path": "en/core/dev/example-app/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/index.md",
-      "bytes": 5332,
+      "bytes": 5338,
       "lang": "en"
     },
     {
@@ -1347,7 +1336,7 @@
       "description": " This page contains a detailed description of the code of a test app that is available as part of the YDB Java SDK Examples.",
       "source_path": "en/core/dev/example-app/java/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/java/index.md",
-      "bytes": 18007,
+      "bytes": 18009,
       "lang": "en"
     },
     {
@@ -1424,7 +1413,7 @@
       "description": " The way columns are selected for a table's primary key defines YDB's ability to scale load and improve performance.",
       "source_path": "en/core/dev/primary-key/row-oriented.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/primary-key/row-oriented.md",
-      "bytes": 5762,
+      "bytes": 5772,
       "lang": "en"
     },
     {
@@ -1446,7 +1435,7 @@
       "description": "Optimizer hints allow you to influence the behavior of the cost-based optimizer when planning the execution of SQL queries. YDB supports four types of hints for",
       "source_path": "en/core/dev/query-execution-optimization/query-hints.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/query-execution-optimization/query-hints.md",
-      "bytes": 17832,
+      "bytes": 17834,
       "lang": "en"
     },
     {
@@ -1479,7 +1468,7 @@
       "description": "Indexes are auxiliary structures within databases that help find data by certain criteria without having to search an entire database and retrieve sorted sample",
       "source_path": "en/core/dev/secondary-indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/secondary-indexes.md",
-      "bytes": 13682,
+      "bytes": 13718,
       "lang": "en"
     },
     {
@@ -1501,7 +1490,7 @@
       "description": "A checkpoint is persisted state of a running streaming query, used to recover processing after failures. YDB periodically checkpoints all running streaming quer",
       "source_path": "en/core/dev/streaming-query/checkpoints.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/checkpoints.md",
-      "bytes": 3583,
+      "bytes": 3580,
       "lang": "en"
     },
     {
@@ -1578,7 +1567,7 @@
       "description": "To obtain system information about the database state, you can refer to system views. They are available from the root of the database tree and use the system p",
       "source_path": "en/core/dev/system-views.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/system-views.md",
-      "bytes": 34795,
+      "bytes": 34816,
       "lang": "en"
     },
     {
@@ -1589,7 +1578,7 @@
       "description": " Terraform can create, delete, and modify the following objects inside a YDB cluster: tables. indexes of tables. change data capture for tables. topics. Warning.",
       "source_path": "en/core/dev/terraform.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/terraform.md",
-      "bytes": 20442,
+      "bytes": 20452,
       "lang": "en"
     },
     {
@@ -1831,7 +1820,7 @@
       "description": "A YDB cluster periodically needs maintenance, such as upgrading its version or replacing broken disks. Maintenance can cause a cluster or its databases to becom",
       "source_path": "en/core/devops/concepts/maintenance-without-downtime.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/concepts/maintenance-without-downtime.md",
-      "bytes": 8490,
+      "bytes": 8486,
       "lang": "en"
     },
     {
@@ -1886,7 +1875,7 @@
       "description": "In YDB, there are two main approaches to cluster configuration management: V1 and V2. Starting from YDB version 25.1, configuration V2 is supported, which unifi",
       "source_path": "en/core/devops/configuration-management/compare-configs.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/compare-configs.md",
-      "bytes": 5525,
+      "bytes": 5488,
       "lang": "en"
     },
     {
@@ -1952,7 +1941,7 @@
       "description": "Dynamic configuration allows running dynamic nodes by configuring them centrally, without the need to manually distribute files across nodes. YDB acts as a conf",
       "source_path": "en/core/devops/configuration-management/configuration-v1/dynamic-config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/dynamic-config.md",
-      "bytes": 11045,
+      "bytes": 11036,
       "lang": "en"
     },
     {
@@ -2007,7 +1996,7 @@
       "description": " If you need to decommission a YDB cluster host that contains part of State Storage, you need to move it to another host. Warning.",
       "source_path": "en/core/devops/configuration-management/configuration-v1/state-storage-move.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/state-storage-move.md",
-      "bytes": 2777,
+      "bytes": 2771,
       "lang": "en"
     },
     {
@@ -2029,7 +2018,7 @@
       "description": " If you need to decommission a YDB cluster host that contains part of the static group, you need to move it to another host. Warning.",
       "source_path": "en/core/devops/configuration-management/configuration-v1/static-group-move.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/static-group-move.md",
-      "bytes": 3296,
+      "bytes": 3270,
       "lang": "en"
     },
     {
@@ -2117,7 +2106,7 @@
       "description": " Article under development. Warning.",
       "source_path": "en/core/devops/configuration-management/configuration-v2/state-storage-move.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v2/state-storage-move.md",
-      "bytes": 3509,
+      "bytes": 3526,
       "lang": "en"
     },
     {
@@ -2128,7 +2117,7 @@
       "description": " Article under development. Warning.",
       "source_path": "en/core/devops/configuration-management/configuration-v2/static-group-move.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v2/static-group-move.md",
-      "bytes": 3355,
+      "bytes": 3372,
       "lang": "en"
     },
     {
@@ -2161,7 +2150,7 @@
       "description": " This document contains instructions for migrating from configuration V2 to configuration V1. Note.",
       "source_path": "en/core/devops/configuration-management/migration/migration-to-v1.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/migration/migration-to-v1.md",
-      "bytes": 6119,
+      "bytes": 6099,
       "lang": "en"
     },
     {
@@ -2172,7 +2161,7 @@
       "description": " Warning.",
       "source_path": "en/core/devops/configuration-management/migration/migration-to-v2.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/migration/migration-to-v2.md",
-      "bytes": 10922,
+      "bytes": 10925,
       "lang": "en"
     },
     {
@@ -2216,7 +2205,7 @@
       "description": " Prepare the environment. Before deploying the system, complete the preparation steps. See the Deployment preparation document. Create a working directory.",
       "source_path": "en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md",
-      "bytes": 40200,
+      "bytes": 40221,
       "lang": "en"
     },
     {
@@ -2227,7 +2216,7 @@
       "description": " Alert.",
       "source_path": "en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v2.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v2.md",
-      "bytes": 22458,
+      "bytes": 22479,
       "lang": "en"
     },
     {
@@ -2543,10 +2532,10 @@
       "url": "https://ydb.tech/docs/en/devops/observability/monitoring?version=v26.1",
       "file": "en/devops/observability/monitoring.md",
       "title": "Setting Up YDB Cluster Monitoring",
-      "description": " This page explains how to set up monitoring for a YDB cluster.",
+      "description": " This page explains how to set up monitoring for a YDB cluster. Viewing metrics in the web interface.",
       "source_path": "en/core/devops/observability/monitoring.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/observability/monitoring.md",
-      "bytes": 5809,
+      "bytes": 5903,
       "lang": "en"
     },
     {
@@ -2579,7 +2568,7 @@
       "description": " Yandex Enterprise Database is a commercial database management system based on the YDB core. Yandex Enterprise Database Usage Terms.",
       "source_path": "en/core/downloads/yandex-enterprise-database.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/yandex-enterprise-database.md",
-      "bytes": 13988,
+      "bytes": 13985,
       "lang": "en"
     },
     {
@@ -2623,7 +2612,7 @@
       "description": " YDB Open-Source Database ( ydbd ) is an executable file for running a node in the YDB cluster. It is distributed under the Apache 2.0 license.",
       "source_path": "en/core/downloads/ydb-open-source-database.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/ydb-open-source-database.md",
-      "bytes": 10918,
+      "bytes": 10921,
       "lang": "en"
     },
     {
@@ -2656,7 +2645,7 @@
       "description": " General questions General questions about YDB What is YDB?",
       "source_path": "en/core/faq/all.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/all.md",
-      "bytes": 17788,
+      "bytes": 17798,
       "lang": "en"
     },
     {
@@ -2678,7 +2667,7 @@
       "description": " What is YDB?",
       "source_path": "en/core/faq/common.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/common.md",
-      "bytes": 4242,
+      "bytes": 4252,
       "lang": "en"
     },
     {
@@ -2865,7 +2854,7 @@
       "description": " This section describes the integration options between YDB and Logstash, a server-side data collection and processing pipeline. Introduction.",
       "source_path": "en/core/integrations/ingestion/logstash.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/ingestion/logstash.md",
-      "bytes": 13772,
+      "bytes": 13789,
       "lang": "en"
     },
     {
@@ -3195,7 +3184,7 @@
       "description": "As the amount of stored data grows, you may need to add disks to your YDB cluster. You can add disks either to existing nodes or along with new nodes. To make t",
       "source_path": "en/core/maintenance/manual/adding_storage_groups.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/adding_storage_groups.md",
-      "bytes": 2856,
+      "bytes": 2855,
       "lang": "en"
     },
     {
@@ -3239,7 +3228,7 @@
       "description": "When the disk space is used up, the database may start responding to all queries with an error. To keep the database healthy, we recommend deleting a part of th",
       "source_path": "en/core/maintenance/manual/disk_end_space.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/disk_end_space.md",
-      "bytes": 3382,
+      "bytes": 3383,
       "lang": "en"
     },
     {
@@ -3525,7 +3514,7 @@
       "description": " Note. For conceptual information about the mechanism, see the System tablet backup section. Warning.",
       "source_path": "en/core/recipes/backup/system-tablet-backup/recovery.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/backup/system-tablet-backup/recovery.md",
-      "bytes": 16866,
+      "bytes": 16845,
       "lang": "en"
     },
     {
@@ -4009,7 +3998,7 @@
       "description": " This section contains code recipes in different programming languages for vector search tasks using the YDB SDK. The following operations are covered in detail:",
       "source_path": "en/core/recipes/ydb-sdk/vector-search.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/vector-search.md",
-      "bytes": 120328,
+      "bytes": 120316,
       "lang": "en"
     },
     {
@@ -4039,10 +4028,10 @@
       "url": "https://ydb.tech/docs/en/reference/configuration/actor_system_config?version=v26.1",
       "file": "en/reference/configuration/actor_system_config.md",
       "title": "actor_system_config",
-      "description": "The CPU resources are mainly used by the actor system. Depending on the type, all actors run in one of the pools (the name parameter). Configuration involves al",
+      "description": " Actor system configuration.",
       "source_path": "en/core/reference/configuration/actor_system_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/actor_system_config.md",
-      "bytes": 6690,
+      "bytes": 6604,
       "lang": "en"
     },
     {
@@ -4053,7 +4042,7 @@
       "description": " YDB supports various user authentication methods. The configuration for authentication providers is specified in the auth_config section.",
       "source_path": "en/core/reference/configuration/auth_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/auth_config.md",
-      "bytes": 17315,
+      "bytes": 17356,
       "lang": "en"
     },
     {
@@ -4097,7 +4086,7 @@
       "description": "Cluster Management System (CMS) is a YDB component that enables safe cluster maintenance, for example, updating its version or replacing failed disks without lo",
       "source_path": "en/core/reference/configuration/cms_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/cms_config.md",
-      "bytes": 2136,
+      "bytes": 2059,
       "lang": "en"
     },
     {
@@ -4141,7 +4130,7 @@
       "description": "Hive is a YDB component responsible for launching tablets. In various situations and under different load patterns, you might need to configure its behavior. Hi",
       "source_path": "en/core/reference/configuration/hive.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/hive.md",
-      "bytes": 22237,
+      "bytes": 22239,
       "lang": "en"
     },
     {
@@ -4251,7 +4240,7 @@
       "description": " The security_config section defines authentication modes, the initial configuration of local users and groups, and their access rights.",
       "source_path": "en/core/reference/configuration/security_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/security_config.md",
-      "bytes": 13301,
+      "bytes": 13331,
       "lang": "en"
     },
     {
@@ -4262,7 +4251,7 @@
       "description": " The table_service_config section contains configuration parameters for the table service, including spilling settings. spilling_service_config.",
       "source_path": "en/core/reference/configuration/table_service_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/table_service_config.md",
-      "bytes": 10401,
+      "bytes": 10368,
       "lang": "en"
     },
     {
@@ -4284,7 +4273,7 @@
       "description": "The tls section configures TLS settings for data-in-transit encryption in YDB. Each network protocol can have different TLS settings to secure communication bet",
       "source_path": "en/core/reference/configuration/tls.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/tls.md",
-      "bytes": 4735,
+      "bytes": 4749,
       "lang": "en"
     },
     {
@@ -4317,7 +4306,7 @@
       "description": "YDB is configured via environment variables when running in Docker. When starting the YDB Docker container with the docker run command, you can specify addition",
       "source_path": "en/core/reference/docker/configuration.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/configuration.md",
-      "bytes": 5784,
+      "bytes": 5797,
       "lang": "en"
     },
     {
@@ -4394,7 +4383,7 @@
       "description": " The Hive web-viewer provides an interface for working with Hive. Hive can be shared by a cluster or be tenant.",
       "source_path": "en/core/reference/embedded-ui/hive.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/embedded-ui/hive.md",
-      "bytes": 3860,
+      "bytes": 3848,
       "lang": "en"
     },
     {
@@ -4460,7 +4449,7 @@
       "description": " Enabling authentication. When you run a single-node local YDB cluster, anonymous authentication is used by default. It doesn't require a username and password.",
       "source_path": "en/core/reference/kafka-api/auth.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/kafka-api/auth.md",
-      "bytes": 2078,
+      "bytes": 2069,
       "lang": "en"
     },
     {
@@ -4713,7 +4702,7 @@
       "description": " This page describes Grafana dashboards for YDB.",
       "source_path": "en/core/reference/observability/metrics/grafana-dashboards.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/metrics/grafana-dashboards.md",
-      "bytes": 14511,
+      "bytes": 14409,
       "lang": "en"
     },
     {
@@ -4735,7 +4724,7 @@
       "description": " Note. The OpenTelemetry website describes the concept of tracing in detail in the Observability Primer article.",
       "source_path": "en/core/reference/observability/tracing/setup.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/tracing/setup.md",
-      "bytes": 15778,
+      "bytes": 15785,
       "lang": "en"
     },
     {
@@ -4768,7 +4757,7 @@
       "description": " General syntax for calling YDB CLI commands: ydb [global options] < command > [<subcommand>...] [ command options]. where:",
       "source_path": "en/core/reference/ydb-cli/commands.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands.md",
-      "bytes": 11410,
+      "bytes": 11374,
       "lang": "en"
     },
     {
@@ -4966,7 +4955,7 @@
       "description": "YDB provides two types of query plans: a logical plan and an execution plan. The logical plan is better suited for analyzing complex queries with many join oper",
       "source_path": "en/core/reference/ydb-cli/commands/explain-plan.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/explain-plan.md",
-      "bytes": 17462,
+      "bytes": 17471,
       "lang": "en"
     },
     {
@@ -5032,7 +5021,7 @@
       "description": " General list of commands. You can get a list of available commands via interactive help: ydb scheme permissions -- help.",
       "source_path": "en/core/reference/ydb-cli/commands/scheme-permissions.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/scheme-permissions.md",
-      "bytes": 8127,
+      "bytes": 8110,
       "lang": "en"
     },
     {
@@ -5043,7 +5032,7 @@
       "description": " By using the table index command, you can create and delete secondary indexes: ydb [connection options] table index [subcommand] [options].",
       "source_path": "en/core/reference/ydb-cli/commands/secondary_index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/secondary_index.md",
-      "bytes": 7484,
+      "bytes": 7487,
       "lang": "en"
     },
     {
@@ -5219,7 +5208,7 @@
       "description": " Overview.",
       "source_path": "en/core/reference/ydb-cli/interactive-cli.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/interactive-cli.md",
-      "bytes": 7184,
+      "bytes": 7193,
       "lang": "en"
     },
     {
@@ -5395,7 +5384,7 @@
       "description": " With the table attribute add command, you can add a custom attribute to your table. General format of the command:",
       "source_path": "en/core/reference/ydb-cli/table-attribute-add.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/table-attribute-add.md",
-      "bytes": 1662,
+      "bytes": 1651,
       "lang": "en"
     },
     {
@@ -5406,7 +5395,7 @@
       "description": " With the table attribute drop command, you can drop a custom attribute from your table. General format of the command:",
       "source_path": "en/core/reference/ydb-cli/table-attribute-drop.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/table-attribute-drop.md",
-      "bytes": 1562,
+      "bytes": 1551,
       "lang": "en"
     },
     {
@@ -5428,7 +5417,7 @@
       "description": " Warning. This command is deprecated. The preferred way to run queries in YDB CLI is to use the ydb sql command.",
       "source_path": "en/core/reference/ydb-cli/table-query-execute.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/table-query-execute.md",
-      "bytes": 11153,
+      "bytes": 11163,
       "lang": "en"
     },
     {
@@ -5472,7 +5461,7 @@
       "description": "You can use the ydb tools infer csv command to generate a CREATE TABLE statement from a CSV data file. This can be helpful when you want to import data into a d",
       "source_path": "en/core/reference/ydb-cli/tools-infer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/tools-infer.md",
-      "bytes": 7768,
+      "bytes": 7753,
       "lang": "en"
     },
     {
@@ -5582,7 +5571,7 @@
       "description": " The topic write command writes messages to a topic from a file or stdin:",
       "source_path": "en/core/reference/ydb-cli/topic-write.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/topic-write.md",
-      "bytes": 4000,
+      "bytes": 3993,
       "lang": "en"
     },
     {
@@ -6000,7 +5989,7 @@
       "description": " This section of YDB documentation covers security-related aspects of working with YDB. It'll be useful for compliance purposes too.",
       "source_path": "en/core/security/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/index.md",
-      "bytes": 5448,
+      "bytes": 5476,
       "lang": "en"
     },
     {
@@ -6022,7 +6011,7 @@
       "description": "Once a network connection is established, the server starts to accept client requests with authentication information for processing. The server uses it to iden",
       "source_path": "en/core/security/authentication.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/authentication.md",
-      "bytes": 19832,
+      "bytes": 19850,
       "lang": "en"
     },
     {
@@ -6033,7 +6022,7 @@
       "description": " Basic concepts. Authorization in YDB is based on the concepts of: Access object. Access subject. Access right. Access control list. Owner. User. Group.",
       "source_path": "en/core/security/authorization.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/authorization.md",
-      "bytes": 6403,
+      "bytes": 6428,
       "lang": "en"
     },
     {
@@ -6044,7 +6033,7 @@
       "description": " Initial security is configured automatically when the YDB cluster starts for the first time.",
       "source_path": "en/core/security/builtin-security.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/builtin-security.md",
-      "bytes": 3969,
+      "bytes": 3987,
       "lang": "en"
     },
     {
@@ -6077,7 +6066,7 @@
       "description": "As YDB is a distributed system typically running on a cluster, often spanning multiple datacenters or availability zones, user data is routinely transferred ove",
       "source_path": "en/core/security/encryption/data-in-transit.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/encryption/data-in-transit.md",
-      "bytes": 2633,
+      "bytes": 2647,
       "lang": "en"
     },
     {
@@ -6110,7 +6099,7 @@
       "description": " This article describes an example of how to diagnose overloaded shards and resolve the issue.",
       "source_path": "en/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md",
-      "bytes": 13762,
+      "bytes": 13781,
       "lang": "en"
     },
     {
@@ -6121,7 +6110,7 @@
       "description": "Addressing database performance issues often requires a holistic approach, which includes optimizing queries, properly configuring hardware resources, and ensur",
       "source_path": "en/core/troubleshooting/performance/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/index.md",
-      "bytes": 8116,
+      "bytes": 8135,
       "lang": "en"
     },
     {
@@ -6132,7 +6121,7 @@
       "description": "High CPU usage can lead to slow query processing and increased response times. When CPU resources are constrained, the database may have difficulty handling com",
       "source_path": "en/core/troubleshooting/performance/hardware/cpu-bottleneck.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/hardware/cpu-bottleneck.md",
-      "bytes": 4379,
+      "bytes": 4397,
       "lang": "en"
     },
     {
@@ -6264,7 +6253,7 @@
       "description": " Warning. Supported only for row-oriented tables. Support for column-oriented tables is currently under development.",
       "source_path": "en/core/troubleshooting/performance/schemas/splits-merges.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/schemas/splits-merges.md",
-      "bytes": 6075,
+      "bytes": 6095,
       "lang": "en"
     },
     {
@@ -6341,7 +6330,7 @@
       "description": "An attempt to use spilling occurs when the Spilling Service is disabled. This happens when the spilling service is not properly configured or has been disabled ",
       "source_path": "en/core/troubleshooting/spilling/service-not-started.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/spilling/service-not-started.md",
-      "bytes": 1489,
+      "bytes": 1475,
       "lang": "en"
     },
     {
@@ -6396,7 +6385,7 @@
       "description": " COUNT.",
       "source_path": "en/core/yql/reference/builtins/aggregation.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/aggregation.md",
-      "bytes": 20259,
+      "bytes": 20274,
       "lang": "en"
     },
     {
@@ -6407,7 +6396,7 @@
       "description": "Below are the general-purpose functions. For specialized functions, there are separate articles: aggregate functions, window functions, and functions for lists,",
       "source_path": "en/core/yql/reference/builtins/basic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/basic.md",
-      "bytes": 34766,
+      "bytes": 34742,
       "lang": "en"
     },
     {
@@ -6440,7 +6429,7 @@
       "description": "JSON is a lightweight data-interchange format. In YQL, it's represented by the Json type. Unlike relational tables, JSON can store data with no schema defined. ",
       "source_path": "en/core/yql/reference/builtins/json.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/json.md",
-      "bytes": 38827,
+      "bytes": 38832,
       "lang": "en"
     },
     {
@@ -6462,7 +6451,7 @@
       "description": " TryMember. Trying to get a field from the structure. If it's not found among the fields or null in the structure value, use the default value. Arguments:",
       "source_path": "en/core/yql/reference/builtins/struct.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/struct.md",
-      "bytes": 10105,
+      "bytes": 10109,
       "lang": "en"
     },
     {
@@ -6638,7 +6627,7 @@
       "description": " You can use the ALTER TOPIC command to change the topic settings, as well as add, update, or delete its consumers.",
       "source_path": "en/core/yql/reference/syntax/alter-topic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-topic.md",
-      "bytes": 5761,
+      "bytes": 5806,
       "lang": "en"
     },
     {
@@ -6759,7 +6748,7 @@
       "description": " Warning. Supported only for row-oriented tables.",
       "source_path": "en/core/yql/reference/syntax/alter_table/family.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter_table/family.md",
-      "bytes": 3493,
+      "bytes": 3481,
       "lang": "en"
     },
     {
@@ -6836,7 +6825,7 @@
       "description": " Tip. Before diving into BATCH DELETE FROM, it is recommended to familiarize yourself with the standard DELETE FROM.",
       "source_path": "en/core/yql/reference/syntax/batch-delete.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/batch-delete.md",
-      "bytes": 1839,
+      "bytes": 1849,
       "lang": "en"
     },
     {
@@ -6847,7 +6836,7 @@
       "description": " Tip. Before diving into BATCH UPDATE, it is recommended to familiarize yourself with the standard UPDATE.",
       "source_path": "en/core/yql/reference/syntax/batch-update.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/batch-update.md",
-      "bytes": 1948,
+      "bytes": 1958,
       "lang": "en"
     },
     {
@@ -6957,7 +6946,7 @@
       "description": " CREATE RESOURCE POOL CLASSIFIER creates a resource pool classifier. Syntax.",
       "source_path": "en/core/yql/reference/syntax/create-resource-pool-classifier.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-resource-pool-classifier.md",
-      "bytes": 2853,
+      "bytes": 2874,
       "lang": "en"
     },
     {
@@ -7056,7 +7045,7 @@
       "description": " Warning. Supported only for row-oriented tables. Columns of the same table can be grouped to set the following parameters:",
       "source_path": "en/core/yql/reference/syntax/create_table/family.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create_table/family.md",
-      "bytes": 2051,
+      "bytes": 2039,
       "lang": "en"
     },
     {
@@ -7298,7 +7287,7 @@
       "description": " String concatenation. Executed using the binary operator ||. As with other binary operators, if the data on either side is NULL, the result is also NULL.",
       "source_path": "en/core/yql/reference/syntax/expressions.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/expressions.md",
-      "bytes": 20210,
+      "bytes": 20206,
       "lang": "en"
     },
     {
@@ -7375,7 +7364,7 @@
       "description": " Definition. Redefinition of settings. Syntax. PRAGMA x.y = \"z\"; or PRAGMA x.y(\"z\", \"z2\", \"z3\");: x: (optional) The category of the setting.",
       "source_path": "en/core/yql/reference/syntax/pragma.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/pragma.md",
-      "bytes": 11240,
+      "bytes": 11225,
       "lang": "en"
     },
     {
@@ -7507,7 +7496,7 @@
       "description": " GROUP BY.",
       "source_path": "en/core/yql/reference/syntax/select/group-by.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/group-by.md",
-      "bytes": 21444,
+      "bytes": 21442,
       "lang": "en"
     },
     {
@@ -7650,7 +7639,7 @@
       "description": " Specified after the data source in FROM and used to provide additional hints for table usage. Hints cannot be specified for subqueries and named expressions.",
       "source_path": "en/core/yql/reference/syntax/select/with.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/with.md",
-      "bytes": 6699,
+      "bytes": 6592,
       "lang": "en"
     },
     {
@@ -7859,7 +7848,7 @@
       "description": "The DateTime module provides a set of functions for working with dates and times in YDB. These functions support all available timestamp and interval data types",
       "source_path": "en/core/yql/reference/udf/list/datetime.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/datetime.md",
-      "bytes": 29687,
+      "bytes": 29657,
       "lang": "en"
     },
     {
@@ -7947,7 +7936,7 @@
       "description": " List of functions. Pire::Grep(pattern:String) -> (string:String?) -> Bool. Pire::Match(pattern:String) -> (string:String?) -> Bool.",
       "source_path": "en/core/yql/reference/udf/list/pire.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/pire.md",
-      "bytes": 5960,
+      "bytes": 5954,
       "lang": "en"
     },
     {
@@ -7958,7 +7947,7 @@
       "description": " List of functions.",
       "source_path": "en/core/yql/reference/udf/list/re2.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/re2.md",
-      "bytes": 6947,
+      "bytes": 6952,
       "lang": "en"
     },
     {
@@ -8013,7 +8002,7 @@
       "description": " YSON is a JSON-like data format developed at Yandex. Similarities with JSON: Does not have a strict scheme.",
       "source_path": "en/core/yql/reference/udf/list/yson.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/yson.md",
-      "bytes": 15363,
+      "bytes": 15365,
       "lang": "en"
     },
     {
@@ -8156,7 +8145,7 @@
       "description": " В этой статье описывается реализация паттерна Slowly Changing Dimensions Type 1 (SCD1) в YDB. Используемые инструменты.",
       "source_path": "ru/core/analyst/practical-guides/scd/scd1-transfer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/practical-guides/scd/scd1-transfer.md",
-      "bytes": 11258,
+      "bytes": 11260,
       "lang": "ru"
     },
     {
@@ -8167,7 +8156,7 @@
       "description": " В этой статье описывается реализация паттерна Slowly Changing Dimensions Type 2 (SCD2) в YDB с использованием процесса подмерживания изменений.",
       "source_path": "ru/core/analyst/practical-guides/scd/scd2-merge.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/practical-guides/scd/scd2-merge.md",
-      "bytes": 18388,
+      "bytes": 18386,
       "lang": "ru"
     },
     {
@@ -8178,7 +8167,7 @@
       "description": " В этой статье описывается реализация паттерна Slowly Changing Dimensions Type 2 (SCD2) в YDB. Используемые инструменты.",
       "source_path": "ru/core/analyst/practical-guides/scd/scd2-transfer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/practical-guides/scd/scd2-transfer.md",
-      "bytes": 11652,
+      "bytes": 11654,
       "lang": "ru"
     },
     {
@@ -8200,7 +8189,7 @@
       "description": " Версия 26.1 Версия 26.1.1.ent.3. Дата выхода: 3 августа 2026.",
       "source_path": "ru/core/changelog-enterprise.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-enterprise.md",
-      "bytes": 111523,
+      "bytes": 111501,
       "lang": "ru"
     },
     {
@@ -8211,7 +8200,7 @@
       "description": " Версия 26.1 Версия 26.1.1.22. Дата выхода: 27 июля 2026. Исправления ошибок.",
       "source_path": "ru/core/changelog-server.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-server.md",
-      "bytes": 144288,
+      "bytes": 144289,
       "lang": "ru"
     },
     {
@@ -8332,7 +8321,7 @@
       "description": " Введение.",
       "source_path": "ru/core/concepts/architecture.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/architecture.md",
-      "bytes": 20318,
+      "bytes": 20354,
       "lang": "ru"
     },
     {
@@ -8409,7 +8398,7 @@
       "description": "Коллекция резервных копий организует полные и инкрементальные резервные копии выбранных строковых таблиц в управляемые цепочки. Она позволяет восстановить данны",
       "source_path": "ru/core/concepts/datamodel/backup-collection.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/backup-collection.md",
-      "bytes": 17737,
+      "bytes": 17699,
       "lang": "ru"
     },
     {
@@ -8486,7 +8475,7 @@
       "description": "Таблица — это реляционная таблица, содержащая набор связанных данных, состоящий из строк и столбцов. Таблицы описывают сущности. Например, статья в блоге может ",
       "source_path": "ru/core/concepts/datamodel/table.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/table.md",
-      "bytes": 50818,
+      "bytes": 50848,
       "lang": "ru"
     },
     {
@@ -8519,7 +8508,7 @@
       "description": "Эта статья представляет собой обзор терминов и определений, используемых в YDB и её документации. Он начинается с ключевых терминов, с которыми полезно ознакоми",
       "source_path": "ru/core/concepts/glossary.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/glossary.md",
-      "bytes": 129134,
+      "bytes": 129629,
       "lang": "ru"
     },
     {
@@ -8662,7 +8651,7 @@
       "description": "Перед началом работы с S3 необходимо настроить подключение к хранилищу данных. Для этого существует DDL для настройки таких подключений. Далее рассмотрим SQL си",
       "source_path": "ru/core/concepts/query_execution/federated_query/s3/external_data_source.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/s3/external_data_source.md",
-      "bytes": 17287,
+      "bytes": 17271,
       "lang": "ru"
     },
     {
@@ -8717,7 +8706,7 @@
       "description": " В YDB для записи данных в бакет S3 можно использовать внешние источники данных или внешние таблицы. Запись в S3 через внешний источник данных.",
       "source_path": "ru/core/concepts/query_execution/federated_query/s3/write_data.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/s3/write_data.md",
-      "bytes": 6901,
+      "bytes": 6893,
       "lang": "ru"
     },
     {
@@ -8772,7 +8761,7 @@
       "description": "В YDB автоматически создается индекс по первичному ключу, поэтому выборки с условием по первичному ключу всегда выполняются эффективно, затрагивая только требуе",
       "source_path": "ru/core/concepts/query_execution/secondary_indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/secondary_indexes.md",
-      "bytes": 10755,
+      "bytes": 10732,
       "lang": "ru"
     },
     {
@@ -8805,7 +8794,7 @@
       "description": "В YDB автоматически создается индекс по первичному ключу, поэтому выборки с условием по первичному ключу всегда выполняются эффективно, затрагивая только требуе",
       "source_path": "ru/core/concepts/query_execution/secondary_indexes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/secondary_indexes.md",
-      "bytes": 10706,
+      "bytes": 10683,
       "lang": "ru"
     },
     {
@@ -8882,7 +8871,7 @@
       "description": " В разделе описан принцип работы TTL и его ограничения. Принцип работы.",
       "source_path": "ru/core/concepts/ttl.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/ttl.md",
-      "bytes": 5852,
+      "bytes": 5862,
       "lang": "ru"
     },
     {
@@ -9069,7 +9058,7 @@
       "description": " В данной статье описывается процесс запуска таблеток со стороны Hive. Hive принимает решение о запуске таблетки в различных ситуациях:",
       "source_path": "ru/core/contributor/hive-booting.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/hive-booting.md",
-      "bytes": 9306,
+      "bytes": 9305,
       "lang": "ru"
     },
     {
@@ -9201,7 +9190,7 @@
       "description": " На базе исходного кода из репозитория YDB разрабатываются два продукта с независимыми релизными циклами: Сервер YDB. Интерфейс командной строки YDB (CLI).",
       "source_path": "ru/core/contributor/manage-releases.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/manage-releases.md",
-      "bytes": 15460,
+      "bytes": 15470,
       "lang": "ru"
     },
     {
@@ -9267,7 +9256,7 @@
       "description": " Важно. Поддерживается только для строковых таблиц. Поддержка функциональности для колоночных таблиц находится в разработке.",
       "source_path": "ru/core/dev/custom-attributes.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/custom-attributes.md",
-      "bytes": 8508,
+      "bytes": 8497,
       "lang": "ru"
     },
     {
@@ -9278,7 +9267,7 @@
       "description": " В данном разделе разбирается код однотипного тестового приложения, реализованного с использованием YDB SDK на разных языках программирования: C++. С#. Go. Java.",
       "source_path": "ru/core/dev/example-app/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/index.md",
-      "bytes": 7938,
+      "bytes": 7944,
       "lang": "ru"
     },
     {
@@ -9344,7 +9333,7 @@
       "description": " На этой странице подробно разбирается код тестового приложения, доступного в составе Java SDK Examples YDB. Скачивание SDK Examples и запуск примера.",
       "source_path": "ru/core/dev/example-app/java/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/java/index.md",
-      "bytes": 24326,
+      "bytes": 24327,
       "lang": "ru"
     },
     {
@@ -9410,7 +9399,7 @@
       "description": "В отличие от строковых таблиц YDB, колоночные таблицы партиционируют данные не по первичным ключам, а по специально выделенным ключам — ключам партицирования. П",
       "source_path": "ru/core/dev/primary-key/column-oriented.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/primary-key/column-oriented.md",
-      "bytes": 10900,
+      "bytes": 10917,
       "lang": "ru"
     },
     {
@@ -9421,7 +9410,7 @@
       "description": "Выбор колонок для первичного ключа строковой таблицы оказывает определяющее влияние на возможности YDB по масштабированию нагрузки и повышению производительност",
       "source_path": "ru/core/dev/primary-key/row-oriented.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/primary-key/row-oriented.md",
-      "bytes": 10928,
+      "bytes": 10938,
       "lang": "ru"
     },
     {
@@ -9443,7 +9432,7 @@
       "description": "Подсказки оптимизатора позволяют влиять на поведение стоимостного оптимизатора при планировании выполнения SQL-запросов. YDB поддерживает четыре типа подсказок ",
       "source_path": "ru/core/dev/query-execution-optimization/query-hints.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/query-execution-optimization/query-hints.md",
-      "bytes": 25995,
+      "bytes": 25997,
       "lang": "ru"
     },
     {
@@ -9498,7 +9487,7 @@
       "description": "Чекпоинт — это сохранённое состояние работающего потокового запроса, необходимое для восстановления после сбоев обработки. YDB периодически сохраняет чекпоинты ",
       "source_path": "ru/core/dev/streaming-query/checkpoints.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/streaming-query/checkpoints.md",
-      "bytes": 5909,
+      "bytes": 5906,
       "lang": "ru"
     },
     {
@@ -9575,7 +9564,7 @@
       "description": "Для получения служебной информации о состоянии базы данных можно обращаться к системным представлениям (system views). Они доступны из корня дерева базы данных ",
       "source_path": "ru/core/dev/system-views.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/system-views.md",
-      "bytes": 49984,
+      "bytes": 49980,
       "lang": "ru"
     },
     {
@@ -9586,7 +9575,7 @@
       "description": " С помощью Terraform можно создавать, удалять и изменять следующие объекты внутри кластера YDB: строковые таблицы; вторичные индексы для строковых таблиц;",
       "source_path": "ru/core/dev/terraform.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/terraform.md",
-      "bytes": 27940,
+      "bytes": 27950,
       "lang": "ru"
     },
     {
@@ -9817,7 +9806,7 @@
       "description": "YDB изначально спроектирована для сохранности данных при отказах оборудования: доступны варианты избыточности для разного числа зон доступности, стоек, хостов, ",
       "source_path": "ru/core/devops/backup-and-recovery/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/backup-and-recovery/index.md",
-      "bytes": 8713,
+      "bytes": 8690,
       "lang": "ru"
     },
     {
@@ -9850,7 +9839,7 @@
       "description": "Периодически кластер YDB необходимо обслуживать, например, обновлять его версию или заменять сломавшиеся диски. Работы по обслуживанию могут привести к недоступ",
       "source_path": "ru/core/devops/concepts/maintenance-without-downtime.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/concepts/maintenance-without-downtime.md",
-      "bytes": 13194,
+      "bytes": 13190,
       "lang": "ru"
     },
     {
@@ -9905,7 +9894,7 @@
       "description": "В YDB существует два основных подхода к управлению конфигурацией кластера: V1 и V2. Начиная с версии YDB 25.1, поддерживается конфигурация V2, которая унифициру",
       "source_path": "ru/core/devops/configuration-management/compare-configs.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/compare-configs.md",
-      "bytes": 7567,
+      "bytes": 7576,
       "lang": "ru"
     },
     {
@@ -9938,7 +9927,7 @@
       "description": "Вы можете расширить кластер YDB, добавив новые узлы в конфигурацию кластера. Ниже приведены необходимые действия по расширению кластера YDB, установленного вруч",
       "source_path": "ru/core/devops/configuration-management/configuration-v1/cluster-expansion.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/cluster-expansion.md",
-      "bytes": 13685,
+      "bytes": 13741,
       "lang": "ru"
     },
     {
@@ -9971,7 +9960,7 @@
       "description": "Динамическая конфигурация позволяет запускать динамические узлы, сконфигурировав их централизованно, без необходимости раскладывать файлы по узлам вручную. YDB ",
       "source_path": "ru/core/devops/configuration-management/configuration-v1/dynamic-config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/dynamic-config.md",
-      "bytes": 17381,
+      "bytes": 17403,
       "lang": "ru"
     },
     {
@@ -10004,7 +9993,7 @@
       "description": "Аутентификация узлов в кластере YDB обеспечивает проверку подлинности узлов баз данных при выполнении служебных вызовов к другим узлам по протоколу gRPC. Автори",
       "source_path": "ru/core/devops/configuration-management/configuration-v1/node-authorization.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/node-authorization.md",
-      "bytes": 12929,
+      "bytes": 12961,
       "lang": "ru"
     },
     {
@@ -10026,7 +10015,7 @@
       "description": " Если нужно вывести из эксплуатации хост кластера YDB, на котором располагается часть State Storage, необходимо переместить её на другой хост. Важно.",
       "source_path": "ru/core/devops/configuration-management/configuration-v1/state-storage-move.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/state-storage-move.md",
-      "bytes": 4008,
+      "bytes": 4011,
       "lang": "ru"
     },
     {
@@ -10048,7 +10037,7 @@
       "description": " Если нужно вывести из эксплуатации хост кластера YDB, на котором располагается часть статической группы, необходимо переместить её на другой хост. Важно.",
       "source_path": "ru/core/devops/configuration-management/configuration-v1/static-group-move.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/static-group-move.md",
-      "bytes": 4722,
+      "bytes": 4710,
       "lang": "ru"
     },
     {
@@ -10070,7 +10059,7 @@
       "description": "Вы можете расширить кластер YDB, добавив новые узлы в конфигурацию кластера. Ниже приведены необходимые действия по расширению кластера YDB, установленного вруч",
       "source_path": "ru/core/devops/configuration-management/configuration-v2/cluster-expansion.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/cluster-expansion.md",
-      "bytes": 13313,
+      "bytes": 13369,
       "lang": "ru"
     },
     {
@@ -10114,7 +10103,7 @@
       "description": "Аутентификация узлов в кластере YDB обеспечивает проверку подлинности узлов баз данных при выполнении служебных вызовов к другим узлам по протоколу gRPC. Автори",
       "source_path": "ru/core/devops/configuration-management/configuration-v2/node-authorization.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/node-authorization.md",
-      "bytes": 12909,
+      "bytes": 12941,
       "lang": "ru"
     },
     {
@@ -10136,7 +10125,7 @@
       "description": " Статья находится в разработке. Важно.",
       "source_path": "ru/core/devops/configuration-management/configuration-v2/state-storage-move.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/state-storage-move.md",
-      "bytes": 5514,
+      "bytes": 5540,
       "lang": "ru"
     },
     {
@@ -10147,7 +10136,7 @@
       "description": " Статья находится в разработке. Важно.",
       "source_path": "ru/core/devops/configuration-management/configuration-v2/static-group-move.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/static-group-move.md",
-      "bytes": 5475,
+      "bytes": 5492,
       "lang": "ru"
     },
     {
@@ -10180,7 +10169,7 @@
       "description": " Данный документ содержит инструкцию по миграции с конфигурации V2 на конфигурацию V1. Примечание.",
       "source_path": "ru/core/devops/configuration-management/migration/migration-to-v1.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/migration/migration-to-v1.md",
-      "bytes": 8827,
+      "bytes": 8830,
       "lang": "ru"
     },
     {
@@ -10191,7 +10180,7 @@
       "description": " Важно.",
       "source_path": "ru/core/devops/configuration-management/migration/migration-to-v2.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/migration/migration-to-v2.md",
-      "bytes": 15755,
+      "bytes": 15758,
       "lang": "ru"
     },
     {
@@ -10235,7 +10224,7 @@
       "description": " Подготовьте окружение. Перед развёртыванием системы обязательно выполните подготовительные действия. Ознакомьтесь с документом Подготовка к развертыванию.",
       "source_path": "ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md",
-      "bytes": 51210,
+      "bytes": 51323,
       "lang": "ru"
     },
     {
@@ -10246,7 +10235,7 @@
       "description": " Внимание.",
       "source_path": "ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v2.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v2.md",
-      "bytes": 33168,
+      "bytes": 33281,
       "lang": "ru"
     },
     {
@@ -10258,6 +10247,17 @@
       "source_path": "ru/core/devops/deployment-options/ansible/initial-deployment/deployment-preparation.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/initial-deployment/deployment-preparation.md",
       "bytes": 9763,
+      "lang": "ru"
+    },
+    {
+      "doc_path": "ru/devops/deployment-options/ansible/observability/",
+      "url": "https://ydb.tech/docs/ru/devops/deployment-options/ansible/observability/?version=v26.1",
+      "file": "ru/devops/deployment-options/ansible/observability/index.md",
+      "title": "Обеспечение наблюдаемости кластера YDB, развёрнутого с помощью Ansible",
+      "description": " В этом разделе документации YDB рассматриваются различные аспекты наблюдаемости (observability), специфичные для кластеров, развёрнутых с помощью Ansible.",
+      "source_path": "ru/core/devops/deployment-options/ansible/observability/index.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/observability/index.md",
+      "bytes": 1705,
       "lang": "ru"
     },
     {
@@ -10378,7 +10378,7 @@
       "description": " Важно. Данная функциональность находится в режиме \"Experimental\". Общая схема инсталляции.",
       "source_path": "ru/core/devops/deployment-options/manual/federated-queries/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/federated-queries/index.md",
-      "bytes": 6493,
+      "bytes": 6515,
       "lang": "ru"
     },
     {
@@ -10389,7 +10389,7 @@
       "description": " Важно. Данная функциональность находится в режиме \"Experimental\".",
       "source_path": "ru/core/devops/deployment-options/manual/federated-queries/connector-deployment.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/federated-queries/connector-deployment.md",
-      "bytes": 17902,
+      "bytes": 17936,
       "lang": "ru"
     },
     {
@@ -10455,7 +10455,7 @@
       "description": "Аутентификация узлов в кластере YDB обеспечивает проверку подлинности узлов баз данных при выполнении служебных вызовов к другим узлам по протоколу gRPC. Автори",
       "source_path": "ru/core/devops/deployment-options/manual/node-authorization.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/node-authorization.md",
-      "bytes": 12537,
+      "bytes": 12559,
       "lang": "ru"
     },
     {
@@ -10551,10 +10551,10 @@
       "url": "https://ydb.tech/docs/ru/devops/observability/monitoring?version=v26.1",
       "file": "ru/devops/observability/monitoring.md",
       "title": "Настройка мониторинга кластера YDB",
-      "description": " На этой странице рассказано, как настроить мониторинг кластера YDB.",
+      "description": " На этой странице рассказано, как настроить мониторинг кластера YDB. Доступ к метрикам через веб-интерфейс.",
       "source_path": "ru/core/devops/observability/monitoring.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/observability/monitoring.md",
-      "bytes": 7801,
+      "bytes": 7978,
       "lang": "ru"
     },
     {
@@ -10587,7 +10587,7 @@
       "description": " Корпоративная СУБД Яндекса — коммерческая СУБД на основе ядра YDB. Информация об условиях использования Корпоративной СУБД Яндекса.",
       "source_path": "ru/core/downloads/yandex-enterprise-database.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/yandex-enterprise-database.md",
-      "bytes": 17059,
+      "bytes": 17025,
       "lang": "ru"
     },
     {
@@ -10664,7 +10664,7 @@
       "description": " Общие вопросы Общие вопросы про YDB Что такое YDB?",
       "source_path": "ru/core/faq/all.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/all.md",
-      "bytes": 31530,
+      "bytes": 31540,
       "lang": "ru"
     },
     {
@@ -10686,7 +10686,7 @@
       "description": " Что такое YDB?",
       "source_path": "ru/core/faq/common.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/faq/common.md",
-      "bytes": 8198,
+      "bytes": 8208,
       "lang": "ru"
     },
     {
@@ -10840,7 +10840,7 @@
       "description": "Visual Studio Code — бесплатный кроссплатформенный редактор кода с открытым исходным кодом, поддерживающий широкую экосистему расширений для работы с базами дан",
       "source_path": "ru/core/integrations/gui/vscode-plugin.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/gui/vscode-plugin.md",
-      "bytes": 30205,
+      "bytes": 30175,
       "lang": "ru"
     },
     {
@@ -10873,7 +10873,7 @@
       "description": " В разделе представлены варианты интеграции между системой сбора и анализа данных Logstash и YDB. Введение.",
       "source_path": "ru/core/integrations/ingestion/logstash.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/ingestion/logstash.md",
-      "bytes": 20347,
+      "bytes": 20367,
       "lang": "ru"
     },
     {
@@ -11027,7 +11027,7 @@
       "description": " Введение. Это руководство по использованию LinqToDB с YDB.",
       "source_path": "ru/core/integrations/orm/linq2db.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/orm/linq2db.md",
-      "bytes": 22764,
+      "bytes": 22680,
       "lang": "ru"
     },
     {
@@ -11203,7 +11203,7 @@
       "description": "По мере роста объема хранимых данных может понадобиться добавление дисков в кластер YDB. Диски могут быть добавлены в уже существующие узлы или вместе с новыми ",
       "source_path": "ru/core/maintenance/manual/adding_storage_groups.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/adding_storage_groups.md",
-      "bytes": 3919,
+      "bytes": 3918,
       "lang": "ru"
     },
     {
@@ -11247,7 +11247,7 @@
       "description": "При исчерпании места на дисках база данных может отвечать ошибками на все запросы. Для сохранения работоспособности рекомендуется удалить часть данных или расши",
       "source_path": "ru/core/maintenance/manual/disk_end_space.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/disk_end_space.md",
-      "bytes": 5842,
+      "bytes": 5843,
       "lang": "ru"
     },
     {
@@ -11258,7 +11258,7 @@
       "description": "Динамическая конфигурация позволяет запускать динамические узлы, сконфигурировав их централизованно, без необходимости раскладывать файлы по узлам вручную. YDB ",
       "source_path": "ru/core/devops/configuration-management/configuration-v1/dynamic-config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/dynamic-config.md",
-      "bytes": 17964,
+      "bytes": 17986,
       "lang": "ru"
     },
     {
@@ -11632,7 +11632,7 @@
       "description": "В колоночных таблицах YDB в настоящий момент отсутствует (точнее находится в разработке) встроенный механизм резервного копирования и восстановления (backup/res",
       "source_path": "ru/core/recipes/import-export-column-tables.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/import-export-column-tables.md",
-      "bytes": 17418,
+      "bytes": 17401,
       "lang": "ru"
     },
     {
@@ -11764,7 +11764,7 @@
       "description": " В YDB интегрирован инструментарий для проведения нагрузочных тестов с использованием стандартных бенчмарков: Бенчмарк Справка. TPC-C. tpcc. TPC-H. tpch. TPC-DS.",
       "source_path": "ru/core/recipes/ydb-cli/benchmarks.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-cli/benchmarks.md",
-      "bytes": 10333,
+      "bytes": 10265,
       "lang": "ru"
     },
     {
@@ -12072,7 +12072,7 @@
       "description": " В данном разделе содержатся рецепты кода на разных языках программирования для решения задач векторного поиска с использованием YDB SDK.",
       "source_path": "ru/core/recipes/ydb-sdk/vector-search.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/vector-search.md",
-      "bytes": 147589,
+      "bytes": 147561,
       "lang": "ru"
     },
     {
@@ -12102,10 +12102,10 @@
       "url": "https://ydb.tech/docs/ru/reference/configuration/actor_system_config?version=v26.1",
       "file": "ru/reference/configuration/actor_system_config.md",
       "title": "actor_system_config",
-      "description": "Основной потребитель CPU — акторная система. Все акторы, в зависимости от своего типа, выполняются в одном из пулов (параметр name ). Конфигурирование заключает",
+      "description": " Конфигурация акторной системы.",
       "source_path": "ru/core/reference/configuration/actor_system_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/actor_system_config.md",
-      "bytes": 10758,
+      "bytes": 10606,
       "lang": "ru"
     },
     {
@@ -12347,7 +12347,7 @@
       "description": " Секция table_service_config содержит параметры конфигурации для сервиса таблиц, включая настройки спиллинга. spilling_service_config.",
       "source_path": "ru/core/reference/configuration/table_service_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/table_service_config.md",
-      "bytes": 15377,
+      "bytes": 15338,
       "lang": "ru"
     },
     {
@@ -12369,7 +12369,7 @@
       "description": "Секция tls настраивает параметры TLS для шифрования данных при передаче по сети в YDB. Каждый сетевой протокол может иметь различные настройки TLS для обеспечен",
       "source_path": "ru/core/reference/configuration/tls.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/tls.md",
-      "bytes": 7087,
+      "bytes": 7092,
       "lang": "ru"
     },
     {
@@ -12479,7 +12479,7 @@
       "description": " Web-viewer Hive предоставляет визуальный интерфейс работы с Hive.",
       "source_path": "ru/core/reference/embedded-ui/hive.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/embedded-ui/hive.md",
-      "bytes": 12581,
+      "bytes": 12596,
       "lang": "ru"
     },
     {
@@ -12798,7 +12798,7 @@
       "description": " На этой странице описаны дашборды Grafana для YDB. Как установить и настроить дашборды описано в разделе по настройке мониторинга кластера YDB. DB status.",
       "source_path": "ru/core/reference/observability/metrics/grafana-dashboards.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/observability/metrics/grafana-dashboards.md",
-      "bytes": 21418,
+      "bytes": 21316,
       "lang": "ru"
     },
     {
@@ -12820,7 +12820,7 @@
       "description": " Примечание. Подробно трассировка описана на сайте opentelemetry в разделе observability primer.",
       "source_path": "ru/core/reference/observability/tracing/setup.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/observability/tracing/setup.md",
-      "bytes": 23638,
+      "bytes": 23645,
       "lang": "ru"
     },
     {
@@ -12864,7 +12864,7 @@
       "description": " Общий синтаксис вызова команд YDB CLI: ydb [global options] < command > [<subcommand>...] [ command options]. , где:",
       "source_path": "ru/core/reference/ydb-cli/commands.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands.md",
-      "bytes": 27837,
+      "bytes": 27801,
       "lang": "ru"
     },
     {
@@ -13128,7 +13128,7 @@
       "description": " Общий перечень команд. Получить список доступных команд можно через интерактивную справку: ydb scheme permissions -- help.",
       "source_path": "ru/core/reference/ydb-cli/commands/scheme-permissions.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/scheme-permissions.md",
-      "bytes": 10932,
+      "bytes": 10915,
       "lang": "ru"
     },
     {
@@ -13139,7 +13139,7 @@
       "description": " Важно. Поддерживается только для строковых таблиц. Поддержка функциональности для колоночных таблиц находится в разработке.",
       "source_path": "ru/core/reference/ydb-cli/commands/secondary_index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/secondary_index.md",
-      "bytes": 10689,
+      "bytes": 10692,
       "lang": "ru"
     },
     {
@@ -13491,7 +13491,7 @@
       "description": " С помощью команды table attribute add вы можете добавить пользовательский атрибут указанной таблице. Общий вид команды:",
       "source_path": "ru/core/reference/ydb-cli/table-attribute-add.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/table-attribute-add.md",
-      "bytes": 2192,
+      "bytes": 2181,
       "lang": "ru"
     },
     {
@@ -13502,7 +13502,7 @@
       "description": " С помощью команды table attribute drop вы можете удалить пользовательский атрибут указанной таблицы. Общий вид команды:",
       "source_path": "ru/core/reference/ydb-cli/table-attribute-drop.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/table-attribute-drop.md",
-      "bytes": 2043,
+      "bytes": 2032,
       "lang": "ru"
     },
     {
@@ -13524,7 +13524,7 @@
       "description": " Важно. Данная команда устарела. Рекомендуемый инструмент для выполнения запросов в YDB CLI — это команда ydb sql.",
       "source_path": "ru/core/reference/ydb-cli/table-query-execute.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/table-query-execute.md",
-      "bytes": 16223,
+      "bytes": 16233,
       "lang": "ru"
     },
     {
@@ -13568,7 +13568,7 @@
       "description": " Команда ydb tools infer csv позволяет на основе имеющегося CSV-файла с данными сгенерировать скрипт для создания таблицы. Общий вид команды:",
       "source_path": "ru/core/reference/ydb-cli/tools-infer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/tools-infer.md",
-      "bytes": 10770,
+      "bytes": 10755,
       "lang": "ru"
     },
     {
@@ -13678,7 +13678,7 @@
       "description": " Командой topic write выполняется запись сообщений в топик из файла или stdin:",
       "source_path": "ru/core/reference/ydb-cli/topic-write.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/topic-write.md",
-      "bytes": 6312,
+      "bytes": 6305,
       "lang": "ru"
     },
     {
@@ -13733,7 +13733,7 @@
       "description": "Нагружает топики YDB, используя их в качестве очередей сообщений. Для имитации реальной нагрузки вы можете изменять различные входные параметры: число сообщений",
       "source_path": "ru/core/reference/ydb-cli/workload-topic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/workload-topic.md",
-      "bytes": 26851,
+      "bytes": 26895,
       "lang": "ru"
     },
     {
@@ -14052,7 +14052,7 @@
       "description": " Примечание. Утилита ydbops находится в активной разработке. В редких случаях обратная совместимость может быть нарушена.",
       "source_path": "ru/core/reference/ydbops/install.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydbops/install.md",
-      "bytes": 5108,
+      "bytes": 5103,
       "lang": "ru"
     },
     {
@@ -14107,7 +14107,7 @@
       "description": "После успешной установки сетевого соединения сервер принимает к обработке запросы от клиента, в которых передается аутентификационная информация в виде аутентиф",
       "source_path": "ru/core/security/authentication.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/security/authentication.md",
-      "bytes": 38591,
+      "bytes": 38549,
       "lang": "ru"
     },
     {
@@ -14118,7 +14118,7 @@
       "description": " Основные понятия. Авторизация в YDB основана на понятиях: Объект доступа. Субъект доступа. Права доступа. Список доступов. Владелец. Пользователь. Группа.",
       "source_path": "ru/core/security/authorization.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/security/authorization.md",
-      "bytes": 9987,
+      "bytes": 9998,
       "lang": "ru"
     },
     {
@@ -14195,7 +14195,7 @@
       "description": " В этой статье рассматривается пример диагностики перегруженных шардов и решения этой проблемы.",
       "source_path": "ru/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md",
-      "bytes": 19393,
+      "bytes": 19412,
       "lang": "ru"
     },
     {
@@ -14206,7 +14206,7 @@
       "description": "Решение проблем с производительностью баз данных требует комплексного подхода, который включает в себя оптимизацию запросов, правильную конфигурацию аппаратных ",
       "source_path": "ru/core/troubleshooting/performance/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/index.md",
-      "bytes": 14924,
+      "bytes": 14943,
       "lang": "ru"
     },
     {
@@ -14217,7 +14217,7 @@
       "description": "Высокая нагрузка на процессор может привести к медленному выполнению запросов и увеличению задержек. В условиях ограниченного ресурса процессора база данных мож",
       "source_path": "ru/core/troubleshooting/performance/hardware/cpu-bottleneck.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/hardware/cpu-bottleneck.md",
-      "bytes": 6539,
+      "bytes": 6557,
       "lang": "ru"
     },
     {
@@ -14349,7 +14349,7 @@
       "description": " Важно. Поддерживается только для строковых таблиц. Поддержка функциональности для колоночных таблиц находится в разработке.",
       "source_path": "ru/core/troubleshooting/performance/schemas/splits-merges.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/schemas/splits-merges.md",
-      "bytes": 10020,
+      "bytes": 10040,
       "lang": "ru"
     },
     {
@@ -14481,7 +14481,7 @@
       "description": " COUNT Сигнатура. COUNT (*)-> Uint64 COUNT (T)-> Uint64 COUNT (T?)-> Uint64.",
       "source_path": "ru/core/yql/reference/builtins/aggregation.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/aggregation.md",
-      "bytes": 36383,
+      "bytes": 36398,
       "lang": "ru"
     },
     {
@@ -14492,7 +14492,7 @@
       "description": "Ниже описаны функции общего назначения, а для специализированных функций есть отдельные статьи: агрегатные, оконные, а также для работы со списками, словарями, ",
       "source_path": "ru/core/yql/reference/builtins/basic.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/basic.md",
-      "bytes": 58773,
+      "bytes": 58751,
       "lang": "ru"
     },
     {
@@ -14525,7 +14525,7 @@
       "description": "JSON - слабо схематизированный формат данных, представленный в YQL типом Json. В отличии от реляционных таблиц, JSON может хранить данные, для которых схема не ",
       "source_path": "ru/core/yql/reference/builtins/json.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/json.md",
-      "bytes": 61218,
+      "bytes": 61223,
       "lang": "ru"
     },
     {
@@ -14547,7 +14547,7 @@
       "description": " TryMember. Попытка получить значение поля из структуры, а в случае его отсутствия среди полей или null в значении структуры использовать значение по умолчанию.",
       "source_path": "ru/core/yql/reference/builtins/struct.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/struct.md",
-      "bytes": 18109,
+      "bytes": 18113,
       "lang": "ru"
     },
     {
@@ -14668,7 +14668,7 @@
       "description": " ALTER RESOURCE POOL изменяет определение пула ресурсов. Синтаксис Изменение параметров.",
       "source_path": "ru/core/yql/reference/syntax/alter-resource-pool.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-resource-pool.md",
-      "bytes": 5511,
+      "bytes": 5508,
       "lang": "ru"
     },
     {
@@ -14679,7 +14679,7 @@
       "description": " ALTER RESOURCE POOL CLASSIFIER изменяет определение классификатора пула ресурсов. Синтаксис Изменение параметров.",
       "source_path": "ru/core/yql/reference/syntax/alter-resource-pool-classifier.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-resource-pool-classifier.md",
-      "bytes": 3864,
+      "bytes": 3861,
       "lang": "ru"
     },
     {
@@ -14789,7 +14789,7 @@
       "description": "При помощи команды ALTER TABLE можно изменить состав колонок и дополнительные параметры строковых и колоночных таблиц. В одной команде можно указать несколько д",
       "source_path": "ru/core/yql/reference/syntax/alter_table/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/index.md",
-      "bytes": 2001,
+      "bytes": 2019,
       "lang": "ru"
     },
     {
@@ -14800,7 +14800,7 @@
       "description": "При помощи команды ALTER TABLE можно изменить состав колонок и дополнительные параметры строковых и колоночных таблиц. В одной команде можно указать несколько д",
       "source_path": "ru/core/yql/reference/syntax/alter_table/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/index.md",
-      "bytes": 1937,
+      "bytes": 1955,
       "lang": "ru"
     },
     {
@@ -14833,7 +14833,7 @@
       "description": " Важно. Поддерживается только для строковых таблиц.",
       "source_path": "ru/core/yql/reference/syntax/alter_table/family.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/family.md",
-      "bytes": 5182,
+      "bytes": 5170,
       "lang": "ru"
     },
     {
@@ -15020,7 +15020,7 @@
       "description": " CREATE RESOURCE POOL создаёт пул ресурсов. Синтаксис. CREATE RESOURCE POOL <name> WITH ( <parameter_name> [= <parameter_value>] [,... ] ).",
       "source_path": "ru/core/yql/reference/syntax/create-resource-pool.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create-resource-pool.md",
-      "bytes": 6856,
+      "bytes": 6853,
       "lang": "ru"
     },
     {
@@ -15031,7 +15031,7 @@
       "description": " CREATE RESOURCE POOL CLASSIFIER создаёт пул классификаторов ресурсов. Синтаксис.",
       "source_path": "ru/core/yql/reference/syntax/create-resource-pool-classifier.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create-resource-pool-classifier.md",
-      "bytes": 5247,
+      "bytes": 5251,
       "lang": "ru"
     },
     {
@@ -15130,7 +15130,7 @@
       "description": " Важно. Поддерживается только для строковых таблиц. Колонки одной таблицы можно объединять в группы, чтобы задать следующие параметры:",
       "source_path": "ru/core/yql/reference/syntax/create_table/family.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create_table/family.md",
-      "bytes": 2896,
+      "bytes": 2884,
       "lang": "ru"
     },
     {
@@ -15372,7 +15372,7 @@
       "description": " Конкатенация строк. Выполняется через бинарный оператор ||.",
       "source_path": "ru/core/yql/reference/syntax/expressions.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/expressions.md",
-      "bytes": 32089,
+      "bytes": 32085,
       "lang": "ru"
     },
     {
@@ -15449,7 +15449,7 @@
       "description": " Определение. Переопределение настроек. Синтаксис. PRAGMA x.y = \"z\"; или PRAGMA x.y(\"z\", \"z2\", \"z3\");: x — (опционально) категория настройки.",
       "source_path": "ru/core/yql/reference/syntax/pragma.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/pragma.md",
-      "bytes": 19708,
+      "bytes": 19692,
       "lang": "ru"
     },
     {
@@ -15493,7 +15493,7 @@
       "description": " SELECT. Возвращает результат вычисления выражений, указанных после SELECT. Может использоваться в сочетании с другими операциями для получения иного эффекта.",
       "source_path": "ru/core/yql/reference/syntax/select/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/index.md",
-      "bytes": 14603,
+      "bytes": 14581,
       "lang": "ru"
     },
     {
@@ -15504,7 +15504,7 @@
       "description": " SELECT. Возвращает результат вычисления выражений, указанных после SELECT. Может использоваться в сочетании с другими операциями для получения иного эффекта.",
       "source_path": "ru/core/yql/reference/syntax/select/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/index.md",
-      "bytes": 14362,
+      "bytes": 14337,
       "lang": "ru"
     },
     {
@@ -15581,7 +15581,7 @@
       "description": " GROUP BY.",
       "source_path": "ru/core/yql/reference/syntax/select/group-by.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/group-by.md",
-      "bytes": 31590,
+      "bytes": 31588,
       "lang": "ru"
     },
     {
@@ -15713,7 +15713,7 @@
       "description": "Задается после источника данных во FROM и используется для указания дополнительных подсказок использования таблиц. Подсказки нельзя задать для подзапросов и име",
       "source_path": "ru/core/yql/reference/syntax/select/with.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/with.md",
-      "bytes": 9500,
+      "bytes": 9393,
       "lang": "ru"
     },
     {
@@ -15922,7 +15922,7 @@
       "description": "Модуль DateTime предоставляет набор функций для работы с датами и временем в YDB. Они поддерживают все доступные типы данных временных меток и интервалов как с ",
       "source_path": "ru/core/yql/reference/udf/list/datetime.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/datetime.md",
-      "bytes": 37941,
+      "bytes": 37911,
       "lang": "ru"
     },
     {
@@ -16010,7 +16010,7 @@
       "description": " Список функций. Pire::Grep(pattern:String) -> (string:String?) -> Bool. Pire::Match(pattern:String) -> (string:String?) -> Bool.",
       "source_path": "ru/core/yql/reference/udf/list/pire.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/pire.md",
-      "bytes": 9538,
+      "bytes": 9532,
       "lang": "ru"
     },
     {
@@ -16032,7 +16032,7 @@
       "description": " Список функций.",
       "source_path": "ru/core/yql/reference/udf/list/re2.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/re2.md",
-      "bytes": 9229,
+      "bytes": 9234,
       "lang": "ru"
     },
     {
@@ -16087,14 +16087,13 @@
       "description": " YSON — разработанный в Яндексе формат данных, похожий на JSON. Сходства с JSON: не имеет строгой схемы;",
       "source_path": "ru/core/yql/reference/udf/list/yson.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/yson.md",
-      "bytes": 20879,
+      "bytes": 20881,
       "lang": "ru"
     }
   ],
   "image_count": 378,
   "images_linked_at_site": [
     "en/_assets/resources_weight.png",
-    "en/concepts/query_execution/_assets/star_schema.png",
     "en/reference/embedded-ui/_assets/monitoring_main_page.png",
     "en/reference/embedded-ui/_assets/monitoring_storage_state.png",
     "en/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png",

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/debug-otel.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/debug-otel.md"
 description: "YDB SDK instrument Query Service operations with OpenTelemetry spans, providing distributed tracing from the application code to each gRPC call to YDB. The span"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Tracing with OpenTelemetry

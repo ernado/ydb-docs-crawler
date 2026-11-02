@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-cli/benchmarks.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-cli/benchmarks.md"
 description: "В YDB интегрирован инструментарий для проведения нагрузочных тестов с использованием стандартных бенчмарков: Бенчмарк Справка. TPC-C. tpcc. TPC-H. tpch. TPC-DS."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Проведение нагрузочного тестирования
@@ -170,7 +170,7 @@ ydb workload transfer topic-to-table clean --topic some_topic --table /db/table
 - [tpch clean](../../reference/ydb-cli/workload-tpch.md#cleanup)
 - [tpcds clean](../../reference/ydb-cli/workload-tpcds.md#cleanup)
 - [query clean](../../reference/ydb-cli/workload-query.md#cleanup)
-- [kv clean](../../reference/ydb-cli/workload-kv.md#cleanup)
-- [stock clean](../../reference/ydb-cli/commands/workload/stock.md#cleanup)
-- [topic clean](../../reference/ydb-cli/workload-topic.md#cleanup)
-- [transfer clean](../../reference/ydb-cli/workload-transfer.md#cleanup)
+- [kv clean](../../reference/ydb-cli/workload-kv.md#clean)
+- stock clean
+- [topic clean](../../reference/ydb-cli/workload-topic.md#clean)
+- [transfer clean](../../reference/ydb-cli/workload-transfer.md#clean)

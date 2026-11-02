@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/auth_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/auth_config.md"
 description: "YDB supports various user authentication methods. The configuration for authentication providers is specified in the auth_config section."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # auth_config
@@ -26,7 +26,7 @@ For more information about the authentication of [local YDB users](../../concept
 | domain_login_only | Determines the scope of local user access rights in a YDB cluster.<br>Valid values:<br>- `true` — local users exist in a YDB cluster and can be granted rights to access multiple [databases](../../concepts/glossary.md#database).<br>- `false` — local users can exist either at the cluster or database level. The scope of access rights for local users created at the database level is limited to the database, in which they are created.<br>Default value: `true` |
 | login_token_expire_time | Specifies the expiration time of the authentication token created when a local user logs in to YDB.<br>Default value: `12h` |
 
-### Configuring User Lockout
+### Configuring user lockout on incorrect password {#account-lockout}
 
 You can configure YDB to lock a user account out after a specified number of failed attempts to enter the correct password. To configure user lockout, define the `account_lockout` subsection inside the `auth_config` section.
 

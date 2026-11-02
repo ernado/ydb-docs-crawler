@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/observability/metrics/grafana-dashboards.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/observability/metrics/grafana-dashboards.md"
 description: "На этой странице описаны дашборды Grafana для YDB. Как установить и настроить дашборды описано в разделе по настройке мониторинга кластера YDB. DB status."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Дашборды Grafana для YDB
@@ -59,8 +59,8 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 | Имя | Описание |
 | --- | --- |
-| CPU by thread pool (dynnodes) | Потребление CPU динамическими узлами в разрезе [пулов исполнения](../../../devops/configuration-management/configuration-v2/config-settings.md#tuneconfig), в ядрах CPU. |
-| CPU utilization (dynnodes) | Утилизация CPU динамическими узлами в разрезе [пулов исполнения](../../../devops/configuration-management/configuration-v2/config-settings.md#tuneconfig), в %. |
+| CPU by thread pool (dynnodes) | Потребление CPU динамическими узлами в разрезе [пулов исполнения](../../configuration/actor_system_config.md#tuneconfig), в ядрах CPU. |
+| CPU utilization (dynnodes) | Утилизация CPU динамическими узлами в разрезе [пулов исполнения](../../configuration/actor_system_config.md#tuneconfig), в %. |
 | Elapsed Time vs CPU Time | Соотношение реального времени выполнения операций (`ElapsedMicrosec`) и процессорного времени (`CpuMicrosec`) по узлам. Устойчивое превышение отметки 100% означает, что сессии проводят время в ожидании, а не в активной работе: как правило, это ожидание I/O или CPU overcommit на стороне гипервизора. |
 | RSS size by node | Объём оперативной памяти (Resident set size), потребляемой каждым динамическим узлом, с отображением лимитов памяти cgroup, в байтах. |
 | Storage usage | Логический размер базы данных и установленный на него лимит, в байтах. |
@@ -112,7 +112,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 ## CPU
 
-Потребление CPU в [пулах исполнения](../../../devops/configuration-management/configuration-v2/config-settings.md#tuneconfig).
+Потребление CPU в [пулах исполнения](../../configuration/actor_system_config.md#tuneconfig).
 
 | Имя | Описание |
 | --- | --- |

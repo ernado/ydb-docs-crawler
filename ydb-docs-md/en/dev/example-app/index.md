@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/example-app/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/index.md"
 description: "This section outlines the implementation of example applications, all designed to perform similar functions, using the YDB SDKs across various programming langu"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Example applications working with YDB
@@ -64,7 +64,7 @@ Retrieve data using a [`SELECT`](../../yql/reference/syntax/select/index.md) sta
 
 Query data using parameters. This query execution method is preferable because it allows the server to reuse the query execution plan for subsequent calls and protects against vulnerabilities such as [SQL injection](https://en.wikipedia.org/wiki/SQL_injection).
 
-[C++](example-cpp.md#param-queries) | [C# (.NET)](example-dotnet.md#param-queries) | [Go](go/index.md#param-queries) | [Java](java/index.md#param-queries) | JavaScript | [PHP](example-php.md#param-queries) | [Python](python/index.md#param-queries) | [Rust](rust/index.md#query-client)
+[C++](example-cpp.md#param-queries) | [C# (.NET)](example-dotnet.md#query-processing) | [Go](go/index.md#query-processing) | [Java](java/index.md#param-queries) | JavaScript | [PHP](example-php.md#param-queries) | [Python](python/index.md#param-queries) | [Rust](rust/index.md#query-client)
 
 ## Multistep transactions
 

@@ -7,12 +7,12 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/table-attribute-drop.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/table-attribute-drop.md"
 description: "С помощью команды table attribute drop вы можете удалить пользовательский атрибут указанной таблицы. Общий вид команды:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # table attribute drop
 
-С помощью команды `table attribute drop` вы можете удалить [пользовательский атрибут](../../concepts/datamodel/table.md#users-attr) указанной таблицы.
+С помощью команды `table attribute drop` вы можете удалить [пользовательский атрибут](../../concepts/datamodel/table.md) указанной таблицы.
 
 Общий вид команды:
 

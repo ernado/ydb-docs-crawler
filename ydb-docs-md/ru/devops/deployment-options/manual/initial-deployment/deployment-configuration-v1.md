@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v1.md"
 description: "Подготовьте окружение. Перед развёртыванием системы обязательно выполните подготовительные действия. Ознакомьтесь с документом Подготовка к развертыванию."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Развёртывание кластера с использованием конфигурации V1

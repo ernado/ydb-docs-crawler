@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/scheme-permissions.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/scheme-permissions.md"
 description: "Общий перечень команд. Получить список доступных команд можно через интерактивную справку: ydb scheme permissions -- help."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Разрешения
@@ -40,7 +40,7 @@ permissions                 Modify permissions
 Все команды имеют дополнительный параметр, который для них не критичен:  
  `--timeout ms` - технологический параметр, задающий таймаут на отклик сервера.
 
-## grant, revoke {#grant,-revoke}
+## grant, revoke
 
 Команды `grant` и `revoke` позволяют установить и отозвать, соответственно, права доступа к объектам схемы для пользователя или группы пользователей. По сути, это аналоги соответствующих YQL-команд [GRANT](../../../yql/reference/syntax/grant.md) и [REVOKE](../../../yql/reference/syntax/revoke.md).
 

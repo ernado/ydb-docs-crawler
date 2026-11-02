@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md"
 description: "This article describes an example of how to diagnose overloaded shards and resolve the issue."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Overloaded shard example
@@ -66,7 +66,7 @@ The CPU load has increased, as shown in the **CPU by execution pool** diagram.
 <details>
 <summary>See the details on the CPU Grafana dashboard</summary>
 
-Examining the **CPU** Grafana dashboard reveals that CPU usage increased [in the user pool and the interconnect pool](../../../concepts/glossary.md#actor-system-pool):
+Examining the **CPU** Grafana dashboard reveals that CPU usage increased [in the user pool and the interconnect pool](../../../reference/configuration/actor_system_config.md#tuneconfig):
 
 ![CPU](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/en/core/troubleshooting/examples/schemas/_assets/overloaded-shard-simple-case/incident-grafana-cpu-dashboard-user-pool-by-actors.png)
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/data-migration/import-mysql.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/data-migration/import-mysql.md"
 description: "Introduction. Migrating schemas and data from MySQL to YDB — including large tables whose size exceeds available RAM — is performed using the mysql2ydb utility."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Importing table schemas and data from MySQL

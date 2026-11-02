@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/resource-consumption-management.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/resource-consumption-management.md"
 description: "Resource pools allow you to isolate database resources between running queries or configure resource allocation strategies in case of oversubscription (allocati"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Workload Manager — resource consumption management
@@ -69,7 +69,7 @@ As with `CONCURRENT_QUERY_LIMIT` , when the specified load threshold is exceeded
 
 ### Resource allocation according to RESOURCES_WEIGHT {#resources_weight}
 
-![resource_pools](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/0b31976d929e6dd165473a40bb0855b365abe8f7/en/_assets/resources_weight.png)
+![resource_pools](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/b61acf8801342bea386583a9946acfb5e803ab09/en/_assets/resources_weight.png)
 
 The `RESOURCES_WEIGHT` parameter starts working only in case of oversubscription and if there is more than one resource pool in the system. In the current implementation, `RESOURCES_WEIGHT` only affects the allocation of `vCPU` resources. When querys appear in the resource pool, it begins to participate in resource allocation. To do this, the limits in the pools are recalculated according to the [Max-min fairness](https://en.wikipedia.org/wiki/Max-min_fairness) algorithm. The redistribution of resources itself is performed on each computing node individually, as shown in the figure above.
 

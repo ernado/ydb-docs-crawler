@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/ingestion/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/ingestion/index.md"
 description: "Система поставки Инструкция. FluentBit. Инструкция. LogStash. Инструкция. Kafka Connect Sink. Инструкция. Потоковая поставка данных Система поставки Инструкция."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Поставка данных

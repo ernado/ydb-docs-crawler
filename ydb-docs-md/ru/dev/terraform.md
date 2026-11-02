@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/terraform.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/terraform.md"
 description: "С помощью Terraform можно создавать, удалять и изменять следующие объекты внутри кластера YDB: строковые таблицы; вторичные индексы для строковых таблиц;"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Управление YDB с помощью Terraform
@@ -300,7 +300,7 @@ family {
 
 #### partitioning_settings
 
-Аргумент `partitioning_settings` описывает [настройки партицирования](../concepts/datamodel/table.md#partitioning).
+Аргумент `partitioning_settings` описывает [настройки партицирования](../concepts/datamodel/table.md#partitioning_row_table).
 
 Пример:
 

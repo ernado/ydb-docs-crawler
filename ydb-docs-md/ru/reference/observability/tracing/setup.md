@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/observability/tracing/setup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/observability/tracing/setup.md"
 description: "Примечание. Подробно трассировка описана на сайте opentelemetry в разделе observability primer."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Трассировка в YDB
@@ -252,7 +252,7 @@ tracing_config:
 
 Как и в [случае с логами](../../embedded-ui/logs.md), для диагностирования большинства проблем с системой не требуется наличие максимально подробной трассы, поэтому в YDB каждый спан имеет свой уровень, описываемый целым числом от 0 до 15 включительно. Каждое правило в секции `sampling` должно включать в себя уровень детализации генерируемой трассы (`level`), в нее будут включаться спаны с уровнем меньшим, либо равным `level`.
 
-В разделе об [архитектуре YDB](../../../concepts/index.md#ydb-architecture) приводится разделение системы на 5 слоев:
+В разделе об [архитектуре YDB](../../../concepts/architecture.md#ydb-architecture) приводится разделение системы на 5 слоев:
 
 | Слой | Копоненты |
 | --- | --- |

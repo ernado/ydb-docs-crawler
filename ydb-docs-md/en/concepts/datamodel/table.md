@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/datamodel/table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/datamodel/table.md"
 description: "A table is a relational table containing a set of related data, composed of rows and columns. Tables represent entities. For instance, a blog article can be rep"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Table
@@ -170,7 +170,7 @@ Syntax of TTL value is described in the article [Time to Live (TTL)](../../yql/r
 
 YDB lets you rename an existing table, move it to another directory of the same database, or replace one table with another, deleting the data in the replaced table. Only the metadata of the table is changed by operations (for example, its path and name). The table data is neither moved nor overwritten.
 
-Operations are performed in isolation; the external process sees only two states of the table: before and after the operation. This is critical, for example, for table replacement: the data of the replaced table is deleted by the same transaction that renames the replacing table. During the replacement, there might be errors in queries to the replaced table that have [retryable statuses](../../reference/ydb-sdk/error_handling.md#termination-statuses).
+Operations are performed in isolation; the external process sees only two states of the table: before and after the operation. This is critical, for example, for table replacement: the data of the replaced table is deleted by the same transaction that renames the replacing table. During the replacement, there might be errors in queries to the replaced table that have [retryable statuses](../../reference/ydb-sdk/error_handling.md#handling-retryable-errors).
 
 The speed of renaming is determined by the type of data transactions currently running against the table and doesn't depend on the table size.
 

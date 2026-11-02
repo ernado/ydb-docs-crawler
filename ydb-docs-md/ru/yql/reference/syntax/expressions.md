@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/expressions.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/expressions.md"
 description: "Конкатенация строк. Выполняется через бинарный оператор ||."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Выражения
@@ -441,7 +441,7 @@ $x, $y = AsTuple($y, $x); -- swap значений выражений
 
   Здесь табличные выражения работают как ожидается – например `$input = SELECT a, b, c FROM T; SELECT * FROM $input` вернет таблицу с тремя колонками.
 
-  Табличный контекст также возникает после [UNION ALL](select/index.md#unionall), [JOIN](select/join.md#join);
+  Табличный контекст также возникает после [UNION ALL](select/union.md#union-all), [JOIN](select/join.md);
 
 - векторный контекст - после [IN](expressions.md#in). В этом контексте табличное выражение обязано содержать ровно одну колонку (имя этой колонки никак не влияет на результат выражения).
 

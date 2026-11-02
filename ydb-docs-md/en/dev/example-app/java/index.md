@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/example-app/java/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/java/index.md"
 description: "This page contains a detailed description of the code of a test app that is available as part of the YDB Java SDK Examples."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Example app in Java
@@ -80,7 +80,7 @@ To interact with YDB, create instances of the driver, client, and session:
 Main driver initialization parameters
 
 - A connection string containing details about an [endpoint](../../../concepts/connect.md#endpoint) and [database](../../../concepts/connect.md#database). This is the only parameter that is required.
-- [Authentication](../../../recipes/ydb-sdk/auth.md#auth-provider) provider. Unless explicitly specified, an [anonymous connection](../../../security/authentication.md) is used.
+- [Authentication](../../../reference/ydb-sdk/auth.md#auth-provider) provider. Unless explicitly specified, an [anonymous connection](../../../security/authentication.md) is used.
 - [Session pool](../../../recipes/ydb-sdk/session-pool-limit.md) settings
 
 App code snippet for driver initialization:

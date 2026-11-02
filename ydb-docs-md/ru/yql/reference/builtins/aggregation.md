@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/builtins/aggregation.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/aggregation.md"
 description: "COUNT Сигнатура. COUNT (*)-> Uint64 COUNT (T)-> Uint64 COUNT (T?)-> Uint64."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Агрегатные функции
@@ -194,7 +194,7 @@ FROM my_table;
 ```
 
 > [!CAUTION]
-> При вызове агрегатной функции `SOME` несколько раз **не** гарантируется, что все значения результатов будут взяты с одной строки исходной таблицы. Для получения данной гарантии, нужно запаковать значения в какой-либо из контейнеров и передавать в `SOME` уже его. Например, для структуры это можно сделать с помощью [AsStruct](basic.md#asstruct)
+> При вызове агрегатной функции `SOME` несколько раз **не** гарантируется, что все значения результатов будут взяты с одной строки исходной таблицы. Для получения данной гарантии, нужно запаковать значения в какой-либо из контейнеров и передавать в `SOME` уже его. Например, для структуры это можно сделать с помощью [AsStruct](basic.md#as-container)
 
 ## CountDistinctEstimate, HyperLogLog и HLL {#countdistinctestimate}
 
@@ -248,7 +248,7 @@ AGGREGATE_LIST_DISTINCT(T [, limit:Uint64])->List<T>
 
 Порядок элементов в результирующем списке зависит от реализации и снаружи не задается. Чтобы получить упорядоченный список, необходимо отсортировать результат, например с помощью [ListSort](list.md#listsort).
 
-Чтобы получить список нескольких значений с одной строки, важно *НЕ* использовать функцию `AGGREGATE_LIST` несколько раз, а сложить все нужные значения в контейнер, например через [AsList](basic.md#aslist) или [AsTuple](basic.md#astuple) и передать этот контейнер в один вызов `AGGREGATE_LIST`.
+Чтобы получить список нескольких значений с одной строки, важно *НЕ* использовать функцию `AGGREGATE_LIST` несколько раз, а сложить все нужные значения в контейнер, например через [AsList](basic.md#as-container) или [AsTuple](basic.md#as-container) и передать этот контейнер в один вызов `AGGREGATE_LIST`.
 
 Например, можно использовать в сочетании с `DISTINCT` и функцией [String::JoinFromList](../udf/list/string.md) (аналог `','.join(list)` из Python) для распечатки в строку всех значений, которые встретились в столбце после применения [GROUP BY](../syntax/select/group-by.md).
 

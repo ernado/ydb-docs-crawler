@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/auth-anonymous.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/auth-anonymous.md"
 description: "Ниже приведены примеры кода анонимной аутентификации в разных YDB SDK. C++. Go. Java. JavaScript. Python. C#. Rust. PHP. Native SDK. userver."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Анонимная аутентификация

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/builtins/struct.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/struct.md"
 description: "TryMember. Trying to get a field from the structure. If it's not found among the fields or null in the structure value, use the default value. Arguments:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Functions for structures
@@ -46,7 +46,7 @@ If the field set contains duplicate values, an error is returned.
 Arguments:
 
 - The first argument passes the source structure to be expanded.
-- All the other arguments must be named, each argument adds a new field and the argument's name is used as the field's name (as in [AsStruct](basic.md#asstruct)).
+- All the other arguments must be named, each argument adds a new field and the argument's name is used as the field's name (as in [AsStruct](basic.md#as-container)).
 
 ### Examples
 

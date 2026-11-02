@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/recipes/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/recipes/index.md"
 description: "This section contains query recipes for various tasks that can be solved with YQL, YDB's SQL dialect. Table of contents: Accessing values inside JSON with YQL."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # YQL recipes

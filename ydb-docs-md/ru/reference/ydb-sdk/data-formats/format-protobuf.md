@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-sdk/data-formats/format-protobuf.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-sdk/data-formats/format-protobuf.md"
 description: "Формат по умолчанию. Данные возвращаются построчно в формате Protobuf: каждая строка представляет собой сериализованный набор именованных значений с их YQL-типа"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Формат Protobuf (Value)

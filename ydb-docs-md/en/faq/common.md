@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/faq/common.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/faq/common.md"
 description: "What is YDB?"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # General questions about YDB
@@ -30,7 +30,7 @@ To read data, YDB uses a model of strict data consistency.
 
 To design a primary key properly, follow the rules below.
 
-- Avoid situations where most of the load falls on a single [partition](../concepts/datamodel/table.md#partitioning) of a table. With even load distribution, it's easier to achieve high overall performance.This rule implies that you shouldn't use a monotonically increasing sequence, such as timestamp, as a table's primary key.
+- Avoid situations where most of the load falls on a single [partition](../concepts/datamodel/table.md#partitioning_row_table) of a table. With even load distribution, it's easier to achieve high overall performance.This rule implies that you shouldn't use a monotonically increasing sequence, such as timestamp, as a table's primary key.
 - The fewer table partitions a query uses, the faster it runs. For greater performance, follow the one query — one partition rule.
 - Avoid situations where a small part of the DB is under much heavier load than the rest of the DB.
 

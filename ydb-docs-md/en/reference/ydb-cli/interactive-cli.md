@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/interactive-cli.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/interactive-cli.md"
 description: "Overview."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Interactive query execution mode
@@ -112,7 +112,7 @@ Special commands are CLI-specific commands and are not part of the YQL syntax. T
 | Command | Description |
 | --- | --- |
 | `SET param = value` | Sets the value of the [internal variable](interactive-cli.md#internal-vars) `param` to `value`. |
-| `EXPLAIN query-text` | Outputs the query plan for `query-text`. Equivalent to the command [ydb table query explain](commands/explain-plan.md#explain-plan). |
+| `EXPLAIN query-text` | Outputs the query plan for `query-text`. Equivalent to the command [ydb table query explain](commands/explain-plan.md#query-execution-plans). |
 | `EXPLAIN AST query-text` | Outputs the query plan for `query-text` along with the [AST](commands/explain-plan.md). Equivalent to the command [ydb table query explain --ast](commands/explain-plan.md#ast). |
 
 ### List of internal variables {#internal-vars}

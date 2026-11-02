@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/federated_query/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/index.md"
 description: "Federated queries allow retrieving information from various data sources without needing to transfer the data from these sources into YDB storage. Currently, fe"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Federated Queries

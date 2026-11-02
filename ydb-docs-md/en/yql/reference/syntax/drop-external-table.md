@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/drop-external-table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/drop-external-table.md"
 description: "Deletes the specified external table. If no external table with that name exists, an error is returned. Example. DROP EXTERNAL TABLE my_table;"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # DROP EXTERNAL TABLE

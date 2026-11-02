@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/index.md"
 description: "This section of YDB documentation covers security-related aspects of working with YDB. It'll be useful for compliance purposes too."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # YDB for Security Engineers
@@ -49,9 +49,9 @@ Security model in YDB introduces the following concepts:
 
   - **Authentication**. When a [user](../concepts/glossary.md#access-user) connects to a YDB cluster, YDB first identifies the user's account. This process is called [authentication](authentication.md). YDB supports various authentication modes. For more information, see [Authentication](authentication.md).
 
-    Regardless of an authentication mode, after passing [authentication](authentication.md), a user gets a [SID](authorization.md#sid) and an authentication token.
+    Regardless of an authentication mode, after passing [authentication](authentication.md), a user gets a [SID](../concepts/glossary.md#access-sid) and an authentication token.
 
-    - YDB cluster uses a [SID](authorization.md#sid) for user identification. For example, a SID for a local user is the user login. SIDs for external users also include information about the system where they were created. User SIDs can also be found in [system views](../dev/system-views.md#auth) describing the security configuration.
+    - YDB cluster uses a [SID](../concepts/glossary.md#access-sid) for user identification. For example, a SID for a local user is the user login. SIDs for external users also include information about the system where they were created. User SIDs can also be found in [system views](../dev/system-views.md#auth) describing the security configuration.
 
     - The authentication token is used by YDB nodes to authorize user access before processing user requests.
 

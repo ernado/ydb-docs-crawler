@@ -7,17 +7,17 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v1/static-group-move.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/static-group-move.md"
 description: "If you need to decommission a YDB cluster host that contains part of the static group, you need to move it to another host. Warning."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Static Group Move
 
-If you need to decommission a YDB cluster host that contains part of the [static group](../../../reference/configuration/blob_storage_config.md#blob_storage_config), you need to move it to another host.
+If you need to decommission a YDB cluster host that contains part of the [static group](../../../reference/configuration/blob_storage_config.md), you need to move it to another host.
 
 > [!WARNING]
 > Incorrect sequence of actions or configuration errors can lead to YDB cluster unavailability.
 
-As an example, consider a YDB cluster where a [static node](../../../reference/configuration/hosts.md#hosts) is configured and running on the host with `node_id:1`. This node serves part of the static group.
+As an example, consider a YDB cluster where a [static node](../../../reference/configuration/hosts.md) is configured and running on the host with `node_id:1`. This node serves part of the static group.
 
 Static group configuration fragment:
 

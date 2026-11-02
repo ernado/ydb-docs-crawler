@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/downloads/ydb-ops.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/ydb-ops.md"
 description: "YDB Ops ( ydbops ) — утилита командной строки для управления кластером YDB. Linux Версия Дата выпуска Скачать Список изменений. v0.0.25. 03/12/2026."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Загрузка YDB Ops

@@ -7,13 +7,13 @@ lang: "en"
 source_path: "en/core/recipes/backup/system-tablet-backup/recovery.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/backup/system-tablet-backup/recovery.md"
 description: "Note. For conceptual information about the mechanism, see the System tablet backup section. Warning."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Recovering system tablets
 
 > [!NOTE]
-> For conceptual information about the mechanism, see the [System tablet backup](../../../concepts/backup.md#system-tablet-backup) section.
+> For conceptual information about the mechanism, see the [System tablet backup](../../../concepts/backup.md) section.
 
 > [!WARNING]
 > Recovering system tablets is a critical operation that may result in data loss. Perform it only if you have a clear understanding of the problem and after consulting with the operations team. Before starting, make sure you have reviewed all the steps.

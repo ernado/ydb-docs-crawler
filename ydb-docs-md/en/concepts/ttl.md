@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/ttl.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/ttl.md"
 description: "This section describes how the TTL mechanism works and what its limits are. How It Works."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Time to Live (TTL) and Eviction to External Storage
@@ -36,7 +36,7 @@ Data is deleted by the *Background Removal Operation* (*BRO*), consisting of two
 
 The *BRO* has the following properties:
 
-- The concurrency unit is a [table partition](datamodel/table.md#partitioning).
+- The concurrency unit is a [table partition](datamodel/table.md#partitioning_row_table).
 - For tables with [secondary indexes](query_execution/secondary_indexes.md), the delete stage is a [distributed transaction](transactions.md#distributed-tx).
 
 ## Guarantees

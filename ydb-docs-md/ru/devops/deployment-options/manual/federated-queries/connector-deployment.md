@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/manual/federated-queries/connector-deployment.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/federated-queries/connector-deployment.md"
 description: "Важно. Данная функциональность находится в режиме \"Experimental\"."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Развёртывание коннекторов ко внешним источникам данных
@@ -55,7 +55,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
    sudo cp fq-connector-go.yaml /opt/ydb/cfg
    ```
 
-4. В [рекомендуемом режиме использования](index.md#general-scheme) коннектор развёртывается на тех же серверах, что и динамические узлы YDB, следовательно, шифрование сетевых соединений между ними *не требуется*. Однако если вам всё же необходимо включить шифрование, [подготовьте пару TLS-ключей](../initial-deployment/index.md#tls-certificates) и пропишите пути до публичного и приватного ключа в поля `connector_server.tls.cert` и `connector_server.tls.key` конфигурационного файла `fq-connector-go.yaml`:
+4. В [рекомендуемом режиме использования](index.md#general-scheme) коннектор развёртывается на тех же серверах, что и динамические узлы YDB, следовательно, шифрование сетевых соединений между ними *не требуется*. Однако если вам всё же необходимо включить шифрование, [подготовьте пару TLS-ключей](../initial-deployment/deployment-preparation.md#tls-certificates) и пропишите пути до публичного и приватного ключа в поля `connector_server.tls.cert` и `connector_server.tls.key` конфигурационного файла `fq-connector-go.yaml`:
 
    ```yaml
    connector_server:
@@ -141,7 +141,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
        ghcr.io/ydb-platform/fq-connector-go:latest
    ```
 
-3. В [рекомендуемом режиме использования](index.md#general-scheme) коннектор развёртывается на тех же серверах, что и динамические узлы YDB, следовательно, шифрование сетевых соединений между ними *не требуется*. Но если вам всё же необходимо включить шифрование между YDB и коннектором, [подготовьте пару TLS-ключей](../initial-deployment/index.md#tls-certificates) и пропишите пути до публичного и приватного ключа в секции конфигурационного файла `connector_server.tls.cert` и `connector_server.tls.key` соответственно:
+3. В [рекомендуемом режиме использования](index.md#general-scheme) коннектор развёртывается на тех же серверах, что и динамические узлы YDB, следовательно, шифрование сетевых соединений между ними *не требуется*. Но если вам всё же необходимо включить шифрование между YDB и коннектором, [подготовьте пару TLS-ключей](../initial-deployment/deployment-preparation.md#tls-certificates) и пропишите пути до публичного и приватного ключа в секции конфигурационного файла `connector_server.tls.cert` и `connector_server.tls.key` соответственно:
 
    ```yaml
    connector_server:

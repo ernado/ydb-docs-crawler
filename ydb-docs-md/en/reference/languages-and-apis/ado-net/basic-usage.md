@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/languages-and-apis/ado-net/basic-usage.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/languages-and-apis/ado-net/basic-usage.md"
 description: "This article covers core ADO.NET usage scenarios for YDB, including database connections, query execution, and result processing. See the main documentation for"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Basic Usage with ADO.NET

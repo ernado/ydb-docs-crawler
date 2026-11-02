@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/udf/list/re2.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/re2.md"
 description: "List of functions."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Re2
@@ -55,7 +55,7 @@ SELECT
 
 If you leave out the details of implementation and syntax of regular expressions, those functions are totally similar [to the same-name functions](pire.md#match) from the Pire module. With other things equal and no specific preferences, we recommend that you use `Pire::Grep or Pire::Match`.
 
-You can call the `Re2::Grep` function by using a `REGEXP` expression (see the [basic expression syntax](../../syntax/expressions.md#regexp)).
+You can call the `Re2::Grep` function by using a `REGEXP` expression (see the [basic expression syntax](../../syntax/expressions.md#check-match)).
 
 For example, the following two queries are equivalent (also in terms of computing efficiency):
 

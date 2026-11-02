@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/pragma.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/pragma.md"
 description: "Definition. Redefinition of settings. Syntax. PRAGMA x.y = \"z\"; or PRAGMA x.y(\"z\", \"z2\", \"z3\");: x: (optional) The category of the setting."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # PRAGMA
@@ -201,7 +201,7 @@ Output the [column order](select/order_by.md) in SELECT/JOIN/UNION ALL and prese
 
 ### PositionalUnionAll
 
-Enable the standard column-by-column execution for [UNION ALL](select/union.md#unionall). This automatically enables  
+Enable the standard column-by-column execution for [UNION ALL](select/union.md#union-all). This automatically enables  
  [ordered columns](pragma.md#orderedcolumns).
 
 ### RegexUseRe2
@@ -274,7 +274,7 @@ Increasing the limit on the number of dimensions in [GROUP BY](select/group-by.m
 | --- | --- |
 | Positive number | 5 |
 
-Increasing the limit on the number of dimensions in [GROUP BY](select/group-by.md#rollup-cube-group-sets).
+Increasing the limit on the number of dimensions in [GROUP BY](select/group-by.md#rollup).
 
 Use this option with care, because the computational complexity of the query grows exponentially with the number of dimensions.
 

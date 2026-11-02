@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/vector-search.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/vector-search.md"
 description: "В данном разделе содержатся рецепты кода на разных языках программирования для решения задач векторного поиска с использованием YDB SDK."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Векторный поиск
@@ -16,7 +16,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 Подробно будут разобраны операции:
 
-- [Векторный поиск](vector-search.md#векторный-поиск)
+- [Векторный поиск](vector-search.md)
 
   - [Подключение к YDB](vector-search.md#connect-ydb)
   - [Создание таблицы](vector-search.md#create-table)
@@ -2002,7 +2002,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 - `distance=euclidean`;
 - `distance=manhattan`.
 
-Каждая стратегия определяет функцию, которая будет использоваться для последующего поиска. Более подробно функции описаны в документации по [функциям расстояния и сходства](../../yql/reference/udf/list/knn.md#fuctions-distance).
+Каждая стратегия определяет функцию, которая будет использоваться для последующего поиска. Более подробно функции описаны в документации по [функциям расстояния и сходства](../../yql/reference/udf/list/knn.md#functions-distance).
 
 Параметры, применяемые при создании индекса типа `vector_kmeans_tree`, описаны в документации [векторного индекса](../../dev/vector-indexes.md#kmeans-tree-type).
 
@@ -2353,7 +2353,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 - `ManhattanDistance`;
 - `EuclideanDistance`.
 
-Подробнее функции описаны в документации по [функциям расстояния и сходства](../../yql/reference/udf/list/knn.md#fuctions-distance).
+Подробнее функции описаны в документации по [функциям расстояния и сходства](../../yql/reference/udf/list/knn.md#functions-distance).
 
 Метод позволяет указать имя индекса. Если оно задано, в запрос будет добавлено выражение `VIEW index_name`, что позволит использовать векторный индекс при поиске.
 

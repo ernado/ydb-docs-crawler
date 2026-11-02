@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/query-execution-optimization/query-hints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/query-execution-optimization/query-hints.md"
 description: "Optimizer hints allow you to influence the behavior of the cost-based optimizer when planning the execution of SQL queries. YDB supports four types of hints for"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Optimizer Hints
@@ -79,7 +79,7 @@ There are currently three types of join algorithms supported in YDB:
 > If the join order is not fixed by a separate hint, the optimizer will build both variants of the plan: where the left and right input of the join is broadcasted. If the join order is fixed by a hint, the right side of the join will be broadcasted.
 
 - ShuffleJoin is a type of join in which the data is divided (shuffled) by the join key so that records with the same key are processed on the same processing node. After such a redistribution of data, each node performs a local join of the tables. The results are combined into one common data set.
-- LookupJoin - for each row of one input, a query is made to the table or index of the other input, currently supported only for [row tables](../../concepts/datamodel/table.md#row-oriented-table).
+- LookupJoin - for each row of one input, a query is made to the table or index of the other input, currently supported only for [row tables](../../concepts/datamodel/table.md#row-oriented-tables).
 
 > [!NOTE]
 > If the join order is not fixed by a separate hint, the optimizer will build both variants of the plan: where queries are made to the left and right inputs of the join. If the join order is fixed by a hint, queries will be made to the right side of the join.
@@ -100,7 +100,7 @@ JoinType(t1 t2 ... tn Broadcast | Shuffle | Lookup)
 
 #### How it works
 
-If the query plan contains a join operator that joins only those tables listed in the hint, the optimizer will choose the specified join algorithm if it is applicable (for example, you cannot apply the LookupJoin algorithm to [column-oriented tables](../../concepts/datamodel/table.md#column-oriented-table)). If the algorithm cannot be applied, the user will be notified via a warning.
+If the query plan contains a join operator that joins only those tables listed in the hint, the optimizer will choose the specified join algorithm if it is applicable (for example, you cannot apply the LookupJoin algorithm to [column-oriented tables](../../concepts/datamodel/table.md#column-oriented-tables)). If the algorithm cannot be applied, the user will be notified via a warning.
 
 #### Examples
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/encryption/data-in-transit.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/encryption/data-in-transit.md"
 description: "As YDB is a distributed system typically running on a cluster, often spanning multiple datacenters or availability zones, user data is routinely transferred ove"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Data in transit encryption
@@ -24,7 +24,7 @@ As YDB is a distributed system typically running on a cluster, often spanning mu
 
 - YDB as a client:
 
-  - [LDAP](../authentication.md#ldap) for user authentication.
+  - [LDAP](../authentication.md#ldap-auth-provider) for user authentication.
   - [Federated queries](../../concepts/query_execution/federated_query/index.md), a feature that allows YDB to query various external data sources. Some sources are queried directly from the `ydbd` process, while others are proxied via a separate connector process.
   - [Tracing](../../reference/observability/tracing/setup.md) data sent to an external collector via gRPC.
 

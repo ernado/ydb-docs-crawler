@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/builtins/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/index.md"
 description: "Basic. Aggregate. Window. For lists. For dictionaries. For structures. For types. For code generation. For JSON. C++ libraries."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Built-in YQL functions

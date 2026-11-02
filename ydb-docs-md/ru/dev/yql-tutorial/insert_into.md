@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/yql-tutorial/insert_into.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/yql-tutorial/insert_into.md"
 description: "Важно."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Вставка данных с помощью INSERT

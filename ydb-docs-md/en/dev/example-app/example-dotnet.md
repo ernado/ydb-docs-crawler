@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/example-app/example-dotnet.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/example-dotnet.md"
 description: "This page contains a detailed description of the code of a test app that uses the YDB C# (.NET) SDK. Initializing a database connection."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Example app in C# (.NET)

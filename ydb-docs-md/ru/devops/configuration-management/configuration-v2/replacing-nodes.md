@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v2/replacing-nodes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v2/replacing-nodes.md"
 description: "Иногда возникает ситуация, когда меняется FQDN узла, при этом сам узел в системе остаётся, но под другим именем. Простая замена имени узла в разделе hosts не ср"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Замена FQDN узла

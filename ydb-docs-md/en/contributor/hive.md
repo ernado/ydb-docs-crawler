@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/hive.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/hive.md"
 description: "Hive is a tablet responsible for managing other tablets, including selecting nodes for them to run on and deciding when to rebalance tablets."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Hive

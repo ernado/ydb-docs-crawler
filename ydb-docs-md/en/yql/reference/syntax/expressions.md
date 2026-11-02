@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/expressions.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/expressions.md"
 description: "String concatenation. Executed using the binary operator ||. As with other binary operators, if the data on either side is NULL, the result is also NULL."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Expressions
@@ -421,7 +421,7 @@ A table expression is an expression that returns a table. Table expressions in Y
 
 Semantics of a table expression depends on the context where it is used. In YQL, table expressions can be used in the following contexts:
 
-- Table context: after [FROM](select/from.md). In this case, table expressions work as expected: for example, `$input = SELECT a, b, c FROM T; SELECT * FROM $input` returns a table with three columns. The table context also occurs after [UNION ALL](select/index.md#unionall), [JOIN](select/join.md#join);
+- Table context: after [FROM](select/from.md). In this case, table expressions work as expected: for example, `$input = SELECT a, b, c FROM T; SELECT * FROM $input` returns a table with three columns. The table context also occurs after [UNION ALL](select/union.md#union-all), [JOIN](select/join.md);
 - Vector context: after [IN](expressions.md#in). In this context, the table expression must contain exactly one column (the name of this column doesn't affect the expression result in any way). A table expression in a vector context is typed as a list (the type of the list element is the same as the column type in this case). Example: `SELECT * FROM T WHERE key IN (SELECT k FROM T1)`;
 - A scalar context arises *in all the other cases*. As in a vector context, a table expression must contain exactly one column, but the value of the table expression is a scalar, that is, an arbitrarily selected value of this column (if no rows are returned, the result is `NULL`). Example: `$count = SELECT COUNT(*) FROM T; SELECT * FROM T ORDER BY key LIMIT $count / 2`;
 

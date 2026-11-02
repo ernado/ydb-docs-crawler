@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/system-views.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/system-views.md"
 description: "To obtain system information about the database state, you can refer to system views. They are available from the root of the database tree and use the system p"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # System database views
@@ -581,7 +581,7 @@ WHERE Name = "default";
 
 ## Resource pool classifier information {#resource_pools_classifiers}
 
-The `resource_pools_classifiers` system view contains information about [settings](../yql/reference/syntax/create-resource-pool-classifier.md#parameters) of [resource pool classifiers](../concepts/glossary.md#resource-pool-classifier).
+The `resource_pools_classifiers` system view contains information about [settings](../yql/reference/syntax/create-resource-pool-classifier.md#common-parameters) of [resource pool classifiers](../concepts/glossary.md#resource-pool-classifier).
 
 System view structure:
 
@@ -620,7 +620,7 @@ Table structure:
 
 | Column | Description |
 | --- | --- |
-| `Sid` | User [SID](../concepts/glossary.md#sid).  <br>Type: `Utf8`.  <br>Key: `0`. |
+| `Sid` | User [SID](../concepts/glossary.md#access-sid).  <br>Type: `Utf8`.  <br>Key: `0`. |
 | `IsEnabled` | Indicates whether login is allowed for this user; used for explicit blocking by an administrator. Independent of `IsLockedOut`.  <br>Type: `Bool`. |
 | `IsLockedOut` | Indicates that this user is automatically blocked due to exceeding the number of failed authentications. Does not depend on `IsEnabled`.  <br>Type: `Bool`. |
 | `CreatedAt` | User creation time.  <br>Type: `Timestamp`. |
@@ -639,7 +639,7 @@ Table structure:
 
 | Column | Description |
 | --- | --- |
-| `Sid` | Group [SID](../concepts/glossary.md#sid).  <br>Type: `Utf8`.  <br>Key: `0`. |
+| `Sid` | Group [SID](../concepts/glossary.md#access-sid).  <br>Type: `Utf8`.  <br>Key: `0`. |
 
 ### Information about group membership
 

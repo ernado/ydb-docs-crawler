@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/select/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/index.md"
 description: "SELECT. Возвращает результат вычисления выражений, указанных после SELECT. Может использоваться в сочетании с другими операциями для получения иного эффекта."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # ru/yql/reference/syntax/select
@@ -108,7 +108,7 @@ query1 UNION query2 UNION ALL query3
 - min, max — следующие два аргумента задают диапазон имен для включения таблиц. Диапазон инклюзивный с обоих концов. Если диапазон не указан, используются все таблицы в каталоге prefix. Имена таблиц или директорий, находящихся в указанной в prefix директории, сравниваются с диапазоном `[min, max]` лексикографически, а не конкатенируются, таким образом важно указывать диапазон без лидирующих слешей.
 - suffix — имя таблицы. Ожидается без начального слеша. Если suffix не указан, то аргументы `[min, max]` задают диапазон имен таблиц. Если suffix указан, то аргументы `[min, max]` задают диапазон папок, в которых существует таблица с именем, указанным в аргументе suffix.
 
-``LIKE(`prefix`, `pattern`, `suffix`, `view`)` и `REGEXP(`prefix`, `pattern`, `suffix`, `view`)`` — аргумент pattern задается в формате, аналогичном одноименным бинарным операторам: [LIKE](expressions.md#like) и [REGEXP](expressions.md#regexp).
+``LIKE(`prefix`, `pattern`, `suffix`, `view`)` и `REGEXP(`prefix`, `pattern`, `suffix`, `view`)`` — аргумент pattern задается в формате, аналогичном одноименным бинарным операторам: [LIKE](expressions.md#check-match) и [REGEXP](expressions.md#check-match).
 
 ``FILTER(`prefix`, `callable`, `suffix`, `view`)`` — аргумент callable должен являться вызываемым выражением с сигнатурой `(String)->Bool`, который будет вызван для каждой таблицы/подкаталога в каталоге prefix. В запросе будут участвовать только те таблицы, для которых вызываемое значение вернуло `true`. В качестве вызываемого значения удобнее всего использовать [лямбда функции](expressions.md#lambda).
 
@@ -123,7 +123,7 @@ query1 UNION query2 UNION ALL query3
 
 Все аргументы описанных выше функций могут быть объявлены отдельно через [именованные выражения](expressions.md#named-nodes). В этом случае в них также допустимы и простые выражения посредством неявного вызова [EvaluateExpr](../builtins/basic.md#evaluate_expr_atom).
 
-Имя исходной таблицы, из которой изначально была получена каждая строка, можно получить при помощи функции [TablePath()](../builtins/basic.md#tablepath).
+Имя исходной таблицы, из которой изначально была получена каждая строка, можно получить при помощи функции TablePath().
 
 ### Примеры {#primery1}
 

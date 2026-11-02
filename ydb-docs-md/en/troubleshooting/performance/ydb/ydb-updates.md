@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/ydb/ydb-updates.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/ydb/ydb-updates.md"
 description: "YDB clusters can be updated without downtime, which is possible because YDB normally has redundant components and supports rolling restart procedure. To ensure"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Rolling restart

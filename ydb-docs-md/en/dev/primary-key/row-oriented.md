@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/primary-key/row-oriented.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/primary-key/row-oriented.md"
 description: "The way columns are selected for a table's primary key defines YDB's ability to scale load and improve performance."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Selecting a primary key for maximum performance
@@ -16,7 +16,7 @@ The way columns are selected for a table's primary key defines YDB's ability to 
 
 General recommendations for choosing a primary key:
 
-- Avoid situations where the main load falls on one [partition](../../concepts/datamodel/table.md#partitioning) of a table. The more evenly load is distributed across partitions, the better the performance.
+- Avoid situations where the main load falls on one [partition](../../concepts/datamodel/table.md#partitioning_row_table) of a table. The more evenly load is distributed across partitions, the better the performance.
 - Reduce the number of partitions that can be affected in a single request. Moreover, if the request affects no more than one partition, it is performed using a special simplified protocol. This significantly increases the speed and saves the resources.
 
 All YDB tables are sorted by primary key in ascending order. In a table with a monotonically increasing primary key, this will result in new data being added at the end of a table. As YDB splits table data into partitions based on key ranges, inserts are always processed by the same server that is responsible for the "last" partition. Concentrating the load on a single server results in slow data uploading and inefficient use of a distributed system.  

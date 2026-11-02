@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/alter-topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/alter-topic.md"
 description: "You can use the ALTER TOPIC command to change the topic settings, as well as add, update, or delete its consumers."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # ALTER TOPIC
@@ -22,7 +22,9 @@ ALTER TOPIC topic_path action1, action2, ..., actionN;
 
 `action` is one of the alter actions described below.
 
-## Updating a set of consumers
+## Updating a set of consumers {#consumer}
+
+### ADD CONSUMER
 
 `ADD CONSUMER`: Adds a [consumer](../../../concepts/datamodel/topic.md#consumer) to a topic.
 
@@ -89,7 +91,7 @@ ALTER TOPIC `my_topic`
     ALTER CONSUMER my_consumer SET (important = false);
 ```
 
-## Updating topic settings
+## Updating topic settings {#alter-topic}
 
 Using the `SET (option = value[, ...])` action, you can update your topic settings.
 

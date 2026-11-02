@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create-resource-pool-classifier.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-resource-pool-classifier.md"
 description: "CREATE RESOURCE POOL CLASSIFIER creates a resource pool classifier. Syntax."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # CREATE RESOURCE POOL CLASSIFIER
@@ -24,7 +24,7 @@ WITH ( <parameter_name> [= <parameter_value>] [, ... ] )
 - `name` — name of the resource pool classifier to create. Must be unique and must not contain characters forbidden for schema objects.
 - `WITH ( <parameter_name> [= <parameter_value>] [, ... ] )` — parameters that define classifier behavior.
 
-### Parameters
+### Parameters {#common-parameters}
 
 - `RANK` (Int64) — Optional: order in which classifiers are evaluated. If omitted, the maximum existing `RANK` plus 1000 is used. Allowed values: a unique number in .
 - `RESOURCE_POOL` (String) — Required: name of the resource pool for queries that match the classifier.

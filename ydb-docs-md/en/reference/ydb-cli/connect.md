@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/connect.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/connect.md"
 description: "Most of the YDB CLI commands relate to operations on a YDB database and require establishing a connection to it to be executed."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Connecting the CLI to and authenticating with a database

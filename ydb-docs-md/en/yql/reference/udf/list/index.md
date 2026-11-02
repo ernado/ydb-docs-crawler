@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/udf/list/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/udf/list/index.md"
 description: "Many application functions that on the one hand are too specific to become part of the YQL core, and on the other hand might be useful to a wide range of users,"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Functions of built-in C++ libraries

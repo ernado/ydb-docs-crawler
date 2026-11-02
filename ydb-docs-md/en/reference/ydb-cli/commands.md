@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands.md"
 description: "General syntax for calling YDB CLI commands: ydb [global options] < command > [<subcommand>...] [ command options]. where:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # YDB CLI commands
@@ -158,7 +158,7 @@ Any command can be run from the command line with the `--help` option to get hel
 |  | [workload stock run put-same-order](commands/workload/stock.md#submit-same-order) |
 |  | [workload stock run rand-user-hist](commands/workload/stock.md#get-random-customer-history) |
 |  | [workload stock run user-hist](commands/workload/stock.md#get-customer-history) |
-|  | [workload stock clean](commands/workload/stock.md#clean) |
+|  | workload stock clean |
 |  | [workload topic init](workload-topic.md#init) |
 |  | [workload topic run full](workload-topic.md#run-full) |
 |  | [workload topic run read](workload-topic.md#run-read) |

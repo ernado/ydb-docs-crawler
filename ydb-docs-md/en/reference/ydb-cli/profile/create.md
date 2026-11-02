@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/profile/create.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/profile/create.md"
 description: "You can set connection parameter values for the profile being created or updated through the command line or request them in interactive mode in the console."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Creating and updating profiles

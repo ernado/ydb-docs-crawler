@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/examples/schemas/overloaded-shard-simple-case.md"
 description: "В этой статье рассматривается пример диагностики перегруженных шардов и решения этой проблемы."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Пример диагностики перегруженных шардов
@@ -66,7 +66,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 <details>
 <summary>См. графики на панели мониторинга Grafana **CPU**</summary>
 
-Графики на панели мониторинга Grafana **CPU** показывают рост нагрузки на CPU [в пуле ресурсов пользователей и интерконнекта](../../../concepts/glossary.md#actor-system-pool):
+Графики на панели мониторинга Grafana **CPU** показывают рост нагрузки на CPU [в пуле ресурсов пользователей и интерконнекта](../../../reference/configuration/actor_system_config.md#tuneconfig):
 
 ![CPU](https://raw.githubusercontent.com/ydb-platform/ydb/main/ydb/docs/ru/core/troubleshooting/examples/schemas/_assets/overloaded-shard-simple-case/incident-grafana-cpu-dashboard-user-pool-by-actors.png)
 

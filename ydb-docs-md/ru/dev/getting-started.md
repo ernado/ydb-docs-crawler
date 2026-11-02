@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/getting-started.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/getting-started.md"
 description: "Прежде всего, вам необходимо получить доступ к кластеру YDB. Следуйте инструкциям по быстрому запуску, чтобы получить базовый локальный инстанс. Также вы можете"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Начало работы с YDB в роли разработчика приложений

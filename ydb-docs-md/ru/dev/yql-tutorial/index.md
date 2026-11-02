@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/yql-tutorial/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/yql-tutorial/index.md"
 description: "Из этого туториала вы узнаете, как выполнять базовые операции с данными в YDB, и познакомитесь с синтаксисом YQL. Подробное описание этого синтаксиса находится"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Туториал по YQL - Обзор

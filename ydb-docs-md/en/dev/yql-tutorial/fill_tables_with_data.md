@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/yql-tutorial/fill_tables_with_data.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/yql-tutorial/fill_tables_with_data.md"
 description: "Populate the created tables with data using the REPLACE INTO statement."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Adding data to a table

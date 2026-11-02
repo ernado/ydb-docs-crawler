@@ -7,12 +7,12 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 description: "Подготовьте окружение. Перед развёртыванием системы обязательно выполните подготовительные действия. Ознакомьтесь с документом Подготовка к развертыванию."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Развёртывание кластера с использованием конфигурации V1
 
-## Подготовьте окружение
+## Подготовьте окружение {#deployment-preparation}
 
 Перед развёртыванием системы обязательно выполните подготовительные действия. Ознакомьтесь с документом [Подготовка к развертыванию](deployment-preparation.md).
 
@@ -25,7 +25,7 @@ mkdir inventory
 mkdir files
 ```
 
-## Создайте конфигурационный файл Ansible
+## Создайте конфигурационный файл Ansible {#ansible-creat-config}
 
 Создайте `ansible.cfg` с конфигурацией Ansible, подходящей для целевой среды развёртывания. Подробности в [справочнике по конфигурации Ansible](https://docs.ansible.com/ansible/latest/reference_appendices/config.html). Дальнейшее руководство предполагает, что поддиректория `./inventory` рабочей директории настроена для использования файлов инвентаризации.
 
@@ -256,8 +256,8 @@ ssh_args = -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o Contro
 
 Существует несколько вариантов указания того, какие именно исполняемые файлы YDB вы хотите использовать для кластера:
 
-- `ydb_version`: автоматически загрузить один из [официальных релизов YDB](../../../../downloads/index.md#ydb-server) по номеру версии. Например, `23.4.11`.
-- `ydb_archive`: локальный путь файловой системы к архиву дистрибутива YDB, [загруженному](../../../../downloads/index.md#ydb-server) или иным образом подготовленному заранее.
+- `ydb_version`: автоматически загрузить один из [официальных релизов YDB](../../../../downloads/ydb-open-source-database.md) по номеру версии. Например, `23.4.11`.
+- `ydb_archive`: локальный путь файловой системы к архиву дистрибутива YDB, [загруженному](../../../../downloads/ydb-open-source-database.md) или иным образом подготовленному заранее.
 
 Для использования [федеративных запросов](../../../../concepts/query_execution/federated_query/index.md) может потребоваться установка [коннектора](../../../../concepts/query_execution/federated_query/architecture.md#connectors). Плейбук может развернуть [fq-connector-go](../../manual/federated-queries/connector-deployment.md#fq-connector-go) на хостах с динамическими узлами. Используйте следующие настройки:
 
@@ -932,7 +932,7 @@ all:
 
 Остальные секции и настройки конфигурационного файла остаются без изменений.
 
-## Разверните кластер YDB
+## Разверните кластер YDB {#cluster-deployment}
 
 После завершения всех описанных выше подготовительных действий фактическое первоначальное развёртывание кластера сводится к выполнению следующей команды из рабочей директории:
 
@@ -967,9 +967,9 @@ static-node-3.ydb-cluster.com : ok=136  changed=69   unreachable=0    failed=0  
 
 </details>
 
-В результате выполнения плейбука `ydb_platform.ydb.initial_setup` будет создан кластер YDB. Он будет содержать [домен](../../../../concepts/glossary.md#domain) с именем из настройки `ydb_domain` (по умолчанию `Root`), [базу данных](../../../../concepts/glossary.md#database) с именем из настройки `ydb_dbname` (по умолчанию `database`) и начального [пользователя](../../../../concepts/glossary.md#access-user) с именем из настройки `ydb_user` (по умолчанию `root`).
+В результате выполнения плейбука `ydb_platform.ydb.initial_setup` будет создан кластер YDB. Он будет содержать [домен](../../../../concepts/glossary.md#scheme-root) с именем из настройки `ydb_domain` (по умолчанию `Root`), [базу данных](../../../../concepts/glossary.md#database) с именем из настройки `ydb_dbname` (по умолчанию `database`) и начального [пользователя](../../../../concepts/glossary.md#access-user) с именем из настройки `ydb_user` (по умолчанию `root`).
 
-## Дополнительные шаги
+## Дополнительные шаги {#additional-steps}
 
 Самый простой способ исследовать только что развёрнутый кластер — использовать [Embedded UI](../../../../reference/embedded-ui/index.md), работающий на порту 8765 каждого сервера. Если нет прямого доступа к порту из браузера, можно настроить SSH-туннелирование. Для этого выполните команду `ssh -L 8765:localhost:8765 -i <private-key> <user>@<any-ydb-server-hostname>` на локальной машине (при необходимости добавьте дополнительные опции). После успешного установления соединения можно перейти по URL [localhost:8765](http://localhost:8765) через браузер. Браузер может попросить принять исключение безопасности. Пример того, как это может выглядеть:
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/index.md"
 description: "Addressing database performance issues often requires a holistic approach, which includes optimizing queries, properly configuring hardware resources, and ensur"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Troubleshooting performance issues
@@ -47,7 +47,7 @@ Database performance issues can be classified into several categories based on t
 
 ### Insufficient resource issues
 
-These issues refer to situations when the workload demands more physical resources — such as CPU, memory, disk space, and network bandwidth — than allocated to a database. In some cases, suboptimal allocation of resources, for example misconfigured [control groups (cgroups)](https://en.wikipedia.org/wiki/Cgroups) or [actor system pools](../../concepts/glossary.md#actor-system-pool), may also result in insufficient resources for YDB and increase query latencies even though physical hardware resources are still available on the database server.
+These issues refer to situations when the workload demands more physical resources — such as CPU, memory, disk space, and network bandwidth — than allocated to a database. In some cases, suboptimal allocation of resources, for example misconfigured [control groups (cgroups)](https://en.wikipedia.org/wiki/Cgroups) or [actor system pools](../../reference/configuration/actor_system_config.md#tuneconfig), may also result in insufficient resources for YDB and increase query latencies even though physical hardware resources are still available on the database server.
 
 - **[CPU bottlenecks](hardware/cpu-bottleneck.md)**. High CPU usage can result in slow query processing and increased response times. When CPU resources are limited, the database may struggle to handle complex queries or large transaction loads.
 - **[Insufficient disk space](hardware/disk-space.md)**. A lack of available disk space can prevent the database from storing new data, resulting in the database becoming read-only. This might also cause slowdowns as the system tries to reclaim disk space by compacting existing data more aggressively.

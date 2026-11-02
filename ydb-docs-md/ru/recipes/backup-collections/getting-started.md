@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/backup-collections/getting-started.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/backup-collections/getting-started.md"
 description: "Это руководство описывает создание коллекции резервных копий, выполнение первых резервных копий и мониторинг операций. Создание коллекции резервных копий."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Создание первой коллекции резервных копий

@@ -7,14 +7,14 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/hardware/cpu-bottleneck.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/hardware/cpu-bottleneck.md"
 description: "Высокая нагрузка на процессор может привести к медленному выполнению запросов и увеличению задержек. В условиях ограниченного ресурса процессора база данных мож"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Недостаточное быстродействие процессора
 
 Высокая нагрузка на процессор может привести к медленному выполнению запросов и увеличению задержек. В условиях ограниченного ресурса процессора база данных может с трудом справляться со сложными запросами или высоконагруженными транзакционными сценариями использования.
 
-Узлы YDB в основном используют ресурсы процессора на выполнение [акторов](../../../concepts/glossary.md#actor). На каждом узле акторы выполняются с использованием ресурсов одного из [пулов акторной системы](../../../concepts/glossary.md#actor-system-pools). Потребление ресурсов каждого пула измеряется отдельно, что позволяет точнее отслеживать изменения в потреблении ресурсов.
+Узлы YDB в основном используют ресурсы процессора на выполнение [акторов](../../../concepts/glossary.md#actor). На каждом узле акторы выполняются с использованием ресурсов одного из [пулов акторной системы](../../../reference/configuration/actor_system_config.md#tuneconfig). Потребление ресурсов каждого пула измеряется отдельно, что позволяет точнее отслеживать изменения в потреблении ресурсов.
 
 ## Диагностика {#diagnostika}
 
@@ -28,7 +28,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
    4. На вкладке **Info** нажмите на кнопку **CPU** и проверьте уровни загрузки процессора во всех пулах ресурсов.
 
-      ![](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/0b31976d929e6dd165473a40bb0855b365abe8f7/ru/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png)
+      ![](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/b61acf8801342bea386583a9946acfb5e803ab09/ru/troubleshooting/performance/hardware/_assets/embedded-ui-cpu-system-pool.png)
 
 2. Проанализируйте загрузку процессора во всех пулах ресурсов на графиках Grafana:
 

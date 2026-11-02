@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/manual/federated-queries/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/federated-queries/index.md"
 description: "Важно. Данная функциональность находится в режиме \"Experimental\". Общая схема инсталляции."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Развёртывание YDB с функцией Federated Query
@@ -36,7 +36,7 @@ YDB может выполнять [федеративные запросы](../.
 
 ## Пошаговое руководство {#poshagovoe-rukovodstvo}
 
-1. Выполните шаги инструкции по развёртыванию динамического узла YDB до [подготовки конфигурационных файлов](../initial-deployment/index.md#config) включительно.
+1. Выполните шаги инструкции по развёртыванию динамического узла YDB до [подготовки конфигурационных файлов](../initial-deployment/deployment-configuration-v1.md#config) включительно.
 2. Если для доступа к нужному вам источнику требуется развернуть коннектор, сделайте это [согласно инструкции](connector-deployment.md).
 3. [В конфигурационном файле](../../../../reference/configuration/index.md) YDB в секции `feature_flags` включите флаг `enable_external_data_sources`:
 

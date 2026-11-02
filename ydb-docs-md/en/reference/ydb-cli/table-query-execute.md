@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/table-query-execute.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/table-query-execute.md"
 description: "Warning. This command is deprecated. The preferred way to run queries in YDB CLI is to use the ydb sql command."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Running a query
@@ -16,7 +16,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 > This command is deprecated.
 >  The preferred way to run queries in YDB CLI is to use the [`ydb sql`](sql.md) command.
 
-The `table query execute` subcommand is designed for reliable execution of YQL queries. With this sub-command, you can successfully execute your query when certain table partitions are unavailable for a short time (for example, due to being [split or merged](../../concepts/datamodel/table.md#partitioning)) by using built-in retry policies.
+The `table query execute` subcommand is designed for reliable execution of YQL queries. With this sub-command, you can successfully execute your query when certain table partitions are unavailable for a short time (for example, due to being [split or merged](../../concepts/datamodel/table.md#partitioning_row_table)) by using built-in retry policies.
 
 General format of the command:
 

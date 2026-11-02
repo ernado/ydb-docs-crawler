@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/table_service_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/table_service_config.md"
 description: "Секция table_service_config содержит параметры конфигурации для сервиса таблиц, включая настройки спиллинга. spilling_service_config."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # table_service_config
@@ -33,7 +33,7 @@ table_service_config:
 
 ### Конфигурация директории {#konfiguraciya-direktorii}
 
-#### local_file_config.root {#local_file_configroot}
+#### local_file_config.root {#root}
 
 **Тип:** `string`  
  **По умолчанию:** `""` (временная директория)  
@@ -73,7 +73,7 @@ table_service_config:
 
 - `Permission denied` — недостаточные права доступа к директории. См. [Permission denied](../../troubleshooting/spilling/permission-denied.md)
 
-#### local_file_config.max_total_size {#local_file_configmax_total_size}
+#### local_file_config.max_total_size {#local-file-config-max-total-size}
 
 **Тип:** `uint64`  
  **По умолчанию:** `21474836480` (20 GiB)  
@@ -94,9 +94,9 @@ table_service_config:
 >
 > **Важно:** Пул потоков спиллинга отделен от пулов потоков акторной системы.
 >
-> Для получения информации о настройке пулов потоков акторной системы и их влиянии на производительность системы см. [Конфигурация акторной системы](index.md#actor-system) и [Изменение конфигурации акторной системы](../../devops/configuration-management/configuration-v1/change_actorsystem_configs.md). Для Configuration V2 настройки акторной системы описаны в [настройках Configuration V2](../../devops/configuration-management/configuration-v2/config-settings.md).
+> Для получения информации о настройке пулов потоков акторной системы и их влиянии на производительность системы см. [Конфигурация акторной системы](actor_system_config.md#actor-system) и [Изменение конфигурации акторной системы](../../devops/configuration-management/configuration-v1/change_actorsystem_configs.md). Для Configuration V2 настройки акторной системы описаны в [настройках Configuration V2](../../devops/configuration-management/configuration-v2/config-settings.md).
 
-#### local_file_config.io_thread_pool.workers_count {#local_file_configio_thread_poolworkers_count}
+#### local_file_config.io_thread_pool.workers_count {#workerscount}
 
 **Тип:** `uint32`  
  **По умолчанию:** `2`  
@@ -136,7 +136,7 @@ table_service_config:
 > [!WARNING]
 > Однако важно учитывать, что сам спиллинг также требует память. Если установить `activities_limit_percent` слишком высоким, память может все равно закончиться несмотря на спиллинг, поскольку механизм спиллинга сам потребляет ресурсы памяти.
 
-### Требования к файловой системе {#trebovaniya-k-fajlovoj-sisteme}
+### Требования к файловой системе {#file-system-requirements}
 
 #### Файловые дескрипторы {#fajlovye-deskriptory}
 
@@ -181,7 +181,7 @@ table_service_config:
 
 Следующие параметры управляют включением и отключением различных типов спиллинга. Их следует изменять только при наличии специфических требований системы.
 
-##### local_file_config.enable {#local_file_configenable}
+##### local_file_config.enable {#local-file-config-enable}
 
 **Расположение:** `table_service_config.spilling_service_config.local_file_config.enable`  
  **Тип:** `boolean`  

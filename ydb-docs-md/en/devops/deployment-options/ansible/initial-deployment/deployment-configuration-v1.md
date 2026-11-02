@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 description: "Prepare the environment. Before deploying the system, complete the preparation steps. See the Deployment preparation document. Create a working directory."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Deploying a cluster using configuration V1
@@ -256,8 +256,8 @@ Recommended settings to adapt for your environment:
 
 There are several options to specify which YDB executables you want to use for the cluster:
 
-- `ydb_version`: automatically download one of the [official YDB releases](../../../../downloads/index.md#ydb-server) by version number. For example, `23.4.11`.
-- `ydb_archive`: a local filesystem path to a YDB distribution archive [downloaded](../../../../downloads/index.md#ydb-server) or otherwise prepared in advance.
+- `ydb_version`: automatically download one of the [official YDB releases](../../../../downloads/ydb-open-source-database.md) by version number. For example, `23.4.11`.
+- `ydb_archive`: a local filesystem path to a YDB distribution archive [downloaded](../../../../downloads/ydb-open-source-database.md) or otherwise prepared in advance.
 
 Installing a [connector](../../../../concepts/query_execution/federated_query/architecture.md#connectors) may be required for using [federated queries](../../../../concepts/query_execution/federated_query/index.md). The playbook can deploy [fq-connector-go](../../manual/federated-queries/connector-deployment.md#fq-connector-go) on hosts with dynamic nodes. Use the following settings:
 
@@ -967,7 +967,7 @@ static-node-3.ydb-cluster.com : ok=136  changed=69   unreachable=0    failed=0  
 
 </details>
 
-Running the `ydb_platform.ydb.initial_setup` playbook creates a YDB cluster. It will contain a [domain](../../../../concepts/glossary.md#domain) named from the `ydb_domain` setting (default `Root`), a [database](../../../../concepts/glossary.md#database) named from the `ydb_dbname` setting (default `database`), and an initial [user](../../../../concepts/glossary.md#access-user) named from the `ydb_user` setting (default `root`).
+Running the `ydb_platform.ydb.initial_setup` playbook creates a YDB cluster. It will contain a [domain](../../../../concepts/glossary.md#scheme-root) named from the `ydb_domain` setting (default `Root`), a [database](../../../../concepts/glossary.md#database) named from the `ydb_dbname` setting (default `database`), and an initial [user](../../../../concepts/glossary.md#access-user) named from the `ydb_user` setting (default `root`).
 
 ## Additional steps
 

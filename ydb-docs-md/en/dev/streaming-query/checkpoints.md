@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/streaming-query/checkpoints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/streaming-query/checkpoints.md"
 description: "A checkpoint is persisted state of a running streaming query, used to recover processing after failures. YDB periodically checkpoints all running streaming quer"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Checkpoints
@@ -35,7 +35,7 @@ Saving and selecting checkpoints for recovery is automatic. Old checkpoints are 
 
 When you delete a query ([DROP STREAMING QUERY](../../yql/reference/syntax/drop-streaming-query.md)), its checkpoint is deleted with it. Because offsets live only in the checkpoint, a new query ([CREATE STREAMING QUERY](../../yql/reference/syntax/create-streaming-query.md)) has no saved position and starts reading from the end of the topic. Events that arrived between deleting the old query and starting the new one are not read.
 
-The same happens if data referenced by an offset in the checkpoint has already been removed from the topic due to [TTL](../../concepts/datamodel/topic.md#message-retention).
+The same happens if data referenced by an offset in the checkpoint has already been removed from the topic due to [TTL](../../concepts/datamodel/topic.md#retention-time).
 
 For how this affects delivery guarantees, see [Event loss when recreating a query](guarantees.md#incomplete-windows-restart).
 

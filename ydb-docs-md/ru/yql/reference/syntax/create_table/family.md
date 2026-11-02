@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/create_table/family.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create_table/family.md"
 description: "Важно. Поддерживается только для строковых таблиц. Колонки одной таблицы можно объединять в группы, чтобы задать следующие параметры:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Группы колонок
@@ -19,7 +19,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 - `DATA` — тип устройства хранения для данных колонок этой группы. Допустимые значения: `"ssd"`, `"rot"`.
 - `COMPRESSION` — кодек сжатия данных. Допустимые значения: `"off"`, `"lz4"`.
-- `CACHE_MODE` — [режим кэширования](../../../../concepts/datamodel/table.md#cache-modes). Допустимые значения: `"in_memory"`, `"regular"`.
+- `CACHE_MODE` — [режим кэширования](../../../../concepts/datamodel/table.md). Допустимые значения: `"in_memory"`, `"regular"`.
 
 По умолчанию все колонки находятся в одной группе с именем `default`. При необходимости параметры этой группы тоже можно переопределить. В противном случае применяются предопределённые значения.
 

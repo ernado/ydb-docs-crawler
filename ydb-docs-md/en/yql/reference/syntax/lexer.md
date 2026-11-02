@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/lexer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/lexer.md"
 description: "The query in the YQL language is a valid UTF-8 text consisting of statements separated by semicolons (; ). The last semicolon can be omitted."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Lexical structure
@@ -229,7 +229,7 @@ SELECT $text;
 
 ### Typed string literals
 
-- For string literals, including [multi-string](lexer.md#multiline-string-literals) ones, the `String` type is used by default (see also [PRAGMA UnicodeLiterals](pragma.md#UnicodeLiterals)).
+- For string literals, including [multi-string](lexer.md#multiline-string-literals) ones, the `String` type is used by default (see also [PRAGMA UnicodeLiterals](pragma.md#unicodeliterals)).
 
 - You can use the following suffixes to explicitly control the literal type:
 

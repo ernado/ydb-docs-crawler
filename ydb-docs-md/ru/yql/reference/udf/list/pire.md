@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/udf/list/pire.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/pire.md"
 description: "Список функций. Pire::Grep(pattern:String) -> (string:String?) -> Bool. Pire::Match(pattern:String) -> (string:String?) -> Bool."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Pire
@@ -89,7 +89,7 @@ SELECT
 - Если вас интересует совпадение строки с любым из перечисленных выражений (результаты объединяются через «или»), то намного эффективнее сделать одно регулярное выражение, объединив части с помощью оператора `|`, и использовать для поиска обычный Grep или Match.
 - В библиотеке Pire установлен лимит на размер конечного автомата (в YQL используется значение этого лимита, установленное по умолчанию в библиотеке). Если лимит превышен, при запуске запроса вернется ошибка `Failed to glue up regexes, probably the finite state machine appeared to be too large`.
 
-При вызове функций MultiGrep/MultiMatch регулярные выражения передаются по одному на строку с использованием [многострочных строковых литералов](../../syntax/expressions.md#multiline-string-literals):
+При вызове функций MultiGrep/MultiMatch регулярные выражения передаются по одному на строку с использованием [многострочных строковых литералов](../../syntax/lexer.md#multiline-string-literals):
 
 ### Примеры {#primery1}
 

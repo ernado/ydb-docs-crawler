@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/migration/migration-to-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/migration/migration-to-v1.md"
 description: "Данный документ содержит инструкцию по миграции с конфигурации V2 на конфигурацию V1. Примечание."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Миграция на конфигурацию V1
@@ -39,7 +39,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
    <details>
    <summary>Подробнее</summary>
 
-   Аргумент `--v2-internal-state` указывает, что будет получена полная конфигурация кластера, включая параметры настройки [State Storage](../../../reference/configuration/index.md#domains-state) и [статической группы](../../../reference/configuration/index.md#blob_storage_config).
+   Аргумент `--v2-internal-state` указывает, что будет получена полная конфигурация кластера, включая параметры настройки [State Storage](../../../reference/configuration/domains_config.md#domains-state) и [статической группы](../../../reference/configuration/blob_storage_config.md).
 
    </details>
 

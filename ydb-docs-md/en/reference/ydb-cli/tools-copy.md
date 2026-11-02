@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/tools-copy.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/tools-copy.md"
 description: "Using the tools copy subcommand, you can create a copy of one or more DB tables. The copy operation leaves the source table unchanged while the copy contains al"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Copying tables

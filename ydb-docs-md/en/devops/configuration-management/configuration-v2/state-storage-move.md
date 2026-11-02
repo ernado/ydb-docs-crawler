@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v2/state-storage-move.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v2/state-storage-move.md"
 description: "Article under development. Warning."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # State Storage Move
@@ -45,7 +45,7 @@ As an example, consider a YDB cluster where node 1 is part of State Storage, and
    ...
    ```
 
-   A [static node](config-settings.md#hosts) is configured and running on the host with `node_id:1`, which is a part of State Storage. Suppose we need to decommission this host.
+   A [static node](../../../reference/configuration/hosts.md) is configured and running on the host with `node_id:1`, which is a part of State Storage. Suppose we need to decommission this host.
 
    To replace `node_id:1`, we use another host with a static node deployed on it with `node_id:10`.
 

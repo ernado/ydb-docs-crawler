@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/commands/scheme-permissions.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/commands/scheme-permissions.md"
 description: "General list of commands. You can get a list of available commands via interactive help: ydb scheme permissions -- help."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Permissions
@@ -40,7 +40,7 @@ permissions                 Modify permissions
 All commands have an additional parameter, which is not critical for them:  
  `--timeout ms` - a technical parameter that sets the server response timeout.
 
-## grant, revoke {#grant,-revoke}
+## grant, revoke
 
 The `grant` and `revoke` commands allow you to establish and revoke, respectively, access rights to schema objects for a user or group of users. Essentially, they are analogues of the corresponding YQL [GRANT](../../../yql/reference/syntax/grant.md) and [REVOKE](../../../yql/reference/syntax/revoke.md) commands.
 

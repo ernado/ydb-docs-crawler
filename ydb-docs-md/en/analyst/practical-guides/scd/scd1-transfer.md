@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/analyst/practical-guides/scd/scd1-transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/practical-guides/scd/scd1-transfer.md"
 description: "This article describes the implementation of the Slowly Changing Dimensions Type 1 (SCD1) pattern in YDB. Used tools."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Using the TRANSFER mechanism to implement SCD1 based on data from CDC sources in YDB
@@ -18,8 +18,8 @@ This article describes the implementation of the Slowly Changing Dimensions Type
 
 For delivering data to the SCD1 table, the following combination of functional capabilities of YDB will be used in this article:
 
-1. The source table will be [row-oriented](../../../concepts/datamodel/table.md#row-oriented-table) for operational transactional changes;
-2. The target table will be [column-oriented](../../../concepts/datamodel/table.md#column-oriented-table) for efficient execution of analytical queries;
+1. The source table will be [row-oriented](../../../concepts/datamodel/table.md#row-oriented-tables) for operational transactional changes;
+2. The target table will be [column-oriented](../../../concepts/datamodel/table.md#column-oriented-tables) for efficient execution of analytical queries;
 3. The subscription to changes in the source table will be implemented through the [Change Data Capture (CDC)](../../../concepts/cdc.md) mechanism;
 4. The buffering of changes will be handled by an implicitly created CDC [topic](../../../concepts/datamodel/topic.md);
 5. The automatic transfer of data from the CDC topic to the target table will be handled by [transfer](../../../concepts/transfer.md).

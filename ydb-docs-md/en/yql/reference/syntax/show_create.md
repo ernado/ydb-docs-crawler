@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/show_create.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/show_create.md"
 description: "SHOW CREATE returns a query required to recreate the structure of the specified object: a table or view. The returned query may contain multiple DDL statements."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # SHOW CREATE

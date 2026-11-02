@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/ydb-sdk/balancing-prefer-location.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/ydb-sdk/balancing-prefer-location.md"
 description: "Below are examples of setting the \"prefer availability zone\" balancing algorithm in different YDB SDKs. Go. C++. Python. JavaScript. Java. Rust. Native SDK."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Prefer a specific availability zone

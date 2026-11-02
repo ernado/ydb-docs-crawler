@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/migration/migration-to-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/migration/migration-to-v1.md"
 description: "This document contains instructions for migrating from configuration V2 to configuration V1. Note."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Migration to Configuration V1
@@ -39,7 +39,7 @@ To migrate the YDB cluster to configuration V1, you need to perform the followin
    <details>
    <summary>More details</summary>
 
-   The `--v2-internal-state` argument specifies that the full cluster configuration will be retrieved, including [State Storage](../../../reference/configuration/domains_config.md#domains-state) and [static group](../../../reference/configuration/blob_storage_config.md#blob_storage_config) configuration parameters.
+   The `--v2-internal-state` argument specifies that the full cluster configuration will be retrieved, including [State Storage](../../../reference/configuration/domains_config.md#domains-state) and [static group](../../../reference/configuration/blob_storage_config.md) configuration parameters.
 
    </details>
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/infrastructure/hardware.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/infrastructure/hardware.md"
 description: "Malfunctioning storage drives and network cards, until replaced, significantly impact database performance up to total unavailability of the affected server. CP"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Hardware issues

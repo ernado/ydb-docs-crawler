@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/connect.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/connect.md"
 description: "Для соединения с БД YDB из YDB CLI или приложения, использующего YDB SDK, необходимо указать эндпоинт и путь базы данных. Эндпоинт."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Соединение с БД

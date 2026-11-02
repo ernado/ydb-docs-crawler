@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/builtins/json.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/json.md"
 description: "JSON is a lightweight data-interchange format. In YQL, it's represented by the Json type. Unlike relational tables, JSON can store data with no schema defined."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Functions for JSON
@@ -478,7 +478,7 @@ JsonPath supports predicates which are expressions that return a Boolean value a
 
 #### `like_regex` {#like_regex}
 
-The `like_regex` predicate lets you check if a string matches a regular expression. The syntax of regular expressions is the same as in [Hyperscan UDF](../udf/list/hyperscan.md) and [REGEXP](../syntax/expressions.md#regexp).
+The `like_regex` predicate lets you check if a string matches a regular expression. The syntax of regular expressions is the same as in [Hyperscan UDF](../udf/list/hyperscan.md) and [REGEXP](../syntax/expressions.md#check-match).
 
 ##### Syntax
 

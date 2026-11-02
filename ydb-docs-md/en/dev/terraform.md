@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/terraform.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/terraform.md"
 description: "Terraform can create, delete, and modify the following objects inside a YDB cluster: tables. indexes of tables. change data capture for tables. topics. Warning."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Managing YDB using Terraform
@@ -301,7 +301,7 @@ family {
 
 #### partitioning_settings
 
-The `partitioning_settings` argument describes [partitioning settings](../concepts/datamodel/table.md#partitioning).
+The `partitioning_settings` argument describes [partitioning settings](../concepts/datamodel/table.md#partitioning_row_table).
 
 Example:
 

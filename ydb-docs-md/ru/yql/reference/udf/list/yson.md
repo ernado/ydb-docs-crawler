@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/udf/list/yson.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/yson.md"
 description: "YSON — разработанный в Яндексе формат данных, похожий на JSON. Сходства с JSON: не имеет строгой схемы;"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Yson
@@ -41,7 +41,7 @@ YSON — разработанный в Яндексе формат данных,
   - `Yson::YPath***` — получение одного элемента дерева документа по указанному относительному пути с опциональным преобразованием в нужный тип данных;
   - `Yson::Serialize***` — получить из ресурса копию его данных, сериализованную в одном из форматов;
 
-- Для удобства при передаче сериализованного Yson и Json в функции, ожидающие на входе ресурс с DOM-объектом, неявное преобразование через `Yson::Parse` или `Yson::ParseJson` происходит автоматически. Также в SQL синтаксисе оператор точки или квадратных скобок автоматически добавляет вызов `Yson::Lookup`. Для сериализации ресурса по-прежнему нужно вызывать `Yson::ConvertTo***` или `Yson::Serialize***`. Таким образом, например, получение элемента "foo" словаря из колонки mycolumn типа Yson в виде строки может выглядеть так: `SELECT Yson::ConvertToString(mycolumn["foo"]) FROM mytable;` или `SELECT Yson::ConvertToString(mycolumn.foo) FROM mytable;`. В варианте с точкой можно экранировать спецсимволы по [общим правилам для индентификаторов](../../syntax/expressions.md#escape).
+- Для удобства при передаче сериализованного Yson и Json в функции, ожидающие на входе ресурс с DOM-объектом, неявное преобразование через `Yson::Parse` или `Yson::ParseJson` происходит автоматически. Также в SQL синтаксисе оператор точки или квадратных скобок автоматически добавляет вызов `Yson::Lookup`. Для сериализации ресурса по-прежнему нужно вызывать `Yson::ConvertTo***` или `Yson::Serialize***`. Таким образом, например, получение элемента "foo" словаря из колонки mycolumn типа Yson в виде строки может выглядеть так: `SELECT Yson::ConvertToString(mycolumn["foo"]) FROM mytable;` или `SELECT Yson::ConvertToString(mycolumn.foo) FROM mytable;`. В варианте с точкой можно экранировать спецсимволы по [общим правилам для индентификаторов](../../syntax/lexer.md#keywords-and-ids).
 
 Функции модуля стоит рассматривать как «кубики», из которых можно собирать разные конструкции, например:
 
@@ -302,7 +302,7 @@ SELECT Yson::ConvertToBoolDict($yson, Yson::Options(false as Strict)); --- { "y"
 SELECT Yson::ConvertToDoubleDict($yson, Yson::Options(false as Strict)); --- { "x": 5.5 }
 ```
 
-Если во всём запросе требуется применять одинаковые значения настроек библиотеки Yson, то удобнее воспользоваться [PRAGMA yson.AutoConvert;](../../syntax/pragma.md#yson.autoconvert) и/или [PRAGMA yson.Strict;](../../syntax/pragma.md#yson.strict). Также эти `PRAGMA` являются единственным способом повлиять на неявные вызовы библиотеки Yson, которые возникают при работе с типами данных Yson/Json.
+Если во всём запросе требуется применять одинаковые значения настроек библиотеки Yson, то удобнее воспользоваться [PRAGMA yson.AutoConvert;](../../syntax/pragma.md#ysonautoconvert) и/или [PRAGMA yson.Strict;](../../syntax/pragma.md#ysonstrict). Также эти `PRAGMA` являются единственным способом повлиять на неявные вызовы библиотеки Yson, которые возникают при работе с типами данных Yson/Json.
 
 ## Смотрите также {#smotrite-takzhe}
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/federated_query/s3/write_data.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/s3/write_data.md"
 description: "In YDB, you can use external connections or external tables to write data to the Yandex Object Storage bucket. Writing Data via External Connection."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Writing Data to S3 Buckets (Yandex Object Storage)

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/authentication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/authentication.md"
 description: "Once a network connection is established, the server starts to accept client requests with authentication information for processing. The server uses it to iden"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Authentication
@@ -33,7 +33,7 @@ However, if a user or token is specified, the corresponding authentication mode 
 > [!WARNING]
 > Anonymous authentication should be used only for informational purposes for local databases that are not accessible over the network.
 
-To enable anonymous authentication, use `false` in the `enforce_user_token_requirement` key of the cluster's [configuration file](../reference/configuration/auth_config.md#auth).
+To enable anonymous authentication, use `false` in the `enforce_user_token_requirement` key of the cluster's [configuration file](../reference/configuration/security_config.md#security-auth).
 
 ## Authenticating by username and password {#static-credentials}
 
@@ -144,7 +144,7 @@ By default, YDB only searches for groups in which the user is a direct member. H
 > ```
 
 > [!NOTE]
-> In the configuration file section that specifies authentication information, the refresh rate for user and group information can be set using the **refresh_time** parameter. For more detailed information about configuration files, refer to the [cluster configuration](../reference/configuration/auth_config.md#auth-config) section.
+> In the configuration file section that specifies authentication information, the refresh rate for user and group information can be set using the **refresh_time** parameter. For more detailed information about configuration files, refer to the [cluster configuration](../reference/configuration/auth_config.md#ldap-auth-config) section.
 
 > [!WARNING]
 > It should be noted that currently, YDB does not have the capability to track group renaming on the LDAP server side. Consequently, a group with a new name will not retain the rights assigned to the group under its previous name.

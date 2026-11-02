@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/observability/minidumps.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/observability/minidumps.md"
 description: "The ydbd nodes in YDB can collect minidumps when the process crashes, using the built-in Google Breakpad. A minidump is a compact snapshot of the process state"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Minidumps (built-in Google Breakpad)

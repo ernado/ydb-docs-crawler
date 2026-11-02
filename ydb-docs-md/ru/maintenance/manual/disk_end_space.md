@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/disk_end_space.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/disk_end_space.md"
 description: "При исчерпании места на дисках база данных может отвечать ошибками на все запросы. Для сохранения работоспособности рекомендуется удалить часть данных или расши"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Освобождение места на физических устройствах
@@ -73,4 +73,4 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 ## Перевоз отдельных VDisk'ов с заполненных устройств {#perevoz-otdelnyh-vdiskov-s-zapolnennyh-ustrojstv}
 
-Если дефрагментация не помогает освободить место на устройстве, то можно [перевозить](moving_vdisks.md#moving_disk) отдельные VDisk'и.
+Если дефрагментация не помогает освободить место на устройстве, то можно [перевозить](moving_vdisks.md#moving_vdisk) отдельные VDisk'и.

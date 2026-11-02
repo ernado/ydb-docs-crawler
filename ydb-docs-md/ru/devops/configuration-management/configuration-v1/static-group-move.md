@@ -7,17 +7,17 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v1/static-group-move.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/static-group-move.md"
 description: "Если нужно вывести из эксплуатации хост кластера YDB, на котором располагается часть статической группы, необходимо переместить её на другой хост. Важно."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Перемещение статической группы
 
-Если нужно вывести из эксплуатации хост кластера YDB, на котором располагается часть [статической группы](../../../reference/configuration/index.md#blob_storage_config), необходимо переместить её на другой хост.
+Если нужно вывести из эксплуатации хост кластера YDB, на котором располагается часть [статической группы](../../../reference/configuration/blob_storage_config.md), необходимо переместить её на другой хост.
 
 > [!WARNING]
 > Неправильная последовательность действий или ошибка в конфигурации могут привести к недоступности кластера YDB.
 
-В качестве примера рассмотрим кластер YDB, в котором на хосте с `node_id:1` сконфигурирован и запущен [статический узел](../../../reference/configuration/index.md#hosts). Этот узел обслуживает часть статической группы.
+В качестве примера рассмотрим кластер YDB, в котором на хосте с `node_id:1` сконфигурирован и запущен [статический узел](../../../reference/configuration/hosts.md). Этот узел обслуживает часть статической группы.
 
 Фрагмент конфигурации статической группы:
 

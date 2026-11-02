@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/analytics/concepts/federated.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/analytics/concepts/federated.md"
 description: "Федеративные запросы — это возможность выполнять запросы к данным, хранящимся во внешних системах, без их предварительной загрузки (ETL) в YDB. Наиболее популяр"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Федеративные запросы

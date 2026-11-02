@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/s3/external_data_source.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/s3/external_data_source.md"
 description: "Перед началом работы с S3 необходимо настроить подключение к хранилищу данных. Для этого существует DDL для настройки таких подключений. Далее рассмотрим SQL си"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Чтение из бакетов S3 через внешние источники данных
@@ -103,7 +103,7 @@ WHERE
 - `s3_external_datasource_name` — название внешнего источника данных, ведущего на бакет с S3-совместимым хранилищем данных.
 - `file_path` — путь к файлу или файлам внутри бакета. Поддерживаются подстановочные знаки `*`, `?`, `{ ... }`; подробнее [в разделе](external_data_source.md#path_format).
 - `file_format` — [формат данных](formats.md#formats) в файлах, обязательно.
-- `compression` — [формат сжатия](formats.md#compression_formats) файлов, опционально.
+- `compression` — [формат сжатия](formats.md#compression) файлов, опционально.
 - `schema_definition` — [описание схемы хранимых данных](external_data_source.md#schema) в файлах, обязательно.
 - `format_settings` — [параметры форматирования](external_data_source.md#format_settings), опционально.
 
@@ -154,7 +154,7 @@ WHERE
 - `s3_external_datasource_name` — название внешнего источника данных, ведущего на S3 бакет.
 - `file_path` — путь к файлу или файлам внутри бакета. Поддерживаются подстановочные знаки `*`, `?`, `{ ... }`; подробнее [ниже](external_data_source.md#path_format).
 - `file_format` — [формат данных](formats.md#formats) в файлах. Поддерживаются все форматы, кроме `raw` и `json_as_string`.
-- `compression` — опциональный [формат сжатия](formats.md#compression_formats) файлов.
+- `compression` — опциональный [формат сжатия](formats.md#compression) файлов.
 
 В результате выполнения такого запроса будут автоматически выведены названия и типы полей.
 

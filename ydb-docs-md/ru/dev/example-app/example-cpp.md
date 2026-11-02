@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/example-app/example-cpp.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/example-cpp.md"
 description: "На этой странице подробно разбирается код тестового приложения, доступного в составе C++ SDK YDB. Инициализация соединения с базой данных."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Приложение на C++

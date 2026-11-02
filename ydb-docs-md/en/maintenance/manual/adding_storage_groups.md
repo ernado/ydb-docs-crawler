@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/maintenance/manual/adding_storage_groups.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/maintenance/manual/adding_storage_groups.md"
 description: "As the amount of stored data grows, you may need to add disks to your YDB cluster. You can add disks either to existing nodes or along with new nodes. To make t"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Adding storage groups
 
-As the amount of stored data grows, you may need to add disks to your YDB cluster. You can add disks either to existing nodes or along with new nodes. To make the resources of new disks available to the database, add [storage groups](../../concepts/glossary.md#storage-groups).
+As the amount of stored data grows, you may need to add disks to your YDB cluster. You can add disks either to existing nodes or along with new nodes. To make the resources of new disks available to the database, add [storage groups](../../concepts/glossary.md#storage-group).
 
 To add new storage groups, use [YDB DSTool](../../reference/ydb-dstool/index.md).
 

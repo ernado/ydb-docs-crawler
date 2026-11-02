@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/builtin-security.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/builtin-security.md"
 description: "Initial security is configured automatically when the YDB cluster starts for the first time."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Initial cluster security configuration
@@ -74,4 +74,4 @@ To specify custom users, groups, and access rights to be created during the init
 
 ## Skipping initial security configuration {#skip-initial-security}
 
-You can skip initial security configuration by setting the [`security_config.disable_builtin_security`](../reference/configuration/domains_config.md#domains-config) parameter to `true`.
+You can skip initial security configuration by setting the [`security_config.disable_builtin_security`](../reference/configuration/security_config.md#built-in-security-configuration) parameter to `true`.

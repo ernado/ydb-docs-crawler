@@ -112,7 +112,7 @@
       - [Перезапуск](ru/devops/deployment-options/ansible/restart.md)
       - [Обновление конфигурации](ru/devops/deployment-options/ansible/update-config.md)
       - [Обновление исполняемого файла](ru/devops/deployment-options/ansible/update-executable.md)
-      - Наблюдаемость
+      - [Наблюдаемость](ru/devops/deployment-options/ansible/observability/index.md)
         - [Логирование](ru/devops/deployment-options/ansible/observability/logging.md)
     - [Kubernetes](ru/devops/deployment-options/kubernetes/index.md)
       - [Первоначальное развёртывание](ru/devops/deployment-options/kubernetes/initial-deployment.md)

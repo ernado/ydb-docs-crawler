@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/ansible/preparing-vms-with-terraform.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/preparing-vms-with-terraform.md"
 description: "Развернуть кластер YDB для использования в production можно тремя рекомендованными способами: с помощью Ansible, Kubernetes или вручную. Если вариант с Kubernet"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Развёртывание инфраструктуры для кластера YDB с помощью Terraform

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/glossary.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/glossary.md"
 description: "This article is an overview of terms and definitions used in YDB and its documentation. It starts with key terms that will be useful to get acquainted with earl"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # YDB glossary
@@ -79,6 +79,10 @@ A static group might require special attention during major maintenance, such as
 #### Dynamic group
 
 Regular storage groups that are not [static](glossary.md#static-group) are called **dynamic groups**. They are called dynamic because they can be created and decommissioned on the fly during [cluster](glossary.md#cluster) operation.
+
+#### Virtual storage group {#virtual-storage-groups}
+
+**Virtual storage group** is an entity that is not actually a [storage group](glossary.md#storage-group), but looks like one from the outside (provides a similar external interface). It can store its data in other storage groups or in S3.
 
 ### Storage pool
 
@@ -202,6 +206,14 @@ A special type of **secondary index** is singled out separately - [vector index]
  The capabilities of YDB regarding **ANN search** (approximate nearest neighbor search) with vector indexes are described in a separate article [Vector Indexes](../dev/vector-indexes.md).
 
 **Vector index** is distinct from a [secondary index](glossary.md#secondary-index) as it solves other tasks.
+
+#### Full-text index {#fulltext-index}
+
+**Full-text index** is a secondary index type used for full-text search over table columns.
+
+#### Local Bloom index {#local-bloom-skip-index}
+
+**Local Bloom index** is a skip index based on Bloom filters for efficient data filtering.
 
 #### Column family
 
@@ -344,7 +356,7 @@ A **database root** is a path to a database in a YDB cluster scheme.
 
 ### Scheme root
 
-A **scheme root** is a root element of a [YDB cluster scheme](datamodel/index.md#cluster-scheme). Children elements of the cluster scheme root can be [databases](glossary.md#database) or other [scheme objects](glossary.md#scheme-object).
+A **scheme root** is a root element of a [YDB cluster scheme](datamodel/cluster-namespace.md). Children elements of the cluster scheme root can be [databases](glossary.md#database) or other [scheme objects](glossary.md#scheme-object).
 
 ### Scheme object
 
@@ -598,6 +610,10 @@ The **Mediator** is a system tablet that distributes the transactions planned by
 #### Hive
 
 A **Hive** is a system tablet responsible for launching and managing other tablets. It also moves tablets between nodes in case of [node](glossary.md#node) failures or overload. You can learn more about Hive in a [dedicated article](../contributor/hive.md).
+
+#### Console
+
+**Console** is a system tablet responsible for storing [dynamic configuration](../devops/configuration-management/configuration-v1/dynamic-config.md) and delivering it to cluster nodes.
 
 #### Cluster management system {#cms}
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/downloads/yandex-enterprise-database.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/yandex-enterprise-database.md"
 description: "Yandex Enterprise Database is a commercial database management system based on the YDB core. Yandex Enterprise Database Usage Terms."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Download Yandex Enterprise Database
@@ -100,7 +100,7 @@ YDB Enterprise Server (`ydbd`) is an executable file for running a Yandex Enterp
 | **v23.4** |  |  |  |  |
 | v.23.4.11 | 14.05.24 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:23.4.11` | [See list](../changelog-enterprise.md#23-4) |  |
 | **v23.3** |  |  |  |  |
-| v.23.3.17 | 14.12.23 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:23.3.17` | [See list](../changelog-server.md#23-3-17) |  |
+| v.23.3.17 | 14.12.23 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:23.3.17` | [See list](../changelog-server.md#23-3) |  |
 | v.23.3.13 | 12.10.23 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:23.3.13` | [See list](../changelog-server.md#23-3) |  |
 
 ## Certified version {#certified}

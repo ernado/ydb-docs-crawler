@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/ingestion/logstash.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/ingestion/logstash.md"
 description: "This section describes the integration options between YDB and Logstash, a server-side data collection and processing pipeline. Introduction."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Integrating Logstash and YDB
@@ -18,7 +18,7 @@ This section describes the integration options between YDB and Logstash, a serve
 
 [Logstash](https://www.elastic.co/logstash) dynamically ingests, transforms, and ships data regardless of format or complexity. A Logstash pipeline can contain different types of plugins: input, output, and filter. The YDB Logstash plugins repository is hosted on [GitHub](https://github.com/ydb-platform/ydb-logstash-plugins) and contains the following plugins:
 
-- **Storage Plugin** for persisting Logstash events in [row-oriented](../../concepts/datamodel/table.md#row-oriented-table) or [column-oriented](../../concepts/datamodel/table.md#olap-data-types) YDB tables;
+- **Storage Plugin** for persisting Logstash events in [row-oriented](../../concepts/datamodel/table.md#row-oriented-tables) or [column-oriented](../../concepts/datamodel/table.md#column-oriented-tables) YDB tables;
 - **Input Topic Plugin** for reading Logstash events from YDB [topics](../../concepts/datamodel/topic.md);
 - **Output Topic Plugin** for sending Logstash events to YDB [topics](../../concepts/datamodel/topic.md).
 
@@ -64,7 +64,7 @@ ydb_storage {
 
 ## YDB Storage Plugin
 
-This plugin allows storing the Logstash events stream in YDB tables for further analysis. This is especially useful with [column-oriented tables](../../concepts/datamodel/table.md#column-tables) optimized for handling Online Analytical Processing (OLAP) requests. Every [field](https://www.elastic.co/guide/en/logstash/current/event-dependent-configuration.html) of a Logstash event will be stored in a column with a corresponding name. Fields that do not match any column will be ignored.
+This plugin allows storing the Logstash events stream in YDB tables for further analysis. This is especially useful with [column-oriented tables](../../concepts/datamodel/table.md#column-oriented-tables) optimized for handling Online Analytical Processing (OLAP) requests. Every [field](https://www.elastic.co/guide/en/logstash/current/event-dependent-configuration.html) of a Logstash event will be stored in a column with a corresponding name. Fields that do not match any column will be ignored.
 
 ### Configuration
 

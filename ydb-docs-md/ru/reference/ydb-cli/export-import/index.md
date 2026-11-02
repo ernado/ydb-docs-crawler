@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/export-import/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/index.md"
 description: "YDB CLI содержит набор команд, предназначенных для выгрузки (экспорта) и загрузки (импорта) данных и описаний объектов схемы данных. Выгрузка данных может приме"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Выгрузка и загрузка данных

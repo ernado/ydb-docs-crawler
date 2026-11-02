@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/scrubbing.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/scrubbing.md"
 description: "Scrubbing — процесс читает данные, проверяет их на целостность и, если нужно, восстанавливает ее. Процесс запущен по умолчанию, интервал между окончанием провер"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Включение и выключение Scrubbing

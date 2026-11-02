@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/udf/list/re2.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/udf/list/re2.md"
 description: "Список функций."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Re2
@@ -55,7 +55,7 @@ SELECT
 
 Если вынести за скобки детали реализации и синтаксиса регулярных выражений, эти функции полностью аналогичны [одноименным функциям](pire.md#match) из модуля Pire. При прочих равных и отсутствии каких-либо специфических предпочтений мы рекомендуем пользоваться `Pire::Grep / Pire::Match`.
 
-Функцию `Re2::Grep` можно вызвать с помощью выражения `REGEXP` (см. [описание базового синтаксиса выражений](../../syntax/expressions.md#regexp)).
+Функцию `Re2::Grep` можно вызвать с помощью выражения `REGEXP` (см. [описание базового синтаксиса выражений](../../syntax/expressions.md#check-match)).
 
 Например, следующие два запроса эквивалентны (в том числе по эффективности вычислений):
 

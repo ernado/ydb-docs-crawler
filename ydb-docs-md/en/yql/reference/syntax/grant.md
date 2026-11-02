@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/grant.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/grant.md"
 description: "The GRANT command allows setting access rights to schema objects for a user or group of users. Syntax:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # GRANT

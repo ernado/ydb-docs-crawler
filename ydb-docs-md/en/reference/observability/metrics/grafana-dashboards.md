@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/observability/metrics/grafana-dashboards.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/metrics/grafana-dashboards.md"
 description: "This page describes Grafana dashboards for YDB."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Grafana dashboards for YDB
@@ -59,8 +59,8 @@ This section contains graphs showing database resource utilization.
 
 | Name | Description |
 | --- | --- |
-| CPU by thread pool (dynnodes) | CPU consumption by dynamic nodes per [execution pool](../../../devops/configuration-management/configuration-v2/config-settings.md#tuneconfig), in CPU cores. |
-| CPU utilization (dynnodes) | CPU utilization by dynamic nodes per [execution pool](../../../devops/configuration-management/configuration-v2/config-settings.md#tuneconfig), in %. |
+| CPU by thread pool (dynnodes) | CPU consumption by dynamic nodes per [execution pool](../../configuration/actor_system_config.md#tuneconfig), in CPU cores. |
+| CPU utilization (dynnodes) | CPU utilization by dynamic nodes per [execution pool](../../configuration/actor_system_config.md#tuneconfig), in %. |
 | Elapsed Time vs CPU Time | Ratio of real operation execution time (`ElapsedMicrosec`) to CPU time (`CpuMicrosec`) by node. A sustained excess above 100% means sessions are spending time waiting rather than actively working: typically this is I/O wait or CPU overcommit on the hypervisor side. |
 | RSS size by node | Amount of RAM (Resident set size) consumed by each dynamic node, showing cgroup memory limits, in bytes. |
 | Storage usage | Logical database size and its configured limit, in bytes. |
@@ -112,7 +112,7 @@ Download the **Actors** dashboard template: [actors.json](https://raw.githubuser
 
 ## CPU
 
-CPU consumption in [execution pools](../../../devops/configuration-management/configuration-v2/config-settings.md#tuneconfig).
+CPU consumption in [execution pools](../../configuration/actor_system_config.md#tuneconfig).
 
 | Name | Description |
 | --- | --- |

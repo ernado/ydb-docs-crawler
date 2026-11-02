@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/system/system-clock-drift.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/system/system-clock-drift.md"
 description: "Синхронизированное время на серверах баз данных имеет важное значение для распределённых баз данных. Если системные часы на серверах YDB будут сильно расходитьс"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Расхождение системного времени между серверами

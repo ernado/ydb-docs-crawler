@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/yql-tutorial/conditional_values.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/yql-tutorial/conditional_values.md"
 description: "Select all the episode names of the first season of each series and sort them by name. Note."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Additional selection criteria

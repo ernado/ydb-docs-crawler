@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/queries/tli-logging.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/queries/tli-logging.md"
 description: "Логирование инвалидации блокировок транзакций (TLI) позволяет установить, у какого запроса были сломаны блокировки (жертва) и какой запрос их сломал (нарушитель"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Логирование TLI

@@ -6,13 +6,15 @@ version: "v26.1"
 lang: "en"
 source_path: "en/core/devops/observability/monitoring.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/observability/monitoring.md"
-description: "This page explains how to set up monitoring for a YDB cluster."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+description: "This page explains how to set up monitoring for a YDB cluster. Viewing metrics in the web interface."
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Setting Up YDB Cluster Monitoring
 
 This page explains how to set up monitoring for a YDB cluster.
+
+## Viewing metrics in the web interface {#web-metrics}
 
 YDB provides numerous system state metrics. Instant metric values can be viewed in the web interface:
 

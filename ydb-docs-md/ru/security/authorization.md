@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/security/authorization.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/security/authorization.md"
 description: "Основные понятия. Авторизация в YDB основана на понятиях: Объект доступа. Субъект доступа. Права доступа. Список доступов. Владелец. Пользователь. Группа."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Авторизация
@@ -19,7 +19,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 - [Объект доступа](../concepts/glossary.md#access-object)
 - [Субъект доступа](../concepts/glossary.md#access-subject)
 - [Права доступа](../concepts/glossary.md#access-right)
-- [Список доступов](../concepts/glossary.md#access-acl)
+- [Список доступов](../concepts/glossary.md#access-control-list)
 - [Владелец](../concepts/glossary.md#access-owner)
 - [Пользователь](../concepts/glossary.md#access-user)
 - [Группа](../concepts/glossary.md#access-group)
@@ -61,7 +61,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 YDB позволяет работать с [пользователями](../concepts/glossary.md#access-user) из разных каталогов и систем, и они отличаются [SID](../concepts/glossary.md#access-sid) с использованием суффикса.
 
-Суффикс `@<auth-domain>` идентифицирует «источник пользователя», внутри которого гарантируется уникальность всех логинов или идентификаторов пользователей. Например, в случае [аутентификации LDAP](authentication.md#ldap-auth-provider) SID'ы пользователей будут `user1@ldap` и `user2@ldap`.  
+Суффикс `@<auth-domain>` идентифицирует «источник пользователя», внутри которого гарантируется уникальность всех логинов или идентификаторов пользователей. Например, в случае [аутентификации LDAP](authentication.md#ldap) SID'ы пользователей будут `user1@ldap` и `user2@ldap`.  
   
  У локальных пользователей пустой auth-domain. Если SID пользователя не содержит суффикса, то имеется в виду локальный пользователь, созданный и существующий непосредственно в кластере YDB.
 
@@ -85,7 +85,7 @@ YDB позволяет работать с [пользователями](../con
 
 [Права доступа](../concepts/glossary.md#access-right) в YDB привязаны не к [субъекту](../concepts/glossary.md#access-subject), а к [объекту доступа](../concepts/glossary.md#access-object).
 
-У каждого объекта доступа есть список прав — [ACL](../concepts/glossary.md#access-acl) (Access Control List) — он хранит все предоставленные [субъектам доступа](../concepts/glossary.md#subject) (пользователям и группам) права на объект.
+У каждого объекта доступа есть список прав — [ACL](../concepts/glossary.md#access-control-list) (Access Control List) — он хранит все предоставленные [субъектам доступа](../concepts/glossary.md#access-subject) (пользователям и группам) права на объект.
 
 По умолчанию, права наследуются от родителей потомкам по дереву объектов доступа.
 

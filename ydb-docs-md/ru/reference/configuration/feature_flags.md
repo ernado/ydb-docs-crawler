@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/feature_flags.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/feature_flags.md"
 description: "Секция feature_flags включает или отключает определённые функции YDB с помощью булевых флагов. Для включения функции установите соответствующий функциональный ф"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # feature_flags

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/analytics/concepts/store.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/analytics/concepts/store.md"
 description: "Efficient data storage is the foundation of any analytical warehouse. YDB uses a columnar format, a storage and compute disaggregation architecture, and automat"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Data Storage
@@ -32,7 +32,7 @@ Storage and compute disaggregation is an architectural principle of YDB. The nod
 
 YDB is designed to minimize manual maintenance operations.
 
-- Automatic data compaction: Data is stored in [LSM-like](../../query_execution/mvcc.md#how-ydb-short-name-stores-mvcc-data) structures; data merging and optimization processes run continuously in the background. You do not need to run VACUUM or similar commands.
+- Automatic data compaction: Data is stored in [LSM-like](../../query_execution/mvcc.md#how-ydb-stores-mvcc-data) structures; data merging and optimization processes run continuously in the background. You do not need to run VACUUM or similar commands.
 - Automatic data deletion: To manage the data lifecycle, use the [TTL-based deletion](../../ttl.md) mechanism.
 
 ## Built-in fault tolerance {#reliability}

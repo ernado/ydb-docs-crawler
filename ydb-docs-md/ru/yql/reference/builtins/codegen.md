@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/builtins/codegen.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/builtins/codegen.md"
 description: "Во время выполнения вычислений можно сгенерировать код, состоящий из узлов S-expressions. Для этого используется механизм представления кода, упакованного в рес"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Функции для работы с генерацией кода

@@ -6,11 +6,13 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/reference/configuration/actor_system_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/actor_system_config.md"
-description: "Основной потребитель CPU — акторная система. Все акторы, в зависимости от своего типа, выполняются в одном из пулов (параметр name ). Конфигурирование заключает"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+description: "Конфигурация акторной системы."
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # actor_system_config
+
+## Конфигурация акторной системы {#actor-system}
 
 Основной потребитель CPU — акторная система. Все акторы, в зависимости от своего типа, выполняются в одном из пулов (параметр `name`). Конфигурирование заключается в распределении ядер процессора узла по пулам акторной системы. При выделении процессорных ядер пулам нужно учитывать, что PDisk и gRPC API работают вне акторной системы и требуют отдельных ресурсов.
 

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/tools-infer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/tools-infer.md"
 description: "Команда ydb tools infer csv позволяет на основе имеющегося CSV-файла с данными сгенерировать скрипт для создания таблицы. Общий вид команды:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Генерация скрипта создания таблицы
@@ -45,7 +45,7 @@ ydb tools infer csv --help
 >
 > Берётся первая строка из файла, и указанные в ней значения проверяются на следующие условия:
 >
-> - значения соответствуют [требованиям к наименованию колонок](../../yql/reference/syntax/create_table/index.md#column-naming-rules);
+> - значения соответствуют [требованиям к наименованию колонок](../../concepts/datamodel/table.md#column-naming-rules);
 > - типы значений в первой строке отличаются от типов значений данных из других строк файла
 >
 > При выполнении обоих условий значения из первой строки файла используются в качестве имён колонок таблицы. В противном случае, имена колонок генерируются автоматически (как `column1`, `column2`, и т.д.). Подробнее см. [пример](tools-infer.md#example-default) ниже.

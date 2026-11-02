@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/embedded-ui/hive.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/embedded-ui/hive.md"
 description: "The Hive web-viewer provides an interface for working with Hive. Hive can be shared by a cluster or be tenant."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Hive web-viewer
@@ -76,7 +76,7 @@ Additional pages are presented below the table:
 - **Nodes**: A list of nodes.
 - **Storage**: A list of storage group pools.
 - **Groups**: A list of storage groups for each tablet.
-- **Settings** {#settings}: The Hive configuration page.
+- **Settings**: The Hive configuration page.
 - **Reassign Groups**: The page for reassigning storage groups across tablets.
 
 You can also view what tablets use a particular group and, vice versa, what groups are used on a particular tablet.

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/downloads/yandex-enterprise-database.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/yandex-enterprise-database.md"
 description: "Корпоративная СУБД Яндекса — коммерческая СУБД на основе ядра YDB. Информация об условиях использования Корпоративной СУБД Яндекса."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Загрузка Корпоративной СУБД Яндекса (Yandex Enterprise Database)
@@ -100,7 +100,7 @@ YDB Enterprise Server (`ydbd`) — исполняемый файл для зап
 | **v23.4** |  |  |  |  |
 | v.23.4.11 | 14.05.24 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:23.4.11` | [См. список](../changelog-enterprise.md#23-4) |  |
 | **v23.3** |  |  |  |  |
-| v.23.3.17 | 14.12.23 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:23.3.17` | [См. список](../changelog-server.md#23-3-17) |  |
+| v.23.3.17 | 14.12.23 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:23.3.17` | См. список |  |
 | v.23.3.13 | 12.10.23 | `cr.yandex/crptqonuodf51kdj7a7d/ydb:23.3.13` | [См. список](../changelog-server.md#23-3) |  |
 
 ## Сертифицированная версия {#certified}

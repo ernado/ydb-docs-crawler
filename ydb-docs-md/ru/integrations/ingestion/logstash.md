@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/ingestion/logstash.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/ingestion/logstash.md"
 description: "В разделе представлены варианты интеграции между системой сбора и анализа данных Logstash и YDB. Введение."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Настройка интеграции между Logstash и YDB
@@ -18,7 +18,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 [Logstash](https://www.elastic.co/logstash) – инструмент сбора, фильтрации и нормализации логов. Данный продукт позволяет динамически получать, фильтровать и доставлять данные независимо от их формата и сложности. Конфигурация системы производиться с помощью плагинов различных типов - input, output и filter. Набор Logstash плагинов для работы с YDB располагается в репозитории [ydb-logstash-plugins](https://github.com/ydb-platform/ydb-logstash-plugins):
 
-- Storage Plugin для сохранения данных в [строчной](../../concepts/datamodel/table.md#strokovye-tablicy) или [колоночной](../../concepts/datamodel/table.md#column-tables) таблице YDB;
+- Storage Plugin для сохранения данных в [строчной](../../concepts/datamodel/table.md#row-oriented-tables) или [колоночной](../../concepts/datamodel/table.md#column-oriented-tables) таблице YDB;
 - Input Topic Plugin для чтение данных из YDB [топика](../../concepts/datamodel/topic.md);
 - Output Topic Plugin для отправки данных в YDB [топик](../../concepts/datamodel/topic.md).
 
@@ -64,7 +64,7 @@ ydb_storage {
 
 ## Плагин YDB Storage {#plagin-ydb-storage}
 
-Данный плагин позволяет перенаправить поток данных из Logstash в таблицу YDB для дальнейшего анализа. Для этого удобно использовать [колоночные таблицы](../../concepts/datamodel/table.md#column-tables), оптимизированные для аналитических запросов. Каждое отдельное [поле события Logstash](https://www.elastic.co/guide/en/logstash/current/event-dependent-configuration.html) будет записано в отдельный столбец таблицы. Tе поля, которые не соответствуют ни одной колонке, будут проигнорированы.
+Данный плагин позволяет перенаправить поток данных из Logstash в таблицу YDB для дальнейшего анализа. Для этого удобно использовать [колоночные таблицы](../../concepts/datamodel/table.md#column-oriented-tables), оптимизированные для аналитических запросов. Каждое отдельное [поле события Logstash](https://www.elastic.co/guide/en/logstash/current/event-dependent-configuration.html) будет записано в отдельный столбец таблицы. Tе поля, которые не соответствуют ни одной колонке, будут проигнорированы.
 
 ### Конфигурация плагина {#konfiguraciya-plagina}
 

@@ -7,14 +7,14 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/performance/schemas/overloaded-shards.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/performance/schemas/overloaded-shards.md"
 description: "Таблетки data shard, обслуживающие строковые таблицы, могут быть перегружены по следующим причинам:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Перегруженные таблетки data shard
 
 Таблетки [data shard](../../../concepts/glossary.md#data-shard), обслуживающие [строковые таблицы](../../../concepts/datamodel/table.md#row-oriented-tables), могут быть перегружены по следующим причинам:
 
-- Таблица создана без указания параметра [AUTO_PARTITIONING_BY_LOAD](../../../concepts/datamodel/table.md#AUTO_PARTITIONING_BY_LOAD).
+- Таблица создана без указания параметра [AUTO_PARTITIONING_BY_LOAD](../../../concepts/datamodel/table.md#auto_partitioning_by_load).
 
   В этом случае YDB не разбивает перегруженные таблетки data shard.
 
@@ -22,7 +22,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
   Если таблетка data shard уже содержит 10000 операций в своей очереди, новые запросы будут возвращать ошибку «overloaded». Повторите такие запросы, используя экспоненциально растущий перерыв, см. [Ошибки «overloaded»](../queries/overloaded-errors.md).
 
-- Таблица создана с параметром [AUTO_PARTITIONING_MAX_PARTITIONS_COUNT](../../../concepts/datamodel/table.md#AUTO_PARTITIONING_MAX_PARTITIONS_COUNT) и уже достигла лимита на число партиций.
+- Таблица создана с параметром [AUTO_PARTITIONING_MAX_PARTITIONS_COUNT](../../../concepts/datamodel/table.md#auto_partitioning_max_partitions_count) и уже достигла лимита на число партиций.
 
 - Неэффективный [первичный ключ](../../../concepts/glossary.md#primary-key), который вызывает дисбаланс в распределении запросов по таблеткам data shard. Типичным примером является использование монотонно увеличивающегося первичного ключа при загрузке данных, что может привести к перегрузке «последней» партиции. Например, это может произойти с автоматически увеличивающимся первичным ключом, использующим тип данных [Serial](../../../yql/reference/types/serial.md).
 

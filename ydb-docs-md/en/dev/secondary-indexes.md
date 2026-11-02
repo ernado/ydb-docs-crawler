@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/secondary-indexes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/secondary-indexes.md"
 description: "Indexes are auxiliary structures within databases that help find data by certain criteria without having to search an entire database and retrieve sorted sample"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Secondary indexes
@@ -70,7 +70,7 @@ In transactional applications, such information queries are executed with pagina
 
 An experimental capability to automatically select a secondary index for use in a query is also available. The selection algorithm is currently rule-based and uses only the query text to automatically select a secondary index.
 
-### Automatic use of indexes when selecting data
+### Automatic use of indexes when selecting data {#automatic-index-usage-in-queries}
 
 Explicitly specifying the `VIEW` section takes priority over the optimizer's decision to use secondary indexes. That is, the query
 

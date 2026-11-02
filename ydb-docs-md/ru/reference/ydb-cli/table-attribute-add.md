@@ -7,12 +7,12 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/table-attribute-add.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/table-attribute-add.md"
 description: "С помощью команды table attribute add вы можете добавить пользовательский атрибут указанной таблице. Общий вид команды:"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # table attribute add
 
-С помощью команды `table attribute add` вы можете добавить [пользовательский атрибут](../../concepts/datamodel/table.md#users-attr) указанной таблице.
+С помощью команды `table attribute add` вы можете добавить [пользовательский атрибут](../../concepts/datamodel/table.md) указанной таблице.
 
 Общий вид команды:
 

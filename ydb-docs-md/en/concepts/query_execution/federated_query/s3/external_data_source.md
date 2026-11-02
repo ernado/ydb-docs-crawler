@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/federated_query/s3/external_data_source.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/s3/external_data_source.md"
 description: "To work with S3, you need to set up a data storage connection. There is a DDL for configuring such connections. Next, let's look at the SQL syntax and the manag"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Working with S3 Buckets (Yandex Object Storage)
@@ -97,7 +97,7 @@ Where:
 - `object_storage_connection_name` — the name of the external data source leading to the S3 bucket (Yandex Object Storage).
 - `file_path` — the path to the file or files inside the bucket. Wildcards `*` are supported; more details [in the section](external_data_source.md#path_format).
 - `file_format` — the [data format](formats.md#formats) in the files.
-- `compression` — the [compression format](formats.md#compression_formats) of the files.
+- `compression` — the [compression format](formats.md#compression) of the files.
 - `schema_definition` — the [schema definition](external_data_source.md#schema) of the data stored in the files.
 - `format_settings` — optional [format settings](external_data_source.md#format_settings)
 
@@ -144,7 +144,7 @@ Where:
 - `object_storage_connection_name` — the name of the external data source leading to the S3 bucket (Yandex Object Storage).
 - `file_path` — the path to the file or files inside the bucket. Wildcards `*` are supported. For more information, see [Data Path Formats Specified in `file_path`](external_data_source.md#path_format).
 - `file_format` — the [data format](formats.md#formats) in the files. All formats except `raw` and `json_as_string` are supported.
-- `compression` — the [compression format](formats.md#compression_formats) of the files.
+- `compression` — the [compression format](formats.md#compression) of the files.
 
 As a result of executing such a query, the names and types of fields will be inferred.
 

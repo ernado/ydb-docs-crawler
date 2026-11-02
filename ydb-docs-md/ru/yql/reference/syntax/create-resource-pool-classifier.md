@@ -7,12 +7,12 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/create-resource-pool-classifier.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/create-resource-pool-classifier.md"
 description: "CREATE RESOURCE POOL CLASSIFIER создаёт пул классификаторов ресурсов. Синтаксис."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # CREATE RESOURCE POOL CLASSIFIER
 
-`CREATE RESOURCE POOL CLASSIFIER` создаёт [пул классификаторов ресурсов](../../../concepts/glossary.md#resource-pool-classifier.md).
+`CREATE RESOURCE POOL CLASSIFIER` создаёт [пул классификаторов ресурсов](../../../concepts/glossary.md#resource-pool-classifier).
 
 ## Синтаксис {#sintaksis}
 
@@ -24,7 +24,7 @@ WITH ( <parameter_name> [= <parameter_value>] [, ... ] )
 - `name` — имя создаваемого классификатора пула ресурсов. Должно быть уникальным. Имя не должно содержать символы, запрещённые для схемных объектов.
 - `WITH ( <parameter_name> [= <parameter_value>] [, ... ] )` — позволяет задавать значения параметров, определяющих поведение классификатора пула ресурсов.
 
-### Параметры {#parametry}
+### Параметры {#obshie-parametry}
 
 - `RANK` (Int64) — опциональное поле, задающее порядок выбора классификатора пула ресурсов. Если значение не указано, берётся максимальный существующий `RANK` и к нему прибавляется 1000. Допустимые значения: уникальное число в диапазоне .
 - `RESOURCE_POOL` (String) — обязательное поле, задающее имя пула ресурсов, в который будут отправлены запросы, удовлетворяющие критериям классификатора.

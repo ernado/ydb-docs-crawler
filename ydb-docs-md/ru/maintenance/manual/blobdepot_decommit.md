@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/blobdepot_decommit.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/blobdepot_decommit.md"
 description: "Физические группы являются ценным ресурсом в кластере: группы можно создавать, но их нельзя удалять без удаления использующей их базы, поскольку нет механизма г"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Декомиссия групп

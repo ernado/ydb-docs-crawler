@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/changelog-cli.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-cli.md"
 description: "Version 2.31.0. Released on April 20, 2026. To update to version 2.31.0, select the Downloads section. Features."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # YDB CLI changelog
@@ -576,7 +576,7 @@ Release date: May 1, 2023. To update to version **2.3.0**, select the [Downloads
 - Added the `ydb workload topic` command for generating the load that reads messages from topics and writes messages to topics.
 - Added the [--recursive](reference/ydb-cli/commands/dir.md#rmdir-options) option for the `ydb scheme rmdir` command. Use it to delete a directory recursively, with all its content.
 - Added support for the `topic` and `coordination node` types in the [ydb scheme describe](reference/ydb-cli/commands/scheme-describe.md) command.
-- Added the [--commit](reference/ydb-cli/topic-read.md#osnovnye-opcionalnye-parametry) option for the `ydb topic consumer` command. Use it to commit messages you have read.
+- Added the [--commit](reference/ydb-cli/topic-read.md#basic-optional-parameters) option for the `ydb topic consumer` command. Use it to commit messages you have read.
 - Added the [--columns](reference/ydb-cli/export-import/import-file.md#optional) option for the `ydb import file csv|tsv` command. Use it as an alternative to the file header when specifying a column list.
 - Added the [--newline-delimited](reference/ydb-cli/export-import/import-file.md#optional) option for the `ydb import file csv|tsv` command. Use it to make sure that your data is newline-free. This option streamlines import by reading data from several file sections in parallel.
 

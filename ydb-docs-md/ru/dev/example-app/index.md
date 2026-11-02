@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/example-app/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/index.md"
 description: "В данном разделе разбирается код однотипного тестового приложения, реализованного с использованием YDB SDK на разных языках программирования: C++. С#. Go. Java."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Тестовое приложение
@@ -64,7 +64,7 @@ revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
 
 Выполняется запрос к данным с использованием параметров. Этот вариант выполнения запросов является предпочтительным, так как позволяет серверу переиспользовать план исполнения запроса при последующих его вызовах, а также спасает от уязвимостей вида [SQL Injection](https://ru.wikipedia.org/wiki/%D0%92%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_SQL-%D0%BA%D0%BE%D0%B4%D0%B0).
 
-[C++](example-cpp.md#param-queries) | [C#](example-dotnet.md#param-queries) | [Go](go/index.md#param-queries) | [Java](java/index.md#param-queries) | JavaScript | [PHP](example-php.md#param-queries) | [Python](python/index.md#param-queries) | [Rust](rust/index.md#query-client)
+[C++](example-cpp.md#param-queries) | [C#](example-dotnet.md#query-processing) | [Go](go/index.md#query-processing) | [Java](java/index.md#param-queries) | JavaScript | [PHP](example-php.md#param-queries) | [Python](python/index.md#param-queries) | [Rust](rust/index.md#query-client)
 
 ## Многошаговые транзакции {#multistep-transactions}
 

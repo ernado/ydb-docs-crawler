@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/hive.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/hive.md"
 description: "Hive is a YDB component responsible for launching tablets. In various situations and under different load patterns, you might need to configure its behavior. Hi"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # hive_config
@@ -65,7 +65,7 @@ These options control the [auto-balancing](../../contributor/hive.md#autobalanci
 | `min_cpuscatter_to_balance` | MinCPUScatterToBalance | Real number | Threshold for Scatter metric for CPU resource. | 0.5 |
 | `min_memory_scatter_to_balance` | MinMemoryScatterToBalance | Real number | Threshold for Scatter metric for Memory resource. | 0.5 |
 | `min_network_scatter_to_balance` | MinNetworkScatterToBalance | Real number | Threshold for Scatter metric for Network resource. | 0.5 |
-| `min_counter_scatter_to_balance` | MinCounterScatterToBalance | Real number | Threshold for Scatter metric for virtual [Counter](../../contributor/hive.md#counter) resource. | 0.02 |
+| `min_counter_scatter_to_balance` | MinCounterScatterToBalance | Real number | Threshold for Scatter metric for virtual [Counter](../../contributor/hive.md#resources) resource. | 0.02 |
 | `min_node_usage_to_balance` | MinNodeUsageToBalance | Real number | Resource consumption on a node below this value is equated to this value. Used to avoid balancing tablets between lightly loaded nodes. | 0.1 |
 | `max_node_usage_to_kick` | MaxNodeUsageToKick | Real number | Resource consumption threshold on a node for triggering emergency auto-balancing. | 0.9 |
 | `node_usage_range_to_kick` | NodeUsageRangeToKick | Real number | Minimum difference in resource consumption level between nodes, below which auto-balancing is considered inappropriate. | 0.2 |

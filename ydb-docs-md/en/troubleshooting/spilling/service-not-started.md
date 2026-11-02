@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/spilling/service-not-started.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/spilling/service-not-started.md"
 description: "An attempt to use spilling occurs when the Spilling Service is disabled. This happens when the spilling service is not properly configured or has been disabled"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Spilling Service Not Started
@@ -27,4 +27,4 @@ To enable spilling:
 1. Set [`table_service_config.spilling_service_config.local_file_config.enable`](../../reference/configuration/table_service_config.md#local-file-config-enable): `true` in your configuration.
 
 > [!NOTE]
-> Read more about the spilling architecture in [Spilling in YDB](../../concepts/query_execution/spilling.md#spilling-in-ydb-short-name).
+> Read more about the spilling architecture in [Spilling in YDB](../../concepts/query_execution/spilling.md#architecture).

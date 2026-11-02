@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/cdc.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/cdc.md"
 description: "Warning. Supported only for row-oriented tables. Support for column-oriented tables is currently under development."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Change Data Capture (CDC)
@@ -77,7 +77,7 @@ This ensures that, for the same row (the same primary key), the source value is 
 During the scanning process, depending on the table update frequency, you might see too many `OVERLOADED` errors. This is because, besides the update records, you also need to deliver records with the source row values. When the scan is complete, the changefeed switches to normal operation.
 
 > [!WARNING]
-> [Automatic partitioning](datamodel/table.md#partitioning) processes are suspended in the table and [barriers](cdc.md#barriers) are not emitted to the changefeed during the initial scan.
+> [Automatic partitioning](datamodel/table.md#partitioning_row_table) processes are suspended in the table and [barriers](cdc.md#barriers) are not emitted to the changefeed during the initial scan.
 
 ## Record Structure
 
@@ -264,12 +264,12 @@ my/table/updates_feed
 
 The topic settings can be updated using the expression [ALTER TOPIC](../yql/reference/syntax/alter-topic.md). Supported actions:
 
-- [updating settings](../yql/reference/syntax/alter-topic.md#updating-topic-settings):
+- [updating settings](../yql/reference/syntax/alter-topic.md#alter-topic):
 
   - `retention_period`;
   - `retention_storage_mb`;
 
-- [updating consumers](../yql/reference/syntax/alter-topic.md#updating-a-set-of-consumers).
+- [updating consumers](../yql/reference/syntax/alter-topic.md#consumer).
 
 ## CDC Purpose and Use {#best_practices}
 

@@ -7,12 +7,12 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter_table/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/index.md"
 description: "При помощи команды ALTER TABLE можно изменить состав колонок и дополнительные параметры строковых и колоночных таблиц. В одной команде можно указать несколько д"
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # ALTER TABLE
 
-При помощи команды `ALTER TABLE` можно изменить состав колонок и дополнительные параметры [строковых](../../../../concepts/datamodel/table.md#row-tables) и [колоночных](../../../../concepts/datamodel/table.md#colums-tables) таблиц. В одной команде можно указать несколько действий. В общем случае команда `ALTER TABLE` выглядит так:
+При помощи команды `ALTER TABLE` можно изменить состав колонок и дополнительные параметры [строковых](../../../../concepts/datamodel/table.md#row-oriented-tables) и [колоночных](../../../../concepts/datamodel/table.md#column-oriented-tables) таблиц. В одной команде можно указать несколько действий. В общем случае команда `ALTER TABLE` выглядит так:
 
 ```yql
 ALTER TABLE table_name action1, action2, ..., actionN;

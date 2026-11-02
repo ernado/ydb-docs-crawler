@@ -7,12 +7,12 @@ lang: "en"
 source_path: "en/core/dev/custom-attributes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/custom-attributes.md"
 description: "You can use custom attributes to store any information and process it in your app or using the CLI."
-revision: "0b31976d929e6dd165473a40bb0855b365abe8f7"
+revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 ---
 
 # Custom attributes in tables
 
-You can use [custom attributes](../concepts/datamodel/table.md#users-attr) to store any information and process it in your app or using the CLI.
+You can use [custom attributes](../concepts/datamodel/table.md) to store any information and process it in your app or using the CLI.
 
 For example, your application uses a database table. It stores versions of the table's scheme in custom attributes. You need to migrate data when the table scheme changes. To make sure that your application runs a relevant migration, rather than a previous one, when started, access the custom attributes to check the scheme version:
 
