@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/query_execution/federated_query/s3/external_table.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/query_execution/federated_query/s3/external_table.md"
 description: "Sometimes, the same data queries need to be executed regularly. To avoid specifying all the details of working with this data every time a query is called, use"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Reading Data from an External Table Pointing to S3 (Object Storage)

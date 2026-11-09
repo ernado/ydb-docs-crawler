@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/index.md"
 description: "This section of YDB documentation contains ready-to-use recipes for various aspects of interacting with YDB. They are grouped into the following categories:"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Recipes for working with YDB

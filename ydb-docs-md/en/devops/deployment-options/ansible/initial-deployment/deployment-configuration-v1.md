@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 description: "Prepare the environment. Before deploying the system, complete the preparation steps. See the Deployment preparation document. Create a working directory."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Deploying a cluster using configuration V1
@@ -339,6 +339,8 @@ all:
 Encrypt this file with the command `ansible-vault encrypt inventory/99-inventory-vault.yaml`.
 
 ## Prepare the YDB configuration file {#ydb-config-prepare}
+
+The examples below contain a `feature_flags` section. Before changing its values, read about [feature flags and guidelines for changing them](../../../../reference/configuration/feature_flags.md).
 
 Create the file `files/config.yaml` and fill it according to the chosen topology (see [topology selection](deployment-preparation.md#topology-select)). Examples for each supported topology are in the tabs below — choose the one that fits.
 

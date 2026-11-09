@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/index.md"
 description: "This section of YDB documentation describes methods for deploying YDB clusters using various infrastructure management tools, as well as instructions for furthe"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # YDB Deployment Options

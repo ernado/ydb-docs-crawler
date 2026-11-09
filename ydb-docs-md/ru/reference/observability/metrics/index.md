@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/observability/metrics/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/observability/metrics/index.md"
 description: "В этом документе приведен справочник по основным метрикам системы YDB, которые используются для мониторинга состояния кластера, диагностики производительности и"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Справка по метрикам

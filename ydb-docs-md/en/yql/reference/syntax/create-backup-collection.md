@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create-backup-collection.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-backup-collection.md"
 description: "The CREATE BACKUP COLLECTION statement creates a backup collection. CREATE BACKUP COLLECTION collection_name ( TABLE table_name [, TABLE another_table_name...]"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # CREATE BACKUP COLLECTION

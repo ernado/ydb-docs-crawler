@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/lexer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/lexer.md"
 description: "The query in the YQL language is a valid UTF-8 text consisting of statements separated by semicolons (; ). The last semicolon can be omitted."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Lexical structure

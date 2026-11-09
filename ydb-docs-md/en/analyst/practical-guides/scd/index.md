@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/analyst/practical-guides/scd/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/practical-guides/scd/index.md"
 description: "This section contains practical guides for implementing slowly changing dimensions (Slowly Changing Dimensions, SCD) — a popular approach to managing historical"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Working with slowly changing dimensions

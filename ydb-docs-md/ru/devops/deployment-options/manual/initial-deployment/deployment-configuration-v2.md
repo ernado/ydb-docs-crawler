@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v2.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v2.md"
 description: "Внимание."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Развёртывание кластера с использованием конфигурации V2
@@ -101,13 +101,16 @@ config:
   client_certificate_authorization:
     request_client_certificate: true
     client_certificate_definitions:
-        - member_groups: ["ADMINS"]
+        - member_groups: ["ADMINS", "databaseNodes@cert"]
           subject_terms:
           - short_name: "O"
             values: ["YDB"]
 ```
 
-Для ускорения и упрощения первичного развёртывания YDB конфигурационный файл уже содержит большинство настроек для установки кластера. Достаточно заменить стандартные хосты FQDN в разделе `hosts` и пути к дискам на актуальные в разделе `hosts_configs`.
+> [!NOTE]
+> Приведенные выше настройки подготовлены для запуска YDB на 3х физических или виртуальных серверах с использованием [режима работы кластера](../../../../concepts/topology.md#cluster-config) mirror-3-dc.
+
+Для ускорения и упрощения первичного развёртывания YDB предлагаемый пример конфигурационного файла уже содержит большинство настроек для установки кластера. Достаточно заменить стандартные хосты FQDN в разделе `hosts` и пути к дискам на актуальные в разделе `hosts_configs`.
 
 - Раздел `hosts`:
 

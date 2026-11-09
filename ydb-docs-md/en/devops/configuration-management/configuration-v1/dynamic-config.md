@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v1/dynamic-config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/dynamic-config.md"
 description: "Dynamic configuration allows running dynamic nodes by configuring them centrally, without the need to manually distribute files across nodes. YDB acts as a conf"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Dynamic Cluster Configuration
@@ -21,7 +21,7 @@ Dynamic configuration allows running dynamic [nodes](../../../concepts/glossary.
 This configuration is loaded into the cluster, where it is reliably stored and delivered to each dynamic node at startup. [Some settings](dynamic-config.md#dynamic-kinds) are updated on the fly, without restarting nodes. Using dynamic configuration, you can centrally solve the following tasks:
 
 - switch component logging settings for both the entire cluster and individual databases or node groups
-- enable experimental functionality (feature flags) on individual databases
+- enable experimental functionality ([feature flags](../../../reference/configuration/feature_flags.md)) on individual databases
 - change actor system settings on a specific database, individual node, or group of nodes
 
 ## Preparing to Use Dynamic Configuration {#preparation}

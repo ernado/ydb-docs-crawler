@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/data-migration/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/data-migration/index.md"
 description: "Источник Инструкция. Произвольные JDBC-источники данных. Инструкция. MySQL. Инструкция."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Миграции данных

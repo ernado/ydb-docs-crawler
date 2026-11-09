@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/analytics/concepts/etl.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/analytics/concepts/etl.md"
 description: "Подготовка данных для анализа — ключевой этап в построении хранилища данных. YDB поддерживает все стандартные подходы к трансформации данных, позволяя выбрать и"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Трансформация и подготовка данных (ETL/ELT)

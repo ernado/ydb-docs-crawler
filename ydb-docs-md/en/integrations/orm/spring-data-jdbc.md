@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/orm/spring-data-jdbc.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/orm/spring-data-jdbc.md"
 description: "This guide is intended for use with Spring Data JDBC and YDB."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # YDB Dialect for Spring Data JDBC

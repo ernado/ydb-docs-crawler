@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/load-actors-storage.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/load-actors-storage.md"
 description: "Тестирует производительность записи и чтения с Distributed Storage. Нагрузка подается непосредственно на Distributed Storage без задействования слоев таблеток и"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # StorageLoad

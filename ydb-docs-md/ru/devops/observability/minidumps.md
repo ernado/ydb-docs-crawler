@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/observability/minidumps.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/observability/minidumps.md"
 description: "Узлы ydbd в YDB могут собирать минидампы при аварийном завершении процесса с помощью встроенного Google Breakpad. Минидамп — это компактный снимок состояния про"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Минидампы (встроенный Google Breakpad)

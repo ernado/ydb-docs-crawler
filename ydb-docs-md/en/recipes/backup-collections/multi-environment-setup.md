@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/backup-collections/multi-environment-setup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/backup-collections/multi-environment-setup.md"
 description: "Configure different backup strategies for development and production environments. Development environment."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Setting Up Backups for Multiple Environments

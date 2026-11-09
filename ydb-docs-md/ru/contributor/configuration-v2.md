@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/configuration-v2.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/configuration-v2.md"
 description: "Конфигурация V2 в YDB реализует единый подход к управлению настройками кластера. Как пользоваться этим механизмом, описано в разделе для DevOps, а эта статья сф"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Устройство механизма конфигурации V2

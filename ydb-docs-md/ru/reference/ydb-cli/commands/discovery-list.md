@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/discovery-list.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/discovery-list.md"
 description: "Информационная команда discovery list позволяет получить список эндпоинтов кластера YDB, с которыми можно открывать соединения для работы с заданной базой данны"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Список эндпоинтов

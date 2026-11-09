@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/downloads/ydb-open-source-database.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/ydb-open-source-database.md"
 description: "YDB Open-Source Database ( ydbd ) is an executable file for running a node in the YDB cluster. It is distributed under the Apache 2.0 license."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Download YDB Open-Source Database

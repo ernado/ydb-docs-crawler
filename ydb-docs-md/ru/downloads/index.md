@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/downloads/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/index.md"
 description: "В этом разделе представлены инструкции по загрузке различных сборок YDB и связанных инструментов: Сервер YDB ( ydbd ): YDB Open-Source Database."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Загрузки YDB

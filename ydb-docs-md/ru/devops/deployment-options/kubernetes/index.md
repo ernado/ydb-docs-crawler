@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/kubernetes/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/kubernetes/index.md"
 description: "Этот раздел документации YDB содержит коллекцию статей, предназначенных для DevOps-инженеров, работающих с кластерами YDB через Kubernetes. Это рекомендуемый по"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Работа с YDB в Kubernetes

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create-secret.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-secret.md"
 description: "The CREATE SECRET statement creates a secret. Syntax. CREATE SECRET secret_name WITH (option = value [,...]). secret_name — the name of the secret to create."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # CREATE SECRET

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/correlated-subqueries.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/correlated-subqueries.md"
 description: "A correlated subquery refers to a column or table alias from an outer query. Each subquery in YQL has its own scope and cannot refer to columns or table aliases"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Correlated subqueries, EXISTS, and NOT EXISTS

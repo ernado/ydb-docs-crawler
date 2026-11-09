@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/workload/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/workload/index.md"
 description: "С помощью команды workload вы можете запустить различные виды нагрузки для вашей БД. Общий вид команды: ydb [global options...] workload [subcommands...]."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Нагрузочное тестирование

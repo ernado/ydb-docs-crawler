@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/node_broker_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/node_broker_config.md"
 description: "The node_broker_config section configures stable node names for dynamic nodes in YDB clusters. Node names are assigned through the Node Broker, which is a syste"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # node_broker_config
@@ -20,7 +20,7 @@ In a dynamic environment where hostnames often change, such as in Kubernetes, us
 
 A stable name identifies a node within the tenant. It consists of a prefix and a node's sequential number within its tenant. If a dynamic node has been shut down, after a timeout, its stable name can be taken by a new dynamic node serving the same tenant.
 
-To enable stable node names, you need to add the following to the cluster configuration:
+To enable stable node names, set the `enable_stable_node_names` [feature flag](feature_flags.md) in the cluster configuration:
 
 ```yaml
 feature_flags:

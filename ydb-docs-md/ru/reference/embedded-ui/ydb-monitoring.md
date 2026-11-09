@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/embedded-ui/ydb-monitoring.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/embedded-ui/ydb-monitoring.md"
 description: "YDB Monitoring представлен набором web-страниц, отображающих состояние системы в разрезе по нескольким аспектам. На страницах приведены перечни компонент и их м"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # YDB Monitoring
@@ -24,7 +24,7 @@ http://<ендпоинт>:8765/monitoring/cluster
 
 Примерный внешний вид страницы показан на скриншоте ниже.
 
-![Monitoring_main_page](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/b61acf8801342bea386583a9946acfb5e803ab09/ru/reference/embedded-ui/_assets/monitoring_main_page.png)
+![Monitoring_main_page](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/375f7dbaccae8842c504264b9251d9ccb968124e/ru/reference/embedded-ui/_assets/monitoring_main_page.png)
 
 В правом верхнем углу страницы расположена информация об узле сформировавшем текущую страницу:
 

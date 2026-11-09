@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/datamodel/view.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/view.md"
 description: "Представление — это способ сохранить запрос и обращаться к его результатам как к настоящей таблице. Само представление не хранит данных, кроме текста запроса. З"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Представления (VIEW)

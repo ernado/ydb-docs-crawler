@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/downloads/ydb-ansible.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/ydb-ansible.md"
 description: "Набор автоматизированных сценариев для установки и сопровождения серверной части YDB Open-Source или Корпоративной СУБД Яндекса с помощью инструмента Ansible до"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Загрузка Ansible Playbooks для YDB

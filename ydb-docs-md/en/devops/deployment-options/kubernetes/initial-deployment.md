@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/kubernetes/initial-deployment.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/kubernetes/initial-deployment.md"
 description: "Deploying YDB in Kubernetes is a simple way to set up and run a YDB cluster. Kubernetes allows to use an universal approach to managing your application in any"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Getting Started with YDB in Kubernetes

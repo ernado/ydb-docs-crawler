@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/node_broker_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/node_broker_config.md"
 description: "Секция node_broker_config настраивает стабильные имена узлов для динамических узлов в кластерах YDB. Присвоение имен узлам осуществляет Node Broker — системная"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # node_broker_config
@@ -20,7 +20,7 @@ Node Broker присваивает имена динамическим узла�
 
 Стабильное имя идентифицирует узел в рамках тенанта. Оно состоит из префикса и порядкового номера узла в рамках тенанта. Если динамический узел был выключен, то по истечении таймаута его стабильное имя может быть занято новым динамическим узлом, обслуживающим того же тенанта.
 
-Чтобы включить стабильные имена узлов, необходимо добавить в конфигурацию кластера следующее:
+Чтобы включить стабильные имена узлов, установите [фича-флаг](feature_flags.md) `enable_stable_node_names` в конфигурации кластера:
 
 ```yaml
 feature_flags:

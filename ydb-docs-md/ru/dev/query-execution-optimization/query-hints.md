@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/query-execution-optimization/query-hints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/query-execution-optimization/query-hints.md"
 description: "Подсказки оптимизатора позволяют влиять на поведение стоимостного оптимизатора при планировании выполнения SQL-запросов. YDB поддерживает четыре типа подсказок"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Optimizer Hints (Подсказки Оптимизатора)

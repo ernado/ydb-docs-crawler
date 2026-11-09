@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/drop-resource-pool.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/drop-resource-pool.md"
 description: "DROP RESOURCE POOL removes a resource pool. Syntax. DROP RESOURCE POOL <name>. Parameters. name — name of the resource pool to drop. Permissions."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # DROP RESOURCE POOL

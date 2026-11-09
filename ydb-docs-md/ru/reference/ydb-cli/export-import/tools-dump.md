@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/export-import/tools-dump.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/tools-dump.md"
 description: "Кластер. Команда admin сluster dump выгружает в клиентскую файловую систему метаданные кластера, в описанном в статье Файловая структура выгрузки формате:"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Выгрузка в файловую систему

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/encryption/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/encryption/index.md"
 description: "YDB provides two main approaches for user data encryption: Data at rest encryption. Data in transit encryption."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Encryption in YDB

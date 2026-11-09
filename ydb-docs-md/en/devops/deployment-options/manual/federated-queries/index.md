@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/manual/federated-queries/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/federated-queries/index.md"
 description: "Warning. This functionality is in the \"Experimental\" mode. General Installation Scheme."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Deploying YDB with Federated Query functionality
@@ -61,7 +61,7 @@ The following requirements must be met:
                  value: "true"
    ```
 
-4. Add the following `feature_flags` section to the YDB configuration file:
+4. Add the following [`feature_flags`](../../../../reference/configuration/feature_flags.md) section to the YDB configuration file:
 
    ```yaml
    feature_flags:

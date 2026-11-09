@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/create-resource-pool.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/create-resource-pool.md"
 description: "CREATE RESOURCE POOL creates a resource pool. Syntax. CREATE RESOURCE POOL <name> WITH ( <parameter_name> [= <parameter_value>] [,... ] )."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # CREATE RESOURCE POOL

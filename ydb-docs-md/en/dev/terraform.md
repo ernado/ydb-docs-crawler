@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/terraform.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/terraform.md"
 description: "Terraform can create, delete, and modify the following objects inside a YDB cluster: tables. indexes of tables. change data capture for tables. topics. Warning."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Managing YDB using Terraform

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-sdk/config-publication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-sdk/config-publication.md"
 description: "Рассмотрим сценарий, где необходимо публиковать небольшую конфигурацию для экземпляров приложения, которые должны оперативно реагировать на её изменения."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Публикация конфигурации

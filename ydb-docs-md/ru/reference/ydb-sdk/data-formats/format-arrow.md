@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-sdk/data-formats/format-arrow.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-sdk/data-formats/format-arrow.md"
 description: "Данные возвращаются в колоночном формате Apache Arrow (стандарт IPC версии 5.0) и не преобразуются на стороне SDK, что позволяет эффективно обрабатывать большие"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Формат Apache Arrow

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/troubleshooting/spilling/can-not-run-operation.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/troubleshooting/spilling/can-not-run-operation.md"
 description: "Переполнение очереди операций в пуле потоков I/O. Это происходит, когда очередь пула потоков I/O для спиллинга заполнена и не может принимать новые операции, чт"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Can not run operation

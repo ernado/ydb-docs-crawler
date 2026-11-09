@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/configuration-v1/replacing-nodes.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/replacing-nodes.md"
 description: "Replacing Node FQDN. This procedure describes how to replace the FQDN (Fully Qualified Domain Name) of a YDB cluster node without downtime. Prerequisites. Note."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Replacing Node FQDN

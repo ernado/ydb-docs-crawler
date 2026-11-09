@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/bridge_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/bridge_config.md"
 description: "This section describes the cluster piles for bridge mode. Specify the list of pile names used for binding hosts and other entities. In bridge mode, you must als"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # bridge_config

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/profile/activate.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/profile/activate.md"
 description: "Исполнение команд YDB CLI над базой данных требует установки соединения с ней. Если YDB CLI не удалось определить какой-либо параметр соединения по параметрам к"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Активированный профиль

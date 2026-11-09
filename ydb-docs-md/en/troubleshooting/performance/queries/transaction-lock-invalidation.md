@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/queries/transaction-lock-invalidation.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/queries/transaction-lock-invalidation.md"
 description: "Transaction lock invalidation (TLI) occurs when one transaction (the breaker) writes data and breaks the optimistic locks of another transaction (the victim). T"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Transaction lock invalidation

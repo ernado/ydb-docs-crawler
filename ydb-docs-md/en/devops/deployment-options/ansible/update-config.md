@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/ansible/update-config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/ansible/update-config.md"
 description: "During initial deployment, the Ansible playbook used the provided config file to create the initial cluster configuration. Technically, it generates two variant"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Updating Configuration of YDB Clusters Deployed with Ansible

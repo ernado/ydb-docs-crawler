@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/downloads/yandex-enterprise-database.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/downloads/yandex-enterprise-database.md"
 description: "Yandex Enterprise Database is a commercial database management system based on the YDB core. Yandex Enterprise Database Usage Terms."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Download Yandex Enterprise Database

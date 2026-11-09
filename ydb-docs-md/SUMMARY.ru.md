@@ -242,6 +242,7 @@
     - [Жанры](ru/contributor/documentation/genres.md)
     - [Добавление медиа в публичные материалы](ru/contributor/documentation/guide-to-public-material.md)
     - [Документирование новых команд CLI](ru/contributor/documentation/cli-command-documentation.md)
+    - [Функциональность под фича-флагами](ru/contributor/documentation/feature-flags.md)
   - Ядро
     - [Общая схема](ru/contributor/general-schema.md)
     - [Распределённое хранилище](ru/contributor/distributed-storage.md)

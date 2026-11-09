@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/hive.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/hive.md"
 description: "Hive — таблетка, отвечающая за управление другими таблетками, а именно за выбор узлов базы для их запуска, принятие решений о необходимости перебалансировки таб"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Hive

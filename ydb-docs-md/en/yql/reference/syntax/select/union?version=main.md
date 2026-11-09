@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/select/union.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/select/union.md"
 description: "UNION. Union of the results of the underlying queries, with duplicates removed. Behavior is identical to using UNION ALL followed by SELECT DISTINCT *."
-revision: "7468e62f232131ed7bf5b2153e2e6fcdfc375d59"
+revision: "22190017956a6e86201b27edd728b76dadd9ca61"
 ---
 
 # Combining subquery results (UNION)

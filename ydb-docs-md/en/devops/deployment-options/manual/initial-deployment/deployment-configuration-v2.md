@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v2.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v2.md"
 description: "Alert."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Deploying a Cluster Using Configuration V2
@@ -101,13 +101,16 @@ config:
   client_certificate_authorization:
     request_client_certificate: true
     client_certificate_definitions:
-        - member_groups: ["ADMINS"]
+        - member_groups: ["ADMINS", "databaseNodes@cert"]
           subject_terms:
           - short_name: "O"
             values: ["YDB"]
 ```
 
-To speed up and simplify the initial deployment of YDB, the configuration file already contains most of the cluster setup settings. You only need to replace the default host FQDNs in the `hosts` section and disk paths in the `host_configs` section with your actual values.
+> [!NOTE]
+> The configuration shown above is prepared for running YDB on 3 physical or virtual servers using mirror-3-dc [cluster operating mode](../../../../concepts/topology.md#cluster-config).
+
+To speed up and simplify the initial deployment of YDB, the provided configuration file example already contains most of the cluster setup settings. You only need to replace the default host FQDNs in the `hosts` section and disk paths in the `host_configs` section with your actual values.
 
 - The `hosts` section:
 

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/orm/entity-framework.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/orm/entity-framework.md"
 description: "YDB has an Entity Framework (EF) Core provider, an object-relational mapper (ORM) that enables.NET developers to work with a YDB database using.NET objects. It"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # YDB Entity Framework Core Provider

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/enterprise-manager/initial-deployment.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/enterprise-manager/initial-deployment.md"
 description: "В этом руководстве описан процесс первоначального развёртывания YDB Enterprise Manager (далее — YDB EM) с помощью Ansible. По завершении вы получите работающий"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Первоначальное развёртывание YDB EM

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/s3/arrow_types_mapping.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/s3/arrow_types_mapping.md"
 description: "При чтении и записи данных в формате Parquet YDB использует логическую схему типов Apache Arrow — стандарт, применяемый в Parquet для описания семантики данных."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Отображение типов при чтении и записи данных в формате Parquet

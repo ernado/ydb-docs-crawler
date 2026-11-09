@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/orm/hibernate.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/orm/hibernate.md"
 description: "Введение. Это руководство использования Hibernate с YDB."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Диалект YDB для Hibernate

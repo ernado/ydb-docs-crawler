@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/index.md"
 description: "Данный раздел содержит материалы для разработчиков и контрибьюторов YDB. Сборка и тестирование с использованием Ya Make. Работа над изменениями."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Разработка YDB

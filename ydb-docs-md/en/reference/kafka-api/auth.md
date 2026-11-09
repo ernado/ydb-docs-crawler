@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/kafka-api/auth.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/kafka-api/auth.md"
 description: "Enabling authentication. When you run a single-node local YDB cluster, anonymous authentication is used by default. It doesn't require a username and password."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Kafka API authentication

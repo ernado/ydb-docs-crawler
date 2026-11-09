@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/alter-transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter-transfer.md"
 description: "Вызов ALTER TRANSFER изменяет параметры и состояние экземпляра трансфера. Синтаксис. ALTER TRANSFER <name> [ SET USING lambda | SET ( option = value [,...])]."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # ALTER TRANSFER

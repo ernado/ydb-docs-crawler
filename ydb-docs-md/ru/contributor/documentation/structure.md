@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/documentation/structure.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/structure.md"
 description: "Эта статья дополняет Руководство по стилю документации YDB. Она объясняет текущие директории верхнего уровня документации и какой контент принадлежит каждой из"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Структура документации YDB

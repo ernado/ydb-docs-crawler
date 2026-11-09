@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/cdc.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/cdc.md"
 description: "Важно. Поддерживается только для строковых таблиц. Поддержка функциональности для колоночных таблиц находится в разработке."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Change Data Capture (CDC)

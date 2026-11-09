@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/orm/sqlalchemy.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/orm/sqlalchemy.md"
 description: "SQLAlchemy — это популярная Python-библиотека для работы с базами данных, предоставляющая как ORM (Object-Relational Mapping), так и Core API для выполнения SQL"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # SQLAlchemy

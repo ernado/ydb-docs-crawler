@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/topic-alter.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/topic-alter.md"
 description: "С помощью подкоманды topic alter вы можете изменить созданный ранее топик. Общий вид команды: ydb [global options...] topic alter [options...] <topic-path>."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Изменение топика

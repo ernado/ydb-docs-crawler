@@ -4,20 +4,20 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "b61acf8801342bea386583a9946acfb5e803ab09",
-      "page_count": 726,
+      "revision": "375f7dbaccae8842c504264b9251d9ccb968124e",
+      "page_count": 727,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "b61acf8801342bea386583a9946acfb5e803ab09",
-      "page_count": 735,
+      "revision": "375f7dbaccae8842c504264b9251d9ccb968124e",
+      "page_count": 736,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
     }
   ],
-  "page_count": 1461,
+  "page_count": 1463,
   "pages": [
     {
       "doc_path": "en/",
@@ -203,7 +203,7 @@
       "description": " Version 26.1 Version 26.1.1.ent.3. Release date: August 3, 2026.",
       "source_path": "en/core/changelog-enterprise.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-enterprise.md",
-      "bytes": 68666,
+      "bytes": 69370,
       "lang": "en"
     },
     {
@@ -214,7 +214,7 @@
       "description": " Version 26.1 Version 26.1.1.22. Release date: July 27, 2026. Bug Fixes.",
       "source_path": "en/core/changelog-server.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/changelog-server.md",
-      "bytes": 89164,
+      "bytes": 89919,
       "lang": "en"
     },
     {
@@ -984,7 +984,18 @@
       "description": "YDB follows the \"Documentation as Code\" approach, meaning that the YDB documentation is developed using similar techniques and tools as its main C++ source code",
       "source_path": "en/core/contributor/documentation/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/documentation/index.md",
-      "bytes": 3144,
+      "bytes": 3215,
+      "lang": "en"
+    },
+    {
+      "doc_path": "en/contributor/documentation/feature-flags",
+      "url": "https://ydb.tech/docs/en/contributor/documentation/feature-flags?version=v26.1",
+      "file": "en/contributor/documentation/feature-flags.md",
+      "title": "Documenting features controlled by feature flags",
+      "description": "Documenting experimental functionality controlled by feature flags requires a conditional warning on every page describing it. The warning explains the risks an",
+      "source_path": "en/core/contributor/documentation/feature-flags.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/documentation/feature-flags.md",
+      "bytes": 9159,
       "lang": "en"
     },
     {
@@ -1193,7 +1204,7 @@
       "description": " There are two products based on the source code from the YDB repository with independent release cycles: YDB server. YDB command-line interface (CLI).",
       "source_path": "en/core/contributor/manage-releases.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/manage-releases.md",
-      "bytes": 7275,
+      "bytes": 7322,
       "lang": "en"
     },
     {
@@ -1941,7 +1952,7 @@
       "description": "Dynamic configuration allows running dynamic nodes by configuring them centrally, without the need to manually distribute files across nodes. YDB acts as a conf",
       "source_path": "en/core/devops/configuration-management/configuration-v1/dynamic-config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/configuration-v1/dynamic-config.md",
-      "bytes": 11036,
+      "bytes": 11089,
       "lang": "en"
     },
     {
@@ -2161,7 +2172,7 @@
       "description": " Warning.",
       "source_path": "en/core/devops/configuration-management/migration/migration-to-v2.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/migration/migration-to-v2.md",
-      "bytes": 10925,
+      "bytes": 11000,
       "lang": "en"
     },
     {
@@ -2205,7 +2216,7 @@
       "description": " Prepare the environment. Before deploying the system, complete the preparation steps. See the Deployment preparation document. Create a working directory.",
       "source_path": "en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md",
-      "bytes": 40221,
+      "bytes": 40419,
       "lang": "en"
     },
     {
@@ -2359,7 +2370,7 @@
       "description": " Warning. This functionality is in the \"Experimental\" mode. General Installation Scheme.",
       "source_path": "en/core/devops/deployment-options/manual/federated-queries/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/federated-queries/index.md",
-      "bytes": 4583,
+      "bytes": 4639,
       "lang": "en"
     },
     {
@@ -2403,7 +2414,7 @@
       "description": " Alert.",
       "source_path": "en/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v2.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v2.md",
-      "bytes": 18363,
+      "bytes": 18599,
       "lang": "en"
     },
     {
@@ -3558,7 +3569,7 @@
       "description": " This tutorial walks you through your first streaming query. The query will: Read events from an input topic; Keep only errors;",
       "source_path": "en/core/recipes/streaming_queries/topics.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/streaming_queries/topics.md",
-      "bytes": 6720,
+      "bytes": 6770,
       "lang": "en"
     },
     {
@@ -4105,10 +4116,10 @@
       "url": "https://ydb.tech/docs/en/reference/configuration/feature_flags?version=v26.1",
       "file": "en/reference/configuration/feature_flags.md",
       "title": "feature_flags",
-      "description": "The feature_flags section enables or disables specific YDB features using boolean flags. To enable a feature, set the corresponding feature flag to true in the ",
+      "description": " YDB implements feature flags following the established feature toggling approach.",
       "source_path": "en/core/reference/configuration/feature_flags.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/feature_flags.md",
-      "bytes": 2762,
+      "bytes": 7327,
       "lang": "en"
     },
     {
@@ -4207,7 +4218,7 @@
       "description": "The node_broker_config section configures stable node names for dynamic nodes in YDB clusters. Node names are assigned through the Node Broker, which is a syste",
       "source_path": "en/core/reference/configuration/node_broker_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/node_broker_config.md",
-      "bytes": 2065,
+      "bytes": 2103,
       "lang": "en"
     },
     {
@@ -4306,7 +4317,7 @@
       "description": "YDB is configured via environment variables when running in Docker. When starting the YDB Docker container with the docker run command, you can specify addition",
       "source_path": "en/core/reference/docker/configuration.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/configuration.md",
-      "bytes": 5797,
+      "bytes": 5705,
       "lang": "en"
     },
     {
@@ -8189,7 +8200,7 @@
       "description": " Версия 26.1 Версия 26.1.1.ent.3. Дата выхода: 3 августа 2026.",
       "source_path": "ru/core/changelog-enterprise.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-enterprise.md",
-      "bytes": 111501,
+      "bytes": 112161,
       "lang": "ru"
     },
     {
@@ -8200,7 +8211,7 @@
       "description": " Версия 26.1 Версия 26.1.1.22. Дата выхода: 27 июля 2026. Исправления ошибок.",
       "source_path": "ru/core/changelog-server.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/changelog-server.md",
-      "bytes": 144289,
+      "bytes": 145000,
       "lang": "ru"
     },
     {
@@ -8959,7 +8970,7 @@
       "description": "YDB следует подходу «Документация как код», что означает, что документация YDB разрабатывается с использованием аналогичных методов и инструментов, как и основн",
       "source_path": "ru/core/contributor/documentation/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/index.md",
-      "bytes": 5299,
+      "bytes": 5418,
       "lang": "ru"
     },
     {
@@ -8971,6 +8982,17 @@
       "source_path": "ru/core/contributor/documentation/cli-command-documentation.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/cli-command-documentation.md",
       "bytes": 15809,
+      "lang": "ru"
+    },
+    {
+      "doc_path": "ru/contributor/documentation/feature-flags",
+      "url": "https://ydb.tech/docs/ru/contributor/documentation/feature-flags?version=v26.1",
+      "file": "ru/contributor/documentation/feature-flags.md",
+      "title": "Документирование функциональности под фича-флагами",
+      "description": "Документирование экспериментальной функциональности под фича-флагами включает условное предупреждение на каждой странице, где она описана. Предупреждение объясн",
+      "source_path": "ru/core/contributor/documentation/feature-flags.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/feature-flags.md",
+      "bytes": 13991,
       "lang": "ru"
     },
     {
@@ -9190,7 +9212,7 @@
       "description": " На базе исходного кода из репозитория YDB разрабатываются два продукта с независимыми релизными циклами: Сервер YDB. Интерфейс командной строки YDB (CLI).",
       "source_path": "ru/core/contributor/manage-releases.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/manage-releases.md",
-      "bytes": 15470,
+      "bytes": 15518,
       "lang": "ru"
     },
     {
@@ -9960,7 +9982,7 @@
       "description": "Динамическая конфигурация позволяет запускать динамические узлы, сконфигурировав их централизованно, без необходимости раскладывать файлы по узлам вручную. YDB ",
       "source_path": "ru/core/devops/configuration-management/configuration-v1/dynamic-config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/dynamic-config.md",
-      "bytes": 17403,
+      "bytes": 17462,
       "lang": "ru"
     },
     {
@@ -10180,7 +10202,7 @@
       "description": " Важно.",
       "source_path": "ru/core/devops/configuration-management/migration/migration-to-v2.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/migration/migration-to-v2.md",
-      "bytes": 15758,
+      "bytes": 15825,
       "lang": "ru"
     },
     {
@@ -10224,7 +10246,7 @@
       "description": " Подготовьте окружение. Перед развёртыванием системы обязательно выполните подготовительные действия. Ознакомьтесь с документом Подготовка к развертыванию.",
       "source_path": "ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md",
-      "bytes": 51323,
+      "bytes": 51631,
       "lang": "ru"
     },
     {
@@ -10378,7 +10400,7 @@
       "description": " Важно. Данная функциональность находится в режиме \"Experimental\". Общая схема инсталляции.",
       "source_path": "ru/core/devops/deployment-options/manual/federated-queries/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/federated-queries/index.md",
-      "bytes": 6515,
+      "bytes": 6571,
       "lang": "ru"
     },
     {
@@ -10422,7 +10444,7 @@
       "description": " Внимание.",
       "source_path": "ru/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v2.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v2.md",
-      "bytes": 33608,
+      "bytes": 34003,
       "lang": "ru"
     },
     {
@@ -11258,7 +11280,7 @@
       "description": "Динамическая конфигурация позволяет запускать динамические узлы, сконфигурировав их централизованно, без необходимости раскладывать файлы по узлам вручную. YDB ",
       "source_path": "ru/core/devops/configuration-management/configuration-v1/dynamic-config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/dynamic-config.md",
-      "bytes": 17986,
+      "bytes": 18042,
       "lang": "ru"
     },
     {
@@ -11665,7 +11687,7 @@
       "description": " В этом руководстве вы создадите свой первый потоковый запрос. Запрос будет: читать события из входного топика; отбирать только ошибки;",
       "source_path": "ru/core/recipes/streaming_queries/topics.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/streaming_queries/topics.md",
-      "bytes": 9385,
+      "bytes": 9444,
       "lang": "ru"
     },
     {
@@ -12179,10 +12201,10 @@
       "url": "https://ydb.tech/docs/ru/reference/configuration/feature_flags?version=v26.1",
       "file": "ru/reference/configuration/feature_flags.md",
       "title": "feature_flags",
-      "description": "Секция feature_flags включает или отключает определённые функции YDB с помощью булевых флагов. Для включения функции установите соответствующий функциональный ф",
+      "description": " В рамках классического подхода feature toggling проект YDB реализует механизм фича-флагов.",
       "source_path": "ru/core/reference/configuration/feature_flags.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/feature_flags.md",
-      "bytes": 4276,
+      "bytes": 12130,
       "lang": "ru"
     },
     {
@@ -12292,7 +12314,7 @@
       "description": "Секция node_broker_config настраивает стабильные имена узлов для динамических узлов в кластерах YDB. Присвоение имен узлам осуществляет Node Broker — системная ",
       "source_path": "ru/core/reference/configuration/node_broker_config.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/node_broker_config.md",
-      "bytes": 3376,
+      "bytes": 3405,
       "lang": "ru"
     },
     {
@@ -12402,7 +12424,7 @@
       "description": "YDB в Docker-контейнере настраивается через дополнительные переменные окружения, меняющие поведение YDB по умолчанию. Старт Docker-контейнера YDB осуществляется",
       "source_path": "ru/core/reference/docker/configuration.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/docker/configuration.md",
-      "bytes": 7710,
+      "bytes": 7588,
       "lang": "ru"
     },
     {

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/export-import/export-s3.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/export-import/export-s3.md"
 description: "Команда export s3 запускает на стороне сервера процесс выгрузки в S3-совместимое хранилище данных и информации об объектах схемы, в описанном в статье Файловая"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Выгрузка в S3-совместимое хранилище

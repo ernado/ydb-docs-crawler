@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/async-replication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/async-replication.md"
 description: "Asynchronous replication allows for synchronizing data between YDB databases in near real time. It can also be used for data migration between databases with mi"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Asynchronous Replication

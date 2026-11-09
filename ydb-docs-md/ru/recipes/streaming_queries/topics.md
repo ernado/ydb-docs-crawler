@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/streaming_queries/topics.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/streaming_queries/topics.md"
 description: "В этом руководстве вы создадите свой первый потоковый запрос. Запрос будет: читать события из входного топика; отбирать только ошибки;"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Быстрый старт: чтение и запись в топики
@@ -38,7 +38,7 @@ revision: "b61acf8801342bea386583a9946acfb5e803ab09"
 Для выполнения примеров вам потребуется:
 
 - запущенная база YDB — см. [quick start](../../quickstart.md);
-- включённые флаги `enable_external_data_sources` и `enable_streaming_queries`.
+- включённые [фича-флаги](../../reference/configuration/feature_flags.md) `enable_external_data_sources` и `enable_streaming_queries`.
 
 {% list tabs %}
 

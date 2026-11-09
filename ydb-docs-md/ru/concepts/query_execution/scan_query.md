@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/scan_query.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/scan_query.md"
 description: "Важно. Использование ScanQuery не рекомендуется для новых сценариев. Для выполнения запросов используйте стандартные механизмы."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Скан запросы (Scan Query) в YDB

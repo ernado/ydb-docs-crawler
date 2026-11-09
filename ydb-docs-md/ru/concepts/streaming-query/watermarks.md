@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/streaming-query/watermarks.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/streaming-query/watermarks.md"
 description: "Watermark в потоковой обработке данных ( stream processing ) — это монотонно возрастающая нижняя оценка времён событий, которые ещё могут поступить в поток. Ког"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Watermarks

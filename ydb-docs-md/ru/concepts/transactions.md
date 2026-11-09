@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/transactions.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/transactions.md"
 description: "Этот раздел описывает особенности реализации YQL для YDB транзакций. Язык запросов."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Транзакции и запросы к YDB

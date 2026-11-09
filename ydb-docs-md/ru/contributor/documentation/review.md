@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/documentation/review.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/review.md"
 description: "Развивая общий обзор из Участие в разработке документации YDB, эта статья подробнее рассматривает, что происходит на этапе ревью pull-запроса с документацией."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Процесс ревью документации YDB

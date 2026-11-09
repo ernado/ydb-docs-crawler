@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/documentation/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/documentation/index.md"
 description: "YDB follows the \"Documentation as Code\" approach, meaning that the YDB documentation is developed using similar techniques and tools as its main C++ source code"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Contributing to YDB documentation
@@ -28,5 +28,6 @@ After a pull request to the documentation is merged into the `main` branch, the 
 
 - [YDB Documentation Structure](structure.md)
 - [YDB documentation genres](genres.md)
+- [Documenting features controlled by feature flags](feature-flags.md)
 - [GitHub documentation](https://docs.github.com/en)
 - [Git documentation](https://git-scm.com/doc)

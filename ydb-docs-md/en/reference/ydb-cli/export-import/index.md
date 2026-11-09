@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/export-import/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/index.md"
 description: "The YDB CLI contains a set of commands designed to export and import data and descriptions of data schema objects. Data can be exported to create backups for su"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Exporting and importing data

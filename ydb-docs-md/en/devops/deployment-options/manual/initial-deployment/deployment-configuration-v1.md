@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/initial-deployment/deployment-configuration-v1.md"
 description: "Prepare the Environment. Before deploying the system, complete the preparatory steps. Review the Deployment Preparation document. Prepare Configuration Files."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Deploying a Cluster Using Configuration V1

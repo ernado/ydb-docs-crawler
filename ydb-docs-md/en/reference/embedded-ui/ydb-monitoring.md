@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/embedded-ui/ydb-monitoring.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/embedded-ui/ydb-monitoring.md"
 description: "YDB Monitoring is a set of web pages that display the system health according to a range of different aspects. The pages contain lists of components and their c"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # YDB Monitoring
@@ -24,7 +24,7 @@ http://<endpoint>:8765/monitoring/cluster
 
 An example of the page layout is shown in the screenshot below.
 
-![Monitoring_main_page](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/b61acf8801342bea386583a9946acfb5e803ab09/en/reference/embedded-ui/_assets/monitoring_main_page.png)
+![Monitoring_main_page](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/375f7dbaccae8842c504264b9251d9ccb968124e/en/reference/embedded-ui/_assets/monitoring_main_page.png)
 
 In the upper-right corner of the page, you can see details about the node that created the current page:
 

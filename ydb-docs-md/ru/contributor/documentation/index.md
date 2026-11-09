@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/documentation/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/documentation/index.md"
 description: "YDB следует подходу «Документация как код», что означает, что документация YDB разрабатывается с использованием аналогичных методов и инструментов, как и основн"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Участие в разработке документации YDB
@@ -28,6 +28,7 @@ YDB следует подходу «Документация как код», ч
 
 - [Структура документации YDB](structure.md)
 - [Жанры документации YDB](genres.md)
+- [Документирование функциональности под фича-флагами](feature-flags.md)
 - [Документация GitHub](https://docs.github.com/en)
 - [Документация Git](https://git-scm.com/doc)
 - [Добавление медиа в публичные материалы](guide-to-public-material.md)

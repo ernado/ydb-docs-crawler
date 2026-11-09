@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/topic-consumer-drop.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/topic-consumer-drop.md"
 description: "You can use the topic consumer drop command to delete a previously added consumer. General format of the command:"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Deleting a topic consumer

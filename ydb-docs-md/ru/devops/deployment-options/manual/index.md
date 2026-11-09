@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/manual/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/index.md"
 description: "В данном разделе описано развёртывание, конфигурирование, обслуживание, мониторинг и диагностика многоузловых кластеров YDB без использования систем оркестрации"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Обзор управления кластером YDB вручную

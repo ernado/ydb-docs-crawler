@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/export-import/auth-s3.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/export-import/auth-s3.md"
 description: "The commands used to export data from S3-compatible storages, export s3 and import s3, use the same parameters for S3 connection and authentication. To learn ho"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Connecting to S3-compatible object storages

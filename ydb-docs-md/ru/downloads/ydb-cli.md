@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/downloads/ydb-cli.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/downloads/ydb-cli.md"
 description: "YDB CLI ( ydb ) — утилита командной строки для работы с базами данных YDB. Распространяется под лицензией Apache 2.0. Совет."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Загрузка YDB CLI

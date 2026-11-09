@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 description: "Подготовьте окружение. Перед развёртыванием системы обязательно выполните подготовительные действия. Ознакомьтесь с документом Подготовка к развертыванию."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Развёртывание кластера с использованием конфигурации V1
@@ -339,6 +339,8 @@ all:
 Зашифруйте этот файл с помощью команды `ansible-vault encrypt inventory/99-inventory-vault.yaml`.
 
 ## Подготовьте конфигурационный файл YDB {#ydb-config-prepare}
+
+Примеры ниже содержат секцию `feature_flags`. Перед изменением её значений ознакомьтесь с [назначением фича-флагов и правилами их переключения](../../../../reference/configuration/feature_flags.md).
 
 Создайте файл `files/config.yaml` и заполните его в зависимости от выбранной топологии (подробнее: [выбор топологии](deployment-preparation.md#topology-select)). Примеры для каждой поддерживаемой топологии приведены ниже во вкладках — выберите подходящий.
 

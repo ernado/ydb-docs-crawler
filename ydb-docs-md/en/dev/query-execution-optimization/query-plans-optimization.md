@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/query-execution-optimization/query-plans-optimization.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/query-execution-optimization/query-plans-optimization.md"
 description: "It's very useful to to analyze execution plans for queries in order to detect and eliminate the causes of possible inefficiencies. YDB provides two types of que"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Query plan optimization

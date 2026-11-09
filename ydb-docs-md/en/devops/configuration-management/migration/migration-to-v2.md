@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/migration/migration-to-v2.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/migration/migration-to-v2.md"
 description: "Warning."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Migration to Configuration V2
@@ -65,7 +65,7 @@ To migrate the YDB cluster to configuration V2, you need to perform the followin
    ydb -e grpc://<node.ydb.tech>:2135 admin cluster config generate > config.yaml
    ```
 
-3. Add the following field to the `config.yaml` file obtained in step 1 or 2:
+3. Enable the `switch_to_config_v2` [feature flag](../../../reference/configuration/feature_flags.md) in the `config.yaml` file obtained in step 1 or 2:
 
    ```yaml
    feature_flags:

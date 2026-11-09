@@ -240,6 +240,7 @@
     - [Style guide](en/contributor/documentation/style-guide.md)
     - [Structure](en/contributor/documentation/structure.md)
     - [Genres](en/contributor/documentation/genres.md)
+    - [Features controlled by feature flags](en/contributor/documentation/feature-flags.md)
   - Core
     - [General schema](en/contributor/general-schema.md)
     - [Distributed storage](en/contributor/distributed-storage.md)

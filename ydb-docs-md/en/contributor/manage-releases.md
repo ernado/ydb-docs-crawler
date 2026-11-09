@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/manage-releases.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/manage-releases.md"
 description: "There are two products based on the source code from the YDB repository with independent release cycles: YDB server. YDB command-line interface (CLI)."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Manage YDB Releases
@@ -35,7 +35,7 @@ YDB server release schedule typically includes 4 major releases per year, so the
 
 YDB maintains compatibility between major versions to ensure a cluster can operate while its nodes run two adjacent major versions of the YDB server executable. You may refer the [Updating YDB](../devops/deployment-options/manual/update-executable.md) article to learn more about the cluster upgrade procedure.
 
-Given the above compatibility target, major releases go in pairs: odd numbered releases add new functionality switched off by feature flags, and even numbered releases enable that functionality by default.
+Given the above compatibility target, major releases go in pairs: odd numbered releases add new functionality switched off by [feature flags](../reference/configuration/feature_flags.md), and even numbered releases enable that functionality by default.
 
 For instance, release `23.1` comes with the new functionality switched off. It can be incrementally rolled out to a cluster running `22.4`, without downtime. As soon as the whole cluster runs `23.1` nodes, you can manually toggle feature flags to test new functionality and later further upgrade it to `23.2` to fully leverage this new functionality.
 

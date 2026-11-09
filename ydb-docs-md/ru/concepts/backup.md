@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/backup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/backup.md"
 description: "YDB обеспечивает сохранность данных при аппаратных сбоях за счёт репликации и отказоустойчивости. Однако репликация не защищает от логических ошибок: случайный"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Концепции резервного копирования

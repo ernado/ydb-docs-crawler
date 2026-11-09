@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/ansible/observability/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/observability/index.md"
 description: "В этом разделе документации YDB рассматриваются различные аспекты наблюдаемости (observability), специфичные для кластеров, развёрнутых с помощью Ansible."
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Обеспечение наблюдаемости кластера YDB, развёрнутого с помощью Ansible

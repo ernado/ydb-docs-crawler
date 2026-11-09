@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/security/short-access-control-notation.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/security/short-access-control-notation.md"
 description: "When describing or logging the permissions granted to users (e.g., in the audit log records), a special short notation for access control may be used. The notat"
-revision: "b61acf8801342bea386583a9946acfb5e803ab09"
+revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 ---
 
 # Short access control notation
