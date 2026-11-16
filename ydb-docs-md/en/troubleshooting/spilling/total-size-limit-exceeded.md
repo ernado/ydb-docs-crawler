@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/spilling/total-size-limit-exceeded.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/spilling/total-size-limit-exceeded.md"
 description: "The maximum total size of spilling files has been exceeded (parameter max_total_size ). This occurs when the total size of all spilling files reaches the config"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Total Size Limit Exceeded

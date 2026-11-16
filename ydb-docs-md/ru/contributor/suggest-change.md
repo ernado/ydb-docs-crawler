@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/suggest-change.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/suggest-change.md"
 description: "Этот раздел содержит пошаговый сценарий, который поможет вам выполнить необходимые шаги по настройке и узнать, как внести изменения в проект YDB. Этому сценарию"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Процесс разработки: работа над изменениями кода YDB

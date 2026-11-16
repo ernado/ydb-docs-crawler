@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/analyst/practical-guides/scd/scd2-transfer.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/analyst/practical-guides/scd/scd2-transfer.md"
 description: "This article describes the implementation of the Slowly Changing Dimensions Type 2 (SCD2) pattern in YDB. Used tools."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Using the TRANSFER mechanism to implement SCD2 based on data from CDC sources in YDB

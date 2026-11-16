@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/sql-translation/sql-dialect-converter.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/sql-translation/sql-dialect-converter.md"
 description: "The SQL dialect converter is a service that converts SQL queries written in other dialects (PostgreSQL, MySQL, ClickHouse, and others) into YQL syntax. The serv"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # SQL dialect converter to YQL

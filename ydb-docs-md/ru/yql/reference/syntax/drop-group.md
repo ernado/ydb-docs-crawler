@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/drop-group.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/drop-group.md"
 description: "Удаляет указанную группу. Для одного оператора вы можете указать несколько групп. Синтаксис: DROP GROUP [ IF EXISTS ] group_name [,...]."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # DROP GROUP

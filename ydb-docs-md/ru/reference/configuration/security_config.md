@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/security_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/security_config.md"
 description: "В разделе security_config файла конфигурации YDB задаются режимы аутентификации, первичная конфигурация локальных пользователей и групп и их права."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # security_config

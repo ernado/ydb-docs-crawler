@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/observability/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/index.md"
 description: "This section of YDB documentation covers various observability-related topics that do not depend on a chosen deployment method. Metrics reference."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Reference on YDB observability

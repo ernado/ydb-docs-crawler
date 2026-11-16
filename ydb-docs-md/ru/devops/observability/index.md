@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/observability/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/observability/index.md"
 description: "Данный раздел содержит описания по работе с инструментами наблюдения за кластером YDB. Основные подразделы: Настройка мониторинга кластера YDB."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Обзор наблюдаемости

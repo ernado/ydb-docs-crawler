@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/infrastructure/dc-outage.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/infrastructure/dc-outage.md"
 description: "Data center outages are disruptions in data center operations that could cause service or data unavailability, but YDB has means to avoid it. Various factors, s"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Data center outages

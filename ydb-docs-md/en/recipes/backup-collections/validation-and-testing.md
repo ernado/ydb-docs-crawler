@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/recipes/backup-collections/validation-and-testing.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/recipes/backup-collections/validation-and-testing.md"
 description: "Verify backup integrity and test restoration procedures. Verify backup completion. Check that backup operations completed successfully:"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Validating and Testing Backups

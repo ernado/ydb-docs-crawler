@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/configuration/system_tablet_backup_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/configuration/system_tablet_backup_config.md"
 description: "Механизм резервного копирования системных таблеток обеспечивает инкрементальное копирование метаданных кластера — таких как Hive, BSController и SchemeShard — н"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # system_tablet_backup_config

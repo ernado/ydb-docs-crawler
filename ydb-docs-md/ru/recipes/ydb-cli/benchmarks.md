@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/recipes/ydb-cli/benchmarks.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/recipes/ydb-cli/benchmarks.md"
 description: "В YDB интегрирован инструментарий для проведения нагрузочных тестов с использованием стандартных бенчмарков: Бенчмарк Справка. TPC-C. tpcc. TPC-H. tpch. TPC-DS."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Проведение нагрузочного тестирования

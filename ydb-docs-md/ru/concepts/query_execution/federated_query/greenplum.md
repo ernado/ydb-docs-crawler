@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/query_execution/federated_query/greenplum.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/federated_query/greenplum.md"
 description: "В этом разделе описана основная информация про работу с внешней базой данных Greenplum. Поскольку Greenplum основан на PostgreSQL, интеграции с ними работают по"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Работа с базами данных Greenplum

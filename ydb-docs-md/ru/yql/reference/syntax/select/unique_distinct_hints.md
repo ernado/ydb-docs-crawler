@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/select/unique_distinct_hints.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/select/unique_distinct_hints.md"
 description: "Непосредственно после SELECT возможно добавить SQL хинты unique или distinct которые заявляют, что эта проекция порождает данные, содержащие уникальные значения"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # UNIQUE DISTINCT hints

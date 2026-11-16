@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/security/encryption/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/security/encryption/index.md"
 description: "YDB предоставляет два основных подхода к шифрованию пользовательских данных: Шифрование данных при хранении. Шифрование данных при передаче."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Шифрование в YDB

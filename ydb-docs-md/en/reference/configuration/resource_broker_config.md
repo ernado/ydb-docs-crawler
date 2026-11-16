@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/resource_broker_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/resource_broker_config.md"
 description: "The resource broker is an actor service that controls resource consumption on YDB nodes, such as: CPU — number of threads. Memory — RAM."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # resource_broker_config

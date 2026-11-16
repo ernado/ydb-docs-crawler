@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/scripting-yql.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/scripting-yql.md"
 description: "Warning. This command is deprecated. The preferred way to run queries in YDB CLI is to use the ydb sql command."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Running a script

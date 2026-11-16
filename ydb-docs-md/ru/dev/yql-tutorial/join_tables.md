@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/yql-tutorial/join_tables.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/yql-tutorial/join_tables.md"
 description: "Объедините колонки исходных таблиц seasons и series и выведите все сезоны сериала IT Crowd в результирующей таблице с помощью оператора JOIN. Примечание."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Объединение таблиц с помощью JOIN

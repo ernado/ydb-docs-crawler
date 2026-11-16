@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/configuration/log_config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/configuration/log_config.md"
 description: "The log_config section controls how YDB server processes and manages its logs. It allows you to customize logging levels for different components, as well as gl"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # log_config

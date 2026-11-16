@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/builtins/basic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/builtins/basic.md"
 description: "Below are the general-purpose functions. For specialized functions, there are separate articles: aggregate functions, window functions, and functions for lists,"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Basic built-in functions

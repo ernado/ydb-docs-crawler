@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/infrastructure/network.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/infrastructure/network.md"
 description: "Network performance issues, such as limited bandwidth, packet loss, and connection instability, can severely impact database performance by slowing query respon"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Network issues

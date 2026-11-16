@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/operation-list.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/operation-list.md"
 description: "С помощью подкоманды ydb operation list вы можете получить список фоновых операций указанного типа. Общий вид команды:"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Получение списка фоновых операций
@@ -27,14 +27,13 @@ ydb [global options...] operation list [options...] <kind>
 - `kind` — тип операции. Возможные значения:
 
   - `buildindex` — операции построения индекса;
-  - `compaction` — операции компакшна таблиц;
-  - `export/s3` — операции экспорта в S3;
+  - `export/s3` — операции [экспорта в S3](export-import/export-s3.md);
   - `export/nfs` — операции экспорта на NFS;
-  - `import/s3` — операции импорта из S3;
+  - `import/s3` — операции [импорта из S3](export-import/import-s3.md);
   - `import/nfs` — операции импорта с NFS;
   - `scriptexec` — операции выполнения скриптов;
-  - `incbackup` — операции инкрементального резервного копирования;
-  - `restore` — операции восстановления из резервной копии.
+  - `incbackup` — операции [инкрементального резервного копирования](../../concepts/backup.md#incremental-backup);
+  - `restore` — операции восстановления из [коллекции резервных копий](../../concepts/datamodel/backup-collection.md).
 
 Посмотрите описание команды получения списка фоновых операций:
 

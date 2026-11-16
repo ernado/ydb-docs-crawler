@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/commands/tools/rename.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/commands/tools/rename.md"
 description: "С помощью подкоманды tools rename вы можете переименовать одну или несколько таблиц одновременно, перенести таблицу в другую директорию в пределах той же БД, за"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Переименование строковых таблиц

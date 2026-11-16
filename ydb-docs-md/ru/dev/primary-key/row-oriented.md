@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/primary-key/row-oriented.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/primary-key/row-oriented.md"
 description: "Выбор колонок для первичного ключа строковой таблицы оказывает определяющее влияние на возможности YDB по масштабированию нагрузки и повышению производительност"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Выбор первичного ключа для максимальной производительности

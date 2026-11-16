@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/yql/reference/syntax/revoke.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/yql/reference/syntax/revoke.md"
 description: "The REVOKE command allows revoking access rights to schema objects for users or groups of users. Syntax:"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # REVOKE

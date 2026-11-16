@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/ingestion/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/ingestion/index.md"
 description: "Delivery system Guide. FluentBit. Guide. LogStash. Guide. Kafka Connect Sink. Guide. Streaming data ingestion Delivery System Instruction. Apache Kafka API."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Data ingestion

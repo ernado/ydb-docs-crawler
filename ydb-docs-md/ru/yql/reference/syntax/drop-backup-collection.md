@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/drop-backup-collection.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/drop-backup-collection.md"
 description: "Выражение DROP BACKUP COLLECTION удаляет коллекцию резервных копий и все содержащиеся в ней резервные копии. DROP BACKUP COLLECTION collection_name; Параметры."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # DROP BACKUP COLLECTION

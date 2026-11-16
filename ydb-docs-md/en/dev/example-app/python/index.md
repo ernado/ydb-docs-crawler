@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/example-app/python/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/example-app/python/index.md"
 description: "This page contains a detailed description of the code of a test app that is available as part of the YDB Python SDK. Downloading and starting."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Example app in Python

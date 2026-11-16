@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/async-replication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/async-replication.md"
 description: "Асинхронная репликация позволяет синхронизировать данные между базами данных YDB почти в реальном времени. Также она может быть использована для миграции данных"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Асинхронная репликация
@@ -85,7 +85,14 @@ revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
 - **Критичные ошибки**. Например, ошибки прав доступа, ошибки схемы и т.д. Процесс репликации будет остановлен, и в [описании](../reference/ydb-cli/commands/scheme-describe.md) экземпляра репликации будет указан текст ошибки.
 
 > [!WARNING]
-> На данный момент остановленный из-за критичной ошибки процесс асинхронной репликации не может быть перезапущен. Его нужно [удалить](../yql/reference/syntax/drop-async-replication.md) и [создать](../yql/reference/syntax/create-async-replication.md) заново.
+> После устранения причины критичной ошибки асинхронную репликацию можно возобновить без удаления экземпляра. Сначала приостановите её, затем переведите в состояние `STANDBY`:
+>
+> ```yql
+> ALTER ASYNC REPLICATION my_replication SET (STATE = 'PAUSED');
+> ALTER ASYNC REPLICATION my_replication SET (STATE = 'STANDBY');
+> ```
+>
+> Убедитесь, что приостановка и обработка накопленных изменений укладываются во [время хранения записей](cdc.md#retention-period). Подробнее см. [ALTER ASYNC REPLICATION](../yql/reference/syntax/alter-async-replication.md).
 
 Подробнее про классы ошибок и политики их обработки см. в разделе [Обработка ошибок](../reference/ydb-sdk/error_handling.md).
 

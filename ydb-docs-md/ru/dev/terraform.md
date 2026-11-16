@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/terraform.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/terraform.md"
 description: "С помощью Terraform можно создавать, удалять и изменять следующие объекты внутри кластера YDB: строковые таблицы; вторичные индексы для строковых таблиц;"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Управление YDB с помощью Terraform

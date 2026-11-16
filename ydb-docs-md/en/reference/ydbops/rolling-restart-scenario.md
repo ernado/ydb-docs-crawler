@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydbops/rolling-restart-scenario.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydbops/rolling-restart-scenario.md"
 description: "Note. The ydbops utility is under active development. Although backward-incompatible changes are unlikely, they may still occur."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Performing YDB cluster restart using ydbops

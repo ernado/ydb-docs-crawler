@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/example-app/example-php.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/example-app/example-php.md"
 description: "На этой странице подробно разбирается код тестового приложения, доступного в составе PHP SDK YDB. Инициализация соединения с базой данных."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Приложение на PHP

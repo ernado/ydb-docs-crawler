@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/workload-topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/workload-topic.md"
 description: "Applies load to your YDB topics, using them as message queues. You can use a variety of input parameters to simulate production load: message number, message si"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Topic load

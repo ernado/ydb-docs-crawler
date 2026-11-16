@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/datamodel/cluster-namespace.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/datamodel/cluster-namespace.md"
 description: "В YDB все схемные объекты организованы в иерархическое пространство имён — схему кластера. Эта схема определяет, как размещаются и именуются базы данных, директ"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Пространство имён кластера и имена объектов

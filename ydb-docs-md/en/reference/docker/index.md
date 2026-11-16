@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/docker/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/docker/index.md"
 description: "This section provides detailed information about working with YDB when delivered as a Docker container."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # YDB Docker container reference

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/async-replication.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/async-replication.md"
 description: "Asynchronous replication allows for synchronizing data between YDB databases in near real time. It can also be used for data migration between databases with mi"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Asynchronous Replication
@@ -88,7 +88,14 @@ Possible errors during asynchronous replication can be grouped into the followin
 - **Critical errors**, such as access violation errors, schema errors, etc. Replication will be aborted, and the [description](../reference/ydb-cli/commands/scheme-describe.md) of the asynchronous replication instance will include the text of the error.
 
 > [!WARNING]
-> Currently, asynchronous replication that is aborted due to a critical error cannot be resumed. In this case, you must [drop](../yql/reference/syntax/drop-async-replication.md) and [create](../yql/reference/syntax/create-async-replication.md) a new asynchronous replication instance.
+> After fixing the cause of a critical error, you can resume asynchronous replication without dropping the instance. First pause it, then set its state to `STANDBY`:
+>
+> ```yql
+> ALTER ASYNC REPLICATION my_replication SET (STATE = 'PAUSED');
+> ALTER ASYNC REPLICATION my_replication SET (STATE = 'STANDBY');
+> ```
+>
+> Make sure the pause and processing of accumulated changes fit within the [record retention period](cdc.md#retention-period). For details, see [ALTER ASYNC REPLICATION](../yql/reference/syntax/alter-async-replication.md).
 
 For more information about error classes and how to address them, refer to [Error Handling](../reference/ydb-sdk/error_handling.md).
 

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/ydb-cli/operation-cancel.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/operation-cancel.md"
 description: "С помощью подкоманды ydb operation cancel вы можете инициировать отмену указанной фоновой операции. Можно отменить только незавершенную операцию."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Отмена фоновой операции

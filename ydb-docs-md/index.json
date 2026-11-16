@@ -4,14 +4,14 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "375f7dbaccae8842c504264b9251d9ccb968124e",
+      "revision": "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e",
       "page_count": 727,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "375f7dbaccae8842c504264b9251d9ccb968124e",
+      "revision": "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e",
       "page_count": 736,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
@@ -346,7 +346,7 @@
       "description": "Asynchronous replication allows for synchronizing data between YDB databases in near real time. It can also be used for data migration between databases with mi",
       "source_path": "en/core/concepts/async-replication.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/async-replication.md",
-      "bytes": 9382,
+      "bytes": 9636,
       "lang": "en"
     },
     {
@@ -5263,7 +5263,7 @@
       "description": " Use the ydb operation list subcommand to get a list of long-running operations of the specified type. General format of the command:",
       "source_path": "en/core/reference/ydb-cli/operation-list.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/operation-list.md",
-      "bytes": 3886,
+      "bytes": 3991,
       "lang": "en"
     },
     {
@@ -8343,7 +8343,7 @@
       "description": "Асинхронная репликация позволяет синхронизировать данные между базами данных YDB почти в реальном времени. Также она может быть использована для миграции данных",
       "source_path": "ru/core/concepts/async-replication.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/async-replication.md",
-      "bytes": 15580,
+      "bytes": 15988,
       "lang": "ru"
     },
     {
@@ -10950,7 +10950,7 @@
       "description": " Введение.",
       "source_path": "ru/core/integrations/migration/liquibase.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/migration/liquibase.md",
-      "bytes": 24120,
+      "bytes": 29198,
       "lang": "ru"
     },
     {
@@ -11027,7 +11027,7 @@
       "description": " Введение. Это руководство использования Hibernate с YDB.",
       "source_path": "ru/core/integrations/orm/hibernate.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/orm/hibernate.md",
-      "bytes": 11231,
+      "bytes": 20036,
       "lang": "ru"
     },
     {
@@ -13381,7 +13381,7 @@
       "description": " С помощью подкоманды ydb operation list вы можете получить список фоновых операций указанного типа. Общий вид команды:",
       "source_path": "ru/core/reference/ydb-cli/operation-list.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/ydb-cli/operation-list.md",
-      "bytes": 4919,
+      "bytes": 5023,
       "lang": "ru"
     },
     {

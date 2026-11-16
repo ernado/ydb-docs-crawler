@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/observability/tracing/setup.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/observability/tracing/setup.md"
 description: "Note. The OpenTelemetry website describes the concept of tracing in detail in the Observability Primer article."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Tracing in YDB

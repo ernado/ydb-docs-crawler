@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/index.md"
 description: "В этом разделе документации YDB описаны способы развёртывания кластеров YDB с помощью различных инструментов, а также инструкции по дальнейшей работе с ними в з"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Способы развёртывания YDB

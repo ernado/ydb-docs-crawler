@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/dev/query-execution-optimization/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/dev/query-execution-optimization/index.md"
 description: "Материалы по анализу и настройке выполнения запросов: Использование планов при оптимизации запросов — логический и исполняемый план, поиск узких мест."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Оптимизация выполнения запросов

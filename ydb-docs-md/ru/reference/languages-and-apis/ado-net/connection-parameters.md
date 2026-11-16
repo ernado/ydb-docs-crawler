@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/reference/languages-and-apis/ado-net/connection-parameters.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/reference/languages-and-apis/ado-net/connection-parameters.md"
 description: "Для подключения к базе данных приложение предоставляет строку подключения, в которой указываются такие параметры, как хост, пользователь, пароль и т.д. Строки п"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Параметры подключения ADO.NET

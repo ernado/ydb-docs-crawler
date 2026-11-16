@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/topic-pipeline.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/topic-pipeline.md"
 description: "The use of the topic read and topic write commands with standard I/O devices and support for reading messages in streaming mode lets you build full-featured int"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Message pipeline processing

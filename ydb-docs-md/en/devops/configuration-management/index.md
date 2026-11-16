@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/configuration-management/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/configuration-management/index.md"
 description: "This section presents materials on YDB cluster configuration management. You will learn about two versions of the configuration mechanism (V1 and V2), their dif"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # YDB Cluster Configuration

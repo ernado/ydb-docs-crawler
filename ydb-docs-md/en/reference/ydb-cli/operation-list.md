@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/operation-list.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/operation-list.md"
 description: "Use the ydb operation list subcommand to get a list of long-running operations of the specified type. General format of the command:"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Getting a list of long-running operations
@@ -27,14 +27,13 @@ ydb [global options...] operation list [options...] <kind>
 - `kind`: The type of operation. Possible values:
 
   - `buildindex`: The build index operations.
-  - `compaction`: The table compaction operations.
-  - `export/s3`: The export to S3 operations.
+  - `export/s3`: The [export to S3 operations](export-import/export-s3.md).
   - `export/nfs`: The export to NFS operations.
-  - `import/s3`: The import from S3 operations.
+  - `import/s3`: The [import from S3 operations](export-import/import-s3.md).
   - `import/nfs`: The import from NFS operations.
   - `scriptexec`: The script execution operations.
-  - `incbackup`: The incremental backup operations.
-  - `restore`: The backup collection restore operations.
+  - `incbackup`: The [incremental backup operations](../../concepts/backup.md#incremental-backup).
+  - `restore`: The [backup collection restore operations](../../concepts/datamodel/backup-collection.md).
 
 View a description of the command to get a list of long-running operations:
 

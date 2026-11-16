@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/integrations/gui/datagrip.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/integrations/gui/datagrip.md"
 description: "DataGrip — это эффективный кросс-платформенный инструмент для работы с реляционными базами данных и NoSQL."
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Подключение к YDB с помощью DataGrip

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/concepts/versioning.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/concepts/versioning.md"
 description: "Релизы YDB именуются версией, представляющей собой строку, состоящую из нескольких компонентов. В зависимости от контекста часть находящихся справа компонентов"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Версионирование YDB

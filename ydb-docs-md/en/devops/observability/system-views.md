@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/observability/system-views.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/observability/system-views.md"
 description: "For internal introspection of cluster state, users can query special service views (system views). These views are available from the cluster root directory and"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Cluster System Views

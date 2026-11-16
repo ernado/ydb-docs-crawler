@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/contributor/datashard-locks-and-change-visibility.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/contributor/datashard-locks-and-change-visibility.md"
 description: "When a long-running YQL transaction writes data to tables, it may try to read the same table later. To support observing data consistent with transaction change"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # DataShard: locks and transaction change visibility

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/configuration-management/configuration-v1/dynamic-config-volatile-config.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/configuration-management/configuration-v1/dynamic-config-volatile-config.md"
 description: "Временные конфигурации — это специальный вид конфигураций, которые дополняют динамическую и при этом не являются персистентными. Т.е. данные конфигурации сбрасы"
-revision: "375f7dbaccae8842c504264b9251d9ccb968124e"
+revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 ---
 
 # Временные конфигурации
