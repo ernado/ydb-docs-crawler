@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/ansible/initial-deployment/deployment-configuration-v1.md"
 description: "Подготовьте окружение. Перед развёртыванием системы обязательно выполните подготовительные действия. Ознакомьтесь с документом Подготовка к развертыванию."
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Развёртывание кластера с использованием конфигурации V1

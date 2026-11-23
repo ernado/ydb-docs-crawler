@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/analytics/concepts/store.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/analytics/concepts/store.md"
 description: "Эффективное хранение данных — основа любого аналитического хранилища. YDB использует колоночный формат, архитектуру с разделением хранения и вычислений и автома"
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Хранение данных

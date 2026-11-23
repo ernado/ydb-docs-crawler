@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/contributor/load-actors-memory.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/contributor/load-actors-memory.md"
 description: "Аллоцирует блоки памяти указанного размера через заданные промежутки времени. После снятия нагрузки аллоцированная память освобождается. С помощью этого актора"
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # MemoryLoad

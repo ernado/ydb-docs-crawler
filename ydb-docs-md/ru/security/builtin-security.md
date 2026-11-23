@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/security/builtin-security.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/security/builtin-security.md"
 description: "Начальная настройка безопасности выполняется автоматически при первом запуске кластера YDB."
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Начальная настройка безопасности кластера

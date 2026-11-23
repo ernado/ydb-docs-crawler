@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/observability/monitoring.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/observability/monitoring.md"
 description: "На этой странице рассказано, как настроить мониторинг кластера YDB. Доступ к метрикам через веб-интерфейс."
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Настройка мониторинга кластера YDB

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/deployment-options/manual/maintenance.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/deployment-options/manual/maintenance.md"
 description: "Cluster maintenance. The ydbops utility uses CMS to perform cluster maintenance without losing availability. You can also use CMS directly through the gRPC API."
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # en/devops/deployment-options/manual/maintenance

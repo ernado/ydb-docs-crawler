@@ -6,8 +6,8 @@ version: "v26.1"
 lang: "ru"
 source_path: "ru/core/yql/reference/syntax/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/index.md"
-description: "Лексическая структура. Выражения. SELECT. VALUES. CREATE TABLE. DROP TABLE. TRUNCATE TABLE. INSERT. SHOW CREATE. ALTER TABLE. UPDATE. DELETE. REPLACE. UPSERT."
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+description: "Лексическая структура. Выражения. SELECT. VALUES. CREATE TABLE. DROP TABLE. TRUNCATE TABLE. INSERT. SHOW CREATE. ANALYZE. ALTER TABLE. UPDATE. DELETE. REPLACE."
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Список статей по синтаксису YQL
@@ -21,6 +21,7 @@ revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
 - [TRUNCATE TABLE](truncate-table.md)
 - [INSERT](insert_into.md)
 - [SHOW CREATE](show_create.md)
+- [ANALYZE](analyze.md)
 - [ALTER TABLE](alter_table/index.md)
 - [UPDATE](update.md)
 - [DELETE](delete.md)

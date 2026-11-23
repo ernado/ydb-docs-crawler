@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/dev/system-views.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/dev/system-views.md"
 description: "To obtain system information about the database state, you can refer to system views. They are available from the root of the database tree and use the system p"
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # System database views

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/concepts/analytics/concepts/ingest.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/analytics/concepts/ingest.md"
 description: "YDB спроектирована для приема как потоковых, так и пакетных данных. Отсутствие выделенных мастер-узлов позволяет осуществлять запись данных параллельно на все у"
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Ввод данных

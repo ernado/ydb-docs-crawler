@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/integrations/visualization/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/integrations/visualization/index.md"
 description: "Environment Compatibility Level Instruction. Apache Superset. ydb-sqlalchemy. Instruction. DataLens. Full. Instruction. Grafana. Full. Instruction."
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Data visualization (Business intelligence, BI)

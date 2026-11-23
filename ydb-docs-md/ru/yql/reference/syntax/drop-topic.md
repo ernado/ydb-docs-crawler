@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/yql/reference/syntax/drop-topic.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/drop-topic.md"
 description: "С помощью оператора DROP TOPIC можно удалить топик. Синтаксис. DROP TOPIC topic_path; Примеры. Следующая команда удалит топик с именем my_topic:"
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # DROP TOPIC

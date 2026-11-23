@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/maintenance/manual/blobdepot.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/maintenance/manual/blobdepot.md"
 description: "Блобовница расширяет функциональность подсистемы хранения, добавляя функциональность виртуальной группы."
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Блобовница

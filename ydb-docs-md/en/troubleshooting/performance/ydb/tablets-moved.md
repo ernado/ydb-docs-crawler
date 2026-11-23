@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/troubleshooting/performance/ydb/tablets-moved.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/troubleshooting/performance/ydb/tablets-moved.md"
 description: "YDB automatically balances the load by moving tablets from overloaded nodes to other nodes. This process is managed by Hive. When Hive moves tablets, queries af"
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Frequent tablet moves between nodes

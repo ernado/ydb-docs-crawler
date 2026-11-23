@@ -4,20 +4,20 @@
   "languages": [
     {
       "lang": "en",
-      "revision": "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e",
+      "revision": "5783baf4a26ccb796054e5b5f3109cb157158102",
       "page_count": 727,
       "toc": "toc.en.json",
       "summary": "SUMMARY.en.md"
     },
     {
       "lang": "ru",
-      "revision": "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e",
-      "page_count": 736,
+      "revision": "5783baf4a26ccb796054e5b5f3109cb157158102",
+      "page_count": 737,
       "toc": "toc.ru.json",
       "summary": "SUMMARY.ru.md"
     }
   ],
-  "page_count": 1463,
+  "page_count": 1464,
   "pages": [
     {
       "doc_path": "en/",
@@ -8750,7 +8750,7 @@
       "description": "В YDB используются два типа оптимизаторов запросов: оптимизатор, основанный на правилах, и стоимостной оптимизатор. Стоимостной оптимизатор применяется для слож",
       "source_path": "ru/core/concepts/query_execution/optimizer.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/concepts/query_execution/optimizer.md",
-      "bytes": 10968,
+      "bytes": 11147,
       "lang": "ru"
     },
     {
@@ -14643,10 +14643,10 @@
       "url": "https://ydb.tech/docs/ru/yql/reference/syntax/?version=v26.1",
       "file": "ru/yql/reference/syntax/index.md",
       "title": "Список статей по синтаксису YQL",
-      "description": " Лексическая структура. Выражения. SELECT. VALUES. CREATE TABLE. DROP TABLE. TRUNCATE TABLE. INSERT. SHOW CREATE. ALTER TABLE. UPDATE. DELETE. REPLACE. UPSERT.",
+      "description": " Лексическая структура. Выражения. SELECT. VALUES. CREATE TABLE. DROP TABLE. TRUNCATE TABLE. INSERT. SHOW CREATE. ANALYZE. ALTER TABLE. UPDATE. DELETE. REPLACE.",
       "source_path": "ru/core/yql/reference/syntax/index.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/index.md",
-      "bytes": 3299,
+      "bytes": 3324,
       "lang": "ru"
     },
     {
@@ -14900,6 +14900,17 @@
       "source_path": "ru/core/yql/reference/syntax/alter_table/set.md",
       "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/alter_table/set.md",
       "bytes": 2389,
+      "lang": "ru"
+    },
+    {
+      "doc_path": "ru/yql/reference/syntax/analyze",
+      "url": "https://ydb.tech/docs/ru/yql/reference/syntax/analyze?version=v26.1",
+      "file": "ru/yql/reference/syntax/analyze.md",
+      "title": "ANALYZE",
+      "description": " ANALYZE принудительно запускает сбор статистики для стоимостного оптимизатора YDB. Синтаксис. ANALYZE <path_to_table> [ (<column_name> [,...]) ].",
+      "source_path": "ru/core/yql/reference/syntax/analyze.md",
+      "vcs_url": "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/yql/reference/syntax/analyze.md",
+      "bytes": 1863,
       "lang": "ru"
     },
     {

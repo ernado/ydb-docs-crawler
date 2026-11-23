@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/concepts/streaming-query/watermarks.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/concepts/streaming-query/watermarks.md"
 description: "A watermark in stream processing ( stream processing ) is a monotonically increasing lower bound on the event times that may still arrive in the stream. When th"
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Watermarks

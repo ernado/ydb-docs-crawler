@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/devops/deployment-options/manual/update-executable.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/devops/deployment-options/manual/update-executable.md"
 description: "YDB распределенная система, поддерживающая плавное обновление (rolling restart) без даунтайма и деградации производительности. Важно."
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Обновление исполняемого файла YDB
@@ -27,7 +27,7 @@ YDB распределенная система, поддерживающая п
 Процесс остановки и запуска описан на странице [Безопасные рестарт и выключение узлов](../../../maintenance/manual/node_restarting.md).  
  Узлы YDB следует обновлять последовательно по одному, после каждого шага контролировать состояние кластера через [YDB Monitoring](../../../reference/embedded-ui/ydb-monitoring.md) - на вкладке `Storage` не должно быть пулов в состоянии `Degraded` (как на примере ниже). В противном случае обновление необходимо остановить.
 
-![Monitoring_storage_state](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e/ru/reference/embedded-ui/_assets/monitoring_storage_state.png)
+![Monitoring_storage_state](https://ydb.tech/docs/docs-assets/ydb-platform--ydb/rev/5783baf4a26ccb796054e5b5f3109cb157158102/ru/reference/embedded-ui/_assets/monitoring_storage_state.png)
 
 ## Проверка результата обновления {#upgrade_check}
 

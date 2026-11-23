@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/devops/observability/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/devops/observability/index.md"
 description: "This section contains descriptions for working with YDB cluster observability tools. Main subsections: Setting Up YDB Cluster Monitoring. Logging in YDB."
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Observability Overview

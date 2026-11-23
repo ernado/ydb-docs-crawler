@@ -309,6 +309,7 @@
       - [ALTER TRANSFER](ru/yql/reference/syntax/alter-transfer.md)
       - [ALTER SECRET](ru/yql/reference/syntax/alter-secret.md)
       - [ALTER USER](ru/yql/reference/syntax/alter-user.md)
+      - [ANALYZE](ru/yql/reference/syntax/analyze.md)
       - [BATCH DELETE](ru/yql/reference/syntax/batch-delete.md)
       - [BATCH UPDATE](ru/yql/reference/syntax/batch-update.md)
       - [BACKUP](ru/yql/reference/syntax/backup.md)

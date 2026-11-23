@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/embedded-ui/index.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/embedded-ui/index.md"
 description: "YDB provides tools for monitoring and determining system health:"
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Using the embedded web UI

@@ -7,7 +7,7 @@ lang: "ru"
 source_path: "ru/core/analyst/olap_quickstart.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/ru/core/analyst/olap_quickstart.md"
 description: "Quickstart: Загрузка данных TPC-H из Object Storage и выполнение аналитического запроса."
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # ru/analyst/olap_quickstart

@@ -7,7 +7,7 @@ lang: "en"
 source_path: "en/core/reference/ydb-cli/sql.md"
 vcs_url: "https://github.com/ydb-platform/ydb/tree/main/ydb/docs/en/core/reference/ydb-cli/sql.md"
 description: "You can use the ydb sql subcommand to execute an SQL query. The query can be of any type (DDL, DML, etc.) and can consist of several subqueries. The ydb sql sub"
-revision: "7d1701f96bbb0c1cd62ff0890f67a9b86caf1d5e"
+revision: "5783baf4a26ccb796054e5b5f3109cb157158102"
 ---
 
 # Query execution
